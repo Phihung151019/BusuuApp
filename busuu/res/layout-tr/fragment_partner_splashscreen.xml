@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:background="?colorSurfaceBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/partner_fullscreen_image" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/parter_logo_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.busuu.android.base_ui.view.fixed.FixImageView android:layout_gravity="center" android:id="@id/partner_logo_image" android:layout_width="180.0dp" android:layout_height="180.0dp" />
+        <ImageView android:layout_gravity="center" android:layout_width="152.0dp" android:layout_height="152.0dp" android:layout_marginTop="60.0dp" app:srcCompat="@drawable/ic_busuu_logo" />
+        <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" android:text="@string/powered_by" />
+    </LinearLayout>
+</FrameLayout>

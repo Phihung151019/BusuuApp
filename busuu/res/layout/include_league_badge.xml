@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/league_button_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_leaderboard_badge_empty" />
+        <View android:layout_gravity="end" android:id="@id/notification_badge" android:background="@drawable/background_circle_red" android:visibility="gone" android:layout_width="@dimen/icon_size_8" android:layout_height="@dimen/icon_size_8" android:layout_marginStart="@dimen/badge_icon_padding" android:layout_marginEnd="@dimen/generic_4" />
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

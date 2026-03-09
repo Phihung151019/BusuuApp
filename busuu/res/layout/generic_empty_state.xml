@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/genericEmptyStateImage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/textSizeXXLarge" android:textColor="@color/text_title_black" android:gravity="center_horizontal" android:id="@id/genericEmptyStateTitleLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginStart="@dimen/generic_spacing_32" android:layout_marginEnd="@dimen/generic_spacing_32" style="@style/TextWeight.Bold" />
+    <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/busuu_grey" android:gravity="center_horizontal" android:id="@id/genericEmptyStateSubTitleLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginStart="@dimen/generic_spacing_huge" android:layout_marginEnd="@dimen/generic_spacing_huge" style="@style/TextWeight.RobotoMedium" />
+    <Button android:textSize="@dimen/textSizeMediumLarge" android:id="@id/genericEmptyStateButton" android:layout_width="164.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_large" android:textAllCaps="false" style="@style/BlueButton" />
+    <FrameLayout android:id="@id/genericEmptyStateCustomViewParent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" />
+</LinearLayout>

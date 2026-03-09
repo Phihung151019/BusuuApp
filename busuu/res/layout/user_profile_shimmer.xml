@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="?colorSurfaceElevated" android:padding="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/top_part" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/user_profile_avatar" android:background="@drawable/background_circle_grey_lite" android:padding="1.0dp" android:layout_width="@dimen/user_profile_image_diameter" android:layout_height="@dimen/user_profile_image_diameter" android:layout_marginTop="@dimen/generic_spacing_small" android:src="@drawable/user_avatar_placeholder" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_content_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_spacing_medium_large" app:layout_constraintLeft_toRightOf="@id/user_profile_avatar" app:layout_constraintTop_toTopOf="parent">
+                <View android:background="@color/busuu_grey_lite" android:layout_width="140.0dp" android:layout_height="20.0dp" android:layout_marginTop="@dimen/generic_spacing_tiny" />
+                <View android:background="@color/busuu_grey_lite" android:layout_width="92.0dp" android:layout_height="12.0dp" android:layout_marginTop="30.0dp" />
+                <View android:background="@color/busuu_grey_lite" android:layout_width="92.0dp" android:layout_height="18.0dp" android:layout_marginTop="58.0dp" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_content_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_part">
+            <View android:background="@color/busuu_grey_lite" android:layout_width="72.0dp" android:layout_height="14.0dp" android:layout_marginTop="10.0dp" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dp">
+                <View android:background="@color/busuu_grey_lite" android:layout_width="140.0dp" android:layout_height="16.0dp" />
+                <View android:background="@color/busuu_grey_lite" android:layout_width="92.0dp" android:layout_height="16.0dp" android:layout_marginStart="@dimen/generic_spacing_small_medium" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48.0dp">
+        <TextView android:textSize="15.0sp" android:textColor="@color/busuu_grey_lite" android:gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/progress" android:layout_weight="0.5" android:alpha="0.0" android:textAllCaps="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/busuu_grey_lite" android:gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/community_title_exercises" android:layout_weight="0.5" android:alpha="0.0" android:textAllCaps="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/busuu_grey_lite" android:gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/community_title_exercises_corrections" android:layout_weight="0.5" android:alpha="0.0" android:textAllCaps="true" />
+    </LinearLayout>
+    <LinearLayout android:background="?colorSurfaceBackground" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+</LinearLayout>

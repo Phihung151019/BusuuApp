@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_ignore" android:title="@string/ignore" tools:showAsAction="always" />
+    <item android:id="@id/action_accept" android:title="@string/accept" tools:showAsAction="always" />
+</menu>

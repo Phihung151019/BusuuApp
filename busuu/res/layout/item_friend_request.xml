@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/avatar" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginEnd="16.0dp" />
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/userName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/generic_spacing_medium" style="@style/FriendName" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center" android:id="@id/friendRequestStatus" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/accept" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tick_grey_circle" />
+                <ImageView android:id="@id/accepted" android:visibility="visible" android:layout_width="@dimen/icon_size_32" android:layout_height="@dimen/icon_size_32" android:src="@drawable/ic_tick_blue_circle" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_spacing_medium_large">
+                <ImageView android:id="@id/ignore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cross_grey_circle" />
+                <ImageView android:id="@id/ignored" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cross_black_circle" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/dividerView" android:background="@color/black_15_alpha" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="72.0dp" />
+</LinearLayout>

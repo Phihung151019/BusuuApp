@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/busuu_blue" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/bootstrap_circular_loading_view" layout="@layout/include_fullscreen_white_progressbar" />
+    <ImageView android:orientation="vertical" android:id="@id/background_gradiant" android:background="@drawable/gradient_blue_lite_to_premium_2" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+    <ImageView android:layout_gravity="center" android:id="@id/splash_placeholder_logo" android:layout_width="@dimen/splash_placeholder_size" android:layout_height="@dimen/splash_placeholder_size" android:layout_marginBottom="@dimen/splash_placeholder_bottom_padding" android:src="@drawable/splash_animation_start_frame" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include layout="@layout/include_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

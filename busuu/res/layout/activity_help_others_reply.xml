@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/background_white_top_rounded_rectangle" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/background_white_rounded_top_rectangle" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/generic_elevation_small" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ToolbarStyle" app:titleTextColor="@color/text_title_dark" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/include_progressbar" />
+            <EditText android:textSize="@dimen/textSize18" android:textColor="@color/text_title_dark" android:textColorHint="@color/busuu_grey_silver" android:gravity="left" android:id="@id/reply" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/generic_spacing_medium_large">
+                <requestFocus />
+            </EditText>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="90.0dp">
+        <FrameLayout android:id="@id/swipe_to_cancel_layout" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:layout_gravity="center" android:id="@id/recording_progress" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progress="10" android:progressDrawable="@drawable/progress_bar_blue_xlite" style="?android:progressBarStyleHorizontal" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/busuu_blue" android:layout_gravity="center" android:id="@id/swipe_to_cancel_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/swipe_to_cancel" />
+        </FrameLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="right|center" android:id="@id/record_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_medium_large" android:src="@drawable/microphone" app:backgroundTint="@color/busuu_blue" app:fabSize="normal" />
+    </FrameLayout>
+</FrameLayout>

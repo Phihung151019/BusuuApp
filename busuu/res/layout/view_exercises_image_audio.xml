@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/generic_spacing_small_medium" app:cardElevation="0.0dp" app:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/image" android:layout_width="match_parent" android:layout_height="@dimen/generic_spacing_200" android:scaleType="centerCrop" android:adjustViewBounds="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.busuu.android.exercises.view.ExercisesAudioPlayerView android:id="@id/player" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/image" />
+        <View android:id="@id/border" android:background="@drawable/background_transparent_rectangle_stroke_blackalpha15_rounded_8dp" android:visibility="gone" android:layout_width="@dimen/match_constraint" android:layout_height="@dimen/match_constraint" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

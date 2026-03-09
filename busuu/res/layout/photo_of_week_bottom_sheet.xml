@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextWeight.RobotoMedium" android:textSize="@dimen/textSizeXXLarge" android:textStyle="bold" android:textColor="@color/busuu_dark_grey_night_mode_compat" android:padding="@dimen/generic_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/choose_pic_talk_about" style="@style/TextWeight.Regular" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/photo_of_week_recycler" android:padding="@dimen/generic_8" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

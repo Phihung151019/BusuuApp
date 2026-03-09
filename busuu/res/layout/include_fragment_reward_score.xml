@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/generic_spacing_xxxlarge" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/match_constraint_max_width" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/continue_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon_background" android:background="@drawable/background_circle_white" android:layout_width="@dimen/icon_size_112" android:layout_height="@dimen/icon_size_112" />
+        <ImageView android:layout_gravity="center" android:id="@id/activity_icon" android:padding="@dimen/generic_spacing_small" android:layout_width="@dimen/icon_size_60" android:layout_height="@dimen/icon_size_60" android:src="@drawable/ic_activity_discover" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/textSizeXXXLarge" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_20" style="@style/TextWeight.RobotoMedium" />
+    <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" android:alpha="0.75" style="@style/TextWeight.Regular" />
+</LinearLayout>

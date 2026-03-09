@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="generic_12">6.0dp</dimen>
+    <dimen name="generic_16">8.0dp</dimen>
+    <dimen name="generic_24">12.0dp</dimen>
+    <dimen name="generic_4">2.0dp</dimen>
+    <dimen name="media_button_size">72.0dp</dimen>
+    <dimen name="media_button_size_half">36.0dp</dimen>
+    <dimen name="menu_width">320.0dp</dimen>
+</resources>

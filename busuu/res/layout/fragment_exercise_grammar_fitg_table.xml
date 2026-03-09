@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/progress_switcher" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/instructions" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ExerciseInstruction" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/fillInTheGapsTable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_large" android:layout_marginStart="@dimen/generic_spacing_large" android:layout_marginEnd="@dimen/generic_spacing_large" />
+                <com.google.android.flexbox.FlexboxLayout android:gravity="center" android:id="@id/fillInTheGapsChoiceLayout" android:paddingBottom="@dimen/generic_spacing_small" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_xlarge" app:alignContent="center" app:alignItems="stretch" app:dividerDrawable="@drawable/divider_missing_letters_spacing" app:elementSpacing="@dimen/generic_spacing_small_medium" app:flexWrap="wrap" app:justifyContent="center" app:lineSpacing="@dimen/generic_spacing_medium" app:showDivider="middle" app:showDividerVertical="middle" />
+            </LinearLayout>
+            <include layout="@layout/include_exercise_continue_button" />
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+</ViewSwitcher>

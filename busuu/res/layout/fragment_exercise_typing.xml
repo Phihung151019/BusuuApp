@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/progress_switcher" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <ScrollView android:id="@id/typing_exercise_scrollview" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/exercise_main_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textStyle="bold" android:id="@id/instructions" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ExerciseInstruction" />
+                    <com.busuu.android.exercises.view.ExerciseImageAudioView android:layout_gravity="center|bottom" android:id="@id/image_player" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/generic_spacing_medium_large" />
+                    <FrameLayout android:layout_gravity="start" android:id="@id/container_phrase" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/generic_spacing_medium_large">
+                        <include layout="@layout/include_typing_phrase_to_fill" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_gravity="start" android:id="@id/container_exercises" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/generic_spacing_medium_large">
+                        <include layout="@layout/include_missing_letters_area" />
+                    </FrameLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <include layout="@layout/include_exercise_continue_button" />
+        <include layout="@layout/include_feedback_component" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+</ViewSwitcher>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/snackBarIconAndTextContainer" android:layout_width="wrap_content" android:layout_height="80.0dp" android:minHeight="80.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/snackbarUserIconView" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/lightbult" android:layout_marginStart="@dimen/generic_spacing_large" />
+    <TextView android:textAppearance="@style/TextWeight.Light" android:textSize="@dimen/snackbar_text_size" android:textColor="@color/text_body_text" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/snackbarNotificationText" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="2" android:layout_marginStart="@dimen/generic_spacing_medium" android:layout_marginEnd="@dimen/generic_spacing_large" />
+</LinearLayout>

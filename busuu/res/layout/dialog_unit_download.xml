@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorSurfaceElevated" android:padding="@dimen/generic_spacing_small" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextWeight.Light" android:textSize="@dimen/textSizeLarge" android:textColor="@color/text_blue" android:id="@id/downloadMessageView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressBarIndeterminate" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+        <ProgressBar android:id="@id/progressBarDeterminate" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="3.0dp" android:layout_centerInParent="true" style="@style/BusuuProgressBar" />
+    </RelativeLayout>
+    <Button android:id="@id/downloadCancelBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:text="@string/cancel" style="@style/ButtonPrimary" />
+</LinearLayout>

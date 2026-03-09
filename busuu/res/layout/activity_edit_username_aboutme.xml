@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorSurfaceBackground" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_toolbar_with_done_button" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center|top" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_medium_large" />
+        <EditText android:textColor="?android:textColorSecondary" android:gravity="top" android:id="@id/text_field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_medium_large" android:hint="@string/edit_txt_hint_name" android:inputType="textMultiLine" android:imeOptions="actionSend" android:importantForAutofill="no">
+            <requestFocus />
+        </EditText>
+    </FrameLayout>
+</LinearLayout>

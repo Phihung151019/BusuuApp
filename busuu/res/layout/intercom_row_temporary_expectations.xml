@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/intercom_accessibility_grey" android:id="@id/intercom_temporary_message" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/intercom_temporary_message_image" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/intercom_temporary_message_image" android:background="@drawable/intercom_warning_round" android:layout_width="32.0dp" android:layout_height="32.0dp" android:contentDescription="Warning icon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

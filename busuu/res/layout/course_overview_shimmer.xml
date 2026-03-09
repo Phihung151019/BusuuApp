@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/background_circle_grey_lite" android:layout_width="@dimen/lesson_image_diameter" android:layout_height="@dimen/lesson_image_diameter" android:layout_marginTop="24.0dp" android:layout_marginStart="@dimen/generic_spacing_medium_large" />
+    <View android:background="@color/busuu_grey_lite" android:layout_width="100.0dp" android:layout_height="16.0dp" android:layout_marginTop="36.0dp" android:layout_marginStart="108.0dp" />
+    <View android:background="@color/busuu_grey_lite" android:layout_width="50.0dp" android:layout_height="8.0dp" android:layout_marginTop="65.0dp" android:layout_marginStart="108.0dp" />
+    <View android:background="@color/busuu_grey_lite" android:layout_width="match_parent" android:layout_height="2.0dp" android:layout_marginTop="100.0dp" />
+</com.facebook.shimmer.ShimmerFrameLayout>

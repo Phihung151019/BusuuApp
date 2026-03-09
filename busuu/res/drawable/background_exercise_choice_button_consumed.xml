@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_active="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/exercise_button_consumed" />
+            <corners android:radius="@dimen/generic_spacing_small_medium" />
+            <stroke android:width="1.0dp" android:color="@color/busuu_grey_lite" />
+        </shape>
+    </item>
+</selector>

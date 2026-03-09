@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="328.0dp" android:width="328.0dp" android:viewportWidth="328.0" android:viewportHeight="328.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_background_light__0" android:pathData="M149,2H179L174,116H154L149,2Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__1" android:pathData="M149,2H179L174,116H154L149,2Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__2" android:pathData="M149,326H179L174,212H154L149,326Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__3" android:pathData="M326,179L326,149L212,154L212,174L326,179Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__4" android:pathData="M2,179L2,149L116,154L116,174L2,179Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__5" android:pathData="M289.158,60.055L267.945,38.842L190.87,122.988L205.012,137.13L289.158,60.055Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__6" android:pathData="M60.055,289.158L38.841,267.945L122.987,190.87L137.129,205.012L60.055,289.158Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__7" android:pathData="M267.943,289.159L289.157,267.945L205.011,190.871L190.869,205.013L267.943,289.159Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__8" android:pathData="M38.842,60.055L60.055,38.842L137.13,122.988L122.987,137.13L38.842,60.055Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__9" android:pathData="M267.943,289.159L289.157,267.945L205.011,190.871L190.869,205.013L267.943,289.159Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__10" android:pathData="M38.842,60.055L60.055,38.842L137.13,122.988L122.987,137.13L38.842,60.055Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__11" android:pathData="M211.23,8.314L239.013,19.632L191.371,123.321L172.849,115.775L211.23,8.314Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__12" android:pathData="M88.986,308.368L116.769,319.686L155.15,212.225L136.629,204.68L88.986,308.368Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__13" android:pathData="M308.367,239.013L319.686,211.231L212.225,172.849L204.679,191.371L308.367,239.013Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__14" android:pathData="M8.314,116.769L19.633,88.987L123.321,136.629L115.775,155.151L8.314,116.769Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__15" android:pathData="M319.127,114.959L307.485,87.31L204.359,136.157L212.12,154.59L319.127,114.959Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__16" android:pathData="M20.516,240.69L8.874,213.041L115.881,173.41L123.642,191.843L20.516,240.69Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__17" android:pathData="M213.039,319.126L240.688,307.484L191.841,204.358L173.409,212.119L213.039,319.126Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    <path android:fillColor="@drawable/$ic_background_light__18" android:pathData="M87.311,20.516L114.96,8.874L154.59,115.881L136.157,123.642L87.311,20.516Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+</vector>

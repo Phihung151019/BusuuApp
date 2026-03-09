@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/intercom_collection_row_min_height" android:text="@string/intercom_browse_all_help_topics" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" style="@style/Intercom_TextAppearance.ListPrimary"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/ic_merch_banner_white_shadow" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.card.MaterialCardView android:orientation="horizontal" android:id="@id/referral_banner_claim_free_trial_root_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_small_medium" app:cardBackgroundColor="?colorSurfaceElevated" app:cardCornerRadius="8.0dp" app:cardElevation="4.0dp" app:cardMaxElevation="4.0dp">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/background_rectangle_selectable" android:padding="@dimen/generic_spacing_small_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground">
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/referral_banner_claim_free_trial_icon" android:layout_width="@dimen/icon_size_48" android:layout_height="@dimen/icon_size_48" app:lottie_autoPlay="true" app:lottie_loop="false" />
+                <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_black" android:gravity="center_vertical" android:id="@id/referral_banner_claim_free_trial_title" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/user_has_treated_you_to_30_days_of_premium_plus" android:includeFontPadding="false" android:layout_marginStart="@dimen/generic_spacing_medium_large" android:layout_marginEnd="@dimen/generic_spacing_medium_large" style="@style/TextWeight.RobotoMedium" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </FrameLayout>
+</merge>

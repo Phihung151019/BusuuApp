@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:src="@drawable/ic_tick_blue_circle" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/time_estimation_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DisclaimerBullet" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:src="@drawable/ic_tick_blue_circle" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/take_test_later" style="@style/DisclaimerBullet" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:src="@drawable/ic_tick_blue_circle" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/make_sure_you_hear_audio" style="@style/DisclaimerBullet" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:src="@drawable/ic_tick_blue_circle" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/make_sure_you_have_internet" style="@style/DisclaimerBullet" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:theme="@style/ToolbarStyleBlue">
+        <com.busuu.android.exercises.view.ActivityProgressBar android:id="@id/exercise_progress_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:alpha="0.0" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+    </androidx.appcompat.widget.Toolbar>
+    <View android:layout_gravity="end" android:id="@id/tooltip_achor_view" android:layout_width="@dimen/list_item_separator_1dp" android:layout_height="@dimen/list_item_separator_1dp" />
+    <com.busuu.android.exercises.view.ShowRecapButton android:layout_gravity="start" android:id="@id/recap_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_spacing_medium_large" android:layout_marginStart="@dimen/generic_spacing_medium_large" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/fragment_content_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:id="@id/loading_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:layout_gravity="center" android:id="@id/default_exercise_loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/animated_lesson_loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lesson_loading_animation" android:layout_width="211.0dp" android:layout_height="168.0dp" app:lottie_autoPlay="true" app:lottie_fileName="lottie/lpq_food_cooking_animation.json" />
+                <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="50.0dp" android:text="@string/timeline_popup_loading" android:fontFamily="@font/bw_nista_grotesk_bold" android:textAlignment="center" android:textFontWeight="700" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

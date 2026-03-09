@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@id/instruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/generic_spacing_large" android:paddingEnd="@dimen/generic_spacing_large" style="@style/InstructionComponent" />
+        <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:paddingStart="@dimen/generic_spacing_large" android:paddingEnd="@dimen/generic_spacing_large">
+            <androidx.constraintlayout.widget.ConstraintLayout android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.busuu.android.exercises.view.ExercisesVideoPlayerView android:id="@id/video_player" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="spread" />
+                <Space android:id="@id/top_spacing" android:layout_width="match_parent" android:layout_height="@dimen/generic_spacing_small_medium" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/video_player" />
+                <TextView android:id="@id/content_provider" android:layout_width="@dimen/match_constraint" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_spacing" app:layout_constraintWidth_default="spread" style="@style/ContentProvideComponent" />
+                <TextView android:id="@id/title" android:layout_width="@dimen/match_constraint" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/content_provider" app:layout_constraintWidth_default="spread" style="@style/EntityTextComponent" />
+                <TextView android:id="@id/content" android:paddingBottom="@dimen/generic_spacing_xxxxlarge" android:layout_width="@dimen/match_constraint" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" app:layout_constraintWidth_default="spread" style="@style/EntityTranslationComponent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </LinearLayout>
+    <include layout="@layout/include_exercise_continue_button" />
+</FrameLayout>

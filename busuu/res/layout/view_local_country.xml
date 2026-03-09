@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:id="@id/localLanguageTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_24" android:drawablePadding="@dimen/generic_16" android:layout_marginHorizontal="@dimen/generic_spacing_30" style="@style/TextWeight.Regular" />
+</FrameLayout>

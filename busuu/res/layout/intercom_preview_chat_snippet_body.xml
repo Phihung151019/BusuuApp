@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0sp" android:textColor="@color/intercom_accessibility_grey" android:ellipsize="end" android:id="@id/chathead_text_body" android:paddingTop="4.0dp" android:paddingBottom="16.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="2.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

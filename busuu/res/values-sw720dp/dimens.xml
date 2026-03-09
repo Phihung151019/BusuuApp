@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grammar_mcq_image_height">480.0dp</dimen>
+    <dimen name="preferences_padding">120.0dp</dimen>
+    <dimen name="speaking_practice_padding">36.0dp</dimen>
+    <dimen name="unit_detail_banner_width">354.0dp</dimen>
+</resources>

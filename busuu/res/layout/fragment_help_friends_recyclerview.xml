@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="?colorSurfaceBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.busuu.android.base_ui.view.BusuuSwipeRefreshLayout android:id="@id/swiperefresh" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/exercises_list" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <include android:layout_gravity="center" android:id="@id/view_no_friends" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/view_friends_tab_no_friends" />
+                <include android:layout_gravity="center" android:id="@id/view_no_exercises" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/view_friends_tab_no_exercise" />
+            </FrameLayout>
+        </com.busuu.android.base_ui.view.BusuuSwipeRefreshLayout>
+        <include android:visibility="gone" layout="@layout/include_offline_error" />
+    </FrameLayout>
+</LinearLayout>

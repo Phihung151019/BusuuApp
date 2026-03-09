@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/generic_spacing_tiny"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/flag" android:layout_width="@dimen/icon_size_12" android:layout_height="wrap_content" android:src="@drawable/flag_spanish" android:layout_marginStart="@dimen/generic_spacing_tiny" android:layout_marginEnd="@dimen/generic_spacing_tiny" />
+    <TextView android:textSize="@dimen/textSizeSmall" android:textColor="@color/busuu_blueish_grey" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</merge>

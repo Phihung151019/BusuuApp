@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/background_circle_grey_xlite_stroke_grey_lite" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/complete" android:background="@drawable/background_white_blackalpha10_stroke" android:padding="@dimen/generic_spacing_large" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:srcCompat="@drawable/ic_new_tick_blue" />
+    <ProgressBar android:id="@id/progress" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/CircularProgressBlue" />
+</merge>

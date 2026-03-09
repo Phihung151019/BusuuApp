@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/media_button_background" android:background="@drawable/background_oval_blue" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/generic_spacing_small_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="100.0">
+        <FrameLayout android:layout_gravity="center" android:id="@id/stop_view" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="35.0">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" app:srcCompat="@drawable/ic_pause_icon" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="100.0">
+        <FrameLayout android:layout_gravity="center" android:id="@id/play_view" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="35.0">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" app:srcCompat="@drawable/ic_play_icon" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

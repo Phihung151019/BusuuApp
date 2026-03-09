@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:layout_gravity="top" android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" android:elevation="0.0dp" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="0.0dp">
+            <EditText android:textSize="@dimen/textSizeMedium" android:textColor="@color/text_body_text" android:textColorHint="@color/busuu_grey" android:id="@id/search_bar" android:background="@drawable/background_rectangle_white_rounded_2dp" android:padding="13.0dp" android:layout_width="match_parent" android:layout_height="44.0dp" android:layout_margin="8.0dp" android:hint="@string/menu_search_vocab" android:maxLines="1" android:lines="1" android:drawablePadding="5.0dp" android:inputType="textShortMessage" android:imeOptions="actionDone" android:imeActionLabel="@string/done" android:drawableStart="@drawable/ic_search_grey" android:paddingEnd="44.0dp" android:elevation="@dimen/generic_elevation_tiny" />
+            <ImageButton android:layout_gravity="end|center" android:id="@id/search_bar_clear_button" android:background="@android:color/transparent" android:padding="10.0dp" android:layout_width="44.0dp" android:layout_height="44.0dp" android:foreground="?selectableItemBackground" android:src="@drawable/ic_clear_grey" android:scaleType="centerInside" android:layout_marginEnd="8.0dp" android:elevation="@dimen/generic_elevation_small" />
+        </FrameLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/friends_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <include layout="@layout/include_progressbar" />
+        </FrameLayout>
+        <com.busuu.android.social.friends.view.SelectedFriendsView android:id="@id/selected_friends_view" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_weight="0.0" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

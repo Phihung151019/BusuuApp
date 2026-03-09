@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/tablesInListRootView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/tablesList" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <include layout="@layout/include_exercise_continue_button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tablesInSequenceRootView" android:background="?colorSurfaceBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TextView android:gravity="center" android:id="@id/instructions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small" style="@style/ExerciseInstruction" />
+        <com.busuu.android.base_ui.view.ScaleTransformationViewPager android:id="@id/tablePager" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <com.busuu.android.exercises.gaps_table.PassivePageIndicator android:layout_gravity="center_horizontal" android:id="@id/pageIndicator" android:paddingTop="@dimen/generic_spacing_tiny" android:paddingBottom="@dimen/generic_spacing_tiny" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.busuu.android.base_ui.view.SingleTouchFlowLayout android:id="@id/choicesLayout" android:background="@color/busuu_blue" android:paddingLeft="4.0dp" android:paddingRight="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="4.0dp" />
+    </LinearLayout>
+</FrameLayout>

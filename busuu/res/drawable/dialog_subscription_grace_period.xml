@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_card_blue" android:left="14.0dp" android:top="20.0dp" android:right="14.0dp" android:bottom="20.0dp" />
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/busuu_blue_alpha30" />
+        </shape>
+    </item>
+</layer-list>

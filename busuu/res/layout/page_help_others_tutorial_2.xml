@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_others_onboarding_background_3" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/conversation_1" />
+            <ImageView android:layout_gravity="center|bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:src="@drawable/conversation_2" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.busuu.android.base_ui.view.fixed.FixTextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/get_corrected_by_native_speakers" />
+</LinearLayout>

@@ -1,0 +1,141 @@
+.class public final Lhsc$r;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lhsc;->w(Ljava/lang/String;Lkotlin/jvm/functions/Function3;IZLjava/lang/Boolean;Ljava/lang/Boolean;JJJJLandroidx/compose/runtime/Composer;II)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Loe2;",
+        "Lqrg;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lpe2;
+
+
+# direct methods
+.method public constructor <init>(Lpe2;)V
+    .locals 0
+
+    iput-object p1, p0, Lhsc$r;->a:Lpe2;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Loe2;)V
+    .locals 10
+
+    const-string v0, "$this$constrainAs"
+
+    invoke-static {p1, v0}, Lve7;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Loe2;->h()Lnu6;
+
+    move-result-object v1
+
+    iget-object v0, p0, Lhsc$r;->a:Lpe2;
+
+    invoke-virtual {v0}, Lpe2;->e()Lue2$b;
+
+    move-result-object v2
+
+    const/4 v0, 0x2
+
+    int-to-float v3, v0
+
+    invoke-static {v3}, Lu14;->g(F)F
+
+    move-result v3
+
+    const/4 v5, 0x4
+
+    const/4 v6, 0x0
+
+    const/4 v4, 0x0
+
+    invoke-static/range {v1 .. v6}, Lnu6;->a(Lnu6;Lue2$b;FFILjava/lang/Object;)V
+
+    iget-object v1, p0, Lhsc$r;->a:Lpe2;
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    invoke-static {p1, v1, v2, v0, v3}, Loe2;->b(Loe2;Lpe2;FILjava/lang/Object;)V
+
+    invoke-virtual {p1}, Loe2;->c()Lnu6;
+
+    move-result-object v4
+
+    invoke-virtual {p1}, Loe2;->f()Lpe2;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lpe2;->b()Lue2$b;
+
+    move-result-object v5
+
+    const/4 v8, 0x6
+
+    const/4 v9, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    invoke-static/range {v4 .. v9}, Lnu6;->a(Lnu6;Lue2$b;FFILjava/lang/Object;)V
+
+    sget-object v0, Lkv3;->a:Lkv3$b;
+
+    invoke-virtual {v0}, Lkv3$b;->a()Lkv3$a;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Loe2;->k(Lkv3;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Loe2;
+
+    invoke-virtual {p0, p1}, Lhsc$r;->a(Loe2;)V
+
+    sget-object p1, Lqrg;->a:Lqrg;
+
+    return-object p1
+.end method

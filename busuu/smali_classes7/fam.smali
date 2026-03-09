@@ -1,0 +1,62 @@
+.class public final Lfam;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lxxp;
+
+
+# instance fields
+.field public final a:Lnyp;
+
+
+# direct methods
+.method public constructor <init>(Lnyp;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lfam;->a:Lnyp;
+
+    return-void
+.end method
+
+.method public static b(Ljava/util/Set;)Leam;
+    .locals 1
+
+    new-instance v0, Leam;
+
+    invoke-direct {v0, p0}, Leam;-><init>(Ljava/util/Set;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final a()Leam;
+    .locals 2
+
+    iget-object v0, p0, Lfam;->a:Lnyp;
+
+    check-cast v0, Llyp;
+
+    invoke-virtual {v0}, Llyp;->b()Ljava/util/Set;
+
+    move-result-object v0
+
+    new-instance v1, Leam;
+
+    invoke-direct {v1, v0}, Leam;-><init>(Ljava/util/Set;)V
+
+    return-object v1
+.end method
+
+.method public final bridge synthetic zzb()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Lfam;->a()Leam;
+
+    move-result-object v0
+
+    return-object v0
+.end method

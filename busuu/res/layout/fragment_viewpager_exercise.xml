@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/instruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_spacing_large" android:layout_marginEnd="@dimen/generic_spacing_large" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/InstructionComponent" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/match_constraint" android:layout_marginTop="@dimen/generic_spacing_medium_large" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/instruction">
+        <androidx.viewpager.widget.ViewPager android:id="@id/fragment_viewpager_exercise" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include layout="@layout/include_exercise_continue_button" />
+    </FrameLayout>
+    <com.busuu.android.exercises.view.SwipeMeView android:id="@id/swipe_me_view" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

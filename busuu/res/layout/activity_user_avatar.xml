@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/black_100_alpha" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/avatar_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_centerInParent="true" android:transitionName="user_avatar" />
+    <include layout="@layout/include_progressbar" />
+    <ImageButton android:id="@id/close_button" android:background="@android:color/transparent" android:layout_width="48.0dp" android:layout_height="48.0dp" android:foreground="?selectableItemBackgroundBorderless" android:src="@drawable/x" android:layout_alignParentRight="true" />
+</RelativeLayout>

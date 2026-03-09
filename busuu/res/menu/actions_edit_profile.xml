@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:busuu="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_invite_add_friends" android:id="@id/action_referral_invite" android:title="@string/invite_friends" busuu:showAsAction="always" />
+    <item android:icon="@drawable/ic_settings" android:id="@id/action_edit_profile" android:title="@string/edit" busuu:showAsAction="always" />
+</menu>

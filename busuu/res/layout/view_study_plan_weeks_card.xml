@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingBottom="@dimen/generic_spacing_32" android:layout_width="match_parent" android:layout_height="wrap_content" android:alpha="1.0">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="match_parent" android:layout_height="@dimen/generic_spacing_50" android:alpha="0.0" app:tabGravity="fill" app:tabIndicatorColor="@color/busuu_blue" app:tabMaxWidth="0.0dp" app:tabMode="fixed" app:tabSelectedTextColor="@color/busuu_blue" />
+        <View android:id="@id/separator" android:background="@color/busuu_grey_lite" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <com.busuu.android.base_ui.view.ViewPagerWrapHeight android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="320.0dp" android:alpha="0.0" />
+        <Button android:id="@id/next_exercise" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_large" android:layout_marginBottom="0.0dp" android:text="@string/next_exercise" style="@style/BlueButton" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/loading_view" android:layout_width="@dimen/match_constraint" android:layout_height="@dimen/match_constraint" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_default="wrap" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="wrap" style="@style/BusuuTheme" />
+</merge>

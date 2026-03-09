@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$ic_star_explosion_anim__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="full_circle" android:animation="@drawable/$ic_star_explosion_anim__1" />
+    <target android:name="border_circle" android:animation="@drawable/$ic_star_explosion_anim__2" />
+    <target android:name="star" android:animation="@drawable/$ic_star_explosion_anim__3" />
+    <target android:name="line_top" android:animation="@drawable/$ic_star_explosion_anim__4" />
+    <target android:name="line_top_right" android:animation="@drawable/$ic_star_explosion_anim__5" />
+    <target android:name="line_bottom_right" android:animation="@drawable/$ic_star_explosion_anim__6" />
+    <target android:name="line_bottom_left" android:animation="@drawable/$ic_star_explosion_anim__7" />
+    <target android:name="line_top_left" android:animation="@drawable/$ic_star_explosion_anim__8" />
+    <target android:name="star_white" android:animation="@drawable/$ic_star_explosion_anim__9" />
+</animated-vector>

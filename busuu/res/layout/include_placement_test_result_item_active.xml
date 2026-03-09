@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="28.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textSizeLarge" android:textColor="@color/white" android:id="@id/level_active_identifier" android:background="@drawable/background_circle_blue_with_shadow" android:layout_width="@dimen/generic_spacing_xxxlarge" android:layout_height="@dimen/generic_spacing_xxxlarge" android:layout_margin="20.0dp" style="@style/PlacementResultItem" />
+    <TextView android:textSize="@dimen/textSizeSmall" android:textColor="@color/text_body_text" android:layout_gravity="center" android:id="@id/level_active_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+</LinearLayout>

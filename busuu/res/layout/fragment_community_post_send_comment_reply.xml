@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/generic_elevation_small" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_close_gray">
+            <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_grey_heading" android:gravity="center_vertical" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_20" />
+        </androidx.appcompat.widget.Toolbar>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/text_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/note_text_input_layout_margin_top" android:layout_marginHorizontal="@dimen/generic_16" app:hintTextColor="@color/text_placeholder" app:layout_constraintTop_toBottomOf="@id/toolbar">
+            <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_dark_gray" android:gravity="top" android:id="@id/text_input" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/generic_16" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <View android:id="@id/separator" android:background="@color/busuu_grey_xlite3" android:layout_width="match_parent" android:layout_height="@dimen/generic_1" android:layout_marginTop="@dimen/generic_24" app:layout_constraintBottom_toTopOf="@id/bottom_wrapper" />
+        <FrameLayout android:id="@id/bottom_wrapper" android:background="@color/white_background" android:layout_width="match_parent" android:layout_height="@dimen/correction_bottom_banner" app:layout_constraintTop_toBottomOf="@id/text_input_layout">
+            <ImageView android:layout_gravity="end|center" android:id="@id/send_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_send" android:layout_marginEnd="@dimen/generic_16" app:layout_constraintBottom_toBottomOf="@id/character_count" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ProgressBarBlue" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

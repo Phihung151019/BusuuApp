@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_8">
+        <com.busuu.android.base_ui.view.circlerect.ForegroundCircleRectView android:id="@id/photo_of_week_image" android:layout_width="match_parent" android:layout_height="@dimen/photo_of_the_week_item_height" android:scaleType="centerCrop" android:adjustViewBounds="true" android:transitionName="transition_background" app:circleRadius="@dimen/radius_5" app:cornerRadius="@dimen/radius_5" />
+        <View android:id="@id/completed_background" android:background="@drawable/progress_interior_white_opacity" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/photo_of_the_week_item_height" />
+    </FrameLayout>
+    <ImageView android:id="@id/completed_tick" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tick_blue_circle" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

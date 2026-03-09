@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/daily_goal_toolbar_progress_icon" android:paddingTop="@dimen/generic_2" android:layout_width="@dimen/star_badge_size" android:layout_height="@dimen/star_badge_size" android:src="@drawable/ic_goal_stars" android:layout_marginEnd="@dimen/learn_toolbar_end_padding" />
+    <TextView android:textSize="@dimen/textSize18" android:textColor="@color/accent_standard" android:gravity="end" android:id="@id/daily_goal_points_progress" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/learn_toolbar_icons_top_margin" />
+    <TextView android:textSize="@dimen/textSize18" android:textColor="@color/accent_standard" android:id="@id/daily_goal_points_total" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/learn_toolbar_icons_top_margin" android:minWidth="@dimen/icon_size_32" />
+</LinearLayout>

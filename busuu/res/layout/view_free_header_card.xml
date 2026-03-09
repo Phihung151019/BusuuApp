@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?colorSurfaceElevated" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/busuu_purple_lit" android:paddingBottom="64.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="144.0dp" android:layout_height="144.0dp" android:layout_marginTop="48.0dp" android:alpha="0.0" android:layout_marginStart="@dimen/generic_spacing_large" app:srcCompat="@drawable/ic_premium_referral_header" />
+        <FrameLayout android:id="@id/subtitle_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:alpha="0.0">
+            <TextView android:textAppearance="@style/TextWeight.RobotoMedium" android:textSize="@dimen/textSizeMedium" android:textColor="@color/white" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:text="@string/treat_your_friends_and_learn_together" android:alpha="0.8" android:layout_marginStart="@dimen/generic_spacing_large" />
+        </FrameLayout>
+        <TextView android:textAppearance="@style/TextWeight.Bold" android:textSize="@dimen/textSizeXXLarge" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_tiny" android:text="@string/give_a_30_day_guest_pass_to_5_friends" android:alpha="0.0" android:layout_marginStart="@dimen/generic_spacing_large" android:layout_marginEnd="@dimen/generic_spacing_xxlarge" />
+    </LinearLayout>
+</FrameLayout>

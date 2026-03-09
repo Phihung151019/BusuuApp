@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_medium_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="start" android:id="@id/dialog_subject" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dp" android:lineSpacingExtra="@dimen/generic_2" style="@style/ExerciseInstruction" />
+    <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/busuu_dark_grey_night_mode_compat" android:layout_gravity="start" android:id="@id/dialog_subject_context" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/generic_6" />
+</LinearLayout>

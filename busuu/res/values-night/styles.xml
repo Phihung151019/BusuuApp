@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogButtonStyle" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/busuu_grey_xlite</item>
+    </style>
+    <style name="AlertDialogFragment" parent="@style/Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@color/busuu_grey_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@color/busuu_grey_xlite</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AlertDialogButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertDialogButtonStyle</item>
+        <item name="colorAccent">@color/busuu_blue</item>
+    </style>
+    <style name="Braze.Push.InlineImage.TextArea.Header.AppIcon" parent="@style/Braze.Push.InlineImage.TextArea.Header">
+        <item name="android:layout_width">18.0dp</item>
+        <item name="android:layout_height">18.0dp</item>
+        <item name="android:layout_marginRight">3.0dp</item>
+        <item name="android:tint">#777777</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <style name="BusuuBaseTheme" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="colorAccent">@color/busuu_blue_darker</item>
+        <item name="colorControlActivated">@color/busuu_blue</item>
+        <item name="colorControlNormal">@color/busuu_grey_silver</item>
+        <item name="colorPrimary">@color/busuu_blue</item>
+        <item name="colorPrimaryDark">@color/busuu_blue_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="BusuuPrimaryWhiteTheme" parent="@style/BusuuTheme">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="BusuuTheme" parent="@style/BusuuBaseTheme">
+        <item name="android:textAppearance">@style/TextAppearanceMedium</item>
+        <item name="android:textColorPrimary">@color/busuu_grey_xlite</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearanceLarge</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearanceMedium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearanceSmall</item>
+        <item name="android:buttonStyle">@style/Widget.Busuu.Button</item>
+        <item name="android:windowBackground">@color/busuu_app_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:autoCompleteTextViewStyle">@style/SearchViewCursorColor</item>
+        <item name="android:textColor">@color/busuu_grey_xlite</item>
+        <item name="android:textColorLink">@color/busuu_blue</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+        <item name="actionModeBackground">@color/busuu_blue</item>
+        <item name="backgroundAlphaOverlay">@color/black_20_alpha</item>
+        <item name="colorSurfaceBackground">@color/busuu_black_dark</item>
+        <item name="colorSurfaceElevated">@color/busuu_black</item>
+        <item name="editTextStyle">@style/Widget.Busuu.EditText</item>
+        <item name="exerciseButtonsBackground">@color/busuu_grey_lite</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="BusuuTheme.ExerciseActivity" parent="@style/BusuuTheme">
+        <item name="android:windowBackground">@color/busuu_black_dark</item>
+    </style>
+    <style name="ShimmerContainerStyle">
+        <item name="android:background">@color/busuu_black_dark</item>
+    </style>
+    <style name="TabLayout" parent="@style/Widget.Design.TabLayout">
+        <item name="android:background">?colorSurfaceElevated</item>
+        <item name="tabBackground">?colorSurfaceElevated</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabIndicatorColor">@color/text_blue_dark</item>
+        <item name="tabIndicatorHeight">3.0dp</item>
+        <item name="tabMaxWidth">0.0dp</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabSelectedTextColor">@color/text_blue_dark</item>
+        <item name="tabTextColor">@color/text_placeholder</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.Material3.DayNight" parent="@style/Theme.Material3.Dark" />
+    <style name="Theme.Material3.DayNight.BottomSheetDialog" parent="@style/Theme.Material3.Dark.BottomSheetDialog" />
+    <style name="Theme.Material3.DayNight.Dialog" parent="@style/Theme.Material3.Dark.Dialog" />
+    <style name="Theme.Material3.DayNight.Dialog.Alert" parent="@style/Theme.Material3.Dark.Dialog.Alert" />
+    <style name="Theme.Material3.DayNight.Dialog.MinWidth" parent="@style/Theme.Material3.Dark.Dialog.MinWidth" />
+    <style name="Theme.Material3.DayNight.DialogWhenLarge" parent="@style/Theme.Material3.Dark.DialogWhenLarge" />
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="@style/Theme.Material3.Dark.NoActionBar" />
+    <style name="Theme.Material3.DynamicColors.DayNight" parent="@style/Theme.Material3.DynamicColors.Dark" />
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark" />
+    <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="@style/ThemeOverlay.Material3.DynamicColors.Dark" />
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="@style/Widget.MaterialComponents.ActionBar.Surface" />
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.AppBarLayout.Surface" />
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomAppBar" />
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomNavigationView" />
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="@style/Widget.MaterialComponents.NavigationRailView" />
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.TabLayout" />
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="@style/Widget.MaterialComponents.Toolbar.Surface" />
+</resources>

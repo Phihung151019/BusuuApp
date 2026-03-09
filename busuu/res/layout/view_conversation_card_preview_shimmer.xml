@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/view_conversation_shimmer_root_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_88" android:alpha="0.0" android:layout_marginStart="@dimen/generic_16" android:layout_marginEnd="@dimen/generic_16" app:cardCornerRadius="@dimen/generic_8" app:cardElevation="@dimen/generic_elevation_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/view_conversation_header_shimmer" />
+        <View android:background="@color/busuu_grey_xlite" android:layout_width="match_parent" android:layout_height="@dimen/generic_spacing_50" android:layout_marginStart="@dimen/generic_spacing_medium_large" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+        <TextView android:textSize="@dimen/textSizeMedium" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:gravity="start|center" android:background="@color/busuu_grey_xlite" android:padding="@dimen/generic_4" android:layout_width="match_parent" android:layout_height="@dimen/generic_spacing_28" android:layout_marginTop="@dimen/generic_10" android:layout_marginBottom="@dimen/generic_spacing_medium_large" android:textAllCaps="true" android:paddingStart="@dimen/generic_spacing_small" android:paddingEnd="@dimen/generic_spacing_small" android:layout_marginStart="@dimen/generic_spacing_medium_large" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

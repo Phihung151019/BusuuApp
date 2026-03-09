@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/icon" android:layout_width="@dimen/icon_size_84" android:layout_height="@dimen/icon_size_84" app:lottie_autoPlay="false" app:lottie_loop="false" />
+    <TextView android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:text="@string/keep_improving_your_german" android:paddingStart="@dimen/generic_spacing_xxxlarge" android:paddingEnd="@dimen/generic_spacing_xxxlarge" style="@style/Title" />
+    <TextView android:textSize="@dimen/textSizeMediumLarge" android:id="@id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" android:text="@string/unlimited_access_smart_review" android:textAlignment="center" android:paddingStart="@dimen/generic_spacing_large" android:paddingEnd="@dimen/generic_spacing_large" style="@style/TextWeight.Regular" />
+    <Button android:id="@id/go_premium" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_xxlarge" android:text="@string/go_premium" style="@style/GoldButton" />
+    <Button android:textAppearance="@style/TextWeight.RobotoMedium" android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/busuu_grey" android:id="@id/not_now" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:text="@string/cta_not_now" style="@style/SelectableButton" />
+</LinearLayout>

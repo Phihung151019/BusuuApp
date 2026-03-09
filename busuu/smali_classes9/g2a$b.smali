@@ -1,0 +1,110 @@
+.class public final Lg2a$b;
+.super Lokhttp3/o;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lg2a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field public final a:Lokhttp3/o;
+
+.field public final b:Lokio/BufferedSource;
+
+.field public c:Ljava/io/IOException;
+
+
+# direct methods
+.method public constructor <init>(Lokhttp3/o;)V
+    .locals 1
+
+    invoke-direct {p0}, Lokhttp3/o;-><init>()V
+
+    iput-object p1, p0, Lg2a$b;->a:Lokhttp3/o;
+
+    new-instance v0, Lg2a$b$a;
+
+    invoke-virtual {p1}, Lokhttp3/o;->source()Lokio/BufferedSource;
+
+    move-result-object p1
+
+    invoke-direct {v0, p0, p1}, Lg2a$b$a;-><init>(Lg2a$b;Lxee;)V
+
+    invoke-static {v0}, Lp2a;->d(Lxee;)Lokio/BufferedSource;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lg2a$b;->b:Lokio/BufferedSource;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    iget-object v0, p0, Lg2a$b;->c:Ljava/io/IOException;
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    :cond_0
+    throw v0
+.end method
+
+.method public close()V
+    .locals 1
+
+    iget-object v0, p0, Lg2a$b;->a:Lokhttp3/o;
+
+    invoke-virtual {v0}, Lokhttp3/o;->close()V
+
+    return-void
+.end method
+
+.method public contentLength()J
+    .locals 2
+
+    iget-object v0, p0, Lg2a$b;->a:Lokhttp3/o;
+
+    invoke-virtual {v0}, Lokhttp3/o;->contentLength()J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public contentType()Lokhttp3/j;
+    .locals 1
+
+    iget-object v0, p0, Lg2a$b;->a:Lokhttp3/o;
+
+    invoke-virtual {v0}, Lokhttp3/o;->contentType()Lokhttp3/j;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public source()Lokio/BufferedSource;
+    .locals 1
+
+    iget-object v0, p0, Lg2a$b;->b:Lokio/BufferedSource;
+
+    return-object v0
+.end method

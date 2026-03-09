@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/shaped_background_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/background_curved_blue_shade" android:scaleType="fitXY" android:alpha="0.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cards_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include layout="@layout/view_conversation_card_preview_shimmer" />
+        <include layout="@layout/view_conversation_card_preview" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/conversation_text_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:alpha="0.0" android:paddingStart="@dimen/generic_24" android:paddingEnd="@dimen/generic_44" app:layout_constraintBottom_toTopOf="@id/continue_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/shaped_background_view">
+        <TextView android:textAppearance="@style/TextWeight.Bold" android:textSize="@dimen/textSize40" android:textColor="@color/busuu_grey_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversation_sent" />
+        <TextView android:textAppearance="@style/TextWeight.Regular" android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/busuu_grey_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_8" android:text="@string/conversation_notified_feedback" />
+    </LinearLayout>
+    <Button android:id="@id/continue_button" android:padding="@dimen/generic_spacing_small_medium" android:layout_width="@dimen/match_constraint" android:layout_height="wrap_content" android:minHeight="@dimen/button_min_height" android:text="@string/continue_" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/BlueButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

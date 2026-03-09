@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_tiny" app:cardCornerRadius="@dimen/generic_8" app:cardElevation="@dimen/generic_elevation_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/root_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="@dimen/icon_size_112" android:layout_height="@dimen/icon_size_112" android:layout_marginTop="@dimen/generic_16" android:layout_marginBottom="@dimen/generic_16" app:srcCompat="@drawable/ic_crown_stroke_white" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_spacing_xlarge" android:layout_marginStart="@dimen/generic_spacing_xlarge" android:layout_marginEnd="@dimen/generic_spacing_xlarge">
+            <TextView android:textSize="@dimen/textSizeLarge" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/merchandise_banner_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/purchase_get_premium_title" />
+            <Button android:textSize="@dimen/textSizeMedium" android:id="@id/go_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/learn_more" style="@style/WhiteButton" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

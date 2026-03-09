@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/background_rounded_white_with_border_line_grey" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_player_loading" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:background="@drawable/background_rounded_corners_gray" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.busuu.android.audio.MediaButton android:id="@id/play_pause_button" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_centerVertical="true" />
+        <androidx.appcompat.widget.AppCompatSeekBar android:theme="@style/BusuuSeekBar" android:id="@id/audio_progress_bar" android:paddingTop="@dimen/generic_spacing_small" android:paddingBottom="@dimen/generic_spacing_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="-10.0dp" android:layout_toStartOf="@id/text_audio_progress" android:layout_toEndOf="@id/play_pause_button" android:mirrorForRtl="false" />
+        <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/text_body_text" android:id="@id/text_audio_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

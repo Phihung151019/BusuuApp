@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/generic_spacing_small" />
+            <solid android:color="@color/busuu_grey_lite" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <scale android:drawable="@drawable/progressbar_blue_interior_rounded" android:scaleWidth="100%" />
+    </item>
+</layer-list>

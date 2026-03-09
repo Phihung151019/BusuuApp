@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorSurfaceBackground" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/white_background" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/generic_elevation_small" />
+    <ScrollView android:id="@id/scrollview" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <com.busuu.android.studyplan.details.success_cards.SuccessGoalReachedCardView android:id="@id/success_goal_reached" android:background="?colorPrimaryDark" android:padding="@dimen/generic_spacing_medium_large" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_medium" />
+            <com.busuu.android.studyplan.details.weekly_target_card.StudyPlanCompleteCardView android:id="@id/plan_complete" android:background="?colorSurfaceElevated" android:padding="@dimen/generic_spacing_medium_large" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_medium" />
+            <com.busuu.android.studyplan.details.weekly_target_card.StudyPlanWeeksCardView android:id="@id/week_card" android:background="?colorSurfaceElevated" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_medium" />
+            <com.busuu.android.studyplan.details.fluency_target_card.FluencyCardView android:id="@id/fluency_card" android:background="?colorSurfaceElevated" android:padding="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" android:elevation="@dimen/generic_elevation_medium" />
+            <com.busuu.android.studyplan.details.GoalCardView android:id="@id/goal_card" android:background="?colorSurfaceElevated" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" android:elevation="@dimen/generic_elevation_medium" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/help_center_article_avatar1" android:visibility="gone" android:layout_width="@dimen/intercom_new_conversation_avatar" android:layout_height="@dimen/intercom_new_conversation_avatar" style="@style/Intercom_ImageAppearance.CircularAvatar" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/help_center_article_avatar2" android:visibility="gone" android:layout_width="@dimen/intercom_new_conversation_avatar" android:layout_height="@dimen/intercom_new_conversation_avatar" android:layout_marginStart="32.0dp" style="@style/Intercom_ImageAppearance.CircularAvatar" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/help_center_article_avatar3" android:visibility="gone" android:layout_width="@dimen/intercom_new_conversation_avatar" android:layout_height="@dimen/intercom_new_conversation_avatar" android:layout_marginStart="64.0dp" style="@style/Intercom_ImageAppearance.CircularAvatar" />
+</FrameLayout>

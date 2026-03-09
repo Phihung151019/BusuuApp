@@ -1,0 +1,130 @@
+.class public final Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lfbh;
+
+
+# instance fields
+.field public final inboxFragment:Landroid/widget/FrameLayout;
+
+.field public final messengerContainer:Lio/intercom/android/sdk/views/FullscreenFrameLayout;
+
+.field private final rootView:Lio/intercom/android/sdk/views/FullscreenFrameLayout;
+
+
+# direct methods
+.method private constructor <init>(Lio/intercom/android/sdk/views/FullscreenFrameLayout;Landroid/widget/FrameLayout;Lio/intercom/android/sdk/views/FullscreenFrameLayout;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;->rootView:Lio/intercom/android/sdk/views/FullscreenFrameLayout;
+
+    iput-object p2, p0, Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;->inboxFragment:Landroid/widget/FrameLayout;
+
+    iput-object p3, p0, Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;->messengerContainer:Lio/intercom/android/sdk/views/FullscreenFrameLayout;
+
+    return-void
+.end method
+
+.method public static bind(Landroid/view/View;)Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;
+    .locals 2
+
+    sget v0, Lio/intercom/android/sdk/R$id;->inbox_fragment:I
+
+    invoke-static {p0, v0}, Lgbh;->a(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/FrameLayout;
+
+    if-eqz v1, :cond_0
+
+    check-cast p0, Lio/intercom/android/sdk/views/FullscreenFrameLayout;
+
+    new-instance v0, Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;
+
+    invoke-direct {v0, p0, v1, p0}, Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;-><init>(Lio/intercom/android/sdk/views/FullscreenFrameLayout;Landroid/widget/FrameLayout;Lio/intercom/android/sdk/views/FullscreenFrameLayout;)V
+
+    return-object v0
+
+    :cond_0
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p0
+
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    new-instance v0, Ljava/lang/NullPointerException;
+
+    const-string v1, "Missing required view with ID: "
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;)Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;
+    .locals 2
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    invoke-static {p0, v0, v1}, Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;
+    .locals 2
+
+    sget v0, Lio/intercom/android/sdk/R$layout;->intercom_activity_messenger:I
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p0
+
+    if-eqz p2, :cond_0
+
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    :cond_0
+    invoke-static {p0}, Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;->bind(Landroid/view/View;)Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public bridge synthetic getRoot()Landroid/view/View;
+    .locals 1
+
+    invoke-virtual {p0}, Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;->getRoot()Lio/intercom/android/sdk/views/FullscreenFrameLayout;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getRoot()Lio/intercom/android/sdk/views/FullscreenFrameLayout;
+    .locals 1
+
+    iget-object v0, p0, Lio/intercom/android/sdk/databinding/IntercomActivityMessengerBinding;->rootView:Lio/intercom/android/sdk/views/FullscreenFrameLayout;
+
+    return-object v0
+.end method

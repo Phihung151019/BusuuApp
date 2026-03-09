@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_phonetics_deselected" android:id="@id/action_phonetics" android:orderInCategory="1" android:title="@string/button_phonetics" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_controls_correct_icon" android:id="@id/action_exercise_pass" android:orderInCategory="2" android:title="Pass" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_controls_wrong_icon" android:id="@id/action_exercise_fail" android:orderInCategory="3" android:title="Fail" app:showAsAction="always" />
+    <item android:id="@id/action_exercise_i_dont_know" android:orderInCategory="4" android:title="" app:actionLayout="@layout/exercise_i_dont_know_button" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_vertical" android:id="@id/action_menu" android:orderInCategory="5" android:title="Menu" app:showAsAction="always" />
+</menu>

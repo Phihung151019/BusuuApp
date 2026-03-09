@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="400" android:startOffset="100" android:valueFrom="M 28 29 C 27.448 29 27 28.552 27 28 C 27 27.448 27.448 27 28 27 C 28.552 27 29 27.448 29 28 C 29 28.552 28.552 29 28 29 Z" android:valueTo="M 28 56 C 12.536 56 0 43.464 0 28 C 0 12.536 12.536 0 28 0 C 43.464 0 56 12.536 56 28 C 56 43.464 43.464 56 28 56 Z" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="400" android:startOffset="100" android:valueFrom="20" android:valueTo="0" android:valueType="floatType" android:propertyName="strokeWidth" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="10" android:startOffset="290" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="strokeAlpha" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="10" android:startOffset="400" android:valueFrom="1" android:valueTo="0" android:valueType="floatType" android:propertyName="strokeAlpha" />
+</set>

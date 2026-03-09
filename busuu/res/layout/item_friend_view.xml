@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/background_white_no_shadow" android:padding="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/avatar" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/username" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/generic_spacing_medium" style="@style/FriendName" />
+        <com.busuu.android.base_ui.view.SocialFriendshipButton android:layout_gravity="center_vertical" android:id="@id/cta_user_friendship" android:visibility="invisible" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/dividerView" android:background="@color/black_15_alpha" android:layout_width="match_parent" android:layout_height="@dimen/list_item_separator_1dp" android:layout_marginStart="@dimen/generic_spacing_xxxxlarge" />
+</LinearLayout>

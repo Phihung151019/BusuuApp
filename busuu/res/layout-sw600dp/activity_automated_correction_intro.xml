@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/white_background" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/generic_elevation_small" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_close_gray" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginBottom="@dimen/generic_16" app:layout_constraintBottom_toTopOf="@id/continue_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_56">
+            <ImageView android:layout_gravity="center" android:layout_width="185.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_40" android:src="@drawable/icon_bot_intro" android:scaleType="fitCenter" android:paddingEnd="@dimen/generic_32" />
+            <TextView android:textSize="@dimen/textSizeXXLarge" android:textStyle="bold" android:textColor="@color/text_dark_gray" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_24" android:text="@string/title_automated_correction" android:layout_marginHorizontal="@dimen/generic_24" />
+            <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_dark_gray" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_16" android:text="@string/description_automated_correction_intro" android:layout_marginHorizontal="@dimen/generic_24" android:lineHeight="@dimen/generic_20" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:layout_gravity="bottom" android:id="@id/continue_button" android:layout_width="match_parent" android:layout_height="@dimen/button_square_continue_height" android:layout_marginBottom="@dimen/generic_16" android:text="@string/button_automated_correction_intro" app:layout_constraintBottom_toBottomOf="parent" style="@style/BlueButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

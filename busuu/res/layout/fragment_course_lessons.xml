@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.legacy_ui.toolbar.CourseToolbarView android:id="@id/course_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/course_lessons_container" android:background="@color/busuu_white_background_alt" android:clipChildren="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.busuu.android.ui.newnavigation.view.FloatingChip android:layout_gravity="center_horizontal" android:id="@id/floating_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CourseProgressFloatingChip" />
+        <com.busuu.android.purchase.banners.MerchBannerTimerView android:id="@id/merchandise_banner_timer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_small" />
+        <com.busuu.android.referral.ui.banners.CourseReferralBannerView android:id="@id/referral_banner" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_small" />
+        <com.busuu.android.referral.ui.banners.ClaimFreeTrialReferralDashboardBannerView android:id="@id/referral_banner_claim_free_trial" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_small" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/lessons_recycler_view" android:paddingBottom="@dimen/course_fragment_bottom_padding" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.busuu.android.base_ui.view.NextUpButton android:layout_gravity="end|bottom" android:id="@id/next_up_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_bar_height_with_shadow" />
+        <com.busuu.android.base_ui.view.ShimmerContainerView android:layout_gravity="center" android:orientation="vertical" android:id="@id/shimmer_progress_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" android:elevation="@dimen/generic_elevation_medium" app:shimerLayout="@layout/course_overview_shimmer" style="@style/ShimmerContainerStyle" />
+    </FrameLayout>
+</LinearLayout>

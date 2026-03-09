@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/fragment_content_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.compose.ui.platform.ComposeView android:id="@id/grammar_review_banner" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.busuu.android.base_ui.GenericEmptyView android:layout_gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/generic_spacing_xxxlarge" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/grammar_recycler_view" android:paddingBottom="@dimen/generic_spacing_xxxxlarge" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/include_progressbar" />
+    <com.busuu.android.base_ui.view.NextUpButton android:layout_gravity="end|bottom" android:id="@id/review_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_bar_height_with_shadow" />
+    <include layout="@layout/include_offline_error" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/grammar_bottom_sheet_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

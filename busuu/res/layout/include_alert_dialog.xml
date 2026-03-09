@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.busuu.android.base_ui.view.fixed.FixLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:id="@id/dialogIconContainer" android:layout_width="match_parent" android:layout_height="@dimen/dialog_flag_background_height">
+        <ImageView android:layout_gravity="center" android:id="@id/dialogIcon" android:layout_width="@dimen/dialog_flag_size" android:layout_height="@dimen/dialog_flag_size" android:layout_margin="@dimen/generic_spacing_medium_large" android:src="@drawable/flag_english" />
+    </FrameLayout>
+    <TextView android:layout_gravity="start" android:id="@id/dialogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_large" android:text="@string/are_you_sure" android:layout_marginStart="@dimen/generic_spacing_large" android:layout_marginEnd="@dimen/generic_spacing_large" style="@style/DialogTitle" />
+    <TextView android:layout_gravity="start" android:id="@id/dialogSubTitle" android:paddingLeft="@dimen/generic_spacing_large" android:paddingRight="@dimen/generic_spacing_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:text="@string/same_language_alert_title" style="@style/DialogSubtitle" />
+    <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_body_text" android:layout_gravity="start" android:id="@id/dialogEfficacyStudy" android:paddingLeft="@dimen/generic_spacing_large" android:paddingRight="@dimen/generic_spacing_large" android:paddingBottom="@dimen/generic_spacing_medium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium" />
+</com.busuu.android.base_ui.view.fixed.FixLinearLayout>

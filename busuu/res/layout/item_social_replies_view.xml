@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/social_reply_rootview" android:background="@drawable/social_reply_background" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/social_reply_divider" android:background="@color/busuu_grey_lite" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <View android:id="@id/social_reply_shadow" android:background="@drawable/shadow_bottom" android:layout_width="match_parent" android:layout_height="3.0dp" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_spacing_14">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/include_social_details_name_container" />
+        <include android:id="@id/media_player_view" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:layout_marginStart="@dimen/generic_8" android:layout_marginEnd="@dimen/generic_spacing_medium" layout="@layout/include_media_player" />
+        <TextView android:id="@id/social_reply_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium" android:textIsSelectable="true" android:layout_marginStart="@dimen/generic_8" android:layout_marginEnd="@dimen/generic_spacing_medium" style="@style/SocialCommentCorrection" />
+        <LinearLayout android:orientation="vertical" android:id="@id/translation_view" android:background="@drawable/comment_translation_start_border" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_spacing_small_medium" android:layout_marginStart="@dimen/generic_20">
+            <TextView android:textColor="@color/text_title_dark" android:id="@id/social_translated_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" android:paddingStart="@dimen/generic_20" android:paddingEnd="@dimen/generic_spacing_medium" android:layout_marginEnd="@dimen/generic_spacing_medium" style="@style/SocialCommentCorrection" />
+            <LinearLayout android:id="@id/google_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_20">
+                <TextView android:textColor="@color/text_grey_heading" android:gravity="end|center" android:id="@id/google_translation_logo" android:layout_width="wrap_content" android:layout_height="match_parent" android:textIsSelectable="false" style="@style/SocialCommentCorrection" />
+            </LinearLayout>
+        </LinearLayout>
+        <ProgressBar android:id="@id/translation_loading_view" android:visibility="gone" android:layout_width="@dimen/icon_size_16" android:layout_height="@dimen/icon_size_16" android:indeterminateTint="@color/busuu_blue" style="@style/Widget.AppCompat.ProgressBar" />
+        <TextView android:textColor="@color/text_grey_heading" android:layout_gravity="start" android:id="@id/social_translate_button" android:background="@null" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_8" android:text="@string/see_translation" />
+        <TextView android:id="@id/social_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium" android:layout_marginStart="@dimen/generic_8" android:layout_marginEnd="@dimen/generic_spacing_medium" style="@style/SocialPostedDate" />
+        <include android:layout_width="wrap_content" android:layout_height="@dimen/social_comment_actions_container_height" android:layout_marginStart="@dimen/generic_8" android:layout_marginEnd="@dimen/generic_spacing_medium" layout="@layout/include_item_social_actions" />
+    </LinearLayout>
+</LinearLayout>

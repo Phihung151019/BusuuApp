@@ -1,0 +1,620 @@
+.class public final Lcbp;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Lynp;
+
+.field public static final b:Lxep;
+
+.field public static final c:Ltep;
+
+.field public static final d:Lgdp;
+
+.field public static final e:Lcdp;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    const-string v0, "type.googleapis.com/google.crypto.tink.AesGcmKey"
+
+    invoke-static {v0}, Lmgp;->b(Ljava/lang/String;)Lynp;
+
+    move-result-object v0
+
+    sput-object v0, Lcbp;->a:Lynp;
+
+    new-instance v1, Lyap;
+
+    invoke-direct {v1}, Lyap;-><init>()V
+
+    const-class v2, Lp7p;
+
+    const-class v3, Lufp;
+
+    invoke-static {v1, v2, v3}, Lxep;->b(Lvep;Ljava/lang/Class;Ljava/lang/Class;)Lxep;
+
+    move-result-object v1
+
+    sput-object v1, Lcbp;->b:Lxep;
+
+    new-instance v1, Lzap;
+
+    invoke-direct {v1}, Lzap;-><init>()V
+
+    invoke-static {v1, v0, v3}, Ltep;->b(Lrep;Lynp;Ljava/lang/Class;)Ltep;
+
+    move-result-object v1
+
+    sput-object v1, Lcbp;->c:Ltep;
+
+    new-instance v1, Labp;
+
+    invoke-direct {v1}, Labp;-><init>()V
+
+    const-class v2, Lg7p;
+
+    const-class v3, Ltfp;
+
+    invoke-static {v1, v2, v3}, Lgdp;->b(Ledp;Ljava/lang/Class;Ljava/lang/Class;)Lgdp;
+
+    move-result-object v1
+
+    sput-object v1, Lcbp;->d:Lgdp;
+
+    new-instance v1, Lbbp;
+
+    invoke-direct {v1}, Lbbp;-><init>()V
+
+    invoke-static {v1, v0, v3}, Lcdp;->b(Ladp;Lynp;Ljava/lang/Class;)Lcdp;
+
+    move-result-object v0
+
+    sput-object v0, Lcbp;->e:Lcdp;
+
+    return-void
+.end method
+
+.method public static synthetic a(Ltfp;Lh5p;)Lg7p;
+    .locals 3
+
+    invoke-virtual {p0}, Ltfp;->f()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "type.googleapis.com/google.crypto.tink.AesGcmKey"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    :try_start_0
+    invoke-virtual {p0}, Ltfp;->d()Lxop;
+
+    move-result-object v0
+
+    invoke-static {}, Lwpp;->a()Lwpp;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/n4;->g0(Lxop;Lwpp;)Lcom/google/android/gms/internal/ads/n4;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/n4;->d0()I
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    invoke-static {}, Lp7p;->c()Lm7p;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/n4;->h0()Lxop;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lxop;->v()I
+
+    move-result v2
+
+    invoke-virtual {v1, v2}, Lm7p;->b(I)Lm7p;
+
+    const/16 v2, 0xc
+
+    invoke-virtual {v1, v2}, Lm7p;->a(I)Lm7p;
+
+    const/16 v2, 0x10
+
+    invoke-virtual {v1, v2}, Lm7p;->c(I)Lm7p;
+
+    invoke-virtual {p0}, Ltfp;->c()Lcom/google/android/gms/internal/ads/zzgtz;
+
+    move-result-object v2
+
+    invoke-static {v2}, Lcbp;->f(Lcom/google/android/gms/internal/ads/zzgtz;)Ln7p;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lm7p;->d(Ln7p;)Lm7p;
+
+    invoke-virtual {v1}, Lm7p;->e()Lp7p;
+
+    move-result-object v1
+
+    invoke-static {}, Lg7p;->a()Le7p;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v1}, Le7p;->c(Lp7p;)Le7p;
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/n4;->h0()Lxop;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lxop;->h()[B
+
+    move-result-object v0
+
+    invoke-static {v0, p1}, Lznp;->b([BLh5p;)Lznp;
+
+    move-result-object p1
+
+    invoke-virtual {v2, p1}, Le7p;->b(Lznp;)Le7p;
+
+    invoke-virtual {p0}, Ltfp;->e()Ljava/lang/Integer;
+
+    move-result-object p0
+
+    invoke-virtual {v2, p0}, Le7p;->a(Ljava/lang/Integer;)Le7p;
+
+    invoke-virtual {v2}, Le7p;->d()Lg7p;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    new-instance p0, Ljava/security/GeneralSecurityException;
+
+    const-string p1, "Only version 0 keys are accepted"
+
+    invoke-direct {p0, p1}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+    :try_end_0
+    .catch Lcom/google/android/gms/internal/ads/zzgyn; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    new-instance p0, Ljava/security/GeneralSecurityException;
+
+    const-string p1, "Parsing AesGcmKey failed"
+
+    invoke-direct {p0, p1}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string p1, "Wrong type URL in call to AesGcmProtoSerialization.parseKey"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static synthetic b(Lufp;)Lp7p;
+    .locals 2
+
+    invoke-virtual {p0}, Lufp;->c()Lcom/google/android/gms/internal/ads/x4;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/x4;->k0()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "type.googleapis.com/google.crypto.tink.AesGcmKey"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    :try_start_0
+    invoke-virtual {p0}, Lufp;->c()Lcom/google/android/gms/internal/ads/x4;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/x4;->j0()Lxop;
+
+    move-result-object v0
+
+    invoke-static {}, Lwpp;->a()Lwpp;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/o4;->h0(Lxop;Lwpp;)Lcom/google/android/gms/internal/ads/o4;
+
+    move-result-object v0
+    :try_end_0
+    .catch Lcom/google/android/gms/internal/ads/zzgyn; {:try_start_0 .. :try_end_0} :catch_0
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/o4;->e0()I
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    invoke-static {}, Lp7p;->c()Lm7p;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/o4;->d0()I
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, Lm7p;->b(I)Lm7p;
+
+    const/16 v0, 0xc
+
+    invoke-virtual {v1, v0}, Lm7p;->a(I)Lm7p;
+
+    const/16 v0, 0x10
+
+    invoke-virtual {v1, v0}, Lm7p;->c(I)Lm7p;
+
+    invoke-virtual {p0}, Lufp;->c()Lcom/google/android/gms/internal/ads/x4;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/x4;->i0()Lcom/google/android/gms/internal/ads/zzgtz;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcbp;->f(Lcom/google/android/gms/internal/ads/zzgtz;)Ln7p;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Lm7p;->d(Ln7p;)Lm7p;
+
+    invoke-virtual {v1}, Lm7p;->e()Lp7p;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    new-instance p0, Ljava/security/GeneralSecurityException;
+
+    const-string v0, "Only version 0 parameters are accepted"
+
+    invoke-direct {p0, v0}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :catch_0
+    move-exception p0
+
+    new-instance v0, Ljava/security/GeneralSecurityException;
+
+    const-string v1, "Parsing AesGcmParameters failed: "
+
+    invoke-direct {v0, v1, p0}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    throw v0
+
+    :cond_1
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {p0}, Lufp;->c()Lcom/google/android/gms/internal/ads/x4;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/x4;->k0()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "Wrong type URL in call to AesGcmProtoSerialization.parseParameters: "
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public static synthetic c(Lg7p;Lh5p;)Ltfp;
+    .locals 3
+
+    invoke-static {}, Lcom/google/android/gms/internal/ads/n4;->e0()Lfkp;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, Lg7p;->d()Lznp;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p1}, Lznp;->d(Lh5p;)[B
+
+    move-result-object p1
+
+    array-length v1, p1
+
+    const/4 v2, 0x0
+
+    invoke-static {p1, v2, v1}, Lxop;->e0([BII)Lxop;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Lfkp;->v(Lxop;)Lfkp;
+
+    invoke-virtual {v0}, Leqp;->q()Lcom/google/android/gms/internal/ads/m5;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/google/android/gms/internal/ads/n4;
+
+    invoke-virtual {p1}, Lbop;->d()Lxop;
+
+    move-result-object p1
+
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzgsu;->zzb:Lcom/google/android/gms/internal/ads/zzgsu;
+
+    invoke-virtual {p0}, Lg7p;->b()Lp7p;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lp7p;->d()Ln7p;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcbp;->g(Ln7p;)Lcom/google/android/gms/internal/ads/zzgtz;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lg7p;->e()Ljava/lang/Integer;
+
+    move-result-object p0
+
+    const-string v2, "type.googleapis.com/google.crypto.tink.AesGcmKey"
+
+    invoke-static {v2, p1, v0, v1, p0}, Ltfp;->a(Ljava/lang/String;Lxop;Lcom/google/android/gms/internal/ads/zzgsu;Lcom/google/android/gms/internal/ads/zzgtz;Ljava/lang/Integer;)Ltfp;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic d(Lp7p;)Lufp;
+    .locals 3
+
+    invoke-static {}, Lcom/google/android/gms/internal/ads/x4;->d0()Lflp;
+
+    move-result-object v0
+
+    const-string v1, "type.googleapis.com/google.crypto.tink.AesGcmKey"
+
+    invoke-virtual {v0, v1}, Lflp;->w(Ljava/lang/String;)Lflp;
+
+    invoke-static {}, Lcom/google/android/gms/internal/ads/o4;->f0()Lhkp;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lp7p;->b()I
+
+    move-result v2
+
+    invoke-virtual {v1, v2}, Lhkp;->v(I)Lhkp;
+
+    invoke-virtual {v1}, Leqp;->q()Lcom/google/android/gms/internal/ads/m5;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/google/android/gms/internal/ads/o4;
+
+    invoke-virtual {v1}, Lbop;->d()Lxop;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Lflp;->x(Lxop;)Lflp;
+
+    invoke-virtual {p0}, Lp7p;->d()Ln7p;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcbp;->g(Ln7p;)Lcom/google/android/gms/internal/ads/zzgtz;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Lflp;->v(Lcom/google/android/gms/internal/ads/zzgtz;)Lflp;
+
+    invoke-virtual {v0}, Leqp;->q()Lcom/google/android/gms/internal/ads/m5;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/google/android/gms/internal/ads/x4;
+
+    invoke-static {p0}, Lufp;->b(Lcom/google/android/gms/internal/ads/x4;)Lufp;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static e(Loep;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/GeneralSecurityException;
+        }
+    .end annotation
+
+    sget-object v0, Lcbp;->b:Lxep;
+
+    invoke-virtual {p0, v0}, Loep;->i(Lxep;)V
+
+    sget-object v0, Lcbp;->c:Ltep;
+
+    invoke-virtual {p0, v0}, Loep;->h(Ltep;)V
+
+    sget-object v0, Lcbp;->d:Lgdp;
+
+    invoke-virtual {p0, v0}, Loep;->g(Lgdp;)V
+
+    sget-object v0, Lcbp;->e:Lcdp;
+
+    invoke-virtual {p0, v0}, Loep;->f(Lcdp;)V
+
+    return-void
+.end method
+
+.method public static f(Lcom/google/android/gms/internal/ads/zzgtz;)Ln7p;
+    .locals 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/GeneralSecurityException;
+        }
+    .end annotation
+
+    invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    if-eq v0, v1, :cond_3
+
+    const/4 v1, 0x2
+
+    if-eq v0, v1, :cond_2
+
+    const/4 v1, 0x3
+
+    if-eq v0, v1, :cond_1
+
+    const/4 v1, 0x4
+
+    if-ne v0, v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v0, Ljava/security/GeneralSecurityException;
+
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgtz;->zza()I
+
+    move-result p0
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Unable to parse OutputPrefixType: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    sget-object p0, Ln7p;->d:Ln7p;
+
+    return-object p0
+
+    :cond_2
+    :goto_0
+    sget-object p0, Ln7p;->c:Ln7p;
+
+    return-object p0
+
+    :cond_3
+    sget-object p0, Ln7p;->b:Ln7p;
+
+    return-object p0
+.end method
+
+.method public static g(Ln7p;)Lcom/google/android/gms/internal/ads/zzgtz;
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/GeneralSecurityException;
+        }
+    .end annotation
+
+    sget-object v0, Ln7p;->b:Ln7p;
+
+    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzgtz;->zzb:Lcom/google/android/gms/internal/ads/zzgtz;
+
+    return-object p0
+
+    :cond_0
+    sget-object v0, Ln7p;->c:Ln7p;
+
+    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzgtz;->zze:Lcom/google/android/gms/internal/ads/zzgtz;
+
+    return-object p0
+
+    :cond_1
+    sget-object v0, Ln7p;->d:Ln7p;
+
+    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzgtz;->zzd:Lcom/google/android/gms/internal/ads/zzgtz;
+
+    return-object p0
+
+    :cond_2
+    new-instance v0, Ljava/security/GeneralSecurityException;
+
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "Unable to serialize variant: "
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/languageFlag" android:layout_width="@dimen/language_view_flag_default_size" android:layout_height="@dimen/language_view_flag_default_size" android:layout_margin="@dimen/generic_spacing_medium_large" android:src="@drawable/flag_arabic" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="?android:textColor" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/languageName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lang_enc" />
+            <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/text_body_text" android:gravity="center_vertical" android:id="@id/languageFluency" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

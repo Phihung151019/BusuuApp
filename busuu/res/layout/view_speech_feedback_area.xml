@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_white_top_rounded_corners" android:paddingBottom="@dimen/icon_size_16" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/include_feedback_area_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/try_again_buttons_feedback_area_container" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/white" android:id="@id/try_again_button_feedback_area" android:layout_width="match_parent" android:layout_height="@dimen/button_square_continue_height" android:layout_marginBottom="0.0dp" android:text="@string/try_again" android:textAllCaps="false" style="@style/BlueButton" />
+        <Button android:textColor="@color/busuu_blue" android:id="@id/skip_for_now_feedback_area" android:layout_width="match_parent" android:layout_height="@dimen/button_square_continue_height" android:layout_marginTop="0.0dp" android:layout_marginBottom="0.0dp" android:text="@string/skip_this_for_now" android:textAllCaps="false" app:layout_constraintTop_toBottomOf="@id/answers_area" style="@style/SelectableButton" />
+    </LinearLayout>
+</LinearLayout>

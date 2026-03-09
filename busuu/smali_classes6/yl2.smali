@@ -1,0 +1,64 @@
+.class public final synthetic Lyl2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# instance fields
+.field public final synthetic a:Lrm2$e;
+
+.field public final synthetic b:Lkotlin/jvm/functions/Function1;
+
+.field public final synthetic c:I
+
+.field public final synthetic d:I
+
+
+# direct methods
+.method public synthetic constructor <init>(Lrm2$e;Lkotlin/jvm/functions/Function1;II)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lyl2;->a:Lrm2$e;
+
+    iput-object p2, p0, Lyl2;->b:Lkotlin/jvm/functions/Function1;
+
+    iput p3, p0, Lyl2;->c:I
+
+    iput p4, p0, Lyl2;->d:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 6
+
+    iget-object v0, p0, Lyl2;->a:Lrm2$e;
+
+    iget-object v1, p0, Lyl2;->b:Lkotlin/jvm/functions/Function1;
+
+    iget v2, p0, Lyl2;->c:I
+
+    iget v3, p0, Lyl2;->d:I
+
+    move-object v4, p1
+
+    check-cast v4, Landroidx/compose/runtime/Composer;
+
+    check-cast p2, Ljava/lang/Integer;
+
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v5
+
+    invoke-static/range {v0 .. v5}, Lpm2;->n(Lrm2$e;Lkotlin/jvm/functions/Function1;IILandroidx/compose/runtime/Composer;I)Lqrg;
+
+    move-result-object p1
+
+    return-object p1
+.end method

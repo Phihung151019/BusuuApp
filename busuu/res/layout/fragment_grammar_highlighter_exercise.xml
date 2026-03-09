@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/progress_switcher" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large">
+            <TextView android:id="@id/instruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_spacing_large" android:layout_marginEnd="@dimen/generic_spacing_large" style="@style/InstructionComponent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingTop="@dimen/generic_spacing_xxlarge" android:paddingBottom="@dimen/generic_spacing_xxlarge" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/line_divider_greysilver" android:showDividers="middle" android:paddingStart="@dimen/generic_spacing_large" android:paddingEnd="@dimen/generic_spacing_large" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/include_feedback_component" />
+</FrameLayout>

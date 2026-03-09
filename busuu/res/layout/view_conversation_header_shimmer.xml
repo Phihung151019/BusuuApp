@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_24" android:layout_marginBottom="@dimen/generic_18" android:layout_marginStart="@dimen/generic_16" android:layout_marginEnd="@dimen/generic_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/shimmer_avatar" android:layout_width="@dimen/social_avatar" android:layout_height="@dimen/social_avatar" android:src="@drawable/background_circle_grey_xlite" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginStart="@dimen/generic_16" app:layout_constraintBottom_toBottomOf="@id/shimmer_avatar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/shimmer_avatar" app:layout_constraintTop_toTopOf="@id/shimmer_avatar">
+        <View android:background="@color/busuu_grey_xlite" android:layout_width="@dimen/generic_100" android:layout_height="@dimen/generic_24" />
+        <View android:background="@color/busuu_grey_xlite" android:layout_width="@dimen/generic_190" android:layout_height="@dimen/generic_24" android:layout_marginTop="@dimen/generic_4" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

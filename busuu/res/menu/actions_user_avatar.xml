@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_display_picture" android:title="@string/display_profile_picture" />
+    <item android:id="@id/action_choose_picture" android:title="@string/choose_profile_picture" />
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_view_user_avatar" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/help_others_discover_avatar" android:layout_width="@dimen/social_avatar" android:layout_height="@dimen/social_avatar" android:layout_marginTop="@dimen/generic_24" android:layout_marginBottom="@dimen/generic_18" android:layout_marginStart="@dimen/generic_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/speaks_container" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginStart="17.0dp" app:layout_constraintBottom_toBottomOf="@id/help_others_discover_avatar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/help_others_discover_avatar" app:layout_constraintTop_toTopOf="@id/help_others_discover_avatar">
+                <TextView android:textSize="@dimen/textSizeLarge" android:textStyle="bold" android:ellipsize="end" android:id="@id/help_others_discover_user_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/help_others_discover_user_languages_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_2">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/textSizeMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speaks" />
+                    <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/help_others_discover_user_languages" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dp" android:layout_marginBottom="10.0dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_others_offline_text_preview" />
+        </RelativeLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</merge>

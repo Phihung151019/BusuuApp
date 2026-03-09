@@ -1,0 +1,79 @@
+.class public Lnet/bytebuddy/description/type/c$b;
+.super Lu45$b;
+.source "SourceFile"
+
+# interfaces
+.implements Lnet/bytebuddy/description/type/c;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lnet/bytebuddy/description/type/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<S::",
+        "Lnet/bytebuddy/description/type/b;",
+        ">",
+        "Lu45$b<",
+        "TS;",
+        "Lnet/bytebuddy/description/type/c<",
+        "TS;>;>;",
+        "Lnet/bytebuddy/description/type/c<",
+        "TS;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lu45$b;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public B()Lnet/bytebuddy/description/type/d$f;
+    .locals 1
+
+    new-instance v0, Lnet/bytebuddy/description/type/d$f$b;
+
+    invoke-direct {v0}, Lnet/bytebuddy/description/type/d$f$b;-><init>()V
+
+    return-object v0
+.end method
+
+.method public b(Lnet/bytebuddy/matcher/l;)Lu81$a$a;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lnet/bytebuddy/matcher/l<",
+            "-",
+            "Lnet/bytebuddy/description/type/TypeDescription;",
+            ">;)",
+            "Lu81$a$a<",
+            "Lnet/bytebuddy/description/type/b$e;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance p1, Lu81$a$a;
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Lnet/bytebuddy/description/type/b$e;
+
+    invoke-direct {p1, v0}, Lu81$a$a;-><init>([Lu81$a;)V
+
+    return-object p1
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/busuu_blue" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/generic_spacing_xxlarge" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_xxlarge">
+            <com.busuu.android.base_ui.view.fixed.FixTextView android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TitlePlacementEndResult" />
+            <FrameLayout android:id="@id/container_levels_list" android:layout_width="match_parent" android:layout_height="262.0dp" android:layout_marginTop="@dimen/generic_spacing_xlarge" android:layout_marginStart="@dimen/generic_spacing_large" android:layout_marginEnd="@dimen/generic_spacing_large" android:elevation="@dimen/button_elevation">
+                <include layout="@layout/include_placement_test_result_view" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="32.0dp" android:layout_height="40.0dp" app:srcCompat="@drawable/ic_red_pointer" />
+            </FrameLayout>
+            <TextView android:id="@id/sub_title" android:padding="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:layout_marginStart="@dimen/generic_spacing_large" android:layout_marginEnd="@dimen/generic_spacing_large" style="@style/PlacementResultSubTitle" />
+        </LinearLayout>
+    </ScrollView>
+    <com.busuu.android.base_ui.view.fixed.FixButton android:layout_gravity="center|bottom" android:id="@id/continue_button" android:layout_width="match_parent" android:layout_height="@dimen/button_min_height" android:text="@string/continue_" style="@style/WhiteButton" />
+</FrameLayout>

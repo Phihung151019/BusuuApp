@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/generic_spacing_32" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.busuu.android.social.discover.uihelper.SocialCardView android:layout_gravity="center" android:id="@id/social_discover_card_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.busuu.android.social.SocialLoaderCardView android:layout_gravity="center" android:id="@id/social_discover_card_loader" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</FrameLayout>

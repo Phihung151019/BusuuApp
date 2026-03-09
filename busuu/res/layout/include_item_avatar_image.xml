@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/user_avatar" android:layout_width="@dimen/social_avatar" android:layout_height="@dimen/social_avatar" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/user_avatar_border" android:visibility="gone" android:layout_width="57.0dp" android:layout_height="57.0dp" android:max="100" android:progress="100" android:progressDrawable="@drawable/circular_progress_blue_very_thin" style="?android:progressBarStyleHorizontal" />
+</FrameLayout>

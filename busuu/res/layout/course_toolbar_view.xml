@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/white_background" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:theme="@style/ToolbarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linearLayout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@id/language_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/background_circle_white_stroke" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_16">
+                <ImageView android:id="@id/language_button" android:visibility="gone" android:layout_width="@dimen/icon_size_32" android:layout_height="@dimen/icon_size_32" android:layout_margin="@dimen/generic_spacing_2" />
+            </LinearLayout>
+            <TextView android:layout_gravity="center_vertical" android:id="@id/toolbar_title_no_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:drawableEnd="@drawable/ic_keyboard_arrow_down_grey_24dp" android:layout_marginStart="@dimen/generic_4" style="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title" />
+        </LinearLayout>
+        <com.legacy_ui.toolbar.ShortcutToolbarView android:id="@id/daily_goal_toolbar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toEndOf="@id/language_button_layout" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>

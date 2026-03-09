@@ -1,0 +1,49 @@
+.class public final Lnma;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lnma$a;
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Ljava/lang/ThreadLocal;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ThreadLocal<",
+            "Luma<",
+            "Landroid/graphics/Rect;",
+            "Landroid/graphics/Rect;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Ljava/lang/ThreadLocal;
+
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
+
+    sput-object v0, Lnma;->a:Ljava/lang/ThreadLocal;
+
+    return-void
+.end method
+
+.method public static a(Landroid/graphics/Paint;Ljava/lang/String;)Z
+    .locals 0
+
+    invoke-static {p0, p1}, Lnma$a;->a(Landroid/graphics/Paint;Ljava/lang/String;)Z
+
+    move-result p0
+
+    return p0
+.end method

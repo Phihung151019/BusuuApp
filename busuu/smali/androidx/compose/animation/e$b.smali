@@ -1,0 +1,110 @@
+.class public final Landroidx/compose/animation/e$b;
+.super Lap7;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/compose/animation/e;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lap7;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lht;",
+        "Landroidx/compose/ui/graphics/q;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0001\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0003\u0010\u0004"
+    }
+    d2 = {
+        "Lht;",
+        "it",
+        "Landroidx/compose/ui/graphics/q;",
+        "a",
+        "(Lht;)J"
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+.end annotation
+
+
+# static fields
+.field public static final g:Landroidx/compose/animation/e$b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Landroidx/compose/animation/e$b;
+
+    invoke-direct {v0}, Landroidx/compose/animation/e$b;-><init>()V
+
+    sput-object v0, Landroidx/compose/animation/e$b;->g:Landroidx/compose/animation/e$b;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lap7;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lht;)J
+    .locals 2
+
+    invoke-virtual {p1}, Lht;->f()F
+
+    move-result v0
+
+    invoke-virtual {p1}, Lht;->g()F
+
+    move-result p1
+
+    invoke-static {v0, p1}, Lb9g;->a(FF)J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    check-cast p1, Lht;
+
+    invoke-virtual {p0, p1}, Landroidx/compose/animation/e$b;->a(Lht;)J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Landroidx/compose/ui/graphics/q;->b(J)Landroidx/compose/ui/graphics/q;
+
+    move-result-object p1
+
+    return-object p1
+.end method

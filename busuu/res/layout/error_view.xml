@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/white_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/white_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/generic_32" app:layout_constraintBottom_toBottomOf="@id/primary_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/icon_error" android:layout_marginHorizontal="@dimen/generic_24" />
+        <TextView android:textSize="@dimen/textSizeXXXLarge" android:textColor="@color/busuu_grey_dark" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_56" android:text="@string/error_view_title" />
+        <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/busuu_grey_dark" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_16" android:text="@string/error_view_description" />
+    </LinearLayout>
+    <Button android:layout_gravity="bottom" android:id="@id/primary_button" android:layout_width="match_parent" android:layout_height="@dimen/button_square_continue_height" android:layout_margin="@dimen/icon_size_16" android:text="@string/continue_" app:layout_constraintBottom_toTopOf="@id/secondary_button" style="@style/BlueButton" />
+    <TextView android:id="@id/secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_spacing_50" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

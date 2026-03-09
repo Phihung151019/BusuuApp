@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:anim/decelerate_interpolator" android:duration="300" android:startOffset="1400" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="strokeAlpha" />
+    <objectAnimator android:interpolator="@android:anim/decelerate_interpolator" android:duration="200" android:startOffset="1400" android:valueFrom="M 75.013 88.794 C 76.012 88.126 77.984 87.525 79.654 86.914 L 79.654 85.098 C 79.654 85.098 78.527 84.735 78.527 82.918 M 83.036 78.013 C 83.612 78.188 84.053 78.491 84.164 78.922 C 84.425 79.93 83.788 81.286 83.788 81.465 C 84.409 81.465 84.409 82.918 83.788 82.918 C 83.788 84.734 82.661 85.098 82.661 85.098 L 82.661 86.914 C 84.523 87.589 86.367 88.147 87.311 88.785" android:valueTo="M 79.013 92.794 C 80.012 92.126 81.984 91.525 83.654 90.914 L 83.654 89.098 C 83.654 89.098 82.527 88.735 82.527 86.918 M 87.036 82.013 C 87.612 82.188 88.053 82.491 88.164 82.922 C 88.425 83.93 87.788 85.286 87.788 85.465 C 88.409 85.465 88.409 86.918 87.788 86.918 C 87.788 88.734 86.661 89.098 86.661 89.098 L 86.661 90.914 C 88.523 91.589 90.367 92.147 91.311 92.785" android:valueType="pathType" android:propertyName="pathData" />
+</set>

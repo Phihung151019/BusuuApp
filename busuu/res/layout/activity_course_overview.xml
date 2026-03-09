@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_course_overview" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/background" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.core.widget.NestedScrollView android:id="@id/bottom_sheet" android:background="?colorSurfaceBackground" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_hideable="true" app:behavior_peekHeight="500.0dp" app:layout_behavior="@string/bottom_sheet_behavior">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/languages_recyclerview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+            <FrameLayout android:id="@id/loading_view" android:layout_width="match_parent" android:layout_height="500.0dp">
+                <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+            </FrameLayout>
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/busuu_white_background_alt" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:alpha="0.0" android:elevation="@dimen/generic_elevation_small" app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextColor="@color/text_blue" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

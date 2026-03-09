@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.busuu.android.exercises.view.FeedbackAreaView android:layout_gravity="bottom" android:id="@id/feedback_area" android:background="@drawable/background_white_top_rounded_corners" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_big"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

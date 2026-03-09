@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/grammar_table_tip_cell" android:stretchColumns="*" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

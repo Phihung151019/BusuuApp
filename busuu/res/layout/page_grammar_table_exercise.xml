@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardElevation="4.0dp" app:cardUseCompatPadding="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/tableRootLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextWeight.Regular" android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/busuu_black_lite" android:layout_gravity="center" android:id="@id/header" android:paddingLeft="@dimen/generic_spacing_medium" android:paddingRight="@dimen/generic_spacing_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_spacing_tiny" />
+            <TextView android:textSize="@dimen/textSizeMedium" android:layout_gravity="center" android:id="@id/header_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_small" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

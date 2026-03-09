@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include app:layout_constraintTop_toTopOf="parent" layout="@layout/include_toolbar" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/correct_others_bottom_bar" app:layout_constraintTop_toBottomOf="@id/toolbar">
+            <com.busuu.android.base_ui.view.ShimmerContainerView android:layout_gravity="center|top" android:id="@id/shimmer_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:itemCount="1" app:shimerLayout="@layout/include_fragment_help_others_details_exercise_loader" />
+            <com.busuu.android.base_ui.view.fixed.FixLinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/social_details_exercise_content" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.busuu.android.base_ui.view.BusuuSwipeRefreshLayout android:id="@id/swipe_refresh" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/social_details_corrections_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </com.busuu.android.base_ui.view.BusuuSwipeRefreshLayout>
+            </com.busuu.android.base_ui.view.fixed.FixLinearLayout>
+        </FrameLayout>
+        <include android:layout_gravity="bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bottom_bar_height" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/correct_others_conversation_banner" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

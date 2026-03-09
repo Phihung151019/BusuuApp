@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_body_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:text="@string/tap_on_the_text_to_correct_it" />
+    <com.busuu.android.social.correct.view.GreenCorrectionEditText android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:gravity="left|top" android:id="@id/written_correction_view" android:background="?colorSurfaceElevated" android:paddingLeft="@dimen/generic_spacing_medium" android:paddingTop="@dimen/generic_spacing_10" android:paddingRight="@dimen/generic_spacing_medium" android:paddingBottom="@dimen/generic_spacing_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium" android:layout_marginBottom="@dimen/generic_spacing_medium_large" android:minHeight="100.0dp" android:inputType="textCapSentences|textMultiLine|textNoSuggestions" />
+</LinearLayout>

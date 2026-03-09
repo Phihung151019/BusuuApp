@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/loading_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="280.0dp">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:progressDrawable="@drawable/progress_bar_rounded" android:indeterminateTint="@color/blue" style="?android:progressBarStyleLarge" />
+        <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:id="@id/messageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_16" android:text="@string/sending_conversation" android:textAlignment="center" />
+    </LinearLayout>
+</FrameLayout>

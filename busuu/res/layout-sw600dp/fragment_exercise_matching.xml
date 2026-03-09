@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/progress_switcher" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/generic_spacing_large" android:paddingRight="@dimen/generic_spacing_large" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:animateLayoutChanges="true">
+            <TextView android:textSize="@dimen/textSize18" android:textColor="@color/busuu_blue" android:id="@id/exercise_translation_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:text="@string/exercise_translation_title" style="@style/ExerciseInstruction" />
+            <RelativeLayout android:id="@id/exercise_translation_drag_and_drop_area" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="@dimen/exercise_matching_draggable_area_margin_top" android:layout_marginBottom="@dimen/exercise_matching_draggable_area_margin_top" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/generic_spacing_xhuge">
+                <Space android:id="@id/input_views_right_alignment" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_alignParentRight="true" />
+                <Space android:id="@id/target_views_left_alignment" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <include layout="@layout/include_exercise_continue_button" />
+    </LinearLayout>
+</ScrollView>

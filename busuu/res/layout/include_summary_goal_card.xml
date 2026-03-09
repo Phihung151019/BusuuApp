@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/goal_card_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_spacing_medium_large" android:layout_marginEnd="@dimen/generic_spacing_medium_large" app:cardBackgroundColor="?colorSurfaceElevated" app:cardCornerRadius="@dimen/generic_spacing_small_medium" app:cardElevation="@dimen/generic_elevation_tiny" app:layout_constraintBottom_toBottomOf="@id/background" app:layout_constraintTop_toBottomOf="@id/background"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/generic_spacing_medium_large" android:paddingEnd="@dimen/generic_spacing_medium_large">
+        <ImageView android:id="@id/motivation_image" android:layout_width="@dimen/icon_size_32" android:layout_height="@dimen/icon_size_32" android:src="@drawable/ic_reason_education" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+        <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:id="@id/motivation_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_large" android:layout_marginBottom="@dimen/generic_spacing_large" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

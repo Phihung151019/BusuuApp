@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/exerciseButtonContainer" android:background="@drawable/background_rectangle_white_rounded_2dp" android:layout_width="wrap_content" android:layout_height="@dimen/exercise_choice_button_height_small" android:layout_margin="@dimen/generic_spacing_tiny" android:stateListAnimator="@drawable/button_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textSizeMedium" android:gravity="center" android:id="@id/exerciseButtonText" android:paddingLeft="@dimen/generic_spacing_medium" android:paddingRight="@dimen/generic_spacing_medium" android:layout_width="wrap_content" android:layout_height="match_parent" />
+</FrameLayout>

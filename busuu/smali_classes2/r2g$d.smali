@@ -1,0 +1,378 @@
+.class public final Lr2g$d;
+.super Lsff;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation runtime Lad3;
+    c = "com.amplitude.android.Timeline$start$1$1"
+    f = "Timeline.kt"
+    l = {
+        0x29,
+        0x31,
+        0x32
+    }
+    m = "invokeSuspend"
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lr2g;->D()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lsff;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lkp2;",
+        "Lkotlin/coroutines/Continuation<",
+        "-",
+        "Lqrg;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\u008a@\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
+    }
+    d2 = {
+        "Lkp2;",
+        "Lqrg;",
+        "<anonymous>",
+        "(Lkp2;)V"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public j:Ljava/lang/Object;
+
+.field public k:I
+
+.field public final synthetic l:Lie;
+
+.field public final synthetic m:Lr2g;
+
+
+# direct methods
+.method public constructor <init>(Lie;Lr2g;Lkotlin/coroutines/Continuation;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lie;",
+            "Lr2g;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lr2g$d;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lr2g$d;->l:Lie;
+
+    iput-object p2, p0, Lr2g$d;->m:Lr2g;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p3}, Lsff;-><init>(ILkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lkotlin/coroutines/Continuation<",
+            "*>;)",
+            "Lkotlin/coroutines/Continuation<",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance p1, Lr2g$d;
+
+    iget-object v0, p0, Lr2g$d;->l:Lie;
+
+    iget-object v1, p0, Lr2g$d;->m:Lr2g;
+
+    invoke-direct {p1, v0, v1, p2}, Lr2g$d;-><init>(Lie;Lr2g;Lkotlin/coroutines/Continuation;)V
+
+    return-object p1
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lkp2;
+
+    check-cast p2, Lkotlin/coroutines/Continuation;
+
+    invoke-virtual {p0, p1, p2}, Lr2g$d;->invoke(Lkp2;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invoke(Lkp2;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkp2;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lqrg;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    invoke-virtual {p0, p1, p2}, Lr2g$d;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+
+    move-result-object p1
+
+    check-cast p1, Lr2g$d;
+
+    sget-object p2, Lqrg;->a:Lqrg;
+
+    invoke-virtual {p1, p2}, Lr2g$d;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 10
+
+    invoke-static {}, Lxe7;->f()Ljava/lang/Object;
+
+    move-result-object v0
+
+    iget v1, p0, Lr2g$d;->k:I
+
+    const/4 v2, 0x3
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x1
+
+    if-eqz v1, :cond_4
+
+    if-eq v1, v4, :cond_3
+
+    if-eq v1, v3, :cond_2
+
+    if-ne v1, v2, :cond_1
+
+    iget-object v1, p0, Lr2g$d;->j:Ljava/lang/Object;
+
+    check-cast v1, Lci1;
+
+    invoke-static {p1}, Lwqc;->b(Ljava/lang/Object;)V
+
+    :cond_0
+    move-object p1, v1
+
+    goto/16 :goto_1
+
+    :cond_1
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_2
+    iget-object v1, p0, Lr2g$d;->j:Ljava/lang/Object;
+
+    check-cast v1, Lci1;
+
+    invoke-static {p1}, Lwqc;->b(Ljava/lang/Object;)V
+
+    goto/16 :goto_2
+
+    :cond_3
+    invoke-static {p1}, Lwqc;->b(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_4
+    invoke-static {p1}, Lwqc;->b(Ljava/lang/Object;)V
+
+    iget-object p1, p0, Lr2g$d;->l:Lie;
+
+    invoke-virtual {p1}, Lie;->w()Lip3;
+
+    move-result-object p1
+
+    iput v4, p0, Lr2g$d;->k:I
+
+    invoke-interface {p1, p0}, Lip3;->await(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v0, :cond_5
+
+    goto/16 :goto_3
+
+    :cond_5
+    :goto_0
+    iget-object p1, p0, Lr2g$d;->m:Lr2g;
+
+    invoke-static {p1}, Lr2g;->j(Lr2g;)Ljava/lang/Long;
+
+    move-result-object p1
+
+    if-nez p1, :cond_6
+
+    iget-object p1, p0, Lr2g$d;->m:Lr2g;
+
+    invoke-static {p1}, Lr2g;->k(Lr2g;)Ljava/util/concurrent/atomic/AtomicLong;
+
+    move-result-object p1
+
+    iget-object v1, p0, Lr2g$d;->m:Lr2g;
+
+    iget-object v4, p0, Lr2g$d;->l:Lie;
+
+    invoke-virtual {v4}, Lie;->s()Lcom/amplitude/core/Storage;
+
+    move-result-object v4
+
+    sget-object v5, Lcom/amplitude/core/Storage$Constants;->PREVIOUS_SESSION_ID:Lcom/amplitude/core/Storage$Constants;
+
+    const-wide/16 v6, -0x1
+
+    invoke-static {v1, v4, v5, v6, v7}, Lr2g;->n(Lr2g;Lcom/amplitude/core/Storage;Lcom/amplitude/core/Storage$Constants;J)J
+
+    move-result-wide v4
+
+    invoke-virtual {p1, v4, v5}, Ljava/util/concurrent/atomic/AtomicLong;->set(J)V
+
+    :cond_6
+    iget-object p1, p0, Lr2g$d;->m:Lr2g;
+
+    iget-object v1, p0, Lr2g$d;->l:Lie;
+
+    invoke-virtual {v1}, Lie;->s()Lcom/amplitude/core/Storage;
+
+    move-result-object v1
+
+    sget-object v4, Lcom/amplitude/core/Storage$Constants;->LAST_EVENT_ID:Lcom/amplitude/core/Storage$Constants;
+
+    const-wide/16 v5, 0x0
+
+    invoke-static {p1, v1, v4, v5, v6}, Lr2g;->n(Lr2g;Lcom/amplitude/core/Storage;Lcom/amplitude/core/Storage$Constants;J)J
+
+    move-result-wide v7
+
+    invoke-static {p1, v7, v8}, Lr2g;->p(Lr2g;J)V
+
+    iget-object p1, p0, Lr2g$d;->m:Lr2g;
+
+    iget-object v1, p0, Lr2g$d;->l:Lie;
+
+    invoke-virtual {v1}, Lie;->s()Lcom/amplitude/core/Storage;
+
+    move-result-object v1
+
+    sget-object v4, Lcom/amplitude/core/Storage$Constants;->LAST_EVENT_TIME:Lcom/amplitude/core/Storage$Constants;
+
+    invoke-static {p1, v1, v4, v5, v6}, Lr2g;->n(Lr2g;Lcom/amplitude/core/Storage;Lcom/amplitude/core/Storage$Constants;J)J
+
+    move-result-wide v4
+
+    invoke-static {p1, v4, v5}, Lr2g;->q(Lr2g;J)V
+
+    iget-object p1, p0, Lr2g$d;->m:Lr2g;
+
+    invoke-static {p1}, Lr2g;->h(Lr2g;)Lrh1;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Ljcc;->iterator()Lci1;
+
+    move-result-object p1
+
+    :goto_1
+    iput-object p1, p0, Lr2g$d;->j:Ljava/lang/Object;
+
+    iput v3, p0, Lr2g$d;->k:I
+
+    invoke-interface {p1, p0}, Lci1;->b(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    if-ne v1, v0, :cond_7
+
+    goto :goto_3
+
+    :cond_7
+    move-object v9, v1
+
+    move-object v1, p1
+
+    move-object p1, v9
+
+    :goto_2
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_8
+
+    invoke-interface {v1}, Lci1;->next()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lal4;
+
+    iget-object v4, p0, Lr2g$d;->m:Lr2g;
+
+    iput-object v1, p0, Lr2g$d;->j:Ljava/lang/Object;
+
+    iput v2, p0, Lr2g$d;->k:I
+
+    invoke-static {v4, p1, p0}, Lr2g;->m(Lr2g;Lal4;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v0, :cond_0
+
+    :goto_3
+    return-object v0
+
+    :cond_8
+    sget-object p1, Lqrg;->a:Lqrg;
+
+    return-object p1
+.end method

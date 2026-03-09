@@ -1,0 +1,64 @@
+.class public final Ly9n;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lxxp;
+
+
+# instance fields
+.field public final a:Lnyp;
+
+.field public final b:Lnyp;
+
+
+# direct methods
+.method public constructor <init>(Lnyp;Lnyp;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Ly9n;->a:Lnyp;
+
+    iput-object p2, p0, Ly9n;->b:Lnyp;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lx9n;
+    .locals 3
+
+    iget-object v0, p0, Ly9n;->a:Lnyp;
+
+    check-cast v0, Lhnl;
+
+    invoke-virtual {v0}, Lhnl;->a()Landroid/content/Context;
+
+    move-result-object v0
+
+    iget-object v1, p0, Ly9n;->b:Lnyp;
+
+    invoke-interface {v1}, Lnyp;->zzb()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/concurrent/ScheduledExecutorService;
+
+    new-instance v2, Lx9n;
+
+    invoke-direct {v2, v0, v1}, Lx9n;-><init>(Landroid/content/Context;Ljava/util/concurrent/ScheduledExecutorService;)V
+
+    return-object v2
+.end method
+
+.method public final bridge synthetic zzb()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Ly9n;->a()Lx9n;
+
+    move-result-object v0
+
+    return-object v0
+.end method

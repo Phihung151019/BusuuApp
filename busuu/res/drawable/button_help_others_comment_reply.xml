@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:insetBottom="2.0dp">
+            <selector>
+                <item android:state_pressed="true">
+                    <layer-list>
+                        <item>
+                            <shape android:shape="rectangle">
+                                <corners android:radius="@dimen/generic_spacing_xxlarge" />
+                                <solid android:color="@color/busuu_grey" />
+                            </shape>
+                        </item>
+                        <item android:left="31.0dp" android:top="10.0dp" android:right="31.0dp" android:bottom="10.0dp">
+                            <bitmap android:gravity="center" android:src="@drawable/ic_comment_reply_arrow" android:tileMode="disabled" />
+                        </item>
+                    </layer-list>
+                </item>
+                <item android:state_selected="false">
+                    <layer-list>
+                        <item>
+                            <shape android:shape="rectangle">
+                                <corners android:radius="@dimen/generic_spacing_xxlarge" />
+                                <solid android:color="@color/busuu_grey_lite" />
+                            </shape>
+                        </item>
+                        <item android:left="31.0dp" android:top="10.0dp" android:right="31.0dp" android:bottom="10.0dp">
+                            <bitmap android:gravity="center" android:src="@drawable/ic_comment_reply_arrow" android:tileMode="disabled" />
+                        </item>
+                    </layer-list>
+                </item>
+            </selector>
+        </inset>
+    </item>
+</layer-list>

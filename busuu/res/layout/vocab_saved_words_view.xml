@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/icon_size_56" android:layout_height="@dimen/icon_size_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:background="@drawable/background_circle_white" android:layout_width="@dimen/icon_size_40" android:layout_height="@dimen/icon_size_40" android:elevation="@dimen/generic_elevation_small" />
+    <ImageView android:layout_gravity="center" android:id="@id/bg_vocab_item_save_vocab" android:padding="@dimen/generic_spacing_small_medium" android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:elevation="@dimen/generic_elevation_small" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/vocab_item_save_vocab" android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:elevation="@dimen/generic_elevation_small" app:lottie_fileName="lottie/bookmark_animation.json" />
+</FrameLayout>

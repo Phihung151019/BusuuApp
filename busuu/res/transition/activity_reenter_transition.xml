@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition android:interpolator="@android:interpolator/linear_out_slow_in" android:duration="100" android:fadingMode="fade_in" android:startDelay="250" class="com.busuu.android.base_ui.animation.VisibilityTransition"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

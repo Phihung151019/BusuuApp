@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/streak_icon" android:paddingTop="@dimen/generic_2" android:layout_width="@dimen/badge_icon_padding" android:layout_height="@dimen/badge_icon_padding" android:layout_marginRight="@dimen/generic_6" android:src="@drawable/ic_flame_toolbar" />
+    <TextView android:textSize="@dimen/textSize18" android:textColor="@color/accent_standard" android:gravity="end|center" android:id="@id/streak_text_counter" android:paddingTop="@dimen/generic_2" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/learn_toolbar_icons_top_margin" android:layout_marginEnd="@dimen/generic_8" />
+</LinearLayout>

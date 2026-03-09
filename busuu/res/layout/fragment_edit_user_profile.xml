@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?colorSurfaceBackground" android:paddingLeft="@dimen/preferences_padding" android:paddingRight="@dimen/preferences_padding" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/content_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/generic_spacing_small_medium" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_medium_large" android:text="@string/profile_account" style="@style/ListItemHeader" />
+                <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_name_row" android:background="?selectableItemBackground" android:padding="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_name" style="@style/PreferencesTitle" />
+                    <TextView android:id="@id/profile_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferencesSummary" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/edit_profile_photo_row" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/profile_photo" android:layout_weight="1.0" style="@style/PreferencesTitle" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/profile_image" android:layout_width="48.0dp" android:layout_height="48.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_about_me_row" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_me" style="@style/PreferencesTitle" />
+                <TextView android:id="@id/edit_profile_about_me" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/write_a_bit_about_yourself" style="@style/PreferencesSummary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:id="@id/edit_profile_email_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_email" style="@style/PreferencesTitle" />
+                <TextView android:id="@id/edit_profile_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="example@gmail.com" style="@style/PreferencesSummary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_country_row" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_country" style="@style/PreferencesTitle" />
+                <TextView android:id="@id/edit_profile_country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/ie_united_kingdom" style="@style/PreferencesSummary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_city_row" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/city" style="@style/PreferencesTitle" />
+                <TextView android:id="@id/edit_profile_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/ie_london" style="@style/PreferencesSummary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_spoken_languages_row" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_others_i_speak_title" style="@style/PreferencesTitle" />
+                <TextView android:id="@id/edit_spoken_languages" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferencesSummary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/take_placement_test_row" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/PreferencesRow">
+                <TextView android:id="@id/placement_test_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferencesTitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/study_plan_row" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/PreferencesRow">
+                <TextView android:id="@id/study_plan_onboarding_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/study_plan_settings_title" style="@style/PreferencesTitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/subscription_row" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_medium_large" android:text="@string/premium_subscription" style="@style/ListItemHeader" />
+                <LinearLayout android:orientation="vertical" android:id="@id/manage_subscription_row" android:background="?selectableItemBackground" android:padding="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/manage_subscription" style="@style/PreferencesTitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@drawable/divider_black_alpha_15" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="@dimen/generic_spacing_medium_large" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_medium_large" android:text="@string/general" style="@style/ListItemHeader" />
+                <LinearLayout android:orientation="vertical" android:id="@id/edit_notifications_row" android:background="?selectableItemBackground" android:padding="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notifications" style="@style/PreferencesTitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_interface_language_row" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/interface_language" style="@style/PreferencesTitle" />
+                <TextView android:id="@id/edit_interface_language" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferencesSummary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/dark_mode_row" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dark_mode" style="@style/PreferencesTitle" />
+                <TextView android:id="@id/dark_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferencesSummary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_clear_lesson_row" android:background="?selectableItemBackground" android:padding="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:stateListAnimator="@drawable/button_elevation">
+                    <TextView android:id="@id/edit_profile_clear_lesson_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_user_profile_fragment_offline_mode_header" style="@style/PreferencesTitle" />
+                    <TextView android:id="@id/edit_profile_lesson_data" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferencesSummary" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:text="@string/edit_user_profile_fragment_offline_mode_description" style="@style/PreferencesSummary" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_it_works" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:textAppearance="@style/TextWeight.RobotoMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/section_efficacy_study" style="@style/PreferencesTitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/open_terms_of_service" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/terms_of_service" style="@style/PreferencesTitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_contact_us" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_help_title" style="@style/PreferencesTitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/open_privacy_policy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_settings" style="@style/PreferencesTitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_logout" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:textColor="@color/busuu_red_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_out" style="@style/PreferencesTitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_redeem_voucher_row" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_voucher" style="@style/PreferencesTitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_profile_naranya_unsubscribe_info_row" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/naranya_unsubscribe_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Para atención a clientes o dar de baja el servicio envía BUSUUBAJA a la marcación 3199 desde tu Claro o un correo electrónico a info@naranya.net" style="@style/PreferencesSummary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/delete_account_row" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:textColor="@color/busuu_red_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_account" style="@style/PreferencesTitle" />
+            </LinearLayout>
+            <View android:background="@drawable/divider_black_alpha_15" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="@dimen/generic_spacing_medium_large" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PreferencesRow">
+                <TextView android:layout_gravity="center" android:id="@id/edit_profile_app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferencesSummary" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include layout="@layout/include_progressbar" />
+</FrameLayout>

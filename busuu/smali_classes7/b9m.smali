@@ -1,0 +1,42 @@
+.class public final Lb9m;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lxxp;
+
+
+# instance fields
+.field public final a:Lnyp;
+
+
+# direct methods
+.method public constructor <init>(Lnyp;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lb9m;->a:Lnyp;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic zzb()Ljava/lang/Object;
+    .locals 2
+
+    iget-object v0, p0, Lb9m;->a:Lnyp;
+
+    check-cast v0, Llyp;
+
+    invoke-virtual {v0}, Llyp;->b()Ljava/util/Set;
+
+    move-result-object v0
+
+    new-instance v1, La9m;
+
+    invoke-direct {v1, v0}, La9m;-><init>(Ljava/util/Set;)V
+
+    return-object v1
+.end method

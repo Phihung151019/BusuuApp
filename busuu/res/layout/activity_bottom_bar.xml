@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fragment_content_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/bottom_bar_height_with_shadow" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="bottom" android:id="@id/bottom_bar" android:background="?colorSurfaceElevated" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_xxbig" app:itemIconTint="@drawable/bottom_bar_item_selector" app:itemRippleColor="@color/busuu_blue" app:itemTextColor="@drawable/bottom_bar_item_selector" app:labelVisibilityMode="selected" app:menu="@menu/bottom_bar_menu" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize" style="@style/Widget.AppCompat.ProgressBar" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

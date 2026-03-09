@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.busuu.android.base_ui.view.TextViewWithIcon android:textAppearance="@style/TextWeight.Regular" android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:layout_marginBottom="@dimen/generic_spacing_medium_large" android:lineSpacingExtra="8.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

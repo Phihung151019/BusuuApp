@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:gravity="start|top" android:id="@id/answer" android:background="@drawable/background_rounded_white_with_border_line_grey" android:paddingLeft="@dimen/generic_spacing_medium" android:paddingTop="@dimen/generic_spacing_10" android:paddingRight="@dimen/generic_spacing_medium" android:paddingBottom="@dimen/generic_spacing_10" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:layout_marginBottom="@dimen/generic_spacing_medium_large" android:minHeight="100.0dp" android:hint="@string/writing_language" android:inputType="textCapSentences|textMultiLine|textNoSuggestions" />
+</LinearLayout>

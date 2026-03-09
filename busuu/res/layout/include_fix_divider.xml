@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.busuu.android.base_ui.view.fixed.FixView android:layout_gravity="center" android:background="@color/black_15_alpha" android:layout_width="match_parent" android:layout_height="1.0dp" app:maxWidth="@dimen/layout_max_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

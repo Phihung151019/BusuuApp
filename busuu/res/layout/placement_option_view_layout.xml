@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="?selectableItemBackground" android:padding="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/placement_option_view_icon_start" android:layout_width="@dimen/icon_size_32" android:layout_height="@dimen/icon_size_32" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_right_arrow_no_body" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="@dimen/match_constraint" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/placement_option_view_icon_end" app:layout_constraintStart_toEndOf="@id/placement_option_view_icon_start" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:id="@id/placement_option_view_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_spacing_medium_large" />
+        <TextView android:id="@id/placement_option_view_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_2" android:layout_marginStart="@dimen/generic_spacing_medium_large" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/placement_option_view_icon_end" android:visibility="gone" android:layout_width="@dimen/icon_size_16" android:layout_height="@dimen/icon_size_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

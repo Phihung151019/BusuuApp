@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/stats_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/bottom_bar_height" />
+        <include android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_xxxlarge" layout="@layout/fragment_offline" />
+        <include android:layout_gravity="center|top" android:id="@id/loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_xlarge" layout="@layout/include_progressbar" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

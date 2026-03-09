@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/daily_goal_view_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="@dimen/learn_toolbar_height" android:layout_marginEnd="@dimen/learn_toolbar_end_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.legacy_ui.toolbar.StreaksView android:id="@id/streak_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/generic_4" />
+    <com.legacy_ui.toolbar.PointsTallyView android:id="@id/points_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/generic_8" />
+    <com.legacy_ui.toolbar.LeagueBadgeView android:layout_gravity="center" android:id="@id/leaderboard_badge_holder" android:paddingTop="@dimen/generic_4" android:layout_width="@dimen/league_badge_width" android:layout_height="@dimen/league_badge_height" />
+    <com.legacy_ui.toolbar.NotificationView android:id="@id/notification_bell" android:paddingTop="@dimen/generic_6" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginEnd="@dimen/generic_8" />
+</LinearLayout>

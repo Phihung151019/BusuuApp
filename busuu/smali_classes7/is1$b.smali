@@ -1,0 +1,45 @@
+.class public Lis1$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkc1$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lis1;->n0(I)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lis1;
+
+
+# direct methods
+.method public constructor <init>(Lis1;)V
+    .locals 0
+
+    iput-object p1, p0, Lis1$b;->a:Lis1;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Landroid/graphics/Typeface;)V
+    .locals 1
+
+    iget-object v0, p0, Lis1$b;->a:Lis1;
+
+    invoke-virtual {v0, p1}, Lis1;->s0(Landroid/graphics/Typeface;)V
+
+    return-void
+.end method

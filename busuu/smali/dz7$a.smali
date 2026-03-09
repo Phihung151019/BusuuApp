@@ -1,0 +1,62 @@
+.class public final synthetic Ldz7$a;
+.super Lwrb;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Ldz7;->c(Le08;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)Lkotlin/jvm/functions/Function0;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1001
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 6
+
+    const-string v4, "getValue()Ljava/lang/Object;"
+
+    const/4 v5, 0x0
+
+    const-class v2, Lpre;
+
+    const-string v3, "value"
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    invoke-direct/range {v0 .. v5}, Lwrb;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public get()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lob1;->receiver:Ljava/lang/Object;
+
+    check-cast v0, Lpre;
+
+    invoke-interface {v0}, Lpre;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    return-object v0
+.end method

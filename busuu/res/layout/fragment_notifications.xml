@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/notification_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/bottom_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/include_toolbar" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.busuu.android.base_ui.view.BusuuSwipeRefreshLayout android:id="@id/swiperefresh" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.busuu.android.purchase.banners.MerchBannerTimerView android:id="@id/merchandise_banner_timer" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_small" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/notificationsList" android:scrollbars="vertical" android:clipChildren="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/merchandise_banner_timer" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.busuu.android.base_ui.view.BusuuSwipeRefreshLayout>
+        <com.busuu.android.base_ui.view.ShimmerContainerView android:orientation="vertical" android:id="@id/notifications_shimmer_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:shimerLayout="@layout/notifications_shimmer" />
+        <include layout="@layout/include_offline_error" />
+    </FrameLayout>
+</LinearLayout>

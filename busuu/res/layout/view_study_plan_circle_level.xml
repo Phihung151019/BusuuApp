@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_body_text" android:gravity="center" android:id="@id/background" android:background="@drawable/background_circle_white" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/generic_spacing_2" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/selected" android:background="@drawable/background_circle_blue" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/generic_spacing_2" />
+</FrameLayout>

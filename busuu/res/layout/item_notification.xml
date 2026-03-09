@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground">
+        <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dp">
+            <ImageView android:id="@id/avatar" android:layout_width="40.0dp" android:layout_height="40.0dp" />
+            <TextView android:textAppearance="@style/TextWeight.Regular" android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/white" android:id="@id/discountText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextWeight.Regular" android:textSize="@dimen/textSizeMediumLarge" android:textColor="?android:textColor" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/notificationText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="1.5sp" />
+            <TextView android:textColor="@color/text_body_text" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/notificationTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" style="@style/MaterialListItemTextSecondary" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/dividerView" android:background="@color/black_15_alpha" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="72.0dp" />
+</LinearLayout>

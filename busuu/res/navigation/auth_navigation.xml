@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/main_navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.busuu.android.signup.login.LoginSocialFragment" android:id="@id/fragmentLogin">
+        <action android:id="@id/action_navigation_web_auth_login" app:destination="@id/fragmentWebAuthentication" />
+    </fragment>
+    <fragment android:name="com.busuu.android.signup.register.RegistrationSocialFragment" android:id="@id/fragmentRegistration">
+        <action android:id="@id/action_navigation_web_auth_registration" app:destination="@id/fragmentWebAuthentication" />
+    </fragment>
+    <fragment android:name="com.busuu.android.signup.web.WebAuthenticationFragment" android:id="@id/fragmentWebAuthentication">
+        <argument android:name="target" app:argType="string" />
+    </fragment>
+</navigation>

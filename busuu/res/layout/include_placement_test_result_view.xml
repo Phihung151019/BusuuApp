@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/level_view" android:background="@drawable/background_rounded_corners_grey_xlite_8dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?colorSurfaceBackground" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_marginStart="75.0dp" />
+    <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/levels_list" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/include_placement_test_result_item_inactive" />
+            <include layout="@layout/include_placement_test_result_item_active" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

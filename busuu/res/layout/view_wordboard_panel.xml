@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flow="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.busuu.android.exercises.dialogue.WordBoardLayoutView android:gravity="start" android:layout_gravity="start" android:id="@id/wordboard_layout" android:padding="@dimen/generic_spacing_medium" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale" app:alignContent="flex_start" app:alignItems="flex_start" app:dividerDrawable="@drawable/divider_missing_letters_spacing" app:elementSpacing="@dimen/generic_spacing_small_medium" app:flexWrap="wrap" app:justifyContent="flex_start" app:lineSpacing="@dimen/generic_spacing_medium" app:showDivider="middle" app:showDividerVertical="middle" />
+</LinearLayout>

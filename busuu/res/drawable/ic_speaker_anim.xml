@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$ic_speaker_anim__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="wave_small" android:animation="@drawable/$ic_speaker_anim__1" />
+    <target android:name="wave_big" android:animation="@drawable/$ic_speaker_anim__2" />
+</animated-vector>

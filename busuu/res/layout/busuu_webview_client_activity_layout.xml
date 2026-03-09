@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white_background" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/white_background" android:layout_width="match_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/ic_back_arrow_black" app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:theme="@style/ToolbarStyleBlack" style="@style/ToolbarStyleBlack">
+        <TextView android:textColor="@color/text_title_black" android:id="@id/toolbar_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foregroundGravity="center" android:alpha="1.0" style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/busuu_webview_client_webview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+        <include layout="@layout/include_progressbar" />
+    </FrameLayout>
+</LinearLayout>

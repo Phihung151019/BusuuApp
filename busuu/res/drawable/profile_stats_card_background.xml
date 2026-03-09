@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true" android:enterFadeDuration="120" android:exitFadeDuration="120"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?colorSurfaceElevated" />
+            <corners android:radius="@dimen/profile_stats_card_radius" />
+        </shape>
+    </item>
+</selector>

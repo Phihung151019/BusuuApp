@@ -1,0 +1,129 @@
+.class public final Lql9$c$b;
+.super Lap7;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lql9$c;->a(Ljava/lang/String;Landroidx/compose/runtime/Composer;I)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lap7;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Landroidx/compose/runtime/Composer;",
+        "Ljava/lang/Integer;",
+        "Lqrg;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Lwk9;
+
+
+# direct methods
+.method public constructor <init>(Lwk9;)V
+    .locals 0
+
+    iput-object p1, p0, Lql9$c$b;->g:Lwk9;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1}, Lap7;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Landroidx/compose/runtime/Composer;
+
+    check-cast p2, Ljava/lang/Number;
+
+    invoke-virtual {p2}, Ljava/lang/Number;->intValue()I
+
+    move-result p2
+
+    invoke-virtual {p0, p1, p2}, Lql9$c$b;->invoke(Landroidx/compose/runtime/Composer;I)V
+
+    sget-object p1, Lqrg;->a:Lqrg;
+
+    return-object p1
+.end method
+
+.method public final invoke(Landroidx/compose/runtime/Composer;I)V
+    .locals 2
+
+    and-int/lit8 p2, p2, 0xb
+
+    const/4 v0, 0x2
+
+    if-ne p2, v0, :cond_1
+
+    invoke-interface {p1}, Landroidx/compose/runtime/Composer;->b()Z
+
+    move-result p2
+
+    if-nez p2, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-interface {p1}, Landroidx/compose/runtime/Composer;->o()V
+
+    return-void
+
+    :cond_1
+    :goto_0
+    iget-object p2, p0, Lql9$c$b;->g:Lwk9;
+
+    invoke-virtual {p2}, Lwk9;->e()Lfl9;
+
+    move-result-object p2
+
+    const-string v0, "null cannot be cast to non-null type androidx.navigation.compose.ComposeNavigator.Destination"
+
+    invoke-static {p2, v0}, Lve7;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast p2, Lt62$b;
+
+    invoke-virtual {p2}, Lt62$b;->k0()Lkotlin/jvm/functions/Function3;
+
+    move-result-object p2
+
+    iget-object v0, p0, Lql9$c$b;->g:Lwk9;
+
+    const/16 v1, 0x8
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-interface {p2, v0, p1, v1}, Lkotlin/jvm/functions/Function3;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method

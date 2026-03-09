@@ -1,0 +1,141 @@
+.class public final Locj;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Loln;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Loln;
+
+    const/16 v1, 0xa
+
+    invoke-direct {v0, v1}, Loln;-><init>(I)V
+
+    iput-object v0, p0, Locj;->a:Loln;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Llbj;Lbhj;)Lkqk;
+    .locals 7
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    move v2, v1
+
+    :goto_0
+    :try_start_0
+    iget-object v3, p0, Locj;->a:Loln;
+
+    invoke-virtual {v3}, Loln;->m()[B
+
+    move-result-object v3
+
+    move-object v4, p1
+
+    check-cast v4, Lkaj;
+
+    const/16 v5, 0xa
+
+    invoke-virtual {v4, v3, v1, v5, v1}, Lkaj;->t([BIIZ)Z
+    :try_end_0
+    .catch Ljava/io/EOFException; {:try_start_0 .. :try_end_0} :catch_0
+
+    iget-object v3, p0, Locj;->a:Loln;
+
+    invoke-virtual {v3, v1}, Loln;->k(I)V
+
+    iget-object v3, p0, Locj;->a:Loln;
+
+    invoke-virtual {v3}, Loln;->D()I
+
+    move-result v3
+
+    const v4, 0x494433
+
+    if-eq v3, v4, :cond_0
+
+    goto :goto_2
+
+    :cond_0
+    iget-object v3, p0, Locj;->a:Loln;
+
+    const/4 v4, 0x3
+
+    invoke-virtual {v3, v4}, Loln;->l(I)V
+
+    iget-object v3, p0, Locj;->a:Loln;
+
+    invoke-virtual {v3}, Loln;->A()I
+
+    move-result v3
+
+    add-int/lit8 v4, v3, 0xa
+
+    if-nez v0, :cond_1
+
+    new-array v0, v4, [B
+
+    iget-object v6, p0, Locj;->a:Loln;
+
+    invoke-virtual {v6}, Loln;->m()[B
+
+    move-result-object v6
+
+    invoke-static {v6, v1, v0, v1, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    move-object v6, p1
+
+    check-cast v6, Lkaj;
+
+    invoke-virtual {v6, v0, v5, v3, v1}, Lkaj;->t([BIIZ)Z
+
+    new-instance v3, Lsfj;
+
+    invoke-direct {v3}, Lsfj;-><init>()V
+
+    invoke-static {v0, v4, p2, v3}, Ldhj;->a([BILbhj;Lsfj;)Lkqk;
+
+    move-result-object v0
+
+    goto :goto_1
+
+    :cond_1
+    move-object v5, p1
+
+    check-cast v5, Lkaj;
+
+    invoke-virtual {v5, v3, v1}, Lkaj;->d(IZ)Z
+
+    :goto_1
+    add-int/2addr v2, v4
+
+    goto :goto_0
+
+    :catch_0
+    :goto_2
+    invoke-interface {p1}, Llbj;->zzj()V
+
+    check-cast p1, Lkaj;
+
+    invoke-virtual {p1, v2, v1}, Lkaj;->d(IZ)Z
+
+    return-object v0
+.end method

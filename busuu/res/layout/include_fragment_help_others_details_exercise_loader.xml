@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.busuu.android.base_ui.view.fixed.FixLinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:background="?colorSurfaceBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/generic_spacing_medium_large" android:paddingRight="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large">
+        <com.facebook.shimmer.ShimmerFrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/social_avatar" android:layout_height="@dimen/social_avatar" android:src="@drawable/user_avatar_placeholder" />
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:background="@color/busuu_grey_lite" android:layout_width="134.0dp" android:layout_height="14.0dp" android:layout_marginTop="2.0dp" android:layout_marginStart="@dimen/generic_spacing_medium_large" style="@style/SocialUsername" />
+                    <TextView android:gravity="center_vertical" android:background="@color/busuu_grey_lite" android:layout_width="97.0dp" android:layout_height="12.0dp" android:layout_marginTop="8.0dp" android:layout_marginStart="@dimen/generic_spacing_medium_large" style="@style/SocialUserCountry" />
+                </RelativeLayout>
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/background_rounded_white_with_border_line_grey" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/social_image_height" />
+            <View android:background="@color/busuu_grey_lite" android:layout_width="match_parent" android:layout_height="1.0dp" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/text_title_dark" android:background="@color/busuu_grey_lite" android:padding="@dimen/generic_spacing_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </LinearLayout>
+        <com.facebook.shimmer.ShimmerFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dp">
+            <TextView android:gravity="center_vertical" android:background="@color/busuu_grey_lite" android:paddingLeft="@dimen/generic_spacing_medium_large" android:paddingRight="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="12.0dp" />
+            <TextView android:gravity="center_vertical" android:background="@color/busuu_grey_lite" android:layout_width="match_parent" android:layout_height="12.0dp" android:layout_marginTop="24.0dp" android:paddingStart="@dimen/generic_spacing_medium_large" android:layout_marginEnd="134.0dp" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+</com.busuu.android.base_ui.view.fixed.FixLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="@dimen/social_comment_actions_container_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/social_thumbsup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/button_min_height_small" style="@style/SocialActionThumbsupButton" />
+    <Button android:id="@id/social_thumbsdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/button_min_height_small" style="@style/SocialActionThumbsdownButton" />
+    <Button android:id="@id/social_reply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/button_min_height_small" style="@style/SocialActionReply" />
+</LinearLayout>

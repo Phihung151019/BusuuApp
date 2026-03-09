@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/busuu_grey_lite" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/busuu_blue" android:id="@id/social_see_all_replies_text" android:layout_width="match_parent" android:layout_height="44.0dp" android:layout_margin="0.0dp" android:text="@string/see_all_replies" style="@style/SelectableButton" />
+</LinearLayout>

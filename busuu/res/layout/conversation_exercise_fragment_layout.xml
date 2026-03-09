@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_gravity="top" android:id="@id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <com.busuu.android.base_ui.view.fixed.FixLinearLayout android:orientation="vertical" android:padding="@dimen/generic_spacing_medium_large" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/audio_view_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/instruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" android:text="@string/weekly_challenge_speak_title" style="@style/InstructionComponent" />
+                <com.busuu.android.exercises.view.ExerciseImageAudioView android:id="@id/image_player" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium_large" />
+                <TextView android:id="@id/description_audio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_16" style="@style/EntityTextComponent" />
+            </LinearLayout>
+            <androidx.cardview.widget.CardView android:id="@id/content_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_16" android:text="@string/complete_conversation_exercise" android:fontFamily="@font/bw_nista_grotesk_bold" android:textFontWeight="700" />
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/images" android:layout_width="match_parent" android:layout_height="@dimen/writing_one_two_picture_max_height" />
+                    <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/text_title_dark" android:layout_gravity="center" android:id="@id/instructions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_medium" />
+                    <View android:background="@color/black_10_alpha" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/hintLayout" android:padding="@dimen/generic_spacing_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:layout_marginStart="@dimen/generic_spacing_medium" android:layout_marginEnd="@dimen/generic_spacing_medium" android:elevation="@dimen/button_elevation" android:stateListAnimator="@drawable/button_elevation">
+                        <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:id="@id/hintText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_spacing_large" />
+                        <TextView android:textAppearance="@style/TextWeight.RobotoMedium" android:textSize="@dimen/textSizeMedium" android:textColor="@color/busuu_blue" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/hintAction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_spacing_small" android:text="@string/show_hint" android:textAllCaps="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_spacing_xlarge">
+                <include android:layout_gravity="center_horizontal" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" layout="@layout/view_record_audio_controller" />
+                <include android:layout_gravity="center_horizontal" android:id="@id/conversation_answer_writing" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:layout_marginBottom="@dimen/generic_spacing_medium" layout="@layout/include_writing_exercise_answer" />
+                <include android:layout_gravity="center_horizontal" android:id="@id/conversation_answer_choice" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:layout_marginBottom="@dimen/generic_spacing_medium" layout="@layout/include_conversation_exercise_choice" />
+            </FrameLayout>
+        </com.busuu.android.base_ui.view.fixed.FixLinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/writingController" android:background="@drawable/background_rounded_white_with_border_line_grey" android:padding="@dimen/generic_spacing_medium_large" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4.0dp">
+        <TextView android:textSize="@dimen/textSizeMedium" android:id="@id/wordCounter" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:id="@id/submit" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/send_disabled" />
+    </LinearLayout>
+    <com.busuu.android.base_ui.view.fixed.FixButton android:layout_gravity="center|bottom" android:id="@id/send" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_large" android:layout_marginBottom="@dimen/generic_spacing_large" android:text="@string/send" style="@style/BlueButton" />
+</FrameLayout>

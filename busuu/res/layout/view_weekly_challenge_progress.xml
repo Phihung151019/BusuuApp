@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/weekly_challenge_progress_bar" android:layout_width="@dimen/generic_spacing_50" android:layout_height="@dimen/generic_4" android:progressDrawable="@drawable/progress_bar_rounded_white" style="@android:style/Widget.ProgressBar.Horizontal" />
+</FrameLayout>

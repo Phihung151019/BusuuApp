@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/generic_spacing_xxxlarge" android:layout_marginTop="@dimen/generic_spacing_20"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/favourites_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?selectableItemBackground">
+        <ImageView android:background="@drawable/background_circle_busuu_blue" android:padding="@dimen/generic_spacing_small_medium" android:layout_width="@dimen/generic_spacing_32" android:layout_height="@dimen/generic_spacing_32" android:layout_marginStart="@dimen/generic_spacing_28" android:layout_marginEnd="@dimen/generic_spacing_28" app:srcCompat="@drawable/ic_bookmark" />
+        <TextView android:textSize="@dimen/textSize18" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/your_saved_words" android:drawableEnd="@drawable/ic_chevron_right_grey" android:paddingEnd="@dimen/generic_spacing_medium_large" style="@style/TextWeight.RobotoMedium" />
+    </LinearLayout>
+    <View android:background="@color/busuu_grey_lite" android:layout_width="match_parent" android:layout_height="@dimen/list_item_separator_1dp" android:layout_marginStart="@dimen/generic_spacing_88" app:layout_constraintTop_toBottomOf="@id/favourites_layout" />
+</LinearLayout>

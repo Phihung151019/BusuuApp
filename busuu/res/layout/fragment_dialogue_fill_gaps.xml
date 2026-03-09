@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/progress_switcher" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/dialogue_script" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottomLayout" android:background="?android:windowBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_big">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.busuu.android.exercises.dialogue.WordBoardPanelView android:id="@id/wordboardPanel" android:paddingLeft="@dimen/generic_spacing_medium_large" android:paddingRight="@dimen/generic_spacing_medium_large" android:paddingBottom="@dimen/generic_spacing_medium_large" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <com.busuu.android.exercises.view.TryAgainExerciseFeedbackAreaView android:layout_gravity="bottom" android:id="@id/try_again_feedback_area" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/generic_elevation_big" />
+                    <Button android:id="@id/submit_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/button_square_continue_height" android:text="@string/cta_submit" style="@style/BlueButton" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+</ViewSwitcher>

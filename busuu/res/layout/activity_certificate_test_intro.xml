@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="?actionBarSize" android:paddingBottom="@dimen/generic_spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/certificate_icon" android:layout_width="@dimen/icon_120_size" android:layout_height="@dimen/icon_120_size" android:src="@drawable/certificate_default" />
+            <com.busuu.android.base_ui.view.fixed.FixLinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_large" android:layout_marginStart="@dimen/generic_spacing_large" android:layout_marginEnd="@dimen/generic_spacing_large" app:maxWidth="@dimen/button_max_width">
+                <TextView android:textAppearance="@style/TextWeight.RobotoMedium" android:textSize="@dimen/textSizeLarge" android:textColor="@color/text_title_dark" android:layout_gravity="center" android:id="@id/levelName" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_body_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" android:text="@string/about_to_start_the_test" android:textAlignment="center" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_large">
+                    <View android:layout_gravity="center_vertical" android:background="@drawable/background_circle_black" android:layout_width="@dimen/generic_spacing_small" android:layout_height="@dimen/generic_spacing_small" />
+                    <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_body_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_takes_minutes" android:layout_marginStart="@dimen/generic_spacing_small_medium" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small_medium" android:layout_marginBottom="@dimen/generic_spacing_large">
+                    <View android:layout_gravity="center_vertical" android:background="@drawable/background_circle_black" android:layout_width="@dimen/generic_spacing_small" android:layout_height="@dimen/generic_spacing_small" />
+                    <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_body_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/take_test_only_once" android:layout_marginStart="@dimen/generic_spacing_small_medium" />
+                </LinearLayout>
+            </com.busuu.android.base_ui.view.fixed.FixLinearLayout>
+            <com.busuu.android.base_ui.view.fixed.FixButton android:textSize="@dimen/textSizeMedium" android:id="@id/certificateStartTestButton" android:layout_width="match_parent" android:layout_height="@dimen/button_min_height" android:text="@string/start_test" style="@style/BlueButton" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ToolbarStyleBlack" />
+</FrameLayout>

@@ -1,0 +1,245 @@
+.class public final Lb42;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final a:Lb42;
+
+.field public static b:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static c:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static d:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static e:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static f:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    new-instance v0, Lb42;
+
+    invoke-direct {v0}, Lb42;-><init>()V
+
+    sput-object v0, Lb42;->a:Lb42;
+
+    sget-object v0, Lb42$a;->a:Lb42$a;
+
+    const v1, 0x5e459673
+
+    const/4 v2, 0x0
+
+    invoke-static {v1, v2, v0}, Lz32;->c(IZLjava/lang/Object;)Lf32;
+
+    move-result-object v0
+
+    sput-object v0, Lb42;->b:Lkotlin/jvm/functions/Function2;
+
+    const v0, 0xbd9d34
+
+    sget-object v1, Lb42$b;->a:Lb42$b;
+
+    invoke-static {v0, v2, v1}, Lz32;->c(IZLjava/lang/Object;)Lf32;
+
+    move-result-object v0
+
+    sput-object v0, Lb42;->c:Lkotlin/jvm/functions/Function2;
+
+    const v0, -0x3151a3fd
+
+    sget-object v1, Lb42$c;->a:Lb42$c;
+
+    invoke-static {v0, v2, v1}, Lz32;->c(IZLjava/lang/Object;)Lf32;
+
+    move-result-object v0
+
+    sput-object v0, Lb42;->d:Lkotlin/jvm/functions/Function2;
+
+    const v0, 0x540cca2c
+
+    sget-object v1, Lb42$d;->a:Lb42$d;
+
+    invoke-static {v0, v2, v1}, Lz32;->c(IZLjava/lang/Object;)Lf32;
+
+    move-result-object v0
+
+    sput-object v0, Lb42;->e:Lkotlin/jvm/functions/Function2;
+
+    const v0, 0x76ef1027
+
+    sget-object v1, Lb42$e;->a:Lb42$e;
+
+    invoke-static {v0, v2, v1}, Lz32;->c(IZLjava/lang/Object;)Lf32;
+
+    move-result-object v0
+
+    sput-object v0, Lb42;->f:Lkotlin/jvm/functions/Function2;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lkotlin/jvm/functions/Function2;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Lb42;->b:Lkotlin/jvm/functions/Function2;
+
+    return-object v0
+.end method
+
+.method public final b()Lkotlin/jvm/functions/Function2;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Lb42;->c:Lkotlin/jvm/functions/Function2;
+
+    return-object v0
+.end method
+
+.method public final c()Lkotlin/jvm/functions/Function2;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Lb42;->d:Lkotlin/jvm/functions/Function2;
+
+    return-object v0
+.end method
+
+.method public final d()Lkotlin/jvm/functions/Function2;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Lb42;->e:Lkotlin/jvm/functions/Function2;
+
+    return-object v0
+.end method
+
+.method public final e()Lkotlin/jvm/functions/Function2;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Landroidx/compose/runtime/Composer;",
+            "Ljava/lang/Integer;",
+            "Lqrg;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Lb42;->f:Lkotlin/jvm/functions/Function2;
+
+    return-object v0
+.end method

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="al_exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="al_exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="chapters">
+        <item quantity="zero">@string/chapters_zero</item>
+        <item quantity="one">@string/chapters_one</item>
+        <item quantity="two">@string/chapters_two</item>
+        <item quantity="few">@string/chapters_few</item>
+        <item quantity="many">@string/chapters_many</item>
+        <item quantity="other">@string/chapters_other</item>
+    </plurals>
+    <plurals name="course_picker_free_lessons">
+        <item quantity="zero">@string/course_picker_free_lessons_zero</item>
+        <item quantity="one">@string/course_picker_free_lessons_one</item>
+        <item quantity="two">@string/course_picker_free_lessons_two</item>
+        <item quantity="few">@string/course_picker_free_lessons_few</item>
+        <item quantity="many">@string/course_picker_free_lessons_many</item>
+        <item quantity="other">@string/course_picker_free_lessons_other</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="zero">@string/day_zero</item>
+        <item quantity="one">@string/day_one</item>
+        <item quantity="two">@string/day_two</item>
+        <item quantity="few">@string/day_few</item>
+        <item quantity="many">@string/day_many</item>
+        <item quantity="other">@string/day_other</item>
+    </plurals>
+    <plurals name="estimated_minutes">
+        <item quantity="zero">@string/estimated_minutes_zero</item>
+        <item quantity="one">@string/estimated_minutes_one</item>
+        <item quantity="two">@string/estimated_minutes_two</item>
+        <item quantity="few">@string/estimated_minutes_few</item>
+        <item quantity="many">@string/estimated_minutes_many</item>
+        <item quantity="other">@string/estimated_minutes_other</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="free_revies_left">
+        <item quantity="zero">@string/free_revies_left_zero</item>
+        <item quantity="one">@string/free_revies_left_one</item>
+        <item quantity="two">@string/free_revies_left_two</item>
+        <item quantity="few">@string/free_revies_left_few</item>
+        <item quantity="many">@string/free_revies_left_many</item>
+        <item quantity="other">@string/free_revies_left_other</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="zero">@string/hours_zero</item>
+        <item quantity="one">@string/hours_one</item>
+        <item quantity="two">@string/hours_two</item>
+        <item quantity="few">@string/hours_few</item>
+        <item quantity="many">@string/hours_many</item>
+        <item quantity="other">@string/hours_other</item>
+    </plurals>
+    <plurals name="leaderboard_days_remaining">
+        <item quantity="zero">@string/leaderboard_days_remaining_zero</item>
+        <item quantity="one">@string/leaderboard_days_remaining_one</item>
+        <item quantity="two">@string/leaderboard_days_remaining_two</item>
+        <item quantity="few">@string/leaderboard_days_remaining_few</item>
+        <item quantity="many">@string/leaderboard_days_remaining_many</item>
+        <item quantity="other">@string/leaderboard_days_remaining_other</item>
+    </plurals>
+    <plurals name="leaderboard_hours_remaining">
+        <item quantity="zero">@string/leaderboard_hours_remaining_zero</item>
+        <item quantity="one">@string/leaderboard_hours_remaining_one</item>
+        <item quantity="two">@string/leaderboard_hours_remaining_two</item>
+        <item quantity="few">@string/leaderboard_hours_remaining_few</item>
+        <item quantity="many">@string/leaderboard_hours_remaining_many</item>
+        <item quantity="other">@string/leaderboard_hours_remaining_other</item>
+    </plurals>
+    <plurals name="leaderboard_minutes_remaining">
+        <item quantity="zero">@string/leaderboard_minutes_remaining_zero</item>
+        <item quantity="one">@string/leaderboard_minutes_remaining_one</item>
+        <item quantity="two">@string/leaderboard_minutes_remaining_two</item>
+        <item quantity="few">@string/leaderboard_minutes_remaining_few</item>
+        <item quantity="many">@string/leaderboard_minutes_remaining_many</item>
+        <item quantity="other">@string/leaderboard_minutes_remaining_other</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="zero">@string/minutes_zero</item>
+        <item quantity="one">@string/minutes_one</item>
+        <item quantity="two">@string/minutes_two</item>
+        <item quantity="few">@string/minutes_few</item>
+        <item quantity="many">@string/minutes_many</item>
+        <item quantity="other">@string/minutes_other</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="zero">@string/month_zero</item>
+        <item quantity="one">@string/month_one</item>
+        <item quantity="two">@string/month_two</item>
+        <item quantity="few">@string/month_few</item>
+        <item quantity="many">@string/month_many</item>
+        <item quantity="other">@string/month_other</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="numberOfComments">
+        <item quantity="zero">@string/numberOfComments_zero</item>
+        <item quantity="one">@string/numberOfComments_one</item>
+        <item quantity="two">@string/numberOfComments_two</item>
+        <item quantity="few">@string/numberOfComments_few</item>
+        <item quantity="many">@string/numberOfComments_many</item>
+        <item quantity="other">@string/numberOfComments_other</item>
+    </plurals>
+    <plurals name="premium_tiers_paywall_billed_anually_free_trial">
+        <item quantity="zero">@string/premium_tiers_paywall_billed_anually_free_trial_zero</item>
+        <item quantity="one">@string/premium_tiers_paywall_billed_anually_free_trial_one</item>
+        <item quantity="two">@string/premium_tiers_paywall_billed_anually_free_trial_two</item>
+        <item quantity="few">@string/premium_tiers_paywall_billed_anually_free_trial_few</item>
+        <item quantity="many">@string/premium_tiers_paywall_billed_anually_free_trial_many</item>
+        <item quantity="other">@string/premium_tiers_paywall_billed_anually_free_trial_other</item>
+    </plurals>
+    <plurals name="premium_tiers_paywall_cta_free_trial">
+        <item quantity="zero">@string/premium_tiers_paywall_cta_free_trial_zero</item>
+        <item quantity="one">@string/premium_tiers_paywall_cta_free_trial_one</item>
+        <item quantity="two">@string/premium_tiers_paywall_cta_free_triall_two</item>
+        <item quantity="few">@string/premium_tiers_paywall_cta_free_trial_few</item>
+        <item quantity="many">@string/premium_tiers_paywall_cta_free_trial_many</item>
+        <item quantity="other">@string/premium_tiers_paywall_cta_free_trial_other</item>
+    </plurals>
+    <plurals name="premium_tiers_paywall_divider_free_trial">
+        <item quantity="zero">@string/premium_tiers_paywall_divider_free_trial_zero</item>
+        <item quantity="one">@string/premium_tiers_paywall_divider_free_trial_one</item>
+        <item quantity="two">@string/premium_tiers_paywall_divider_free_trial_two</item>
+        <item quantity="few">@string/premium_tiers_paywall_divider_free_trial_few</item>
+        <item quantity="many">@string/premium_tiers_paywall_divider_free_trial_many</item>
+        <item quantity="other">@string/premium_tiers_paywall_divider_free_trial_other</item>
+    </plurals>
+    <plurals name="retake_in_days">
+        <item quantity="one">@string/retake_in_one_day</item>
+        <item quantity="two">@string/retake_in_two_days</item>
+        <item quantity="few">@string/retake_in_few_days</item>
+        <item quantity="many">@string/retake_in_many_days</item>
+        <item quantity="other">@string/retake_in_other_days</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="zero">@string/seconds_zero</item>
+        <item quantity="one">@string/seconds_one</item>
+        <item quantity="two">@string/seconds_two</item>
+        <item quantity="few">@string/seconds_few</item>
+        <item quantity="many">@string/seconds_many</item>
+        <item quantity="other">@string/seconds_other</item>
+    </plurals>
+    <plurals name="specialty_course_banner_free_tries_title">
+        <item quantity="zero">@string/specialty_course_banner_free_tries_title_zero</item>
+        <item quantity="one">@string/specialty_course_banner_free_tries_title_one</item>
+        <item quantity="two">@string/specialty_course_banner_free_tries_title_two</item>
+        <item quantity="few">@string/specialty_course_banner_free_tries_title_few</item>
+        <item quantity="many">@string/specialty_course_banner_free_tries_title_many</item>
+        <item quantity="other">@string/specialty_course_banner_free_tries_title_other</item>
+    </plurals>
+    <plurals name="test_retake">
+        <item quantity="zero">@string/course_timeline_certificate_subtitle_format_reminder_zero</item>
+        <item quantity="one">@string/course_timeline_certificate_subtitle_format_reminder_one</item>
+        <item quantity="two">@string/course_timeline_certificate_subtitle_format_reminder_two</item>
+        <item quantity="few">@string/course_timeline_certificate_subtitle_format_reminder_few</item>
+        <item quantity="many">@string/course_timeline_certificate_subtitle_format_reminder_many</item>
+        <item quantity="other">@string/course_timeline_certificate_subtitle_format_reminder_other</item>
+    </plurals>
+    <plurals name="user_profile_corrections_number">
+        <item quantity="one">@string/user_profile_corrections_number_one</item>
+        <item quantity="two">@string/user_profile_corrections_number_two</item>
+        <item quantity="few">@string/user_profile_corrections_number_few</item>
+        <item quantity="many">@string/user_profile_corrections_number_many</item>
+        <item quantity="other">@string/user_profile_corrections_number_other</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="zero">@string/week_zero</item>
+        <item quantity="one">@string/week_one</item>
+        <item quantity="two">@string/week_two</item>
+        <item quantity="few">@string/week_few</item>
+        <item quantity="many">@string/week_many</item>
+        <item quantity="other">@string/week_other</item>
+    </plurals>
+    <plurals name="words_to_go">
+        <item quantity="one">@string/writing_exercise_words_to_go_one</item>
+        <item quantity="two">@string/writing_exercise_words_to_go_two</item>
+        <item quantity="few">@string/writing_exercise_words_to_go_few</item>
+        <item quantity="many">@string/writing_exercise_words_to_go_many</item>
+        <item quantity="other">@string/writing_exercise_words_to_go_other</item>
+    </plurals>
+    <plurals name="x_active_days">
+        <item quantity="zero">@string/x_active_days_zero</item>
+        <item quantity="one">@string/x_active_days_one</item>
+        <item quantity="two">@string/x_active_days_two</item>
+        <item quantity="few">@string/x_active_days_few</item>
+        <item quantity="many">@string/x_active_days_many</item>
+        <item quantity="other">@string/x_active_days_other</item>
+    </plurals>
+    <plurals name="x_certificates">
+        <item quantity="zero">@string/x_certificates_zero</item>
+        <item quantity="one">@string/x_certificates_one</item>
+        <item quantity="two">@string/x_certificates_two</item>
+        <item quantity="few">@string/x_certificates_few</item>
+        <item quantity="many">@string/x_certificates_many</item>
+        <item quantity="other">@string/x_certificates_other</item>
+    </plurals>
+    <plurals name="x_words_learned">
+        <item quantity="zero">@string/x_words_learned_zero</item>
+        <item quantity="one">@string/x_words_learned_one</item>
+        <item quantity="two">@string/x_words_learned_two</item>
+        <item quantity="few">@string/x_words_learned_few</item>
+        <item quantity="many">@string/x_words_learned_many</item>
+        <item quantity="other">@string/x_words_learned_other</item>
+    </plurals>
+</resources>

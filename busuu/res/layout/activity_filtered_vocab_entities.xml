@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorSurfaceBackground" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_toolbar" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_gravity="center" android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium" layout="@layout/include_progressbar" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/entities_list" android:paddingBottom="@dimen/generic_spacing_xlarge" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.busuu.android.base_ui.view.NextUpButton android:layout_gravity="end|bottom" android:id="@id/nextup_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.busuu.android.base_ui.GenericEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/review_empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/vocab_bottom_sheet_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

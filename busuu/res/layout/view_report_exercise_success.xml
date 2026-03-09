@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/success_view" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/success_image_view" android:layout_width="wrap_content" android:layout_height="@dimen/success_image_view_rerport_exercise_height" android:layout_marginTop="@dimen/generic_40" android:src="@drawable/ic_feedback_success" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/success_message_report_exercise_text_size" android:textColor="@color/text_title_dark" android:gravity="center" android:id="@id/success_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/success_message_report_exercise_margin_top" android:text="@string/report_exercise_success" app:layout_constraintTop_toBottomOf="@id/success_image_view" />
+    <Button android:id="@id/returnButton" android:layout_width="match_parent" android:layout_height="@dimen/return_button_success_report_exercise_height" android:layout_marginTop="@dimen/generic_16" android:text="@string/report_exercise_success_return_button" app:layout_constraintTop_toBottomOf="@id/success_message" style="@style/BlueButtonStroke" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/text_body_text" android:gravity="center" android:layout_gravity="center" android:id="@id/container_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/how_would_you_like_to_complete_this_exercise" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_large">
+        <RelativeLayout android:layout_gravity="center" android:id="@id/write" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/write_button" android:background="@drawable/background_writing_exercise_choice" android:layout_width="100.0dp" android:layout_height="100.0dp" android:layout_margin="@dimen/generic_spacing_small" android:stateListAnimator="@drawable/button_elevation">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="38.0dp" android:layout_height="38.0dp" app:srcCompat="@drawable/writing" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/write" android:layout_below="@id/write_button" android:layout_alignStart="@id/write_button" android:layout_alignEnd="@id/write_button" />
+        </RelativeLayout>
+        <View android:layout_gravity="center_vertical" android:id="@id/space_padding" android:layout_width="28.0dp" android:layout_height="wrap_content" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/speak" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/speak_button" android:background="@drawable/background_writing_exercise_choice" android:layout_width="100.0dp" android:layout_height="100.0dp" android:layout_margin="@dimen/generic_spacing_small" android:stateListAnimator="@drawable/button_elevation">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="24.0dp" android:layout_height="40.0dp" app:srcCompat="@drawable/microphone_grey" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/text_title_dark" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speak" android:layout_below="@id/speak_button" android:layout_alignStart="@id/speak_button" android:layout_alignEnd="@id/speak_button" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

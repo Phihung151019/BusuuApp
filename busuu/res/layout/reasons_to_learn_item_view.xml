@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="vertical" android:id="@id/root_view" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/generic_spacing_medium_large" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/reason_icon_view" android:layout_width="@dimen/icon_size_32" android:layout_height="@dimen/icon_size_32" android:layout_marginEnd="@dimen/generic_spacing_medium_large" />
+        <TextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="?android:textColor" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/reason_text_view" android:layout_width="@dimen/match_constraint" android:layout_height="wrap_content" android:text="@string/lang_enc" android:layout_weight="1.0" />
+        <ImageView android:id="@id/reason_end_arrow" android:visibility="gone" android:layout_width="@dimen/icon_size_16" android:layout_height="@dimen/icon_size_16" android:src="@drawable/ic_right_arrow_no_body" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

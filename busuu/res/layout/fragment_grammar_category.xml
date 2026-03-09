@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/fragment_content_container" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/include_toolbar" />
+        <androidx.core.widget.NestedScrollView android:id="@id/tip_nested_view" android:background="?colorSurfaceBackground" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_hideable="true" app:behavior_peekHeight="0.0dp" app:layout_behavior="@string/bottom_sheet_behavior">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/cagegory_header_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/icon_size_24">
+                    <ImageView android:id="@id/category_icon" android:layout_width="@dimen/icon_size_32" android:layout_height="@dimen/icon_size_32" android:src="@drawable/ic_push_update_icon" android:layout_marginStart="@dimen/icon_size_16" android:layout_marginEnd="14.0dp" />
+                    <TextView android:textSize="24.0sp" android:id="@id/category_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/generic_spacing_10" android:paddingEnd="@dimen/generic_spacing_small_medium" style="@style/TextWeight.RobotoMedium" />
+                </LinearLayout>
+                <TextView android:textSize="16.0sp" android:id="@id/category_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/topics_recycler_view" android:paddingBottom="150.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <include layout="@layout/include_progressbar" />
+    <com.busuu.android.base_ui.view.NextUpButton android:layout_gravity="end|bottom" android:id="@id/review_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_bar_height_with_shadow" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/grammar_category_bottom_sheet_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

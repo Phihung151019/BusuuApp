@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?colorSurfaceElevated" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/social_comment_spacing" android:elevation="@dimen/generic_elevation_tiny"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_fragment_help_others_details_exercise_header" />
+</FrameLayout>

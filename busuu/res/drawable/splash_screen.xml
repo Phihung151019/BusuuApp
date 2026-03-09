@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:opacity="opaque"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/busuu_blue" />
+    <item android:gravity="center" android:height="@dimen/splash_placeholder_size" android:width="@dimen/splash_placeholder_size" android:bottom="@dimen/splash_placeholder_bottom_padding">
+        <bitmap android:gravity="fill" android:src="@drawable/ic_splash_bubble" android:mipMap="true" />
+    </item>
+</layer-list>

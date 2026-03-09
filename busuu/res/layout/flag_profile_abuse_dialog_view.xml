@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.busuu.android.base_ui.view.fixed.FixFrameLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/generic_spacing_large" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_progressbar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/thank_you_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@color/text_title_dark" android:gravity="left" android:paddingLeft="@dimen/generic_spacing_large" android:paddingRight="@dimen/generic_spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/thank_you" style="@style/Title" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_body_text" android:paddingLeft="@dimen/generic_spacing_large" android:paddingRight="@dimen/generic_spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_20" android:text="@string/abuse_report_sent" />
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/choose_reason_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textColor="@color/text_title_dark" android:gravity="left" android:id="@id/title" android:paddingLeft="@dimen/generic_spacing_large" android:paddingRight="@dimen/generic_spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/whats_the_reason_for_reporting_this_profile" style="@style/Title" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/text_body_text" android:id="@id/description" android:paddingLeft="@dimen/generic_spacing_large" android:paddingRight="@dimen/generic_spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_20" android:text="@string/report_abuse_violations" />
+            <TextView android:id="@id/reason_fake_profile" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/report_fake_profile" style="@style/FlagAbuseReasonStyle" />
+            <TextView android:id="@id/reason_inappropriate_behaviour" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/report_inappropriate_behaviour" style="@style/FlagAbuseReasonStyle" />
+            <TextView android:id="@id/block_user" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/remove" style="@style/FlagAbuseReasonStyle" />
+        </LinearLayout>
+    </ScrollView>
+</com.busuu.android.base_ui.view.fixed.FixFrameLayout>

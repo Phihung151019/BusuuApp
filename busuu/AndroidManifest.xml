@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" android:installLocation="auto" package="com.busuu.android.enc" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <package android:name="com.tencent.mm"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <package android:name="com.facebook.katana"/>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="com.applovin.am.intent.action.APPHUB_SERVICE"/>
+        </intent>
+        <package android:name="com.instagram.android"/>
+    </queries>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <permission android:label="Read payment status" android:name="com.busuu.android.PAYMENT_BROADCAST_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.busuu.android.PAYMENT_BROADCAST_PERMISSION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-feature android:name="android.software.leanback" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE"/>
+    <permission android:name="com.busuu.android.enc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.busuu.android.enc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.busuu.android.BusuuApplication" android:supportsRtl="true" android:theme="@style/BusuuPrimaryWhiteTheme">
+        <service android:exported="true" android:name="com.busuu.android.account.AuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <service android:exported="true" android:name="com.braze.push.BrazeFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION" android:value="true"/>
+        <meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING" android:value="true"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-4524831071718588~1980448545"/>
+        <meta-data android:name="applovin.sdk.key" android:value="@string/applovin_sdk_key"/>
+        <meta-data android:name="com.samsung.android.icon_container.has_icon_container" android:value="true"/>
+        <meta-data android:name="AdjustAppToken" android:value="@string/adjust_app_token"/>
+        <provider android:authorities="com.busuu.android.enc.photo.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <meta-data android:name="google_analytics_default_allow_analytics_storage" android:value="false"/>
+        <meta-data android:name="google_analytics_default_allow_ad_storage" android:value="false"/>
+        <meta-data android:name="google_analytics_default_allow_ad_user_data" android:value="false"/>
+        <meta-data android:name="google_analytics_default_allow_ad_personalization_signals" android:value="false"/>
+        <activity android:exported="true" android:label="@string/app_name" android:name="com.busuu.android.bootstrap.presentation.BootStrapActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.LoadingScreen">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.busuu.android.ui.report.ReportExerciseActivity" android:theme="@style/Transparent"/>
+        <activity android:launchMode="singleInstance" android:name="com.busuu.android.ui.FirstLessonLoaderActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.LoadingScreen"/>
+        <activity android:exported="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.busuu.android.ui.deeplink.DeepLinkActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.NoActionBar">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.busuu.com" android:pathPattern="/.*/autologin" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/autologin" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/dashboard" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/dashboard/vocabulary_quiz" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/view_study_plan" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/create_study_plan" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/select_course" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/conversation" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/smart_review" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/review_weak" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/review_medium" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/review_strong" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/plans" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/prices" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/vocab" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/my_profile" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/premium_plus_free_trial" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/smart_review_grammar_view_all" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/refer" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/share" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/start_placement_test" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/leaderboard" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/photo_of_the_week" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/social_discover" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/social_friends" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/notifications" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/speak" android:scheme="https"/>
+                <data android:host="www.busuu.com" android:path="/next_ai_conversation" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="get.busuu.com"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="app.busuu.com" android:scheme="https"/>
+                <data android:host="get.busuu.com" android:scheme="https"/>
+                <data android:host="open" android:scheme="busuu"/>
+                <data android:host="payment_paywall" android:scheme="busuu"/>
+                <data android:host="subscribe" android:scheme="busuu"/>
+                <data android:host="my_profile" android:scheme="busuu"/>
+                <data android:host="dashboard" android:scheme="busuu"/>
+                <data android:host="placement_test" android:scheme="busuu"/>
+                <data android:host="select_course" android:scheme="busuu"/>
+                <data android:host="smart_review" android:scheme="busuu"/>
+                <data android:host="review_weak" android:scheme="busuu"/>
+                <data android:host="review_medium" android:scheme="busuu"/>
+                <data android:host="review_strong" android:scheme="busuu"/>
+                <data android:host="premium_plus_free_trial" android:scheme="busuu"/>
+                <data android:host="smart_review_grammar_view_all" android:scheme="busuu"/>
+                <data android:host="refer" android:scheme="busuu"/>
+                <data android:host="start_placement_test" android:scheme="busuu"/>
+                <data android:host="leaderboard" android:scheme="busuu"/>
+                <data android:host="photo_of_the_week" android:scheme="busuu"/>
+                <data android:host="social_friends" android:scheme="busuu"/>
+                <data android:host="social_discover" android:scheme="busuu"/>
+                <data android:host="notifications" android:scheme="busuu"/>
+                <data android:host="autologin" android:scheme="busuu"/>
+                <data android:host="speak" android:scheme="busuu"/>
+                <data android:host="referral" android:scheme="busuu"/>
+                <data android:host="next_ai_conversation" android:scheme="busuu"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.busuu.android.ui.course.exercise.ShowRecapTextExerciseActivity" android:theme="@style/Transparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.busuu.android.ui.course.exercise.PlacementTestActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/settings" android:name="com.busuu.android.oldui.preferences.PreferencesUserProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.android.oldui.preferences.EditUserSpokenLanguagesActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.BlackStatusBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="cct.com.busuu.android.enc" android:scheme="fbconnect"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.braze.ui.BrazeWebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.braze.ui.activities.BrazeFeedActivity" android:screenOrientation="portrait"/>
+        <receiver android:exported="true" android:name="com.busuu.android.ui.course.LocaleChangedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.busuu.android.notification.PushNotificationClickedReceiver">
+            <intent-filter>
+                <action android:name="com.braze.push.intent.NOTIFICATION_OPENED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.busuu.android.ui.friends.FriendRecommendationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/review_now" android:name="com.busuu.android.ui.vocabulary.FilteredVocabEntitiesActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/section_languages" android:name="com.busuu.android.ui.vocabulary.ReviewSearchActivity" android:theme="@style/Transparent"/>
+        <activity android:label="@string/section_languages" android:name="com.busuu.android.ui.course.exercise.ReviewGrammarTipsExerciseActivity" android:theme="@style/Transparent"/>
+        <activity android:name="com.busuu.android.ui.exercise_details.ExerciseDetailsActivitySecondLevel" android:screenOrientation="portrait"/>
+        <receiver android:exported="false" android:name="com.busuu.android.business.ChurnBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.braze.push.intent.NOTIFICATION_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.busuu.android.enc.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <activity android:label="@string/section_languages" android:name="com.busuu.android.course_overview.CourseOverviewActivity" android:theme="@style/Transparent"/>
+        <service android:exported="false" android:foregroundServiceType="dataSync" android:name="com.busuu.android.course_overview.download.DownloadedLessonsService"/>
+        <activity android:name="com.busuu.android.exercises.CertificateTestIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.busuu.android.exercises.view.FullScreenVideoActivity" android:theme="@style/FullscreenTheme"/>
+        <activity android:name="com.busuu.android.exercises.base.ExercisesActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.ExerciseActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.busuu.android.referral.dashboard_organic_free.ReferralOrganicActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.TranslucentStatusBar"/>
+        <activity android:name="com.busuu.android.referral.dashboard_premium_referred.ReferralPremiumActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.TranslucentStatusBar"/>
+        <activity android:name="com.busuu.android.referral.ReferralHowItWorksActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.TranslucentStatusBar"/>
+        <activity android:name="com.busuu.android.reward.certificate.CertificateRewardActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleInstance" android:name="com.busuu.android.reward.activity.PostLearningActivityScreenActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.BlueTheme"/>
+        <receiver android:exported="false" android:name="com.busuu.android.reward.broadcast.ShareCompletedGoalBroadcast"/>
+        <activity android:exported="false" android:name="com.busuu.android.social.community_post.CommunityPostCommentDetailActivity"/>
+        <activity android:exported="false" android:name="com.busuu.android.social.community_post.CommunityPostDetailActivity"/>
+        <activity android:name="com.busuu.android.social.correction_challenge.CorrectionChallengeActivity" android:theme="@style/BusuuTheme.BlueTheme"/>
+        <activity android:name="com.busuu.android.social.details.automated_correction.feedback.AutomatedCorrectionFeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.android.social.details.automated_correction.intro.AutomatedCorrectionIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.busuu.android.social.SocialOnboardingActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.LoadingScreen" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:label="@string/app_name" android:name="com.busuu.android.social.languagefilter.SocialLanguageFilterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:label="@string/well_done" android:name="com.busuu.android.social.friends.SelectFriendsForExerciseCorrectionActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/reply" android:name="com.busuu.android.social.details.SocialReplyActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.Black" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/app_name" android:name="com.busuu.android.placement_test.result.PlacementTestResultActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.NoActionBar"/>
+        <activity android:label="@string/app_name" android:name="com.busuu.android.placement_test.disclaimer.PlacementTestDisclaimerActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme"/>
+        <activity android:exported="false" android:name="com.busuu.android.signup.AuthenticationActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.busuu.android.signup.login.AutoLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.busuu.onboarding_entry.OnboardingEntryActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.Onboarding"/>
+        <activity android:label="@string/app_name" android:name="com.busuu.onboarding_entry.legacy_onboarding.LegacyOnBoardingEntryActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.TranslucentOnboarding" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.busuu.android.studyplan.onboarding.StudyPlanOnboardingActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.TranslucentStatusBar"/>
+        <activity android:name="com.busuu.android.studyplan.setup.StudyPlanConfigurationActivity" android:screenOrientation="portrait" android:theme="@style/StudyPlanConfigurationActivity"/>
+        <activity android:name="com.busuu.android.studyplan.settings.StudyPlanSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.android.studyplan.details.StudyPlanDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.android.studyplan.summary.StudyPlanSummaryActivity" android:screenOrientation="portrait" android:theme="@style/BusuuPrimaryWhiteTheme"/>
+        <activity android:name="com.busuu.android.studyplan.onboarding.new_onboarding.NewOnboardingStudyPlanActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.TranslucentStatusBar"/>
+        <activity android:name="com.busuu.android.settings.edituser.name.EditUsernameActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme" android:windowSoftInputMode="stateVisible"/>
+        <activity android:name="com.busuu.android.settings.edituser.aboutme.EditUserAboutMeActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme" android:windowSoftInputMode="stateVisible"/>
+        <activity android:label="" android:name="com.busuu.android.settings.notification.StandAloneNotificationsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.android.settings.edituser.country.EditCountryActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/notifications" android:name="com.busuu.android.settings.notification.EditNotificationsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/notifications" android:name="com.busuu.android.settings.interfacelanguage.EditUserInterfaceLanguageActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/notifications" android:name="com.busuu.android.settings.interfacelanguage.ForceChangeInterfaceLanguageActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/section_efficacy_study" android:name="com.busuu.android.settings.efficacy.EfficacyStudyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.android.userprofile.ui.UserProfileActivitySecondLevel" android:screenOrientation="portrait" android:theme="@style/BusuuTheme"/>
+        <activity android:name="com.busuu.android.userprofile.ui.UserAvatarActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.BlackStatusBar"/>
+        <activity android:name="com.busuu.android.gdpr.OptInPromotionsActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.TranslucentStatusBar"/>
+        <activity android:name="com.busuu.speaking.SpeakingPracticeActivity" android:screenOrientation="portrait" android:theme="@style/FullScreenBlackStatusBarVideoTheme"/>
+        <activity android:name="com.busuu.ai_conversation.presentation.AiConversationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.busuu.live.LiveActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.busuu.android.domain_model.onboarding.ui.PlacementLevelSelectionActivity"/>
+        <activity android:name="com.busuu.android.domain_model.onboarding.ui.NewPlacementWelcomeScreenActivity" android:screenOrientation="portrait" android:theme="@style/BusuuTheme.TranslucentStatusBar"/>
+        <activity android:name="com.busuu.android.base_ui.view.web_views.BusuuWebViewClientActivity" android:screenOrientation="portrait"/>
+        <activity android:label="" android:name="com.busuu.android.base_ui.ui.bottombar.BottomBarActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.android.leaderboard.ui.LeaderboardActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="busuu.onboarding.OnboardingActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.busuu.placementtest.PlacementTestActivity"/>
+        <activity android:name="com.busuu.exercises.ui.LearningActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.busuu.notifications_opt_in.NotificationsOptInActivity"/>
+        <activity android:name="com.busuu.postlesson.PostLessonActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.CheckpointPreLessonActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.CheckpointResultActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.streaks.StreaksActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.streaks.EmptyStreaksActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.paywall.ui.PaywallActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.feedback_form.ui.FeedbackFormActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TransparentActivity"/>
+        <activity android:name="com.busuu.consent.ConsentActivity" android:screenOrientation="portrait"/>
+        <activity android:name="upsell.ui.DynamicUpsellActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.subscription.details.ui.SubscriptionDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.busuu.subscription.confirmation.ui.SubscriptionCancelConfirmationActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.android.ads.ui.AdsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.android.ads.ui.IntermediateAdsScreenActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.busuu.force_to_update.ForceToUpdateActivity"/>
+        <activity android:name="io.purchasely.views.PLYWebViewActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="io.purchasely.views.PLYTVLinkActivity"/>
+        <activity android:name="io.purchasely.views.PLYActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="io.purchasely.views.subscriptions.tv.PLYSubscriptionsActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <uses-library android:name="android.test.base" android:required="false"/>
+        <uses-library android:name="android.test.mock" android:required="false"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="io.intercom.android.sdk.activities.IntercomMessengerActivity" android:theme="@style/Intercom_PanelTheme" android:windowSoftInputMode="stateUnchanged|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="io.intercom.android.sdk.lightbox.LightBoxActivity" android:theme="@style/Intercom_LightBoxTheme" android:windowSoftInputMode="stateUnchanged|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="io.intercom.android.sdk.activities.IntercomPostActivity" android:theme="@style/Intercom_PostTheme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="io.intercom.android.sdk.post.PostActivityV2" android:theme="@style/Intercom_PostTheme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="io.intercom.android.sdk.activities.IntercomNoteActivity" android:theme="@style/Intercom_NoteTheme" android:windowSoftInputMode="stateUnchanged|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="io.intercom.android.sdk.activities.IntercomSheetActivity" android:theme="@style/Intercom_ModalActivityTheme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="io.intercom.android.sdk.activities.IntercomVideoActivity" android:theme="@style/Intercom_PanelTheme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="io.intercom.android.sdk.activities.IntercomCarouselActivity" android:screenOrientation="portrait" android:theme="@style/Intercom_CarouselTheme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity" android:theme="@style/Intercom.BaseMaterial"/>
+        <activity android:exported="false" android:name="io.intercom.android.sdk.helpcenter.articles.ArticleActivity" android:theme="@style/Intercom.BaseMaterial" android:windowSoftInputMode="stateHidden"/>
+        <activity android:exported="false" android:name="io.intercom.android.sdk.survey.ui.IntercomSurveyActivity" android:theme="@style/Intercom.BaseMaterial.Compose" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity" android:theme="@style/Intercom.BaseMaterial"/>
+        <activity android:exported="false" android:name="io.intercom.android.sdk.push.IntercomPushTrampolineActivity" android:theme="@style/Intercom.BaseMaterial.Transparent"/>
+        <receiver android:exported="false" android:name="io.intercom.android.sdk.push.IntercomPushBroadcastReceiver">
+            <intent-filter>
+                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.busuu.android.enc.IntercomInitializeContentProvider" android:exported="false" android:name="io.intercom.android.sdk.IntercomInitializeContentProvider"/>
+        <activity android:name="com.android.resources.ActivityStringChecker"/>
+        <activity android:exported="false" android:name="com.braze.ui.activities.ContentCardsActivity"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.braze.push.NotificationTrampolineActivity" android:taskAffinity=".NotificationTrampolineActivity" android:theme="@style/Braze.PushTrampoline.Transparent"/>
+        <receiver android:exported="false" android:name="com.braze.push.BrazePushReceiver"/>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection|colorMode|fontScale" android:label="ShowkaseBrowserActivity" android:name="com.airbnb.android.showkase.ui.ShowkaseBrowserActivity" android:theme="@style/Theme.App.NoActionBar"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.ktx.FirebaseInstallationsLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <provider android:authorities="com.busuu.android.enc.mobileadsinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.ads.AdService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.gms.ads.OutOfContextTestingActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.gms.ads.NotificationHandlerActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <property android:name="android.adservices.AD_SERVICES_CONFIG" android:resource="@xml/gma_ad_services_config"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:theme="@style/WhiteBackgroundDialogTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.tagmanager.TagManagerService"/>
+        <activity android:exported="true" android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity" android:noHistory="true">
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.busuu.android.enc"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.busuu.android.enc.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:name="com.intercom.input.gallery.GalleryInputFullScreenActivity" android:theme="@style/intercom_composer_full_screen_theme" android:windowSoftInputMode="adjustNothing|stateVisible"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|density" android:name="com.intercom.input.gallery.GalleryLightBoxActivity" android:theme="@style/intercom_composer_full_screen_theme"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="7.1.1"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivityV2" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <provider android:authorities="com.busuu.android.enc.applovininitprovider" android:exported="false" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenThemedActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.sdk.AppLovinWebViewActivity"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerCmpNetworksListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerTcfInfoListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerTcfStringActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerTestModeNetworkActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.MaxDebuggerWaterfallKeywordsActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.creative.MaxCreativeDebuggerActivity" android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity" android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme"/>
+        <service android:exported="false" android:name="com.applovin.impl.adview.activity.FullscreenAdService" android:stopWithTask="false"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
+        <provider android:authorities="com.busuu.android.enc.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.ironsource.sdk.controller.ControllerActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.ironsource.sdk.controller.InterstitialActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.ironsource.sdk.controller.OpenUrlActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.ironsource.mediationsdk.testSuite.TestSuiteActivity" android:theme="@android:style/Theme.NoTitleBar">
+            <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing" android:value="true"/>
+        </activity>
+        <provider android:authorities="com.busuu.android.enc.IronsourceLifecycleProvider" android:exported="false" android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+    </application>
+</manifest>

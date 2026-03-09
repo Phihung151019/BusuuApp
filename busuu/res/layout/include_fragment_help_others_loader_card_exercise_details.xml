@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/generic_spacing_medium_large" android:layout_marginStart="@dimen/generic_spacing_medium_large" android:layout_marginEnd="@dimen/generic_spacing_medium_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textSizeMediumLarge" android:ellipsize="end" android:id="@id/help_others_discover_exercise_content" android:background="@drawable/background_half_rounded_white_with_border_line_greyxlite" android:padding="@dimen/generic_spacing_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="@integer/social_exercise_summary_max_lines" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_exercise_language_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:background="@color/busuu_grey_lite" android:layout_width="match_parent" android:layout_height="28.0dp" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorSurfaceBackground" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/generic_elevation_small" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ToolbarStyle">
+        <FrameLayout android:layout_gravity="end" android:id="@id/dont_know_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/generic_spacing_medium_large">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/dont_know" android:background="@drawable/background_placement_test_dont_know" android:padding="@dimen/generic_spacing_small_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/i_dont_know" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="end" android:id="@id/debug_option_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/generic_spacing_medium_large">
+            <ImageButton android:id="@id/debug_option_pass" android:layout_width="@dimen/toolbar_icon_size" android:layout_height="@dimen/toolbar_icon_size" android:src="@drawable/ic_controls_correct_icon" />
+            <ImageButton android:id="@id/debug_option_fail" android:layout_width="@dimen/toolbar_icon_size" android:layout_height="@dimen/toolbar_icon_size" android:src="@drawable/ic_controls_wrong_icon" android:layout_marginStart="@dimen/generic_spacing_medium" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/fragment_content_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:id="@id/loading_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

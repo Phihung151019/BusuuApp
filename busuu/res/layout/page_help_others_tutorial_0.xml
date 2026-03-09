@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_others_onboarding_background_1" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/globe" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" android:src="@drawable/map_pins" android:layout_marginStart="8.0dp" />
+    </FrameLayout>
+    <com.busuu.android.base_ui.view.fixed.FixTextView android:textSize="@dimen/textSizeMediumLarge" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/user_across_world_are_learning" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/recorder_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/text_body_text" android:gravity="center" android:layout_gravity="center" android:id="@id/record_audio_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hold_to_record_answer" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="220.0dp" android:layout_height="160.0dp">
+        <FrameLayout android:layout_gravity="end|center" android:id="@id/delete_button" android:background="@drawable/background_writing_exercise_choice" android:visibility="gone" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginEnd="4.0dp" android:stateListAnimator="@drawable/button_elevation">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="15.0dp" android:layout_height="19.0dp" app:srcCompat="@drawable/ic_trash_icon" />
+        </FrameLayout>
+        <View android:layout_gravity="center" android:id="@id/record_wave_view" android:background="@drawable/background_circle_translucent_red" android:layout_width="150.0dp" android:layout_height="150.0dp" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/record_button" android:background="@drawable/background_writing_exercise_choice" android:layout_width="100.0dp" android:layout_height="100.0dp" android:stateListAnimator="@drawable/button_elevation">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="24.0dp" android:layout_height="40.0dp" app:srcCompat="@drawable/recorder_microphone_selector" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/recording_progress" android:padding="@dimen/conversation_oval_progress_padding" android:layout_width="100.0dp" android:layout_height="100.0dp" android:max="100" android:progress="0" android:progressDrawable="@drawable/progress_bar_ring_red" style="?android:progressBarStyleHorizontal" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/play_button" android:background="@drawable/background_writing_exercise_choice" android:visibility="gone" android:layout_width="100.0dp" android:layout_height="100.0dp" android:stateListAnimator="@drawable/button_elevation">
+            <ImageView android:layout_gravity="center" android:id="@id/stop_icon" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="40.0dp" app:srcCompat="@drawable/blue_rectangle" />
+            <ImageView android:layout_gravity="center" android:id="@id/play_icon" android:layout_width="24.0dp" android:layout_height="40.0dp" android:layout_marginStart="4.0dp" app:srcCompat="@drawable/blue_triangle" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/playing_progress" android:padding="@dimen/conversation_oval_progress_padding" android:layout_width="100.0dp" android:layout_height="100.0dp" android:max="100" android:progress="0" android:progressDrawable="@drawable/progress_bar_ring_blue" style="?android:progressBarStyleHorizontal" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

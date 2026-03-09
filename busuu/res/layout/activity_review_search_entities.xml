@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="@color/black_100_alpha" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?colorSurfaceBackground" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/generic_elevation_small">
+        <ImageButton android:id="@id/back_button" android:background="?selectableItemBackgroundBorderless" android:paddingTop="@dimen/generic_spacing_20" android:paddingBottom="@dimen/generic_spacing_20" android:layout_width="52.0dp" android:layout_height="match_parent" android:src="?homeAsUpIndicator" app:tint="@color/busuu_blue_dark" />
+        <EditText android:textSize="@dimen/textSize18" android:textColor="@color/text_body_text" android:id="@id/search_input" android:background="@android:color/transparent" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="@string/menu_search_vocab" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/generic_spacing_medium_large" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/clear_button" android:visibility="gone" android:layout_width="52.0dp" android:layout_height="match_parent" android:foreground="?selectableItemBackgroundBorderless">
+            <View android:layout_gravity="center" android:background="@drawable/background_circle_grey_silver" android:layout_width="@dimen/icon_size_16" android:layout_height="@dimen/icon_size_16" />
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/icon_size_8" android:layout_height="@dimen/icon_size_8" android:src="@drawable/ic_clear_white" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:background="?colorSurfaceBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_gravity="center" android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium" layout="@layout/include_progressbar" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/entities_list" android:paddingTop="@dimen/generic_spacing_small_medium" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

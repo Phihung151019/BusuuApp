@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/generic_spacing_small_medium" />
+    <solid android:color="@color/exercise_button_consumed" />
+    <stroke android:width="1.0dp" android:color="@color/busuu_grey_lite" />
+</shape>

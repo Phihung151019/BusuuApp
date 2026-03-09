@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/item_language_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.busuu.android.base_ui.language.LanguageView android:id="@id/language_selection_language_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/language_selection_arrow" android:visibility="gone" android:layout_width="@dimen/icon_size_16" android:layout_height="@dimen/icon_size_16" android:layout_margin="@dimen/generic_spacing_medium_large" android:src="@drawable/ic_right_arrow_no_body" />
+</FrameLayout>

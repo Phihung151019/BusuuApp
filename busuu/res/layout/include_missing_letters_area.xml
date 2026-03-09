@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout android:gravity="left" android:layout_gravity="left" android:id="@id/exercise_word_builder_missing_letters" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingVertical="@dimen/generic_spacing_medium" app:alignContent="flex_start" app:alignItems="flex_start" app:dividerDrawable="@drawable/divider_missing_letters_spacing" app:flexDirection="row" app:flexWrap="wrap" app:justifyContent="flex_start" app:showDivider="middle" app:showDividerVertical="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

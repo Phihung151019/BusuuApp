@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_tab_learn" android:id="@id/section_learn" android:title="@string/section_learn" />
+    <item android:icon="@drawable/ic_tab_review" android:id="@id/section_review" android:title="@string/section_review" />
+    <item android:icon="@drawable/ic_tab_premium" android:id="@id/section_premium" android:title="@string/premium" />
+    <item android:icon="@drawable/ic_tab_community" android:id="@id/section_community" android:title="@string/section_community" />
+    <item android:icon="@drawable/ic_tab_profile" android:id="@id/me" android:title="@string/me" />
+</menu>

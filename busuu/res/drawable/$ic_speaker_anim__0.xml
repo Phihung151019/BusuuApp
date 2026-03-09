@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="speaker_animation" android:height="12.0dp" android:width="12.0dp" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="speaker" android:fillColor="#116eee" android:pathData="M 3.909 5.335 C 4.476 5.335 5.017 5.094 5.396 4.672 L 7.257 2.605 C 7.446 2.394 7.717 2.274 8 2.274 C 8.552 2.274 9 2.722 9 3.274 L 9 12.729 C 9 13.012 8.88 13.282 8.669 13.472 C 8.258 13.841 7.626 13.808 7.257 13.398 L 5.396 11.33 C 5.017 10.909 4.476 10.668 3.909 10.668 L 2.7 10.668 C 2.315 10.668 2 10.368 2 10.001 L 2 6.001 C 2 5.635 2.315 5.335 2.7 5.335 L 3.909 5.335 Z" android:strokeWidth="1.0" />
+    <path android:name="wave_small" android:pathData="M 8.5 6.268 C 9.098 6.613 9.5 7.26 9.5 8 C 9.5 8.74 9.098 9.387 8.5 9.732" android:strokeColor="#116eee" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.0" />
+    <path android:name="wave_big" android:pathData="M 8.5 4.126 C 10.225 4.57 11.5 6.136 11.5 8 C 11.5 9.864 10.225 11.43 8.5 11.874" android:strokeColor="#116eee" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.0" />
+</vector>

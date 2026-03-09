@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/neutral_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:background="@color/neutral_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapse_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <LinearLayout android:orientation="vertical" android:id="@id/collapse_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_24">
+                    <TextView android:textAppearance="@style/TextWeight.Bold" android:textSize="@dimen/textSizeLarge" android:textColor="@color/text_title_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/weekly_challenge_view_title" android:paddingStart="@dimen/generic_16" android:paddingEnd="@dimen/generic_16" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/weekly_challenges_recycler" android:paddingBottom="8.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_24" android:overScrollMode="never" android:paddingStart="@dimen/generic_16" android:paddingEnd="@dimen/generic_16" />
+                </LinearLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/content" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_anchor="@id/app_bar" app:layout_anchorGravity="bottom" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.busuu.android.base_ui.view.BusuuSwipeRefreshLayout android:id="@id/swiperefresh" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/social_cards_recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" android:paddingStart="@dimen/generic_16" android:paddingEnd="@dimen/generic_16" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+                    <include android:visibility="gone" app:layout_behavior="@string/appbar_scrolling_view_behavior" layout="@layout/include_fragment_help_others_placeholder" />
+                </FrameLayout>
+            </com.busuu.android.base_ui.view.BusuuSwipeRefreshLayout>
+        </FrameLayout>
+        <include android:visibility="gone" layout="@layout/include_offline_error" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

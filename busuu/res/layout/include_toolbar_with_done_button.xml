@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/generic_elevation_small" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ToolbarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/toolbar_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+        <TextView android:textColor="@color/white" android:gravity="end|center" android:id="@id/done_button" android:background="?selectableItemBackground" android:padding="@dimen/generic_spacing_small_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:textAllCaps="true" android:layout_marginEnd="@dimen/generic_spacing_small_medium" style="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

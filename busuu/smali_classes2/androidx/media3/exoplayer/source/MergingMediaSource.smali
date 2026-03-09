@@ -1,0 +1,883 @@
+.class public final Landroidx/media3/exoplayer/source/MergingMediaSource;
+.super Landroidx/media3/exoplayer/source/c;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/media3/exoplayer/source/MergingMediaSource$IllegalMergeException;,
+        Landroidx/media3/exoplayer/source/MergingMediaSource$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Landroidx/media3/exoplayer/source/c<",
+        "Ljava/lang/Integer;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final v:Ly19;
+
+
+# instance fields
+.field public final k:Z
+
+.field public final l:Z
+
+.field public final m:[Landroidx/media3/exoplayer/source/l;
+
+.field public final n:[Lq2g;
+
+.field public final o:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Landroidx/media3/exoplayer/source/l;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final p:Lc82;
+
+.field public final q:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/Object;",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final r:Lug9;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lug9<",
+            "Ljava/lang/Object;",
+            "Landroidx/media3/exoplayer/source/b;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public s:I
+
+.field public t:[[J
+
+.field public u:Landroidx/media3/exoplayer/source/MergingMediaSource$IllegalMergeException;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Ly19$c;
+
+    invoke-direct {v0}, Ly19$c;-><init>()V
+
+    const-string v1, "MergingMediaSource"
+
+    invoke-virtual {v0, v1}, Ly19$c;->c(Ljava/lang/String;)Ly19$c;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ly19$c;->a()Ly19;
+
+    move-result-object v0
+
+    sput-object v0, Landroidx/media3/exoplayer/source/MergingMediaSource;->v:Ly19;
+
+    return-void
+.end method
+
+.method public varargs constructor <init>(ZZLc82;[Landroidx/media3/exoplayer/source/l;)V
+    .locals 0
+
+    invoke-direct {p0}, Landroidx/media3/exoplayer/source/c;-><init>()V
+
+    iput-boolean p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->k:Z
+
+    iput-boolean p2, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->l:Z
+
+    iput-object p4, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->m:[Landroidx/media3/exoplayer/source/l;
+
+    iput-object p3, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->p:Lc82;
+
+    new-instance p1, Ljava/util/ArrayList;
+
+    invoke-static {p4}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    iput-object p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->o:Ljava/util/ArrayList;
+
+    const/4 p1, -0x1
+
+    iput p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->s:I
+
+    array-length p1, p4
+
+    new-array p1, p1, [Lq2g;
+
+    iput-object p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    const/4 p1, 0x0
+
+    new-array p1, p1, [[J
+
+    iput-object p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->t:[[J
+
+    new-instance p1, Ljava/util/HashMap;
+
+    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+
+    iput-object p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->q:Ljava/util/Map;
+
+    invoke-static {}, Lvg9;->a()Lvg9$e;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lvg9$e;->a()Lvg9$d;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lvg9$d;->e()Lkd8;
+
+    move-result-object p1
+
+    iput-object p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->r:Lug9;
+
+    return-void
+.end method
+
+.method public varargs constructor <init>(ZZ[Landroidx/media3/exoplayer/source/l;)V
+    .locals 1
+
+    new-instance v0, Loi3;
+
+    invoke-direct {v0}, Loi3;-><init>()V
+
+    invoke-direct {p0, p1, p2, v0, p3}, Landroidx/media3/exoplayer/source/MergingMediaSource;-><init>(ZZLc82;[Landroidx/media3/exoplayer/source/l;)V
+
+    return-void
+.end method
+
+.method public varargs constructor <init>(Z[Landroidx/media3/exoplayer/source/l;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0, p2}, Landroidx/media3/exoplayer/source/MergingMediaSource;-><init>(ZZ[Landroidx/media3/exoplayer/source/l;)V
+
+    return-void
+.end method
+
+.method public varargs constructor <init>([Landroidx/media3/exoplayer/source/l;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0, p1}, Landroidx/media3/exoplayer/source/MergingMediaSource;-><init>(Z[Landroidx/media3/exoplayer/source/l;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public B()V
+    .locals 2
+
+    invoke-super {p0}, Landroidx/media3/exoplayer/source/c;->B()V
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([Ljava/lang/Object;Ljava/lang/Object;)V
+
+    const/4 v0, -0x1
+
+    iput v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->s:I
+
+    iput-object v1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->u:Landroidx/media3/exoplayer/source/MergingMediaSource$IllegalMergeException;
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->o:Ljava/util/ArrayList;
+
+    iget-object v1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->m:[Landroidx/media3/exoplayer/source/l;
+
+    invoke-static {v0, v1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public bridge synthetic D(Ljava/lang/Object;Landroidx/media3/exoplayer/source/l$b;)Landroidx/media3/exoplayer/source/l$b;
+    .locals 0
+
+    check-cast p1, Ljava/lang/Integer;
+
+    invoke-virtual {p0, p1, p2}, Landroidx/media3/exoplayer/source/MergingMediaSource;->J(Ljava/lang/Integer;Landroidx/media3/exoplayer/source/l$b;)Landroidx/media3/exoplayer/source/l$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic G(Ljava/lang/Object;Landroidx/media3/exoplayer/source/l;Lq2g;)V
+    .locals 0
+
+    check-cast p1, Ljava/lang/Integer;
+
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/media3/exoplayer/source/MergingMediaSource;->K(Ljava/lang/Integer;Landroidx/media3/exoplayer/source/l;Lq2g;)V
+
+    return-void
+.end method
+
+.method public final I()V
+    .locals 9
+
+    new-instance v0, Lq2g$b;
+
+    invoke-direct {v0}, Lq2g$b;-><init>()V
+
+    const/4 v1, 0x0
+
+    move v2, v1
+
+    :goto_0
+    iget v3, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->s:I
+
+    if-ge v2, v3, :cond_1
+
+    iget-object v3, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    aget-object v3, v3, v1
+
+    invoke-virtual {v3, v2, v0}, Lq2g;->f(ILq2g$b;)Lq2g$b;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lq2g$b;->n()J
+
+    move-result-wide v3
+
+    neg-long v3, v3
+
+    const/4 v5, 0x1
+
+    :goto_1
+    iget-object v6, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    array-length v7, v6
+
+    if-ge v5, v7, :cond_0
+
+    aget-object v6, v6, v5
+
+    invoke-virtual {v6, v2, v0}, Lq2g;->f(ILq2g$b;)Lq2g$b;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Lq2g$b;->n()J
+
+    move-result-wide v6
+
+    neg-long v6, v6
+
+    iget-object v8, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->t:[[J
+
+    aget-object v8, v8, v2
+
+    sub-long v6, v3, v6
+
+    aput-wide v6, v8, v5
+
+    add-int/lit8 v5, v5, 0x1
+
+    goto :goto_1
+
+    :cond_0
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    return-void
+.end method
+
+.method public J(Ljava/lang/Integer;Landroidx/media3/exoplayer/source/l$b;)Landroidx/media3/exoplayer/source/l$b;
+    .locals 0
+
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    move-result p1
+
+    if-nez p1, :cond_0
+
+    return-object p2
+
+    :cond_0
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public K(Ljava/lang/Integer;Landroidx/media3/exoplayer/source/l;Lq2g;)V
+    .locals 5
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->u:Landroidx/media3/exoplayer/source/MergingMediaSource$IllegalMergeException;
+
+    if-eqz v0, :cond_0
+
+    goto :goto_1
+
+    :cond_0
+    iget v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->s:I
+
+    const/4 v1, -0x1
+
+    const/4 v2, 0x0
+
+    if-ne v0, v1, :cond_1
+
+    invoke-virtual {p3}, Lq2g;->i()I
+
+    move-result v0
+
+    iput v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->s:I
+
+    goto :goto_0
+
+    :cond_1
+    invoke-virtual {p3}, Lq2g;->i()I
+
+    move-result v0
+
+    iget v1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->s:I
+
+    if-eq v0, v1, :cond_2
+
+    new-instance p1, Landroidx/media3/exoplayer/source/MergingMediaSource$IllegalMergeException;
+
+    invoke-direct {p1, v2}, Landroidx/media3/exoplayer/source/MergingMediaSource$IllegalMergeException;-><init>(I)V
+
+    iput-object p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->u:Landroidx/media3/exoplayer/source/MergingMediaSource$IllegalMergeException;
+
+    return-void
+
+    :cond_2
+    :goto_0
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->t:[[J
+
+    array-length v0, v0
+
+    if-nez v0, :cond_3
+
+    iget v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->s:I
+
+    iget-object v1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    array-length v1, v1
+
+    const/4 v3, 0x2
+
+    new-array v3, v3, [I
+
+    const/4 v4, 0x1
+
+    aput v1, v3, v4
+
+    aput v0, v3, v2
+
+    sget-object v0, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
+
+    invoke-static {v0, v3}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [[J
+
+    iput-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->t:[[J
+
+    :cond_3
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p2}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    iget-object p2, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    move-result p1
+
+    aput-object p3, p2, p1
+
+    iget-object p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {p1}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_6
+
+    iget-boolean p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->k:Z
+
+    if-eqz p1, :cond_4
+
+    invoke-virtual {p0}, Landroidx/media3/exoplayer/source/MergingMediaSource;->I()V
+
+    :cond_4
+    iget-object p1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    aget-object p1, p1, v2
+
+    iget-boolean p2, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->l:Z
+
+    if-eqz p2, :cond_5
+
+    invoke-virtual {p0}, Landroidx/media3/exoplayer/source/MergingMediaSource;->L()V
+
+    new-instance p2, Landroidx/media3/exoplayer/source/MergingMediaSource$a;
+
+    iget-object p3, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->q:Ljava/util/Map;
+
+    invoke-direct {p2, p1, p3}, Landroidx/media3/exoplayer/source/MergingMediaSource$a;-><init>(Lq2g;Ljava/util/Map;)V
+
+    move-object p1, p2
+
+    :cond_5
+    invoke-virtual {p0, p1}, Landroidx/media3/exoplayer/source/a;->A(Lq2g;)V
+
+    :cond_6
+    :goto_1
+    return-void
+.end method
+
+.method public final L()V
+    .locals 12
+
+    new-instance v0, Lq2g$b;
+
+    invoke-direct {v0}, Lq2g$b;-><init>()V
+
+    const/4 v1, 0x0
+
+    move v2, v1
+
+    :goto_0
+    iget v3, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->s:I
+
+    if-ge v2, v3, :cond_5
+
+    const-wide/high16 v3, -0x8000000000000000L
+
+    move v5, v1
+
+    move-wide v6, v3
+
+    :goto_1
+    iget-object v8, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    array-length v9, v8
+
+    if-ge v5, v9, :cond_3
+
+    aget-object v8, v8, v5
+
+    invoke-virtual {v8, v2, v0}, Lq2g;->f(ILq2g$b;)Lq2g$b;
+
+    move-result-object v8
+
+    invoke-virtual {v8}, Lq2g$b;->j()J
+
+    move-result-wide v8
+
+    const-wide v10, -0x7fffffffffffffffL    # -4.9E-324
+
+    cmp-long v10, v8, v10
+
+    if-nez v10, :cond_0
+
+    goto :goto_2
+
+    :cond_0
+    iget-object v10, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->t:[[J
+
+    aget-object v10, v10, v2
+
+    aget-wide v10, v10, v5
+
+    add-long/2addr v8, v10
+
+    cmp-long v10, v6, v3
+
+    if-eqz v10, :cond_1
+
+    cmp-long v10, v8, v6
+
+    if-gez v10, :cond_2
+
+    :cond_1
+    move-wide v6, v8
+
+    :cond_2
+    :goto_2
+    add-int/lit8 v5, v5, 0x1
+
+    goto :goto_1
+
+    :cond_3
+    aget-object v3, v8, v1
+
+    invoke-virtual {v3, v2}, Lq2g;->m(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    iget-object v4, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->q:Ljava/util/Map;
+
+    invoke-static {v6, v7}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v5
+
+    invoke-interface {v4, v3, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v4, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->r:Lug9;
+
+    invoke-interface {v4, v3}, Lug9;->get(Ljava/lang/Object;)Ljava/util/Collection;
+
+    move-result-object v3
+
+    invoke-interface {v3}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+
+    move-result-object v3
+
+    :goto_3
+    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_4
+
+    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Landroidx/media3/exoplayer/source/b;
+
+    const-wide/16 v8, 0x0
+
+    invoke-virtual {v4, v8, v9, v6, v7}, Landroidx/media3/exoplayer/source/b;->v(JJ)V
+
+    goto :goto_3
+
+    :cond_4
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_5
+    return-void
+.end method
+
+.method public b(Landroidx/media3/exoplayer/source/l$b;Lfe;J)Landroidx/media3/exoplayer/source/k;
+    .locals 11
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->m:[Landroidx/media3/exoplayer/source/l;
+
+    array-length v0, v0
+
+    new-array v1, v0, [Landroidx/media3/exoplayer/source/k;
+
+    iget-object v2, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    const/4 v3, 0x0
+
+    aget-object v2, v2, v3
+
+    iget-object v4, p1, Landroidx/media3/exoplayer/source/l$b;->a:Ljava/lang/Object;
+
+    invoke-virtual {v2, v4}, Lq2g;->b(Ljava/lang/Object;)I
+
+    move-result v2
+
+    :goto_0
+    if-ge v3, v0, :cond_0
+
+    iget-object v4, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->n:[Lq2g;
+
+    aget-object v4, v4, v3
+
+    invoke-virtual {v4, v2}, Lq2g;->m(I)Ljava/lang/Object;
+
+    move-result-object v4
+
+    invoke-virtual {p1, v4}, Landroidx/media3/exoplayer/source/l$b;->a(Ljava/lang/Object;)Landroidx/media3/exoplayer/source/l$b;
+
+    move-result-object v4
+
+    iget-object v5, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->m:[Landroidx/media3/exoplayer/source/l;
+
+    aget-object v5, v5, v3
+
+    iget-object v6, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->t:[[J
+
+    aget-object v6, v6, v2
+
+    aget-wide v6, v6, v3
+
+    sub-long v6, p3, v6
+
+    invoke-interface {v5, v4, p2, v6, v7}, Landroidx/media3/exoplayer/source/l;->b(Landroidx/media3/exoplayer/source/l$b;Lfe;J)Landroidx/media3/exoplayer/source/k;
+
+    move-result-object v4
+
+    aput-object v4, v1, v3
+
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v5, Landroidx/media3/exoplayer/source/o;
+
+    iget-object p2, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->p:Lc82;
+
+    iget-object p3, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->t:[[J
+
+    aget-object p3, p3, v2
+
+    invoke-direct {v5, p2, p3, v1}, Landroidx/media3/exoplayer/source/o;-><init>(Lc82;[J[Landroidx/media3/exoplayer/source/k;)V
+
+    iget-boolean p2, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->l:Z
+
+    if-eqz p2, :cond_1
+
+    new-instance v4, Landroidx/media3/exoplayer/source/b;
+
+    iget-object p2, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->q:Ljava/util/Map;
+
+    iget-object p3, p1, Landroidx/media3/exoplayer/source/l$b;->a:Ljava/lang/Object;
+
+    invoke-interface {p2, p3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, Ljava/lang/Long;
+
+    invoke-static {p2}, Lva0;->e(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, Ljava/lang/Long;
+
+    invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v9
+
+    const/4 v6, 0x1
+
+    const-wide/16 v7, 0x0
+
+    invoke-direct/range {v4 .. v10}, Landroidx/media3/exoplayer/source/b;-><init>(Landroidx/media3/exoplayer/source/k;ZJJ)V
+
+    iget-object p2, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->r:Lug9;
+
+    iget-object p1, p1, Landroidx/media3/exoplayer/source/l$b;->a:Ljava/lang/Object;
+
+    invoke-interface {p2, p1, v4}, Lug9;->put(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    return-object v4
+
+    :cond_1
+    return-object v5
+.end method
+
+.method public c()Ly19;
+    .locals 2
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->m:[Landroidx/media3/exoplayer/source/l;
+
+    array-length v1, v0
+
+    if-lez v1, :cond_0
+
+    const/4 v1, 0x0
+
+    aget-object v0, v0, v1
+
+    invoke-interface {v0}, Landroidx/media3/exoplayer/source/l;->c()Ly19;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    sget-object v0, Landroidx/media3/exoplayer/source/MergingMediaSource;->v:Ly19;
+
+    return-object v0
+.end method
+
+.method public e(Ly19;)V
+    .locals 2
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->m:[Landroidx/media3/exoplayer/source/l;
+
+    const/4 v1, 0x0
+
+    aget-object v0, v0, v1
+
+    invoke-interface {v0, p1}, Landroidx/media3/exoplayer/source/l;->e(Ly19;)V
+
+    return-void
+.end method
+
+.method public f(Landroidx/media3/exoplayer/source/k;)V
+    .locals 3
+
+    iget-boolean v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->l:Z
+
+    if-eqz v0, :cond_2
+
+    check-cast p1, Landroidx/media3/exoplayer/source/b;
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->r:Lug9;
+
+    invoke-interface {v0}, Lug9;->a()Ljava/util/Collection;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :cond_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/Map$Entry;
+
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/media3/exoplayer/source/b;
+
+    invoke-virtual {v2, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->r:Lug9;
+
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    move-result-object v2
+
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-interface {v0, v2, v1}, Lug9;->remove(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    :cond_1
+    iget-object p1, p1, Landroidx/media3/exoplayer/source/b;->a:Landroidx/media3/exoplayer/source/k;
+
+    :cond_2
+    check-cast p1, Landroidx/media3/exoplayer/source/o;
+
+    const/4 v0, 0x0
+
+    :goto_0
+    iget-object v1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->m:[Landroidx/media3/exoplayer/source/l;
+
+    array-length v2, v1
+
+    if-ge v0, v2, :cond_3
+
+    aget-object v1, v1, v0
+
+    invoke-virtual {p1, v0}, Landroidx/media3/exoplayer/source/o;->n(I)Landroidx/media3/exoplayer/source/k;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Landroidx/media3/exoplayer/source/l;->f(Landroidx/media3/exoplayer/source/k;)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_3
+    return-void
+.end method
+
+.method public h()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->u:Landroidx/media3/exoplayer/source/MergingMediaSource$IllegalMergeException;
+
+    if-nez v0, :cond_0
+
+    invoke-super {p0}, Landroidx/media3/exoplayer/source/c;->h()V
+
+    return-void
+
+    :cond_0
+    throw v0
+.end method
+
+.method public z(Lv8g;)V
+    .locals 2
+
+    invoke-super {p0, p1}, Landroidx/media3/exoplayer/source/c;->z(Lv8g;)V
+
+    const/4 p1, 0x0
+
+    :goto_0
+    iget-object v0, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->m:[Landroidx/media3/exoplayer/source/l;
+
+    array-length v0, v0
+
+    if-ge p1, v0, :cond_0
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iget-object v1, p0, Landroidx/media3/exoplayer/source/MergingMediaSource;->m:[Landroidx/media3/exoplayer/source/l;
+
+    aget-object v1, v1, p1
+
+    invoke-virtual {p0, v0, v1}, Landroidx/media3/exoplayer/source/c;->H(Ljava/lang/Object;Landroidx/media3/exoplayer/source/l;)V
+
+    add-int/lit8 p1, p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method

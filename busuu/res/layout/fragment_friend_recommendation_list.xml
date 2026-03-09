@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/busuu_blue" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="@dimen/match_constraint" android:layout_height="@dimen/match_constraint" app:layout_constraintBottom_toTopOf="@id/continue_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapse_toolbar" android:layout_width="match_parent" android:layout_height="match_parent" app:contentScrim="@color/busuu_blue" app:expandedTitleGravity="top" app:expandedTitleTextAppearance="@style/TransparentText" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:scrimAnimationDuration="200" app:scrimVisibleHeightTrigger="@dimen/language_selector_fade_trigger" app:titleEnabled="false">
+                <LinearLayout android:orientation="vertical" android:id="@id/collapse_content" android:padding="@dimen/generic_spacing_medium_large" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/title" android:paddingTop="@dimen/generic_spacing_xxxxlarge" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add_friends" style="@style/FriendsOnboardingTitle" />
+                    <TextView android:id="@id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_small" android:text="@string/lucky_you" style="@style/FriendsOnboardingSubtitle" />
+                </LinearLayout>
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/BlueToolbarStyle" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="fill_vertical" android:background="?android:windowBackground" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="@dimen/match_constraint_max_width_420" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.busuu.android.base_ui.GenericEmptyView android:layout_gravity="center|top" android:id="@id/friends_empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:layout_constraintTop_toTopOf="parent">
+        <com.rd.PageIndicatorView android:layout_gravity="center" android:id="@id/page_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:piv_scaleFactor="0.5" />
+    </FrameLayout>
+    <include layout="@layout/include_progressbar" />
+    <Button android:id="@id/continue_button" android:layout_width="@dimen/match_constraint" android:layout_height="@dimen/button_square_continue_height" android:text="@string/add_all_and_continue" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/BlueButtonSquare" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_course_selection_container" android:background="@color/busuu_blue" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_toolbar" />
+    <FrameLayout android:id="@id/layoutContentView" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="@style/TextWeight.Regular" android:textSize="@dimen/textSizeLarge" android:textColor="@color/white" android:gravity="center" android:layout_width="@dimen/menu_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_medium" android:layout_marginBottom="@dimen/generic_spacing_xlarge" android:text="@string/register_language_selection" />
+            <include layout="@layout/include_country_list_panel" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

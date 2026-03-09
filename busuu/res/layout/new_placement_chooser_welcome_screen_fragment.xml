@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/new_placement_welcome_screen_header_background" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/WaveGreyScreenImageBackground" />
+    <TextView android:id="@id/new_placement_welcome_screen_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blue_title_margin_top" app:layout_constraintTop_toTopOf="parent" style="@style/ScreenTitleBlue" />
+    <com.busuu.android.base_ui.view.PlacementOptionView android:id="@id/new_placement_welcome_screen_beginner_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="12.0dp" app:endIcon="@drawable/ic_right_arrow_no_body" app:layout_constraintTop_toBottomOf="@id/new_placement_welcome_screen_header_background" app:startIcon="@drawable/ic_start_flag" />
+    <com.busuu.android.base_ui.view.PlacementOptionView android:id="@id/new_placement_welcome_screen_tried_before_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="12.0dp" app:endIcon="@drawable/ic_right_arrow_no_body" app:layout_constraintTop_toBottomOf="@id/new_placement_welcome_screen_beginner_button" app:startIcon="@drawable/ic_books_ic" />
+</androidx.constraintlayout.widget.ConstraintLayout>

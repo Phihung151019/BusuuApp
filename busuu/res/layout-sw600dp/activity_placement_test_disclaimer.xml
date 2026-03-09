@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/busuu_app_background" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/include_disclaimer_appbar_layout" />
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.busuu.android.base_ui.view.fixed.FixLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:maxWidth="@dimen/button_max_width">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="64.0dp" android:text="@string/before_you_start" style="@style/PlacementChooserTitle" />
+            <include layout="@layout/include_placement_test_disclaimer_list" />
+            <com.busuu.android.base_ui.view.fixed.FixButton android:id="@id/start_test_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_spacing_28" android:text="@string/start_test" android:layout_marginStart="0.0dp" android:layout_marginEnd="0.0dp" style="@style/BlueButton" />
+        </com.busuu.android.base_ui.view.fixed.FixLinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

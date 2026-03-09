@@ -1,0 +1,46 @@
+.class public Lwm4$a$a;
+.super Lcm0;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lwm4$a;->newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Ljava/lang/Runnable;
+
+.field public final synthetic b:Lwm4$a;
+
+
+# direct methods
+.method public constructor <init>(Lwm4$a;Ljava/lang/Runnable;)V
+    .locals 0
+
+    iput-object p1, p0, Lwm4$a$a;->b:Lwm4$a;
+
+    iput-object p2, p0, Lwm4$a$a;->a:Ljava/lang/Runnable;
+
+    invoke-direct {p0}, Lcm0;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()V
+    .locals 1
+
+    iget-object v0, p0, Lwm4$a$a;->a:Ljava/lang/Runnable;
+
+    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+
+    return-void
+.end method
