@@ -3175,6 +3175,9 @@
 
 .method public static final HyperlinkText-zqMNgzc(Landroidx/compose/ui/e;Ljava/lang/String;JLwyf;Ljava/util/List;JLgnf;Ljava/util/List;Landroidx/compose/runtime/Composer;II)V
     .locals 58
+    
+    return-void
+    
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
