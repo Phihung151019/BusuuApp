@@ -509,7 +509,7 @@
 .end method
 
 .method public setPremiumAccount(Z)V
-    .locals 1
+    .locals 4
     
     const/4 p1, 0x1 
 
