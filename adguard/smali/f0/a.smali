@@ -621,7 +621,7 @@
 .end method
 
 .method public final l()Z
-    locals .1
+    .locals 1
     
     const/4 v0, 0x1
     
