@@ -528,7 +528,10 @@
 .end method
 
 .method public final C(Lh0/e;)Z
+    .locals 1
+    
     const/4 p1, 0x1
+    
     return p1
 .end method
 
@@ -618,7 +621,10 @@
 .end method
 
 .method public final l()Z
+    locals .1
+    
     const/4 v0, 0x1
+    
     return v0
 .end method
 
