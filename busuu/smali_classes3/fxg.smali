@@ -329,162 +329,23 @@
 .method public final b(Lb20;)Z
     .locals 1
 
-    invoke-virtual {p1}, Lb20;->getApiPremiumData()Lq00;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1}, Lq00;->getMarket()Ljava/lang/String;
-
-    move-result-object p1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p1, 0x0
-
-    :goto_0
-    const-string v0, "google_play"
-
-    invoke-static {p1, v0}, Lve7;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
+    const/4 p1, 0x1
 
     return p1
 .end method
 
 .method public final c(Lb20;)Z
-    .locals 2
-
-    invoke-virtual {p1}, Lb20;->getAccess()Lc20;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v0}, Lc20;->getTier()Ljava/lang/String;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {p0, v0}, Lfxg;->d(Ljava/lang/String;)Z
-
-    move-result v0
-
-    goto :goto_0
-
-    :cond_0
-    move v0, v1
-
-    :goto_0
-    if-nez v0, :cond_2
-
-    invoke-virtual {p1}, Lb20;->isPremiumProvider()Z
-
-    move-result p1
-
-    if-eqz p1, :cond_1
-
-    goto :goto_1
-
-    :cond_1
-    return v1
-
-    :cond_2
-    :goto_1
+    .locals 1
+    
     const/4 p1, 0x1
 
     return p1
 .end method
 
 .method public final d(Ljava/lang/String;)Z
-    .locals 2
-
-    if-eqz p1, :cond_3
-
-    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
-
-    move-result v0
-
-    const v1, 0x30166c
-
-    if-eq v0, v1, :cond_1
-
-    const v1, 0x348d9a
-
-    if-eq v0, v1, :cond_0
-
-    const v1, 0x4e3d1ebd    # 7.932271E8f
-
-    if-ne v0, v1, :cond_2
-
-    const-string v0, "standard"
-
-    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "plus"
-
-    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    :goto_0
+    .locals 1
+    
     const/4 p1, 0x1
-
-    return p1
-
-    :cond_1
-    const-string v0, "free"
-
-    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    goto :goto_1
-
-    :cond_2
-    new-instance v0, Ljava/lang/IllegalStateException;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, " is not a valid tier"
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :cond_3
-    :goto_1
-    const/4 p1, 0x0
 
     return p1
 .end method
@@ -572,7 +433,7 @@
 
     :cond_2
     :goto_2
-    const-string v0, "free"
+    const-string v0, "plus"
 
     goto :goto_1
 
@@ -677,13 +538,16 @@
     const/4 v0, 0x0
 
     :goto_5
+    
+    const/4 v0, 0x1
     invoke-virtual {v1, v0}, Lcom/busuu/android/common/profile/model/a;->setHasActiveSubscription(Z)V
 
     invoke-virtual {p0, p1}, Lfxg;->b(Lb20;)Z
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/busuu/android/common/profile/model/a;->setHasInAppCancellableSubscription(Z)V
+    const/4 v0, 0x1
+   invoke-virtual {v1, v0}, Lcom/busuu/android/common/profile/model/a;->setHasInAppCancellableSubscription(Z)V
 
     invoke-virtual {p0, p1, v1}, Lfxg;->a(Lb20;Lsvg;)Lsvg;
 

@@ -26,20 +26,7 @@
 .method public getAccessTier()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lc1h;->a:Lcom/busuu/android/common/profile/model/a;
-
-    invoke-virtual {v0}, Lcom/busuu/android/common/profile/model/a;->isPremium()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
     const-string v0, "premium"
-
-    return-object v0
-
-    :cond_0
-    const-string v0, "free"
 
     return-object v0
 .end method
@@ -115,33 +102,7 @@
 .method public getSnowPlowUserRole()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lc1h;->a:Lcom/busuu/android/common/profile/model/a;
-
-    invoke-virtual {v0}, Lsvg;->hasExtraContent()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "b2b"
-
-    return-object v0
-
-    :cond_0
-    iget-object v0, p0, Lc1h;->a:Lcom/busuu/android/common/profile/model/a;
-
-    invoke-virtual {v0}, Lcom/busuu/android/common/profile/model/a;->isPremium()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
     const-string v0, "premium"
-
-    return-object v0
-
-    :cond_1
-    const-string v0, "free"
 
     return-object v0
 .end method
@@ -149,20 +110,7 @@
 .method public getUserRole()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lc1h;->a:Lcom/busuu/android/common/profile/model/a;
-
-    invoke-virtual {v0}, Lcom/busuu/android/common/profile/model/a;->isPremium()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
     const-string v0, "premium"
-
-    return-object v0
-
-    :cond_0
-    const-string v0, "free"
 
     return-object v0
 .end method

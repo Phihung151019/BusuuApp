@@ -313,7 +313,7 @@
 .method public final getAccessTier()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/busuu/android/common/profile/model/a;->D:Ljava/lang/String;
+    const-string v0, "plus"
 
     return-object v0
 .end method
@@ -368,7 +368,7 @@
 .method public final getHasActiveSubscription()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/busuu/android/common/profile/model/a;->H:Z
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -449,27 +449,7 @@
 .method public final getRole()Ljava/lang/String;
     .locals 1
 
-    invoke-virtual {p0}, Lsvg;->getExtraContent()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "b2b"
-
-    return-object v0
-
-    :cond_0
-    iget-boolean v0, p0, Lcom/busuu/android/common/profile/model/a;->B:Z
-
-    if-eqz v0, :cond_1
-
     const-string v0, "premium"
-
-    return-object v0
-
-    :cond_1
-    const-string v0, "free"
 
     return-object v0
 .end method
@@ -701,8 +681,8 @@
 .method public final isPremium()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/busuu/android/common/profile/model/a;->B:Z
-
+    const/4 v0, 0x1
+    
     return v0
 .end method
 
@@ -741,6 +721,8 @@
 
 .method public final setHasActiveSubscription(Z)V
     .locals 0
+    
+    const/4 p1, 0x1
 
     iput-boolean p1, p0, Lcom/busuu/android/common/profile/model/a;->H:Z
 
@@ -794,7 +776,8 @@
 
 .method public final setPremium(Z)V
     .locals 0
-
+    
+    const/4 p1, 0x1
     iput-boolean p1, p0, Lcom/busuu/android/common/profile/model/a;->B:Z
 
     return-void

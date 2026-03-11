@@ -1970,7 +1970,7 @@
 .method public final getExtraContent()Z
     .locals 1
 
-    iget-boolean v0, p0, Lezg;->n:Z
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -1986,7 +1986,7 @@
 .method public final getFull()Z
     .locals 1
 
-    iget-boolean v0, p0, Lezg;->e:Z
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -1994,7 +1994,7 @@
 .method public final getHasActiveSubscription()Z
     .locals 1
 
-    iget-boolean v0, p0, Lezg;->B:Z
+    const/4 v0, 0x1
 
     return v0
 .end method

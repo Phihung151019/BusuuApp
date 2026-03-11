@@ -341,97 +341,9 @@
 .end method
 
 .method public isPremiumAccount()Z
-    .locals 3
-
-    :try_start_0
-    sget-object v0, Lqqc;->b:Lqqc$a;
-
-    invoke-virtual {p0}, Lf30;->getAccount()Landroid/accounts/Account;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lf30;->d:Landroid/accounts/AccountManager;
-
-    invoke-virtual {p0}, Lf30;->getAccount()Landroid/accounts/Account;
-
-    move-result-object v1
-
-    const-string v2, "access_data"
-
-    invoke-virtual {v0, v1, v2}, Landroid/accounts/AccountManager;->getUserData(Landroid/accounts/Account;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
-
-    move-result v0
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception v0
-
-    goto :goto_1
-
-    :cond_0
-    iget-object v0, p0, Lf30;->c:Ledb;
-
-    invoke-interface {v0}, Ledb;->isUserPremium()Z
-
-    move-result v0
-
-    :goto_0
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lqqc;->b(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    goto :goto_2
-
-    :goto_1
-    sget-object v1, Lqqc;->b:Lqqc$a;
-
-    invoke-static {v0}, Lwqc;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lqqc;->b(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    :goto_2
-    invoke-static {v0}, Lqqc;->e(Ljava/lang/Object;)Ljava/lang/Throwable;
-
-    move-result-object v1
-
-    if-nez v1, :cond_1
-
-    goto :goto_3
-
-    :cond_1
-    iget-object v0, p0, Lf30;->c:Ledb;
-
-    invoke-interface {v0}, Ledb;->isUserPremium()Z
-
-    move-result v0
-
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    :goto_3
-    check-cast v0, Ljava/lang/Boolean;
-
-    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result v0
+    .locals 1
+    
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -597,7 +509,9 @@
 .end method
 
 .method public setPremiumAccount(Z)V
-    .locals 4
+    .locals 1
+    
+    const/4 p1, 0x1 
 
     :try_start_0
     sget-object v0, Lqqc;->b:Lqqc$a;

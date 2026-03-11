@@ -262,8 +262,8 @@
 
 .method public isPremium()Z
     .locals 1
-
-    iget-boolean v0, p0, Lcom/busuu/android/api/course/model/ApiComponent;->mPremium:Z
+    
+    const/4 v0, 0x0
 
     return v0
 .end method
@@ -327,7 +327,8 @@
 
 .method public setPremium(Z)V
     .locals 0
-
+    
+    const/4 p1, 0x0
     iput-boolean p1, p0, Lcom/busuu/android/api/course/model/ApiComponent;->mPremium:Z
 
     return-void

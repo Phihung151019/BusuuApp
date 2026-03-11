@@ -756,7 +756,7 @@
 .method public final isPremium()Z
     .locals 1
 
-    iget-boolean v0, p0, Lf12;->c:Z
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -846,7 +846,8 @@
 
 .method public final setPremium(Z)V
     .locals 0
-
+    
+    const/4 p1, 0x1
     iput-boolean p1, p0, Lf12;->c:Z
 
     return-void

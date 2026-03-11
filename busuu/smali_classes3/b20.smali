@@ -3919,7 +3919,7 @@
 .method public final isPremium()Z
     .locals 1
 
-    iget-boolean v0, p0, Lb20;->Q:Z
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -3927,16 +3927,7 @@
 .method public final isPremiumProvider()Z
     .locals 1
 
-    iget-object v0, p0, Lb20;->h:Ljava/lang/String;
-
-    if-eqz v0, :cond_0
-
     const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
 
     return v0
 .end method

@@ -2051,6 +2051,9 @@
     new-instance v7, Lh1h;
 
     invoke-direct/range {v7 .. v15}, Lh1h;-><init>(ZZZZZZZZ)V
+    
+    const/16 v68, 0x1
+    const-string v75, "plus"
 
     new-instance v43, Lezg;
 

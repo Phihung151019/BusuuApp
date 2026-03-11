@@ -709,7 +709,7 @@
 .method public final isPremium()Z
     .locals 1
 
-    iget-boolean v0, p0, Lux2;->j:Z
+    const/4 v0, 0x1
 
     return v0
 .end method

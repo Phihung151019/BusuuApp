@@ -84,11 +84,7 @@
 .method public isPremiumAccount()Z
     .locals 1
 
-    iget-object v0, p0, Lw4;->a:Le30;
-
-    invoke-interface {v0}, Le30;->isPremiumAccount()Z
-
-    move-result v0
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -133,6 +129,8 @@
 
 .method public setPremiumAccount(Z)V
     .locals 1
+    
+    const/4 p1, 0x1
 
     iget-object v0, p0, Lw4;->a:Le30;
 

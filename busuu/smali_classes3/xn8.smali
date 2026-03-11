@@ -2083,6 +2083,7 @@
     invoke-virtual {v7}, Lb20;->isPremium()Z
 
     move-result v7
+    const/4 v7, 0x1
 
     invoke-interface {v2, v7}, Lv4;->setPremiumAccount(Z)V
 

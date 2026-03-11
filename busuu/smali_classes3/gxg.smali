@@ -36,44 +36,7 @@
 # direct methods
 .method public static final a(Lb20;)Z
     .locals 1
-
-    invoke-virtual {p0}, Lb20;->getApiPremiumData()Lq00;
-
-    move-result-object p0
-
-    if-eqz p0, :cond_0
-
-    invoke-virtual {p0}, Lq00;->getMarket()Ljava/lang/String;
-
-    move-result-object p0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p0, 0x0
-
-    :goto_0
-    invoke-static {p0}, Ltcf;->a(Ljava/lang/String;)Lcom/busuu/domain/entities/user/SubscriptionMarketEnum;
-
-    move-result-object p0
-
-    sget-object v0, Lcom/busuu/domain/entities/user/SubscriptionMarketEnum;->BRAINTREE:Lcom/busuu/domain/entities/user/SubscriptionMarketEnum;
-
-    if-eq p0, v0, :cond_2
-
-    sget-object v0, Lcom/busuu/domain/entities/user/SubscriptionMarketEnum;->GOOGLE_PLAY:Lcom/busuu/domain/entities/user/SubscriptionMarketEnum;
-
-    if-ne p0, v0, :cond_1
-
-    goto :goto_1
-
-    :cond_1
-    const/4 p0, 0x0
-
-    return p0
-
-    :cond_2
-    :goto_1
+    
     const/4 p0, 0x1
 
     return p0
@@ -187,6 +150,7 @@
     invoke-virtual {v1}, Lb20;->isPremium()Z
 
     move-result v9
+    const/4 v9, 0x1
 
     invoke-static {v1}, Lgxg;->a(Lb20;)Z
 
@@ -201,7 +165,8 @@
     move-result-object v11
 
     invoke-virtual {v1}, Lb20;->isPremiumProvider()Z
-
+    
+    const/4 v12, 0x1
     move-result v12
 
     invoke-virtual {v1}, Lb20;->getRoles()[I
@@ -470,7 +435,7 @@
 
     :cond_a
     :goto_a
-    sget-object v0, Lcom/busuu/domain/entities/user/AccessTierDomainModel;->FREE:Lcom/busuu/domain/entities/user/AccessTierDomainModel;
+    sget-object v0, Lcom/busuu/domain/entities/user/AccessTierDomainModel;->PLUS:Lcom/busuu/domain/entities/user/AccessTierDomainModel;
 
     goto :goto_9
 
@@ -524,7 +489,8 @@
 
     :cond_c
     move/from16 v0, v47
-
+    
+    const/16 v0, 0x1
     invoke-virtual {v2, v0}, Lun8;->J(Z)V
 
     return-object v2
