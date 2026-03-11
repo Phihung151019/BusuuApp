@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/tv_main" app:startDestination="@id/tv_home"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvHomeFragment" android:id="@id/tv_home" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.protection.TvProtectionFragment" android:id="@id/tv_protection" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvAppsManagementFragment" android:id="@id/tv_apps" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvUpdatesFragment" android:id="@id/tv_updates" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvSettingsFragment" android:id="@id/tv_settings">
+        <action android:id="@id/action_tv_settings_to_tv_general_settings" app:destination="@id/tv_general_settings" />
+        <action android:id="@id/action_tv_settings_to_tv_about_fragment" app:destination="@id/tv_about" />
+        <action android:id="@id/action_tv_settings_to_tv_license_fragment" app:destination="@id/tv_license_fragment" />
+        <action android:id="@id/action_tv_settings_to_support" app:destination="@id/tv_support" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvGeneralSettingsFragment" android:id="@id/tv_general_settings" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvAboutLicenseFragment" android:id="@id/tv_license_fragment" />
+    <fragment android:label="TvAboutFragment" android:name="com.adguard.android.ui.fragment.tv.TvAboutFragment" android:id="@id/tv_about">
+        <action android:id="@id/action_tv_about_to_tv_dev_only_fragment" app:destination="@id/tv_dev_only_fragment" />
+    </fragment>
+    <fragment android:label="TvDevOnlyFragment" android:name="com.adguard.android.ui.fragment.tv.dev_only.TvDevOnlyFragment" android:id="@id/tv_dev_only_fragment" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvSupportFragment" android:id="@id/tv_support" />
+</navigation>

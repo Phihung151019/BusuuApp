@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Prøv %d dag gratis</item>
+        <item quantity="other">Prøv %d dage gratis</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">"Prøv AdGuard gratis i %d dag — se hvordan den forbedrer web'et på computeren, tabletten eller smartphonen"</item>
+        <item quantity="other">"Prøv AdGuard gratis i %d dage — se hvordan den forbedrer web'et på computeren, tabletten eller smartphonen"</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d websted er hvidlistet</item>
+        <item quantity="other">%d websteder er hvidlistet</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Vis %s ny handling</item>
+        <item quantity="other">Vis %s nye handlinger</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Prøveperioden slutter om %1$s dag. &lt;font color=\"%2$s\">&lt;a href=%3$s>Køb den fulde version&lt;/a>&lt;/font></item>
+        <item quantity="other">Prøveperioden slutter om %1$s dage. &lt;font color=\"%2$s\">&lt;a href=%3$s>Køb den fulde version&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny notifikation</item>
+        <item quantity="other">%d nye notifikationer</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s regel</item>
+        <item quantity="other">%s regler</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s udvidelse</item>
+        <item quantity="other">%s udvidelser</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Prøv %d dag gratis</item>
+        <item quantity="other">Prøv %d dage gratis</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d dag med udvidet beskyttelse gratis</item>
+        <item quantity="other">%d dage med udvidet beskyttelse gratis</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Slå denne indstilling fra</item>
+        <item quantity="other">Slå disse indstillinger fra</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Skan for at oprette en konto og få en gratis %d-dags prøveperiode</item>
+        <item quantity="other">Skan for at oprette en konto og få en gratis %d-dages prøveperiode</item>
+    </plurals>
+</resources>

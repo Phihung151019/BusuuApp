@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/start_icon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/middle_text_views_wrapper" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" style="@style/Icon24dp" />
+    <LinearLayout android:id="@id/middle_text_views_wrapper" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/check_box" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toEndOf="@id/start_icon" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" style="@style/KitConstructComponent.TitleSummaryNoteWrapper">
+        <TextView android:id="@id/middle_title" style="@style/Text.T1.NoFontPadding.WrapWidth" />
+        <TextView android:id="@id/middle_summary" style="@style/Text.T2" />
+        <TextView android:id="@id/middle_note" style="@style/Text.T2" />
+    </LinearLayout>
+    <com.adguard.mobile.multikit.common.ui.view.ConstructCheckBox android:id="@id/check_box" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/middle_text_views_wrapper" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" style="@style/KitConstructComponent.CheckBox" />
+    <View android:id="@id/check_box_extended_area" android:background="@color/transparent" android:focusable="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/middle_text_views_wrapper" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutNoWidthNoHeight" />
+</androidx.constraintlayout.widget.ConstraintLayout>

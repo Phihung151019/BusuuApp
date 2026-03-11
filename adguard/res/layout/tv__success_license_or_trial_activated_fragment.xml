@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" android:alpha="0.0" style="@style/LayoutFullParent">
+        <androidx.constraintlayout.widget.Guideline android:id="@id/guideline" app:layout_constraintGuide_percent="0.5" style="@style/LayoutWrapContent.Vertical" />
+        <TextView android:id="@id/title" app:layout_constraintEnd_toStartOf="@id/guideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.ScreenTitle.MarginTop_32dp.NoWidth.MarginStart_80dp.MarginTop_64dp" />
+        <TextView android:id="@id/subtitle" app:layout_constraintEnd_toStartOf="@id/guideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.ScreenSummary.NoWidth.MarginStart_80dp" />
+        <Button android:id="@id/great_button" android:text="@string/tv__screen_success_license_or_trial_activated_great" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/TV.HighLevel.FilledButton.MarginStart_80dp.MarginBottom_64dp" />
+        <Button android:id="@id/buy_license_button" android:text="@string/tv__screen_success_license_or_trial_activated_buy" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/great_button" style="@style/TV.HighLevel.OutlineButton.MarginStart_24dp.MarginBottom_64dp" />
+        <ImageView android:id="@id/image" android:src="@drawable/tv__license_or_trial_success_activated" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutWrapContent.MarginTop_64dp.MarginEnd_80dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/preloader" app:kit_anim_view__start_infinitely_on_create="true" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+</FrameLayout>

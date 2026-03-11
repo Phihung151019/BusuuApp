@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/progress_animated" style="@style/LayoutFullParent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

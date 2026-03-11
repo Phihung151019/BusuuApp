@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:text="@string/import_settings_link_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenTitle.MarginTop_80dp" />
+    <TextView android:id="@id/summary" android:text="@string/import_setting_link_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/HighLevel.ScreenSummary.MarginTop_12dp" />
+    <TextView android:id="@id/list_header" android:text="@string/import_setting_link_list_header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/summary" style="@style/HighLevel.ScreenSummary.MarginTop_16dp.GravityStart" />
+</androidx.constraintlayout.widget.ConstraintLayout>

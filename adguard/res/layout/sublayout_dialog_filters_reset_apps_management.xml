@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:id="@id/reset_routing" app:kit_end_switch__talkback="@string/preferences_apps_management_dialog_reset_all_dialog_act_1_routing" app:kit_middle_text_block__title_text="@string/preferences_apps_management_dialog_reset_all_dialog_act_1_routing" style="@style/LayoutFullWidth" />
+    <View style="@style/KitDivLine" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:id="@id/reset_filtering" app:kit_end_switch__talkback="@string/preferences_apps_management_dialog_reset_all_dialog_act_1_filtering" app:kit_middle_text_block__title_text="@string/preferences_apps_management_dialog_reset_all_dialog_act_1_filtering" style="@style/LayoutFullWidth" />
+    <View style="@style/KitDivLine" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:id="@id/reset_https_filtering" app:kit_end_switch__talkback="@string/preferences_apps_management_dialog_reset_all_dialog_act_1_https" app:kit_middle_text_block__title_text="@string/preferences_apps_management_dialog_reset_all_dialog_act_1_https" style="@style/LayoutFullWidth" />
+    <View style="@style/KitDivLine" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:id="@id/reset_proxy" app:kit_end_switch__talkback="@string/preferences_apps_management_dialog_reset_all_dialog_act_1_proxy" app:kit_middle_text_block__title_text="@string/preferences_apps_management_dialog_reset_all_dialog_act_1_proxy" style="@style/LayoutFullWidth" />
+    <View style="@style/KitDivLine" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:id="@id/reset_firewall" app:kit_middle_text_block__title_text="@string/preferences_app_details_dialog_reset_firewall" style="@style/LayoutFullWidth.MarginBottom_32dp" />
+    <Button android:id="@id/button" android:text="@string/preferences_apps_management_dialog_reset_negative_button_title" style="@style/HighLevel.Button.Negative.MarginHorizontal_16dp.MarginBottom_24dp" />
+</LinearLayout>

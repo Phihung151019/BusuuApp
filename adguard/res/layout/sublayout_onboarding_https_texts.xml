@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:text="@string/onboarding_https_title" app:layout_constraintBottom_toTopOf="@id/message" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.H4.Center.MarginHorizontal_24dp.MarginTop_16dp" />
+    <TextView android:id="@id/message" android:text="@string/onboarding_https_message" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/Text.T1.Center.MarginHorizontal_24dp.MarginTop_12dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/username" android:hint="@string/private_browser_dialog_login_username_hint" app:kit_label__text="@string/private_browser_dialog_login_username_label" style="@style/LayoutFullWidth.MarginVertical_16dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/password" android:hint="@string/private_browser_dialog_login_password_hint" app:kit_label__text="@string/private_browser_dialog_login_password_label" style="@style/LayoutFullWidth.MarginTop_16dp" />
+</LinearLayout>

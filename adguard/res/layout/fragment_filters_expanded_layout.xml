@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:src="@drawable/ic_filters_large" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenIcon.MarginTop_80dp" />
+    <TextView android:id="@id/title" android:text="@string/filters_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon" style="@style/HighLevel.ScreenTitle.MarginTop_12dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/settings" android:fillViewport="true" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/LayoutFullWidth">
+        <TextView android:id="@id/summary" android:text="@string/filters_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenSummary.MarginTop_4dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/search" android:hint="@string/filters_search_hint" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/summary" style="@style/LayoutFullWidth.MarginTop_32dp.MarginBottom_16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

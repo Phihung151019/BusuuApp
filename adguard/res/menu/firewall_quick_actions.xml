@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/filter_blocked" android:title="@string/firewall_quick_actions_menu_show_blocked" app:showAsAction="never" />
+    <item android:id="@id/filter_allowed" android:title="@string/firewall_quick_actions_menu_show_allowed" app:showAsAction="never" />
+    <item android:id="@id/filter_all" android:title="@string/firewall_quick_actions_menu_show_all" app:showAsAction="never" />
+    <item android:id="@id/clear" android:title="@string/firewall_quick_actions_menu_clear_all" app:showAsAction="never" />
+</menu>

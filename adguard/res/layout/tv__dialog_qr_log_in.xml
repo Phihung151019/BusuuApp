@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent.NoClip.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:text="@string/tv__dialog_log_in_title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/qr_code" style="@style/TV.HighLevel.DialogScreenTitle.Center.MarginTop_16dp" />
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutFullWidth" />
+    <ImageView android:id="@id/qr_code" android:alpha="0.0" app:layout_constraintBottom_toTopOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/TV.HighLevel.QR" />
+</androidx.constraintlayout.widget.ConstraintLayout>

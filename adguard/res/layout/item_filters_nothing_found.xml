@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical.PaddingHorizontal_64dp.PaddingVertical_48dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/ic_box_empty" style="@style/LayoutWrapContent.Center.MarginVertical_12dp" />
+    <TextView android:text="@string/filters_filter_group_nothing_found" style="@style/Text.T1.Center" />
+</LinearLayout>

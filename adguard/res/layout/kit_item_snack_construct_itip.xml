@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructITIP android:id="@id/snack" android:paddingTop="@dimen/dp_12" android:paddingBottom="@dimen/dp_12" android:paddingStart="@dimen/dp_12" android:paddingEnd="@dimen/dp_12" style="?kit__snackbar_progress_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

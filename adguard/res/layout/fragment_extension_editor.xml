@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/preloader" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/content" android:alpha="0.0" app:layout_constraintBottom_toTopOf="@id/save_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidthNoHeight.MarginBottom_16dp">
+        <com.adguard.mobile.multikit.common.ui.view.collapsing.CollapsingView android:id="@id/collapsing_view" android:background="@color/transparent" app:kit_collapsing_view__collapsed_layout="@layout/fragment_extension_editor_collapsed_layout" app:kit_collapsing_view__expanded_layout="@layout/fragment_extension_editor_expanded_layout" app:kit_collapsing_view_collapsed_view__fade_animation_strategy="no" app:layout_scrollFlags="scroll|exitUntilCollapsed" style="@style/LayoutFullWidth" />
+        <com.adguard.android.ui.view.ThumbDraggableVerticalScrollBarNestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/scroll_view" app:layout_behavior="@string/appbar_scrolling_view_behavior" style="@style/LayoutFullWidth">
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/editor_input" android:inputType="textMultiLine" app:kit_edit__text_vertical_gravity="top" app:kit_hideable_end_image__hide_strategy="always" style="@style/LayoutFullWidth" />
+        </com.adguard.android.ui.view.ThumbDraggableVerticalScrollBarNestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <Button android:id="@id/save_button" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginBottom_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

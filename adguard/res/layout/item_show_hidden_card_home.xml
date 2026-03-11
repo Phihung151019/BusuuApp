@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView style="@style/HighLevel.CardView.Item.ShowHidden"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/stroke_dashed_card_view" style="@style/LayoutFullParent" />
+    <LinearLayout style="@style/LayoutFullWidth.Vertical.Center.Padding_16dp">
+        <ImageView android:id="@id/image" android:src="@drawable/ic_eye_closed_large" style="@style/LayoutWrapContent.Center" />
+        <TextView android:id="@id/summary" android:text="@string/home_card_show_hidden" style="@style/Text.T2.HeightWrap.LinkColor.Center" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/enable_for_all" android:title="@string/preferences_proxy_apps_menu_enable_for_all" app:showAsAction="never" />
+    <item android:id="@id/disable_for_all" android:title="@string/preferences_proxy_apps_menu_disable_for_all" app:showAsAction="never" />
+    <item android:id="@id/reset_to_default" android:title="@string/preferences_proxy_apps_menu_reset_to_default" app:showAsAction="never" />
+</menu>

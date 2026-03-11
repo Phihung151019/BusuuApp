@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/kit_dialog_background" android:background="?kit_dialog__background" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/transparent" android:layout_marginTop="@dimen/dp_24" style="@style/LayoutFullParent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/kit_dialog_layout" android:background="?kit_dialog__content_background" app:layout_behavior="com.adguard.mobile.multikit.common.ui.behavior.dialog.BottomDialogBehavior" style="@style/LayoutFullWidth" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

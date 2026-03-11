@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/screen_settings_https_filtering" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:id="@id/scroll_view" android:visibility="gone" android:alpha="0.0" style="@style/LayoutFullParent">
+        <LinearLayout style="@style/LayoutFullWidth.Vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth">
+                <TextView android:id="@id/title" android:text="@string/preferences_https_filtering_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon" style="@style/HighLevel.ScreenTitle.MarginTop_12dp" />
+                <TextView android:id="@id/summary" android:text="@string/preferences_https_filtering_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/HighLevel.ScreenSummary.MarginTop_4dp" />
+                <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+                <ImageView android:id="@id/icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenIcon.MarginTop_80dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:id="@id/main_switch" app:kit_end_switch__talkback="@string/preferences_https_filtering_title" app:kit_middle_text_block__title_text="@string/preferences_https_filtering_title" style="@style/LayoutFullWidth.MarginTop_16dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/security_certificate" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__title_text="@string/preferences_https_filtering_title_security_certificate" style="@style/LayoutFullWidth.MarginTop_24dp" />
+            <View android:id="@id/security_certificate_divider" style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/filtered_apps" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__summary_text="@string/preferences_https_filtering_summary_filtered_apps" app:kit_middle_text_block__title_text="@string/preferences_https_filtering_title_filtered_apps" style="@style/LayoutFullWidth" />
+            <View style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/filtered_websites" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__summary_text="@string/preferences_https_filtering_summary_filtered_websites" app:kit_middle_text_block__title_text="@string/preferences_https_filtering_title_filtered_websites" style="@style/LayoutFullWidth" />
+        </LinearLayout>
+    </com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/preloader" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+</FrameLayout>

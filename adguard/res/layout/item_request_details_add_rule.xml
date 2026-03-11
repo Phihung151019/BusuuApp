@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Horizontal.PaddingVertical_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/add_rule" android:text="@string/request_details_add_blocking_rule" style="@style/HighLevel.Button.Neutral.WrapWidth.Narrow.ColorNegativeBorder.MarginHorizontal_16dp.MarginVertical_16dp" />
+</LinearLayout>

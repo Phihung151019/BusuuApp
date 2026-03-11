@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarRecyclerView android:id="@id/recycler" android:alpha="0.0" app:layout_constraintBottom_toTopOf="@id/buttons_wrapper" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidthNoHeight" />
+    <LinearLayout android:id="@id/buttons_wrapper" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/LayoutFullWidth.Vertical.PaddingBottom_16dp">
+        <Button android:id="@id/apply" android:text="@string/apply_settings_button_apply" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginTop_16dp" />
+        <Button android:id="@id/cancel" android:text="@string/apply_settings_button_cancel" style="@style/HighLevel.Button.Neutral.MarginHorizontal_16dp.MarginTop_16dp" />
+    </LinearLayout>
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutFullWidth" />
+</androidx.constraintlayout.widget.ConstraintLayout>

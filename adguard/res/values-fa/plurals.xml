@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">%d روز رایگان امتحان کنید</item>
+        <item quantity="other">%d روز رایگان امتحان کنید</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">AdGuard را به صورت رایگان برای %d روز - ببینید چگونه وب را در رایانه، تبلت یا تلفن هوشمند شما بهبود می بخشد</item>
+        <item quantity="other">AdGuard را به صورت رایگان برای %d روزها - ببینید چگونه وب را در رایانه، تبلت یا تلفن هوشمند شما بهبود می بخشد</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d وب سایت در لیست مجاز است</item>
+        <item quantity="other">%d وب سایت در لیست مجاز هستند</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d برنامه</item>
+        <item quantity="other">%d برنامه</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">نمایش %s اقدام جدید</item>
+        <item quantity="other">نمایش %s اقدام جدید</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">آزمایشی %1$s روز دیگر به پایان می رسد. &lt;font color=\"%2$s\">&lt;a href=%3$s>خرید نسخه کامل&lt;/a>&lt;/font></item>
+        <item quantity="other">آزمایشی %1$s روز دیگر به پایان می رسد. &lt;font color=\"%2$s\">&lt;a href=%3$s>خرید نسخه کامل&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d اعلان جدید</item>
+        <item quantity="other">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s دستور</item>
+        <item quantity="other">%s دستور</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s افزونه</item>
+        <item quantity="other">%s افزونه</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">%d روز رایگان امتحان کنید</item>
+        <item quantity="other">%d روز رایگان امتحان کنید</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d روز حفاظت طولانی به صورت رایگان</item>
+        <item quantity="other">%d روز حفاظت طولانی به صورت رایگان</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">این تنظیم را غیرفعال کنید</item>
+        <item quantity="other">این تنظیمات را غیرفعال کنید</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">برای ایجاد حساب و دریافت دوره آزمایشی رایگان %d روزه، اسکن کنید</item>
+        <item quantity="other">برای ایجاد حساب و دریافت دوره آزمایشی رایگان %d روزه، اسکن کنید</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth.MarginTop_32dp"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/transitive_warning" android:visibility="gone" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenSummary.TransitiveWarning.MarginTop_4dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/input" app:kit_hideable_end_image__hide_strategy="empty" app:kit_label__text="" app:kit_mistake__hide_strategy="change" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/transitive_warning" style="@style/LayoutFullWidth.MarginTop_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

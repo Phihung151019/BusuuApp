@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.ConstructButton android:id="@id/positive_button" app:kit_middle_text_block__title_text="@string/home_dialog_notifications_disabled_positive_button" style="@style/ConstructButton.MarginHorizontal_16dp.MarginTop_8dp" />
+    <com.adguard.mobile.multikit.common.ui.view.ConstructButton android:id="@id/neutral_button" app:kit_middle_text_block__summary_text="@string/home_dialog_notifications_disabled_neutral_button_summary" app:kit_middle_text_block__title_text="@string/home_dialog_notifications_disabled_neutral_button_title" style="@style/ConstructButton.Neutral.MarginHorizontal_16dp.MarginTop_16dp" />
+</LinearLayout>

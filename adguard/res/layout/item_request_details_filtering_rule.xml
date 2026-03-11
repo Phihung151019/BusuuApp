@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/filtering_rule_details" app:kit_middle_text_block__text_margin_bottom="@dimen/dp_8" app:kit_middle_text_block__text_margin_top="@dimen/dp_8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth" />
+    <Button android:id="@id/button_positive" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/filtering_rule_details" style="@style/HighLevel.Button.Neutral.WrapWidth.Narrow.ColorPrimaryBorder.MarginHorizontal_16dp.MarginVertical_16dp" />
+    <Button android:id="@id/button_negative" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/button_positive" app:layout_constraintTop_toBottomOf="@id/filtering_rule_details" style="@style/HighLevel.Button.Neutral.WrapWidth.Narrow.ColorNegativeBorder.MarginHorizontal_16dp.MarginVertical_16dp" />
+    <Button android:id="@id/button_neutral" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/button_negative" app:layout_constraintTop_toBottomOf="@id/filtering_rule_details" style="@style/HighLevel.Button.Neutral.WrapWidth.Narrow.ColorNeutralBorder.MarginHorizontal_16dp.MarginVertical_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

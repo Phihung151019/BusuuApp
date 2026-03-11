@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/tv_navigation_protection" app:startDestination="@id/tv__fragment_ad_blocking"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.tv.protection.adblocking.TvAdBlockingFragment" android:id="@id/tv__fragment_ad_blocking" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.protection.TvTrackingProtectionFragment" android:id="@id/tv__fragment_tracking_protection" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.protection.TvBrowsingSecurityFragment" android:id="@id/tv__fragment_browsing_security" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.protection.TvDnsProtectionFragment" android:id="@id/tv__fragment_dns_protection">
+        <action android:id="@id/action_tv_fragment_dns_to_dns_servers_list" app:destination="@id/tv__fragment_dns_servers_list" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvDialogDnsServersListFragment" android:id="@id/tv__fragment_dns_servers_list" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.protection.TvAdGuardVpnFragment" android:id="@id/tv__fragment_adguard_vpn" />
+</navigation>

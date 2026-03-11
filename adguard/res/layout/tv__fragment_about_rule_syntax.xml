@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent.NoClip.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/qr" style="@style/TV.HighLevel.DialogScreenTitle.Center.MarginTop_16dp" />
+    <ImageView android:id="@id/qr" app:layout_constraintBottom_toTopOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/TV.HighLevel.QR" />
+</androidx.constraintlayout.widget.ConstraintLayout>

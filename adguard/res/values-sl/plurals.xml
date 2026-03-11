@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Preizkusite %d dan brezplačno</item>
+        <item quantity="two">Preizkusite %d dneva brezplačno</item>
+        <item quantity="few">Preizkusite %d dni brezplačno</item>
+        <item quantity="other">Preizkusite %d dni brezplačno</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Preizkusite AdGuard brezplačno %d dan — preverite, kako izboljša web na vašem računalniku, tablici ali pametnem telefonu</item>
+        <item quantity="two">Preizkusite AdGuard brezplačno %d dneva — preverite, kako izboljša web na vašem računalniku, tablici ali pametnem telefonu</item>
+        <item quantity="few">Preizkusite AdGuard brezplačno %d dni — preverite, kako izboljša web na vašem računalniku, tablici ali pametnem telefonu</item>
+        <item quantity="other">Preizkusite AdGuard brezplačno %d dni — preverite, kako izboljša web na vašem računalniku, tablici ali pametnem telefonu</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d spletna stran je na seznamu dovoljenih</item>
+        <item quantity="two">%d spletni strani sta na seznamu dovoljenih</item>
+        <item quantity="few">%d spletnih strani je na seznamu dovoljenih</item>
+        <item quantity="other">%d spletnih strani je na seznamu dovoljenih</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d aplikacija</item>
+        <item quantity="two">%d aplikaciji</item>
+        <item quantity="few">%d aplikacij</item>
+        <item quantity="other">%d aplikacij</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Prikaži %s novo dejanje</item>
+        <item quantity="two">Prikaži %s novi dejanji</item>
+        <item quantity="few">Prikaži %s novih dejanj</item>
+        <item quantity="other">Prikaži %s novih dejanj</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Preizkus se konča čez %1$s dni. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kupite polno različico&lt;/a>&lt;/font></item>
+        <item quantity="two">Preizkus se konča čez %1$s dni. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kupite polno različico&lt;/a>&lt;/font></item>
+        <item quantity="few">Preizkus se konča čez %1$s dni. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kupite polno različico&lt;/a>&lt;/font></item>
+        <item quantity="other">Preizkus se konča čez %1$s dni. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kupite polno različico&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+        <item quantity="other">%d novih obvestil</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s pravilo</item>
+        <item quantity="two">%s pravili</item>
+        <item quantity="few">%s pravilo</item>
+        <item quantity="other">%s pravil</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s razširitev</item>
+        <item quantity="two">%s razširitve</item>
+        <item quantity="few">%s razširitve</item>
+        <item quantity="other">%s razširitve</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Preizkusite %d dan brezplačno</item>
+        <item quantity="two">Preizkusite %d dneva brezplačno</item>
+        <item quantity="few">Preizkusite %d dni brezplačno</item>
+        <item quantity="other">Preizkusite %d dni brezplačno</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d dan razširjene zaščite brezplačno</item>
+        <item quantity="two">%d dneva razširjene zaščite brezplačno</item>
+        <item quantity="few">%d dni razširjene zaščite brezplačno</item>
+        <item quantity="other">%d dni razširjene zaščite brezplačno</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Onemogoči to nastavitev</item>
+        <item quantity="two">Onemogoči to nastavitev</item>
+        <item quantity="few">Onemogoči to nastavitev</item>
+        <item quantity="other">Onemogoči te nastavitve</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Skenirajte za ustvarjanje računa in pridobite svoj brezplačni %d-dnevni preizkus</item>
+        <item quantity="two">Skenirajte za ustvarjanje računa in pridobite svoj brezplačni %d-dnevni preizkus</item>
+        <item quantity="few">Skenirajte za ustvarjanje računa in pridobite svoj brezplačni %d-dnevni preizkus</item>
+        <item quantity="other">Skenirajte za ustvarjanje računa in pridobite svoj brezplačni %d-dnevni preizkus</item>
+    </plurals>
+</resources>

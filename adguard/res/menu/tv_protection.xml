@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tv__selector_ad_blocking" android:id="@id/tv__fragment_ad_blocking" android:title="@string/tv__screen_protection_tab_ad_blocking" />
+    <item android:icon="@drawable/tv__selector_tracking_protection" android:id="@id/tv__fragment_tracking_protection" android:title="@string/tv__screen_protection_tab_tracking_protection" />
+    <item android:icon="@drawable/tv__selector_browsing_security" android:id="@id/tv__fragment_browsing_security" android:title="@string/tv__screen_protection_tab_browsing_security" />
+    <item android:icon="@drawable/tv__selector_dns" android:id="@id/tv__fragment_dns_protection" android:title="@string/tv__screen_protection_tab_dns_protection" />
+    <item android:icon="@drawable/tv__selector_adguard_vpn" android:id="@id/tv__fragment_adguard_vpn" android:title="@string/tv__screen_protection_tab_adguard_vpn" />
+</menu>

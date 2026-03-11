@@ -1,0 +1,62 @@
+.class public final Lj2/c$g$a;
+.super Ljava/lang/Object;
+.source "UserRulesViewModel.kt"
+
+# interfaces
+.implements Lj2/c$g;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lj2/c$g;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005R\u0017\u0010\u0003\u001a\u00020\u00028\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0006\u0010\u0007\u001a\u0004\u0008\u0008\u0010\t\u00a8\u0006\n"
+    }
+    d2 = {
+        "Lj2/c$g$a;",
+        "Lj2/c$g;",
+        "Landroid/net/Uri;",
+        "uri",
+        "<init>",
+        "(Landroid/net/Uri;)V",
+        "a",
+        "Landroid/net/Uri;",
+        "getUri",
+        "()Landroid/net/Uri;",
+        "base_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Landroid/net/Uri;
+
+
+# direct methods
+.method public constructor <init>(Landroid/net/Uri;)V
+    .locals 1
+
+    const-string v0, "uri"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lj2/c$g$a;->a:Landroid/net/Uri;
+
+    return-void
+.end method

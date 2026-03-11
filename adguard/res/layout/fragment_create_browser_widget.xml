@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent">
+        <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+        <ImageView android:id="@id/icon" android:src="@drawable/ic_private_browser_phone_widgets" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/back_button" style="@style/LayoutWrapContent.MarginTop_24dp" />
+        <TextView android:id="@id/title" android:text="@string/screen_create_browser_widget_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon" style="@style/HighLevel.ScreenTitle.MarginTop_32dp" />
+        <TextView android:id="@id/description" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" app:layout_constraintVertical_bias="0.0" style="@style/Text.T1.MarginHorizontal_24dp.MarginTop_12dp.MarginBottom_16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>

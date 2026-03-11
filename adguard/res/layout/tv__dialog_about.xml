@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout style="@style/LayoutFullParent.NoClip.Padding_64dp">
+        <LinearLayout style="@style/LayoutFullParent.Vertical">
+            <TextView android:id="@id/title" style="@style/TV.HighLevel.DialogScreenTitle" />
+            <TextView android:id="@id/summary" android:alpha="0.0" style="@style/TV.HighLevel.DialogScreenSummary" />
+        </LinearLayout>
+        <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+    </FrameLayout>
+</ScrollView>

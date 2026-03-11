@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent.NoClip.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:text="@string/tv__screen_allowlist_add_website_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.DialogScreenTitle" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.tv.TVConstructLEIM android:id="@id/input" android:hint="@string/website_hint" android:inputType="textNoSuggestions" android:imeOptions="actionDone" app:kit_end_image__icon="@drawable/tv__selector_cross_input" app:kit_label__text="@string/tv__screen_allowlist_add_label" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.Dialog.FirstConstruct" />
+    <Button android:id="@id/add_website" android:text="@string/tv__screen_allowlist_add_button_title" app:layout_constraintStart_toStartOf="@id/input" app:layout_constraintTop_toBottomOf="@id/input" style="@style/TV.HighLevel.Dialog.Button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

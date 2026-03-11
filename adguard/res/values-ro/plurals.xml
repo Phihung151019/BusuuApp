@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Încercați %d zi gratuit</item>
+        <item quantity="few">Încercați %d zile gratuit</item>
+        <item quantity="other">Încercați %d zile gratuit</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Încercați AdGuard gratuit timp de %d zi — vedeți cum vă îmbunătățește experiența web pe computer, tabletă sau smartphone</item>
+        <item quantity="few">Încercați AdGuard gratuit timp de %d zile — vedeți cum vă îmbunătățește experiența web pe computer, tabletă sau smartphone</item>
+        <item quantity="other">Încercați AdGuard gratuit timp de %d zile — vedeți cum vă îmbunătățește experiența web pe computer, tabletă sau smartphone</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d site-ul web este permis</item>
+        <item quantity="few">%d site-uri web sunt permise</item>
+        <item quantity="other">%d site-urile web sunt permise</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d aplicație</item>
+        <item quantity="few">%d aplicații</item>
+        <item quantity="other">%d de aplicații</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Afișează %s acțiune nouă</item>
+        <item quantity="few">Afișați %s acțiuni noi</item>
+        <item quantity="other">Afișați %s acțiuni noi</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Proba se încheie în %1$s zi. &lt;font color=\"%2$s\">&lt;a href=%3$s>Cumpărați versiunea completă&lt;/a>&lt;/font></item>
+        <item quantity="few">Proba se încheie în %1$s zile. &lt;font color=\"%2$s\">&lt;a href=%3$s>Cumpărați versiunea completă&lt;/a>&lt;/font></item>
+        <item quantity="other">Proba se încheie în %1$s zile. &lt;font color=\"%2$s\">&lt;a href=%3$s>Cumpărați versiunea completă&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s regulă</item>
+        <item quantity="few">%s regulă</item>
+        <item quantity="other">%s reguli</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s extensie</item>
+        <item quantity="few">%s extensii</item>
+        <item quantity="other">%s extensii</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Încercați %d zi gratuit</item>
+        <item quantity="few">Încercați %d zile gratuit</item>
+        <item quantity="other">Încercați %d zile gratuit</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d zi de protecție extinsă gratuit</item>
+        <item quantity="few">%d zile de protecție extinsă gratuit</item>
+        <item quantity="other">%d zile de protecție extinsă gratuit</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Dezactivează această setare</item>
+        <item quantity="few">Dezactivați aceste setări</item>
+        <item quantity="other">Dezactivați aceste setări</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Scanați pentru a crea un cont și a obține perioada de probă gratuită de %d zi</item>
+        <item quantity="few">Scanați pentru a crea un cont și a obține perioada de probă gratuită de %d zile</item>
+        <item quantity="other">Scanați pentru a crea un cont și a obține perioada de probă gratuită de %d zile</item>
+    </plurals>
+</resources>

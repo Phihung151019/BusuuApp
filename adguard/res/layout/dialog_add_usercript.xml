@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/input" android:hint="@string/preferences_app_settings_extensions_dialog_input_hint" app:kit_label__text="@string/preferences_app_settings_extensions_dialog_hint" style="@style/LayoutFullWidth.MarginTop_16dp"
+      xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

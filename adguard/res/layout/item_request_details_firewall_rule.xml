@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/rule_details" android:background="@drawable/kit_background_normal" app:kit_middle_text_block__text_margin_bottom="@dimen/dp_8" app:kit_middle_text_block__text_margin_top="@dimen/dp_8" app:layout_constraintBottom_toTopOf="@id/button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/LayoutFullWidth" />
+    <Button android:id="@id/button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rule_details" style="@style/HighLevel.Button.Neutral.WrapWidth.Narrow.ColorPrimaryBorder.MarginHorizontal_16dp.MarginVertical_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

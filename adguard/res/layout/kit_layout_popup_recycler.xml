@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_marginTop="?kit_popup__vertical_margin" android:layout_marginBottom="?kit_popup__vertical_margin" android:layout_marginStart="?kit_popup__horizontal_margin" android:layout_marginEnd="?kit_popup__horizontal_margin" app:cardBackgroundColor="?kit_popup__background_color" app:cardCornerRadius="?kit_popup__background_corner_radius" app:strokeWidth="@dimen/dp_0" style="@style/LayoutFullWidth">
+        <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarRecyclerView android:id="@id/recycler" style="@style/LayoutFullWidth" />
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

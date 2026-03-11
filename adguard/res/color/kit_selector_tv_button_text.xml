@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="false" android:color="?kit__tv_button_text__focused_not_pressed" />
+    <item android:state_focused="true" android:state_pressed="true" android:color="?kit__tv_button_text__focused_pressed" />
+    <item android:state_focused="false" android:state_pressed="true" android:color="?kit__tv_button_text__not_focused_pressed" />
+    <item android:state_enabled="false" android:color="?kit__tv_button_text__disabled" />
+    <item android:color="?kit__tv_button_text__normal" />
+</selector>

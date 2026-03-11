@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dp" android:width="32.0dp" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/transparent" android:pathData="M20.667,5.333L24.667,9.333" android:strokeColor="?tv__statistics_card_total_requests_color" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M20.667,13.333L24.667,9.333" android:strokeColor="?tv__statistics_card_total_requests_color" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M24.667,9.333H7.333" android:strokeColor="?tv__statistics_card_total_requests_color" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M11.333,18.667L7.333,22.667" android:strokeColor="?tv__statistics_card_total_requests_color" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M11.333,26.667L7.333,22.667" android:strokeColor="?tv__statistics_card_total_requests_color" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M7.333,22.667H24.667" android:strokeColor="?tv__statistics_card_total_requests_color" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

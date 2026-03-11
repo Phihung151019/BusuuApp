@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/tv_navigation_sign_in" app:startDestination="@id/tv__log_in_get_free_trial_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.tv.auth.TvLogInGetFreeTrialFragment" android:id="@id/tv__log_in_get_free_trial_fragment" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.auth.TvLogInBuyAdguardFragment" android:id="@id/tv__log_in_buy_adguard_fragment" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.auth.TvLogInLicenseFragment" android:id="@id/tv__log_in_license_fragment" />
+</navigation>

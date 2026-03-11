@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Prova %d dag gratis</item>
+        <item quantity="other">Prova %d dagar gratis</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Prova AdGuard gratis i %d dag – se hur det förbättrar webben på din dator, surfplatta eller smartphone</item>
+        <item quantity="other">Prova AdGuard gratis i %d dagar – se hur det förbättrar webben på din dator, surfplatta eller smartphone</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d webbplats är vitlistad</item>
+        <item quantity="other">%d webbplatser är vitlistade</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d appar</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Visa %s ny åtgärd</item>
+        <item quantity="other">Visa %s nya åtgärder</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Provperioden slutar om %1$s dag. &lt;font color=\"%2$s\">&lt;a href=%3$s>Köp den fullständiga versionen&lt;/a>&lt;/font></item>
+        <item quantity="other">Provperioden slutar om %1$s dagar. &lt;font color=\"%2$s\">&lt;a href=%3$s>Köp den fullständiga versionen&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny avisering</item>
+        <item quantity="other">%d nya aviseringar</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s regel</item>
+        <item quantity="other">%s regler</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s tillägg</item>
+        <item quantity="other">%s tillägg</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Prova %d dag gratis</item>
+        <item quantity="other">Prova %d dagar gratis</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d dag av utökat skydd gratis</item>
+        <item quantity="other">%d dagar av utökat skydd gratis</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Inaktivera denna inställning</item>
+        <item quantity="other">Inaktivera dessa inställningar</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Skanna för att skapa ett konto och få din gratis %d-dagars provperiod</item>
+        <item quantity="other">Skanna för att skapa ett konto och få din gratis %d-dagars provperiod</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/LayoutFullWidth.PaddingHorizontal_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/remove_button" android:text="@string/tv__screen_dns_servers_button_remove" style="@style/TV.HighLevel.Dialog.TopButton.Trash" />
+</FrameLayout>

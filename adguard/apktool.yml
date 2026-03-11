@@ -1,0 +1,19 @@
+version: v2.12.1-59-7d2cc9b6-SNAPSHOT
+apkFileName: adguard.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 28
+  targetSdkVersion: 34
+versionInfo:
+  versionCode: 10304530
+  versionName: 4.12.81
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- png
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- assets/install.id

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth.PaddingBottom_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+    <ImageView android:id="@id/option" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ContextMenuButton" />
+    <ImageView android:id="@id/icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Icon48dp.MarginTop_64dp" />
+    <TextView android:id="@id/title" android:text="@string/firewall_app_rules_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon" style="@style/HighLevel.ScreenTitle.MarginTop_12dp" />
+    <TextView android:id="@id/summary" android:text="@string/firewall_app_rules_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/HighLevel.ScreenSummary.MarginTop_4dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

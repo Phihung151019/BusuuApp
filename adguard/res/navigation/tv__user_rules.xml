@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/tv__user_rules" app:startDestination="@id/tv__user_rules_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="TvUserRulesFragment" android:name="com.adguard.android.ui.fragment.tv.user_rules.TvUserRulesFragment" android:id="@id/tv__user_rules_fragment">
+        <action android:id="@id/action_tv__user_rules_fragment_to_tv__add_user_rule_fragment" app:destination="@id/tv__add_user_rule_fragment" />
+        <action android:id="@id/action_tv__user_rules_fragment_to_tv__remove_user_rule_fragment" app:destination="@id/tv__remove_user_rule_fragment" />
+        <action android:id="@id/action_tv__user_rules_fragment_to_tv__about_user_rule_syntax_fragment" app:destination="@id/tv__about_user_rule_syntax_fragment" />
+    </fragment>
+    <fragment android:label="TvUserRulesFragment" android:name="com.adguard.android.ui.fragment.tv.user_rules.TvAddUserRuleFragment" android:id="@id/tv__add_user_rule_fragment">
+        <action android:id="@id/action_tv__add_user_rule_fragment_to_tv__about_user_rule_syntax_fragment" app:destination="@id/tv__about_user_rule_syntax_fragment" />
+    </fragment>
+    <fragment android:label="TvRemoveUserRuleFragment" android:name="com.adguard.android.ui.fragment.tv.user_rules.TvRemoveUserRuleFragment" android:id="@id/tv__remove_user_rule_fragment" />
+    <fragment android:label="TvAboutRuleSyntaxFragment" android:name="com.adguard.android.ui.fragment.tv.user_rules.TvAboutRuleSyntaxFragment" android:id="@id/tv__about_user_rule_syntax_fragment" />
+</navigation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/tracking_protection_details_settings" style="@style/LayoutFullWidth.Vertical.PaddingBottom_32dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/back_button" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+    <TextView android:id="@id/title" style="@style/HighLevel.ScreenTitle.MarginTop_16dp" />
+    <TextView android:id="@id/summary" style="@style/HighLevel.ScreenSummary.MarginTop_4dp" />
+</LinearLayout>

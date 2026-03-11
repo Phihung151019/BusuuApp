@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/input" android:hint="@string/allow_list_dialog_hint" android:inputType="textUri" app:kit_label__text="@string/allow_list_dialog_title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth.MarginTop_16dp"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

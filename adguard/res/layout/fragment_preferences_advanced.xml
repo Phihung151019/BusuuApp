@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:id="@id/scroll_view" android:fillViewport="true" style="@style/LayoutFullParent">
+        <LinearLayout style="@style/LayoutFullWidth.Vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth">
+                <TextView android:id="@id/title" android:text="@string/preferences_advanced_settings_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon" style="@style/HighLevel.ScreenTitle.MarginTop_12dp" />
+                <TextView android:id="@id/summary" android:text="@string/preferences_advanced_settings_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/HighLevel.ScreenSummary.TransitiveWarning.MarginTop_4dp" />
+                <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+                <ImageView android:id="@id/icon" android:src="@drawable/ic_settings_mixer_large" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenIcon.MarginTop_80dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITDS android:id="@id/automation" app:kit_end_switch__talkback="@string/preferences_advanced_settings_automation_title" app:kit_middle_text_block__summary_text="@string/preferences_advanced_settings_automation_summary" app:kit_middle_text_block__title_text="@string/preferences_advanced_settings_automation_title" style="@style/LayoutFullWidth.MarginTop_16dp" />
+            <View style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITDS android:id="@id/watchdog" app:kit_end_switch__talkback="@string/preferences_advanced_settings_watchdog_title" app:kit_middle_text_block__summary_text="@string/preferences_advanced_settings_watchdog_summary" app:kit_middle_text_block__title_text="@string/preferences_advanced_settings_watchdog_title" style="@style/LayoutFullWidth" />
+            <View style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/log_level" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__title_text="@string/preferences_advanced_settings_logging_level_title" style="@style/LayoutFullWidth" />
+            <View style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/export_logs" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__title_text="@string/preferences_advanced_settings_export_logs_title" style="@style/LayoutFullWidth" />
+            <View style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/low_level" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__summary_text="@string/preferences_advanced_settings_low_level_summary" app:kit_middle_text_block__title_text="@string/preferences_advanced_settings_low_level_title" style="@style/LayoutFullWidth" />
+        </LinearLayout>
+    </com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>
+</FrameLayout>

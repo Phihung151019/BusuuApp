@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructRTI app:kit_start_compound_button_area__intercept_click_events="true" style="@style/LayoutFullWidth"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

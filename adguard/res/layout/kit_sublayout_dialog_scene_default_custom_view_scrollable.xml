@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?kit_dialog__content_background" style="@style/LayoutFullParent.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_weight="1.0" style="@style/LayoutFullParent">
+        <View android:id="@id/kit_puller" android:visibility="gone" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/KitPuller" />
+        <LinearLayout android:id="@id/kit_dialog_content" android:paddingTop="?kit_dialog__default_type_content_padding_top" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullParent.Vertical" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:id="@id/kit_dialog_buttons" android:paddingBottom="?kit_dialog__default_type_content_padding_bottom" style="@style/LayoutFullWidth.Vertical" />
+</LinearLayout>

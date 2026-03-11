@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/tv__navigation_already_purchased" app:startDestination="@id/tv__dialog_already_purchased"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvDialogAlreadyPurchasedFragment" android:id="@id/tv__dialog_already_purchased">
+        <action android:id="@id/action_tv__dialog_already_purchased_to_tv__dialog_qr_log_in" app:destination="@id/tv__dialog_qr_log_in" />
+        <action android:id="@id/action_tv__dialog_already_purchased_to_tv__dialog_license_key" app:destination="@id/tv__dialog_license_key" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.tv.auth.TvDialogQrLogInFragment" android:id="@id/tv__dialog_qr_log_in" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvDialogLicenseKeyFragment" android:id="@id/tv__dialog_license_key" />
+</navigation>

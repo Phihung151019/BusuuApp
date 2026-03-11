@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:id="@id/https_ca_scroll_view" style="@style/LayoutFullParent.Weight1">
+        <ViewStub android:id="@id/stub" style="@style/LayoutFullParent" />
+    </com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>
+    <Button android:id="@id/next" android:text="@string/https_activation_button_next" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginBottom_16dp" />
+    <Button android:id="@id/negative" android:visibility="gone" style="@style/HighLevel.Button.Negative.MarginHorizontal_16dp.MarginBottom_16dp" />
+    <com.adguard.mobile.multikit.common.ui.view.ConstructButton android:id="@id/neutral" android:visibility="gone" style="@style/ConstructButton.Neutral.MarginHorizontal_16dp.MarginBottom_16dp" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:src="@drawable/ic_ninja_viking_handshake" style="@style/LayoutFullWidth" />
+    <TextView android:id="@id/title" android:text="@string/adguard_vpn_integration_dialog_integration_enabled_title" style="@style/Text.H4.Center.MarginHorizontal_24dp.MarginTop_16dp" />
+    <TextView android:id="@id/summary" android:text="@string/adguard_vpn_integration_dialog_integration_enabled_summary" style="@style/Text.T1.Center.MarginHorizontal_24dp.MarginTop_8dp" />
+</LinearLayout>

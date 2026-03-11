@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="?kit_popup__divider_horizontal_margin" android:right="?kit_popup__divider_horizontal_margin">
+        <shape android:shape="rectangle">
+            <solid android:color="?kit_popup__divider_color" />
+        </shape>
+    </item>
+</layer-list>

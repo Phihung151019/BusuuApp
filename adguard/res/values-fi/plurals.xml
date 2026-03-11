@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Kokeile %d päivää ilmaiseksi</item>
+        <item quantity="other">Kokeile %d päivää ilmaiseksi</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Kokeile AdGuardia ilmaiseksi %d päivän ajan – katso, miten se parantaa webiä tietokoneellasi, tabletillasi tai älypuhelimellasi</item>
+        <item quantity="other">Kokeile AdGuardia ilmaiseksi %d päivän ajan – katso, miten se parantaa webiä tietokoneellasi, tabletillasi tai älypuhelimellasi</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d sivusto on sallittu.</item>
+        <item quantity="other">%d sivustoa on sallittu.</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d sovellus</item>
+        <item quantity="other">%d sovellusta</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Näytä %s uusi määritys</item>
+        <item quantity="other">Näytä %s uutta määritystä</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Kokeilu päättyy %1$s päivän kuluttua. &lt;font color=\"%2$s\">&lt;a href=%3$s>Osta täysversio&lt;/a>&lt;/font></item>
+        <item quantity="other">Kokeilu päättyy %1$s päivän kuluttua. &lt;font color=\"%2$s\">&lt;a href=%3$s>Osta täysversio&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uusi ilmoitus</item>
+        <item quantity="other">%d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s sääntö.</item>
+        <item quantity="other">%s sääntöä.</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s laajennus</item>
+        <item quantity="other">%s laajennusta</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Kokeile %d päivää ilmaiseksi</item>
+        <item quantity="other">Kokeile %d päivää ilmaiseksi</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d päivä laajennettua suojausta ilmaiseksi</item>
+        <item quantity="other">%d päivää laajennettua suojausta ilmaiseksi</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Poista asetus käytöstä</item>
+        <item quantity="other">Poista asetukset käytöstä</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Skannaa luodaksesi tilin ja saadaksesi ilmaisen %d päivän kokeilun</item>
+        <item quantity="other">Skannaa luodaksesi tilin ja saadaksesi ilmaisen %d päivän kokeilun</item>
+    </plurals>
+</resources>

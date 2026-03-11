@@ -1,0 +1,145 @@
+.class public final Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment$h;
+.super Lkotlin/jvm/internal/p;
+.source "AdGuardVPNIntegrationFragment.kt"
+
+# interfaces
+.implements Li6/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;->O()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/p;",
+        "Li6/a<",
+        "LT5/G;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0001\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
+    }
+    d2 = {
+        "LT5/G;",
+        "a",
+        "()V"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic e:Landroidx/fragment/app/FragmentActivity;
+
+.field public final synthetic g:Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/fragment/app/FragmentActivity;Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment$h;->e:Landroidx/fragment/app/FragmentActivity;
+
+    iput-object p2, p0, Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment$h;->g:Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/p;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 7
+
+    sget-object v0, LZ3/j;->a:LZ3/j;
+
+    iget-object v1, p0, Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment$h;->e:Landroidx/fragment/app/FragmentActivity;
+
+    const-string v2, "$it"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/n;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment$h;->g:Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;
+
+    invoke-static {v2}, Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;->y(Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;)Lcom/adguard/android/storage/y;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/adguard/android/storage/y;->c()LU0/e;
+
+    move-result-object v2
+
+    iget-object v3, p0, Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment$h;->g:Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;
+
+    invoke-static {v3}, Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;->y(Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment;)Lcom/adguard/android/storage/y;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/adguard/android/storage/y;->b()LU0/a;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, LU0/a;->j()LR0/h;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/Enum;->name()Ljava/lang/String;
+
+    move-result-object v3
+
+    sget-object v4, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    move-result-object v3
+
+    const-string v4, "toLowerCase(...)"
+
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/n;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v4, "adguard_vpn_integration_screen"
+
+    invoke-virtual {v2, v4, v3}, LU0/e;->j(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const/16 v5, 0xc
+
+    const/4 v6, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    invoke-static/range {v0 .. v6}, LZ3/j;->J(LZ3/j;Landroid/content/Context;Ljava/lang/String;Landroid/view/View;ZILjava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/adguard/android/ui/fragment/preferences/AdGuardVPNIntegrationFragment$h;->a()V
+
+    sget-object v0, LT5/G;->a:LT5/G;
+
+    return-object v0
+.end method

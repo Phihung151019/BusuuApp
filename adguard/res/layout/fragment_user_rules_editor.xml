@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent">
+        <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+        <ImageView android:id="@id/save" android:src="@drawable/ic_checkmark" android:contentDescription="@string/save_talkback" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ContextMenuButton" />
+        <ImageView android:id="@id/faq" android:contentDescription="@string/user_filter_info" app:layout_constraintEnd_toStartOf="@id/save" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ContextMenuButton.FAQ" />
+        <LinearLayout android:id="@id/header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth.Vertical.MarginTop_80dp" />
+        <TextView android:id="@id/summary" android:text="@string/user_filter_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" style="@style/HighLevel.ScreenSummary.MarginTop_4dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/input" android:singleLine="false" android:inputType="textMultiLine" app:kit_edit__text_vertical_gravity="top" app:kit_hideable_end_image__hide_strategy="always" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_min="@dimen/dp_64" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/summary" style="@style/LayoutFullWidth.MarginTop_32dp.MarginBottom_16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>

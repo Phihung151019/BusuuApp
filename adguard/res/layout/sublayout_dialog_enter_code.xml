@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/code_input" android:hint="@string/about_license_enter_code_dialog_hint" android:inputType="textCapCharacters" app:kit_label__text="@string/about_license_enter_code_dialog_label" style="@style/LayoutFullWidth" />
+    <com.adguard.mobile.multikit.common.ui.view.ConstructButton android:id="@id/button" app:kit_middle_text_block__title_text="@string/about_license_enter_code_dialog_button" style="@style/LayoutFullWidth.MarginHorizontal_16dp.MarginTop_24dp" />
+</LinearLayout>

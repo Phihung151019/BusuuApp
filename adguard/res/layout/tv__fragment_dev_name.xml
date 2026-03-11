@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Vertical.NoClip.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:text="@string/tv__screen_dev_name_title" style="@style/TV.HighLevel.DialogScreenTitle" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.tv.TVConstructLEIM android:id="@id/input" android:imeOptions="actionDone" app:kit_label__text="@string/tv__screen_dev_name_input_label" style="@style/TV.HighLevel.Dialog.FirstConstruct" />
+    <Button android:id="@id/button" android:text="@string/tv__screen_dev_name_button" style="@style/TV.HighLevel.Dialog.Button" />
+</LinearLayout>

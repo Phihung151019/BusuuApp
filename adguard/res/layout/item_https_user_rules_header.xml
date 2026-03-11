@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical.CenterHorizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:src="@drawable/ic_user_rule" style="@style/Icon48dp" />
+    <TextView android:id="@id/title" android:text="@string/user_filter_title" style="@style/HighLevel.ScreenTitle.MarginTop_12dp" />
+</LinearLayout>

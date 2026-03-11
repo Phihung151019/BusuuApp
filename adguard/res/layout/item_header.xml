@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/back_button" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+    <TextView android:id="@id/title" android:text="@string/protection_dns_filters_title" style="@style/Text.H4.Center.MarginVertical_16dp" />
+</LinearLayout>

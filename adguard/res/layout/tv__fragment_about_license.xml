@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Horizontal.NoClip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/TV.HighLevel.ContentBoxColumn.Left.NoClip">
+        <TextView android:id="@id/title" android:alpha="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.ScreenTitle.NoFontPadding.MarginTop_64dp" />
+        <TextView android:id="@id/summary" android:alpha="0.0" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.ScreenSummary.MarginEnd_16dp" />
+        <LinearLayout android:id="@id/buttons_wrapper" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/summary" style="@style/LayoutNoWidthHeightWrap.Vertical.NoClip.MarginTop_40dp">
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/buy_adguard" android:visibility="gone" app:kit_middle_text_block__title_text="@string/tv__screen_manage_license_button_buy_adguard" style="@style/LayoutFullWidth" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/already_purchased" android:visibility="gone" app:kit_middle_text_block__title_text="@string/tv__screen_manage_license_button_already_purchased" style="@style/LayoutFullWidth" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/upgrade" android:visibility="gone" app:kit_middle_text_block__title_text="@string/tv__screen_manage_license_button_upgrade" style="@style/LayoutFullWidth" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/bind_license" android:visibility="gone" app:kit_middle_text_block__summary_text="@string/tv__screen_manage_license_button_bind_license_summary" app:kit_middle_text_block__title_text="@string/tv__screen_manage_license_button_bind_license_title" style="@style/LayoutFullWidth" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/refresh_status" android:alpha="0.0" app:kit_middle_text_block__title_text="@string/tv__screen_manage_license_button_refresh_status" style="@style/LayoutFullWidth" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/reset" android:alpha="0.0" app:kit_middle_text_block__title_text="@string/tv__screen_manage_license_button_reset" style="@style/LayoutFullWidth" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Barrier android:id="@id/barrier" app:barrierDirection="start" app:constraint_referenced_ids="buttons_wrapper" app:layout_constraintStart_toStartOf="parent" style="@style/LayoutWrapContent" />
+        <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/TV.HighLevel.ContentBoxColumn.Right">
+        <ImageView android:id="@id/qr_image" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.QR.MarginEnd_80dp.MarginTop_64dp" />
+        <TextView android:text="@string/tv__screen_manage_license_scan_label" app:layout_constraintEnd_toEndOf="@id/qr_image" app:layout_constraintStart_toStartOf="@id/qr_image" app:layout_constraintTop_toBottomOf="@id/qr_image" style="@style/TV.HighLevel.QRLabel.NoWidth" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

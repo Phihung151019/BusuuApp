@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="?scrollbar_thumb_corner_radius_pressed" />
+    <solid android:color="?draggable_scroll_bar_thumb_pressed_color" />
+    <size android:height="?scrollbar_thumb_min_height" android:width="?scrollbar_thumb_width_pressed" />
+</shape>

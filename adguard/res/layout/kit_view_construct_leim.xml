@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/leim_container" style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/label" app:layout_constraintBottom_toTopOf="@id/edit" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.T2" />
+    <com.adguard.mobile.multikit.common.ui.view.ConstructEditText android:gravity="start|top" android:id="@id/edit" app:layout_constraintBottom_toTopOf="@id/mistake" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/label" style="@style/Text.T1.NoFontPadding" />
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/end_icon" android:visibility="gone" app:layout_constraintBottom_toBottomOf="@id/edit" app:layout_constraintEnd_toEndOf="@id/edit" app:layout_constraintTop_toTopOf="@id/edit" style="@style/Icon24dp" />
+    <TextView android:id="@id/mistake" android:visibility="gone" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/edit" style="@style/Text.T2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

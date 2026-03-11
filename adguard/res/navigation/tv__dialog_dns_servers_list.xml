@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/tv_dns_servers" app:startDestination="@id/servers_list"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvDialogDnsServersListFragment" android:id="@id/servers_list">
+        <action android:id="@id/action_tv_dns_servers_to_custom_server_details" app:destination="@id/custom_server_details" />
+        <action android:id="@id/action_tv_dns_servers_to_remove_custom_servers" app:destination="@id/remove_custom_servers" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvDialogAddCustomServerFragment" android:id="@id/custom_server_details">
+        <action android:id="@id/action_custom_servers_to_providers" app:destination="@id/providers" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvDialogRemoveCustomServersFragment" android:id="@id/remove_custom_servers" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.TvDialogDnsProvidersFragment" android:id="@id/providers" />
+</navigation>

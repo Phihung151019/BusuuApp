@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" app:layout_constraintBottom_toTopOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/LayoutWrapContent.MarginBottom_24dp" />
+    <TextView android:id="@id/title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenTitle.MarginTop_16dp" />
+    <TextView android:id="@id/summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/Text.T1.Center.MarginHorizontal_24dp.MarginTop_12dp" />
+    <ProgressBar android:id="@id/preloader" android:layout_width="?animated_circle_progress_bar_size" android:layout_height="?animated_circle_progress_bar_size" android:indeterminateDrawable="@drawable/progress_animated" app:layout_constraintBottom_toBottomOf="@id/positive_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/positive_button" app:layout_constraintVertical_bias="0.9" />
+    <Button android:id="@id/positive_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/summary" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginTop_32dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

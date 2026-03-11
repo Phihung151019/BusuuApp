@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d veebileht on lubatud</item>
+        <item quantity="other">%d veebilehte on lubatud</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d rakendus</item>
+        <item quantity="other">%d rakendust</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Kuva %s uus tegevus</item>
+        <item quantity="other">Kuva %s uut tegevust</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uus märguanne</item>
+        <item quantity="other">%d uut märguannet</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s reegel</item>
+        <item quantity="other">%s reeglit</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s laiendus</item>
+        <item quantity="other">%s laiendust</item>
+    </plurals>
+</resources>

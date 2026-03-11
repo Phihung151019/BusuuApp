@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:fillViewport="true" style="@style/LayoutFullParent">
+        <LinearLayout style="@style/LayoutFullParent.Vertical">
+            <ImageView android:id="@id/back_button" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+            <TextView android:id="@id/title" android:text="@string/permissions_for_auto_update_title" style="@style/HighLevel.ScreenTitle.MarginTop_12dp" />
+            <TextView android:ellipsize="end" android:id="@id/message" android:text="@string/permissions_for_auto_update_message" style="@style/HighLevel.ScreenSummary.MarginTop_8dp" />
+            <LinearLayout android:id="@id/container_success" android:visibility="gone" style="@style/LayoutFullParent.Vertical.Center.MarginHorizontal_64dp">
+                <ImageView android:src="@drawable/ic_placeholder_success" style="@style/LayoutWrapContent" />
+                <TextView android:text="@string/permissions_for_auto_update_success_message" style="@style/Text.T1.ColorDescription.Center" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/container" style="@style/LayoutFullParent.Vertical.MarginTop_40dp" />
+        </LinearLayout>
+    </com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/preloader" app:kit_anim_view__start_infinitely_on_create="true" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+</FrameLayout>

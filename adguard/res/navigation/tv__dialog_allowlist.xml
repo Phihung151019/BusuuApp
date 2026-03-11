@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/tv__navigation_allowlist" app:startDestination="@id/tv__dialog_fragment_allowlist"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.tv.protection.adblocking.TvDialogAllowlistFragment" android:id="@id/tv__dialog_fragment_allowlist" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.protection.adblocking.TvDialogAllowlistRemoveItemFragment" android:id="@id/tv__dialog_fragment_allowlist_remove" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.protection.adblocking.TvDialogAllowlistAddItemFragment" android:id="@id/tv__dialog_fragment_allowlist_add" />
+</navigation>

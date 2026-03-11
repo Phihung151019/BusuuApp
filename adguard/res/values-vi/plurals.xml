@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="other">Dùng thử miễn phí %d ngày</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="other">Dùng thử AdGuard miễn phí %d ngày — xem cách nó cải thiện web trên máy tính, máy tính bảng hoặc điện thoại thông minh của bạn</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="other">%d trang web nằm trong danh sách cho phép</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="other">%d ứng dụng</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="other">Hiển thị %s hành động mới</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="other">Thời gian dùng thử kết thúc sau %1$s ngày. &lt;font color=\"%2$s\">&lt;a href=%3$s>Mua phiên bản đầy đủ&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="other">%s quy tắc</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="other">%s phần mở rộng</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="other">Dùng thử miễn phí %d ngày</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="other">%d ngày bảo vệ mở rộng miễn phí</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="other">Tắt các cài đặt này</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="other">Quét để tạo tài khoản và nhận bản dùng thử %d ngày miễn phí</item>
+    </plurals>
+</resources>

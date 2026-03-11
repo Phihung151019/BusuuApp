@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" style="@style/LayoutFullWidth.Horizontal.MarginStart_80dp.MarginBottom_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/log_in_button" android:focusable="true" android:focusableInTouchMode="true" android:text="@string/tv__screen_sign_in_tab_license_button_log_in" style="@style/TV.HighLevel.FilledButton.FullHeight.MultiLine" />
+    <Button android:id="@id/code_button" android:focusable="true" android:focusableInTouchMode="true" android:text="@string/tv__screen_sign_in_tab_license_button_code" style="@style/TV.HighLevel.FilledButton.FullHeight.MultiLine.MarginStart_24dp" />
+</LinearLayout>

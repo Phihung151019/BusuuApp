@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.adguard.android" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:backupInForeground="true" android:extractNativeLibs="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.adguard.app.AdGuardApplication" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme.Light">
+        <meta-data android:name="asset_statements" android:resource="@string/asset_statements"/>
+        <meta-data android:name="io.sentry.dsn" android:value="https://4ad379578f284b35843cc02b06e369b0:5a1199281ca343cbb08b41fce8ee6120@s10.adtidy.net/40"/>
+        <meta-data android:name="io.sentry.auto-init" android:value="false"/>
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIZadhygsg98_dRR-1mYQhYgEURzC7gKGsR4mucw"/>
+        <meta-data android:name="com.adguard.integration.version" android:value="2"/>
+        <activity android:label="@string/app_name" android:name="com.adguard.android.ui.activity.MainActivity" android:theme="@style/SplashScreenTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.adguard.android.ui.activity.tv.TvMainActivity" android:theme="@style/TV.SplashScreenTheme" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.adguard.android.ui.activity.tv.TvExperimentActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.adguard.android.ui.activity.tv.TvShareLogsActivity" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.adguard.android.ui.activity.tv.TvLicenseOrTrialExpiredActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.tv.TvSuccessLicenseOrTrialActivationActivity" android:theme="@style/TV.SplashScreenTheme"/>
+        <activity android:name="com.adguard.android.ui.activity.tv.TvAuthActivity" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.adguard.android.ui.activity.tv.TvOnboardingActivity"/>
+        <activity android:name="com.adguard.android.ui.activity.tv.TvMigrationSplashActivity" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:label="@string/assistant_label" android:name="com.adguard.android.ui.activity.AssistantActivity" android:theme="@style/TransparentTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.HttpsCaActivationActivity" android:theme="@style/SplashScreenTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.HttpsCaInstallationActivity" android:theme="@style/SplashScreenTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.OnboardingActivity" android:theme="@style/SplashScreenTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.PrivateBrowserOnboardingActivity" android:theme="@style/SplashScreenTheme"/>
+        <activity android:exported="true" android:name="com.adguard.android.ui.activity.SplashActivity" android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.MigrationSplashActivity" android:theme="@style/SplashScreenTheme"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.AdGuardSchemeSortingActivity" android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="adguard"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.SdnsSchemeSortingActivity" android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sdns"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.adguard.android.ui.activity.FiltersSubscriptionSchemeSortingActivity" android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="adg"/>
+                <data android:scheme="abp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="subscribe.adblockplus.org" android:scheme="https"/>
+                <data android:host="subscribe.adblockplus.org" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.adguard.android.ui.activity.NotificationWebsiteRedirectionActivity" android:theme="@style/SplashScreenTheme"/>
+        <activity android:name="com.adguard.android.ui.activity.PromoActivity" android:theme="@style/SplashScreenTheme"/>
+        <activity android:name="com.adguard.android.ui.activity.LicenseOrTrialExpiredActivity" android:theme="@style/SplashScreenTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.LicenseOrTrialSuccessActivationActivity" android:theme="@style/SplashScreenTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.adguard.mobile.multikit.common.ui.activity.VpnPrepareActivity" android:theme="@style/TransparentTheme"/>
+        <activity android:exported="false" android:label="@string/widget_settings_activity_title" android:name="com.adguard.android.ui.activity.WidgetSettingsActivity" android:theme="@style/Theme.AppCompat.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.adguard.android.ui.activity.ChangeThemeSupportActivity" android:theme="@style/ChangeThemeSupportTheme"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.PrivateBrowserRoutingActivity" android:theme="@style/SplashScreenTheme">
+            <intent-filter android:icon="@drawable/ic_private_browser" android:label="@string/private_browser_intent_filter_label" android:roundIcon="@drawable/ic_private_browser">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/ic_private_browser" android:label="@string/private_browser_intent_filter_label" android:roundIcon="@drawable/ic_private_browser">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.YoutubeRoutingActivity" android:theme="@style/SplashScreenTheme">
+            <intent-filter android:label="@string/youtube_intent_filter_label">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="youtu.be" android:scheme="http"/>
+                <data android:host="youtu.be" android:scheme="https"/>
+                <data android:host="m.youtube.com" android:scheme="http"/>
+                <data android:host="m.youtube.com" android:scheme="https"/>
+                <data android:host="youtube.com" android:scheme="http"/>
+                <data android:host="youtube.com" android:scheme="https"/>
+                <data android:host="www.youtube.com" android:scheme="http"/>
+                <data android:host="www.youtube.com" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.YoutubeActivity" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.adguard.android.ui.activity.PrivateBrowserActivity" android:supportsPictureInPicture="true" android:taskAffinity="" android:theme="@style/SplashScreenTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:documentLaunchMode="intoExisting" android:exported="false" android:launchMode="standard" android:name="com.adguard.android.ui.activity.ShortcutPrivateBrowserActivity" android:supportsPictureInPicture="true" android:theme="@style/SplashScreenTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="true" android:name="com.adguard.android.ui.activity.ShortcutPrivateBrowserRoutingActivity" android:theme="@style/SplashScreenTheme"/>
+        <activity android:allowTaskReparenting="true" android:alwaysRetainTaskState="false" android:clearTaskOnLaunch="true" android:enabled="true" android:excludeFromRecents="true" android:exported="false" android:finishOnTaskLaunch="true" android:name="com.adguard.android.ui.activity.TileServicePreferenceActivity">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:finishOnTaskLaunch="true" android:name="com.adguard.android.ui.activity.AdguardTileLauncherActivity" android:noHistory="true" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="false" android:foregroundServiceType="systemExempted" android:name="com.adguard.android.service.vpn.LocalVpnService" android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService"/>
+            </intent-filter>
+        </service>
+        <service android:foregroundServiceType="dataSync" android:name="com.adguard.android.service.protectionstate.ProtectionStateForegroundService"/>
+        <service android:foregroundServiceType="dataSync" android:name="com.adguard.android.service.SamsungPayService"/>
+        <service android:foregroundServiceType="dataSync" android:name="com.adguard.android.service.StartOnBootService"/>
+        <service android:foregroundServiceType="dataSync" android:name="com.adguard.android.service.WatchdogService"/>
+        <service android:exported="true" android:foregroundServiceType="dataSync" android:icon="@drawable/ic_adguard_tile" android:label="@string/tile_protection_status" android:name="com.adguard.android.service.AdguardTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.adguard.android.receiver.BootUpReceiver">
+            <intent-filter android:priority="2000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.adguard.android.receiver.AutomationReceiver"/>
+        <receiver android:exported="false" android:name="com.adguard.android.receiver.WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_provider_big"/>
+        </receiver>
+        <receiver android:exported="false" android:label="@string/private_browser_widget_label" android:name="com.adguard.android.receiver.PrivateBrowserWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/private_browser_widget_provider"/>
+        </receiver>
+        <provider android:authorities="com.adguard.android.file.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:name="com.adguard.mobile.multikit.common.ui.dsl.dialog.activity.DialogActivity" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.adguard.mobile.multikit.common.ui.embryo.symbiote.utils.RecreateSupportActivity" android:theme="@style/KitSplashScreenTheme"/>
+        <activity android:name="com.adguard.mobile.multikit.common.ui.dsl.dialog.activity.SceneDialogActivity" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.adguard.mobile.multikit.common.ui.dsl.dialog.tv.TvDialogActivity" android:screenOrientation="nosensor" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.adguard.mobile.multikit.common.ui.dsl.dialog.tv.TvDialogBackgroundActivity" android:screenOrientation="nosensor" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustNothing"/>
+        <provider android:authorities="com.adguard.android.SentryInitProvider" android:exported="false" android:name="io.sentry.android.core.SentryInitProvider"/>
+        <provider android:authorities="com.adguard.android.SentryPerformanceProvider" android:exported="false" android:initOrder="200" android:name="io.sentry.android.core.SentryPerformanceProvider"/>
+        <provider android:authorities="com.adguard.android.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="io.sentry.gradle-plugin-integrations" android:value="DatabaseInstrumentation,FileIOInstrumentation,LogcatInstrumentation"/>
+    </application>
+</manifest>

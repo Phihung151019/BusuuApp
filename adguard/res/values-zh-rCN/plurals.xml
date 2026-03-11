@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="other">免费试用 %d 天</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="other">免费试用 AdGuard %d 天：体验它如何提升您在电脑、平板及手机上的 Web 浏览体验</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="other">白名单内的网站数量：%d</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="other">%d 个应用程序</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="other">显示 %s 新操作</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="other">试用期将在 %1$s 天后结束。 &lt;font color=\"%2$s\">&lt;a href=%3$s>购买完整版&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 条新通知</item>
+        <item quantity="other">%d 条新通知</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="other">%s 条规则</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="other">%s 个扩展</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="other">免费试用 %d 天</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="other">免费延长进阶保护 %d 天</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="other">禁用设置</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="other">扫码以创建账号并获得免费 %d 天试用</item>
+    </plurals>
+</resources>

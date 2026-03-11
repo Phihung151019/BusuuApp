@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?kit__background_normal" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.animation.LottieAnimationView android:id="@id/logo_lottie" app:lottie_autoPlay="false" app:lottie_loop="false" style="@style/Animation.SplashLottie" />
+</FrameLayout>

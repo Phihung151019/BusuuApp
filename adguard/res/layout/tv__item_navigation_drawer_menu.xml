@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI app:kit_middle_text_block__text_padding_start="@dimen/dp_12" app:kit_middle_text_block__title_color="@color/tv__selector_text_nav_drawer" app:kit_middle_text_block__title_font="?kit__t1_text_semibold_font_family" style="@style/LayoutFullParent"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

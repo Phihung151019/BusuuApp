@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Vyskúšajte %d deň zadarmo</item>
+        <item quantity="few">Vyskúšajte %d dni zadarmo</item>
+        <item quantity="many">Vyskúšajte %d dní zadarmo</item>
+        <item quantity="other">Vyskúšajte %d dní zadarmo</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Vyskúšajte AdGuard zadarmo na %d deň – pozrite sa, ako vylepšuje web na Vašom počítači, tablete alebo smartfóne</item>
+        <item quantity="few">Vyskúšajte AdGuard zadarmo na %d dni – pozrite sa, ako vylepšuje web na Vašom počítači, tablete alebo smartfóne</item>
+        <item quantity="many">Vyskúšajte AdGuard zadarmo na %d dní – pozrite sa, ako vylepšuje web na Vašom počítači, tablete alebo smartfóne</item>
+        <item quantity="other">Vyskúšajte AdGuard zadarmo na %d dní – pozrite sa, ako vylepšuje web na Vašom počítači, tablete alebo smartfóne</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d webová stránka je povolená</item>
+        <item quantity="few">%d webové stránky sú povolené</item>
+        <item quantity="many">%d webových stránok je povolených</item>
+        <item quantity="other">%d webových stránok je povolených</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d aplikácia</item>
+        <item quantity="few">%d aplikácie</item>
+        <item quantity="many">%d aplikácií</item>
+        <item quantity="other">%d aplikácií</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Zobraziť %s nová akcia</item>
+        <item quantity="few">Zobraziť %s novými akciami</item>
+        <item quantity="many">Zobraziť %s nových akcií</item>
+        <item quantity="other">Zobraziť %s nových akcií</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Skúšobná verzia sa skončí %1$s deň. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kúpiť plnú verziu&lt;/a>&lt;/font></item>
+        <item quantity="few">Skúšobná verzia sa skončí o %1$s dní. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kúpiť plnú verziu&lt;/a>&lt;/font></item>
+        <item quantity="many">Skúšobná verzia sa skončí o %1$s dní. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kúpiť plnú verziu&lt;/a>&lt;/font></item>
+        <item quantity="other">Skúšobná verzia sa skončí o %1$s dní. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kúpiť plnú verziu&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+        <item quantity="other">%d nových upozornení</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s pravidlo</item>
+        <item quantity="few">%s pravidlá</item>
+        <item quantity="many">%s pravidiel</item>
+        <item quantity="other">%s pravidiel</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Vyskúšajte %d deň zadarmo</item>
+        <item quantity="few">Vyskúšajte %d dni zadarmo</item>
+        <item quantity="many">Vyskúšajte %d dní zadarmo</item>
+        <item quantity="other">Vyskúšajte %d dní zadarmo</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d deň predĺženej ochrany zadarmo</item>
+        <item quantity="few">%d dni predĺženej ochrany zadarmo</item>
+        <item quantity="many">%d dní predĺženej ochrany zadarmo</item>
+        <item quantity="other">%d dní predĺženej ochrany zadarmo</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Zakázať toto nastavenie</item>
+        <item quantity="few">Zakázať tieto nastavenia</item>
+        <item quantity="many">Zakázať tieto nastavenia</item>
+        <item quantity="other">Zakázať tieto nastavenia</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Naskenujte si účet a získajte bezplatnú %d-dňovú skúšobnú verziu</item>
+        <item quantity="few">Naskenujte si účet a získajte bezplatnú %d-dňovú skúšobnú verziu</item>
+        <item quantity="many">Naskenujte si účet a získajte bezplatnú %d-dňovú skúšobnú verziu</item>
+        <item quantity="other">Naskenujte si účet a získajte bezplatnú %d-dňovú skúšobnú verziu</item>
+    </plurals>
+</resources>

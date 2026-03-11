@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical.NoClip.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:text="@string/tv__dialog_already_purchased_title" style="@style/TV.HighLevel.DialogScreenTitle" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/log_in" app:kit_middle_text_block__title_text="@string/tv__dialog_already_purchased_log_in" style="@style/TV.HighLevel.Dialog.FirstConstruct" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/enter_code" app:kit_middle_text_block__title_text="@string/tv__dialog_already_purchased_enter_code" style="@style/TV.HighLevel.Dialog.NextConstruct" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/tracking_level" app:kit_end_image__icon="@drawable/ic_arrow_down_small" app:kit_hideable_end_image__hide_strategy="never" app:kit_label__text="@string/apply_settings_category_tracking_protection_level_label" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth.MarginVertical_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:alpha="0.0" style="@style/LayoutFullParent.NoClip.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/loading_title" app:layout_constraintBottom_toTopOf="@id/loading_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/loading_image" style="@style/TV.HighLevel.DialogScreenTitle.Center.MarginTop_16dp" />
+    <TextView android:id="@id/loading_summary" android:visibility="gone" android:text="@string/tv__dialog_update_downloading_summary" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/loading_title" style="@style/TV.HighLevel.DialogScreenSummary.Center" />
+    <ImageView android:id="@id/loading_image" android:src="@drawable/tv__ic_agnar_thinking" app:layout_constraintBottom_toTopOf="@id/loading_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/LayoutWrapContent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="false" android:color="?kit__tv_end_switch__thumb_color_unchecked" android:alpha="@dimen/m3_comp_switch_disabled_unselected_icon_opacity" />
+    <item android:state_enabled="false" android:state_checked="true" android:color="?kit__tv_end_switch__thumb_color_checked" android:alpha="@dimen/m3_comp_switch_disabled_selected_icon_opacity" />
+    <item android:state_checked="false" android:color="?kit__tv_end_switch__thumb_color_unchecked" />
+    <item android:color="?kit__tv_end_switch__thumb_color_checked" />
+</selector>

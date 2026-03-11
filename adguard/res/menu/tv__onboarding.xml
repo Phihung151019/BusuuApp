@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tv__selector_adguard" android:id="@id/tv__fragment_onboarding_welcome" android:title="@string/tv__screen_onboarding_tab_welcome" />
+    <item android:icon="@drawable/tv__selector_log" android:id="@id/tv__fragment_onboarding_eula" android:title="@string/tv__screen_onboarding_tab_eula" />
+    <item android:icon="@drawable/tv__selector_log" android:id="@id/tv__fragment_onboarding_privacy_policy" android:title="@string/tv__screen_onboarding_tab_privacy_policy" />
+    <item android:icon="@drawable/tv__selector_log" android:id="@id/tv__fragment_onboarding_technical_data" android:title="@string/tv__screen_onboarding_tab_technical_data" />
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:alpha="0.0" style="@style/LayoutFullParent.NoClip.Padding_64dp"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/intermediate_title" app:layout_constraintBottom_toTopOf="@id/intermediate_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/TV.HighLevel.DialogScreenTitle.Center" />
+    <TextView android:id="@id/intermediate_summary" app:layout_constraintBottom_toTopOf="@id/buttons_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/intermediate_title" style="@style/TV.HighLevel.DialogScreenSummary.Center" />
+    <LinearLayout android:id="@id/buttons_container" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/intermediate_summary" style="@style/LayoutWrapContent.Horizontal">
+        <Button android:id="@id/action_button" style="@style/TV.HighLevel.Dialog.FirstButton" />
+        <Button android:id="@id/skip_button" style="@style/TV.HighLevel.Dialog.NextButton" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

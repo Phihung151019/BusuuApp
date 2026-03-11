@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="zero">جرب %d يوم مجانا</item>
+        <item quantity="one">جرب %d يوم مجانا</item>
+        <item quantity="two">جرب %d يوم مجانا</item>
+        <item quantity="few">جرب %d أيام مجانا</item>
+        <item quantity="many">جرب %d أيام مجانا</item>
+        <item quantity="other">جرب %d أيام مجانا</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="zero">جرب AdGuard مجانًا لمدة %d يوم - اكتشف كيف يتم تحسين الويب على حاسوبك أو جهازك اللوحي أو هاتفك الذكي</item>
+        <item quantity="one">جرب AdGuard مجانًا لمدة %d يوم - اكتشف كيف يتم تحسين الويب على حاسوبك أو جهازك اللوحي أو هاتفك الذكي</item>
+        <item quantity="two">جرب AdGuard مجانًا لمدة %d يوم - اكتشف كيف يتم تحسين الويب على حاسوبك أو جهازك اللوحي أو هاتفك الذكي</item>
+        <item quantity="few">جرب AdGuard مجانًا لمدة %d أيام - اكتشف كيف يتم تحسين الويب على حاسوبك أو جهازك اللوحي أو هاتفك الذكي</item>
+        <item quantity="many">جرب AdGuard مجانًا لمدة %d أيام - اكتشف كيف يتم تحسين الويب على حاسوبك أو جهازك اللوحي أو هاتفك الذكي</item>
+        <item quantity="other">جرب AdGuard مجانًا لمدة %d أيام - اكتشف كيف يتم تحسين الويب على حاسوبك أو جهازك اللوحي أو هاتفك الذكي</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="zero">%d موقع إلكتروني مسموح به</item>
+        <item quantity="one">%d موقع إلكتروني مسموح به</item>
+        <item quantity="two">%d موقع إلكتروني مسموح به</item>
+        <item quantity="few">%d مواقع إلكترونية مسموح به</item>
+        <item quantity="many">%d مواقع إلكترونية مسموح به</item>
+        <item quantity="other">%d مواقع إلكترونية مسموح به</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="zero">%d تطبيق</item>
+        <item quantity="one">%d تطبيق</item>
+        <item quantity="two">%d تطبيق</item>
+        <item quantity="few">%d تطبيقات</item>
+        <item quantity="many">%d تطبيقات</item>
+        <item quantity="other">%d تطبيقات</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="zero">عرض %s إجراء جديد</item>
+        <item quantity="one">عرض %s إجراء جديد</item>
+        <item quantity="two">عرض %s إجراء جديد</item>
+        <item quantity="few">عرض %s إجراءات جديد</item>
+        <item quantity="many">عرض %s إجراءات جديد</item>
+        <item quantity="other">عرض %s إجراءات جديد</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="zero">تنتهي النسخة التجريبية في %1$s يوم. &lt;font color=\"%2$s\">&lt;a href=%3$s>شراء النسخة الكاملة&lt;/a>&lt;/font></item>
+        <item quantity="one">تنتهي النسخة التجريبية في %1$s يوم. &lt;font color=\"%2$s\">&lt;a href=%3$s>شراء النسخة الكاملة&lt;/a>&lt;/font></item>
+        <item quantity="two">تنتهي النسخة التجريبية في %1$s يوم. &lt;font color=\"%2$s\">&lt;a href=%3$s>شراء النسخة الكاملة&lt;/a>&lt;/font></item>
+        <item quantity="few">تنتهي النسخة التجريبية في %1$s أيام. &lt;font color=\"%2$s\">&lt;a href=%3$s>شراء النسخة الكاملة&lt;/a>&lt;/font></item>
+        <item quantity="many">تنتهي النسخة التجريبية في %1$s أيام. &lt;font color=\"%2$s\">&lt;a href=%3$s>شراء النسخة الكاملة&lt;/a>&lt;/font></item>
+        <item quantity="other">تنتهي النسخة التجريبية في %1$s أيام. &lt;font color=\"%2$s\">&lt;a href=%3$s>شراء النسخة الكاملة&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="zero">%s قاعدة</item>
+        <item quantity="one">%s قاعدة</item>
+        <item quantity="two">%s قاعدة</item>
+        <item quantity="few">%s قواعد</item>
+        <item quantity="many">%s قواعد</item>
+        <item quantity="other">%s قواعد</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="zero">%s الملحق</item>
+        <item quantity="one">%s الملحق</item>
+        <item quantity="two">%s الملحق</item>
+        <item quantity="few">%s الملحقات</item>
+        <item quantity="many">%s الملحقات</item>
+        <item quantity="other">%s الملحقات</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="zero">جرب %d يوم مجانا</item>
+        <item quantity="one">جرب %d يوم مجانا</item>
+        <item quantity="two">جرب %d يوم مجانا</item>
+        <item quantity="few">جرب %d أيام مجانا</item>
+        <item quantity="many">جرب %d أيام مجانا</item>
+        <item quantity="other">جرب %d أيام مجانا</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="zero">%d يوم من الحماية المتقدمة مجاناً</item>
+        <item quantity="one">%d يوم من الحماية المتقدمة مجاناً</item>
+        <item quantity="two">%d يوم من الحماية المتقدمة مجاناً</item>
+        <item quantity="few">%d أيام من الحماية المتقدمة مجاناً</item>
+        <item quantity="many">%d أيام من الحماية المتقدمة مجاناً</item>
+        <item quantity="other">%d أيام من الحماية المتقدمة مجاناً</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="zero">تعطيل هذا الإعداد</item>
+        <item quantity="one">تعطيل هذا الإعداد</item>
+        <item quantity="two">تعطيل هذا الإعداد</item>
+        <item quantity="few">تعطيل هذه الإعدادات</item>
+        <item quantity="many">تعطيل هذه الإعدادات</item>
+        <item quantity="other">تعطيل هذه الإعدادات</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="zero">امسح ضوئياً لإنشاء حساب واحصل على نسخة تجريبية مجانية لمدة %d يوم</item>
+        <item quantity="one">امسح ضوئياً لإنشاء حساب واحصل على نسخة تجريبية مجانية لمدة %d يوم</item>
+        <item quantity="two">امسح ضوئياً لإنشاء حساب واحصل على نسخة تجريبية مجانية لمدة %d يوم</item>
+        <item quantity="few">امسح ضوئياً لإنشاء حساب واحصل على نسخة تجريبية مجانية لمدة %d يوم</item>
+        <item quantity="many">امسح ضوئياً لإنشاء حساب واحصل على نسخة تجريبية مجانية لمدة %d يوم</item>
+        <item quantity="other">امسح ضوئياً لإنشاء حساب واحصل على نسخة تجريبية مجانية لمدة %d يوم</item>
+    </plurals>
+</resources>

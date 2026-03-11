@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/LayoutFullParent.NoClip.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/LayoutFullParent.Vertical.NoClip">
+        <TextView android:text="@string/tv__dialog_quit_title" style="@style/TV.HighLevel.DialogScreenTitle" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/quit" app:kit_middle_text_block__summary_text="@string/tv__dialog_quit_quit_summary" app:kit_middle_text_block__title_text="@string/tv__dialog_quit_quit_title" style="@style/TV.HighLevel.Dialog.FirstConstruct" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/cancel" app:kit_middle_text_block__title_text="@string/tv__dialog_quit_cancel_title" style="@style/TV.HighLevel.Dialog.NextConstruct" />
+    </LinearLayout>
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" android:alpha="0.0" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+</FrameLayout>

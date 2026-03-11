@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Пробај %d ден бесплатно</item>
+        <item quantity="other">Пробај %d дена бесплатно</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Пробајте AdGuard бесплатно %d ден — видете како го подобрува web на вашиот компјутер, таблет или смартфон</item>
+        <item quantity="other">Пробајте AdGuard бесплатно %d дена — видете како го подобрува web на вашиот компјутер, таблет или смартфон</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d веб-локација е на листата на дозволени</item>
+        <item quantity="other">Дозволени се %d веб-локации</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d апликација</item>
+        <item quantity="other">%d апликации</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Прикажи %s ново дејство</item>
+        <item quantity="other">Прикажи %s нови дејства</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Пробниот период завршува за %1$s ден. &lt;font color=\"%2$s\">&lt;a href=%3$s>Купете ја целосната верзија&lt;/a>&lt;/font></item>
+        <item quantity="other">Пробниот период завршува за %1$s дена. &lt;font color=\"%2$s\">&lt;a href=%3$s>Купете ја целосната верзија&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново известување</item>
+        <item quantity="other">%d нови известувања</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s правило</item>
+        <item quantity="other">%s правила</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s екстензија</item>
+        <item quantity="other">%s екстензии</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Пробај %d ден бесплатно</item>
+        <item quantity="other">Пробај %d дена бесплатно</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d ден проширена заштита бесплатно</item>
+        <item quantity="other">%d дена проширена заштита бесплатно</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Оневозможете ја оваа поставка</item>
+        <item quantity="other">Оневозможете ги овие поставки</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Скенирајте за да креирате сметка и добиете бесплатен пробен %d-ден</item>
+        <item quantity="other">Скенирајте за да креирате сметка и добиете бесплатен пробен %d-дена</item>
+    </plurals>
+</resources>

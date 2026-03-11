@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/kit_dialog_background" android:background="?kit_dialog__background" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/kit_dialog_layout" android:background="@color/transparent" android:paddingTop="?kit_dialog__marginTop" app:layout_behavior="com.adguard.mobile.multikit.common.ui.behavior.dialog.BottomDialogBehavior" style="@style/LayoutFullWidth.Vertical">
+        <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarNestedScrollView android:id="@id/kit_dialog_scroll_content" android:background="?kit_dialog__content_background" android:layout_weight="1.0" style="@style/LayoutFullWidth">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/kit_dialog_body" style="@style/LayoutFullWidth">
+                <LinearLayout android:id="@id/kit_dialog_content" android:paddingTop="?kit_dialog__default_type_content_padding_top" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullParent.Vertical" />
+                <View android:id="@id/kit_puller" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/KitPuller" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarNestedScrollView>
+        <LinearLayout android:id="@id/kit_dialog_buttons" android:background="?kit_dialog__content_background" android:paddingBottom="?kit_dialog__default_type_content_padding_bottom" style="@style/LayoutFullWidth.Vertical" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/app_statistics" android:title="@string/preferences_app_details_menu_item_statistics" app:showAsAction="never" />
+    <item android:id="@id/reset_to_default" android:title="@string/preferences_app_details_menu_item_reset" app:showAsAction="never" />
+    <item android:id="@id/technical_information" android:title="@string/preferences_app_details_menu_item_technical_info" app:showAsAction="never" />
+</menu>

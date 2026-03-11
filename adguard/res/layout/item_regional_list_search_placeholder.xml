@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/ic_warning_color_service_primary" style="@style/Icon40dp.Center.MarginTop_20dp" />
+    <TextView android:text="@string/ad_blocking_regional_lists_search_empty" style="@style/Text.T1.Center.MarginHorizontal_24dp.MarginTop_16dp" />
+</LinearLayout>

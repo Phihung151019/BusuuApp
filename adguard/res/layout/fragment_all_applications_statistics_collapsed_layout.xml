@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+    <ImageView android:id="@id/sort_options" android:src="@drawable/ic_filter" android:alpha="0.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ContextMenuButton" />
+    <TextView android:id="@id/collapsed_title" android:text="@string/all_applications_statistics_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.T1.NoFontPadding.Center.MarginHorizontal_24dp.MarginTop_26dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/collapsed_search" android:visibility="gone" android:hint="@string/subdomains_statistics_search" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/collapsed_title" style="@style/LayoutFullWidth.MarginTop_32dp.MarginBottom_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

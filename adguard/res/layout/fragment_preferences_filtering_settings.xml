@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/screen_settings_filtering" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:id="@id/settings" android:visibility="gone" android:fillViewport="true" android:alpha="0.0" style="@style/LayoutFullParent">
+        <LinearLayout style="@style/LayoutFullWidth.Vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth">
+                <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+                <ImageView android:id="@id/filtering_icon" android:src="@drawable/ic_filter_large" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenIcon.MarginTop_80dp" />
+                <ImageView android:id="@id/option" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ContextMenuButton" />
+                <TextView android:id="@id/title" android:text="@string/preferences_filtering_settings_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/filtering_icon" style="@style/HighLevel.ScreenTitle.MarginTop_12dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/filters" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__summary_text="@string/preferences_filtering_settings_summary_filters" app:kit_middle_text_block__title_text="@string/preferences_filtering_settings_title_filters" app:kit_start_image__icon="@drawable/ic_filters" style="@style/LayoutFullWidth.MarginTop_16dp" />
+            <View style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/extensions" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__summary_text="@string/preferences_filtering_settings_summary_extensions_disabled" app:kit_middle_text_block__title_text="@string/preferences_filtering_settings_title_extensions" app:kit_start_image__icon="@drawable/ic_puzzle" style="@style/LayoutFullWidth" />
+            <View style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/network_settings" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__summary_text="@string/preferences_filtering_settings_summary_network_settings" app:kit_middle_text_block__title_text="@string/preferences_filtering_settings_title_network_settings" app:kit_start_image__icon="@drawable/ic_web" style="@style/LayoutFullWidth" />
+        </LinearLayout>
+    </com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/preloader" app:kit_anim_view__start_infinitely_on_create="true" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+</FrameLayout>

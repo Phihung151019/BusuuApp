@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="other">Coba %d hari secara gratis</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="other">Coba AdGuard gratis selama %d hari — lihat bagaimana ini meningkatkan Web di komputer, tablet, atau smartphone Anda</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="other">%d situs web diizinkan</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="other">%d aplikasi</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="other">Tampilkan %s tindakan baru</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="other">Uji coba berakhir dalam %1$s hari. &lt;font color=\"%2$s\">&lt;a href=%3$s>Beli versi lengkap&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notifikasi baru</item>
+        <item quantity="other">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="other">%s aturan</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="other">%s ekstensi</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="other">Coba %d hari secara gratis</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="other">%d hari perlindungan tambahan secara gratis</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="other">Nonaktifkan pengaturan ini</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="other">Pindai untuk membuat akun dan dapatkan uji coba gratis %d hari Anda</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.collapsing.CollapsingView android:id="@id/collapsing_view" android:background="@color/transparent" app:kit_collapsing_view__collapsed_layout="@layout/fragment_app_language_collapsed_layout" app:kit_collapsing_view__expanded_layout="@layout/fragment_app_language_expanded_layout" app:kit_collapsing_view_collapsed_view__fade_animation_strategy="no" style="@style/LayoutFullWidth" />
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarRecyclerView android:id="@id/recycler" app:layout_behavior="@string/appbar_scrolling_view_behavior" style="@style/LayoutFullParent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

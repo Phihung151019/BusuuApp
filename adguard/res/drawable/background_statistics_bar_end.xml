@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?stacked_bar_chart__color_end" />
+    <corners android:radius="?stacked_bar_chart__corner_radius" />
+</shape>

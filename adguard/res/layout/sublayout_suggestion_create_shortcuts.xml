@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView style="@style/HighLevel.CardView.SuggestionPermissionRequest"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent.Padding_12dp">
+        <ImageView android:id="@id/star" android:src="@drawable/ic_star_private_browser" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Icon24dp" />
+        <ImageView android:id="@id/close_button" android:src="@drawable/ic_cross_gray" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Icon24dp" />
+        <TextView android:id="@id/title" android:text="@string/screen_private_browser_create_shortcuts_snack_title" app:layout_constraintEnd_toStartOf="@id/close_button" app:layout_constraintStart_toEndOf="@id/star" app:layout_constraintTop_toTopOf="parent" style="@style/Text.T1.NoFontPadding.NoWidth.MarginHorizontal_12dp.PaddingTop_3dp" />
+        <TextView android:id="@id/action" android:text="@string/screen_private_browser_create_shortcuts_snack_action" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/title" style="@style/Text.T2.ColorPrimary.WidthWrap.MarginTop_16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

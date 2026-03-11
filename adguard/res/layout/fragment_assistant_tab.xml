@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:text="@string/assistant_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.H5.MarginHorizontal_16dp.MarginTop_24dp" />
+    <TextView android:id="@id/summary" android:text="@string/assistant_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/Text.T1.MarginHorizontal_16dp.MarginTop_8dp" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="?kit__background_transparent_as_drawable" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/summary" app:tabIndicatorColor="?fills_buttons_main_button_default" app:tabIndicatorFullWidth="true" app:tabSelectedTextColor="?kit__main_text_color" app:tabTextAppearance="@style/Text.T1.Center" app:tabTextColor="?kit__summary_text_color" style="@style/LayoutFullWidth.MarginVertical_16dp" />
+    <View android:id="@id/tab_layout_divider" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tab_layout" style="@style/KitDivLine" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tab_layout" style="@style/LayoutFullWidth.PaddingBottom_8dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

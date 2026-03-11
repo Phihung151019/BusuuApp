@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.tv.TvFocusDistributingLayout android:id="@id/tabs_container" style="@style/LayoutFullParent.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

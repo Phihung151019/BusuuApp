@@ -1,0 +1,72 @@
+.class public final Lio/sentry/android/core/internal/util/b;
+.super Ljava/lang/Object;
+.source "AndroidMainThreadChecker.java"
+
+# interfaces
+.implements Lio/sentry/util/thread/a;
+
+
+# static fields
+.field public static final a:Lio/sentry/android/core/internal/util/b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lio/sentry/android/core/internal/util/b;
+
+    invoke-direct {v0}, Lio/sentry/android/core/internal/util/b;-><init>()V
+
+    sput-object v0, Lio/sentry/android/core/internal/util/b;->a:Lio/sentry/android/core/internal/util/b;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static e()Lio/sentry/android/core/internal/util/b;
+    .locals 1
+
+    sget-object v0, Lio/sentry/android/core/internal/util/b;->a:Lio/sentry/android/core/internal/util/b;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public a(J)Z
+    .locals 2
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/os/Looper;->getThread()Ljava/lang/Thread;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Thread;->getId()J
+
+    move-result-wide v0
+
+    cmp-long p1, v0, p1
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
+.end method

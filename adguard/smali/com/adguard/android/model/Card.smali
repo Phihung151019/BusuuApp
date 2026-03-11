@@ -1,0 +1,275 @@
+.class public final enum Lcom/adguard/android/model/Card;
+.super Ljava/lang/Enum;
+.source "Card.kt"
+
+# interfaces
+.implements Lr4/c;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/adguard/android/model/Card$Companion;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/adguard/android/model/Card;",
+        ">;",
+        "Lr4/c;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u000f\u0008\u0086\u0081\u0002\u0018\u0000 \n2\u0008\u0012\u0004\u0012\u00020\u00000\u00012\u00020\u0002:\u0001\nB\u0011\u0008\u0002\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0005\u0010\u0006R\u001a\u0010\u0004\u001a\u00020\u00038\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0004\u0010\u0007\u001a\u0004\u0008\u0008\u0010\tj\u0002\u0008\u000bj\u0002\u0008\u000cj\u0002\u0008\rj\u0002\u0008\u000ej\u0002\u0008\u000fj\u0002\u0008\u0010j\u0002\u0008\u0011\u00a8\u0006\u0012"
+    }
+    d2 = {
+        "Lcom/adguard/android/model/Card;",
+        "",
+        "Lr4/c;",
+        "",
+        "code",
+        "<init>",
+        "(Ljava/lang/String;II)V",
+        "I",
+        "getCode",
+        "()I",
+        "Companion",
+        "BackgroundWork",
+        "ShowHidden",
+        "DeveloperTools",
+        "PrivateBrowser",
+        "StatisticTotalBlocked",
+        "StatisticSavedDataUsage",
+        "HttpsFiltering",
+        "base_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $ENTRIES:Lb6/a;
+
+.field private static final synthetic $VALUES:[Lcom/adguard/android/model/Card;
+
+.field public static final enum BackgroundWork:Lcom/adguard/android/model/Card;
+
+.field public static final Companion:Lcom/adguard/android/model/Card$Companion;
+
+.field public static final enum DeveloperTools:Lcom/adguard/android/model/Card;
+
+.field public static final enum HttpsFiltering:Lcom/adguard/android/model/Card;
+
+.field public static final enum PrivateBrowser:Lcom/adguard/android/model/Card;
+
+.field public static final enum ShowHidden:Lcom/adguard/android/model/Card;
+
+.field public static final enum StatisticSavedDataUsage:Lcom/adguard/android/model/Card;
+
+.field public static final enum StatisticTotalBlocked:Lcom/adguard/android/model/Card;
+
+
+# instance fields
+.field private final code:I
+
+
+# direct methods
+.method private static final synthetic $values()[Lcom/adguard/android/model/Card;
+    .locals 7
+
+    sget-object v0, Lcom/adguard/android/model/Card;->BackgroundWork:Lcom/adguard/android/model/Card;
+
+    sget-object v1, Lcom/adguard/android/model/Card;->ShowHidden:Lcom/adguard/android/model/Card;
+
+    sget-object v2, Lcom/adguard/android/model/Card;->DeveloperTools:Lcom/adguard/android/model/Card;
+
+    sget-object v3, Lcom/adguard/android/model/Card;->PrivateBrowser:Lcom/adguard/android/model/Card;
+
+    sget-object v4, Lcom/adguard/android/model/Card;->StatisticTotalBlocked:Lcom/adguard/android/model/Card;
+
+    sget-object v5, Lcom/adguard/android/model/Card;->StatisticSavedDataUsage:Lcom/adguard/android/model/Card;
+
+    sget-object v6, Lcom/adguard/android/model/Card;->HttpsFiltering:Lcom/adguard/android/model/Card;
+
+    filled-new-array/range {v0 .. v6}, [Lcom/adguard/android/model/Card;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method static constructor <clinit>()V
+    .locals 4
+
+    new-instance v0, Lcom/adguard/android/model/Card;
+
+    const-string v1, "BackgroundWork"
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x1
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/adguard/android/model/Card;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/adguard/android/model/Card;->BackgroundWork:Lcom/adguard/android/model/Card;
+
+    new-instance v0, Lcom/adguard/android/model/Card;
+
+    const-string v1, "ShowHidden"
+
+    const/4 v2, 0x2
+
+    invoke-direct {v0, v1, v3, v2}, Lcom/adguard/android/model/Card;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/adguard/android/model/Card;->ShowHidden:Lcom/adguard/android/model/Card;
+
+    new-instance v0, Lcom/adguard/android/model/Card;
+
+    const-string v1, "DeveloperTools"
+
+    const/4 v3, 0x3
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/adguard/android/model/Card;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/adguard/android/model/Card;->DeveloperTools:Lcom/adguard/android/model/Card;
+
+    new-instance v0, Lcom/adguard/android/model/Card;
+
+    const-string v1, "PrivateBrowser"
+
+    const/4 v2, 0x4
+
+    invoke-direct {v0, v1, v3, v2}, Lcom/adguard/android/model/Card;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/adguard/android/model/Card;->PrivateBrowser:Lcom/adguard/android/model/Card;
+
+    new-instance v0, Lcom/adguard/android/model/Card;
+
+    const-string v1, "StatisticTotalBlocked"
+
+    const/4 v3, 0x5
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/adguard/android/model/Card;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/adguard/android/model/Card;->StatisticTotalBlocked:Lcom/adguard/android/model/Card;
+
+    new-instance v0, Lcom/adguard/android/model/Card;
+
+    const-string v1, "StatisticSavedDataUsage"
+
+    const/4 v2, 0x6
+
+    invoke-direct {v0, v1, v3, v2}, Lcom/adguard/android/model/Card;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/adguard/android/model/Card;->StatisticSavedDataUsage:Lcom/adguard/android/model/Card;
+
+    new-instance v0, Lcom/adguard/android/model/Card;
+
+    const-string v1, "HttpsFiltering"
+
+    const/4 v3, 0x7
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/adguard/android/model/Card;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/adguard/android/model/Card;->HttpsFiltering:Lcom/adguard/android/model/Card;
+
+    invoke-static {}, Lcom/adguard/android/model/Card;->$values()[Lcom/adguard/android/model/Card;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/adguard/android/model/Card;->$VALUES:[Lcom/adguard/android/model/Card;
+
+    invoke-static {v0}, Lb6/b;->a([Ljava/lang/Enum;)Lb6/a;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/adguard/android/model/Card;->$ENTRIES:Lb6/a;
+
+    new-instance v0, Lcom/adguard/android/model/Card$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/adguard/android/model/Card$Companion;-><init>(Lkotlin/jvm/internal/h;)V
+
+    sput-object v0, Lcom/adguard/android/model/Card;->Companion:Lcom/adguard/android/model/Card$Companion;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;II)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    iput p3, p0, Lcom/adguard/android/model/Card;->code:I
+
+    return-void
+.end method
+
+.method public static getEntries()Lb6/a;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lb6/a<",
+            "Lcom/adguard/android/model/Card;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Lcom/adguard/android/model/Card;->$ENTRIES:Lb6/a;
+
+    return-object v0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/adguard/android/model/Card;
+    .locals 1
+
+    const-class v0, Lcom/adguard/android/model/Card;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/adguard/android/model/Card;
+
+    return-object p0
+.end method
+
+.method public static values()[Lcom/adguard/android/model/Card;
+    .locals 1
+
+    sget-object v0, Lcom/adguard/android/model/Card;->$VALUES:[Lcom/adguard/android/model/Card;
+
+    invoke-virtual {v0}, [Ljava/lang/Object;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/adguard/android/model/Card;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public getCode()I
+    .locals 1
+
+    iget v0, p0, Lcom/adguard/android/model/Card;->code:I
+
+    return v0
+.end method

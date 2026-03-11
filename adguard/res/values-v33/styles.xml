@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashScreenTheme" parent="@style/Theme.SplashScreen">
+        <item name="android:statusBarColor">?kit__background_normal</item>
+        <item name="android:navigationBarColor">?kit__background_normal</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_lottie_triniti_first_frame</item>
+        <item name="android:windowSplashScreenBehavior">icon_preferred</item>
+        <item name="kit__background_normal">@color/gray_0</item>
+        <item name="postSplashScreenTheme">@style/AppTheme.Light</item>
+        <item name="windowSplashScreenAnimationDuration">0</item>
+        <item name="windowSplashScreenBackground">?kit__background_normal</item>
+    </style>
+</resources>

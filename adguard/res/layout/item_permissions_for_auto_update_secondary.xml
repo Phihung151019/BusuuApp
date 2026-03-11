@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView style="@style/HighLevel.CardView.ItemPermissionsForAutoUpdate"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/LayoutFullWidth.Vertical">
+        <TextView android:id="@id/item_title" style="@style/Text.H5.MarginHorizontal_16dp.MarginTop_24dp" />
+        <TextView android:id="@id/item_summary" style="@style/Text.T1_Wide.MarginHorizontal_16dp.MarginTop_8dp" />
+        <Button android:id="@id/item_button" android:text="@string/permissions_for_auto_update_alarms_button" style="@style/HighLevel.Button.Neutral.MarginHorizontal_16dp.MarginTop_16dp.MarginBottom_32dp" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

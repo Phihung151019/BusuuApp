@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/text_title" android:text="@string/all_applications_statistics_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenTitle.MarginTop_80dp" />
+    <TextView android:id="@id/time_interval_selector" android:drawableEnd="@drawable/ic_arrow_down_small" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/text_title" style="@style/Text.T2.ColorDescription.WidthWrap.Center.MarginTop_16dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/search" android:hint="@string/subdomains_statistics_search" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/time_interval_selector" style="@style/LayoutFullWidth.MarginTop_48dp.MarginBottom_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

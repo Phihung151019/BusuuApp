@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:src="@drawable/ic_agnar_thinking" style="@style/LayoutFullWidth" />
+    <TextView android:id="@id/title" android:text="@string/youtube_player_disabled_dialog_title" style="@style/Text.H4.Center.MarginHorizontal_24dp.MarginTop_16dp" />
+    <TextView android:id="@id/summary" android:text="@string/youtube_player_disabled_dialog_message" style="@style/Text.T1.Center.MarginHorizontal_24dp.MarginTop_8dp" />
+</LinearLayout>

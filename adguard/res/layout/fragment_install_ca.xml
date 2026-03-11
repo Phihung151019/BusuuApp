@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarNestedScrollView android:id="@id/screen_https_filtering_flow_install_ca" android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent">
+        <ImageView android:id="@id/back_button" android:src="@drawable/ic_arrow_left" android:contentDescription="@string/back_talkback" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Icon24dp.MarginTop_24dp.MarginStart_16dp" />
+        <TextView android:id="@id/title" android:text="@string/https_activation_install_ca_title" android:alpha="0.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenTitle.MarginTop_80dp" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:alpha="0.0" app:layout_constraintBottom_toTopOf="@id/next" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" app:layout_constraintVertical_bias="0.0" style="@style/LayoutFullWidth.MarginVertical_16dp" />
+        <Button android:id="@id/next" android:text="@string/https_activation_install_ca_button_open_settings" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintVertical_bias="1.0" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginBottom_16dp" />
+        <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarNestedScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:id="@id/screen_updates" android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/LayoutFullWidth.Vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth">
+            <TextView android:id="@id/title" android:text="@string/updates_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/back_button" style="@style/HighLevel.ScreenTitle.MarginTop_8dp" />
+            <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+            <ImageView android:id="@id/option" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ContextMenuButton" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/app_version" app:kit_middle_text_block__title_text="@string/updates_application_title" app:kit_start_image__animation_start_infinitely="true" app:kit_start_image__icon="@drawable/progress_animated" style="@style/LayoutFullWidth.MarginTop_32dp" />
+        <View style="@style/KitDivLine" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/filters" app:kit_middle_text_block__summary_text="@string/updates_filters_summary_checking" app:kit_middle_text_block__title_text="@string/updates_filters_title" app:kit_start_image__animation_start_infinitely="true" app:kit_start_image__icon="@drawable/progress_animated" style="@style/LayoutFullWidth" />
+        <View style="@style/KitDivLine" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/safebrowsing" app:kit_middle_text_block__summary_text="@string/updates_safebrowsing_summary_checking" app:kit_middle_text_block__title_text="@string/updates_safebrowsing_title" app:kit_start_image__animation_start_infinitely="true" app:kit_start_image__icon="@drawable/progress_animated" style="@style/LayoutFullWidth" />
+        <View style="@style/KitDivLine" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/dns_filters" app:kit_middle_text_block__summary_text="@string/updates_dns_filters_summary_checking" app:kit_middle_text_block__title_text="@string/updates_dns_filters_title" app:kit_start_image__animation_start_infinitely="true" app:kit_start_image__icon="@drawable/progress_animated" style="@style/LayoutFullWidth" />
+        <View style="@style/KitDivLine" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/extensions" app:kit_middle_text_block__summary_text="@string/updates_extensions_summary_checking" app:kit_middle_text_block__title_text="@string/updates_extensions_title" app:kit_start_image__animation_start_infinitely="true" app:kit_start_image__icon="@drawable/progress_animated" style="@style/LayoutFullWidth.MarginBottom_24dp" />
+        <Button android:id="@id/update_app" android:visibility="gone" android:text="@string/updates_update_app_button" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginVertical_8dp" />
+        <Button android:id="@id/check_updates" android:text="@string/updates_check_updates_button" style="@style/HighLevel.Button.Neutral.MarginHorizontal_16dp.MarginTop_8dp.MarginBottom_24dp" />
+    </LinearLayout>
+</com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>

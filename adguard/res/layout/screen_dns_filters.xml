@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarRecyclerView android:id="@id/dns_filter_recycler" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

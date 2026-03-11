@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullParent">
+        <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent">
+            <TextView android:id="@id/title" android:text="@string/tv__screen_onboarding_privacy_policy_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.ScreenTitle.MarginTop_32dp.NoWidth.MarginHorizontal_64dp" />
+            <TextView android:id="@id/summary" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.OnboardingSummary.MarginEnd_64dp.MarginTop_16dp" />
+            <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <View android:id="@id/top_shadow" android:visibility="invisible" app:layout_constraintEnd_toEndOf="@id/scroll_view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/scroll_view" style="@style/KitScrollViewShadow.TopShadow" />
+    <View android:id="@id/bottom_shadow" android:visibility="visible" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/scroll_view" app:layout_constraintStart_toStartOf="parent" style="@style/KitScrollViewShadow.BottomShadow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

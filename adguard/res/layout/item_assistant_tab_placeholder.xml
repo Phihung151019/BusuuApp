@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Vertical.Center"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:src="@drawable/ic_placeholder_no_activity" style="@style/Icon64dp" />
+    <TextView android:id="@id/placeholder_description" android:text="@string/assistant_placeholder_description" style="@style/Text.T2.ColorDescription.Center.MarginHorizontal_40dp.MarginTop_8dp" />
+</LinearLayout>

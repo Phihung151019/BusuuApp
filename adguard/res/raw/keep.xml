@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+      This file contains direct names and names wildcards of resources to be kept during resources shrinking.
+      We enable `strict` shrinkMode to minify all unused resources except for those listed in this file. Remove `tools:shrinkMode="strict"` to disable this logic.
+      Please note that if your code makes a call to `Resources.getIdentifier()` you should also specify resource names/wildcards here.
+      To add new exclusion you should extend existed one tools:keep attr in the following way:
+      ```
+      tools:keep="@drawable/your_res_name,@layout/your_layout_wildcard*,@string/and_so_on"
+      ```
+      The build does not package this file into an APK.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:shrinkMode="strict"
+    tools:keep="@string/ad_blocking_regional_lists_locale*" /> <!--  Regional list`s strings have no direct links in code.  -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Wypróbuj %d dzień za darmo</item>
+        <item quantity="few">Wypróbuj %d dni za darmo</item>
+        <item quantity="many">Wypróbuj %d dni za darmo</item>
+        <item quantity="other">Wypróbuj %d dni za darmo</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Wypróbuj AdGuard przez %d dzień za darmo — zobacz, jak poprawia działanie internetu na Twoim komputerze, tablecie lub smartfonie</item>
+        <item quantity="few">Wypróbuj AdGuard przez %d dni za darmo — zobacz, jak poprawia działanie internetu na Twoim komputerze, tablecie lub smartfonie</item>
+        <item quantity="many">Wypróbuj AdGuard przez %d dni za darmo — zobacz, jak poprawia działanie internetu na Twoim komputerze, tablecie lub smartfonie</item>
+        <item quantity="other">Wypróbuj AdGuard przez %d dni za darmo — zobacz, jak poprawia działanie internetu na Twoim komputerze, tablecie lub smartfonie</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d witryna znajduje się na liście dozwolonych</item>
+        <item quantity="few">%d witryny znajduje się na liście dozwolonych</item>
+        <item quantity="many">%d witryn znajduje się na liście dozwolonych</item>
+        <item quantity="other">%d witryn znajduje się na liście dozwolonych</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d aplikacja</item>
+        <item quantity="few">%d aplikacje</item>
+        <item quantity="many">%d aplikacji</item>
+        <item quantity="other">%d aplikacji</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Pokaż %s nowe działanie</item>
+        <item quantity="few">Pokaż %s nowych działań</item>
+        <item quantity="many">Pokaż %s nowych działań</item>
+        <item quantity="other">Pokaż %s nowych działań</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Wersja próbna wygaśnie za %1$s dzień. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kup pełną wersję&lt;/a>&lt;/font></item>
+        <item quantity="few">Wersja próbna wygaśnie za %1$s dni. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kup pełną wersję&lt;/a>&lt;/font></item>
+        <item quantity="many">Wersja próbna wygaśnie za %1$s dni. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kup pełną wersję&lt;/a>&lt;/font></item>
+        <item quantity="other">Wersja próbna wygaśnie za %1$s dni. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kup pełną wersję&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">%d nowego powiadomienia</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s reguła</item>
+        <item quantity="few">%s reguły</item>
+        <item quantity="many">%s reguł</item>
+        <item quantity="other">%s reguł</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s rozszerzenie</item>
+        <item quantity="few">%s rozszerzenia</item>
+        <item quantity="many">%s rozszerzeń</item>
+        <item quantity="other">%s rozszerzeń</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Wypróbuj %d dzień za darmo</item>
+        <item quantity="few">Wypróbuj %d dni za darmo</item>
+        <item quantity="many">Wypróbuj %d dni za darmo</item>
+        <item quantity="other">Wypróbuj %d dni za darmo</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d dzień rozszerzonej ochrony za darmo</item>
+        <item quantity="few">%d dni rozszerzonej ochrony za darmo</item>
+        <item quantity="many">%d dni rozszerzonej ochrony za darmo</item>
+        <item quantity="other">%d dni rozszerzonej ochrony za darmo</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Wyłącz to ustawienie</item>
+        <item quantity="few">Wyłącz te ustawienia</item>
+        <item quantity="many">Wyłącz te ustawienia</item>
+        <item quantity="other">Wyłącz te ustawienia</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Zeskanuj, aby utworzyć konto i uzyskać darmowy %d-dniowy okres próbny</item>
+        <item quantity="few">Zeskanuj, aby utworzyć konto i uzyskać darmowy %d-dniowy okres próbny</item>
+        <item quantity="many">Zeskanuj, aby utworzyć konto i uzyskać darmowy %d-dniowy okres próbny</item>
+        <item quantity="other">Zeskanuj, aby utworzyć konto i uzyskać darmowy %d-dniowy okres próbny</item>
+    </plurals>
+</resources>

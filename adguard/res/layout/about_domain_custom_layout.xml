@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/connection" style="@style/LayoutFullWidth.MarginTop_16dp" />
+    <View android:id="@id/certificate_div" android:visibility="gone" style="@style/KitDivLine" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/certificate" android:visibility="gone" style="@style/LayoutFullWidth" />
+</LinearLayout>

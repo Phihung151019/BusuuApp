@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullParent">
+        <LinearLayout style="@style/LayoutFullParent.Vertical">
+            <TextView android:text="@string/tv__screen_ad_blocking_title" style="@style/TV.HighLevel.ScreenTitle" />
+            <TextView android:text="@string/tv__screen_ad_blocking_summary" style="@style/TV.HighLevel.ScreenSummary" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/ad_blocking_switch" app:kit_middle_text_block__title_text="@string/tv__screen_ad_blocking_main_switch_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_16dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/basic_protection_switch" app:kit_middle_text_block__summary_text="@string/tv__screen_ad_blocking_basic_protection_summary" app:kit_middle_text_block__title_text="@string/tv__screen_ad_blocking_basic_protection_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_40dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/allowlist_switch" app:kit_middle_text_block__summary_text="@string/tv__screen_ad_blocking_allowlist_summary" app:kit_middle_text_block__title_text="@string/tv__screen_ad_blocking_allowlist_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/edit_allowlist" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_ad_blocking_edit_allowlist_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/user_rules_switch" app:kit_middle_text_block__summary_text="@string/tv__screen_ad_blocking_user_rules_summary" app:kit_middle_text_block__title_text="@string/tv__screen_ad_blocking_user_rules_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/edit_user_rules" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_ad_blocking_edit_user_rules_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp.MarginBottom_32dp" />
+        </LinearLayout>
+    </ScrollView>
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutFullWidth" />
+</androidx.constraintlayout.widget.ConstraintLayout>

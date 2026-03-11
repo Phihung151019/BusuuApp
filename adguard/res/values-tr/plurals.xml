@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">%d gün ücretsiz dene</item>
+        <item quantity="other">%d gün ücretsiz dene</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">"AdGuard'ı %d gün boyunca ücretsiz deneyin — bilgisayarınızda, tabletinizde veya akıllı telefonunuzda Web'i nasıl iyileştirdiğini görün"</item>
+        <item quantity="other">"AdGuard'ı %d gün boyunca ücretsiz deneyin — bilgisayarınızda, tabletinizde veya akıllı telefonunuzda Web'i nasıl iyileştirdiğini görün"</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d site izin listesine eklendi</item>
+        <item quantity="other">%d site izin listesine eklendi</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d uygulama</item>
+        <item quantity="other">%d uygulama</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">%s yeni eylemi göster</item>
+        <item quantity="other">%s yeni eylemi göster</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Deneme %1$s gün içinde sona eriyor. &lt;font color=\"%2$s\">&lt;a href=%3$s>Tam sürümü satın alın&lt;/a>&lt;/font></item>
+        <item quantity="other">Deneme %1$s gün içinde sona eriyor. &lt;font color=\"%2$s\">&lt;a href=%3$s>Tam sürümü satın alın&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d yeni bildirim</item>
+        <item quantity="other">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s kural</item>
+        <item quantity="other">%s kural</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s uzantı</item>
+        <item quantity="other">%s uzantı</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">%d gün ücretsiz dene</item>
+        <item quantity="other">%d gün ücretsiz dene</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">Ücretsiz %d günlük uzatılmış koruma</item>
+        <item quantity="other">Ücretsiz %d günlük uzatılmış koruma</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Bu ayarı devre dışı bırak</item>
+        <item quantity="other">Bu ayarları devre dışı bırak</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Hesap oluşturmak ve ücretsiz %d günlük denemenizi edinmek için tarayın</item>
+        <item quantity="other">Hesap oluşturmak ve ücretsiz %d günlük denemenizi edinmek için tarayın</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="18.0dp" android:width="19.0dp" android:viewportWidth="19.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/transparent" android:pathData="M2.75,6.25C2.75,5.698 3.198,5.25 3.75,5.25H15.25C15.802,5.25 16.25,5.698 16.25,6.25V11.75C16.25,12.302 15.802,12.75 15.25,12.75H3.75C3.198,12.75 2.75,12.302 2.75,11.75V6.25Z" android:strokeColor="?kit__tv_tab_navigation__icon_color_active" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="evenOdd" />
+    <path android:fillColor="@color/transparent" android:pathData="M3.5,15.75L15.5,2.25" android:strokeColor="?kit__tv_tab_navigation__icon_color_active" android:strokeWidth="1.5" android:strokeLineCap="round" />
+</vector>

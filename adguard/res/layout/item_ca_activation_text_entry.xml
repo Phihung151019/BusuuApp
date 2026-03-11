@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/text" style="@style/Text.T1.MarginHorizontal_16dp.MarginBottom_24dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

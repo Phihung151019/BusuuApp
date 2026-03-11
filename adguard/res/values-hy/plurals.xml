@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d կայք ներառված է թույլատրումների ցուցակում</item>
+        <item quantity="other">%d կայքեր ներառված են թույլատրումների ցուցակում</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d հավելված</item>
+        <item quantity="other">%d հավելվածներ</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Ցուցադրել %s նոր գործողություն</item>
+        <item quantity="other">Ցուցադրել %s նոր գործողություններ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d նոր ծանուցում</item>
+        <item quantity="other">%d նոր ծանուցում</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s ընդլայնում</item>
+        <item quantity="other">%s ընդլայնումներ</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Այս կարգավորումը անջատել</item>
+        <item quantity="other">Այն կարգավորումները անջատել</item>
+    </plurals>
+</resources>

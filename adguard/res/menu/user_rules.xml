@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/enable_all" android:title="@string/user_filter_menu_enable_all" app:showAsAction="never" />
+    <item android:id="@id/disable_all" android:title="@string/user_filter_menu_disable_all" app:showAsAction="never" />
+    <item android:id="@id/open_editor" android:title="@string/user_filter_menu_open_editor" app:showAsAction="never" />
+    <item android:id="@id/import_user_rules" android:title="@string/user_filter_menu_item_import" app:showAsAction="never" />
+    <item android:id="@id/export_user_rules" android:title="@string/user_filter_menu_item_export" app:showAsAction="never" />
+    <item android:id="@id/clear_all" android:title="@string/user_filter_menu_clear_all" app:showAsAction="never" />
+</menu>

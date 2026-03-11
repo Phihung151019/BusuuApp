@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_https" app:startDestination="@id/fragment_assistant_tabs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="AssistantTabsFragment" android:name="com.adguard.android.ui.fragment.assistant.AssistantTabsFragment" android:id="@id/fragment_assistant_tabs">
+        <action android:id="@id/action_fragment_assistant_tabs_to_fragment_assistant_app_actions" app:destination="@id/fragment_assistant_app_actions" />
+        <action android:id="@id/action_fragment_assistant_tabs_to_fragment_assistant_website_actions" app:destination="@id/fragment_assistant_website_actions" />
+    </fragment>
+    <fragment android:label="AssistantAppActionsFragment" android:name="com.adguard.android.ui.fragment.assistant.AssistantAppActionsFragment" android:id="@id/fragment_assistant_app_actions" />
+    <fragment android:label="AssistantWebsiteActionsFragment" android:name="com.adguard.android.ui.fragment.assistant.AssistantWebsiteActionsFragment" android:id="@id/fragment_assistant_website_actions">
+        <action android:id="@id/action_fragment_assistant_website_actions_to_fragment_assistant_allowlist" app:destination="@id/fragment_assistant_allowlist" />
+    </fragment>
+    <fragment android:label="AssistantAllowlistFragment" android:name="com.adguard.android.ui.fragment.assistant.AssistantAllowlistFragment" android:id="@id/fragment_assistant_allowlist" />
+</navigation>

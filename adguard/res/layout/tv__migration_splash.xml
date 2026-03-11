@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:id="@id/guideline" app:layout_constraintGuide_percent="0.5" style="@style/LayoutWrapContent.Vertical" />
+    <TextView android:id="@id/title" app:layout_constraintEnd_toStartOf="@id/guideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.ScreenTitle.MarginTop_32dp.NoWidth.MarginStart_80dp.MarginTop_64dp" />
+    <TextView android:id="@id/summary" app:layout_constraintEnd_toStartOf="@id/guideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.ScreenSummary.NoWidth.MarginStart_80dp" />
+    <Button android:id="@id/button" android:text="@string/tv__migration_splash_button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/TV.HighLevel.FilledButton.MarginStart_80dp.MarginBottom_64dp" />
+    <ImageView android:id="@id/image" app:layout_constraintBottom_toBottomOf="@id/button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/title" style="@style/LayoutWrapContent.MarginEnd_80dp" />
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:layout_constraintBottom_toBottomOf="@id/button" app:layout_constraintStart_toStartOf="@id/button" app:layout_constraintTop_toTopOf="@id/button" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Vertical.Center.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:text="@string/tv__screen_crash_app_title" style="@style/TV.HighLevel.DialogScreenTitle.Center" />
+    <TextView android:id="@id/summary" android:text="@string/tv__screen_crash_app_summary" style="@style/TV.HighLevel.DialogScreenSummary.Center" />
+    <Button android:id="@id/button" android:text="@string/tv__screen_crash_app_button" style="@style/TV.HighLevel.Dialog.Button" />
+</LinearLayout>

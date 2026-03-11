@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Isprobajte %d dan besplatno</item>
+        <item quantity="few">Isprobajte %d dana besplatno</item>
+        <item quantity="other">Isprobajte %d dana besplatno</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Isprobajte AdGuard besplatno %d dan — pogledajte kako poboljšava web na vašem računalu, tabletu ili pametnom telefonu</item>
+        <item quantity="few">Isprobajte AdGuard besplatno %d dana — pogledajte kako poboljšava web na vašem računalu, tabletu ili pametnom telefonu</item>
+        <item quantity="other">Isprobajte AdGuard besplatno %d dana — pogledajte kako poboljšava web na vašem računalu, tabletu ili pametnom telefonu</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d web-mjesto je dopušteno na popisu</item>
+        <item quantity="few">%d web stranice dopuštene su na popisu</item>
+        <item quantity="other">%d web stranice dopuštene su na popisu</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d apl</item>
+        <item quantity="few">%d apl</item>
+        <item quantity="other">%d apl</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Pokaži %s novu akciju</item>
+        <item quantity="few">Pokaži %s nove akcije</item>
+        <item quantity="other">Pokaži %s nove akcije</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Probna verzija završit će nakon %1$s dan. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kupite punu verziju&lt;/a>&lt;/font></item>
+        <item quantity="few">Probna verzija završit će za %1$s dana. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kupite punu verziju&lt;/a>&lt;/font></item>
+        <item quantity="other">Probna verzija završit će za %1$s dana. &lt;font color=\"%2$s\">&lt;a href=%3$s>Kupite punu verziju&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">%d nove obavijesti</item>
+        <item quantity="other">%d novih obavijesti</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s pravilo</item>
+        <item quantity="few">%s pravila</item>
+        <item quantity="other">%s pravila</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s proširenje</item>
+        <item quantity="few">%s proširenja</item>
+        <item quantity="other">%s proširenja</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Isprobajte %d dan besplatno</item>
+        <item quantity="few">Isprobajte %d dana besplatno</item>
+        <item quantity="other">Isprobajte %d dana besplatno</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d dan proširene zaštite besplatno</item>
+        <item quantity="few">%d dana proširene zaštite besplatno</item>
+        <item quantity="other">%d dana proširene zaštite besplatno</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Onemogući ovu postavku</item>
+        <item quantity="few">Onemogući ove postavke</item>
+        <item quantity="other">Onemogući ove postavke</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Skenirajte za izradu računa i ostvarite svoju besplatnu %d-dnevnu probu</item>
+        <item quantity="few">Skenirajte za izradu računa i ostvarite svoju besplatnu %d-dnevnu probu</item>
+        <item quantity="other">Skenirajte za izradu računa i ostvarite svoju besplatnu %d-dnevnu probu</item>
+    </plurals>
+</resources>

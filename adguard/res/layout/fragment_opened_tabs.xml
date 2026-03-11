@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_12dp.PaddingTop_16dp" />
+    <ImageView android:id="@id/add_new_tab" android:src="@drawable/ic_plus" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutWrapContent.Padding_16dp" />
+    <TextView android:id="@id/title" android:text="@string/private_browser_tabs_title" app:layout_constraintEnd_toStartOf="@id/add_new_tab" app:layout_constraintStart_toEndOf="@id/back_button" app:layout_constraintTop_toTopOf="parent" style="@style/Text.H6.NoFontPadding.NoWidth.GravityStart.MarginTop_16dp.PaddingTop_2dp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" app:layout_constraintBottom_toTopOf="@id/close_all" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/back_button" style="@style/LayoutFullWidthNoHeight" />
+    <Button android:id="@id/close_all" android:text="@string/private_browser_tabs_close_all" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/recycler" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginVertical_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

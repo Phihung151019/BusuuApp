@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Vertical.NoClip.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:text="@string/tv__screen_general_settings_dialog_log_level_title" style="@style/TV.HighLevel.DialogScreenTitle" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITR android:id="@id/default_level" app:kit_middle_text_block__summary_text="@string/tv__screen_general_settings_dialog_log_level_default_summary" app:kit_middle_text_block__title_text="@string/tv__screen_general_settings_dialog_log_level_default_title" style="@style/TV.HighLevel.Dialog.FirstConstruct" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITR android:id="@id/debug_level" app:kit_middle_text_block__summary_text="@string/tv__screen_general_settings_dialog_log_level_debug_summary" app:kit_middle_text_block__title_text="@string/tv__screen_general_settings_dialog_log_level_debug_title" style="@style/TV.HighLevel.Dialog.NextConstruct" />
+</LinearLayout>

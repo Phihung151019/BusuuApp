@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.tv.TvNavigationTabView android:id="@id/tabs" android:focusable="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:menu="@menu/tv_protection" app:tv_tab_background="?kit__tv_tab__background" app:tv_tab_icon_margin_end="?kit__tv_tab__icon_margin_end" app:tv_tab_title_color="?kit__tv_tab__title_color" app:tv_tab_vertical_margin="?kit__tv_tab__margin_vertical" style="@style/LayoutFullWidth.MarginStart_48dp" />
+    <fragment android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/protection_nav_host_fragment" android:layout_width="match_parent" android:layout_height="0.0dp" app:defaultNavHost="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tabs" />
+</androidx.constraintlayout.widget.ConstraintLayout>

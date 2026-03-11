@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Vertical">
+    <include layout="@layout/kit_layout_navigation_base" style="@style/LayoutFullParent.Weight1" />
+    <View style="@style/KitDivLine" />
+    <include layout="@layout/sublayout_bottom_selector_navigation" style="@style/LayoutFullWidth" />
+</LinearLayout>

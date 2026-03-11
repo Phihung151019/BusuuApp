@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView android:id="@id/navigation_view_container" android:background="@color/transparent" style="@style/LayoutFullParent.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/menus_container" android:background="@drawable/kit_tv_background_gradient_navigation_drawer" style="@style/LayoutFullParent">
+        <LinearLayout android:id="@id/top_menu" app:layout_constraintBottom_toTopOf="@id/middle_menu" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth.Vertical.Top" />
+        <LinearLayout android:id="@id/middle_menu" app:layout_constraintBottom_toTopOf="@id/bottom_menu" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_menu" style="@style/LayoutFullWidthNoHeight.Vertical.Center_Vertical" />
+        <LinearLayout android:id="@id/bottom_menu" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/middle_menu" style="@style/LayoutFullWidth.Vertical.Bottom" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.navigation.NavigationView>

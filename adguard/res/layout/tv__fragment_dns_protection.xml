@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullParent">
+        <LinearLayout style="@style/LayoutFullParent.Vertical">
+            <TextView android:text="@string/tv__screen_dns_protection_title" style="@style/TV.HighLevel.ScreenTitle" />
+            <TextView android:text="@string/tv__screen_dns_protection_summary" style="@style/TV.HighLevel.ScreenSummary" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/dns_protection_switch" app:kit_middle_text_block__title_text="@string/tv__screen_dns_protection_switch" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_16dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/basic_dns_protection_switch" app:kit_middle_text_block__summary_text="@string/tv__screen_dns_protection_basic_dns_switch_summary" app:kit_middle_text_block__title_text="@string/tv__screen_dns_protection_basic_dns_switch_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_40dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/dns_user_rules_switch" app:kit_middle_text_block__summary_text="@string/tv__screen_dns_protection_user_rules_switch_summary" app:kit_middle_text_block__title_text="@string/tv__screen_dns_protection_user_rules_switch_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/edit_dns_user_rules" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_dns_protection_edit_user_rules" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/dns_servers" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__summary_max_lines="3" app:kit_middle_text_block__title_text="@string/tv__screen_dns_protection_dns_servers_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp.MarginBottom_32dp" />
+        </LinearLayout>
+    </ScrollView>
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutFullWidth" />
+</androidx.constraintlayout.widget.ConstraintLayout>

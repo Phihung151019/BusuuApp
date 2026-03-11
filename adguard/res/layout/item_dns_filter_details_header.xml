@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth.PaddingBottom_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+    <ImageView android:id="@id/option" android:visibility="gone" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ContextMenuButton" />
+    <TextView android:id="@id/title" android:text="@string/protection_dns_filters_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/back_button" style="@style/HighLevel.ScreenTitle.MarginTop_16dp" />
+    <TextView android:id="@id/dns_filter_details" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/HighLevel.ScreenSummary.MarginTop_4dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:id="@id/main_switch" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/dns_filter_details" style="@style/LayoutFullWidth.MarginTop_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

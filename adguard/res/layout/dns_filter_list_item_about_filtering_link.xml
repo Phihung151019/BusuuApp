@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/about_dns_filtering" style="@style/Text.T2.ColorPrimary.Center.MarginBottom_16dp" />
+    <TextView android:id="@id/warning" android:visibility="gone" style="@style/HighLevel.ScreenSummary.Warning.MarginTop_4dp" />
+</LinearLayout>

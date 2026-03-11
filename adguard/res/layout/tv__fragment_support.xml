@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/TV.HighLevel.ContentBoxColumn.Left">
+        <TextView android:id="@id/title" android:text="@string/tv__screen_support_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.ScreenTitle.MarginTop_64dp" />
+        <TextView android:id="@id/summary" android:text="@string/tv__screen_support_subtitle" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.ScreenSummary.MarginEnd_16dp" />
+        <Button android:id="@id/share_logs_btn" android:text="@string/tv__screen_support_button_logs" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/title" style="@style/TV.HighLevel.FilledButton.MarginBottom_64dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/TV.HighLevel.ContentBoxColumn.Right">
+        <LinearLayout app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutWrapContent.Vertical.MarginEnd_80dp.MarginTop_64dp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/qr_image" style="@style/TV.HighLevel.QR" />
+            <TextView android:text="@string/tv__screen_support_scan" style="@style/TV.HighLevel.QRLabel" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

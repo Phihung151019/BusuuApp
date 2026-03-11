@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:duration="300" android:startOffset="100" android:valueFrom="?fills_stats_primarystat_disabled" android:valueTo="?fills_stats_primarystat_default" android:propertyName="fillColor" />
+    <objectAnimator android:duration="300" android:valueFrom="?fills_stats_primarystat_default" android:valueTo="?fills_stats_primarystat_disabled" android:propertyName="fillColor" />
+</set>

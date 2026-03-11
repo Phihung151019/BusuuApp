@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/filter" android:text="@string/https_filtering_exclusions_included_title" app:kit_middle_text_block__text_padding_start="@dimen/dp_56" style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

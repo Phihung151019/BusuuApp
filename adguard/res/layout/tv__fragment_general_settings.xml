@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/LayoutFullParent.Vertical">
+        <TextView android:text="@string/tv__screen_general_settings_title" style="@style/TV.HighLevel.ScreenTitle" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/auto_start" app:kit_middle_text_block__title_text="@string/tv__screen_general_settings_autostart_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_40dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/crash_reporting" app:kit_middle_text_block__title_text="@string/tv__screen_general_settings_crash_reporting_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/technical_and_interaction" app:kit_middle_text_block__title_text="@string/tv__screen_general_settings_technical_and_interaction_data_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/log_level" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_general_settings_logging_level_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/clear_statistics" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_general_settings_clear_statistics_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp.MarginBottom_32dp" />
+    </LinearLayout>
+</ScrollView>

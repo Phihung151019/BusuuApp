@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_home_navigation_color" android:id="@id/fragment_home" android:title="@string/menu_home_talkback" />
+    <item android:icon="@drawable/ic_adguard_navigation_color" android:id="@id/fragment_protection" android:title="@string/menu_protection_talkback" />
+    <item android:icon="@drawable/ic_apps_management_navigation_color" android:id="@id/fragment_apps_management" android:title="@string/menu_apps_management_talkback" />
+    <item android:icon="@drawable/ic_data_navigation_color" android:id="@id/fragment_statistics" android:title="@string/menu_statistics_talkback" />
+    <item android:icon="@drawable/ic_settings_navigation_color" android:id="@id/fragment_preferences" android:title="@string/menu_settings_talkback" />
+</menu>

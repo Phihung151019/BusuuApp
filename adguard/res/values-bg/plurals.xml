@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Пробвайте %d ден безплатно</item>
+        <item quantity="other">Пробвайте %d дни безплатно</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Пробвайте AdGuard безплатно за %d ден — вижте как подобрява web на вашия компютър, таблет или смартфон</item>
+        <item quantity="other">Пробвайте AdGuard безплатно за %d дни — вижте как подобрява web на вашия компютър, таблет или смартфон</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d уебсайт е разрешен</item>
+        <item quantity="other">%d уебсайта са разрешени</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d приложение</item>
+        <item quantity="other">%d приложения</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Покажи %s ново действие</item>
+        <item quantity="other">Покажи %s нови действия</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Пробният период приключва след %1$s ден. &lt;font color=\"%2$s\">&lt;a href=%3$s>Закупете пълната версия&lt;/a>&lt;/font></item>
+        <item quantity="other">Пробният период изтичa след %1$s дни. &lt;font color=\"%2$s\">&lt;a href=%3$s>Купете пълната версия&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново известие</item>
+        <item quantity="other">%d нови известия</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s правило</item>
+        <item quantity="other">%s правила</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s разширение</item>
+        <item quantity="other">%s разширения</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Пробвайте %d ден безплатно</item>
+        <item quantity="other">Пробвайте %d дни безплатно</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d ден разширена защита безплатно</item>
+        <item quantity="other">%d дни разширена защита безплатно</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Деактивирайте тази настройка</item>
+        <item quantity="other">Деактивирайте тези настройки</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Сканирайте, за да създадете акаунт и да получите вашия безплатен пробен период от %d ден</item>
+        <item quantity="other">Сканирайте, за да създадете акаунт и да получите вашия безплатен пробен период от %d дни</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="18.0dp" android:width="19.0dp" android:viewportWidth="19.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/transparent" android:pathData="M3.5,4.5H15.5" android:strokeColor="?kit__tv_tab_navigation__icon_color_selected" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M3.5,7.5H12.5" android:strokeColor="?kit__tv_tab_navigation__icon_color_selected" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M3.5,10.5H15.5" android:strokeColor="?kit__tv_tab_navigation__icon_color_selected" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M3.5,13.5H9.5" android:strokeColor="?kit__tv_tab_navigation__icon_color_selected" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

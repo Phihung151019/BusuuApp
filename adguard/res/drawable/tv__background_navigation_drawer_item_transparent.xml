@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="?tv__navigation_drawer_item_background_radius" />
+    <solid android:color="@color/transparent" />
+</shape>

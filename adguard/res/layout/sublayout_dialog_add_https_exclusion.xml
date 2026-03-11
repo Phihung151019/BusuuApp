@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/input" android:hint="@string/website_hint" android:inputType="textUri" app:kit_label__text="@string/https_filtering_exclusions_new_dialog_label_domain_name" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructCTI android:id="@id/include_subdomains" app:kit_middle_text_block__title_text="@string/https_filtering_exclusions_new_dialog_label_include_subdomains" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/input" style="@style/LayoutFullWidth.MarginHorizontal_16dp.MarginTop_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

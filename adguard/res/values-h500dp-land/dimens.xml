@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_promo_land_buttons_margin_top">@dimen/dp_32</dimen>
+    <dimen name="screen_promo_vertical_bias">@dimen/_0.5</dimen>
+</resources>

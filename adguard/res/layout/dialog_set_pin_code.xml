@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:hint="@string/preferences_automation_pin_code_dialog_hint" app:kit_label__text="@string/preferences_automation_pin_code_dialog_input_title" style="@style/LayoutFullWidth"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" />

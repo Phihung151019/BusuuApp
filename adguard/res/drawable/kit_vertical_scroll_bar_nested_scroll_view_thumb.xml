@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="?kit_vertical_scroll_bar_nested_scroll_view__scroll_bar_padding" android:bottom="?kit_vertical_scroll_bar_nested_scroll_view__scroll_bar_padding" android:start="?kit_vertical_scroll_bar_nested_scroll_view__scroll_bar_padding" android:end="?kit_vertical_scroll_bar_nested_scroll_view__scroll_bar_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="?kit_vertical_scroll_bar_nested_scroll_view__scroll_bar_width" />
+            <solid android:color="?kit_vertical_scroll_bar_nested_scroll_view__scroll_bar_thumb_color" />
+            <size android:width="?kit_vertical_scroll_bar_nested_scroll_view__scroll_bar_width" />
+        </shape>
+    </item>
+</layer-list>

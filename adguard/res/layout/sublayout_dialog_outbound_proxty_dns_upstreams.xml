@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/input" app:kit_label__text="@string/automatic_dns_outbound_proxy_upstreams_label" style="@style/LayoutFullWidth.MarginTop_24dp" />
+</LinearLayout>

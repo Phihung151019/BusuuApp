@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout style="@style/LayoutFullParent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" android:alpha="0.0" style="@style/LayoutFullParent">
+            <ImageView android:id="@id/animation_background" android:src="?promo_animation_background" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/animation" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutNoWidthNoHeight" />
+            <com.adguard.mobile.multikit.common.ui.view.animation.LottieAnimationView android:id="@id/animation" android:scaleType="fitEnd" android:adjustViewBounds="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth" />
+            <ImageView android:layout_gravity="end" android:id="@id/close_button" android:src="@drawable/ic_cross_white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutWrapContent.MarginTop_24dp.MarginEnd_24dp" />
+            <TextView android:id="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/animation" style="@style/Text.H2.MarginHorizontal_24dp" />
+            <TextView android:id="@id/summary" app:layout_constraintBottom_toTopOf="@id/positive_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" app:layout_constraintVertical_bias="0.0" style="@style/Text.T1_Wide.ColorDescription.MarginHorizontal_24dp.MarginVertical_16dp" />
+            <Button android:id="@id/positive_button" android:text="@string/activated_license_or_trial_success_activation_button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginBottom_32dp.MarginTop_24dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+    </FrameLayout>
+</com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>

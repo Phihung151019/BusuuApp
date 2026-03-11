@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Prova %d giorno gratuitamente</item>
+        <item quantity="other">Prova %d giorni gratuitamente</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Prova AdGuard gratuitamente per %d giorno — scopri come migliora il web per il tuo computer, tablet o smartphone</item>
+        <item quantity="other">Prova AdGuard gratuitamente per %d giorni — scopri come migliora il web per il tuo computer, tablet o smartphone</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d sito web aggiunto alla lista consentita</item>
+        <item quantity="other">%d siti web aggiunti alla lista consentita</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d app</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Mostra %s nuova azione</item>
+        <item quantity="other">Mostra %s nuove azioni</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">La prova termina tra %1$s giorno. &lt;font color=\"%2$s\">&lt;a href=%3$s>Acquista la versione completa&lt;/a>&lt;/font></item>
+        <item quantity="other">La prova termina tra %1$s giorni. &lt;font color=\"%2$s\">&lt;a href=%3$s>Acquista la versione completa&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nuova notifica</item>
+        <item quantity="other">%d nuove notifiche</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s regola</item>
+        <item quantity="other">%s regole</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s estensione</item>
+        <item quantity="other">%s estensioni</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Prova %d giorno gratuitamente</item>
+        <item quantity="other">Prova %d giorni gratuitamente</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d giorno di protezione estesa gratuito</item>
+        <item quantity="other">%d giorni di protezione estesa gratuiti</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Disattiva questa impostazione</item>
+        <item quantity="other">Disattiva queste impostazioni</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Scansiona per creare un profilo e ottenere la tua prova gratuita di %d giorno</item>
+        <item quantity="other">Scansiona per creare un profilo e ottenere la tua prova gratuita di %d giorni</item>
+    </plurals>
+</resources>

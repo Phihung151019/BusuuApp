@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_license_or_trial_success_activation" app:startDestination="@id/license_success_activation_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.license_activation.LicenseOrTrialSuccessActivationFragment" android:id="@id/license_success_activation_fragment" />
+</navigation>

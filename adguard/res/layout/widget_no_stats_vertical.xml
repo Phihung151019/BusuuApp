@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_frame" android:src="@drawable/background_widget" style="@style/LayoutFullParent" />
+    <RelativeLayout style="@style/LayoutFullParent">
+        <RelativeLayout android:id="@id/header" android:layout_centerVertical="true" style="@style/LayoutFullWidth.MarginHorizontal_12dp">
+            <ImageView android:id="@id/logo_small" android:src="@drawable/widget_logo_off_small" style="@style/HighLevel.Widget.SmallLogo" />
+            <ImageView android:id="@id/switch_image" android:src="@drawable/widget_switch_on" android:layout_below="@id/logo_small" style="@style/HighLevel.Widget.Switch.Vertical" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

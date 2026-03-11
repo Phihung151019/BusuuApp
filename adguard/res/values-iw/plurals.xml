@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">לנסות יום בחינם</item>
+        <item quantity="two">לנסות יומיים בחינם</item>
+        <item quantity="many">לנסות %d ימים בחינם</item>
+        <item quantity="other">לנסות %d ימים בחינם</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">לנסות את AdGuard בחינם למשך יום אחד - לראות כיצד הוא משפר את האינטרנט במחשב, בטאבלט או בסמארטפון שלכם</item>
+        <item quantity="two">לנסות את AdGuard בחינם למשך יומיים - לראות כיצד הוא משפר את האינטרנט במחשב, בטאבלט או בסמארטפון שלכם</item>
+        <item quantity="many">לנסות את AdGuard בחינם למשך %d ימים - לראות כיצד הוא משפר את האינטרנט במחשב, בטאבלט או בסמארטפון שלכם</item>
+        <item quantity="other">לנסות את AdGuard בחינם למשך %d ימים - לראות כיצד הוא משפר את האינטרנט במחשב, בטאבלט או בסמארטפון שלכם</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d אתר האינטרנט מותר ברשימה</item>
+        <item quantity="two">%d אתר האינטרנט מותר ברשימה</item>
+        <item quantity="many">%d אתר האינטרנט מותר ברשימה</item>
+        <item quantity="other">%d אתרי אינטרנט מותרים ברשימה</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">יישום %d</item>
+        <item quantity="two">%d יישומים</item>
+        <item quantity="many">%d יישומים</item>
+        <item quantity="other">%d יישומים</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">הופעה %s פעולה חדשה</item>
+        <item quantity="two">הופעה %s פעולה חדשה</item>
+        <item quantity="many">הופעה %s פעולה חדשה</item>
+        <item quantity="other">הופעה %s פעולות חדשות</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">ניסיון חינמי למשך %1$s יום. &lt;font color=\"%2$s\">&lt;a href=%3$s>קנה את הגירסה המלאה&lt;/a>&lt;/font></item>
+        <item quantity="two">ניסיון חינמי למשך %1$s ימים. &lt;font color=\"%2$s\">&lt;a href=%3$s>קנה את הגרסה המלאה&lt;/a>&lt;/font></item>
+        <item quantity="many">התנסות מסתיימת בעוד %1$s ימים. &lt;font color=\"%2$s\">&lt;a href=%3$s>קנה את הגרסה המלאה&lt;/a>&lt;/font></item>
+        <item quantity="other">ניסיון חינמי למשך %1$s ימים. &lt;font color=\"%2$s\">&lt;a href=%3$s>קנה את הגירסה המלאה&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+        <item quantity="other">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s כלל</item>
+        <item quantity="two">%s כלל</item>
+        <item quantity="many">%s כלל</item>
+        <item quantity="other">%s כללים</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s הרחבה</item>
+        <item quantity="two">%s הרחבה</item>
+        <item quantity="many">%s הרחבה</item>
+        <item quantity="other">%s הרחבות</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">לנסות יום בחינם</item>
+        <item quantity="two">לנסות יומיים בחינם</item>
+        <item quantity="many">לנסות %d ימים בחינם</item>
+        <item quantity="other">לנסות %d ימים בחינם</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d יום של הגנה מורחבת בחינם</item>
+        <item quantity="two">%d יום של הגנה מורחבת בחינם</item>
+        <item quantity="many">%d ימים של הגנה מורחבת בחינם</item>
+        <item quantity="other">%d ימים של הגנה מורחבת בחינם</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">השבת את ההגדרה הזו</item>
+        <item quantity="two">השבת את ההגדרה הזו</item>
+        <item quantity="many">השבת את ההגדרה הזו</item>
+        <item quantity="other">השבת את ההגדרות הללו</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">סרוק כדי ליצור חשבון ולקבל בחינם %dיום ניסיון</item>
+        <item quantity="two">סרוק כדי ליצור חשבון ולקבל בחינם %dיום ניסיון</item>
+        <item quantity="many">סרוק כדי ליצור חשבון ולקבל תקופת ניסיון חינם ל־%d ימים</item>
+        <item quantity="other">סרוק כדי ליצור חשבון ולקבל תקופת ניסיון חינם ל-%d ימים</item>
+    </plurals>
+</resources>

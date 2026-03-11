@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?kit_popup__background_color" />
+    <corners android:radius="?kit_popup__background_corner_radius" />
+    <padding android:left="?kit_popup__background_horizontal_padding" android:top="?kit_popup__background_vertical_padding" android:right="?kit_popup__background_horizontal_padding" android:bottom="?kit_popup__background_vertical_padding" />
+</shape>

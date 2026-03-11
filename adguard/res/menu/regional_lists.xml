@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/disable_all" android:title="@string/ad_blocking_regional_lists_menu_disable_all" app:showAsAction="never" />
+    <item android:id="@id/restore_to_defaults" android:title="@string/ad_blocking_regional_list_reset_to_defaults_option_menu_title" app:showAsAction="never" />
+</menu>

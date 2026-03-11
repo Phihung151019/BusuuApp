@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/export_settings" android:title="@string/preferences_export_settings" app:showAsAction="never" />
+    <item android:id="@id/import_settings" android:title="@string/preferences_import_settings" app:showAsAction="never" />
+    <item android:id="@id/share_settings" android:title="@string/preferences_share_settings" app:showAsAction="never" />
+    <item android:id="@id/configuration_wizard" android:title="@string/preferences_quick_settings" app:showAsAction="never" />
+    <item android:id="@id/reset_to_default" android:title="@string/preferences_reset_to_default" app:showAsAction="never" />
+</menu>

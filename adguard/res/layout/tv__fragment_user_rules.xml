@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent.NoClip.PaddingVertical_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth.PaddingHorizontal_64dp">
+        <TextView android:id="@id/title" style="@style/TV.HighLevel.DialogScreenTitle.WrapWidth.Weight_1" />
+        <Button android:id="@id/syntax_button" android:text="@string/tv__screen_user_rules_syntax" style="@style/TV.HighLevel.Dialog.TopButton.Faq" />
+        <Button android:id="@id/delete_button" android:text="@string/tv__screen_user_rules_delete" style="@style/TV.HighLevel.Dialog.TopButton.Trash" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/content" style="@style/LayoutNoWidthNoHeight.MarginTop_40dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

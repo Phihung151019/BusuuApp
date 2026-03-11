@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/custom_rules_subtitle" android:text="@string/firewall_app_rules_list_subtitle" style="@style/Text.H5.MarginHorizontal_16dp.MarginTop_32dp.MarginBottom_16dp" />
+</LinearLayout>

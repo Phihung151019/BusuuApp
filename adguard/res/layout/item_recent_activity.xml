@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructITT app:kit_end_text_block__text_margin_top="@dimen/dp_12" app:kit_end_text_block__title_color="?kit__summary_text_color" app:kit_end_text_block__vertical_gravity="center" app:kit_middle_text_block__summary_margin_top="@dimen/dp_1" app:kit_middle_text_block__summary_single_line="true" app:kit_middle_text_block__text_margin_bottom="@dimen/dp_12" app:kit_middle_text_block__text_margin_top="@dimen/dp_12" app:kit_start_image__icon_margin_top="@dimen/dp_12" style="@style/LayoutFullWidth"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

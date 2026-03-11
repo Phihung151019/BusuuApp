@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/http" android:title="@string/preferences_proxy_type_http" app:showAsAction="never" />
+    <item android:id="@id/https" android:title="@string/preferences_proxy_type_https" app:showAsAction="never" />
+    <item android:id="@id/socks4" android:title="@string/preferences_proxy_type_socks4" app:showAsAction="never" />
+    <item android:id="@id/socks5" android:title="@string/preferences_proxy_type_socks5" app:showAsAction="never" />
+</menu>

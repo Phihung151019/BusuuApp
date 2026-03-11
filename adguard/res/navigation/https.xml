@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_https" app:startDestination="@id/https_fragment_explanation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.https_ca_installation.HttpsExplanationFragment" android:id="@id/https_fragment_explanation">
+        <action android:id="@id/action_https_explanation_to_secure" app:destination="@id/https_fragment_secure" />
+        <argument android:name="skip_button_text" app:argType="integer" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.https_ca_installation.HttpsSecureFragment" android:id="@id/https_fragment_secure">
+        <action android:id="@id/action_https_secure_to_save_ca" app:destination="@id/https_fragment_save_ca" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.https_ca_installation.HttpsSaveCAFragment" android:id="@id/https_fragment_save_ca">
+        <action android:id="@id/action_https_save_ca_to_install_ca" app:destination="@id/https_fragment_install_ca" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.https_ca_installation.HttpsTrustFragment" android:id="@id/https_fragment_trust">
+        <action android:id="@id/action_https_trust_to_save_ca" app:destination="@id/https_fragment_save_ca" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.https_ca_installation.HttpsInstallCAFragment" android:id="@id/https_fragment_install_ca">
+        <action android:id="@id/action_https_isntall_ca__to_trust" app:destination="@id/https_fragment_trust" />
+    </fragment>
+</navigation>

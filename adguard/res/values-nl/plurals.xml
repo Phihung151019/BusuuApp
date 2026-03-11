@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">%d dag gratis proberen</item>
+        <item quantity="other">%d dagen gratis proberen</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">AdGuard gratis proberen gedurende %d dag - kijk hoe het het web verbetert op jouw computer, tablet of smartphone</item>
+        <item quantity="other">AdGuard gratis proberen gedurende %d dagen - kijk hoe het het web verbetert op jouw computer, tablet of smartphone</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d website staat op de toelatingslijst</item>
+        <item quantity="other">%d websites staan op de toelatingslijst</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">%s nieuwe actie weergeven</item>
+        <item quantity="other">%s nieuwe acties weergeven</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Proefversie eindigt over %1$s dag. &lt;font color=\"%2$s\">&lt;a href=%3$s>Koop de volledige versie&lt;/a>&lt;/font></item>
+        <item quantity="other">Proefversie eindigt over %1$s dagen. &lt;font color=\"%2$s\">&lt;a href=%3$s>Koop de volledige versie&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nieuwe melding</item>
+        <item quantity="other">%d nieuwe meldingen</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s regel</item>
+        <item quantity="other">%s regels</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s uitbreiding</item>
+        <item quantity="other">%s uitbreidingen</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">%d dag gratis proberen</item>
+        <item quantity="other">%d dagen gratis proberen</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d dag gratis uitgebreide bescherming</item>
+        <item quantity="other">%d dagen gratis uitgebreide bescherming</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Deze instelling uitschakelen</item>
+        <item quantity="other">Deze instellingen uitschakelen</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Scan om een account aan te maken en je gratis proefperiode van %d dag te krijgen</item>
+        <item quantity="other">Scan om een account aan te maken en je gratis proefperiode van %d dagen te krijgen</item>
+    </plurals>
+</resources>

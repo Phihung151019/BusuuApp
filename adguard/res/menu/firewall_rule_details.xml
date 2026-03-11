@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/apps_management" android:title="@string/firewall_custom_rule_menu_app_management" app:showAsAction="never" />
+    <item android:id="@id/technical_information" android:title="@string/firewall_custom_rule_menu_technical_information" app:showAsAction="never" />
+    <item android:id="@id/remove_rule" android:title="@string/firewall_custom_rule_menu_remove_rule" app:showAsAction="never" />
+</menu>

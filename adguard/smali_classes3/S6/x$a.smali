@@ -1,0 +1,58 @@
+.class public final LS6/x$a;
+.super Ljava/lang/Object;
+.source "ProtoBuf.java"
+
+# interfaces
+.implements LZ6/j$b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LS6/x;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "LZ6/j$b<",
+        "LS6/x;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic a(I)LZ6/j$a;
+    .locals 0
+
+    invoke-virtual {p0, p1}, LS6/x$a;->b(I)LS6/x;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public b(I)LS6/x;
+    .locals 0
+
+    invoke-static {p1}, LS6/x;->valueOf(I)LS6/x;
+
+    move-result-object p1
+
+    return-object p1
+.end method

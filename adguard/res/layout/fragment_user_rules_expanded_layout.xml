@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth.Vertical.MarginTop_80dp" />
+    <TextView android:id="@id/summary" android:text="@string/user_filter_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" style="@style/HighLevel.ScreenSummary.MarginTop_4dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:id="@id/main_switch" app:kit_end_switch__talkback="@string/user_filter_switch_title" app:kit_middle_text_block__title_text="@string/user_filter_switch_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/summary" style="@style/LayoutFullWidth.MarginTop_16dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/search" android:hint="@string/filters_search_hint" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/main_switch" style="@style/LayoutFullWidth.MarginVertical_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

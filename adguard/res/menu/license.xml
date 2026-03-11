@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/refresh_license_status" android:title="@string/about_license_refresh_license_status" app:showAsAction="never" />
+    <item android:id="@id/manage" android:title="@string/about_license_manage" app:showAsAction="never" />
+    <item android:id="@id/open_account_settings" android:title="@string/about_license_open_account" app:showAsAction="never" />
+    <item android:id="@id/reset_license" android:title="@string/about_license_reset" app:showAsAction="never" />
+</menu>

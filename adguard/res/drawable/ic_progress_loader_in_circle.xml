@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dp" android:width="32.0dp" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="rotationGroup" android:pivotX="16.0" android:pivotY="16.0">
+        <path android:fillColor="?tv_background_fill" android:pathData="M16,16m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" android:strokeAlpha="0.8" android:fillAlpha="0.8" />
+        <path android:fillColor="@color/transparent" android:pathData="M12.193,11.362C12.269,11.299 12.346,11.239 12.425,11.18" android:strokeColor="?stroke_icons_product_icon" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:fillColor="@color/transparent" android:pathData="M13.703,10.455C13.88,10.382 14.061,10.317 14.245,10.261C14.34,10.232 14.436,10.205 14.532,10.181" android:strokeColor="?stroke_icons_product_icon" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:fillColor="@color/transparent" android:pathData="M16,10C19.314,10 22,12.686 22,16C22,19.314 19.314,22 16,22C14.343,22 12.843,21.328 11.757,20.243C11.205,19.69 10.759,19.03 10.455,18.297" android:strokeColor="?stroke_icons_product_icon" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+</vector>

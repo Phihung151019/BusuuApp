@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/screen_settings_network" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:id="@id/scroll_view" android:visibility="gone" android:fillViewport="true" android:alpha="0.0" style="@style/LayoutFullWidth">
+        <LinearLayout style="@style/LayoutFullWidth.Vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth">
+                <TextView android:id="@id/title" android:text="@string/preferences_network_settings_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon" style="@style/HighLevel.ScreenTitle.MarginTop_12dp" />
+                <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+                <ImageView android:id="@id/icon" android:src="@drawable/ic_web_large" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenIcon.MarginTop_80dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITDS android:id="@id/https_filtering" app:kit_end_switch__talkback="@string/preferences_network_settings_title_https_filtering" app:kit_middle_text_block__summary_text="@string/preferences_network_settings_summary_https_filtering" app:kit_middle_text_block__title_text="@string/preferences_network_settings_title_https_filtering" app:kit_sync_icon__active="@drawable/ic_lock" app:kit_sync_icon__nonactive="@drawable/ic_lock_disabled" style="@style/LayoutFullWidth.MarginTop_16dp" />
+            <View style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITDS android:id="@id/proxy" app:kit_end_switch__talkback="@string/preferences_network_settings_title_proxy" app:kit_middle_text_block__summary_text="@string/preferences_network_settings_summary_proxy" app:kit_middle_text_block__title_text="@string/preferences_network_settings_title_proxy" app:kit_sync_icon__active="@drawable/ic_proxy_square" app:kit_sync_icon__nonactive="@drawable/ic_proxy_square_disabled" style="@style/LayoutFullWidth" />
+            <View style="@style/KitDivLine" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/routing_mode" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__title_text="@string/preferences_network_settings_title_routing_mode" app:kit_start_image__icon="@drawable/ic_routing" style="@style/LayoutFullWidth" />
+        </LinearLayout>
+    </com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/preloader" app:kit_anim_view__start_infinitely_on_create="true" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:src="@drawable/ic_search_result_not_found" app:layout_constraintBottom_toTopOf="@id/placeholder_description" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/Icon64dp" />
+    <TextView android:id="@id/placeholder_description" android:text="@string/recycler_search_not_found_placeholder_description" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon" style="@style/Text.T2.ColorDescription.Center.MarginHorizontal_40dp.MarginTop_8dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

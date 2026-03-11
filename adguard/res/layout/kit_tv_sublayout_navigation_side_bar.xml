@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/side_bar" android:focusable="true" style="@style/LayoutWrapWidthFullHeight.Start"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/top_bar" app:layout_constraintBottom_toTopOf="@id/middle_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth.Vertical.Top" />
+    <LinearLayout android:id="@id/middle_bar" app:layout_constraintBottom_toTopOf="@id/bottom_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_bar" style="@style/LayoutFullWidthNoHeight.Vertical.Center_Vertical" />
+    <LinearLayout android:id="@id/bottom_bar" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/middle_bar" style="@style/LayoutFullWidth.Vertical.Bottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>

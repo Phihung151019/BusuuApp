@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/button_positive" android:text="@string/onboarding_welcome_button_positive" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginBottom_24dp" />
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/preloader" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="@id/button_positive" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/button_positive" app:srcCompat="@drawable/ic_circles" style="@style/LayoutFullWidth" />
+</androidx.constraintlayout.widget.ConstraintLayout>

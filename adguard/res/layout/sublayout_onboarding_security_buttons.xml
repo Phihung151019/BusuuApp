@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.MarginBottom_24dp" />
+    <Button android:id="@id/button_positive" android:text="@string/onboarding_security_button_positive" app:layout_constraintBottom_toTopOf="@id/button_negative" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginVertical_16dp" />
+    <Button android:id="@id/button_negative" android:text="@string/onboarding_security_button_negative" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/button_positive" style="@style/HighLevel.Button.Neutral.MarginHorizontal_16dp.MarginBottom_24dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

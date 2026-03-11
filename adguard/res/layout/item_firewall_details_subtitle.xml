@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical.PaddingBottom_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/custom_rules_subtitle" android:text="@string/firewall_custom_rule_applied_rules_subtitle" style="@style/Text.H5.MarginHorizontal_16dp.MarginTop_32dp" />
+    <TextView android:id="@id/custom_rules_subtitle_summary" android:text="@string/firewall_custom_rule_applied_rules_description" style="@style/Text.T2.ColorDescription.MarginHorizontal_16dp.MarginTop_8dp" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/LayoutFullParent.Vertical.Weight1">
+        <TextView android:text="@string/tv__screen_adguard_vpn_title" style="@style/TV.HighLevel.ScreenTitle" />
+        <TextView android:text="@string/tv__screen_adguard_vpn_summary" style="@style/TV.HighLevel.ScreenSummary" />
+        <Button android:id="@id/get_adguard_vpn" android:text="@string/tv__screen_adguard_vpn_button" style="@style/TV.HighLevel.FilledButton.MarginStart_48dp.MarginTop_40dp" />
+    </LinearLayout>
+    <LinearLayout style="@style/LayoutFullParent.Weight1.MarginStart_40dp.MarginEnd_64dp.MarginVertical_32dp">
+        <ImageView android:src="@drawable/tv__ic_tengu_meditating" style="@style/LayoutWrapContent.Center" />
+    </LinearLayout>
+</LinearLayout>

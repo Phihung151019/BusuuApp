@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="18.0dp" android:width="19.0dp" android:viewportWidth="19.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/transparent" android:pathData="M9.5,9m-7.5,0a7.5,7.5 0,1 1,15 0a7.5,7.5 0,1 1,-15 0" android:strokeColor="?kit__tv_tab_navigation__icon_color_active" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M9.404,6C11.037,6.087 12.657,6.293 14.104,7.217C14.97,7.77 15.484,8.566 15.5,9.63C15.524,11.299 14.365,12.156 12.846,11.969C12.208,11.87 11.576,11.729 10.956,11.546C9.857,11.258 8.771,11.341 7.685,11.611C7.165,11.74 6.656,11.929 6.12,11.983C5.112,12.085 4.057,11.72 3.69,10.701C3.206,9.421 3.673,7.968 4.803,7.235C6.198,6.303 7.776,6.083 9.404,6Z" android:strokeColor="?kit__tv_tab_navigation__icon_color_active" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="@color/transparent" android:pathData="M12.5,9.75V9" android:strokeColor="?kit__tv_tab_navigation__icon_color_active" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/transparent" android:pathData="M6.5,9.75V9" android:strokeColor="?kit__tv_tab_navigation__icon_color_active" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

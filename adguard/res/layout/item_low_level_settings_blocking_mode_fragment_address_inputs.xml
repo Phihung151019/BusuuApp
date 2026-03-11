@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/ipv4_input" android:hint="@string/preferences_low_level_settings_dialog_ipv4_address_input_placeholder" app:kit_label__text="@string/preferences_low_level_settings_dns_blocking_mode_details_custom_address_ipv4_label" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth.MarginTop_16dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/ipv6_input" android:hint="@string/preferences_low_level_settings_dialog_ipv6_address_input_placeholder" app:kit_label__text="@string/preferences_low_level_settings_dns_blocking_mode_details_custom_address_ipv6_label" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ipv4_input" style="@style/LayoutFullWidth.MarginTop_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

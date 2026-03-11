@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_focused="true" android:state_enabled="true" android:color="?kit__construct_checkbox_indeterminate_focused_enabled_color" app:kit_hybrid_checkbox__state_indeterminate="true" />
+    <item android:state_focused="true" android:state_enabled="false" android:color="?kit__construct_checkbox_indeterminate_focused_disabled_color" app:kit_hybrid_checkbox__state_indeterminate="true" />
+    <item android:state_focused="false" android:state_enabled="true" android:color="?kit__construct_checkbox_indeterminate_unfocused_enabled_color" app:kit_hybrid_checkbox__state_indeterminate="true" />
+    <item android:state_focused="false" android:state_enabled="false" android:color="?kit__construct_checkbox_indeterminate_unfocused_disabled_color" app:kit_hybrid_checkbox__state_indeterminate="true" />
+    <item android:state_focused="true" android:state_enabled="true" android:state_checked="true" android:color="?kit__construct_checkbox_checked_focused_enabled_color" />
+    <item android:state_focused="true" android:state_enabled="false" android:state_checked="true" android:color="?kit__construct_checkbox_checked_focused_disabled_color" />
+    <item android:state_focused="false" android:state_enabled="true" android:state_checked="true" android:color="?kit__construct_checkbox_checked_unfocused_enabled_color" />
+    <item android:state_focused="false" android:state_enabled="false" android:state_checked="true" android:color="?kit__construct_checkbox_checked_unfocused_disabled_color" />
+    <item android:state_focused="true" android:state_enabled="true" android:state_checked="false" android:color="?kit__construct_checkbox_unchecked_focused_enabled_color" />
+    <item android:state_focused="true" android:state_enabled="false" android:state_checked="false" android:color="?kit__construct_checkbox_unchecked_focused_disabled_color" />
+    <item android:state_focused="false" android:state_enabled="true" android:state_checked="false" android:color="?kit__construct_checkbox_unchecked_unfocused_enabled_color" />
+    <item android:state_focused="false" android:state_enabled="false" android:state_checked="false" android:color="?kit__construct_checkbox_unchecked_unfocused_disabled_color" />
+</selector>

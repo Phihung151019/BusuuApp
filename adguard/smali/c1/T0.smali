@@ -1,0 +1,34 @@
+.class public final synthetic Lc1/T0;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic e:Lcom/adguard/android/ui/fragment/UpdatesFragment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/adguard/android/ui/fragment/UpdatesFragment;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lc1/T0;->e:Lcom/adguard/android/ui/fragment/UpdatesFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object v0, p0, Lc1/T0;->e:Lcom/adguard/android/ui/fragment/UpdatesFragment;
+
+    invoke-static {v0, p1}, Lcom/adguard/android/ui/fragment/UpdatesFragment$K;->a(Lcom/adguard/android/ui/fragment/UpdatesFragment;Landroid/view/View;)V
+
+    return-void
+.end method

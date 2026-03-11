@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="?kit__background_focused" android:state_activated="true" />
+    <item android:state_focused="true" android:color="?kit__background_focused" />
+    <item android:state_pressed="true" android:color="?kit__background_pressed" />
+    <item android:color="?fills_backgrounds_page_background_default" />
+</selector>

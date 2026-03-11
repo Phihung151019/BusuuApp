@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/TV.HighLevel.ContentBoxColumn.Left.NoneScrollbars">
+        <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent">
+            <TextView android:id="@id/title" android:text="@string/tv__screen_share_logs_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.ScreenTitle.MarginTop_32dp.MarginStart_80dp" />
+            <TextView android:id="@id/summary" android:text="@string/tv__screen_share_logs_subtitle" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.ScreenSummary.MarginStart_80dp.MarginEnd_16dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TVConstructLEIM android:id="@id/email_input" android:hint="@string/login_hint" android:imeOptions="actionDone" app:kit_end_image__icon="@drawable/tv__selector_cross_input" app:kit_hideable_end_image__hide_strategy="empty" app:kit_label__text="@string/tv__screen_share_logs_email_label" app:layout_constraintEnd_toEndOf="@id/summary" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/summary" style="@style/LayoutNoWidthHeightWrap.MarginTop_40dp" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TVConstructLEIM android:id="@id/message_input" android:hint="@string/tv__screen_share_logs_message_summary" android:imeOptions="actionDone" app:kit_end_image__icon="@drawable/tv__selector_cross_input" app:kit_hideable_end_image__hide_strategy="empty" app:kit_label__text="@string/tv__screen_share_logs_message_label" app:layout_constraintEnd_toEndOf="@id/summary" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/email_input" style="@style/LayoutNoWidthHeightWrap.MarginTop_40dp" />
+            <Button android:id="@id/send_logs" android:nextFocusUp="@id/message_input" android:text="@string/tv__screen_share_logs_button_send" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/message_input" style="@style/TV.HighLevel.FilledButton.MarginVertical_64dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <View style="@style/TV.HighLevel.ContentBoxColumn.Right" />
+</LinearLayout>

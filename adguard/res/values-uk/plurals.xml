@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Спробуйте %d день без оплати</item>
+        <item quantity="few">Спробуйте %d дні без оплати</item>
+        <item quantity="many">Спробуйте %d днів без оплати</item>
+        <item quantity="other">Спробуйте %d днів без оплати</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Спробуйте AdGuard безплатно %d день — погляньте, як він покращує web на вашому компʼютері, планшеті чи смартфоні</item>
+        <item quantity="few">Спробуйте AdGuard безплатно %d дні — погляньте, як він покращує web на вашому компʼютері, планшеті чи смартфоні</item>
+        <item quantity="many">Спробуйте AdGuard безплатно %d днів — погляньте, як він покращує web на вашому компʼютері, планшеті чи смартфоні</item>
+        <item quantity="other">Спробуйте AdGuard безплатно %d днів — погляньте, як він покращує web на вашому компʼютері, планшеті чи смартфоні</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d вебсайт у списку</item>
+        <item quantity="few">%d вебсайти у списку</item>
+        <item quantity="many">%d вебсайтів у списку</item>
+        <item quantity="other">%d вебсайтів у списку</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d програма</item>
+        <item quantity="few">%d програми</item>
+        <item quantity="many">%d програм</item>
+        <item quantity="other">%d програм</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">Показати %s нова дія</item>
+        <item quantity="few">Показати %s нові дії</item>
+        <item quantity="many">Показати %s нових дій</item>
+        <item quantity="other">Показати %s нових дій</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Пробна версія закінчиться через %1$s день. &lt;font color=\"%2$s\">&lt;a href=%3$s>Купити повну версію&lt;/a>&lt;/font></item>
+        <item quantity="few">Пробна версія закінчиться через %1$s дня. &lt;font color=\"%2$s\">&lt;a href=%3$s>Купити повну версію&lt;/a>&lt;/font></item>
+        <item quantity="many">Пробна версія закінчиться через %1$s днів. &lt;font color=\"%2$s\">&lt;a href=%3$s>Купити повну версію&lt;/a>&lt;/font></item>
+        <item quantity="other">Пробна версія закінчиться через %1$s днів. &lt;font color=\"%2$s\">&lt;a href=%3$s>Купити повну версію&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+        <item quantity="other">%d нового сповіщення</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s правило</item>
+        <item quantity="few">%s правила</item>
+        <item quantity="many">%s правил</item>
+        <item quantity="other">%s правил</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s розширення</item>
+        <item quantity="few">%s розширення</item>
+        <item quantity="many">%s розширень</item>
+        <item quantity="other">%s розширень</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Спробуйте %d день без оплати</item>
+        <item quantity="few">Спробуйте %d дні без оплати</item>
+        <item quantity="many">Спробуйте %d днів без оплати</item>
+        <item quantity="other">Спробуйте %d днів без оплати</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d день розширеного захисту без оплати</item>
+        <item quantity="few">%d дні розширеного захисту без оплати</item>
+        <item quantity="many">%d днів розширеного захисту без оплати</item>
+        <item quantity="other">%d днів розширеного захисту без оплати</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Вимкнути це налаштування</item>
+        <item quantity="few">Вимкнути ці налаштування</item>
+        <item quantity="many">Вимкнути ці налаштування</item>
+        <item quantity="other">Вимкнути ці налаштування</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Скануйте, щоб створити обліковий запис і отримати %d-денний пробний період без оплати</item>
+        <item quantity="few">Відскануйте, щоб створити обліковий запис і отримати безплатний %d-денний пробний період</item>
+        <item quantity="many">Відскануйте, щоб створити обліковий запис і отримати безплатний %d-денний пробний період</item>
+        <item quantity="other">Відскануйте, щоб створити обліковий запис і отримати безплатний %d-денний пробний період</item>
+    </plurals>
+</resources>

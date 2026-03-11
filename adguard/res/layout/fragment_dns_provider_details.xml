@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarRecyclerView android:id="@id/recycler" app:layout_constraintBottom_toTopOf="@id/button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidthNoHeight" />
+    <LinearLayout android:id="@id/button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/LayoutFullWidth">
+        <Button android:id="@id/select_provider_button" android:text="@string/protection_dns_provider_button_use_this_server" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginTop_16dp.MarginBottom_32dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

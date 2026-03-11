@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/private_browser_onboarding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.adguard.android.ui.fragment.private_browser_onboarding.PrivateBrowserOnboardingIncognitoFragment" android:id="@id/fragment_private_browser_onboarding_incognito" />
+    <fragment android:name="com.adguard.android.ui.fragment.private_browser_onboarding.PrivateBrowserOnboardingYouTubeAdFree" android:id="@id/fragment_private_browser_onboarding_youtube_ad_free" />
+    <fragment android:name="com.adguard.android.ui.fragment.private_browser_onboarding.PrivateBrowserOnboardingCreateWidgetFragment" android:id="@id/fragment_private_browser_onboarding_create_widget" />
+</navigation>

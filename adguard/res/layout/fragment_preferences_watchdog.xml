@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent">
+        <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+        <TextView android:id="@id/title" android:text="@string/preferences_watchdog_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ScreenTitle.MarginTop_80dp" />
+        <TextView android:id="@id/summary" android:text="@string/preferences_watchdog_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/HighLevel.ScreenSummary.MarginTop_12dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:id="@id/watchdog" app:kit_end_switch__talkback="@string/preferences_automation_title" app:kit_middle_text_block__title_text="@string/preferences_watchdog_switch_name" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/summary" style="@style/LayoutFullWidth.MarginTop_16dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/period_input" android:hint="@string/preferences_watchdog_hint" android:inputType="number" app:kit_label__text="@string/preferences_watchdog_label" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/watchdog" style="@style/LayoutFullWidth.MarginTop_32dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>

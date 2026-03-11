@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">Próbálja ki %d napig ingyen</item>
+        <item quantity="other">Próbálja ki %d napig ingyen</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Próbálja ki az AdGuardot ingyen %d napig — nézze meg, hogyan javítja a webet a számítógépén, táblagépén vagy okostelefonján</item>
+        <item quantity="other">Próbálja ki az AdGuardot ingyen %d napig — nézze meg, hogyan javítja a webet a számítógépén, táblagépén vagy okostelefonján</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d webhely engedélyezési listája</item>
+        <item quantity="other">%d webhelyek engedélyezési listája</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d alkalmazás</item>
+        <item quantity="other">%d alkalmazás</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">%s új művelet megjelenítése</item>
+        <item quantity="other">%s új műveletek megjelenítése</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">A próbaidőszak %1$s nap múlva ér véget. &lt;font color=\"%2$s\">&lt;a href=%3$s>Vásárolja meg a teljes verziót&lt;/a>&lt;/font></item>
+        <item quantity="other">A próbaidőszak %1$s nap múlva ér véget. &lt;font color=\"%2$s\">&lt;a href=%3$s>Vásárolja meg a teljes verziót&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s szabály</item>
+        <item quantity="other">%s szabályok</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s kiegészítő</item>
+        <item quantity="other">%s kiegészítő</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">Próbálja ki %d napig ingyen</item>
+        <item quantity="other">Próbálja ki %d napig ingyen</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d nap ingyenes kibővített védelem</item>
+        <item quantity="other">%d nap ingyenes kibővített védelem</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">A beállítás letiltása</item>
+        <item quantity="other">Tiltsa le ezeket a beállításokat</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Olvassa be a kódot, hozzon létre fiókot és szerezze meg az ingyenes %d napos próbaverzióját</item>
+        <item quantity="other">Olvassa be a kódot, hozzon létre fiókot és szerezze meg az ingyenes %d napos próbaverzióját</item>
+    </plurals>
+</resources>

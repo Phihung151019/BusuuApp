@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/page_wrapper" style="@style/LayoutFullParent.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/animation_background" android:src="?promo_animation_background" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/animation" app:layout_constraintEnd_toEndOf="@id/animation" app:layout_constraintStart_toStartOf="@id/animation" app:layout_constraintTop_toTopOf="@id/animation" style="@style/LayoutNoWidthNoHeight" />
+    <com.adguard.mobile.multikit.common.ui.view.animation.LottieAnimationView android:id="@id/animation" android:scaleType="fitEnd" android:adjustViewBounds="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth" />
+    <TextView android:id="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/animation" style="@style/Text.H2.MarginHorizontal_24dp.MarginTop_48dp" />
+    <TextView android:id="@id/summary" android:minLines="4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/Text.T1_Wide.ColorDescription.MarginHorizontal_24dp.MarginVertical_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

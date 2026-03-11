@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent">
+        <com.adguard.mobile.multikit.common.ui.view.animation.LottieAnimationView android:id="@id/onboarding_animation_view" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/back_button" app:lottie_autoPlay="false" app:lottie_loop="false" style="@style/Animation.CustomLottie" />
+        <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+        <include android:id="@id/content_texts" app:layout_constraintBottom_toTopOf="@id/content_buttons" app:layout_constraintTop_toBottomOf="@id/onboarding_animation_view" app:layout_constraintVertical_chainStyle="spread_inside" layout="@layout/sublayout_onboarding_https_texts" style="@style/LayoutFullWidth" />
+        <include android:id="@id/content_buttons" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/content_texts" layout="@layout/sublayout_onboarding_https_buttons" style="@style/LayoutFullWidth" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>

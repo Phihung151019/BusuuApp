@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/log_in" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__title_text="@string/about_license_already_purchase_dialog_login" app:kit_start_image__icon="@drawable/ic_user_2" style="@style/LayoutFullWidth" />
+    <View style="@style/KitDivLine" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/enter_code" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__title_text="@string/about_license_already_purchase_dialog_enter_code" app:kit_start_image__icon="@drawable/ic_key" style="@style/LayoutFullWidth" />
+</LinearLayout>

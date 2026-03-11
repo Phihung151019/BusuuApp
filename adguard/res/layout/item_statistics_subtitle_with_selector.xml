@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth.Vertical.MarginHorizontal_16dp.MarginTop_32dp.MarginBottom_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/subtitle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/selector" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.H5.NoWidth" />
+    <TextView android:id="@id/selector" app:drawableEndCompat="@drawable/ic_arrow_down_small" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/subtitle" app:layout_constraintTop_toTopOf="parent" style="@style/Text.T2.ColorDescription.NoWidth.EndCenterVertical" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/start_title" app:layout_constraintEnd_toStartOf="@id/end_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.H4.WrapWidth" />
+    <TextView android:id="@id/start_summary" app:layout_constraintEnd_toEndOf="@id/start_title" app:layout_constraintStart_toStartOf="@id/start_title" app:layout_constraintTop_toBottomOf="@id/start_title" style="@style/Text.T2.ColorDescription.WidthWrap" />
+    <TextView android:id="@id/end_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/start_title" app:layout_constraintTop_toTopOf="parent" style="@style/Text.H4.WrapWidth" />
+    <TextView android:id="@id/end_summary" app:layout_constraintEnd_toEndOf="@id/end_title" app:layout_constraintStart_toStartOf="@id/end_title" app:layout_constraintTop_toBottomOf="@id/end_title" style="@style/Text.T2.ColorDescription.WidthWrap" />
+    <View android:id="@id/end_bar" android:background="@drawable/background_statistics_bar_end" android:layout_height="@dimen/dp_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/start_summary" app:layout_constraintWidth_percent="1.0" style="@style/LayoutNoWidthHeightWrap" />
+    <View android:id="@id/start_bar" android:background="@drawable/background_statistics_bar_start" android:layout_height="@dimen/dp_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/start_summary" app:layout_constraintWidth_percent="0.1" style="@style/LayoutNoWidthHeightWrap" />
+</androidx.constraintlayout.widget.ConstraintLayout>

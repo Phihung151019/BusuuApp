@@ -1,0 +1,49 @@
+.class public final Lz6/c$a;
+.super Ljava/lang/Object;
+.source "AnnotationDescriptor.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lz6/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public static a(Lz6/c;)LX6/c;
+    .locals 2
+
+    invoke-static {p0}, Lf7/c;->i(Lz6/c;)Ly6/e;
+
+    move-result-object p0
+
+    const/4 v0, 0x0
+
+    if-eqz p0, :cond_1
+
+    invoke-static {p0}, Lr7/k;->m(Ly6/m;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    move-object p0, v0
+
+    :goto_0
+    if-eqz p0, :cond_1
+
+    invoke-static {p0}, Lf7/c;->h(Ly6/m;)LX6/c;
+
+    move-result-object v0
+
+    :cond_1
+    return-object v0
+.end method

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?kit_edit__background_color" />
+    <stroke android:width="?kit_edit__background_stroke_width" android:color="?kit_edit__background_stroke_color_error" />
+    <corners android:radius="?kit_edit__background_corner_radius" />
+    <padding android:left="?kit_edit__background_horizontal_padding" android:top="?kit_edit__background_vertical_padding" android:right="?kit_edit__background_horizontal_padding" android:bottom="?kit_edit__background_vertical_padding" />
+</shape>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/input" android:hint="@string/dialog_add_user_rule_hint" android:inputType="textUri" app:kit_label__text="@string/add_user_rule_dialog_filtering_rule" style="@style/LayoutFullWidth.MarginTop_16dp" />
+</LinearLayout>

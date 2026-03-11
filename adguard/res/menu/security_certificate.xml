@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/instructions_for_firefox" android:title="@string/preferences_security_certificate_title_firefox_setup" app:showAsAction="never" />
+    <item android:id="@id/delete_certificates" android:title="@string/preferences_security_certificate_title_cert_actions" app:showAsAction="never" />
+</menu>

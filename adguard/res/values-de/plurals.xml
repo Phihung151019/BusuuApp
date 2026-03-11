@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="one">%d Tag kostenlos testen</item>
+        <item quantity="other">%d Tage kostenlos testen</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="one">Testen Sie AdGuard kostenlos für %d Tag — sehen Sie, wie es das Web auf Ihrem Computer, Tablet oder Smartphone verbessert</item>
+        <item quantity="other">Testen Sie AdGuard kostenlos für %d Tage — sehen Sie, wie es das Web auf Ihrem Computer, Tablet oder Smartphone verbessert</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="one">%d Website ist in der Freigabeliste</item>
+        <item quantity="other">%d Websites ist in der Freigabeliste</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="one">%d App</item>
+        <item quantity="other">%d Apps</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="one">%s neue Aktion anzeigen</item>
+        <item quantity="other">%s neue Aktionen anzeigen</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="one">Die Testversion endet in %1$s Tag. &lt;font color=\"%2$s\">&lt;a href=%3$s>Erwerben Sie die Vollversion&lt;/a>&lt;/font></item>
+        <item quantity="other">Die Testversion endet in %1$s Tagen. &lt;font color=\"%2$s\">&lt;a href=%3$s>Erwerben Sie die Vollversion&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d neue Benachrichtigung</item>
+        <item quantity="other">%d neue Benachrichtigungen</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="one">%s Regel</item>
+        <item quantity="other">%s Regeln</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="one">%s Erweiterung</item>
+        <item quantity="other">%s Erweiterungen</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="one">%d Tag kostenlos testen</item>
+        <item quantity="other">%d Tage kostenlos testen</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="one">%d Tag des erweiterten Schutzes kostenlos</item>
+        <item quantity="other">%d Tage des erweiterten Schutzes kostenlos</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="one">Diese Einstellung deaktivieren</item>
+        <item quantity="other">Diese Einstellungen deaktivieren</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="one">Scannen, um ein Konto zu erstellen und Ihren kostenlosen %d-Tages-Test zu erhalten</item>
+        <item quantity="other">Scannen, um ein Konto zu erstellen und Ihren kostenlosen %d-Tages-Test zu erhalten</item>
+    </plurals>
+</resources>

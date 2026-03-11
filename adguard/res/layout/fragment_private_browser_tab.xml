@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/placeholder" android:visibility="gone" style="@style/LayoutFullParent.Vertical.Center.MarginHorizontal_24dp">
+        <ImageView android:src="@drawable/ic_private_browser_large_2" style="@style/Icon48dp.Center.MarginHorizontal_24dp" />
+        <TextView android:id="@id/title" android:text="@string/screen_private_browser_title" style="@style/Text.H4.Center.MarginHorizontal_24dp.MarginVertical_12dp" />
+        <TextView android:id="@id/summary" android:text="@string/screen_private_browser_summary" style="@style/Text.T1.ColorDescription.Center.MarginHorizontal_24dp.MarginBottom_16dp" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/suggestion_permission_request" android:visibility="gone" style="@style/LayoutFullWidth.GravityBottom">
+        <include layout="@layout/sublayout_suggestion_permission_request" style="@style/LayoutFullWidth.MarginHorizontal_8dp.MarginVertical_8dp" />
+    </FrameLayout>
+    <com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarRecyclerView android:id="@id/search_recycler" android:visibility="gone" style="@style/LayoutFullParent" />
+    <com.adguard.android.ui.view.BrowserWebView android:id="@id/browser" android:visibility="gone" app:layout_behavior=".ui.view.BottomAppBarBehavior" style="@style/LayoutFullParent" />
+    <com.adguard.mobile.multikit.common.ui.view.collapsing.CollapsingView android:id="@id/collapsing_view" android:background="@color/transparent" app:kit_collapsing_view__collapsed_layout="@layout/fragment_private_browser_collapsed_layout" app:kit_collapsing_view__expanded_collapse_parallax_multiplier="1.0" app:kit_collapsing_view__expanded_layout="@layout/fragment_private_browser_expanded_layout" app:kit_collapsing_view_collapsed_view__fade_animation_strategy="no" app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways|snap" style="@style/LayoutFullWidth.GravityBottom" />
+    <FrameLayout android:id="@id/fullscreenContainer" android:visibility="gone" style="@style/LayoutFullParent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

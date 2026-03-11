@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer" app:elevation="@dimen/dp_0.01" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/tv__sublayout_navigation_drawer" />
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent">
+        <include app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/kit_tv_sublayout_navigation_side_bar" style="@style/TV.HighLevel.SideBar" />
+        <include app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/side_bar" app:layout_constraintTop_toTopOf="parent" layout="@layout/kit_layout_navigation_base" style="@style/LayoutFullHeightNoWidth" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

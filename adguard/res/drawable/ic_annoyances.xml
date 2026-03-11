@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/transparent" android:pathData="M20,3.75C20.6904,3.75 21.25,4.3096 21.25,5L21.25,16C21.25,16.6904 20.6904,17.25 20,17.25L18.1167,17.25L18.1167,20.4399C18.1167,20.5097 18.0875,20.5763 18.0361,20.6237C17.9346,20.7173 17.7765,20.7108 17.6829,20.6093L14.5861,17.25L4,17.25C3.3096,17.25 2.75,16.6904 2.75,16L2.75,5C2.75,4.3096 3.3096,3.75 4,3.75L20,3.75Z" android:strokeColor="?stroke_icons_product_icon" android:strokeWidth="1.5" android:fillType="evenOdd" />
+    <path android:fillColor="@color/transparent" android:pathData="M12,11L12,7" android:strokeColor="?stroke_icons_product_icon" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillType="evenOdd" />
+    <path android:fillColor="?stroke_icons_product_icon" android:pathData="M12,14m-1,-0a1,1 0,1 0,2 -0a1,1 0,1 0,-2 -0" android:strokeColor="@color/transparent" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

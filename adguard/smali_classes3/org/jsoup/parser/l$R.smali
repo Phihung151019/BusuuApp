@@ -1,0 +1,38 @@
+.class public final enum Lorg/jsoup/parser/l$R;
+.super Lorg/jsoup/parser/l;
+.source "TokeniserState.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/jsoup/parser/l;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4011
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;I)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/parser/l;-><init>(Ljava/lang/String;ILorg/jsoup/parser/l$k;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public read(Lorg/jsoup/parser/k;Lorg/jsoup/parser/a;)V
+    .locals 0
+
+    sget-object p2, Lorg/jsoup/parser/l;->Rcdata:Lorg/jsoup/parser/l;
+
+    invoke-static {p1, p2}, Lorg/jsoup/parser/l;->access$100(Lorg/jsoup/parser/k;Lorg/jsoup/parser/l;)V
+
+    return-void
+.end method

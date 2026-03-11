@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:id="@id/guideline" app:layout_constraintGuide_percent="0.5" style="@style/LayoutWrapContent.Vertical" />
+    <TextView android:id="@id/title" android:text="@string/tv__screen_onboarding_browsing_security_title" app:layout_constraintEnd_toStartOf="@id/guideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.OnboardingTitle" />
+    <TextView android:id="@id/summary" android:text="@string/tv__screen_onboarding_browsing_security_summary" app:layout_constraintEnd_toStartOf="@id/guideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.OnboardingSummary.NoWidth.MarginTop_16dp" />
+    <Button android:id="@id/button" android:text="@string/tv__screen_onboarding_browsing_security_button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/summary" style="@style/TV.HighLevel.FilledButton.MarginTop_40dp.MarginBottom_64dp" />
+    <ImageView android:id="@id/image" android:src="@drawable/tv__ic_onboarding_browsing_security" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutWrapContent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

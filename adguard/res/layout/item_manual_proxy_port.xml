@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__text_padding_start="@dimen/dp_56" app:kit_middle_text_block__title_text="@string/routing_mode_port" style="@style/LayoutFullWidth"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

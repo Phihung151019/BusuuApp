@@ -1,0 +1,90 @@
+.class public final enum Lorg/jsoup/parser/c$w;
+.super Lorg/jsoup/parser/c;
+.source "HtmlTreeBuilderState.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/jsoup/parser/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4011
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;I)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/parser/c;-><init>(Ljava/lang/String;ILorg/jsoup/parser/c$k;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public process(Lorg/jsoup/parser/i;Lorg/jsoup/parser/b;)Z
+    .locals 1
+
+    invoke-virtual {p1}, Lorg/jsoup/parser/i;->g()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Lorg/jsoup/parser/i;->a()Lorg/jsoup/parser/i$c;
+
+    move-result-object p1
+
+    invoke-virtual {p2, p1}, Lorg/jsoup/parser/b;->O(Lorg/jsoup/parser/i$c;)V
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p1}, Lorg/jsoup/parser/i;->j()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->q(Lorg/jsoup/parser/c;)V
+
+    invoke-virtual {p2}, Lorg/jsoup/parser/b;->j0()LU7/h;
+
+    invoke-virtual {p2}, Lorg/jsoup/parser/b;->i0()Lorg/jsoup/parser/c;
+
+    move-result-object v0
+
+    invoke-virtual {p2, v0}, Lorg/jsoup/parser/b;->C0(Lorg/jsoup/parser/c;)V
+
+    invoke-virtual {p2, p1}, Lorg/jsoup/parser/b;->f(Lorg/jsoup/parser/i;)Z
+
+    move-result p1
+
+    return p1
+
+    :cond_1
+    invoke-virtual {p1}, Lorg/jsoup/parser/i;->k()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    invoke-virtual {p2}, Lorg/jsoup/parser/b;->j0()LU7/h;
+
+    invoke-virtual {p2}, Lorg/jsoup/parser/b;->i0()Lorg/jsoup/parser/c;
+
+    move-result-object p1
+
+    invoke-virtual {p2, p1}, Lorg/jsoup/parser/b;->C0(Lorg/jsoup/parser/c;)V
+
+    :cond_2
+    :goto_0
+    const/4 p1, 0x1
+
+    return p1
+.end method

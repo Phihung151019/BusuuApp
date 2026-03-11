@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/enable_all" android:title="@string/allow_list_menu_enable_all" app:showAsAction="never" />
+    <item android:id="@id/disable_all" android:title="@string/allow_list_menu_disable_all" app:showAsAction="never" />
+    <item android:id="@id/clear_all" android:title="@string/allow_list_menu_clear_all" app:showAsAction="never" />
+</menu>

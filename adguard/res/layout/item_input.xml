@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM app:kit_hideable_end_image__hide_strategy="always" style="@style/LayoutFullWidth"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

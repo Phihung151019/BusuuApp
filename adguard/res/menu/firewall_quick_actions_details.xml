@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/recent_activity" android:title="@string/firewall_quick_actions_menu_app_recent_activity" app:showAsAction="never" />
+    <item android:id="@id/firewall_rules" android:title="@string/firewall_quick_actions_menu_app_firewall_rules" app:showAsAction="never" />
+    <item android:id="@id/apps_management" android:title="@string/firewall_quick_actions_menu_app_management" app:showAsAction="never" />
+    <item android:id="@id/mute_notification" android:title="@string/firewall_quick_actions_menu_app_mute_notification" app:showAsAction="never" />
+    <item android:id="@id/unmute_notification" android:title="@string/firewall_quick_actions_menu_app_unmute_notification" app:showAsAction="never" />
+    <item android:id="@id/allow_temporary" android:title="@string/firewall_quick_actions_menu_app_allow_this_time" app:showAsAction="never" />
+</menu>

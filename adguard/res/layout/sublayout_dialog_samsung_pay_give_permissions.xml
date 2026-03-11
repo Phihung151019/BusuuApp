@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/app_usage" app:kit_middle_text_block__title_text="@string/preferences_low_level_settings_enable_sam_pay_detection_permission_dialog_app_usage" app:kit_start_image__icon="@drawable/ic_checkmark" style="@style/LayoutFullWidth" />
+    <View style="@style/KitDivLine" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/alarms_and_reminders" app:kit_middle_text_block__title_text="@string/preferences_low_level_settings_enable_sam_pay_detection_permission_dialog_alarms_and_reminders" app:kit_start_image__icon="@drawable/ic_checkmark" style="@style/LayoutFullWidth" />
+</LinearLayout>

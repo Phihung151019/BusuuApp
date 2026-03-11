@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/tv__navigation_onboarding" app:startDestination="@id/tv__fragment_onboarding_tabs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.tv.onboarding.TvOnboardingAdBlockingFragment" android:id="@id/tv__fragment_onboarding_ad_blocking">
+        <action android:id="@id/action_tv__fragment_onboarding_ad_blocking_to_tv__fragment_onboarding_tracking_protection" app:destination="@id/tv__fragment_onboarding_tracking_protection" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.tv.onboarding.TvOnboardingTrackingProtectionFragment" android:id="@id/tv__fragment_onboarding_tracking_protection">
+        <action android:id="@id/action_tv__fragment_onboarding_tracking_protection_to_tv__fragment_onboarding_browsing_security" app:destination="@id/tv__fragment_onboarding_browsing_security" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.tv.onboarding.TvOnboardingBrowsingSecurityFragment" android:id="@id/tv__fragment_onboarding_browsing_security" />
+    <fragment android:name="com.adguard.android.ui.fragment.tv.onboarding.TvOnboardingTabsFragment" android:id="@id/tv__fragment_onboarding_tabs">
+        <action android:id="@id/action_tv__fragment_onboarding_tabs_to_tv__fragment_onboarding_ad_blocking" app:destination="@id/tv__fragment_onboarding_ad_blocking" />
+    </fragment>
+</navigation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:color="?fills_switch_android_switch_knob_off_default" />
+    <item android:color="?fills_switch_android_switch_knob_on_inactive" />
+</selector>

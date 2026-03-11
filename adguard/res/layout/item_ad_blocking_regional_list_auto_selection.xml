@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructITS android:paddingBottom="@dimen/dp_48" style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

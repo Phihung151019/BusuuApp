@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/item_cardview_home" style="@style/HighLevel.CardView.Item.Attention"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/LayoutFullWidth.Vertical">
+        <LinearLayout style="@style/LayoutFullParent.Horizontal">
+            <ImageView android:id="@id/image" android:src="@drawable/ic_saved_data" style="@style/LayoutWrapContent.MarginStartTop_16dp.MarginBottom_12dp" />
+            <TextView android:id="@id/hide_text" android:visibility="gone" android:text="@string/home_card_hide" style="@style/Text.T3.ColorPlaceholder.End.Padding_4dp.MarginStart_4dp.MarginEnd_12dp.MarginTop_12dp" />
+        </LinearLayout>
+        <TextView android:id="@id/summary" style="@style/Text.T2.MinLines_4.MarginHorizontal_16dp.MarginBottom_16dp" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/input" android:hint="@string/screen_private_browser_add_shortcut_dialog_input_hint" app:kit_label__text="@string/screen_private_browser_add_shortcut_dialog_input_label" style="@style/LayoutFullWidth.MarginVertical_16dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructCTI android:id="@id/use_website_icon" app:kit_middle_text_block__title_text="@string/screen_private_browser_add_shortcut_dialog_use_website_icon_title" style="@style/LayoutFullWidth" />
+</LinearLayout>

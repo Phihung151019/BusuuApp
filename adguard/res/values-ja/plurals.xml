@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="other">%d日間無料で試してみる</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="other">AdGuardを%d日間無料でお試しいただけます。ぜひパソコン、タブレット、スマホでインターネット利用がどのように改善するかを実感してください。</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="other">%d個のウェブサイトがホワイトリストに登録されています。</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="other">%d本のアプリ</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="other">%s件の新しいアクションを表示する</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="other">無料お試し版は後%1$s日で終了します。&lt;font color=\"%2$s\">&lt;a href=%3$s>フルバージョンを購入する&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 件の新しい通知</item>
+        <item quantity="other">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="other">%s 件のルール</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="other">%s件の拡張機能</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="other">%d日間無料で試してみる</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="other">%d日間の延長が無料</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="other">この設定を無効にする</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="other">QRコードをスキャンしてアカウントを作成し、%d日間の無料トライアルを入手</item>
+    </plurals>
+</resources>

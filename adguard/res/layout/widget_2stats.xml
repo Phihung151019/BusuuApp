@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_frame" android:src="@drawable/background_widget" style="@style/LayoutFullParent" />
+    <RelativeLayout style="@style/LayoutFullParent">
+        <RelativeLayout android:id="@id/header" style="@style/HighLevel.Widget.Row">
+            <ImageView android:id="@id/logo_big" android:src="@drawable/widget_logo_off_big" style="@style/HighLevel.Widget.BigLogo" />
+            <ImageView android:id="@id/switch_image" android:src="@drawable/widget_switch_on" style="@style/HighLevel.Widget.Switch" />
+        </RelativeLayout>
+        <ImageView android:id="@id/divider" android:layout_below="@id/header" style="@style/HighLevel.Widget.Divider" />
+        <RelativeLayout android:id="@id/blocked" android:layout_below="@id/divider" style="@style/HighLevel.Widget.Row">
+            <TextView android:text="@string/widget_statistics_ads" style="@style/HighLevel.Widget.StatsLabel" />
+            <TextView android:id="@id/statistics_blocked" style="@style/HighLevel.Widget.StatsValue" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/saved" android:layout_below="@id/blocked" style="@style/HighLevel.Widget.Row">
+            <TextView android:text="@string/widget_statistics_saved" style="@style/HighLevel.Widget.StatsLabel" />
+            <TextView android:id="@id/statistics_saved" style="@style/HighLevel.Widget.StatsValue" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

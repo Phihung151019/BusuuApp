@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Horizontal.NoClip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:fillViewport="true" style="@style/TV.HighLevel.ContentBoxColumn.Left.NoneScrollbars.NoClip">
+        <androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent">
+            <TextView android:id="@id/title" android:text="@string/tv__screen_sign_in_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.ScreenTitle.MarginTop_32dp.NoWidth.MarginStart_80dp.MarginTop_64dp" />
+            <TextView android:id="@id/summary" android:text="@string/tv__screen_sign_in_subtitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.ScreenSummary.NoWidth.MarginStart_96dp" />
+            <com.adguard.mobile.multikit.common.ui.view.tv.TvNavigationTabView android:id="@id/tabs" android:focusable="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/summary" app:menu="@menu/tv__log_in" app:tv_tab_background="?tv__auth_tab_background" app:tv_tab_icon_margin_end="?kit__tv_tab__icon_margin_end" app:tv_tab_title_color="?tv__auth_tab_title_color" app:tv_tab_vertical_margin="?kit__tv_tab__margin_vertical" style="@style/LayoutWrapContent.MarginStart_80dp" />
+            <fragment android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/nav_host_fragment_tabs" android:layout_width="0.0dp" android:layout_height="0.0dp" app:defaultNavHost="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tabs" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/qr_wrapper" style="@style/TV.HighLevel.ContentBoxColumn.Right">
+        <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent" />
+        <ImageView android:id="@id/qr_code" android:alpha="0.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.QR.MarginEnd_80dp.MarginTop_64dp" />
+        <TextView android:id="@id/qr_label" android:alpha="0.0" app:layout_constraintEnd_toEndOf="@id/qr_code" app:layout_constraintStart_toStartOf="@id/qr_code" app:layout_constraintTop_toBottomOf="@id/qr_code" style="@style/TV.HighLevel.QRLabel.NoWidth" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

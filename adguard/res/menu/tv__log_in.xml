@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/tv__log_in_get_free_trial_fragment" android:title="@string/tv__screen_sign_in_tab_get_free_trial" />
+    <item android:id="@id/tv__log_in_buy_adguard_fragment" android:title="@string/tv__screen_sign_in_tab_buy_adguard" />
+    <item android:id="@id/tv__log_in_license_fragment" android:title="@string/tv__screen_sign_in_tab_license" />
+</menu>

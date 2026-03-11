@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="start|bottom" android:drawable="@drawable/ic_adguard_private_browser" />
+    <item android:drawable="@drawable/ic_keep_private_browser" android:bottom="@dimen/dp_16" android:start="@dimen/dp_16" />
+</layer-list>

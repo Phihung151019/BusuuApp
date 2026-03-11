@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView android:id="@id/fragment_about_license" android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/dp_8" style="@style/LayoutFullParent">
+        <ImageView android:id="@id/license_option" android:alpha="0.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.ContextMenuButton" />
+        <ImageView android:id="@id/back_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/HighLevel.BackButton.PaddingEnd_16dp.PaddingTop_24dp" />
+        <LinearLayout android:id="@id/license_key_touch_area" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullWidth.Vertical.CenterHorizontal.MarginTop_80dp">
+            <ImageView android:id="@id/icon" android:src="@drawable/ic_adguard_48" android:alpha="0.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Icon48dp" />
+            <TextView android:id="@id/license_status" android:text="@string/about_license_status_free_license" android:alpha="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon" style="@style/HighLevel.ScreenTitle.MarginTop_12dp" />
+            <TextView android:id="@id/license_description" android:text="@string/about_license_status_free_license_description" android:alpha="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/license_status" style="@style/Text.T1.Center.MarginHorizontal_24dp.MarginTop_8dp" />
+            <LinearLayout android:id="@id/license_key_layout" android:visibility="gone" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/license_description" style="@style/LayoutFullWidth.CenterHorizontal.MarginHorizontal_24dp.MarginTop_16dp">
+                <TextView android:id="@id/license_key_text" android:drawablePadding="@dimen/dp_8" app:drawableEndCompat="@drawable/ic_copy" style="@style/Text.T1.WrapWidth.Center" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/buttons" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/license_key_touch_area" app:layout_goneMarginTop="@dimen/dp_32" style="@style/LayoutFullWidth.Vertical.MarginTop_16dp">
+            <Button android:enabled="false" android:id="@id/color_primary_button" android:alpha="0.0" style="@style/HighLevel.Button.MarginHorizontal_16dp.MarginVertical_8dp" />
+            <Button android:enabled="false" android:id="@id/color_neutral_button" android:alpha="0.0" style="@style/HighLevel.Button.Neutral.MarginHorizontal_16dp.MarginVertical_8dp" />
+            <com.google.android.material.card.MaterialCardView android:id="@id/card_bind_license" android:visibility="gone" android:alpha="0.0" style="@style/HighLevel.CardView.License">
+                <LinearLayout style="@style/LayoutFullWidth.Vertical">
+                    <TextView android:id="@id/bind_license_title" android:text="@string/about_license_reset_license_bind_license_title" style="@style/Text.H5.Center.MarginHorizontal_16dp.MarginTop_24dp" />
+                    <TextView android:id="@id/bind_license_summary" android:text="@string/about_license_reset_license_bind_license_summary" style="@style/Text.T1_Wide.Center.MarginHorizontal_16dp.MarginTop_8dp" />
+                    <Button android:id="@id/bind_license_button" android:text="@string/about_license_reset_license_bind_license_button" style="@style/HighLevel.Button.Transparent.MarginHorizontal_16dp.MarginTop_16dp.MarginBottom_32dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/card_trial" android:visibility="gone" android:alpha="0.0" style="@style/HighLevel.CardView.License">
+                <LinearLayout style="@style/LayoutFullWidth.Vertical">
+                    <TextView android:id="@id/trial_title" style="@style/Text.H5.MarginHorizontal_16dp.MarginTop_24dp" />
+                    <TextView android:id="@id/trial_summary" style="@style/Text.T1_Wide.MarginHorizontal_16dp.MarginTop_8dp" />
+                    <Button android:id="@id/trial_button" style="@style/HighLevel.Button.Neutral.MarginHorizontal_16dp.MarginTop_16dp.MarginBottom_32dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <Button android:enabled="false" android:id="@id/button_trial" android:alpha="0.0" style="@style/HighLevel.Button.Neutral.MarginHorizontal_16dp.MarginVertical_8dp" />
+        </LinearLayout>
+        <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/progress" app:kit_anim_view__start_infinitely_on_create="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.adguard.mobile.multikit.common.ui.view.VerticalScrollBarScrollView>

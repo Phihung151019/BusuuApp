@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructITIBB android:id="@id/snack" android:paddingTop="@dimen/dp_12" android:paddingBottom="@dimen/dp_12" android:paddingStart="@dimen/dp_12" android:paddingEnd="@dimen/dp_12" app:kit_first_bottom_button__min_height="@dimen/dp_0" app:kit_first_bottom_button__min_width="@dimen/dp_0" app:kit_first_bottom_button__text_all_caps="false" app:kit_second_bottom_button__min_height="@dimen/dp_0" app:kit_second_bottom_button__min_width="@dimen/dp_0" app:kit_second_bottom_button__text_all_caps="false" style="?kit__snackbar_default_style"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" />

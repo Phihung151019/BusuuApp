@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI app:kit_middle_text_block__title_color="?text_links_link" app:kit_middle_text_block__title_text="@string/firewall_app_rules_button_add" app:kit_start_image__icon="@drawable/ic_plus" style="@style/LayoutFullWidth"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

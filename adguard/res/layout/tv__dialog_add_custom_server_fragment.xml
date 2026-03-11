@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:fillViewport="true" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout style="@style/LayoutFullParent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" android:alpha="0.0" style="@style/LayoutFullParent.NoClip.Padding_64dp">
+            <TextView android:id="@id/title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TV.HighLevel.DialogScreenTitle" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TVConstructLEIM android:id="@id/name_input" android:hint="@string/tv__screen_dialog_custom_server_name_hint" android:imeOptions="actionDone" app:kit_end_image__icon="@drawable/tv__selector_cross_input" app:kit_label__text="@string/tv__screen_dialog_custom_server_name" app:layout_constraintEnd_toEndOf="@id/title" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TV.HighLevel.Dialog.FirstConstruct" />
+            <com.adguard.mobile.multikit.common.ui.view.construct.tv.TVConstructLEIM android:id="@id/address_input" android:nextFocusDown="@id/submit" android:hint="@string/tv__screen_dialog_custom_server_addresses_hint" android:inputType="textMultiLine" app:kit_end_image__icon="@drawable/tv__selector_cross_input" app:kit_label__text="@string/tv__screen_dialog_custom_server_addresses" app:layout_constraintEnd_toEndOf="@id/name_input" app:layout_constraintStart_toStartOf="@id/name_input" app:layout_constraintTop_toBottomOf="@id/name_input" style="@style/TV.HighLevel.Dialog.FirstConstruct" />
+            <Button android:id="@id/submit" android:text="@string/tv__screen_dialog_custom_server_continue_button" app:layout_constraintEnd_toStartOf="@id/providers" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/address_input" style="@style/TV.HighLevel.Dialog.FirstButton" />
+            <Button android:id="@id/providers" android:text="@string/tv__screen_dialog_custom_server_providers_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/submit" app:layout_constraintTop_toBottomOf="@id/address_input" style="@style/TV.HighLevel.Dialog.NextButton.Outline" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.adguard.mobile.multikit.common.ui.view.AnimationView android:id="@id/preloader" app:kit_anim_view__start_infinitely_on_create="true" app:srcCompat="@drawable/ic_circles" style="@style/LayoutWrapContent.Center" />
+    </FrameLayout>
+</ScrollView>

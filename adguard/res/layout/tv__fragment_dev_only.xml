@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:text="@string/tv__screen_dev_only_title" style="@style/TV.HighLevel.ScreenTitle" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/developer_name" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_dev_developer_name" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/custom_telemetry_url" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_dev_custom_telemetry_url" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/crash_app" app:kit_end_image__icon="@drawable/ic_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_dev_crash_app" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.tv.TvConstructITS android:id="@id/show_settings" app:kit_middle_text_block__title_text="@string/tv__screen_dev_show_toast" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/application_id" app:kit_middle_text_block__title_text="@string/screen_dev_only_application_id" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+</LinearLayout>

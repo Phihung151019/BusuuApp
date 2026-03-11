@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullWidth.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructLEIM android:id="@id/input" android:hint="@string/filters_dialog_new_hint" app:kit_edit__text_max_length="100" app:kit_label__text="@string/filters_dialog_new_label" style="@style/LayoutFullWidth" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructCTI android:id="@id/checkbox" app:kit_middle_text_block__summary_text="@string/filters_dialog_trusted_switch_summary" app:kit_middle_text_block__title_text="@string/filters_dialog_trusted_switch_title" app:kit_start_compound_button__talkback="@string/filters_dialog_trusted_switch_summary" style="@style/LayoutFullWidth.MarginTop_16dp" />
+</LinearLayout>

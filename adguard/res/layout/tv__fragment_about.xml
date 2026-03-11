@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/LayoutFullParent.Vertical">
+        <TextView android:id="@id/title" android:text="@string/tv__screen_about_title" style="@style/TV.HighLevel.ScreenTitle" />
+        <TextView android:id="@id/summary" style="@style/TV.HighLevel.ScreenSummary" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/privacy_policy" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_about_privacy_policy_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_40dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/license_agreement" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_about_license_agreement_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/acknowledgements" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_about_acknowledgments_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/version_history" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_about_version_history_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp" />
+        <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/official_website" app:kit_end_image__icon="@drawable/tv__selector_arrow_right" app:kit_middle_text_block__title_text="@string/tv__screen_about_website_title" style="@style/LayoutFullWidth.MarginStart_32dp.MarginEnd_64dp.MarginTop_8dp.MarginBottom_32dp" />
+    </LinearLayout>
+</ScrollView>

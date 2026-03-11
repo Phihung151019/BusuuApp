@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/loading_container" layout="@layout/tv__sublayout_dialog_updates_loading_container" />
+    <include android:id="@id/intermediate_container" layout="@layout/tv__sublayout_dialog_updates_intermediate_container" />
+    <include android:id="@id/finish_container" layout="@layout/tv__sublayout_dialog_updates_finish_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/parent" android:background="?youtube_player_background" style="@style/LayoutFullParent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar_black" />
+    <LinearLayout android:orientation="vertical" android:id="@id/player_ui_container" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LayoutFullParent">
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView android:id="@id/player_view" style="@style/LayoutFullParent" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/full_screen_view_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/error_icon" android:visibility="gone" android:src="@drawable/ic_youtube_open_video_error" app:layout_constraintBottom_toTopOf="@id/error_summary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/Icon64dp" />
+    <TextView android:id="@id/error_summary" android:visibility="gone" android:text="@string/youtube_fail_open_url_summary" app:layout_constraintBottom_toTopOf="@id/error_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/error_icon" style="@style/HighLevel.ScreenSummary.ColorWhite.MarginTop_4dp" />
+    <TextView android:id="@id/error_button" android:visibility="gone" android:text="@string/youtube_fail_open_url_button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/error_summary" style="@style/HighLevel.ScreenSummary.ColorPrimary.MarginTop_4dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

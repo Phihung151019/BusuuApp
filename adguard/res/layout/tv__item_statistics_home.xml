@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/item_statistic_home" android:alpha="0.0" app:cardBackgroundColor="?tv__statistics_view_card_background_color" app:cardCornerRadius="?tv__statistics_view_card_corner_radius" app:cardElevation="?tv__statistics_view_card_elevation" style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="?tv__statistics_view_card_background_color" style="@style/LayoutFullWidth.Vertical">
+        <ImageView android:id="@id/image_statistic_home" android:src="@drawable/ic_saved_data" style="@style/LayoutWrapContent.MarginStartTop_16dp.MarginBottom_12dp" />
+        <TextView android:ellipsize="end" android:id="@id/count_statistic" android:maxLines="1" style="@style/Text.H5.MarginHorizontal_16dp.MarginBottom_8dp" />
+        <TextView android:ellipsize="end" android:id="@id/statistic_name" android:text="@string/home_statistics_data_saved" android:maxLines="1" style="@style/Text.T2.ColorDescription.MarginHorizontal_16dp.MarginBottom_16dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

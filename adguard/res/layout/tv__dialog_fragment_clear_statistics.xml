@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LayoutFullParent.Vertical.NoClip.Padding_64dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:text="@string/tv__dialog_clear_statistics_title" style="@style/TV.HighLevel.DialogScreenTitle" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/clear" app:kit_middle_text_block__summary_text="@string/tv__dialog_clear_statistics_clear_summary" app:kit_middle_text_block__title_text="@string/tv__dialog_clear_statistics_clear_title" style="@style/TV.HighLevel.Dialog.FirstConstruct" />
+    <com.adguard.mobile.multikit.common.ui.view.construct.ConstructITI android:id="@id/cancel" app:kit_middle_text_block__title_text="@string/tv__dialog_clear_statistics_cancel_title" style="@style/TV.HighLevel.Dialog.NextConstruct" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adguard.mobile.multikit.common.ui.view.tv.TransparentFocusRequestView android:id="@id/tab" android:focusable="true" style="@style/LayoutWrapContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" style="@style/LayoutWrapContent.Center_Vertical" />
+    <TextView android:id="@id/title" android:includeFontPadding="false" style="@style/Text.T2_Semibold.WidthWrap.Center_Vertical" />
+</com.adguard.mobile.multikit.common.ui.view.tv.TransparentFocusRequestView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" style="@style/LayoutFullWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/start_title" app:layout_constraintEnd_toStartOf="@id/middle_title" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.H4.NoWidth.Center.MarginHorizontal_8dp" />
+    <TextView android:id="@id/start_summary" app:layout_constraintEnd_toEndOf="@id/start_title" app:layout_constraintStart_toStartOf="@id/start_title" app:layout_constraintTop_toBottomOf="@id/start_title" style="@style/Text.T2.ColorDescription.WidthWrap" />
+    <TextView android:id="@id/middle_title" app:layout_constraintEnd_toStartOf="@id/end_title" app:layout_constraintStart_toEndOf="@id/start_title" app:layout_constraintTop_toTopOf="parent" style="@style/Text.H4.NoWidth.Center.MarginHorizontal_8dp" />
+    <TextView android:id="@id/middle_summary" app:layout_constraintEnd_toEndOf="@id/middle_title" app:layout_constraintStart_toStartOf="@id/middle_title" app:layout_constraintTop_toBottomOf="@id/middle_title" style="@style/Text.T2.ColorDescription.WidthWrap" />
+    <TextView android:id="@id/end_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/middle_title" app:layout_constraintTop_toTopOf="parent" style="@style/Text.H4.NoWidth.Center.MarginStart_8dp" />
+    <TextView android:id="@id/end_summary" app:layout_constraintEnd_toEndOf="@id/end_title" app:layout_constraintStart_toStartOf="@id/end_title" app:layout_constraintTop_toBottomOf="@id/end_title" style="@style/Text.T2.ColorDescription.WidthWrap" />
+    <View android:id="@id/bottom_selection_indicator" android:background="@drawable/background_bottom_selection_indicator" android:layout_width="@dimen/dp_0" android:layout_height="@dimen/dp_2" android:layout_marginTop="@dimen/dp_8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/start_summary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

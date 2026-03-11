@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dp" android:width="48.0dp" android:viewportWidth="25.0" android:viewportHeight="25.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="rotationGroup" android:pivotX="12.5" android:pivotY="12.5">
+        <path android:fillColor="@color/transparent" android:pathData="M6.791,5.543C6.905,5.449 7.021,5.358 7.139,5.27" android:strokeColor="@color/white_100" android:strokeWidth="1.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:fillColor="@color/transparent" android:pathData="M9.055,4.183C9.32,4.073 9.591,3.976 9.868,3.891C10.01,3.848 10.154,3.808 10.299,3.771" android:strokeColor="@color/white_100" android:strokeWidth="1.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:fillColor="@color/transparent" android:pathData="M12.5,3.5C17.471,3.5 21.5,7.529 21.5,12.5C21.5,17.471 17.471,21.5 12.5,21.5C10.015,21.5 7.765,20.493 6.136,18.864C5.307,18.035 4.639,17.045 4.183,15.945" android:strokeColor="@color/white_100" android:strokeWidth="1.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+</vector>

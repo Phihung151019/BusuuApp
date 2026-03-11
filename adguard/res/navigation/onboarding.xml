@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_onboarding" app:startDestination="@id/onboarding_fragment_welcome"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.onboarding.OnboardingWelcomeFragment" android:id="@id/onboarding_fragment_welcome">
+        <action android:id="@id/action_onboarding_welcome_to_https" app:destination="@id/onboarding_fragment_https" />
+        <action android:id="@id/action_onboarding_welcome_to_vpn" app:destination="@id/onboarding_fragment_vpn" />
+        <action android:id="@id/action_onboarding_welcome_to_search_ads" app:destination="@id/onboarding_fragment_search_ads" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.onboarding.OnboardingHttpsFragment" android:id="@id/onboarding_fragment_https">
+        <action android:id="@id/action_onboarding_https_to_search_ads" app:destination="@id/onboarding_fragment_search_ads" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.onboarding.OnboardingVpnFragment" android:id="@id/onboarding_fragment_vpn">
+        <action android:id="@id/action_onboarding_vpn_to_https" app:destination="@id/onboarding_fragment_https" />
+        <action android:id="@id/action_onboarding_vpn_to_search_ads" app:destination="@id/onboarding_fragment_search_ads" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.onboarding.OnboardingAnnoyancesFragment" android:id="@id/onboarding_fragment_annoyances">
+        <action android:id="@id/action_onboarding_annoyances_to_youtube" app:destination="@id/onboarding_fragment_youtube" />
+        <action android:id="@id/action_onboarding_annoyances_to_privacy" app:destination="@id/onboarding_fragment_privacy" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.onboarding.OnboardingPrivacyFragment" android:id="@id/onboarding_fragment_privacy">
+        <action android:id="@id/action_onboarding_privacy_to_security" app:destination="@id/onboarding_fragment_security" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.onboarding.OnboardingSearchAdsFragment" android:id="@id/onboarding_fragment_search_ads">
+        <action android:id="@id/action_onboarding_search_ads_to_social" app:destination="@id/onboarding_fragment_social" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.onboarding.OnboardingSecurityFragment" android:id="@id/onboarding_fragment_security" />
+    <fragment android:name="com.adguard.android.ui.fragment.onboarding.OnboardingSocialFragment" android:id="@id/onboarding_fragment_social">
+        <action android:id="@id/action_onboarding_social_to_annoyances" app:destination="@id/onboarding_fragment_annoyances" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.onboarding.OnboardingYoutubeFragment" android:id="@id/onboarding_fragment_youtube">
+        <action android:id="@id/action_onboarding_youtube_to_privacy" app:destination="@id/onboarding_fragment_privacy" />
+    </fragment>
+</navigation>

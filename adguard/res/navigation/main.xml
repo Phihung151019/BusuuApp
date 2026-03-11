@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_main" app:startDestination="@id/fragment_home"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.adguard.android.ui.fragment.HomeFragment" android:id="@id/fragment_home">
+        <action android:id="@id/action_home_to_updates" app:destination="@id/fragment_updates" />
+        <action android:id="@id/action_home_to_statistics" app:destination="@id/fragment_statistics" />
+        <action android:id="@id/action_home_to_developer_tools" app:destination="@id/fragment_developer_tools" />
+        <action android:id="@id/action_home_to_xiaomi_background_permission" app:destination="@id/fragment_xiaomi_background_permission" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.UpdatesFragment" android:id="@id/fragment_updates">
+        <action android:id="@id/action_updates_to_permissions_for_auto_update" app:destination="@id/fragment_permissions_for_auto_update" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.ProtectionFragment" android:id="@id/fragment_protection">
+        <action android:id="@id/action_protection_to_tracking_protection" app:destination="@id/fragment_tracking_protection" />
+        <action android:id="@id/action_protection_to_annoyances_blocking" app:destination="@id/fragment_annoyances_blocking" />
+        <action android:id="@id/action_protection_to_main_dns" app:destination="@id/fragment_dns_module" />
+        <action android:id="@id/action_protection_to_firewall" app:destination="@id/fragment_firewall" />
+        <action android:id="@id/action_protection_to_browsing_security" app:destination="@id/fragment_browsing_security" />
+        <action android:id="@id/action_protection_to_ad_blocking" app:destination="@id/fragment_ad_blocking" />
+        <action android:id="@id/action_protection_to_adguard_vpn_integration" app:destination="@id/fragment_adguard_vpn_integration" />
+        <action android:id="@id/action_protection_to_about_youtube_player" app:destination="@id/fragment_about_youtube_player" />
+        <action android:id="@id/action_protection_to_private_browser_settings" app:destination="@id/fragment_private_browser_settings" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.AboutYoutubePlayerFragment" android:id="@id/fragment_about_youtube_player" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.private_browser.PrivateBrowserSettingsFragment" android:id="@id/fragment_private_browser_settings">
+        <action android:id="@id/action_private_browser_settings_to_default_search_engine" app:destination="@id/fragment_default_search_engine" />
+        <action android:id="@id/action_private_browser_settings_to_create_browser_widget" app:destination="@id/fragment_create_browser_widget" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.private_browser.DefaultSearchEngineFragment" android:id="@id/fragment_default_search_engine" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.private_browser.CreateBrowserWidgetFragment" android:id="@id/fragment_create_browser_widget" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.dns.DnsModuleFragment" android:id="@id/fragment_dns_module">
+        <action android:id="@id/action_dns_module_to_dns_servers" app:destination="@id/fragment_dns_servers" />
+        <action android:id="@id/action_dns_module_to_dns_filters" app:destination="@id/fragment_dns_filters" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.TrackingProtectionFragment" android:id="@id/fragment_tracking_protection">
+        <action android:id="@id/action_tracking_protection_to_self_destruct_third_party_cookies" app:destination="@id/fragment_tracking_protection_self_destruct_third_party_cookies" />
+        <action android:id="@id/action_tracking_protection_to_self_destruct_of_first_party_cookies" app:destination="@id/fragment_tracking_protection_self_destruct_of_first_party_cookies" />
+        <action android:id="@id/action_tracking_protection_to_hide_referer_from_third_parties" app:destination="@id/fragment_tracking_protection_hide_referer_from_third_parties" />
+        <action android:id="@id/action_tracking_protection_to_hide_user_agent" app:destination="@id/fragment_tracking_protection_hide_user_agent" />
+        <action android:id="@id/action_tracking_protection_to_mask_ip_address" app:destination="@id/fragment_tracking_protection_mask_ip_address" />
+        <action android:id="@id/action_tracking_protection_to_protect_against_dpi" app:destination="@id/fragment_tracking_protection_protect_against_dpi" />
+        <action android:id="@id/action_tracking_protection_to_filters_list" app:destination="@id/fragment_filters" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.tracking_protection.TrackingProtectionSelfDestructThirdPartyCookiesFragment" android:id="@id/fragment_tracking_protection_self_destruct_third_party_cookies" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.tracking_protection.TrackingProtectionSelfDestructOfFirstPartyCookiesFragment" android:id="@id/fragment_tracking_protection_self_destruct_of_first_party_cookies" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.tracking_protection.TrackingProtectionHideRefererFromThirdPartiesFragment" android:id="@id/fragment_tracking_protection_hide_referer_from_third_parties" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.tracking_protection.TrackingProtectionHideUserAgentFragment" android:id="@id/fragment_tracking_protection_hide_user_agent" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.tracking_protection.TrackingProtectionMaskIpAddressFragment" android:id="@id/fragment_tracking_protection_mask_ip_address" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.tracking_protection.TrackingProtectionProtectAgainstDpiFragment" android:id="@id/fragment_tracking_protection_protect_against_dpi">
+        <action android:id="@id/action_protect_against_dpi_to_client_hello" app:destination="@id/fragment_tracking_protection_client_hello" />
+        <action android:id="@id/action_protect_against_dpi_to_http_request" app:destination="@id/fragment_tracking_protection_http_request" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.tracking_protection.TrackingProtectionClientHelloFragment" android:id="@id/fragment_tracking_protection_client_hello" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.tracking_protection.TrackingProtectionHTTPRequestFragment" android:id="@id/fragment_tracking_protection_http_request" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.AnnoyancesBlockingFragment" android:id="@id/fragment_annoyances_blocking">
+        <action android:id="@id/action_annoyances_blocking_to_filters_list" app:destination="@id/fragment_filters" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.dns.DnsServersListFragment" android:id="@id/fragment_dns_servers">
+        <action android:id="@id/action_dns_servers_to_dns_provider_details" app:destination="@id/fragment_dns_provider_details" />
+        <action android:id="@id/action_dns_servers_to_custom_dns_server_details" app:destination="@id/fragment_custom_dns_server_details" />
+        <action android:id="@id/action_dns_servers_to_automatic_dns" app:destination="@id/fragment_automatic_dns" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.dns.AutomaticDnsFragment" android:id="@id/fragment_automatic_dns" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.firewall.FirewallFragment" android:id="@id/fragment_firewall">
+        <action android:id="@id/action_firewall_to_firewall_global_rules" app:destination="@id/fragment_firewall_global_rules" />
+        <action android:id="@id/action_firewall_to_firewall_app_rules" app:destination="@id/fragment_firewall_app_rules" />
+        <action android:id="@id/action_firewall_to_firewall_quick_actions" app:destination="@id/fragment_firewall_quick_actions" />
+        <action android:id="@id/action_firewall_to_firewall_notifications" app:destination="@id/fragment_firewall_notifications" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.firewall.FirewallGlobalRulesFragment" android:id="@id/fragment_firewall_global_rules">
+        <action android:id="@id/action_firewall_global_rules_to_firewall_notifications" app:destination="@id/fragment_firewall_notifications" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.firewall.FirewallNotificationsSettingsFragment" android:id="@id/fragment_firewall_notifications" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.firewall.AppRulesFragment" android:id="@id/fragment_firewall_app_rules">
+        <action android:id="@id/action_firewall_app_rules_to_firewall_rule_details" app:destination="@id/fragment_firewall_rule_details" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.firewall.FirewallRuleDetailsFragment" android:id="@id/fragment_firewall_rule_details">
+        <action android:id="@id/action_firewall_rule_details_to_apps_management_app_details" app:destination="@id/fragment_apps_management_app_details" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.statistics.StatisticsFragment" android:id="@id/fragment_statistics">
+        <action android:id="@id/action_statistics_to_statistics_recent_activity" app:destination="@id/fragment_statistics_recent_activity" />
+        <action android:id="@id/action_statistics_to_statistics_all_applications" app:destination="@id/fragment_statistics_all_applications" />
+        <action android:id="@id/action_statistics_to_battery_usage" app:destination="@id/fragment_battery_usage" />
+        <action android:id="@id/action_fragment_statistics_to_application_statistics_fragment" app:destination="@id/fragment_application_statistics" />
+        <action android:id="@id/action_fragment_statistics_to_all_companies_fragment" app:destination="@id/fragment_statistics_all_companies" />
+        <action android:id="@id/action_fragment_statistics_to_fragment_company_statistics" app:destination="@id/fragment_company_statistics" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.statistics.RecentActivityFragment" android:id="@id/fragment_statistics_recent_activity">
+        <action android:id="@id/action_statistic_recent_activity_to_request_details" app:destination="@id/fragment_request_details" />
+        <action android:id="@id/action_statistic_recent_activity_to_filter_requests" app:destination="@id/fragment_statistics_filter_requests" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.statistics.FilterRequestsFragment" android:id="@id/fragment_statistics_filter_requests" />
+    <fragment android:name="com.adguard.android.ui.fragment.statistics.AllApplicationsStatisticsFragment" android:id="@id/fragment_statistics_all_applications">
+        <action android:id="@id/action_fragment_statistics_all_applications_to_application_statistics_fragment" app:destination="@id/fragment_application_statistics" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.statistics.AllCompaniesStatisticsFragment" android:id="@id/fragment_statistics_all_companies">
+        <action android:id="@id/action_fragment_statisitcs_all_companies_to_fragment_company_statistics" app:destination="@id/fragment_company_statistics" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.statistics.CompanyStatisticsFragment" android:id="@id/fragment_company_statistics">
+        <action android:id="@id/action_fragment_company_statistics_to_statistics_recent_activity" app:destination="@id/fragment_statistics_recent_activity" />
+        <action android:id="@id/action_fragment_company_statistics_to_fragment_application_statistics" app:destination="@id/fragment_application_statistics" />
+        <action android:id="@id/action_fragment_company_statistics_to_fragment_all_domains_statistics" app:destination="@id/fragment_all_domains_statistics" />
+        <action android:id="@id/action_fragment_company_statistics_to_fragment_all_applications_statistics" app:destination="@id/fragment_statistics_all_applications" />
+        <action android:id="@id/action_fragment_company_statistics_to_fragment_domain_statistics" app:destination="@id/fragment_domain_statistics" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.BrowsingSecurityFragment" android:id="@id/fragment_browsing_security" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.PreferencesFragment" android:id="@id/fragment_preferences">
+        <action android:id="@id/action_preferences_to_general_settings" app:destination="@id/fragment_general_settings" />
+        <action android:id="@id/action_preferences_to_support" app:destination="@id/fragment_support" />
+        <action android:id="@id/action_preferences_to_filtering_settings" app:destination="@id/fragment_filtering_settings" />
+        <action android:id="@id/action_preferences_to_about_app" app:destination="@id/fragment_about_app" />
+        <action android:id="@id/action_preferences_to_license" app:destination="@id/fragment_license" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.AboutAppFragment" android:id="@id/fragment_about_app">
+        <action android:id="@id/action_about_app_to_dev_only" app:destination="@id/fragment_dev_only" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.DevOnlyFragment" android:id="@id/fragment_dev_only" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.DeveloperToolsFragment" android:id="@id/fragment_developer_tools" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.FilteringSettingsFragment" android:id="@id/fragment_filtering_settings">
+        <action android:id="@id/action_filtering_settings_to_network_settings" app:destination="@id/fragment_network_settings" />
+        <action android:id="@id/action_filtering_settings_to_filters" app:destination="@id/fragment_filters" />
+        <action android:id="@id/action_filtering_settings_to_extensions" app:destination="@id/fragment_extensions" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.AdGuardVPNIntegrationFragment" android:id="@id/fragment_adguard_vpn_integration" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.AppsManagementFragment" android:id="@id/fragment_apps_management">
+        <action android:id="@id/action_apps_management_to_apps_management_app_details" app:destination="@id/fragment_apps_management_app_details" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.AppDetailsFragment" android:id="@id/fragment_apps_management_app_details" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.https.HttpsFilteringFragment" android:id="@id/fragment_https_filtering">
+        <action android:id="@id/action_https_filtering_to_https_ca" app:destination="@id/fragment_https_ca" />
+        <action android:id="@id/action_https_filtering_to_https_filtered_apps" app:destination="@id/fragment_https_filtered_apps" />
+        <action android:id="@id/action_https_filtering_to_https_filtered_websites" app:destination="@id/fragment_https_filtered_websites" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.https.HttpsFilteredAppsFragment" android:id="@id/fragment_https_filtered_apps">
+        <action android:id="@id/action_https_filtered_apps_to_app_management" app:destination="@id/fragment_apps_management" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.https.HttpsFilteredWebsitesFragment" android:id="@id/fragment_https_filtered_websites">
+        <action android:id="@id/action_https_filtered_websites_to_https_exclusions" app:destination="@id/fragment_https_exlusions" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.https.HttpsExclusionsFragment" android:id="@id/fragment_https_exlusions" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.https.SecurityCertificateFragment" android:id="@id/fragment_https_ca" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.NetworkSettingsFragment" android:id="@id/fragment_network_settings">
+        <action android:id="@id/action_network_settings_to_https_filtering" app:destination="@id/fragment_https_filtering" />
+        <action android:id="@id/action_network_settings_to_proxy" app:destination="@id/fragment_proxy" />
+        <action android:id="@id/action_network_settings_to_routing_mode" app:destination="@id/fragment_routing_mode" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.SupportFragment" android:id="@id/fragment_support">
+        <action android:id="@id/action_support_to_bug_report" app:destination="@id/fragment_bug_report" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.AboutLicenseFragment" android:id="@id/fragment_license" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.FeedbackFragment" android:id="@id/fragment_bug_report" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.dns.DnsProviderDetailsFragment" android:id="@id/fragment_dns_provider_details" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.dns.DnsCustomServerDetailsFragment" android:id="@id/fragment_custom_dns_server_details" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.dns.DnsFiltersFragment" android:id="@id/fragment_dns_filters">
+        <action android:id="@id/action_dns_filter_to_dns_filter_details" app:destination="@id/fragment_dns_filter_details" />
+        <action android:id="@id/action_dns_filter_to_user_rules" app:destination="@id/fragment_user_rules" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.dns.DnsFilterDetailsFragment" android:id="@id/fragment_dns_filter_details" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.filters.FiltersFragment" android:id="@id/fragment_filters">
+        <action android:id="@id/action_filters_to_filters_group" app:destination="@id/fragment_filters_group" />
+        <action android:id="@id/action_filters_to_filter_details" app:destination="@id/fragment_filter_details" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.filters.FiltersGroupFragment" android:id="@id/fragment_filters_group">
+        <action android:id="@id/action_filters_group_to_filter_details" app:destination="@id/fragment_filter_details" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.filters.FilterDetailsFragment" android:id="@id/fragment_filter_details" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.AppLanguageFragment" android:id="@id/fragment_app_language" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.GeneralSettingsFragment" android:id="@id/fragment_general_settings">
+        <action android:id="@id/action_general_settings_to_configure_updates" app:destination="@id/fragment_configure_updates" />
+        <action android:id="@id/action_general_settings_to_advanced_preferences" app:destination="@id/fragment_advanced_preferences" />
+        <action android:id="@id/action_general_settings_to_app_language" app:destination="@id/fragment_app_language" />
+        <action android:id="@id/action_general_settings_to_auto_report_crashes" app:destination="@id/fragment_auto_report_crashes" />
+        <action android:id="@id/action_general_settings_to_technical_and_interaction_data" app:destination="@id/fragment_send_technical_data" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.ExtensionsFragment" android:id="@id/fragment_extensions">
+        <action android:id="@id/action_extensions_to_extension_details" app:destination="@id/fragment_extension_details" />
+        <action android:id="@id/action_extensions_to_extension_editor" app:destination="@id/fragment_extension_editor" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.ExtensionDetailsFragment" android:id="@id/fragment_extension_details">
+        <action android:id="@id/action_extension_details_to_extension_editor" app:destination="@id/fragment_extension_editor" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.ExtensionEditorFragment" android:id="@id/fragment_extension_editor" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.AdvancedPreferencesFragment" android:id="@id/fragment_advanced_preferences">
+        <action android:id="@id/action_advanced_preferences_to_automation" app:destination="@id/fragment_automation" />
+        <action android:id="@id/action_advanced_preferences_to_watchdog" app:destination="@id/fragment_watchdog" />
+        <action android:id="@id/action_advanced_preferences_to_send_technical_data" app:destination="@id/fragment_send_technical_data" />
+        <action android:id="@id/action_advanced_preferences_to_low_level_preferences" app:destination="@id/fragment_low_level_preferences" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.low_level.LowLevelPreferencesFragment" android:id="@id/fragment_low_level_preferences">
+        <action android:id="@id/action_fragment_low_level_to_keep_alive" app:destination="@id/fragment_low_level_keep_alive" />
+        <action android:id="@id/action_fragment_low_level_fallback_upstreams_details" app:destination="@id/fragment_low_level_fallback_upstreams_details" />
+        <action android:id="@id/action_low_level_preferences_to_bootstrap_upstreams_details" app:destination="@id/fragment_low_level_bootstrap_upstreams_details" />
+        <action android:id="@id/action_fragment_low_level_blocking_mode" app:destination="@id/fragment_low_level_blocking_mode" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.low_level.LowLevelPreferencesKeepAliveFragment" android:id="@id/fragment_low_level_keep_alive" />
+    <fragment android:name="com.adguard.android.ui.fragment.low_level.LowLevelPreferencesFallbackUpstreamsDetailsFragment" android:id="@id/fragment_low_level_fallback_upstreams_details" />
+    <fragment android:name="com.adguard.android.ui.fragment.low_level.LowLevelPreferencesBootstrapUpstreamsDetailsFragment" android:id="@id/fragment_low_level_bootstrap_upstreams_details" />
+    <fragment android:name="com.adguard.android.ui.fragment.low_level.LowLevelPreferencesBlockingModeDetailsFragment" android:id="@id/fragment_low_level_blocking_mode" />
+    <fragment android:name="com.adguard.android.ui.fragment.low_level.LowLevelPreferencesFilterSecureDnsDetailsFragment" android:id="@id/fragment_low_level_secure_filter_dns" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.AutomationFragment" android:id="@id/fragment_automation" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.WatchdogFragment" android:id="@id/fragment_watchdog" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.SendTechnicalAndInteractionDataFragment" android:id="@id/fragment_send_technical_data" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.AutoReportCrashesFragment" android:id="@id/fragment_auto_report_crashes" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.UserRulesFragment" android:id="@id/fragment_user_rules">
+        <action android:id="@id/action_user_rules_to_user_rules_editor" app:destination="@id/fragment_user_rules_editor" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.UserRulesEditorFragment" android:id="@id/fragment_user_rules_editor" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.proxy.ProxyFragment" android:id="@id/fragment_proxy">
+        <action android:id="@id/action_proxy_to_proxy_server" app:destination="@id/fragment_proxy_server" />
+        <action android:id="@id/action_proxy_to_edit_proxy_server" app:destination="@id/fragment_edit_proxy_server" />
+        <action android:id="@id/action_proxy_to_apps_operating_through_proxy" app:destination="@id/fragment_apps_operating_through_proxy" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.proxy.ProxyServerFragment" android:id="@id/fragment_proxy_server">
+        <action android:id="@id/action_proxy_server_to_edit_proxy_server" app:destination="@id/fragment_edit_proxy_server" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.proxy.ProxyServerAddOrEditFragment" android:id="@id/fragment_edit_proxy_server" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.RoutingModeFragment" android:id="@id/fragment_routing_mode" />
+    <fragment android:name="com.adguard.android.ui.fragment.BatteryUsageFragment" android:id="@id/fragment_battery_usage" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.adblocking.AdBlockingFragment" android:id="@id/fragment_ad_blocking">
+        <action android:id="@id/action_ad_blocking_to_user_rules" app:destination="@id/fragment_user_rules" />
+        <action android:id="@id/action_ad_blocking_to_allow_list" app:destination="@id/fragment_allow_list" />
+        <action android:id="@id/action_ad_blocking_to_regional_lists" app:destination="@id/fragment_regional_lists" />
+        <action android:id="@id/action_ad_blocking_to_filters_list" app:destination="@id/fragment_filters" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.protection.adblocking.AllowListFragment" android:id="@id/fragment_allow_list" />
+    <fragment android:name="com.adguard.android.ui.fragment.protection.adblocking.RegionalListsFragment" android:id="@id/fragment_regional_lists">
+        <action android:id="@id/action_regional_lists_to_filter_details" app:destination="@id/fragment_filter_details" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.statistics.RequestDetailsFragment" android:id="@id/fragment_request_details">
+        <action android:id="@id/action_fragemnt_request_details_to_add_filter_rule" app:destination="@id/fragment_add_filter_rule" />
+        <action android:id="@id/action_fragemnt_request_details_to_apps_management_app_details" app:destination="@id/fragment_apps_management_app_details" />
+    </fragment>
+    <fragment android:name="com.adguard.android.ui.fragment.statistics.AddFilterRuleFragment" android:id="@id/fragment_add_filter_rule" />
+    <fragment android:name="com.adguard.android.ui.fragment.preferences.network.proxy.AppsOperatingThroughOutboundProxyFragment" android:id="@id/fragment_apps_operating_through_proxy">
+        <action android:id="@id/action_apps_operating_through_proxy_to_apps_management_app_details" app:destination="@id/fragment_apps_management_app_details" />
+    </fragment>
+    <fragment android:label="QuickActionsFragment" android:name="com.adguard.android.ui.fragment.protection.firewall.QuickActionsFragment" android:id="@id/fragment_firewall_quick_actions" />
+    <fragment android:label="ConfigureUpdatesFragment" android:name="com.adguard.android.ui.fragment.preferences.ConfigureUpdatesFragment" android:id="@id/fragment_configure_updates">
+        <action android:id="@id/action_configure_updates_to_permissions_for_auto_update" app:destination="@id/fragment_permissions_for_auto_update" />
+    </fragment>
+    <fragment android:label="ApplicationStatisticsFragment" android:name="com.adguard.android.ui.fragment.statistics.ApplicationStatisticsFragment" android:id="@id/fragment_application_statistics">
+        <action android:id="@id/action_application_statistics_to_statistics_recent_activity" app:destination="@id/fragment_statistics_recent_activity" />
+        <action android:id="@id/action_application_statistics_to_fragment_company_statistics" app:destination="@id/fragment_company_statistics" />
+        <action android:id="@id/action_application_statistics_to_fragment_all_companies_statistics" app:destination="@id/fragment_statistics_all_companies" />
+    </fragment>
+    <fragment android:label="AllDomainsStatisticsFragment" android:name="com.adguard.android.ui.fragment.statistics.AllDomainsStatisticsFragment" android:id="@id/fragment_all_domains_statistics">
+        <action android:id="@id/fragment_all_domains_statistics_to_fragment_domain_statistics" app:destination="@id/fragment_domain_statistics" />
+    </fragment>
+    <fragment android:label="AllSubdomainsStatisticsFragment" android:name="com.adguard.android.ui.fragment.statistics.AllSubdomainsStatisticsFragment" android:id="@id/fragment_all_subdomains_statistics">
+        <action android:id="@id/fragment_all_subdomains_statistics_to_fragment_subdomain_statistics" app:destination="@id/fragment_subdomain_statistics" />
+    </fragment>
+    <fragment android:label="DomainStatisticsFragment" android:name="com.adguard.android.ui.fragment.statistics.DomainStatisticsFragment" android:id="@id/fragment_domain_statistics">
+        <action android:id="@id/fragment_domain_statistics_to_fragment_all_subdomains_statistics" app:destination="@id/fragment_all_subdomains_statistics" />
+        <action android:id="@id/fragment_domain_statistics_to_fragment_all_applications_statistics" app:destination="@id/fragment_statistics_all_applications" />
+        <action android:id="@id/fragment_domain_statistics_to_fragment_statistics_recent_activity" app:destination="@id/fragment_statistics_recent_activity" />
+        <action android:id="@id/fragment_domain_statistics_to_fragment_application_statistics" app:destination="@id/fragment_application_statistics" />
+        <action android:id="@id/fragment_domain_statistics_to_fragment_subdomain_statistics" app:destination="@id/fragment_subdomain_statistics" />
+    </fragment>
+    <fragment android:label="SubdomainStatisticsFragment" android:name="com.adguard.android.ui.fragment.statistics.SubdomainStatisticsFragment" android:id="@id/fragment_subdomain_statistics">
+        <action android:id="@id/fragment_subdomain_statistics_to_fragment_all_applications_statistics" app:destination="@id/fragment_statistics_all_applications" />
+        <action android:id="@id/fragment_subdomain_statistics_to_fragment_statistics_recent_activity" app:destination="@id/fragment_statistics_recent_activity" />
+        <action android:id="@id/fragment_subdomain_statistics_to_fragment_application_statistics" app:destination="@id/fragment_application_statistics" />
+    </fragment>
+    <fragment android:label="ApplySettingsFragment" android:name="com.adguard.android.ui.fragment.ApplySettingsFragment" android:id="@id/fragment_apply_settings" />
+    <fragment android:label="PermissionsForAutoUpdateFragment" android:name="com.adguard.android.ui.fragment.updates.PermissionsForAutoUpdateFragment" android:id="@id/fragment_permissions_for_auto_update" />
+    <fragment android:label="XiaomiBackgroundPermissionFragment" android:name="com.adguard.android.ui.fragment.XiaomiBackgroundPermissionFragment" android:id="@id/fragment_xiaomi_background_permission" />
+    <fragment android:label="ImportSettingsByLinkFragment" android:name="com.adguard.android.ui.fragment.ImportSettingsByLinkFragment" android:id="@id/fragment_import_settings_by_link" />
+</navigation>

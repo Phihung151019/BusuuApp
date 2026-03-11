@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_license_trial_button">
+        <item quantity="other">%d일 무료 체험</item>
+    </plurals>
+    <plurals name="about_license_trial_summary">
+        <item quantity="other">AdGuard를 %d 일동안 무료로 사용해 보세요. 컴퓨터, 태블릿 또는 스마트폰에서 웹을 어떻게 개선하는지 확인하세요.</item>
+    </plurals>
+    <plurals name="ad_blocking_allow_list_summary">
+        <item quantity="other">사이트 %d개가 허용 목록에 추가됨</item>
+    </plurals>
+    <plurals name="apps_group_summary">
+        <item quantity="other">앱 %d개</item>
+    </plurals>
+    <plurals name="firewall_quick_actions_new_actions_counter">
+        <item quantity="other">새로운 액션 %s개 표시</item>
+    </plurals>
+    <plurals name="home_summary_protection_enabled_when_trial">
+        <item quantity="other">체험판은 %1$s일 후에 만료됩니다. &lt;font color=\"%2$s\">&lt;a href=%3$s>정식 버전 구매&lt;/a>&lt;/font></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">새 알림 %d개</item>
+        <item quantity="other">새 알림 %d개</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_firewall_rules_count">
+        <item quantity="other">규칙 %s개</item>
+    </plurals>
+    <plurals name="preferences_import_export_settings_dialog_category_userscripts_rules_count">
+        <item quantity="other">%s 확장 프로그램</item>
+    </plurals>
+    <plurals name="promo_neutral_button_try_trial">
+        <item quantity="other">%d일 무료 체험</item>
+    </plurals>
+    <plurals name="promo_notification_trial_available_one_day_title_with_arg">
+        <item quantity="other">%d일 동안 확장된 보호 기능 무료 사용</item>
+    </plurals>
+    <plurals name="slow_down_notification_button_disable">
+        <item quantity="other">다음 설정 비활성화</item>
+    </plurals>
+    <plurals name="tv__screen_sign_in_tab_get_free_trial_qr_summary">
+        <item quantity="other">스캔하여 계정을 생성하고 무료 %d일 체험판을 받으세요</item>
+    </plurals>
+</resources>
