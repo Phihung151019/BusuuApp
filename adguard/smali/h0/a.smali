@@ -608,15 +608,83 @@
 .end method
 
 .method public final d(Lg0/e;)Lh0/e$j;
-    .locals 1
+    .locals 2
 
-    # Lấy thực thể Singleton của lớp e$j$a
-    sget-object v0, Lh0/e$j$a;->a:Lh0/e$j$a;
+    invoke-virtual {p1}, Lg0/e;->i()Z
 
-    # Trả về đối tượng đó luôn, bỏ qua mọi logic kiểm tra từ server (p1)
-    return-object v0
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    sget-object p1, Lh0/e$j$a;->a:Lh0/e$j$a;
+
+    goto :goto_2
+
+    :cond_0
+    invoke-virtual {p1}, Lg0/e;->k()Lg0/f;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lg0/f;->b()Ljava/util/Date;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    :goto_0
+    if-eqz v0, :cond_2
+
+    new-instance v0, Lh0/e$j$d;
+
+    invoke-virtual {p1}, Lg0/e;->k()Lg0/f;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lg0/f;->b()Ljava/util/Date;
+
+    move-result-object p1
+
+    invoke-direct {v0, p1}, Lh0/e$j$d;-><init>(Ljava/util/Date;)V
+
+    :goto_1
+    move-object p1, v0
+
+    goto :goto_2
+
+    :cond_2
+    invoke-virtual {p1}, Lg0/e;->a()Ljava/util/Date;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_3
+
+    new-instance v0, Lh0/e$j$c;
+
+    invoke-virtual {p1}, Lg0/e;->a()Ljava/util/Date;
+
+    move-result-object p1
+
+    invoke-direct {v0, p1}, Lh0/e$j$c;-><init>(Ljava/util/Date;)V
+
+    goto :goto_1
+
+    :cond_3
+    sget-object p1, Lh0/e$j$b;->a:Lh0/e$j$b;
+
+    sget-object v0, Lh0/a;->g:LK2/d;
+
+    const-string v1, "We received a license without expiration. Let\'s call it \'Unknown\'"
+
+    invoke-virtual {v0, v1}, LK2/d;->q(Ljava/lang/String;)V
+
+    :goto_2
+    return-object p1
 .end method
-
 
 .method public final e(Ljava/lang/String;)Lh0/e;
     .locals 9

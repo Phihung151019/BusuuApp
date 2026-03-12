@@ -529,12 +529,118 @@
 
 .method public final C(Lh0/e;)Z
     .locals 1
-    
-    const/4 p1, 0x1
-    
-    return p1
-.end method
 
+    instance-of v0, p1, Lh0/e$r;
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    instance-of v0, p1, Lh0/e$i;
+
+    if-eqz v0, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    instance-of v0, p1, Lh0/e$d;
+
+    if-eqz v0, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    instance-of v0, p1, Lh0/e$g;
+
+    if-eqz v0, :cond_3
+
+    goto :goto_0
+
+    :cond_3
+    instance-of v0, p1, Lh0/e$b;
+
+    if-eqz v0, :cond_4
+
+    goto :goto_0
+
+    :cond_4
+    instance-of v0, p1, Lh0/e$c;
+
+    if-eqz v0, :cond_5
+
+    goto :goto_0
+
+    :cond_5
+    instance-of v0, p1, Lh0/e$a;
+
+    if-eqz v0, :cond_6
+
+    goto :goto_0
+
+    :cond_6
+    instance-of v0, p1, Lh0/e$h;
+
+    if-eqz v0, :cond_7
+
+    :goto_0
+    const/4 p1, 0x0
+
+    goto :goto_2
+
+    :cond_7
+    instance-of v0, p1, Lh0/e$q;
+
+    if-eqz v0, :cond_8
+
+    goto :goto_1
+
+    :cond_8
+    instance-of v0, p1, Lh0/e$f;
+
+    if-eqz v0, :cond_9
+
+    goto :goto_1
+
+    :cond_9
+    instance-of v0, p1, Lh0/e$e;
+
+    if-eqz v0, :cond_a
+
+    goto :goto_1
+
+    :cond_a
+    instance-of v0, p1, Lh0/e$l;
+
+    if-eqz v0, :cond_b
+
+    goto :goto_1
+
+    :cond_b
+    instance-of v0, p1, Lh0/e$m;
+
+    if-eqz v0, :cond_c
+
+    goto :goto_1
+
+    :cond_c
+    instance-of p1, p1, Lh0/e$n;
+
+    if-eqz p1, :cond_d
+
+    :goto_1
+    const/4 p1, 0x1
+
+    :goto_2
+    return p1
+
+    :cond_d
+    new-instance p1, LT5/m;
+
+    invoke-direct {p1}, LT5/m;-><init>()V
+
+    throw p1
+.end method
 
 .method public final g(Ljava/lang/String;)Lh0/d;
     .locals 2
@@ -622,21 +728,259 @@
 
 .method public final l()Z
     .locals 1
-    
-    const/4 v0, 0x1
-    
+
+    invoke-virtual {p0}, Lf0/a;->n()Lh0/e;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lf0/a;->C(Lh0/e;)Z
+
+    move-result v0
+
     return v0
 .end method
 
-
 .method public final m()Ljava/lang/String;
-    .locals 1
+    .locals 2
 
-    const-string v0, "PREMIUM_ACTIVATED_ID"
+    iget-object v0, p0, Lf0/a;->a:Lcom/adguard/android/storage/r;
 
+    invoke-virtual {v0}, Lcom/adguard/android/storage/r;->e()Lcom/adguard/android/storage/z$t;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/z$t;->a()Lh0/e;
+
+    move-result-object v0
+
+    instance-of v1, v0, Lh0/e$b;
+
+    if-eqz v1, :cond_0
+
+    iget-object v0, p0, Lf0/a;->a:Lcom/adguard/android/storage/r;
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/r;->e()Lcom/adguard/android/storage/z$t;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/z$t;->a()Lh0/e;
+
+    move-result-object v0
+
+    const-string v1, "null cannot be cast to non-null type com.adguard.android.management.plus.support.PlusState.BlockedLicense"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Lh0/e$b;
+
+    invoke-virtual {v0}, Lh0/e$b;->c()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto/16 :goto_1
+
+    :cond_0
+    instance-of v1, v0, Lh0/e$m;
+
+    if-eqz v1, :cond_1
+
+    iget-object v0, p0, Lf0/a;->a:Lcom/adguard/android/storage/r;
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/r;->e()Lcom/adguard/android/storage/z$t;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/z$t;->a()Lh0/e;
+
+    move-result-object v0
+
+    const-string v1, "null cannot be cast to non-null type com.adguard.android.management.plus.support.PlusState.PaidSubscription"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Lh0/e$m;
+
+    invoke-virtual {v0}, Lh0/e$m;->d()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto/16 :goto_1
+
+    :cond_1
+    instance-of v1, v0, Lh0/e$l;
+
+    if-eqz v1, :cond_2
+
+    iget-object v0, p0, Lf0/a;->a:Lcom/adguard/android/storage/r;
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/r;->e()Lcom/adguard/android/storage/z$t;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/z$t;->a()Lh0/e;
+
+    move-result-object v0
+
+    const-string v1, "null cannot be cast to non-null type com.adguard.android.management.plus.support.PlusState.PaidLicense"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Lh0/e$l;
+
+    invoke-virtual {v0}, Lh0/e$l;->c()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto/16 :goto_1
+
+    :cond_2
+    instance-of v1, v0, Lh0/e$e;
+
+    if-eqz v1, :cond_3
+
+    iget-object v0, p0, Lf0/a;->a:Lcom/adguard/android/storage/r;
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/r;->e()Lcom/adguard/android/storage/z$t;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/z$t;->a()Lh0/e;
+
+    move-result-object v0
+
+    const-string v1, "null cannot be cast to non-null type com.adguard.android.management.plus.support.PlusState.CachedPaid"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Lh0/e$e;
+
+    invoke-virtual {v0}, Lh0/e$e;->a()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_1
+
+    :cond_3
+    instance-of v1, v0, Lh0/e$n;
+
+    if-eqz v1, :cond_4
+
+    iget-object v0, p0, Lf0/a;->a:Lcom/adguard/android/storage/r;
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/r;->e()Lcom/adguard/android/storage/z$t;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/z$t;->a()Lh0/e;
+
+    move-result-object v0
+
+    const-string v1, "null cannot be cast to non-null type com.adguard.android.management.plus.support.PlusState.PastDueSubscription"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Lh0/e$n;
+
+    invoke-virtual {v0}, Lh0/e$n;->c()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_1
+
+    :cond_4
+    instance-of v1, v0, Lh0/e$g;
+
+    if-eqz v1, :cond_5
+
+    iget-object v0, p0, Lf0/a;->a:Lcom/adguard/android/storage/r;
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/r;->e()Lcom/adguard/android/storage/z$t;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/adguard/android/storage/z$t;->a()Lh0/e;
+
+    move-result-object v0
+
+    const-string v1, "null cannot be cast to non-null type com.adguard.android.management.plus.support.PlusState.ExpiredLicense"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Lh0/e$g;
+
+    invoke-virtual {v0}, Lh0/e$g;->c()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_1
+
+    :cond_5
+    instance-of v1, v0, Lh0/e$r;
+
+    if-eqz v1, :cond_6
+
+    goto :goto_0
+
+    :cond_6
+    instance-of v1, v0, Lh0/e$i;
+
+    if-eqz v1, :cond_7
+
+    goto :goto_0
+
+    :cond_7
+    instance-of v1, v0, Lh0/e$a;
+
+    if-eqz v1, :cond_8
+
+    goto :goto_0
+
+    :cond_8
+    instance-of v1, v0, Lh0/e$q;
+
+    if-eqz v1, :cond_9
+
+    goto :goto_0
+
+    :cond_9
+    instance-of v1, v0, Lh0/e$h;
+
+    if-eqz v1, :cond_a
+
+    goto :goto_0
+
+    :cond_a
+    instance-of v1, v0, Lh0/e$c;
+
+    if-eqz v1, :cond_b
+
+    goto :goto_0
+
+    :cond_b
+    instance-of v1, v0, Lh0/e$d;
+
+    if-eqz v1, :cond_c
+
+    goto :goto_0
+
+    :cond_c
+    instance-of v0, v0, Lh0/e$f;
+
+    if-eqz v0, :cond_d
+
+    :goto_0
+    const/4 v0, 0x0
+
+    :goto_1
     return-object v0
-.end method
 
+    :cond_d
+    new-instance v0, LT5/m;
+
+    invoke-direct {v0}, LT5/m;-><init>()V
+
+    throw v0
+.end method
 
 .method public final n()Lh0/e;
     .locals 1

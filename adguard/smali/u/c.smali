@@ -387,412 +387,69 @@
 .method public final E(LN2/i;)V
     .locals 4
 
-    iget-object v0, p0, Lu/c;->h:Lcom/adguard/android/storage/r;
-
-    invoke-virtual {v0}, Lcom/adguard/android/storage/r;->e()Lcom/adguard/android/storage/z$t;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/adguard/android/storage/z$t;->a()Lh0/e;
-
-    move-result-object v0
-
-    instance-of v1, v0, Lh0/e$l;
-
-    if-eqz v1, :cond_4
-
-    check-cast v0, Lh0/e$l;
-
-    invoke-virtual {v0}, Lh0/e$l;->b()Lh0/e$j;
-
-    move-result-object v0
-
-    sget-object v1, Lh0/e$j$a;->a:Lh0/e$j$a;
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
+    # --- PHẦN 1: ÉP LOẠI GÓI CƯỚC THÀNH LIFETIME ---
+    # Thay vì kiểm tra instance-of phức tạp, ta gán thẳng giá trị Lifetime
     sget-object v0, LN2/l;->Lifetime:LN2/l;
-
-    goto/16 :goto_2
-
-    :cond_0
-    sget-object v1, Lh0/e$j$b;->a:Lh0/e$j$b;
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    goto :goto_0
-
-    :cond_1
-    instance-of v1, v0, Lh0/e$j$c;
-
-    if-eqz v1, :cond_2
-
-    :goto_0
-    sget-object v0, LN2/l;->Other:LN2/l;
-
-    goto/16 :goto_2
-
-    :cond_2
-    instance-of v0, v0, Lh0/e$j$d;
-
-    if-eqz v0, :cond_3
-
-    sget-object v0, LN2/l;->Other:LN2/l;
-
-    goto/16 :goto_2
-
-    :cond_3
-    new-instance p1, LT5/m;
-
-    invoke-direct {p1}, LT5/m;-><init>()V
-
-    throw p1
-
-    :cond_4
-    instance-of v1, v0, Lh0/e$m;
-
-    const/4 v2, 0x2
-
-    const/4 v3, 0x1
-
-    if-eqz v1, :cond_7
-
-    check-cast v0, Lh0/e$m;
-
-    invoke-virtual {v0}, Lh0/e$m;->g()Lh0/e$o;
-
-    move-result-object v0
-
-    sget-object v1, Lu/c$b;->a:[I
-
-    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v0
-
-    aget v0, v1, v0
-
-    if-eq v0, v3, :cond_6
-
-    if-ne v0, v2, :cond_5
-
-    sget-object v0, LN2/l;->Annual:LN2/l;
-
-    goto/16 :goto_2
-
-    :cond_5
-    new-instance p1, LT5/m;
-
-    invoke-direct {p1}, LT5/m;-><init>()V
-
-    throw p1
-
-    :cond_6
-    sget-object v0, LN2/l;->Monthly:LN2/l;
-
-    goto/16 :goto_2
-
-    :cond_7
-    instance-of v1, v0, Lh0/e$n;
-
-    if-eqz v1, :cond_a
-
-    check-cast v0, Lh0/e$n;
-
-    invoke-virtual {v0}, Lh0/e$n;->g()Lh0/e$o;
-
-    move-result-object v0
-
-    sget-object v1, Lu/c$b;->a:[I
-
-    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v0
-
-    aget v0, v1, v0
-
-    if-eq v0, v3, :cond_9
-
-    if-ne v0, v2, :cond_8
-
-    sget-object v0, LN2/l;->Annual:LN2/l;
-
-    goto :goto_2
-
-    :cond_8
-    new-instance p1, LT5/m;
-
-    invoke-direct {p1}, LT5/m;-><init>()V
-
-    throw p1
-
-    :cond_9
-    sget-object v0, LN2/l;->Monthly:LN2/l;
-
-    goto :goto_2
-
-    :cond_a
-    sget-object v1, Lh0/e$d;->a:Lh0/e$d;
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_b
-
-    goto :goto_1
-
-    :cond_b
-    sget-object v1, Lh0/e$a;->a:Lh0/e$a;
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_c
-
-    goto :goto_1
-
-    :cond_c
-    sget-object v1, Lh0/e$r;->a:Lh0/e$r;
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_d
-
-    goto :goto_1
-
-    :cond_d
-    instance-of v1, v0, Lh0/e$h;
-
-    if-eqz v1, :cond_e
-
-    goto :goto_1
-
-    :cond_e
-    instance-of v1, v0, Lh0/e$c;
-
-    if-eqz v1, :cond_f
-
-    goto :goto_1
-
-    :cond_f
-    instance-of v1, v0, Lh0/e$i;
-
-    if-eqz v1, :cond_10
-
-    goto :goto_1
-
-    :cond_10
-    instance-of v1, v0, Lh0/e$g;
-
-    if-eqz v1, :cond_11
-
-    goto :goto_1
-
-    :cond_11
-    instance-of v1, v0, Lh0/e$b;
-
-    if-eqz v1, :cond_12
-
-    goto :goto_1
-
-    :cond_12
-    instance-of v1, v0, Lh0/e$e;
-
-    if-eqz v1, :cond_13
-
-    goto :goto_1
-
-    :cond_13
-    instance-of v1, v0, Lh0/e$q;
-
-    if-eqz v1, :cond_14
-
-    goto :goto_1
-
-    :cond_14
-    instance-of v0, v0, Lh0/e$f;
-
-    if-eqz v0, :cond_24
-
-    :goto_1
-    sget-object v0, LN2/l;->Other:LN2/l;
-
-    :goto_2
+    
+    # Gọi hàm lưu loại gói cước vào đối tượng p1
     invoke-virtual {p1, v0}, LN2/i;->l(LN2/l;)V
 
-    sget-object v0, Lr4/u;->a:Lr4/u;
-
-    iget-object v1, p0, Lu/c;->f:Landroid/content/Context;
-
-    const-string v2, "/serial.txt"
-
-    invoke-virtual {v0, v1, v2}, Lr4/u;->a(Landroid/content/Context;Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_23
-
-    iget-object v0, p0, Lu/c;->h:Lcom/adguard/android/storage/r;
-
-    invoke-virtual {v0}, Lcom/adguard/android/storage/r;->e()Lcom/adguard/android/storage/z$t;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/adguard/android/storage/z$t;->a()Lh0/e;
-
-    move-result-object v0
-
-    sget-object v1, Lh0/e$r;->a:Lh0/e$r;
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_15
-
-    goto :goto_3
-
-    :cond_15
-    instance-of v1, v0, Lh0/e$b;
-
-    if-eqz v1, :cond_16
-
-    goto :goto_3
-
-    :cond_16
-    sget-object v1, Lh0/e$d;->a:Lh0/e$d;
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_17
-
-    goto :goto_3
-
-    :cond_17
-    sget-object v1, Lh0/e$a;->a:Lh0/e$a;
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_18
-
-    goto :goto_3
-
-    :cond_18
-    instance-of v1, v0, Lh0/e$g;
-
-    if-eqz v1, :cond_19
-
-    goto :goto_3
-
-    :cond_19
-    instance-of v1, v0, Lh0/e$h;
-
-    if-eqz v1, :cond_1a
-
-    goto :goto_3
-
-    :cond_1a
-    instance-of v1, v0, Lh0/e$c;
-
-    if-eqz v1, :cond_1b
-
-    goto :goto_3
-
-    :cond_1b
-    instance-of v1, v0, Lh0/e$i;
-
-    if-eqz v1, :cond_1c
-
-    :goto_3
-    sget-object v0, LN2/f;->Free:LN2/f;
-
-    goto :goto_6
-
-    :cond_1c
-    instance-of v1, v0, Lh0/e$f;
-
-    if-eqz v1, :cond_1d
-
-    goto :goto_4
-
-    :cond_1d
-    instance-of v1, v0, Lh0/e$q;
-
-    if-eqz v1, :cond_1e
-
-    :goto_4
-    sget-object v0, LN2/f;->Trial:LN2/f;
-
-    goto :goto_6
-
-    :cond_1e
-    instance-of v1, v0, Lh0/e$l;
-
-    if-eqz v1, :cond_1f
-
-    goto :goto_5
-
-    :cond_1f
-    instance-of v1, v0, Lh0/e$m;
-
-    if-eqz v1, :cond_20
-
-    goto :goto_5
-
-    :cond_20
-    instance-of v1, v0, Lh0/e$n;
-
-    if-eqz v1, :cond_21
-
-    goto :goto_5
-
-    :cond_21
-    instance-of v0, v0, Lh0/e$e;
-
-    if-eqz v0, :cond_22
-
-    :goto_5
+    # --- PHẦN 2: ÉP TRẠNG THÁI LICENSE THÀNH PREMIUM ---
+    # Bỏ qua toàn bộ logic kiểm tra /serial.txt và các loại License khác
     sget-object v0, LN2/f;->Premium:LN2/f;
 
-    goto :goto_6
+    # Nhảy thẳng đến lệnh lưu trạng thái và kết thúc
+    goto :goto_final
 
+    # Các nhãn cũ (giữ lại để không làm lỗi cấu trúc file smali nếu các phương thức khác tham chiếu tới)
+    :cond_0
+    :cond_1
+    :cond_2
+    :cond_3
+    :cond_4
+    :cond_5
+    :cond_6
+    :cond_7
+    :cond_8
+    :cond_9
+    :cond_10
+    :cond_11
+    :cond_12
+    :cond_13
+    :cond_14
+    :cond_15
+    :cond_16
+    :cond_17
+    :cond_18
+    :cond_19
+    :cond_1a
+    :cond_1b
+    :cond_1c
+    :cond_1d
+    :cond_1e
+    :cond_1f
+    :cond_20
+    :cond_21
     :cond_22
-    new-instance p1, LT5/m;
-
-    invoke-direct {p1}, LT5/m;-><init>()V
-
-    throw p1
-
     :cond_23
-    sget-object v0, LN2/f;->Mod:LN2/f;
+    :cond_24
+    :goto_0
+    :goto_1
+    :goto_2
+    :goto_3
+    :goto_4
+    :goto_5
+    
+    # Gán giá trị Premium một lần nữa (phòng trường hợp các luồng khác nhảy vào đây)
+    sget-object v0, LN2/f;->Premium:LN2/f;
 
-    :goto_6
+    :goto_final
+    # Lưu trạng thái Premium vào p1
     invoke-virtual {p1, v0}, LN2/i;->j(LN2/f;)V
 
     return-void
-
-    :cond_24
-    new-instance p1, LT5/m;
-
-    invoke-direct {p1}, LT5/m;-><init>()V
-
-    throw p1
 .end method
+
 
 .method public b()LN2/i;
     .locals 13

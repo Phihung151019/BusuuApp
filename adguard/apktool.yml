@@ -16,4 +16,3 @@ doNotCompress:
 - png
 - assets/dexopt/baseline.prof
 - assets/dexopt/baseline.profm
-- assets/install.id
