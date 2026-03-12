@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/headerView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/header_speed_review" />
+    <com.memrise.android.design.sessions.SpeedReviewTestTimerAnimationView android:id="@id/timerAnimationView" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerView" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guidelineLearnAreaStart" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.05" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guidelineLearnAreaEnd" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.95" />
+    <include android:id="@id/learningAreaView" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/guidelineLearnAreaEnd" app:layout_constraintStart_toStartOf="@id/guidelineLearnAreaStart" app:layout_constraintTop_toBottomOf="@id/headerView" layout="@layout/learning_area_speed_review" />
+    <com.memrise.android.design.sessions.CountdownTimerAnimationView android:id="@id/countdownAnimationView" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/headerView" />
+</merge>

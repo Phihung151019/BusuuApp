@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="52.0dp" android:width="54.0dp" android:viewportWidth="54.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$stars__0" android:pathData="M35.188,49.747L35.648,47.934L34.279,46.596L36.217,46.471L37.106,44.816L37.843,46.552L39.762,46.868L38.28,48.065L38.577,49.915L36.923,48.919L35.188,49.747Z" />
+    <path android:fillColor="@drawable/$stars__1" android:pathData="M6.799,18.331L7.635,15.036L5.146,12.602L8.669,12.377L10.285,9.368L11.627,12.524L15.114,13.098L12.42,15.274L12.959,18.637L9.953,16.826L6.799,18.331Z" />
+    <path android:fillColor="@drawable/$stars__2" android:pathData="M28.701,33.27L29.883,28.614L26.366,25.174L31.345,24.856L33.628,20.604L35.524,25.064L40.452,25.875L36.645,28.949L37.407,33.703L33.159,31.143L28.701,33.27Z" />
+</vector>

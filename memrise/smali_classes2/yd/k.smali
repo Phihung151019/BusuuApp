@@ -1,0 +1,61 @@
+.class public final Lyd/k;
+.super Lsm/c;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lsm/e;
+    c = "com.memrise.android.data.usecase.GetWordLearnedHeardUsedStatsUseCase"
+    f = "GetWordLearnedHeardUsedStatsUseCase.kt"
+    l = {
+        0x13
+    }
+    m = "invoke"
+    v = 0x2
+.end annotation
+
+
+# instance fields
+.field public synthetic h:Ljava/lang/Object;
+
+.field public final synthetic i:Lyd/l;
+
+.field public j:I
+
+
+# direct methods
+.method public constructor <init>(Lyd/l;Lsm/c;)V
+    .locals 0
+
+    iput-object p1, p0, Lyd/k;->i:Lyd/l;
+
+    invoke-direct {p0, p2}, Lsm/c;-><init>(Lqm/d;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iput-object p1, p0, Lyd/k;->h:Ljava/lang/Object;
+
+    iget p1, p0, Lyd/k;->j:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr p1, v0
+
+    iput p1, p0, Lyd/k;->j:I
+
+    iget-object p1, p0, Lyd/k;->i:Lyd/l;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0, p0}, Lyd/l;->a(Ljava/lang/String;Lsm/c;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method

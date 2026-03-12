@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?android:colorBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/edit_profile_details_title" android:layout_marginTop="@dimen/generic_margin_larger" android:text="@string/edit_profile_details" style="@style/profileEditProfileTitle" />
+        <TextView android:layout_marginTop="@dimen/generic_margin_huge" android:text="@string/edit_profile_username" style="@style/profileEditProfileSubtitle" />
+        <EditText android:id="@id/edit_text_username" android:inputType="text" style="@style/profileEditText" />
+        <TextView android:id="@id/text_username_error_message" style="@style/profileErrorMessageText" />
+        <TextView android:layout_marginTop="@dimen/generic_margin_mid_medium" android:text="@string/edit_profile_email" style="@style/profileEditProfileSubtitle" />
+        <EditText android:id="@id/edit_text_email" android:inputType="textEmailAddress" style="@style/profileEditText" />
+        <TextView android:id="@id/text_email_error_message" style="@style/profileErrorMessageText" />
+        <TextView android:layout_marginTop="@dimen/generic_margin_mid_medium" android:text="@string/edit_profile_old_password" style="@style/profileEditProfileSubtitle" />
+        <EditText android:id="@id/edit_text_old_password" android:inputType="textPassword" style="@style/profileEditText" />
+        <TextView android:id="@id/text_old_password_error_message" style="@style/profileErrorMessageText" />
+        <TextView android:layout_marginTop="@dimen/generic_margin_mid_medium" android:text="@string/edit_profile_new_password" style="@style/profileEditProfileSubtitle" />
+        <EditText android:id="@id/edit_text_new_password" android:inputType="textPassword" style="@style/profileEditText" />
+        <TextView android:id="@id/text_new_password_error_message" style="@style/profileErrorMessageText" />
+        <TextView android:layout_marginTop="@dimen/generic_margin_mid_medium" android:text="@string/edit_profile_confirm_password" style="@style/profileEditProfileSubtitle" />
+        <EditText android:id="@id/edit_text_confirm_new_password" android:inputType="textPassword" style="@style/profileEditText" />
+        <TextView android:id="@id/text_confirm_new_password_error_message" style="@style/profileErrorMessageText" />
+        <View android:background="@color/transparent_light_grey" android:layout_width="match_parent" android:layout_height="@dimen/generic_separator_height" android:layout_marginTop="@dimen/generic_margin_larger" />
+    </LinearLayout>
+</ScrollView>

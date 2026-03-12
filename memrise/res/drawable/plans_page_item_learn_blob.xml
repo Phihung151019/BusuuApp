@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="85.0dp" android:width="85.0dp" android:viewportWidth="85.0" android:viewportHeight="85.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?modeSelectorItemLearnBackgroundColor" android:pathData="@string/blob_1" android:strokeColor="?modeSelectorItemLearnBackgroundColor" android:strokeWidth="10.0" android:strokeLineCap="square" android:strokeLineJoin="miter" />
+</vector>

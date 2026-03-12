@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_next_course_card_constraint_width">0.6</dimen>
+    <dimen name="learning_reminders_continue_button_height_percentage">0.08</dimen>
+    <dimen name="learning_reminders_day_button_height_percentage">0.09</dimen>
+    <dimen name="learning_reminders_days_container_width_percentage">0.33</dimen>
+    <dimen name="learning_reminders_gutter_end_percentage">0.75</dimen>
+    <dimen name="learning_reminders_gutter_start_percentage">0.25</dimen>
+    <dimen name="learning_reminders_title_top_margin_percentage">0.1</dimen>
+    <dimen name="plans_description_gutter_end_percentage">0.7</dimen>
+    <dimen name="plans_description_gutter_start_percentage">0.3</dimen>
+    <dimen name="plans_experiment_gutter_end_percentage">0.8</dimen>
+    <dimen name="plans_experiment_gutter_start_percentage">0.2</dimen>
+    <dimen name="plans_freemium_gutter_end_percentage">0.7</dimen>
+    <dimen name="plans_freemium_gutter_start_percentage">0.3</dimen>
+    <dimen name="plans_hero_image_ratio">4.0</dimen>
+    <dimen name="plans_popup_gutter_end_percentage">0.7</dimen>
+    <dimen name="plans_popup_gutter_start_percentage">0.3</dimen>
+    <dimen name="plans_pricing_annual_width">0.15</dimen>
+    <dimen name="plans_pricing_guideline_end_percentage">0.7</dimen>
+    <dimen name="plans_pricing_guideline_start_percentage">0.3</dimen>
+    <dimen name="plans_pricing_side_panel_width">0.1</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="categories_more_details_text_size">20.0sp</dimen>
+    <dimen name="course_card_course_completion">16.0sp</dimen>
+    <dimen name="course_card_learn_review_size">16.0sp</dimen>
+    <dimen name="course_card_title_size">20.0sp</dimen>
+    <dimen name="edit_profile_details_title">21.0sp</dimen>
+    <dimen name="edit_profile_user_detail_titles">20.0sp</dimen>
+    <dimen name="language_selector_flag_size">70.0dp</dimen>
+    <dimen name="learning_and_sound_settings_titles">20.0sp</dimen>
+    <dimen name="level_things_column_a_text_size">26.0sp</dimen>
+    <dimen name="level_things_column_b_text_size">22.0sp</dimen>
+    <dimen name="levels_left_panel_text_size">22.0sp</dimen>
+    <dimen name="levels_title_text_size">22.0sp</dimen>
+    <dimen name="list_text_size">22.0sp</dimen>
+    <dimen name="mem_height">484.0dp</dimen>
+    <dimen name="mem_height_half">242.0dp</dimen>
+    <dimen name="mission_lateral_shadow">2.0dp</dimen>
+    <dimen name="module_view_scrolling_margin_land">-50.0dp</dimen>
+    <dimen name="module_view_scrolling_width">360.0dp</dimen>
+    <dimen name="onboarding_error_width">400.0dp</dimen>
+    <dimen name="onboarding_language_selection_lateral_margin">120.0dp</dimen>
+    <dimen name="pro_upsell_header_text_max_width">340.0dp</dimen>
+    <dimen name="promo_upsell_image_top_margin">32.0dp</dimen>
+    <dimen name="session_presentation_box_continue_and_check_text_size">30.0sp</dimen>
+    <dimen name="session_typing_test_edittext_size">40.0sp</dimen>
+</resources>

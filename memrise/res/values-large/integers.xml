@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="eos_indicator_height_ptg">70</integer>
+    <integer name="eos_popup_height_ptg">6</integer>
+    <integer name="profile_side_weight">1</integer>
+</resources>

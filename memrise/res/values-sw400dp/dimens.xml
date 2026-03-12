@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="end_of_session_daily_goal_icon">40.0dp</dimen>
+    <dimen name="end_of_session_daily_goal_size">40.0dp</dimen>
+    <dimen name="end_of_session_daily_goal_size_in_progress">45.0dp</dimen>
+    <dimen name="end_of_session_daily_goal_text_margin_top">9.0dp</dimen>
+    <dimen name="eos_level_completed_image_size">80.0dp</dimen>
+    <dimen name="promo_look_other_offers_left_margin">10.0dp</dimen>
+    <dimen name="promo_look_other_offers_right_margin">10.0dp</dimen>
+</resources>

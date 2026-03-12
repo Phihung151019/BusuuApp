@@ -1,0 +1,114 @@
+.class public final LFa/z;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LHa/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "LHa/b<",
+        "Lm2/g<",
+        "LFa/P;",
+        ">;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:LHa/c;
+
+.field public final b:Lim/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lim/a<",
+            "Lqm/f;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final c:LHa/d;
+
+
+# direct methods
+.method public constructor <init>(LHa/c;LHa/c;LHa/d;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LFa/z;->a:LHa/c;
+
+    iput-object p2, p0, LFa/z;->b:Lim/a;
+
+    iput-object p3, p0, LFa/z;->c:LHa/d;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final get()Ljava/lang/Object;
+    .locals 6
+
+    iget-object v0, p0, LFa/z;->a:LHa/c;
+
+    iget-object v0, v0, LHa/c;->a:Ljava/lang/Object;
+
+    check-cast v0, Landroid/content/Context;
+
+    iget-object v1, p0, LFa/z;->b:Lim/a;
+
+    invoke-interface {v1}, Lim/a;->get()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lqm/f;
+
+    iget-object v2, p0, LFa/z;->c:LHa/d;
+
+    invoke-interface {v2}, Lim/a;->get()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, LFa/Q;
+
+    const-string v3, "appContext"
+
+    invoke-static {v0, v3}, LCm/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v3, "blockingDispatcher"
+
+    invoke-static {v1, v3}, LCm/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v3, "sessionDataSerializer"
+
+    invoke-static {v2, v3}, LCm/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v3, Ln2/a;
+
+    new-instance v4, LFa/t;
+
+    const/4 v5, 0x0
+
+    invoke-direct {v4, v5, v2}, LFa/t;-><init>(ILjava/lang/Object;)V
+
+    invoke-direct {v3, v4}, Ln2/a;-><init>(LBm/l;)V
+
+    invoke-static {v1}, LNm/D;->a(Lqm/f;)LSm/d;
+
+    move-result-object v1
+
+    new-instance v4, LFa/u;
+
+    invoke-direct {v4, v5, v0}, LFa/u;-><init>(ILjava/lang/Object;)V
+
+    invoke-static {v2, v3, v1, v4}, LFa/v;->a(Lm2/k0;Ln2/a;LSm/d;LBm/a;)Lm2/k;
+
+    move-result-object v0
+
+    return-object v0
+.end method

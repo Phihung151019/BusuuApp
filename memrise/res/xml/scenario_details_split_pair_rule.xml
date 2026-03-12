@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+  xmlns:window="http://schemas.android.com/apk/res-auto">
+    <SplitPairRule window:finishPrimaryWithSecondary="never" window:finishSecondaryWithPrimary="always" window:splitMinWidthDp="600" window:splitRatio="0.5">
+        <SplitPairFilter window:primaryActivityName="com.memrise.android.alexlanding.AlexLandingActivity" window:secondaryActivityName="com.memrise.android.scenario.presentation.ScenarioDetailsActivity" />
+        <SplitPairFilter window:primaryActivityName="*" window:secondaryActivityAction="android.intent.action.VIEW" window:secondaryActivityName="*/*" />
+    </SplitPairRule>
+    <ActivityRule window:alwaysExpand="true">
+        <ActivityFilter window:activityName="com.memrise.android.session.speedreviewscreen.speedreview.SpeedReviewActivity" />
+        <ActivityFilter window:activityName="com.memrise.android.session.learnscreen.LearnActivity" />
+        <ActivityFilter window:activityName="com.example.mywordsdetail.presentation.MyWordsDetailActivity" />
+        <ActivityFilter window:activityName="com.memrise.android.session.difficultwordsscreen.DifficultWordsActivity" />
+        <ActivityFilter window:activityName="com.memrise.android.session.speedreviewscreen.classicreview.ClassicReviewActivity" />
+        <ActivityFilter window:activityName="com.memrise.android.plans.PlansActivity" />
+        <ActivityFilter window:activityName="com.memrise.wordlists.presentation.WordlistsActivity" />
+    </ActivityRule>
+</resources>

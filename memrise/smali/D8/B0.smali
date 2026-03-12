@@ -1,0 +1,52 @@
+.class public final LD8/B0;
+.super LD8/O0;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic f:LK8/k2;
+
+.field public final synthetic g:LD8/Z0;
+
+
+# direct methods
+.method public constructor <init>(LD8/Z0;LK8/k2;)V
+    .locals 0
+
+    iput-object p2, p0, LD8/B0;->f:LK8/k2;
+
+    iput-object p1, p0, LD8/B0;->g:LD8/Z0;
+
+    const/4 p2, 0x1
+
+    invoke-direct {p0, p1, p2}, LD8/O0;-><init>(LD8/Z0;Z)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    iget-object v0, p0, LD8/B0;->g:LD8/Z0;
+
+    iget-object v0, v0, LD8/Z0;->f:LD8/d0;
+
+    invoke-static {v0}, Lm8/m;->g(Ljava/lang/Object;)V
+
+    iget-object v1, p0, LD8/B0;->f:LK8/k2;
+
+    new-instance v2, LD8/A0;
+
+    invoke-direct {v2, p0, v1}, LD8/A0;-><init>(LD8/B0;LK8/k2;)V
+
+    invoke-interface {v0, v2}, LD8/d0;->retrieveAndUploadBatches(LD8/i0;)V
+
+    return-void
+.end method

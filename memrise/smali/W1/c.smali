@@ -1,0 +1,7 @@
+.class public interface abstract LW1/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LW1/a;
+.implements Landroid/view/SubMenu;

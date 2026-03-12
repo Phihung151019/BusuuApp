@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.memrise.android.design.components.ErrorView android:layout_gravity="center" android:id="@id/errorView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:actionDrawable="@drawable/ic_reload" app:actionTitle="@string/today_screen_error_refresh" app:title="@string/splash_error_screen_header" app:withTextAction="true" />
+    <com.android.memrise.forceupdate.presentation.ForceUpdateView android:id="@id/forceUpdateView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:forceUpdateBackgroundAlpha="0.5" app:forceUpdateBackgroundColor="@color/black800" />
+</merge>

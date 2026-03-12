@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:theme="@style/Memrise.ToolBar.MemriseBlue" android:id="@id/communicate_onboarding_toolbar" android:background="?colorPrimary" android:padding="0.0dp" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:layout_margin="0.0dp" app:contentInsetLeft="0.0dp" app:contentInsetRight="0.0dp" app:contentInsetStart="0.0dp" app:paddingEnd="0.0dp" app:paddingStart="0.0dp" app:popupTheme="@style/ToolbarPopupTheme" app:titleMarginBottom="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/toolbar_title_skip_container" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/black800" android:id="@id/toolbar_title_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tailored_onboarding_speaking_practice_conversation_skip_button" android:layout_centerVertical="true" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" android:layout_toStartOf="@id/toolbar_back_button" />
+        <ImageButton android:id="@id/toolbar_back_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_alex_icons_system_forward" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

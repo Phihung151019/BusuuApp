@@ -1,0 +1,116 @@
+.class public final Lik/J;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lik/D;
+
+
+# instance fields
+.field public final synthetic a:Lcom/memrise/wordlists/presentation/WordlistsActivity;
+
+
+# direct methods
+.method public constructor <init>(Lcom/memrise/wordlists/presentation/WordlistsActivity;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lik/J;->a:Lcom/memrise/wordlists/presentation/WordlistsActivity;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 1
+
+    iget-object v0, p0, Lik/J;->a:Lcom/memrise/wordlists/presentation/WordlistsActivity;
+
+    invoke-virtual {v0}, Landroid/app/Activity;->finish()V
+
+    return-void
+.end method
+
+.method public final b(Ljava/lang/String;)V
+    .locals 8
+
+    const-string v0, "wordlistId"
+
+    invoke-static {p1, v0}, LCm/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v2, p0, Lik/J;->a:Lcom/memrise/wordlists/presentation/WordlistsActivity;
+
+    invoke-static {v2}, LAg/V;->r(Landroid/app/Activity;)Landroid/os/Parcelable;
+
+    move-result-object v0
+
+    check-cast v0, Lik/P;
+
+    invoke-virtual {v2}, Lcom/memrise/wordlists/presentation/WordlistsActivity;->d0()Lvf/a;
+
+    move-result-object v1
+
+    iget-object v1, v1, Lvf/a;->u:Lvf/a$C;
+
+    if-eqz v0, :cond_0
+
+    iget-boolean v0, v0, Lik/P;->c:Z
+
+    :goto_0
+    move v5, v0
+
+    goto :goto_1
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    :goto_1
+    iget-object v6, v2, Lcom/memrise/wordlists/presentation/WordlistsActivity;->y:Li/c;
+
+    const/4 v7, 0x4
+
+    const/4 v4, 0x0
+
+    move-object v3, p1
+
+    invoke-static/range {v1 .. v7}, Lvf/a$C;->c(Lvf/a$C;Landroid/content/Context;Ljava/lang/String;ZZLi/c;I)V
+
+    return-void
+.end method
+
+.method public final c()V
+    .locals 4
+
+    iget-object v0, p0, Lik/J;->a:Lcom/memrise/wordlists/presentation/WordlistsActivity;
+
+    iget-object v0, v0, Lcom/memrise/wordlists/presentation/WordlistsActivity;->w:Lfk/h;
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    invoke-static {v0}, LF2/Z;->a(LF2/Y;)LK2/a;
+
+    move-result-object v2
+
+    new-instance v3, Lfk/f;
+
+    invoke-direct {v3, v0, v1}, Lfk/f;-><init>(Lfk/h;Lqm/d;)V
+
+    const/4 v0, 0x3
+
+    invoke-static {v2, v1, v1, v3, v0}, LNm/f;->c(LNm/C;Lqm/f;LNm/E;LBm/p;I)LNm/z0;
+
+    return-void
+
+    :cond_0
+    const-string v0, "viewModel"
+
+    invoke-static {v0}, LCm/m;->j(Ljava/lang/String;)V
+
+    throw v1
+.end method

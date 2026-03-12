@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/tapping_test_text_size" android:textColor="@drawable/tapping_test_item_text_color" android:background="@drawable/tapping_test_bg" android:padding="@dimen/generic_padding_medium" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

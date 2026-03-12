@@ -1,0 +1,21 @@
+.class public final synthetic Lb0/N;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static bridge synthetic a(Ljava/lang/Object;)Landroid/view/inputmethod/HandwritingGesture;
+    .locals 0
+
+    check-cast p0, Landroid/view/inputmethod/HandwritingGesture;
+
+    return-object p0
+.end method
+
+.method public static synthetic b()V
+    .locals 1
+
+    new-instance v0, Landroid/adservices/customaudience/CustomAudience$Builder;
+
+    return-void
+.end method

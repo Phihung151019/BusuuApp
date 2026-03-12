@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/charcoal300" />
+            <corners android:topLeftRadius="@dimen/tapping_test_item_corner_radius" android:topRightRadius="@dimen/tapping_test_item_corner_radius" android:bottomLeftRadius="@dimen/tapping_test_item_corner_radius" android:bottomRightRadius="@dimen/tapping_test_item_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <level-list>
+            <item android:maxLevel="0">
+                <shape>
+                    <solid android:color="?sessionKeyboardColor" />
+                    <corners android:topLeftRadius="@dimen/tapping_test_item_corner_radius" android:topRightRadius="@dimen/tapping_test_item_corner_radius" android:bottomLeftRadius="@dimen/tapping_test_item_corner_radius" android:bottomRightRadius="@dimen/tapping_test_item_corner_radius" />
+                </shape>
+            </item>
+            <item android:maxLevel="1">
+                <shape>
+                    <solid android:color="?sessionKeyboardColor" />
+                    <corners android:topLeftRadius="@dimen/tapping_test_item_corner_radius" android:topRightRadius="@dimen/tapping_test_item_corner_radius" android:bottomLeftRadius="@dimen/tapping_test_item_corner_radius" android:bottomRightRadius="@dimen/tapping_test_item_corner_radius" />
+                </shape>
+            </item>
+            <item android:maxLevel="2">
+                <shape>
+                    <solid android:color="?colorCorrect" />
+                    <corners android:topLeftRadius="@dimen/tapping_test_item_corner_radius" android:topRightRadius="@dimen/tapping_test_item_corner_radius" android:bottomLeftRadius="@dimen/tapping_test_item_corner_radius" android:bottomRightRadius="@dimen/tapping_test_item_corner_radius" />
+                </shape>
+            </item>
+            <item android:maxLevel="3">
+                <shape>
+                    <solid android:color="?colorIncorrect" />
+                    <corners android:topLeftRadius="@dimen/tapping_test_item_corner_radius" android:topRightRadius="@dimen/tapping_test_item_corner_radius" android:bottomLeftRadius="@dimen/tapping_test_item_corner_radius" android:bottomRightRadius="@dimen/tapping_test_item_corner_radius" />
+                </shape>
+            </item>
+            <item android:maxLevel="4">
+                <shape>
+                    <solid android:color="@color/memrise_streak_pink" />
+                    <corners android:topLeftRadius="@dimen/tapping_test_item_corner_radius" android:topRightRadius="@dimen/tapping_test_item_corner_radius" android:bottomLeftRadius="@dimen/tapping_test_item_corner_radius" android:bottomRightRadius="@dimen/tapping_test_item_corner_radius" />
+                </shape>
+            </item>
+            <item android:maxLevel="5">
+                <shape>
+                    <solid android:color="@color/difficult_word_hint_text_answer" />
+                    <corners android:topLeftRadius="@dimen/tapping_test_item_corner_radius" android:topRightRadius="@dimen/tapping_test_item_corner_radius" android:bottomLeftRadius="@dimen/tapping_test_item_corner_radius" android:bottomRightRadius="@dimen/tapping_test_item_corner_radius" />
+                </shape>
+            </item>
+        </level-list>
+    </item>
+</selector>

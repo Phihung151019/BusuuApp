@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SettingsCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:contentDescription="@null" android:layout_marginStart="@dimen/generic_margin_extra_large" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/settings_item" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/settings_item" android:layout_width="0.0dp" android:layout_height="wrap_content" android:drawablePadding="4.0dp" app:layout_constraintBottom_toBottomOf="@id/icon" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toTopOf="@id/icon" style="@style/SettingsItemText" />
+    <TextView android:id="@id/annotation" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/icon" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/settings_item" app:layout_constraintTop_toTopOf="@id/icon" style="@style/SettingsItemTextAnnotation" />
+</androidx.constraintlayout.widget.ConstraintLayout>

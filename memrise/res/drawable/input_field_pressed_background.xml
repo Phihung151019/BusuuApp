@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/onboarding_input_field_width" android:color="?onboardingInputFieldTextColor" />
+    <corners android:radius="@dimen/onboarding_input_field_radius" />
+    <solid android:color="?onboardingInputFieldBackgroundColor" />
+</shape>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/thirty_pct_transparent_black" />
+            <corners android:radius="@dimen/cardview_default_radius" />
+        </shape>
+    </item>
+    <item android:left="0.0dp" android:top="0.0dp" android:right="0.0dp" android:bottom="@dimen/generic_padding_minimal">
+        <shape android:shape="oval">
+            <solid android:color="@color/speed_review" />
+        </shape>
+    </item>
+</layer-list>

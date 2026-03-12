@@ -1,0 +1,95 @@
+.class final Lbo/app/j$a$y;
+.super LCm/n;
+.source "SourceFile"
+
+# interfaces
+.implements LBm/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lbo/app/j$a;->e(Ljava/lang/String;Ljava/lang/String;)Lbo/app/p1;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic b:Ljava/lang/String;
+
+.field final synthetic c:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lbo/app/j$a$y;->b:Ljava/lang/String;
+
+    iput-object p2, p0, Lbo/app/j$a$y;->c:Ljava/lang/String;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, LCm/n;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lbo/app/p1;
+    .locals 11
+
+    new-instance v0, Lorg/json/JSONObject;
+
+    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
+
+    iget-object v1, p0, Lbo/app/j$a$y;->b:Ljava/lang/String;
+
+    const-string v2, "cid"
+
+    invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lbo/app/j$a$y;->c:Ljava/lang/String;
+
+    const-string v2, "a"
+
+    invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    move-result-object v5
+
+    new-instance v3, Lbo/app/j;
+
+    sget-object v4, Lbo/app/a1;->h:Lbo/app/a1;
+
+    const-string v0, "eventData"
+
+    invoke-static {v5, v0}, LCm/m;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/16 v9, 0xc
+
+    const/4 v10, 0x0
+
+    const-wide/16 v6, 0x0
+
+    const/4 v8, 0x0
+
+    invoke-direct/range {v3 .. v10}, Lbo/app/j;-><init>(Lbo/app/a1;Lorg/json/JSONObject;DLjava/lang/String;ILCm/g;)V
+
+    return-object v3
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Lbo/app/j$a$y;->a()Lbo/app/p1;
+
+    move-result-object v0
+
+    return-object v0
+.end method

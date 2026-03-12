@@ -1,0 +1,98 @@
+.class public final LD8/s;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/Iterator;
+
+
+# instance fields
+.field public b:I
+
+.field public final synthetic c:LD8/t;
+
+
+# direct methods
+.method public constructor <init>(LD8/t;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LD8/s;->c:LD8/t;
+
+    const/4 p1, 0x0
+
+    iput p1, p0, LD8/s;->b:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final hasNext()Z
+    .locals 2
+
+    iget-object v0, p0, LD8/s;->c:LD8/t;
+
+    iget-object v0, v0, LD8/t;->b:Ljava/lang/String;
+
+    iget v1, p0, LD8/s;->b:I
+
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    if-ge v1, v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final synthetic next()Ljava/lang/Object;
+    .locals 4
+
+    iget-object v0, p0, LD8/s;->c:LD8/t;
+
+    iget-object v1, v0, LD8/t;->b:Ljava/lang/String;
+
+    iget v2, p0, LD8/s;->b:I
+
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
+
+    move-result v1
+
+    if-ge v2, v1, :cond_0
+
+    add-int/lit8 v1, v2, 0x1
+
+    new-instance v3, LD8/t;
+
+    iput v1, p0, LD8/s;->b:I
+
+    iget-object v0, v0, LD8/t;->b:Ljava/lang/String;
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->charAt(I)C
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v3, v0}, LD8/t;-><init>(Ljava/lang/String;)V
+
+    return-object v3
+
+    :cond_0
+    new-instance v0, Ljava/util/NoSuchElementException;
+
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
+
+    throw v0
+.end method

@@ -1,0 +1,62 @@
+.class public final Lcom/google/android/material/bottomsheet/a$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/android/material/bottomsheet/a;->wrapInBottomSheet(ILandroid/view/View;Landroid/view/ViewGroup$LayoutParams;)Landroid/view/View;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic b:Lcom/google/android/material/bottomsheet/a;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/material/bottomsheet/a;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/material/bottomsheet/a$b;->b:Lcom/google/android/material/bottomsheet/a;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object p1, p0, Lcom/google/android/material/bottomsheet/a$b;->b:Lcom/google/android/material/bottomsheet/a;
+
+    iget-boolean v0, p1, Lcom/google/android/material/bottomsheet/a;->cancelable:Z
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Landroid/app/Dialog;->isShowing()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Lcom/google/android/material/bottomsheet/a;->shouldWindowCloseOnTouchOutside()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Lcom/google/android/material/bottomsheet/a;->cancel()V
+
+    :cond_0
+    return-void
+.end method

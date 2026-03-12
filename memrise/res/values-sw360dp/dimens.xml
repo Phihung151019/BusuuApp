@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chat_bubble_text_size">18.0sp</dimen>
+    <dimen name="pronunciationmainButtonInnerCircleSize">120.0dp</dimen>
+    <dimen name="pronunciationmainButtonOuterCircleSize">140.0dp</dimen>
+</resources>

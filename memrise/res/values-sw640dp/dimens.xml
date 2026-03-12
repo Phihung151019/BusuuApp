@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="course_card_course_completion">14.0sp</dimen>
+    <dimen name="course_card_learn_review_size">14.0sp</dimen>
+    <dimen name="course_card_title_size">18.0sp</dimen>
+</resources>

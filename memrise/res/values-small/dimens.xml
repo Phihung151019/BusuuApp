@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="course_card_learn_review_size">10.0sp</dimen>
+    <dimen name="course_card_title">16.0sp</dimen>
+    <dimen name="memrise_key_min_height">40.0dp</dimen>
+    <dimen name="memrise_key_min_height_spacebar">40.0dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24.0dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24.0dp</dimen>
+    <dimen name="onboarding_container_width">248.0dp</dimen>
+    <dimen name="onboarding_field_width">200.0dp</dimen>
+    <dimen name="pro_upsell_text_margin_right">100.0dp</dimen>
+    <dimen name="profile_image_size">72.0dp</dimen>
+    <dimen name="pronunciationTooltipTextSize">12.0dp</dimen>
+    <dimen name="pronunciationmainButtonInnerCircleSize">100.0dp</dimen>
+    <dimen name="pronunciationmainButtonOuterCircleSize">80.0dp</dimen>
+</resources>
