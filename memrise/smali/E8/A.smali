@@ -272,7 +272,7 @@
 
     invoke-direct {p0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
 
-    throw p0
+    return-void
 
     :cond_1
     sget-object p0, LQj/e;->c:LQj/e;
@@ -311,7 +311,7 @@
 
     invoke-direct {p0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
 
-    throw p0
+    return-void
 
     :cond_1
     sget-object p0, Ljj/j;->c:Ljj/j;
@@ -572,7 +572,7 @@
     :cond_1
     const/4 p0, 0x0
 
-    throw p0
+    return-void
 
     :cond_2
     return v0

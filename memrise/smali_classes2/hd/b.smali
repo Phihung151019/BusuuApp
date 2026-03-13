@@ -44,7 +44,7 @@
 
     invoke-direct {p1}, Lkotlin/jvm/KotlinReflectionNotSupportedError;-><init>()V
 
-    throw p1
+    return-void
 .end method
 
 
@@ -102,7 +102,7 @@
 
     invoke-direct {p1}, Lkotlin/jvm/KotlinReflectionNotSupportedError;-><init>()V
 
-    throw p1
+    return-void
 .end method
 
 .method public final hashCode()I
