@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">一度学んだ単語をつ</item>
+        <item quantity="few">一度学んだ単語を個</item>
+        <item quantity="many">一度学んだ単語を個</item>
+        <item quantity="other">一度学んだ単語を個</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">あとつ単語を学んで、今日の学習目標を達成しよう</item>
+        <item quantity="few">あと個単語を学んで、今日の学習目標を達成しよう</item>
+        <item quantity="many">あと個単語を学んで、今日の学習目標を達成しよう</item>
+        <item quantity="other">あと個単語を学んで、今日の学習目標を達成しよう</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">難しい単語をつ</item>
+        <item quantity="few">難しい単語を個</item>
+        <item quantity="many">難しい単語を個</item>
+        <item quantity="other">難しい単語を個</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">AIチャットボットで会話をつ</item>
+        <item quantity="few">AIチャットボットで会話を個</item>
+        <item quantity="many">AIチャットボットで会話を個</item>
+        <item quantity="other">AIチャットボットで会話を個</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">動画をつ見て、言語漬けになろう</item>
+        <item quantity="few">動画を個見て、言語漬けになろう</item>
+        <item quantity="many">動画を個見て、言語漬けになろう</item>
+        <item quantity="other">動画を個見て、言語漬けになろう</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="other">%s 日連続達成！</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="other">%d 日連続達成</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">か月無料</item>
+        <item quantity="few">か月無料</item>
+        <item quantity="many">か月無料</item>
+        <item quantity="other">か月無料</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">最初の1か月無料</item>
+        <item quantity="few">最初の か月無料</item>
+        <item quantity="many">最初の か月無料</item>
+        <item quantity="other">最初の か月無料</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">最初の1か月無料</item>
+        <item quantity="few">最初の %d か月無料</item>
+        <item quantity="many">最初の %d か月無料</item>
+        <item quantity="other">最初の %d か月無料</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">か月分を前払い</item>
+        <item quantity="few">か月分を前払い</item>
+        <item quantity="many">か月分を前払い</item>
+        <item quantity="other">か月分を前払い</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">か月分を前払い</item>
+        <item quantity="few">か月分を前払い</item>
+        <item quantity="many">か月分を前払い</item>
+        <item quantity="other">か月分を前払い</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">%d か月分を前払い</item>
+        <item quantity="few">%d か月分を前払い</item>
+        <item quantity="many">%d か月分を前払い</item>
+        <item quantity="other">%d か月分を前払い</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">か月の価格、その後通常価格</item>
+        <item quantity="few">か月の価格、その後通常価格</item>
+        <item quantity="many">か月の価格、その後通常価格</item>
+        <item quantity="other">か月の価格、その後通常価格</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">初月の価格、その後通常価格</item>
+        <item quantity="few">最初の か月の価格、その後通常価格</item>
+        <item quantity="many">最初の か月の価格、その後通常価格</item>
+        <item quantity="other">最初の か月の価格、その後通常価格</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">初月の価格、その後通常価格</item>
+        <item quantity="few">最初の %d か月の価格、その後通常価格</item>
+        <item quantity="many">最初の %d か月の価格、その後通常価格</item>
+        <item quantity="other">最初の %d か月の価格、その後通常価格</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="other">"バババーン！
+あなたは%dヒントを獲得しました"</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d 秒早送り</item>
+        <item quantity="other">%d 秒早送り</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d 秒巻き戻し</item>
+        <item quantity="other">%d 秒巻き戻し</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="other">%s-日連続達成</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="other">%d分間の動画を見よう</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">学習時間（分）</item>
+        <item quantity="other">学習時間（分）</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">新しい単語数</item>
+        <item quantity="other">新しい単語数</item>
+    </plurals>
+    <plurals name="ignoredWords_title_mobile">
+        <item quantity="zero">無視した単語 (%d)</item>
+        <item quantity="one">無視した単語 (%d)</item>
+        <item quantity="few">無視した単語 (%d)</item>
+        <item quantity="many">無視した単語 (%d)</item>
+        <item quantity="other">無視した単語 (%d)</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">無視した単語 ()</item>
+        <item quantity="one">無視した単語 ()</item>
+        <item quantity="few">無視した単語 ()</item>
+        <item quantity="many">無視した単語 ()</item>
+        <item quantity="other">無視した単語 ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web" />
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="other">単語</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">単語</item>
+        <item quantity="one">単語</item>
+        <item quantity="few">単語</item>
+        <item quantity="many">単語</item>
+        <item quantity="other">単語</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d 単語</item>
+        <item quantity="one">%d 単語</item>
+        <item quantity="few">%d 単語</item>
+        <item quantity="many">%d 単語</item>
+        <item quantity="other">%d 単語</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">無視した単語を見る (%d)</item>
+        <item quantity="one">無視した単語を見る (%d)</item>
+        <item quantity="few">無視した単語を見る (%d)</item>
+        <item quantity="many">無視した単語を見る (%d)</item>
+        <item quantity="other">無視した単語を見る (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">無視した単語を見る ()</item>
+        <item quantity="one">無視した単語を見る ()</item>
+        <item quantity="few">無視した単語を見る ()</item>
+        <item quantity="many">無視した単語を見る ()</item>
+        <item quantity="other">無視した単語を見る ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="zero">キャンペーンは%s日後まで</item>
+        <item quantity="other">キャンペーンは%s日後まで</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s日</item>
+        <item quantity="other">%s日</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"%s
+覚えた単語数"</item>
+        <item quantity="other">"%s
+覚えた単語数"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">単語を学習済みとしてマークします。</item>
+        <item quantity="one">単語を学習済みとしてマークします。</item>
+        <item quantity="few">単語を学習済みとしてマークします。</item>
+        <item quantity="many">単語を学習済みとしてマークします。</item>
+        <item quantity="other">単語を学習済みとしてマークします。</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold> 日</item>
+        <item quantity="few">&lt;bold>&lt;/bold> 日</item>
+        <item quantity="many">&lt;bold>&lt;/bold> 日</item>
+        <item quantity="other">&lt;bold>&lt;/bold> 日</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="zero">分</item>
+        <item quantity="other">分</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="other">動画を%d個見よう</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">単語＆フレーズ 語</item>
+        <item quantity="one">単語＆フレーズ 語</item>
+        <item quantity="few">単語＆フレーズ 語</item>
+        <item quantity="many">単語＆フレーズ 語</item>
+        <item quantity="other">単語＆フレーズ 語</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">単語＆フレーズ %d語</item>
+        <item quantity="one">単語＆フレーズ %d語</item>
+        <item quantity="few">単語＆フレーズ %d語</item>
+        <item quantity="many">単語＆フレーズ %d語</item>
+        <item quantity="other">単語＆フレーズ %d語</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">単語</item>
+        <item quantity="one">単語</item>
+        <item quantity="few">単語</item>
+        <item quantity="many">単語</item>
+        <item quantity="other">単語</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d 単語</item>
+        <item quantity="one">%d 単語</item>
+        <item quantity="few">%d 単語</item>
+        <item quantity="many">%d 単語</item>
+        <item quantity="other">%d 単語</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">学ぶ単語 語</item>
+        <item quantity="one">学ぶ単語 語</item>
+        <item quantity="few">学ぶ単語 語</item>
+        <item quantity="many">学ぶ単語 語</item>
+        <item quantity="other">学ぶ単語 語</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">学ぶ単語 %d 語</item>
+        <item quantity="one">学ぶ単語 %d 語</item>
+        <item quantity="few">学ぶ単語 %d 語</item>
+        <item quantity="many">学ぶ単語 %d 語</item>
+        <item quantity="other">学ぶ単語 %d 語</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">回</item>
+        <item quantity="one">回</item>
+        <item quantity="few">回</item>
+        <item quantity="many">回</item>
+        <item quantity="other">回</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">%d 回</item>
+        <item quantity="one">%d 回</item>
+        <item quantity="few">%d 回</item>
+        <item quantity="many">%d 回</item>
+        <item quantity="other">%d 回</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">回</item>
+        <item quantity="one">回</item>
+        <item quantity="few">回</item>
+        <item quantity="many">回</item>
+        <item quantity="other">回</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">%d 回</item>
+        <item quantity="one">%d 回</item>
+        <item quantity="few">%d 回</item>
+        <item quantity="many">%d 回</item>
+        <item quantity="other">%d 回</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- 本の動画</item>
+        <item quantity="one">- 本の動画</item>
+        <item quantity="few">- 本の動画</item>
+        <item quantity="many">- 本の動画</item>
+        <item quantity="other">- 本の動画</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d 本の動画</item>
+        <item quantity="one">- %d 本の動画</item>
+        <item quantity="few">- %d 本の動画</item>
+        <item quantity="many">- %d 本の動画</item>
+        <item quantity="other">- %d 本の動画</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">個のテストに正解</item>
+        <item quantity="one">個のテストに正解</item>
+        <item quantity="few">個のテストに正解</item>
+        <item quantity="many">個のテストに正解</item>
+        <item quantity="other">個のテストに正解</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">%d 個のテストに正解</item>
+        <item quantity="one">%d 個のテストに正解</item>
+        <item quantity="few">%d 個のテストに正解</item>
+        <item quantity="many">%d 個のテストに正解</item>
+        <item quantity="other">%d 個のテストに正解</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">回</item>
+        <item quantity="one">回</item>
+        <item quantity="few">回</item>
+        <item quantity="many">回</item>
+        <item quantity="other">回</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">%d 回</item>
+        <item quantity="one">%d 回</item>
+        <item quantity="few">%d 回</item>
+        <item quantity="many">%d 回</item>
+        <item quantity="other">%d 回</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">回</item>
+        <item quantity="one">回</item>
+        <item quantity="few">回</item>
+        <item quantity="many">回</item>
+        <item quantity="other">回</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">%d 回</item>
+        <item quantity="one">%d 回</item>
+        <item quantity="few">%d 回</item>
+        <item quantity="many">%d 回</item>
+        <item quantity="other">%d 回</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- 個の会話</item>
+        <item quantity="one">- 個の会話</item>
+        <item quantity="few">- 個の会話</item>
+        <item quantity="many">- 個の会話</item>
+        <item quantity="other">- 個の会話</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d 個の会話</item>
+        <item quantity="one">- %d 個の会話</item>
+        <item quantity="few">- %d 個の会話</item>
+        <item quantity="many">- %d 個の会話</item>
+        <item quantity="other">- %d 個の会話</item>
+    </plurals>
+</resources>

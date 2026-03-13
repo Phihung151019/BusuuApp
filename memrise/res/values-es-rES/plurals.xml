@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">palabra aprendida</item>
+        <item quantity="few">palabras aprendidas</item>
+        <item quantity="many">palabras aprendidas</item>
+        <item quantity="other">palabras aprendidas</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">palabra más para alcanzar el objetivo de hoy</item>
+        <item quantity="few">palabras más para alcanzar el objetivo de hoy</item>
+        <item quantity="many">palabras más para alcanzar el objetivo de hoy</item>
+        <item quantity="other">palabras más para alcanzar el objetivo de hoy</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">palabra difícil</item>
+        <item quantity="few">palabras difíciles</item>
+        <item quantity="many">palabras difíciles</item>
+        <item quantity="other">palabras difíciles</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">conversación con el chatbot</item>
+        <item quantity="few">conversaciones con el chatbot</item>
+        <item quantity="many">conversaciones con el chatbot</item>
+        <item quantity="other">conversaciones con el chatbot</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">vídeo para hacer oído</item>
+        <item quantity="few">vídeos para hacer oído</item>
+        <item quantity="many">vídeos para hacer oído</item>
+        <item quantity="other">vídeos para hacer oído</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="one">¡%s día!</item>
+        <item quantity="other">¡%s días seguidos!</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="one">¡%d día!</item>
+        <item quantity="other">%d días seguidos</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">mes GRATIS</item>
+        <item quantity="few">meses GRATIS</item>
+        <item quantity="many">meses GRATIS</item>
+        <item quantity="other">meses GRATIS</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">Primer mes GRATIS</item>
+        <item quantity="few">Primeros meses GRATIS</item>
+        <item quantity="many">Primeros meses GRATIS</item>
+        <item quantity="other">Primeros meses GRATIS</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">Primer mes GRATIS</item>
+        <item quantity="few">Primeros meses GRATIS</item>
+        <item quantity="many">Primeros meses GRATIS</item>
+        <item quantity="other">Primeros meses GRATIS</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">mes por adelantado</item>
+        <item quantity="few">meses por adelantado</item>
+        <item quantity="many">meses por adelantado</item>
+        <item quantity="other">meses por adelantado</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">mes por adelantado</item>
+        <item quantity="few">meses por adelantado</item>
+        <item quantity="many">meses por adelantado</item>
+        <item quantity="other">meses por adelantado</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">mes por adelantado</item>
+        <item quantity="few">meses por adelantado</item>
+        <item quantity="many">meses por adelantado</item>
+        <item quantity="other">meses por adelantado</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">mes. Después, el precio completo.</item>
+        <item quantity="few">meses. Después, el precio completo.</item>
+        <item quantity="many">meses. Después, el precio completo.</item>
+        <item quantity="other">meses. Después, el precio completo.</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">Por el primer mes. Después, el precio completo.</item>
+        <item quantity="few">Durante meses. Después, el precio completo.</item>
+        <item quantity="many">Durante meses. Después, el precio completo.</item>
+        <item quantity="other">Durante meses. Después, el precio completo.</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">Por el primer mes. Después, el precio completo.</item>
+        <item quantity="few">Durante meses. Después, el precio completo.</item>
+        <item quantity="many">Durante meses. Después, el precio completo.</item>
+        <item quantity="other">Durante meses. Después, el precio completo.</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="one">"¡TACHÁN!
+Has logrado %d pista"</item>
+        <item quantity="other">"¡TACHÁN!
+Has logrado %d pistas"</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="one">%s día</item>
+        <item quantity="other">%s días seguidos</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="zero">Ver %d minutos de vídeos</item>
+        <item quantity="one">Ver %d minuto de vídeos</item>
+        <item quantity="other">Ver %d minutos de vídeos</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">minutos aprendiendo</item>
+        <item quantity="one">minuto aprendiendo</item>
+        <item quantity="other">minutos aprendiendo</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">palabras nuevas</item>
+        <item quantity="one">palabra nueva</item>
+        <item quantity="other">palabras nuevas</item>
+    </plurals>
+    <plurals name="ignoredWords_title_mobile">
+        <item quantity="zero">Palabras ignoradas (%d)</item>
+        <item quantity="one">Palabra ignorada (%d)</item>
+        <item quantity="few">Palabras ignoradas (%d)</item>
+        <item quantity="many">Palabras ignoradas (%d)</item>
+        <item quantity="other">Palabras ignoradas (%d)</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">Palabras ignoradas ()</item>
+        <item quantity="one">Palabra ignorada ()</item>
+        <item quantity="few">Palabras ignoradas ()</item>
+        <item quantity="many">Palabras ignoradas ()</item>
+        <item quantity="other">Palabras ignoradas ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web">
+        <item quantity="one">palabra conocida</item>
+        <item quantity="few">palabras conocidas</item>
+        <item quantity="many">palabras conocidas</item>
+        <item quantity="other">palabras conocidas</item>
+    </plurals>
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="one">palabra</item>
+        <item quantity="other">palabras</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">palabras</item>
+        <item quantity="one">palabra</item>
+        <item quantity="few">palabras</item>
+        <item quantity="many">palabras</item>
+        <item quantity="other">palabras</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d palabras</item>
+        <item quantity="one">%d palabra</item>
+        <item quantity="few">%d palabras</item>
+        <item quantity="many">%d palabras</item>
+        <item quantity="other">%d palabras</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">Ver palabras ignoradas (%d)</item>
+        <item quantity="one">Ver palabra ignorada (%d)</item>
+        <item quantity="many">Ver palabras ignoradas (%d)</item>
+        <item quantity="other">Ver palabras ignoradas (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">Ver palabras ignoradas ()</item>
+        <item quantity="one">Ver palabra ignorada ()</item>
+        <item quantity="few">Ver palabras ignoradas ()</item>
+        <item quantity="many">Ver palabras ignoradas ()</item>
+        <item quantity="other">Ver palabras ignoradas ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="zero">La oferta termina en %s día</item>
+        <item quantity="other">La oferta termina en %s días</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s días</item>
+        <item quantity="one">%s día</item>
+        <item quantity="other">%s días</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"%s 
+aprendidas"</item>
+        <item quantity="one">"%s 
+aprendidas"</item>
+        <item quantity="other">"%s 
+aprendidas"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">palabras aprendidas.</item>
+        <item quantity="one">palabra aprendida.</item>
+        <item quantity="few">palabras aprendidas.</item>
+        <item quantity="many">palabras aprendidas.</item>
+        <item quantity="other">palabras aprendidas.</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold> día</item>
+        <item quantity="few">&lt;bold>&lt;/bold> días</item>
+        <item quantity="many">&lt;bold>&lt;/bold> días</item>
+        <item quantity="other">&lt;bold>&lt;/bold> días</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="zero">mins</item>
+        <item quantity="one">min</item>
+        <item quantity="other">mins</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="zero">Ver %d vídeos</item>
+        <item quantity="one">Ver %d vídeo</item>
+        <item quantity="other">Ver %d vídeos</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">palabras y frases</item>
+        <item quantity="one">palabra o frase</item>
+        <item quantity="few">palabras y frases</item>
+        <item quantity="many">palabras y frases</item>
+        <item quantity="other">palabras y frases</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">%d palabras y frases</item>
+        <item quantity="one">%d palabra o frase</item>
+        <item quantity="few">%d palabras y frases</item>
+        <item quantity="many">%d palabras y frases</item>
+        <item quantity="other">%d palabras y frases</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">palabras</item>
+        <item quantity="one">palabra</item>
+        <item quantity="few">palabras</item>
+        <item quantity="many">palabras</item>
+        <item quantity="other">palabras</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d palabras</item>
+        <item quantity="one">%d palabra</item>
+        <item quantity="few">%d palabras</item>
+        <item quantity="many">%d palabras</item>
+        <item quantity="other">%d palabras</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">palabras que aprender</item>
+        <item quantity="one">palabra que aprender</item>
+        <item quantity="few">palabras que aprender</item>
+        <item quantity="many">palabras que aprender</item>
+        <item quantity="other">palabras que aprender</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">%d palabras que aprender</item>
+        <item quantity="one">%d palabra que aprender</item>
+        <item quantity="few">%d palabras que aprender</item>
+        <item quantity="many">%d palabras que aprender</item>
+        <item quantity="other">%d palabras que aprender</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">vídeos</item>
+        <item quantity="one">vídeo</item>
+        <item quantity="few">vídeos</item>
+        <item quantity="many">vídeos</item>
+        <item quantity="other">vídeos</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">%d vídeos</item>
+        <item quantity="one">%d vídeo</item>
+        <item quantity="few">%d vídeos</item>
+        <item quantity="many">%d vídeos</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">veces</item>
+        <item quantity="one">vez</item>
+        <item quantity="few">veces</item>
+        <item quantity="many">veces</item>
+        <item quantity="other">veces</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">%d veces</item>
+        <item quantity="one">%d vez</item>
+        <item quantity="few">%d veces</item>
+        <item quantity="many">%d veces</item>
+        <item quantity="other">%d veces</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- vídeos</item>
+        <item quantity="one">- vídeo</item>
+        <item quantity="few">- vídeos</item>
+        <item quantity="many">- vídeos</item>
+        <item quantity="other">- vídeos</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d vídeos</item>
+        <item quantity="one">- %d vídeo</item>
+        <item quantity="few">- %d vídeos</item>
+        <item quantity="many">- %d vídeos</item>
+        <item quantity="other">- %d vídeos</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">aciertos en pruebas</item>
+        <item quantity="one">acierto en pruebas</item>
+        <item quantity="few">aciertos en pruebas</item>
+        <item quantity="many">aciertos en pruebas</item>
+        <item quantity="other">aciertos en pruebas</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">%d aciertos en pruebas</item>
+        <item quantity="one">%d acierto en pruebas</item>
+        <item quantity="few">%d aciertos en pruebas</item>
+        <item quantity="many">%d aciertos en pruebas</item>
+        <item quantity="other">%d aciertos en pruebas</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">conversaciones</item>
+        <item quantity="one">conversación</item>
+        <item quantity="few">conversaciones</item>
+        <item quantity="many">conversaciones</item>
+        <item quantity="other">conversaciones</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">%d conversaciones</item>
+        <item quantity="one">%d conversación</item>
+        <item quantity="few">%d conversaciones</item>
+        <item quantity="many">%d conversaciones</item>
+        <item quantity="other">%d conversaciones</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">veces</item>
+        <item quantity="one">vez</item>
+        <item quantity="few">veces</item>
+        <item quantity="many">veces</item>
+        <item quantity="other">veces</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">%d veces</item>
+        <item quantity="one">%d vez</item>
+        <item quantity="few">%d veces</item>
+        <item quantity="many">%d veces</item>
+        <item quantity="other">%d veces</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- conversaciones</item>
+        <item quantity="one">- conversación</item>
+        <item quantity="few">- conversaciones</item>
+        <item quantity="many">- conversaciones</item>
+        <item quantity="other">- conversaciones</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d conversaciones</item>
+        <item quantity="one">- %d conversación</item>
+        <item quantity="few">- %d conversaciones</item>
+        <item quantity="many">- %d conversaciones</item>
+        <item quantity="other">- %d conversaciones</item>
+    </plurals>
+</resources>

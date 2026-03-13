@@ -258,6 +258,8 @@
     const-string v0, "it"
 
     invoke-static {p1, v0}, LCm/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    
+    goto :cond_8
 
     instance-of p1, v3, LQc/e$b;
 
@@ -395,11 +397,48 @@
     return-object p1
 
     :cond_8
-    new-instance p1, Lkotlin/NoWhenBranchMatchedException;
+    check-cast v3, LQc/e$a;
 
-    invoke-direct {p1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    iget-object p1, v3, LQc/e$a;->b:Landroid/content/Intent;
 
-    throw p1
+    :try_start_1
+    invoke-virtual {v2}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/content/Intent;->resolveActivity(Landroid/content/pm/PackageManager;)Landroid/content/ComponentName;
+
+    move-result-object v0
+
+    invoke-static {v2, v0}, LQ1/k;->c(Landroid/content/Context;Landroid/content/ComponentName;)Ljava/lang/String;
+
+    move-result-object v0
+    :try_end_1
+    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_1 .. :try_end_1} :catch_1
+
+    if-eqz v0, :cond_7
+
+    new-instance v0, LQ1/D;
+
+    invoke-direct {v0, v2}, LQ1/D;-><init>(Landroid/content/Context;)V
+
+    invoke-virtual {v0, p1}, LQ1/D;->c(Landroid/content/Intent;)V
+
+    invoke-virtual {v0}, LQ1/D;->e()V
+
+    goto :goto_1
+
+    :catch_1
+    :cond_7
+    invoke-virtual {v2, p1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+
+    :goto_1
+    invoke-virtual {v2}, Landroid/app/Activity;->finish()V
+
+    :goto_2
+    sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    return-object p1
 
     :pswitch_1
     check-cast v3, LDk/d;

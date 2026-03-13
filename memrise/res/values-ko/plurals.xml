@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">이전에 배운 단어 개</item>
+        <item quantity="few">이전에 배운 단어 개</item>
+        <item quantity="many">이전에 배운 단어 개</item>
+        <item quantity="other">이전에 배운 단어 개</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">오늘의 단어 학습 목표단어 수를 달성하기 위해 개 더</item>
+        <item quantity="few">오늘의 단어 학습 목표단어 수를 달성하기 위해 개 더</item>
+        <item quantity="many">오늘의 단어 학습 목표단어 수를 달성하기 위해 개 더</item>
+        <item quantity="other">오늘의 단어 학습 목표단어 수를 달성하기 위해 개 더</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">나의 어려운 단어 개</item>
+        <item quantity="few">나의 어려운 단어 개</item>
+        <item quantity="many">나의 어려운 단어 개</item>
+        <item quantity="other">나의 어려운 단어 개</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">멤라이즈 AI 챗봇과 대화 개</item>
+        <item quantity="few">멤라이즈 AI 챗봇과 대화 개</item>
+        <item quantity="many">멤라이즈 AI 챗봇과 대화 개</item>
+        <item quantity="other">멤라이즈 AI 챗봇과 대화 개</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">언어에 몰입하기 위해 영상 개</item>
+        <item quantity="few">언어에 몰입하기 위해 영상 개</item>
+        <item quantity="many">언어에 몰입하기 위해 영상 개</item>
+        <item quantity="other">언어에 몰입하기 위해 영상 개</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="other">%s 일 연속!</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="other">%d 일 연속</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">달 무료</item>
+        <item quantity="few">달 무료</item>
+        <item quantity="many">달 무료</item>
+        <item quantity="other">달 무료</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">첫 개월 무료</item>
+        <item quantity="few">첫 개월 무료</item>
+        <item quantity="many">첫 개월 무료</item>
+        <item quantity="other">첫 개월 무료</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">첫 %d개월 무료</item>
+        <item quantity="few">첫 %d개월 무료</item>
+        <item quantity="many">첫 %d개월 무료</item>
+        <item quantity="other">첫 %d개월 무료</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">달 선결제</item>
+        <item quantity="few">달 선결제</item>
+        <item quantity="many">달 선결제</item>
+        <item quantity="other">달 선결제</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">개월 선결제</item>
+        <item quantity="few">개월 선결제</item>
+        <item quantity="many">개월 선결제</item>
+        <item quantity="other">개월 선결제</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">%d개월 선결제</item>
+        <item quantity="few">%d개월 선결제</item>
+        <item quantity="many">%d개월 선결제</item>
+        <item quantity="other">%d개월 선결제</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">달, 이후 정가</item>
+        <item quantity="few">달, 이후 정가</item>
+        <item quantity="many">달, 이후 정가</item>
+        <item quantity="other">달, 이후 정가</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">첫 개월, 이후 정가</item>
+        <item quantity="few">첫 개월, 이후 정가</item>
+        <item quantity="many">첫 개월, 이후 정가</item>
+        <item quantity="other">첫 개월, 이후 정가</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">첫 %d개월, 이후 정가</item>
+        <item quantity="few">첫 %d개월, 이후 정가</item>
+        <item quantity="many">첫 %d개월, 이후 정가</item>
+        <item quantity="other">첫 %d개월, 이후 정가</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="other">"수리수리 마수리!
+%d힌트를 얻었어요"</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d초 빨리 감기</item>
+        <item quantity="other">%d초 빨리 감기</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d초 되감기</item>
+        <item quantity="other">%d초 되감기</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="other">%s-일 연속!</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="zero">%d분 분량의 포스트 보기</item>
+        <item quantity="other">%d분 분량의 포스트 보기</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">분 동안 학습했어요</item>
+        <item quantity="other">분 동안 학습했어요</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">새로운 단어 수</item>
+        <item quantity="other">새로운 단어 수</item>
+    </plurals>
+    <plurals name="ignoredWords_title_mobile">
+        <item quantity="zero">무시된 단어 (%d)</item>
+        <item quantity="one">무시된 단어 (%d)</item>
+        <item quantity="few">무시된 단어 (%d)</item>
+        <item quantity="many">무시된 단어 (%d)</item>
+        <item quantity="other">무시된 단어 (%d)</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">무시된 단어 ()</item>
+        <item quantity="one">무시된 단어 ()</item>
+        <item quantity="few">무시된 단어 ()</item>
+        <item quantity="many">무시된 단어 ()</item>
+        <item quantity="other">무시된 단어 ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web" />
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="other">단어</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">단어</item>
+        <item quantity="one">단어</item>
+        <item quantity="few">단어</item>
+        <item quantity="many">단어</item>
+        <item quantity="other">단어</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d 단어</item>
+        <item quantity="one">%d 단어</item>
+        <item quantity="few">%d 단어</item>
+        <item quantity="many">%d 단어</item>
+        <item quantity="other">%d 단어</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">무시된 단어 보기 (%d)</item>
+        <item quantity="one">무시된 단어 보기 (%d)</item>
+        <item quantity="few">무시된 단어 보기 (%d)</item>
+        <item quantity="many">무시된 단어 보기 (%d)</item>
+        <item quantity="other">무시된 단어 보기 (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">무시된 단어 보기 ()</item>
+        <item quantity="one">무시된 단어 보기 ()</item>
+        <item quantity="few">무시된 단어 보기 ()</item>
+        <item quantity="many">무시된 단어 보기 ()</item>
+        <item quantity="other">무시된 단어 보기 ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="zero">특별할인가 제공은 %s일 동안만</item>
+        <item quantity="other">특별할인가 제공은 %s일 동안만</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s 일</item>
+        <item quantity="other">%s 일</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"%s 
+학습된 단어"</item>
+        <item quantity="other">"%s 
+학습된 단어"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">개 단어 학습.</item>
+        <item quantity="one">개 단어 학습.</item>
+        <item quantity="few">개 단어 학습.</item>
+        <item quantity="many">개 단어 학습.</item>
+        <item quantity="other">개 단어 학습.</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold>일</item>
+        <item quantity="few">&lt;bold>&lt;/bold>일</item>
+        <item quantity="many">&lt;bold>&lt;/bold>일</item>
+        <item quantity="other">&lt;bold>&lt;/bold>일</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="zero">분</item>
+        <item quantity="other">분</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="zero">%d개 포스트 보기</item>
+        <item quantity="other">%d개 포스트 보기</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">단어 및 구문 개</item>
+        <item quantity="one">단어 및 구문 개</item>
+        <item quantity="few">단어 및 구문 개</item>
+        <item quantity="many">단어 및 구문 개</item>
+        <item quantity="other">단어 및 구문 개</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">단어 및 구문 %d개</item>
+        <item quantity="one">단어 및 구문 %d개</item>
+        <item quantity="few">단어 및 구문 %d개</item>
+        <item quantity="many">단어 및 구문 %d개</item>
+        <item quantity="other">단어 및 구문 %d개</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">단어</item>
+        <item quantity="one">단어</item>
+        <item quantity="few">단어</item>
+        <item quantity="many">단어</item>
+        <item quantity="other">단어</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d 단어</item>
+        <item quantity="one">%d 단어</item>
+        <item quantity="few">%d 단어</item>
+        <item quantity="many">%d 단어</item>
+        <item quantity="other">%d 단어</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">학습할 단어 개</item>
+        <item quantity="one">학습할 단어 개</item>
+        <item quantity="few">학습할 단어 개</item>
+        <item quantity="many">학습할 단어 개</item>
+        <item quantity="other">학습할 단어 개</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">학습할 단어 %d개</item>
+        <item quantity="one">학습할 단어 %d개</item>
+        <item quantity="other">학습할 단어 %d개</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">개의 영상</item>
+        <item quantity="one">개의 영상</item>
+        <item quantity="few">개의 영상</item>
+        <item quantity="many">개의 영상</item>
+        <item quantity="other">개의 영상</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">%d개의 영상</item>
+        <item quantity="one">%d개의 영상</item>
+        <item quantity="few">%d개의 영상</item>
+        <item quantity="many">%d개의 영상</item>
+        <item quantity="other">%d개의 영상</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">번</item>
+        <item quantity="one">번</item>
+        <item quantity="few">번</item>
+        <item quantity="many">번</item>
+        <item quantity="other">번</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">%d 번</item>
+        <item quantity="one">%d 번</item>
+        <item quantity="few">%d 번</item>
+        <item quantity="many">%d 번</item>
+        <item quantity="other">%d 번</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- 개의 영상</item>
+        <item quantity="one">- 개의 영상</item>
+        <item quantity="few">- 개의 영상</item>
+        <item quantity="many">- 개의 영상</item>
+        <item quantity="other">- 개의 영상</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d 개의 영상</item>
+        <item quantity="one">- %d 개의 영상</item>
+        <item quantity="few">- %d 개의 영상</item>
+        <item quantity="many">- %d 개의 영상</item>
+        <item quantity="other">- %d 개의 영상</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">정답 맞춘 시험 개</item>
+        <item quantity="one">정답 맞춘 시험 개</item>
+        <item quantity="few">정답 맞춘 시험 개</item>
+        <item quantity="many">정답 맞춘 시험 개</item>
+        <item quantity="other">정답 맞춘 시험 개</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">정답 맞춘 시험 %d개</item>
+        <item quantity="one">정답 맞춘 시험 %d개</item>
+        <item quantity="few">정답 맞춘 시험 %d개</item>
+        <item quantity="many">정답 맞춘 시험 %d개</item>
+        <item quantity="other">정답 맞춘 시험 %d개</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">개의 대화</item>
+        <item quantity="one">개의 대화</item>
+        <item quantity="few">개의 대화</item>
+        <item quantity="many">개의 대화</item>
+        <item quantity="other">개의 대화</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">%d개의 대화</item>
+        <item quantity="one">%d개의 대화</item>
+        <item quantity="few">%d개의 대화</item>
+        <item quantity="many">%d개의 대화</item>
+        <item quantity="other">%d개의 대화</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">번</item>
+        <item quantity="one">번</item>
+        <item quantity="few">번</item>
+        <item quantity="many">번</item>
+        <item quantity="other">번</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">%d 번</item>
+        <item quantity="one">%d 번</item>
+        <item quantity="few">%d 번</item>
+        <item quantity="many">%d 번</item>
+        <item quantity="other">%d 번</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- 개의 대화</item>
+        <item quantity="one">- 개의 대화</item>
+        <item quantity="few">- 개의 대화</item>
+        <item quantity="many">- 개의 대화</item>
+        <item quantity="other">- 개의 대화</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d 개의 대화</item>
+        <item quantity="one">- %d 개의 대화</item>
+        <item quantity="few">- %d 개의 대화</item>
+        <item quantity="many">- %d 개의 대화</item>
+        <item quantity="other">- %d 개의 대화</item>
+    </plurals>
+</resources>

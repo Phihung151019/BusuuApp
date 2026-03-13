@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">kata-kata yang telah dipelajari</item>
+        <item quantity="few">kata-kata yang telah dipelajari</item>
+        <item quantity="many">kata-kata yang telah dipelajari</item>
+        <item quantity="other">kata-kata yang telah dipelajari</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">kata lagi untuk mencapai target belajar kata hari ini</item>
+        <item quantity="few">kata lagi untuk mencapai target belajar kata hari ini</item>
+        <item quantity="many">kata lagi untuk mencapai target belajar kata hari ini</item>
+        <item quantity="other">kata lagi untuk mencapai target belajar kata hari ini</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">kata-kata sulit</item>
+        <item quantity="few">kata-kata sulit</item>
+        <item quantity="many">kata-kata sulit</item>
+        <item quantity="other">kata-kata sulit</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">percakapan dengan chatbot AI kami</item>
+        <item quantity="few">percakapan dengan chatbot AI kami</item>
+        <item quantity="many">percakapan dengan chatbot AI kami</item>
+        <item quantity="other">percakapan dengan chatbot AI kami</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">video untuk mendalami bahasa ini</item>
+        <item quantity="few">video untuk mendalami bahasa ini</item>
+        <item quantity="many">video untuk mendalami bahasa ini</item>
+        <item quantity="other">video untuk mendalami bahasa ini</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="other">%s hari berturut-turut!</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="other">%d hari berturut-turut</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">bulan</item>
+        <item quantity="few">bulan</item>
+        <item quantity="many">bulan</item>
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">Bulan</item>
+        <item quantity="few">bulan</item>
+        <item quantity="many">bulan</item>
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">Bulan</item>
+        <item quantity="few">bulan</item>
+        <item quantity="many">bulan</item>
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">bulan di muka</item>
+        <item quantity="few">bulan di muka</item>
+        <item quantity="many">bulan di muka</item>
+        <item quantity="other">bulan di muka</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">bulan</item>
+        <item quantity="few">bulan</item>
+        <item quantity="many">bulan</item>
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">bulan</item>
+        <item quantity="few">bulan</item>
+        <item quantity="many">bulan</item>
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">bulan</item>
+        <item quantity="few">bulan</item>
+        <item quantity="many">bulan</item>
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">Bulan</item>
+        <item quantity="few">bulan</item>
+        <item quantity="many">bulan</item>
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">Bulan</item>
+        <item quantity="few">bulan</item>
+        <item quantity="many">bulan</item>
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="other">"SHAZAM!
+Anda mendapatkan %d petunjuk"</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Maju cepat %d detik</item>
+        <item quantity="other">Maju cepat %d detik</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Mundur %d detik</item>
+        <item quantity="other">Mundur %d detik</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="other">%s-hari berturut-turut</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="other">Tonton Pos selama %d menit</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">menit belajar</item>
+        <item quantity="other">menit belajar</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">kata baru</item>
+        <item quantity="other">kata baru</item>
+    </plurals>
+    <plurals name="ignoredWords_title_mobile">
+        <item quantity="zero">Tak ada kata diabaikan (%d)</item>
+        <item quantity="one">Kata diabaikan (%d)</item>
+        <item quantity="few">Kata diabaikan (%d)</item>
+        <item quantity="many">Kata diabaikan (%d)</item>
+        <item quantity="other">Kata diabaikan (%d)</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">Tak ada kata diabaikan ()</item>
+        <item quantity="one">Kata diabaikan ()</item>
+        <item quantity="few">Kata diabaikan ()</item>
+        <item quantity="many">Kata diabaikan ()</item>
+        <item quantity="other">Kata diabaikan ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web" />
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="one">kata</item>
+        <item quantity="other">kata</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">kata</item>
+        <item quantity="one">kata</item>
+        <item quantity="few">kata</item>
+        <item quantity="many">kata</item>
+        <item quantity="other">kata</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d kata</item>
+        <item quantity="one">%d kata</item>
+        <item quantity="few">%d kata</item>
+        <item quantity="many">%d kata</item>
+        <item quantity="other">%d kata</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">Tak ada kata diabaikan (%d)</item>
+        <item quantity="one">Lihat kata diabaikan (%d)</item>
+        <item quantity="few">Lihat kata diabaikan (%d)</item>
+        <item quantity="many">Lihat kata diabaikan (%d)</item>
+        <item quantity="other">Lihat kata diabaikan (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">Tak ada kata diabaikan ()</item>
+        <item quantity="one">Lihat kata diabaikan ()</item>
+        <item quantity="few">Lihat kata diabaikan ()</item>
+        <item quantity="many">Lihat kata diabaikan ()</item>
+        <item quantity="other">Lihat kata diabaikan ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="zero">Penawaran berakhir dalam %s hari</item>
+        <item quantity="other">Penawaran berakhir dalam %s hari</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s hari</item>
+        <item quantity="other">%s hari</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"%s 
+kata dipelajari"</item>
+        <item quantity="other">"%s 
+kata dipelajari"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">kata sudah kamu pelajari.</item>
+        <item quantity="one">kata sudah kamu pelajari.</item>
+        <item quantity="few">kata sudah kamu pelajari.</item>
+        <item quantity="many">kata sudah kamu pelajari.</item>
+        <item quantity="other">kata sudah kamu pelajari.</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold> hari</item>
+        <item quantity="few">&lt;bold>&lt;/bold> hari</item>
+        <item quantity="many">&lt;bold>&lt;/bold> hari</item>
+        <item quantity="other">&lt;bold>&lt;/bold> hari</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="zero">mnt</item>
+        <item quantity="other">mnt</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="zero">Tidak Ada Pos</item>
+        <item quantity="other">Tonton %d Pos</item>
+    </plurals>
+    <plurals name="web_ea_home_practice_card_dw">
+        <item quantity="zero">&lt;bold>&lt;/bold> kata sulit</item>
+        <item quantity="one">&lt;bold>&lt;/bold> kata sulit</item>
+        <item quantity="two">&lt;bold>&lt;/bold> kata-kata sulit</item>
+        <item quantity="few">&lt;bold>&lt;/bold> kata-kata sulit</item>
+        <item quantity="many">&lt;bold>&lt;/bold> kata-kata sulit</item>
+        <item quantity="other">&lt;bold>&lt;/bold> kata-kata sulit</item>
+    </plurals>
+    <plurals name="web_ea_home_practice_card_review">
+        <item quantity="zero">&lt;bold>&lt;/bold> kata untuk dikaji</item>
+        <item quantity="one">&lt;bold>&lt;/bold> kata untuk dikaji</item>
+        <item quantity="two">&lt;bold>&lt;/bold> kata untuk dikaji</item>
+        <item quantity="few">&lt;bold>&lt;/bold> kata untuk dikaji</item>
+        <item quantity="many">&lt;bold>&lt;/bold> kata untuk dikaji</item>
+        <item quantity="other">&lt;bold>&lt;/bold> kata untuk dikaji</item>
+    </plurals>
+    <plurals name="web_ea_home_upsell_unlock_in_tl">
+        <item quantity="zero">&lt;bold> situasi premium&lt;/bold></item>
+        <item quantity="one">&lt;bold> situasi premium&lt;/bold></item>
+        <item quantity="two">&lt;bold> situasi premium&lt;/bold></item>
+        <item quantity="few">&lt;bold> situasi premium&lt;/bold></item>
+        <item quantity="many">&lt;bold> situasi premium&lt;/bold></item>
+        <item quantity="other">&lt;bold> situasi premium&lt;/bold></item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">Kata dan Frasa</item>
+        <item quantity="one">Kata dan Frasa</item>
+        <item quantity="few">Kata dan Frasa</item>
+        <item quantity="many">Kata dan Frasa</item>
+        <item quantity="other">Kata dan Frasa</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">%d Kata dan Frasa</item>
+        <item quantity="one">%d Kata dan Frasa</item>
+        <item quantity="few">%d Kata dan Frasa</item>
+        <item quantity="many">%d Kata dan Frasa</item>
+        <item quantity="other">%d Kata dan Frasa</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">kata</item>
+        <item quantity="one">kata</item>
+        <item quantity="few">kata</item>
+        <item quantity="many">kata</item>
+        <item quantity="other">kata</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d kata</item>
+        <item quantity="one">%d kata</item>
+        <item quantity="few">%d kata</item>
+        <item quantity="many">%d kata</item>
+        <item quantity="other">%d kata</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">pelajari kata</item>
+        <item quantity="one">pelajari kata</item>
+        <item quantity="few">pelajari kata</item>
+        <item quantity="many">pelajari kata</item>
+        <item quantity="other">pelajari kata</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">pelajari %d kata</item>
+        <item quantity="one">pelajari %d kata</item>
+        <item quantity="few">pelajari %d kata</item>
+        <item quantity="many">pelajari %d kata</item>
+        <item quantity="other">pelajari %d kata</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">video</item>
+        <item quantity="one">video</item>
+        <item quantity="few">video</item>
+        <item quantity="many">video</item>
+        <item quantity="other">video</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">video</item>
+        <item quantity="one">video</item>
+        <item quantity="few">video</item>
+        <item quantity="many">video</item>
+        <item quantity="other">video</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">kali</item>
+        <item quantity="one">kali</item>
+        <item quantity="few">kali</item>
+        <item quantity="many">kali</item>
+        <item quantity="other">kali</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">%d kali</item>
+        <item quantity="one">%d kali</item>
+        <item quantity="few">%d kali</item>
+        <item quantity="many">%d kali</item>
+        <item quantity="other">%d kali</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- video</item>
+        <item quantity="one">- video</item>
+        <item quantity="few">- video</item>
+        <item quantity="many">- video</item>
+        <item quantity="other">- video</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d video</item>
+        <item quantity="one">- %d video</item>
+        <item quantity="few">- %d video</item>
+        <item quantity="many">- %d video</item>
+        <item quantity="other">- %d video</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">tes yang benar</item>
+        <item quantity="one">tes yang benar</item>
+        <item quantity="few">tes yang benar</item>
+        <item quantity="many">tes yang benar</item>
+        <item quantity="other">tes yang benar</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">tes yang benar</item>
+        <item quantity="one">tes yang benar</item>
+        <item quantity="few">tes yang benar</item>
+        <item quantity="many">tes yang benar</item>
+        <item quantity="other">tes yang benar</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">percakapan</item>
+        <item quantity="one">percakapan</item>
+        <item quantity="few">percakapan</item>
+        <item quantity="many">percakapan</item>
+        <item quantity="other">percakapan</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">percakapan</item>
+        <item quantity="one">percakapan</item>
+        <item quantity="few">percakapan</item>
+        <item quantity="many">percakapan</item>
+        <item quantity="other">percakapan</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">kali</item>
+        <item quantity="one">kali</item>
+        <item quantity="few">kali</item>
+        <item quantity="many">kali</item>
+        <item quantity="other">kali</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">%d kali</item>
+        <item quantity="one">%d kali</item>
+        <item quantity="few">%d kali</item>
+        <item quantity="many">%d kali</item>
+        <item quantity="other">%d kali</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- percakapan</item>
+        <item quantity="one">- percakapan</item>
+        <item quantity="few">- percakapan</item>
+        <item quantity="many">- percakapan</item>
+        <item quantity="other">- percakapan</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d percakapan</item>
+        <item quantity="one">- %d percakapan</item>
+        <item quantity="few">- %d percakapan</item>
+        <item quantity="many">- %d percakapan</item>
+        <item quantity="other">- %d percakapan</item>
+    </plurals>
+</resources>

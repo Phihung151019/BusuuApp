@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">之前學過的單詞</item>
+        <item quantity="few">之前學過的單詞</item>
+        <item quantity="many">之前學過的單詞</item>
+        <item quantity="other">之前學過的單詞</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">更多單詞以達到今日學習目標</item>
+        <item quantity="few">更多單詞以達到今日學習目標</item>
+        <item quantity="many">更多單詞以達到今日學習目標</item>
+        <item quantity="other">更多單詞以達到今日學習目標</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">你的難點單詞</item>
+        <item quantity="few">你的難點單詞</item>
+        <item quantity="many">你的難點單詞</item>
+        <item quantity="other">你的難點單詞</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">與我們AI聊天機器人的交談</item>
+        <item quantity="few">與我們AI聊天機器人的交談</item>
+        <item quantity="many">與我們AI聊天機器人的交談</item>
+        <item quantity="other">與我們AI聊天機器人的交談</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">沈浸式語言視頻</item>
+        <item quantity="few">沈浸式語言視頻</item>
+        <item quantity="many">沈浸式語言視頻</item>
+        <item quantity="other">沈浸式語言視頻</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="other">%s天連續達標！</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="other">%d天連續達標</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">個月免費</item>
+        <item quantity="few">個月免費</item>
+        <item quantity="many">個月免費</item>
+        <item quantity="other">個月免費</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">個月免費</item>
+        <item quantity="few">個月免費</item>
+        <item quantity="many">個月免費</item>
+        <item quantity="other">個月免費</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">%d 個月免費</item>
+        <item quantity="few">%d 個月免費</item>
+        <item quantity="many">%d 個月免費</item>
+        <item quantity="other">%d 個月免費</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">個月費用</item>
+        <item quantity="few">個月費用</item>
+        <item quantity="many">個月費用</item>
+        <item quantity="other">個月費用</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">個月費用</item>
+        <item quantity="few">個月費用</item>
+        <item quantity="many">個月費用</item>
+        <item quantity="other">個月費用</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">%d 個月費用</item>
+        <item quantity="few">%d 個月費用</item>
+        <item quantity="many">%d 個月費用</item>
+        <item quantity="other">%d 個月費用</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">個月，隨後全額</item>
+        <item quantity="few">個月，隨後全額</item>
+        <item quantity="many">個月，隨後全額</item>
+        <item quantity="other">個月，隨後全額</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">個月，隨後全額</item>
+        <item quantity="few">個月，隨後全額</item>
+        <item quantity="many">個月，隨後全額</item>
+        <item quantity="other">個月，隨後全額</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">%d 個月，隨後全額</item>
+        <item quantity="few">%d 個月，隨後全額</item>
+        <item quantity="many">%d 個月，隨後全額</item>
+        <item quantity="other">%d 個月，隨後全額</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="other">"啊!
+你獲得了 %d 提示"</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">快轉 %d 秒</item>
+        <item quantity="other">快轉 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">倒轉 %d 秒</item>
+        <item quantity="other">倒轉 %d 秒</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="other">%s-天連續達標</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="other">觀看%d分鍾視頻</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">分鍾學習時間</item>
+        <item quantity="other">分鍾學習時間</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">个新單字</item>
+        <item quantity="other">个新單字</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">個跳過的單字 ()</item>
+        <item quantity="one">個跳過的單字 ()</item>
+        <item quantity="few">個跳過的單字 ()</item>
+        <item quantity="many">個跳過的單字 ()</item>
+        <item quantity="other">個跳過的單字 ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web">
+        <item quantity="one">已學單字</item>
+        <item quantity="few">已學單字</item>
+        <item quantity="many">已學單字</item>
+        <item quantity="other">已學單字</item>
+    </plurals>
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="other">個詞</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">個單字</item>
+        <item quantity="one">個單字</item>
+        <item quantity="few">個單字</item>
+        <item quantity="many">個單字</item>
+        <item quantity="other">個單字</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d 個單字</item>
+        <item quantity="one">%d 個單字</item>
+        <item quantity="few">%d 個單字</item>
+        <item quantity="many">%d 個單字</item>
+        <item quantity="other">%d 個單字</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">次瀏覽跳過的單字 (%d)</item>
+        <item quantity="one">次瀏覽跳過的單字 (%d)</item>
+        <item quantity="few">次瀏覽跳過的單字 (%d)</item>
+        <item quantity="many">次瀏覽跳過的單字 (%d)</item>
+        <item quantity="other">次瀏覽跳過的單字 (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">次瀏覽跳過的單字 ()</item>
+        <item quantity="one">次瀏覽跳過的單字 ()</item>
+        <item quantity="few">次瀏覽跳過的單字 ()</item>
+        <item quantity="many">次瀏覽跳過的單字 ()</item>
+        <item quantity="other">次瀏覽跳過的單字 ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="zero">優惠將於%s內截止</item>
+        <item quantity="other">優惠將於%s內截止</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s天</item>
+        <item quantity="other">%s天</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"%s 
+個已學單字"</item>
+        <item quantity="other">"%s 
+個已學單字"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">已學單詞</item>
+        <item quantity="one">已學單詞</item>
+        <item quantity="few">已學單詞</item>
+        <item quantity="many">已學單詞</item>
+        <item quantity="other">已學單詞</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold> 天</item>
+        <item quantity="few">&lt;bold>&lt;/bold> 天</item>
+        <item quantity="many">&lt;bold>&lt;/bold> 天</item>
+        <item quantity="other">&lt;bold>&lt;/bold> 天</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="zero">分鐘</item>
+        <item quantity="other">分鐘</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="other">觀看%d個視頻</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">個單字和片語</item>
+        <item quantity="one">個單字和片語</item>
+        <item quantity="few">個單字和片語</item>
+        <item quantity="many">個單字和片語</item>
+        <item quantity="other">個單字和片語</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">%d 個單字和片語</item>
+        <item quantity="one">%d 個單字和片語</item>
+        <item quantity="few">%d 個單字和片語</item>
+        <item quantity="many">%d 個單字和片語</item>
+        <item quantity="other">%d 個單字和片語</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">個單字</item>
+        <item quantity="one">個單字</item>
+        <item quantity="few">個單字</item>
+        <item quantity="many">個單字</item>
+        <item quantity="other">個單字</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d 個單字</item>
+        <item quantity="one">%d 個單字</item>
+        <item quantity="few">%d 個單字</item>
+        <item quantity="many">%d 個單字</item>
+        <item quantity="other">%d 個單字</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">個要學習的單字</item>
+        <item quantity="one">個要學習的單字</item>
+        <item quantity="few">個要學習的單字</item>
+        <item quantity="many">個要學習的單字</item>
+        <item quantity="other">個要學習的單字</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">%d 個要學習的單字</item>
+        <item quantity="one">%d 個要學習的單字</item>
+        <item quantity="few">%d 個要學習的單字</item>
+        <item quantity="many">%d 個要學習的單字</item>
+        <item quantity="other">%d 個要學習的單字</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">支影片</item>
+        <item quantity="one">支影片</item>
+        <item quantity="few">支影片</item>
+        <item quantity="many">支影片</item>
+        <item quantity="other">支影片</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">%d 支影片</item>
+        <item quantity="one">%d 支影片</item>
+        <item quantity="few">%d 支影片</item>
+        <item quantity="many">%d 支影片</item>
+        <item quantity="other">%d 支影片</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">次</item>
+        <item quantity="one">次</item>
+        <item quantity="few">次</item>
+        <item quantity="many">次</item>
+        <item quantity="other">次</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">%d 次</item>
+        <item quantity="one">%d 次</item>
+        <item quantity="few">%d 次</item>
+        <item quantity="many">%d 次</item>
+        <item quantity="other">%d 次</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- 支影片</item>
+        <item quantity="one">- 支影片</item>
+        <item quantity="few">- 支影片</item>
+        <item quantity="many">- 支影片</item>
+        <item quantity="other">- 支影片</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d 支影片</item>
+        <item quantity="one">- %d 支影片</item>
+        <item quantity="few">- %d 支影片</item>
+        <item quantity="many">- %d 支影片</item>
+        <item quantity="other">- %d 支影片</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">個測驗題</item>
+        <item quantity="one">個測驗題</item>
+        <item quantity="few">個測驗題</item>
+        <item quantity="many">個測驗題</item>
+        <item quantity="other">個測驗題</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">%d 個測驗題</item>
+        <item quantity="one">%d 個測驗題</item>
+        <item quantity="few">%d 個測驗題</item>
+        <item quantity="many">%d 個測驗題</item>
+        <item quantity="other">%d 個測驗題</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">個對話</item>
+        <item quantity="one">個對話</item>
+        <item quantity="few">個對話</item>
+        <item quantity="many">個對話</item>
+        <item quantity="other">個對話</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">%d 個對話</item>
+        <item quantity="one">%d 個對話</item>
+        <item quantity="few">%d 個對話</item>
+        <item quantity="many">%d 個對話</item>
+        <item quantity="other">%d 個對話</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">次</item>
+        <item quantity="one">次</item>
+        <item quantity="few">次</item>
+        <item quantity="many">次</item>
+        <item quantity="other">次</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">%d 次</item>
+        <item quantity="one">%d 次</item>
+        <item quantity="few">%d 次</item>
+        <item quantity="many">%d 次</item>
+        <item quantity="other">%d 次</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- 個對話</item>
+        <item quantity="one">- 個對話</item>
+        <item quantity="few">- 個對話</item>
+        <item quantity="many">- 個對話</item>
+        <item quantity="other">- 個對話</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d 個對話</item>
+        <item quantity="one">- %d 個對話</item>
+        <item quantity="few">- %d 個對話</item>
+        <item quantity="many">- %d 個對話</item>
+        <item quantity="other">- %d 個對話</item>
+    </plurals>
+</resources>

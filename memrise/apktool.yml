@@ -13,11 +13,11 @@ resourcesInfo:
   packageId: 127
 doNotCompress:
 - arsc
-- dex
 - jpg
 - m4a
 - mp3
 - png
+- webp
 - META-INF/services/n5.d
 - META-INF/services/xl.j
 - androidsupportmultidexversion.txt

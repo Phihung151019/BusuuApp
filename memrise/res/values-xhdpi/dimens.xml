@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="com_braze_card_background_border_bottom">1.0dp</dimen>
+    <dimen name="com_braze_card_background_border_left">1.0dp</dimen>
+    <dimen name="com_braze_card_background_border_right">1.0dp</dimen>
+    <dimen name="com_braze_card_background_border_top">0.5dp</dimen>
+    <dimen name="com_braze_content_card_background_border_bottom">1.0dp</dimen>
+    <dimen name="com_braze_content_card_background_border_left">1.0dp</dimen>
+    <dimen name="com_braze_content_card_background_border_right">1.0dp</dimen>
+    <dimen name="com_braze_content_card_background_border_top">0.5dp</dimen>
+    <dimen name="com_braze_content_card_background_shadow_bottom">1.0dp</dimen>
+    <dimen name="discountLabelSize">14.0sp</dimen>
+    <dimen name="finalPriceTextSize">16.0sp</dimen>
+    <dimen name="learning_reminders_3d_button_text_size">24.0sp</dimen>
+    <dimen name="learning_reminders_day_label_text_size">15.0sp</dimen>
+    <dimen name="learning_reminders_description_text_size">16.0sp</dimen>
+    <dimen name="learning_reminders_secondary_title_text_size">14.0sp</dimen>
+    <dimen name="learning_reminders_skip_text_size">16.0sp</dimen>
+    <dimen name="learning_reminders_title_text_size">32.0sp</dimen>
+    <dimen name="planTitleTextSize">18.0sp</dimen>
+    <dimen name="totalPriceTextSize">16.0sp</dimen>
+</resources>

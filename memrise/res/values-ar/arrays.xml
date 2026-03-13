@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>أسرع بـ 0.25 مرة</item>
+        <item>أسرع بـ 0.5 مرات</item>
+        <item>أسرع بـ 0.75 مرة</item>
+        <item>عادية</item>
+        <item>أسرع بـ 1.25 مرة</item>
+        <item>أسرع بـ 1.5 مرة</item>
+        <item>أسرع بمرتين</item>
+    </string-array>
+    <string-array name="settings_genders">
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+    <string-array name="settings_learning_item_count">
+        <item>٣</item>
+        <item>٥</item>
+        <item>٧</item>
+        <item>١٠</item>
+    </string-array>
+    <string-array name="settings_reviewing_item_count">
+        <item>٥</item>
+        <item>١٠</item>
+        <item>٢٥</item>
+        <item>٥٠</item>
+    </string-array>
+</resources>

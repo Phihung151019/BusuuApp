@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@null" android:textStyle="bold" android:gravity="center" android:id="@id/value" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawablePadding="8.0dp" android:textAllCaps="true" />
+    <TextView android:textSize="@dimen/learning_reminders_day_label_text_size" android:textStyle="bold" android:gravity="center" android:id="@id/value" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawablePadding="8.0dp" android:textAllCaps="true" />
 </merge>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">पहले सीखे गए शब्द</item>
+        <item quantity="few">पहले सीखे गए शब्द</item>
+        <item quantity="many">पहले सीखे गए शब्द</item>
+        <item quantity="other">पहले सीखे गए शब्द</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">सीखने के लिए शब्दों का लक्ष्य पाने के लिए और शब्द</item>
+        <item quantity="few">सीखने के लिए शब्दों का लक्ष्य पाने के लिए और शब्द</item>
+        <item quantity="many">सीखने के लिए शब्दों का लक्ष्य पाने के लिए और शब्द</item>
+        <item quantity="other">सीखने के लिए शब्दों का लक्ष्य पाने के लिए और शब्द</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">अपने मुश्किल शब्दों</item>
+        <item quantity="few">अपने मुश्किल शब्दों</item>
+        <item quantity="many">अपने मुश्किल शब्दों</item>
+        <item quantity="other">अपने मुश्किल शब्दों</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">हमारे AI चैटबॉट से बातचीत</item>
+        <item quantity="few">हमारे AI चैटबॉट से बातचीत</item>
+        <item quantity="many">हमारे AI चैटबॉट से बातचीत</item>
+        <item quantity="other">हमारे AI चैटबॉट से बातचीत</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">भाषा को गहराई से समझने के लिए वीडियो देखें</item>
+        <item quantity="few">भाषा को गहराई से समझने के लिए वीडियो देखें</item>
+        <item quantity="many">भाषा को गहराई से समझने के लिए वीडियो देखें</item>
+        <item quantity="other">भाषा को गहराई से समझने के लिए वीडियो देखें</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="one">%s दिन की पारी!</item>
+        <item quantity="other">%s दिन की पारी!</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="one">%d दिन की पारी</item>
+        <item quantity="other">%d दिन की पारी</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">महीना मुफ़्त</item>
+        <item quantity="few">महीना मुफ़्त</item>
+        <item quantity="many">महीना मुफ़्त</item>
+        <item quantity="other">महीना मुफ़्त</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">पहला महीना मुफ़्तत</item>
+        <item quantity="few">पहले महीने मुफ़्त</item>
+        <item quantity="many">पहले महीने मुफ़्त</item>
+        <item quantity="other">पहले महीने मुफ़्त</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">पहला महीना मुफ़्तत</item>
+        <item quantity="few">पहले %d महीने मुफ़्त</item>
+        <item quantity="many">पहले %d महीने मुफ़्त</item>
+        <item quantity="other">पहले %d महीने मुफ़्त</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">महीना के लिए तुरंत एक साथt</item>
+        <item quantity="few">महीने के लिए तुरंत एक साथ</item>
+        <item quantity="many">महीने के लिए तुरंत एक साथ</item>
+        <item quantity="other">महीने के लिए तुरंत एक साथ</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">महीना के लिए तुरंत एक साथ भुगतान करें</item>
+        <item quantity="few">महीने के लिए तुरंत एक साथ भुगतान करें</item>
+        <item quantity="many">महीने के लिए तुरंत एक साथ भुगतान करें</item>
+        <item quantity="other">महीने के लिए तुरंत एक साथ भुगतान करें</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">%d महीना के लिए तुरंत एक साथ भुगतान करें</item>
+        <item quantity="few">%d महीने के लिए तुरंत एक साथ भुगतान करें</item>
+        <item quantity="many">%d महीने के लिए तुरंत एक साथ भुगतान करें</item>
+        <item quantity="other">%d महीने के लिए तुरंत एक साथ भुगतान करें</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">महीना, उसके बाद पूरी क़ीमत</item>
+        <item quantity="few">महीने, उसके बाद पूरी क़ीमत</item>
+        <item quantity="many">महीने, उसके बाद पूरी क़ीमत</item>
+        <item quantity="other">महीने, उसके बाद पूरी क़ीमत</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">पहला महीना, उसके बाद पूरी क़ीमत</item>
+        <item quantity="few">पहले महीने, उसके बाद पूरी क़ीमत</item>
+        <item quantity="many">पहले महीने, उसके बाद पूरी क़ीमत</item>
+        <item quantity="other">पहले महीने, उसके बाद पूरी क़ीमत</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">पहला महीना, उसके बाद पूरी क़ीमत</item>
+        <item quantity="few">पहले %d महीने, उसके बाद पूरी क़ीमत</item>
+        <item quantity="many">पहले %d महीने, उसके बाद पूरी क़ीमत</item>
+        <item quantity="other">पहले %d महीने, उसके बाद पूरी क़ीमत</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="one">"SHAZAM!
+आपको %d हिंट मिले हैं"</item>
+        <item quantity="other">"SHAZAM!
+आपको %d हिंट मिले हैं"</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+        <item quantity="other">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">वीडियो को %d सेकंड पीछे ले जाएं</item>
+        <item quantity="other">वीडियो को %d सेकंड पीछे ले जाएं</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="one">%s-दिन की पारी</item>
+        <item quantity="other">%s-दिन की पारी</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="zero">%d मिनट के पोस्ट देखें</item>
+        <item quantity="one">%d मिनट की पोस्ट देखें</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">मिनट सीखना</item>
+        <item quantity="one">मिनट सीखना</item>
+        <item quantity="other">मिनट सीखना</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">नए शब्द</item>
+        <item quantity="one">नया शब्द</item>
+        <item quantity="other">नए शब्द</item>
+    </plurals>
+    <plurals name="ignoredWords_title_mobile">
+        <item quantity="zero">अनदेखे किए गए शब्द (%d)</item>
+        <item quantity="one">अनदेखा किया गया शब्द (%d)</item>
+        <item quantity="few">अनदेखे किए गए शब्द (%d)</item>
+        <item quantity="many">अनदेखे किए गए शब्द (%d)</item>
+        <item quantity="other">अनदेखे किए गए शब्द (%d)</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">अनदेखे किए गए शब्द ()</item>
+        <item quantity="one">अनदेखा किया गया शब्द ()</item>
+        <item quantity="few">अनदेखे किए गए शब्द ()</item>
+        <item quantity="many">अनदेखे किए गए शब्द ()</item>
+        <item quantity="other">अनदेखे किए गए शब्द ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web">
+        <item quantity="one">शब्द पहले से पता है</item>
+        <item quantity="few">शब्द पहले से पता हैं</item>
+        <item quantity="many">शब्द पहले से पता हैं</item>
+        <item quantity="other">शब्द पहले से पता हैं</item>
+    </plurals>
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="one">शब्द</item>
+        <item quantity="other">शब्द</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">शब्द</item>
+        <item quantity="one">शब्द</item>
+        <item quantity="few">शब्द</item>
+        <item quantity="many">शब्द</item>
+        <item quantity="other">शब्द</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d शब्द</item>
+        <item quantity="one">%d शब्द</item>
+        <item quantity="few">%d शब्द</item>
+        <item quantity="many">%d शब्द</item>
+        <item quantity="other">%d शब्द</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">अनदेखे किए गए शब्द देखें (%d)</item>
+        <item quantity="one">अनदेखा किया गया शब्द देखें (%d)</item>
+        <item quantity="few">अनदेखे किए गए शब्द देखें (%d)</item>
+        <item quantity="many">अनदेखे किए गए शब्द देखें (%d)</item>
+        <item quantity="other">अनदेखे किए गए शब्द देखें (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">अनदेखे किए गए शब्द देखें ()</item>
+        <item quantity="one">अनदेखा किया गया शब्द देखें ()</item>
+        <item quantity="few">अनदेखे किए गए शब्द देखें ()</item>
+        <item quantity="other">अनदेखे किए गए शब्द देखें ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="one">ऑफ़र %s दिन में समाप्‍त हो रहा है</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s दिन</item>
+        <item quantity="one">%s दिन</item>
+        <item quantity="other">%s दिन</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"%s 
+शब्द"</item>
+        <item quantity="one">"%s 
+शब्"</item>
+        <item quantity="other">"%s 
+शब्"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">शब्द सीखे गए के तौर पर मार्क करेंगे.</item>
+        <item quantity="one">शब्द सीखे गए के तौर पर मार्क करेंगे.</item>
+        <item quantity="few">शब्द सीखे गए के तौर पर मार्क करेंगे.</item>
+        <item quantity="many">शब्द सीखे गए के तौर पर मार्क करेंगे.</item>
+        <item quantity="other">शब्द सीखे गए के तौर पर मार्क करेंगे.</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold> दिन</item>
+        <item quantity="few">&lt;bold>&lt;/bold> दिन</item>
+        <item quantity="many">&lt;bold>&lt;/bold> दिन</item>
+        <item quantity="other">&lt;bold>&lt;/bold> दिन</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="zero">मिनट</item>
+        <item quantity="one">मिनट</item>
+        <item quantity="other">मिनट</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="zero">%a पोस्ट देखें</item>
+        <item quantity="other">%d पोस्ट देखें</item>
+    </plurals>
+    <plurals name="web_ea_home_practice_card_dw">
+        <item quantity="zero">&lt;bold>&lt;/bold> मुश्किल शब्द</item>
+        <item quantity="one">&lt;bold>&lt;/bold> मुश्किल शब्द</item>
+        <item quantity="two">&lt;bold>&lt;/bold> मुश्किल शब्द</item>
+        <item quantity="few">&lt;bold>&lt;/bold> मुश्किल शब्द</item>
+        <item quantity="many">&lt;bold>&lt;/bold> मुश्किल शब्द</item>
+        <item quantity="other">&lt;bold>&lt;/bold> मुश्किल शब्द</item>
+    </plurals>
+    <plurals name="web_ea_home_practice_card_review">
+        <item quantity="zero">&lt;bold>&lt;/bold> शब्द रिव्यू के लिए</item>
+        <item quantity="one">&lt;bold>&lt;/bold> शब्द रिव्यू के लिए</item>
+        <item quantity="two">&lt;bold>&lt;/bold> शब्द रिव्यू के लिए</item>
+        <item quantity="few">&lt;bold>&lt;/bold> शब्द रिव्यू के लिए</item>
+        <item quantity="many">&lt;bold>&lt;/bold> शब्द रिव्यू के लिए</item>
+        <item quantity="other">&lt;bold>&lt;/bold> शब्द रिव्यू के लिए</item>
+    </plurals>
+    <plurals name="web_ea_home_upsell_unlock_in_tl">
+        <item quantity="zero">&lt;bold> प्रीमियम परिस्थिति&lt;/bold></item>
+        <item quantity="one">&lt;bold> प्रीमियम परिस्थिति&lt;/bold></item>
+        <item quantity="two">&lt;bold> प्रीमियम परिस्थितियाँ&lt;/bold></item>
+        <item quantity="few">&lt;bold> प्रीमियम परिस्थितियाँ&lt;/bold></item>
+        <item quantity="many">&lt;bold> प्रीमियम परिस्थितियाँ&lt;/bold></item>
+        <item quantity="other">&lt;bold> प्रीमियम परिस्थितियाँ&lt;/bold></item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">शब्द और वाक्यांश</item>
+        <item quantity="one">शब्द या वाक्यांश</item>
+        <item quantity="few">शब्द और वाक्यांश</item>
+        <item quantity="many">शब्द और वाक्यांश</item>
+        <item quantity="other">शब्द और वाक्यांश</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">%d शब्द और वाक्यांश</item>
+        <item quantity="one">%d शब्द या वाक्यांश</item>
+        <item quantity="few">%d शब्द और वाक्यांश</item>
+        <item quantity="many">%d शब्द और वाक्यांश</item>
+        <item quantity="other">%d शब्द और वाक्यांश</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">शब्द</item>
+        <item quantity="one">शब्द</item>
+        <item quantity="few">शब्द</item>
+        <item quantity="many">शब्द</item>
+        <item quantity="other">शब्द</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d शब्द</item>
+        <item quantity="one">%d शब्द</item>
+        <item quantity="few">%d शब्द</item>
+        <item quantity="many">%d शब्द</item>
+        <item quantity="other">%d शब्द</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">सीखने के लिए शब्द</item>
+        <item quantity="one">सीखने के लिए शब्द</item>
+        <item quantity="few">सीखने के लिए शब्द</item>
+        <item quantity="many">सीखने के लिए शब्द</item>
+        <item quantity="other">सीखने के लिए शब्द</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">सीखने के लिए %d शब्द</item>
+        <item quantity="one">सीखने के लिए %d शब्द</item>
+        <item quantity="few">सीखने के लिए %d शब्द</item>
+        <item quantity="many">सीखने के लिए %d शब्द</item>
+        <item quantity="other">सीखने के लिए %d शब्द</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">वीडियो</item>
+        <item quantity="one">वीडियो</item>
+        <item quantity="few">वीडियो</item>
+        <item quantity="many">वीडियो</item>
+        <item quantity="other">वीडियो</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">%d वीडियो</item>
+        <item quantity="one">%d वीडियो</item>
+        <item quantity="few">%d वीडियो</item>
+        <item quantity="many">%d वीडियो</item>
+        <item quantity="other">%d वीडियो</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">बार</item>
+        <item quantity="one">बार</item>
+        <item quantity="few">बार</item>
+        <item quantity="many">बार</item>
+        <item quantity="other">बार</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">%d बार</item>
+        <item quantity="one">%d बार</item>
+        <item quantity="few">%d बार</item>
+        <item quantity="many">%d बार</item>
+        <item quantity="other">%d बार</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- वीडियो</item>
+        <item quantity="one">- वीडियो</item>
+        <item quantity="few">- वीडियो</item>
+        <item quantity="many">- वीडियो</item>
+        <item quantity="other">- वीडियो</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d वीडियो</item>
+        <item quantity="one">- %d वीडियो</item>
+        <item quantity="few">- %d वीडियो</item>
+        <item quantity="many">- %d वीडियो</item>
+        <item quantity="other">- %d वीडियो</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">सही टेस्ट</item>
+        <item quantity="one">सही टेस्ट</item>
+        <item quantity="few">सही टेस्ट</item>
+        <item quantity="many">सही टेस्ट</item>
+        <item quantity="other">सही टेस्ट</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">%d सही टेस्ट</item>
+        <item quantity="one">%d सही टेस्ट</item>
+        <item quantity="few">%d सही टेस्ट</item>
+        <item quantity="many">%d सही टेस्ट</item>
+        <item quantity="other">%d सही टेस्ट</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">बातचीत</item>
+        <item quantity="one">बातचीत</item>
+        <item quantity="few">बातचीत</item>
+        <item quantity="many">बातचीत</item>
+        <item quantity="other">बातचीत</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">%d बातचीत</item>
+        <item quantity="one">%d बातचीत</item>
+        <item quantity="few">%d बातचीत</item>
+        <item quantity="many">%d बातचीत</item>
+        <item quantity="other">%d बातचीत</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">बार</item>
+        <item quantity="one">बार</item>
+        <item quantity="few">बार</item>
+        <item quantity="many">बार</item>
+        <item quantity="other">बार</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">%d बार</item>
+        <item quantity="one">%d बार</item>
+        <item quantity="few">%d बार</item>
+        <item quantity="many">%d बार</item>
+        <item quantity="other">%d बार</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- बातचीत</item>
+        <item quantity="one">- बातचीत</item>
+        <item quantity="few">- बातचीत</item>
+        <item quantity="many">- बातचीत</item>
+        <item quantity="other">- बातचीत</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d बातचीत</item>
+        <item quantity="one">- %d बातचीत</item>
+        <item quantity="few">- %d बातचीत</item>
+        <item quantity="many">- %d बातचीत</item>
+        <item quantity="other">- %d बातचीत</item>
+    </plurals>
+</resources>

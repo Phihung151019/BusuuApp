@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">من الكلمات المتعلَّمة سابقًا</item>
+        <item quantity="few">من الكلمات المتعلَّمة سابقًا</item>
+        <item quantity="many">من الكلمات المتعلَّمة سابقًا</item>
+        <item quantity="other">من الكلمات المتعلَّمة سابقًا</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">من الكلمات أكثر لتحقِق هدف الكلمات المتعلَّمة لهذا اليوم</item>
+        <item quantity="few">من الكلمات أكثر لتحقِق هدف الكلمات المتعلَّمة لهذا اليوم</item>
+        <item quantity="many">من الكلمات أكثر لتحقِق هدف الكلمات المتعلَّمة لهذا اليوم</item>
+        <item quantity="other">من الكلمات أكثر لتحقِق هدف الكلمات المتعلَّمة لهذا اليوم</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">من كلماتك الصعبة</item>
+        <item quantity="few">من كلماتك الصعبة</item>
+        <item quantity="many">من كلماتك الصعبة</item>
+        <item quantity="other">من كلماتك الصعبة</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">من المحادثات مع تشاتبوت الذكاء الاصطناعي</item>
+        <item quantity="few">من المحادثات مع تشاتبوت الذكاء الاصطناعي</item>
+        <item quantity="many">من المحادثات مع تشاتبوت الذكاء الاصطناعي</item>
+        <item quantity="other">من المحادثات مع تشاتبوت الذكاء الاصطناعي</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">من مقاطع الفيديو لتنغمس في اللغة</item>
+        <item quantity="few">من مقاطع الفيديو لتنغمس في اللغة</item>
+        <item quantity="many">من مقاطع الفيديو لتنغمس في اللغة</item>
+        <item quantity="other">من مقاطع الفيديو لتنغمس في اللغة</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="zero">%s أيام من الانجازات المتواصلة</item>
+        <item quantity="one">%s أيام من الانجازات المتواصلة</item>
+        <item quantity="two">%s أيام من الانجازات المتواصلة</item>
+        <item quantity="few">%s أيام من الانجازات المتواصلة</item>
+        <item quantity="many">%s أيام من الانجازات المتواصلة</item>
+        <item quantity="other">%s يوم من الإنجازات المتواصلة!</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="zero">%d أيام من الانجازات المتواصلة</item>
+        <item quantity="one">%d أيام من الانجازات المتواصلة</item>
+        <item quantity="two">%d أيام من الانجازات المتواصلة</item>
+        <item quantity="few">%d أيام من الانجازات المتواصلة</item>
+        <item quantity="many">%d أيام من الانجازات المتواصلة</item>
+        <item quantity="other">%d يوم من الإنجازات المتواصلة</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">شهر مجانًا</item>
+        <item quantity="few">أشهر مجانًا</item>
+        <item quantity="many">شهرًا مجانًا</item>
+        <item quantity="other">شهرًا مجانًا</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">أول شهر مجانًا</item>
+        <item quantity="few">أول أشهر مجانًا</item>
+        <item quantity="many">أول شهرًا مجانًا</item>
+        <item quantity="other">أول شهرًا مجانًا</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">أول شهر مجانًا</item>
+        <item quantity="few">أول %d أشهر مجانًا</item>
+        <item quantity="many">أول %d شهرًا مجانًا</item>
+        <item quantity="other">أول %d شهرًا مجانًا</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">شهر مقدمًا</item>
+        <item quantity="few">أشهر مقدمًا</item>
+        <item quantity="many">شهرًا مقدمًا</item>
+        <item quantity="other">شهرًا مقدمًا</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">ادفع شهر مقدمًا</item>
+        <item quantity="few">ادفع أشهر مقدمًا</item>
+        <item quantity="many">ادفع شهرًا مقدمًا</item>
+        <item quantity="other">ادفع شهرًا مقدمًا</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">ادفع %d شهر مقدمًا</item>
+        <item quantity="few">ادفع %d أشهر مقدمًا</item>
+        <item quantity="many">ادفع %d شهرًا مقدمًا</item>
+        <item quantity="other">ادفع %d شهرًا مقدمًا</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">شهر، ثم السعر بالكامل</item>
+        <item quantity="few">أشهر، ثم السعر بالكامل</item>
+        <item quantity="many">شهرًا، ثم السعر بالكامل</item>
+        <item quantity="other">شهرًا، ثم السعر بالكامل</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">أول شهر، ثم السعر بالكامل</item>
+        <item quantity="few">أول أشهر، ثم السعر بالكامل</item>
+        <item quantity="many">أول شهرًا، ثم السعر بالكامل</item>
+        <item quantity="other">أول شهرًا، ثم السعر بالكامل</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">أول شهر، ثم السعر بالكامل</item>
+        <item quantity="few">أول %d أشهر، ثم السعر بالكامل</item>
+        <item quantity="many">أول %d شهرًا، ثم السعر بالكامل</item>
+        <item quantity="other">أول %d شهرًا، ثم السعر بالكامل</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="zero">"يا للروعة!
+لقد اكتسبت %d تلميح"</item>
+        <item quantity="one">"يا للروعة!
+لقد اكتسبت %d تلميح"</item>
+        <item quantity="two">"يا للروعة!
+لقد اكتسبت %d من التلميحات"</item>
+        <item quantity="few">"يا للروعة!
+لقد اكتسبت %d التلميحات"</item>
+        <item quantity="many">"يا للروعة!
+لقد اكتسبت %d من التلميحات"</item>
+        <item quantity="other">"يا للروعة!
+لقد اكتسبت %d تلميح"</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="zero">%s-يوم من الانجازات المتواصلة</item>
+        <item quantity="one">%s- يوم من الانجازات المتواصلة</item>
+        <item quantity="two">%s- أيام من الانجازات المتواصلة</item>
+        <item quantity="few">%s- أيام من الانجازات المتواصلة</item>
+        <item quantity="many">%s- أيام من الانجازات المتواصلة</item>
+        <item quantity="other">%s- يوم من الانجازات المتواصلة</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="zero">شاهد %d دقيقة من المشاركات</item>
+        <item quantity="one">شاهد %d دقيقة من المشاركات</item>
+        <item quantity="two">شاهد %d دقيقة من المشاركات</item>
+        <item quantity="few">شاهد %d دقيقة من المشاركات</item>
+        <item quantity="many">شاهد %d دقيقة من المشاركات</item>
+        <item quantity="other">شاهد %d دقيقة من المشاركات</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">دقيقة تعلم</item>
+        <item quantity="one">دقيقة تعلم</item>
+        <item quantity="two">دقيقة تعلم</item>
+        <item quantity="few">دقيقة تعلم</item>
+        <item quantity="many">دقيقة تعلم</item>
+        <item quantity="other">دقيقة تعلم</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">كلمة جديدة</item>
+        <item quantity="one">كلمة جديدة</item>
+        <item quantity="two">كلمة جديدة</item>
+        <item quantity="few">كلمة جديدة</item>
+        <item quantity="many">كلمة جديدة</item>
+        <item quantity="other">كلمة جديدة</item>
+    </plurals>
+    <plurals name="ignoredWords_title_mobile">
+        <item quantity="zero">كلمة متجاهلة (%d)</item>
+        <item quantity="one">كلمة متجاهلة (%d)</item>
+        <item quantity="few">من الكلمات المتجاهلات (%d)</item>
+        <item quantity="many">من الكلمات المتجاهلات (%d)</item>
+        <item quantity="other">من الكلمات المتجاهلات (%d)</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">كلمة متجاهلة ()</item>
+        <item quantity="one">كلمة متجاهلة ()</item>
+        <item quantity="few">من الكلمات المتجاهلات ()</item>
+        <item quantity="many">من الكلمات المتجاهلات ()</item>
+        <item quantity="other">من الكلمات المتجاهلات ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web">
+        <item quantity="one">من الكلمات المعروفة</item>
+        <item quantity="few">من الكلمات المعروفة</item>
+        <item quantity="many">من الكلمات المعروفة</item>
+        <item quantity="other">من الكلمات المعروفة</item>
+    </plurals>
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="one">كلمة</item>
+        <item quantity="other">من الكلمات</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">كلمة</item>
+        <item quantity="one">كلمة</item>
+        <item quantity="few">كلمات</item>
+        <item quantity="many">كلمة</item>
+        <item quantity="other">كلمة</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d كلمة</item>
+        <item quantity="one">%d كلمة</item>
+        <item quantity="few">%d كلمات</item>
+        <item quantity="many">%d كلمة</item>
+        <item quantity="other">%d كلمة</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">عرض للكلمات المتجاهلة (%d)</item>
+        <item quantity="one">عرض للكلمات المتجاهلة (%d)</item>
+        <item quantity="few">مرات عرض للكلمات المتجاهلة (%d)</item>
+        <item quantity="many">مرات عرض للكلمات المتجاهلة (%d)</item>
+        <item quantity="other">مرات عرض للكلمات المتجاهلة (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">عرض للكلمات المتجاهلة ()</item>
+        <item quantity="one">عرض للكلمات المتجاهلة ()</item>
+        <item quantity="few">مرات عرض الكلمات المجاهلة ()</item>
+        <item quantity="many">مرات عرض الكلمات المتجاهلة ()</item>
+        <item quantity="other">مرات عرض الكلمات المتجاهلة ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="one">ينتهي العرض بعد %s يوم</item>
+        <item quantity="two">ينتهي العرض بعد %s يوم</item>
+        <item quantity="few">ينتهي العرض بعد %s أيام</item>
+        <item quantity="many">ينتهي العرض بعد %s يوم</item>
+        <item quantity="other">ينتهي العرض بعد %s يوم</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s أيام</item>
+        <item quantity="one">%s يوم</item>
+        <item quantity="two">%s أيام</item>
+        <item quantity="few">%s أيام</item>
+        <item quantity="many">%s أيام</item>
+        <item quantity="other">%s أيام</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"%s 
+ تم تعلم كلمة"</item>
+        <item quantity="one">"%s 
+ تم تعلم كلمة"</item>
+        <item quantity="two">"%s 
+ تم تعلم كلمة"</item>
+        <item quantity="few">"%s 
+ تم تعلم كلمة"</item>
+        <item quantity="many">"%s 
+ تم تعلم كلمة"</item>
+        <item quantity="other">"%s 
+ تم تعلم كلمة"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">من الكلمات بأنك تعلَّمتها.</item>
+        <item quantity="one">من الكلمات بأنك تعلَّمتها.</item>
+        <item quantity="few">من الكلمات بأنك تعلَّمتها.</item>
+        <item quantity="many">من الكلمات بأنك تعلَّمتها.</item>
+        <item quantity="other">من الكلمات بأنك تعلَّمتها.</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold> من الأيام</item>
+        <item quantity="few">&lt;bold>&lt;/bold> من الأيام</item>
+        <item quantity="many">&lt;bold>&lt;/bold> من الأيام</item>
+        <item quantity="other">&lt;bold>&lt;/bold> من الأيام</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="one">دقيقة</item>
+        <item quantity="two">دقيقة</item>
+        <item quantity="few">دقائق</item>
+        <item quantity="many">دقائق</item>
+        <item quantity="other">دقائق</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="zero">شاهد %d من المشاركات</item>
+        <item quantity="one">شاهد %d من المشاركات</item>
+        <item quantity="two">شاهد %d من المشاركات</item>
+        <item quantity="few">شاهد %d من المشاركات</item>
+        <item quantity="many">شاهد %d من المشاركات</item>
+        <item quantity="other">شاهد %d من المشاركات</item>
+    </plurals>
+    <plurals name="web_ea_home_practice_card_dw">
+        <item quantity="zero">&lt;bold>&lt;/bold> من الكلمات الصعبة</item>
+        <item quantity="one">&lt;bold>&lt;/bold> كلمة صعبة</item>
+        <item quantity="two">&lt;bold>&lt;/bold> من الكلمات الصعبة</item>
+        <item quantity="few">&lt;bold>&lt;/bold> من الكلمات الصعبة</item>
+        <item quantity="many">&lt;bold>&lt;/bold> من الكلمات الصعبة</item>
+        <item quantity="other">&lt;bold>&lt;/bold> من الكلمات الصعبة</item>
+    </plurals>
+    <plurals name="web_ea_home_practice_card_review">
+        <item quantity="zero">&lt;bold>&lt;/bold> من الكلمات للمراجعة</item>
+        <item quantity="one">&lt;bold>&lt;/bold> كلمة للمراجعة</item>
+        <item quantity="two">&lt;bold>&lt;/bold> من الكلمات للمراجعة</item>
+        <item quantity="few">&lt;bold>&lt;/bold> من الكلمات للمراجعة</item>
+        <item quantity="many">&lt;bold>&lt;/bold> من الكلمات للمراجعة</item>
+        <item quantity="other">&lt;bold>&lt;/bold> من الكلمات للمراجعة</item>
+    </plurals>
+    <plurals name="web_ea_home_upsell_unlock_in_tl">
+        <item quantity="zero">&lt;bold> من السيناريوهات المتميزة&lt;/bold></item>
+        <item quantity="one">&lt;bold> سيناريو متميز&lt;/bold></item>
+        <item quantity="two">&lt;bold> من السيناريوهات المتميزة&lt;/bold></item>
+        <item quantity="few">&lt;bold> من السيناريوهات المتميزة&lt;/bold></item>
+        <item quantity="many">&lt;bold> من السيناريوهات المتميزة&lt;/bold></item>
+        <item quantity="other">&lt;bold> من السيناريوهات المتميزة&lt;/bold></item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">كلمة وعبارة</item>
+        <item quantity="one">كلمة وعبارة</item>
+        <item quantity="few">كلمات وعبارات</item>
+        <item quantity="many">كلمة وعبارة</item>
+        <item quantity="other">كلمة وعبارة</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">%d كلمة وعبارة</item>
+        <item quantity="one">%d كلمة وعبارة</item>
+        <item quantity="few">%d كلمات وعبارات</item>
+        <item quantity="many">%d كلمة وعبارة</item>
+        <item quantity="other">%d كلمة وعبارة</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">كلمة</item>
+        <item quantity="one">كلمة</item>
+        <item quantity="few">كلمات</item>
+        <item quantity="many">كلمة</item>
+        <item quantity="other">كلمة</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d كلمة</item>
+        <item quantity="one">%d كلمة</item>
+        <item quantity="few">%d كلمات</item>
+        <item quantity="many">%d كلمة</item>
+        <item quantity="other">%d كلمة</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">كلمات للتعلُّم</item>
+        <item quantity="one">كلمة للتعلُّم</item>
+        <item quantity="few">كلمات للتعلُّم</item>
+        <item quantity="many">كلمة للتعلُّم</item>
+        <item quantity="other">كلمة للتعلُّم</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">%d كلمات للتعلُّم</item>
+        <item quantity="one">%d كلمة للتعلُّم</item>
+        <item quantity="few">%d كلمات للتعلُّم</item>
+        <item quantity="many">%d كلمة للتعلُّم</item>
+        <item quantity="other">%d كلمة للتعلُّم</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">فيديو</item>
+        <item quantity="one">فيديو</item>
+        <item quantity="two">فيديوهان</item>
+        <item quantity="few">فيديوهات</item>
+        <item quantity="many">فيديو</item>
+        <item quantity="other">فيديو</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">%d فيديو</item>
+        <item quantity="one">%d فيديو</item>
+        <item quantity="two">%d فيديوهان</item>
+        <item quantity="few">%d فيديوهات</item>
+        <item quantity="many">%d فيديو</item>
+        <item quantity="other">%d فيديو</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">مرة</item>
+        <item quantity="one">مرة</item>
+        <item quantity="two">مرتان</item>
+        <item quantity="few">مرات</item>
+        <item quantity="many">مرة</item>
+        <item quantity="other">مرة</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">مرة</item>
+        <item quantity="one">مرة</item>
+        <item quantity="two">مرتان</item>
+        <item quantity="few">مرات</item>
+        <item quantity="many">مرة</item>
+        <item quantity="other">مرة</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- ویدیو</item>
+        <item quantity="one">- ویدیو</item>
+        <item quantity="two">- فيديوهان</item>
+        <item quantity="few">- ویدیوهات</item>
+        <item quantity="many">- ویدیو</item>
+        <item quantity="other">- ویدیو</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d ویدیو</item>
+        <item quantity="one">- %d ویدیو</item>
+        <item quantity="two">- %d فيديوهان</item>
+        <item quantity="few">- %d ویدیوهات</item>
+        <item quantity="many">- %d ویدیو</item>
+        <item quantity="other">- %d ویدیو</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">اختبار صحيح</item>
+        <item quantity="one">اختبار صحيح</item>
+        <item quantity="two">اختباران صحيحان</item>
+        <item quantity="few">اختبارات صحيحة</item>
+        <item quantity="many">اختبارًا صحيحًا</item>
+        <item quantity="other">اختبارًا صحيحًا</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">%d اختبار صحيح</item>
+        <item quantity="one">%d اختبار صحيح</item>
+        <item quantity="two">%d اختباران صحيحان</item>
+        <item quantity="few">%d اختبارات صحيحة</item>
+        <item quantity="many">%d اختبارًا صحيحًا</item>
+        <item quantity="other">%d اختبارًا صحيحًا</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">محادثة</item>
+        <item quantity="one">محادثة</item>
+        <item quantity="two">محادثتان</item>
+        <item quantity="few">محادثات</item>
+        <item quantity="many">محادثة</item>
+        <item quantity="other">محادثة</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">%d محادثة</item>
+        <item quantity="one">%d محادثة</item>
+        <item quantity="two">%d محادثتان</item>
+        <item quantity="few">%d محادثات</item>
+        <item quantity="many">%d محادثة</item>
+        <item quantity="other">%d محادثة</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">مرة</item>
+        <item quantity="one">مرة</item>
+        <item quantity="two">مرتان</item>
+        <item quantity="few">مرات</item>
+        <item quantity="many">مرة</item>
+        <item quantity="other">مرة</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">مرة</item>
+        <item quantity="one">مرة</item>
+        <item quantity="two">مرتان</item>
+        <item quantity="few">مرات</item>
+        <item quantity="many">مرة</item>
+        <item quantity="other">مرة</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- محادثة</item>
+        <item quantity="one">- محادثة</item>
+        <item quantity="two">- محادثتان</item>
+        <item quantity="few">- محادثات</item>
+        <item quantity="many">- محادثة</item>
+        <item quantity="other">- محادثة</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d محادثة</item>
+        <item quantity="one">- %d محادثة</item>
+        <item quantity="two">- %d محادثتان</item>
+        <item quantity="few">- %d محادثات</item>
+        <item quantity="many">- %d محادثة</item>
+        <item quantity="other">- %d محادثة</item>
+    </plurals>
+</resources>

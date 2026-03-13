@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">trong các từ đã học</item>
+        <item quantity="few">trong các từ đã học</item>
+        <item quantity="many">từ đã học</item>
+        <item quantity="other">từ đã học</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">từ nữa để đạt mục tiêu học từ của hôm nay</item>
+        <item quantity="few">từ nữa để đạt mục tiêu học từ của hôm nay</item>
+        <item quantity="many">từ nữa để đạt mục tiêu học từ của hôm nay</item>
+        <item quantity="other">từ nữa để đạt mục tiêu học từ của hôm nay</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">trong các từ khó của bạn</item>
+        <item quantity="few">trong các từ khó của bạn</item>
+        <item quantity="many">các từ khó của bạn</item>
+        <item quantity="other">từ khó của bạn</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">đoạn hội thoại với chatbot thông minh của chúng tôi</item>
+        <item quantity="few">đoạn hội thoại với chatbot thông minh của chúng tôi</item>
+        <item quantity="many">đoạn hội thoại với chatbot thông minh của chúng tôi</item>
+        <item quantity="other">đoạn hội thoại với chatbot thông minh của chúng tôi</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">video để đắm mình vào ngôn ngữ đang học</item>
+        <item quantity="few">video để đắm mình vào ngôn ngữ đang học</item>
+        <item quantity="many">video để đắm mình vào ngôn ngữ đang học</item>
+        <item quantity="other">video để đắm mình vào ngôn ngữ đang học</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="other">%s ngày liên tục!</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="other">%d ngày liên tục</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">tháng MIỄN PHÍ</item>
+        <item quantity="few">tháng MIỄN PHÍ</item>
+        <item quantity="many">tháng MIỄN PHÍ</item>
+        <item quantity="other">tháng MIỄN PHÍ</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">tháng đầu tiên MIỄN PHÍ</item>
+        <item quantity="few">tháng đầu MIỄN PHÍ</item>
+        <item quantity="many">tháng đầu MIỄN PHÍ</item>
+        <item quantity="other">tháng đầu MIỄN PHÍ</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">tháng đầu tiên MIỄN PHÍ</item>
+        <item quantity="few">%d tháng đầu MIỄN PHÍ</item>
+        <item quantity="many">%d tháng đầu MIỄN PHÍ</item>
+        <item quantity="other">%d tháng đầu MIỄN PHÍ</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">tháng</item>
+        <item quantity="few">tháng</item>
+        <item quantity="many">tháng</item>
+        <item quantity="other">tháng</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">Trả trước tháng</item>
+        <item quantity="few">Trả trước tháng</item>
+        <item quantity="many">Trả trước tháng</item>
+        <item quantity="other">Trả trước tháng</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">Trả trước %d tháng</item>
+        <item quantity="few">Trả trước %d tháng</item>
+        <item quantity="many">Trả trước %d tháng</item>
+        <item quantity="other">Trả trước %d tháng</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">tháng, sau đó về giá cũ</item>
+        <item quantity="few">tháng, sau đó về giá cũ</item>
+        <item quantity="many">tháng, sau đó về giá cũ</item>
+        <item quantity="other">tháng, sau đó về giá cũ</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">Tháng đầu tiên, sau đó về giá cũ</item>
+        <item quantity="few">tháng đầu, sau đó về giá cũ</item>
+        <item quantity="many">tháng đầu, sau đó về giá cũ</item>
+        <item quantity="other">tháng đầu, sau đó về giá cũ</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">Tháng đầu tiên, sau đó về giá cũ</item>
+        <item quantity="few">%d tháng đầu, sau đó về giá cũ</item>
+        <item quantity="many">%d tháng đầu, sau đó về giá cũ</item>
+        <item quantity="other">%d tháng đầu, sau đó về giá cũ</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="other">"SHAZAM!
+Bạn đã học được %d mẹo"</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Tua nhanh %d giây</item>
+        <item quantity="other">Tua nhanh %d giây</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Tua lại %d giây</item>
+        <item quantity="other">Tua lại %d giây</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="other">%s-ngày liên tục</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="zero">Xem %d phút của Bài đăng</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">phút đã học</item>
+        <item quantity="other">phút đã học</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">từ mới</item>
+        <item quantity="other">từ mới</item>
+    </plurals>
+    <plurals name="ignoredWords_title_mobile">
+        <item quantity="zero">Các từ đã bỏ qua (%d)</item>
+        <item quantity="one">Từ đã bỏ qua (%d)</item>
+        <item quantity="few">Các từ đã bỏ qua (%d</item>
+        <item quantity="many">Các từ đã bỏ qua (%d</item>
+        <item quantity="other">Các từ đã bỏ qua (%d</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">Các từ đã bỏ qua ()</item>
+        <item quantity="one">Từ đã bỏ qua ()</item>
+        <item quantity="few">Các từ đã bỏ qua ()</item>
+        <item quantity="many">Các từ đã bỏ qua ()</item>
+        <item quantity="other">Các từ đã bỏ qua ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web">
+        <item quantity="one">từ đã biết</item>
+        <item quantity="few">từ đã biết</item>
+        <item quantity="many">từ đã biết</item>
+        <item quantity="other">từ đã biết</item>
+    </plurals>
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="one">từ</item>
+        <item quantity="other">từ</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">từ</item>
+        <item quantity="one">từ</item>
+        <item quantity="few">từ</item>
+        <item quantity="many">từ</item>
+        <item quantity="other">từ</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d từ</item>
+        <item quantity="one">%d từ</item>
+        <item quantity="few">%d từ</item>
+        <item quantity="many">%d từ</item>
+        <item quantity="other">%d từ</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">Xem các từ đã bỏ qua (%d)</item>
+        <item quantity="one">Xem từ đã bỏ qua (%d)</item>
+        <item quantity="few">Xem các từ đã bỏ qua (%d)</item>
+        <item quantity="many">Xem các từ đã bỏ qua (%d)</item>
+        <item quantity="other">Xem các từ đã bỏ qua (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">Xem các từ đã bỏ qua ()</item>
+        <item quantity="one">Xem từ đã bỏ qua ()</item>
+        <item quantity="few">Xem các từ đã bỏ qua ()</item>
+        <item quantity="many">Xem các từ đã bỏ qua ()</item>
+        <item quantity="other">Xem các từ đã bỏ qua ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="other">Khuyến mãi hết hạn sau %s ngày</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s ngày</item>
+        <item quantity="other">%s ngày</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"Học %s 
+từ"</item>
+        <item quantity="other">"Học %s 
+từ"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">từ đã được học cho bạn.</item>
+        <item quantity="one">từ đã được học cho bạn.</item>
+        <item quantity="few">từ đã được học cho bạn.</item>
+        <item quantity="many">từ đã được học cho bạn.</item>
+        <item quantity="other">từ đã được học cho bạn.</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold> ngày</item>
+        <item quantity="few">&lt;bold>&lt;/bold> ngày</item>
+        <item quantity="many">&lt;bold>&lt;/bold> ngày</item>
+        <item quantity="other">&lt;bold>&lt;/bold> ngày</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="zero">phút</item>
+        <item quantity="other">phút</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="zero">Xem %d bài đăng</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">Từ &amp; Mẫu câu</item>
+        <item quantity="one">Từ hoặc Mẫu câu</item>
+        <item quantity="few">Từ &amp; Mẫu câu</item>
+        <item quantity="other">Từ &amp; Mẫu câu</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">%d Từ &amp; Mẫu câu</item>
+        <item quantity="one">%d Từ hoặc Mẫu câu</item>
+        <item quantity="few">%d Từ &amp; Mẫu câu</item>
+        <item quantity="other">%d Từ &amp; Mẫu câu</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">từ</item>
+        <item quantity="one">từ</item>
+        <item quantity="few">từ</item>
+        <item quantity="many">từ</item>
+        <item quantity="other">từ</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d từ</item>
+        <item quantity="one">%d từ</item>
+        <item quantity="few">%d từ</item>
+        <item quantity="many">%d từ</item>
+        <item quantity="other">%d từ</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">từ chưa học</item>
+        <item quantity="one">từ chưa học</item>
+        <item quantity="few">từ chưa học</item>
+        <item quantity="many">từ chưa học</item>
+        <item quantity="other">từ chưa học</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">%d từ chưa học</item>
+        <item quantity="one">%d từ chưa học</item>
+        <item quantity="few">%d từ chưa học</item>
+        <item quantity="many">%d từ chưa học</item>
+        <item quantity="other">%d từ chưa học</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">video</item>
+        <item quantity="one">video</item>
+        <item quantity="few">video</item>
+        <item quantity="many">video</item>
+        <item quantity="other">video</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">%d video</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d video</item>
+        <item quantity="many">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">lần</item>
+        <item quantity="one">lần</item>
+        <item quantity="few">lần</item>
+        <item quantity="many">lần</item>
+        <item quantity="other">lần</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">%d lần</item>
+        <item quantity="one">%d lần</item>
+        <item quantity="few">%d lần</item>
+        <item quantity="many">%d lần</item>
+        <item quantity="other">%d lần</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- video</item>
+        <item quantity="one">- video</item>
+        <item quantity="few">- video</item>
+        <item quantity="many">- video</item>
+        <item quantity="other">- video</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d video</item>
+        <item quantity="one">- %d video</item>
+        <item quantity="few">- %d video</item>
+        <item quantity="many">- %d video</item>
+        <item quantity="other">- %d video</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">bài làm đúng</item>
+        <item quantity="one">bài làm đúng</item>
+        <item quantity="few">bài làm đúng</item>
+        <item quantity="many">bài làm đúng</item>
+        <item quantity="other">bài làm đúng</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">%d bài làm đúng</item>
+        <item quantity="one">%d bài làm đúng</item>
+        <item quantity="few">%d bài làm đúng</item>
+        <item quantity="many">%d bài làm đúng</item>
+        <item quantity="other">%d bài làm đúng</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">hội thoại</item>
+        <item quantity="one">hội thoại</item>
+        <item quantity="few">hội thoại</item>
+        <item quantity="many">hội thoại</item>
+        <item quantity="other">hội thoại</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">%d hội thoại</item>
+        <item quantity="one">%d hội thoại</item>
+        <item quantity="few">%d hội thoại</item>
+        <item quantity="many">%d hội thoại</item>
+        <item quantity="other">%d hội thoại</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">lần</item>
+        <item quantity="one">lần</item>
+        <item quantity="few">lần</item>
+        <item quantity="many">lần</item>
+        <item quantity="other">lần</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">%d lần</item>
+        <item quantity="one">%d lần</item>
+        <item quantity="few">%d lần</item>
+        <item quantity="many">%d lần</item>
+        <item quantity="other">%d lần</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- hội thoại</item>
+        <item quantity="one">- hội thoại</item>
+        <item quantity="few">- hội thoại</item>
+        <item quantity="many">- hội thoại</item>
+        <item quantity="other">- hội thoại</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d hội thoại</item>
+        <item quantity="one">- %d hội thoại</item>
+        <item quantity="few">- %d hội thoại</item>
+        <item quantity="many">- %d hội thoại</item>
+        <item quantity="other">- %d hội thoại</item>
+    </plurals>
+</resources>

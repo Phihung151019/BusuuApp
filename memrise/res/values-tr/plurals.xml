@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">Önceden öğrendiğin kelimeyi</item>
+        <item quantity="few">Önceden öğrendiğin kelimeyi</item>
+        <item quantity="many">Önceden öğrendiğin kelimeyi</item>
+        <item quantity="other">Önceden öğrendiğin kelimeyi</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">Bugünün öğrenilen kelime hedefine ulaşmak için kelime daha</item>
+        <item quantity="few">Bugünün öğrenilen kelime hedefine ulaşmak için kelime daha</item>
+        <item quantity="many">Bugünün öğrenilen kelime hedefine ulaşmak için kelime daha</item>
+        <item quantity="other">Bugünün öğrenilen kelime hedefine ulaşmak için kelime daha</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">Zor kelimelerinden tanesini</item>
+        <item quantity="few">Zor kelimelerinden tanesini</item>
+        <item quantity="many">Zor kelimelerinden tanesini</item>
+        <item quantity="other">Zor kelimelerinden tanesini</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">AI sohbet botu ile sohbeti</item>
+        <item quantity="few">AI sohbet botu ile sohbeti</item>
+        <item quantity="many">AI sohbet botu ile sohbeti</item>
+        <item quantity="other">AI sohbet botu ile sohbeti</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">Dile yoğunlaşmak için video</item>
+        <item quantity="few">Dile yoğunlaşmak için video</item>
+        <item quantity="many">Dile yoğunlaşmak için video</item>
+        <item quantity="other">Dile yoğunlaşmak için video</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="one">Ardarda %s gün!</item>
+        <item quantity="other">Ardarda %s gün!</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="one">%d günlük seri</item>
+        <item quantity="other">%d günlük seri</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">ay ÜCRETSİZ</item>
+        <item quantity="few">ay ÜCRETSİZ</item>
+        <item quantity="many">ay ÜCRETSİZ</item>
+        <item quantity="other">ay ÜCRETSİZ</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">İlk ay ÜCRETSİZ</item>
+        <item quantity="few">İlk ay ÜCRETSİZ</item>
+        <item quantity="many">İlk ay ÜCRETSİZ</item>
+        <item quantity="other">İlk ay ÜCRETSİZ</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">İlk ay ÜCRETSİZ</item>
+        <item quantity="few">İlk %d ay ÜCRETSİZ</item>
+        <item quantity="many">İlk %d ay ÜCRETSİZ</item>
+        <item quantity="other">İlk %d ay ÜCRETSİZ</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">ay önden</item>
+        <item quantity="few">ay önden</item>
+        <item quantity="many">ay önden</item>
+        <item quantity="other">ay önden</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">ay önden öde</item>
+        <item quantity="few">ay önden öde</item>
+        <item quantity="many">ay önden öde</item>
+        <item quantity="other">ay önden öde</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">%d ay önden öde</item>
+        <item quantity="few">%d ay önden öde</item>
+        <item quantity="many">%d ay önden öde</item>
+        <item quantity="other">%d ay önden öde</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">ay fiyatı, sonra tam fiyat</item>
+        <item quantity="few">ay fiyatı, sonra tam fiyat</item>
+        <item quantity="many">ay fiyatı, sonra tam fiyat</item>
+        <item quantity="other">ay fiyatı, sonra tam fiyat</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">İlk ay fiyatı, sonra tam fiyat</item>
+        <item quantity="few">İlk ay fiyatı, sonra tam fiyat</item>
+        <item quantity="many">İlk ay fiyatı, sonra tam fiyat</item>
+        <item quantity="other">İlk ay fiyatı, sonra tam fiyat</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">İlk ay fiyatı, sonra tam fiyat</item>
+        <item quantity="few">İlk %d ay fiyatı, sonra tam fiyat</item>
+        <item quantity="many">İlk %d ay fiyatı, sonra tam fiyat</item>
+        <item quantity="other">İlk %d ay fiyatı, sonra tam fiyat</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="one">"AHA!
+ %d ipucu kazandın"</item>
+        <item quantity="other">"AHA!
+%d ipucu kazandın"</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d saniye ileri sar</item>
+        <item quantity="other">%d saniye ileri sar</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d saniye geri sar</item>
+        <item quantity="other">%d saniye geri sar</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="one">Üstüste %s gün</item>
+        <item quantity="other">Üstüste %s gün</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="other">%d dakika Gönderi İzle</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">dakika öğrenildi</item>
+        <item quantity="one">dakika öğrenildi</item>
+        <item quantity="other">dakika öğrenildi</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">yeni kelime</item>
+        <item quantity="one">yeni kelime</item>
+        <item quantity="other">yeni kelime</item>
+    </plurals>
+    <plurals name="ignoredWords_title_mobile">
+        <item quantity="zero">Yok sayılan kelimeler (%d)</item>
+        <item quantity="one">Yok sayılan kelimeler (%d)</item>
+        <item quantity="few">Yok sayılan kelimeler (%d)</item>
+        <item quantity="many">Yok sayılan kelimeler (%d)</item>
+        <item quantity="other">Yok sayılan kelimeler (%d)</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">Yok sayılan kelimeler ()</item>
+        <item quantity="one">Yok sayılan kelimeler ()</item>
+        <item quantity="few">Yok sayılan kelimeler ()</item>
+        <item quantity="many">Yok sayılan kelimeler ()</item>
+        <item quantity="other">Yok sayılan kelimeler ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web">
+        <item quantity="one">kelime biliniyor</item>
+        <item quantity="few">kelime biliniyor</item>
+        <item quantity="many">kelime biliniyor</item>
+        <item quantity="other">kelime biliniyor</item>
+    </plurals>
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="one">kelime</item>
+        <item quantity="other">kelime</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">kelime</item>
+        <item quantity="one">kelime</item>
+        <item quantity="few">kelime</item>
+        <item quantity="many">kelime</item>
+        <item quantity="other">kelime</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d kelime</item>
+        <item quantity="one">%d kelime</item>
+        <item quantity="few">%d kelime</item>
+        <item quantity="many">%d kelime</item>
+        <item quantity="other">%d kelime</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">Yok sayılan kelimeleri görüntüle (%d)</item>
+        <item quantity="one">Yok sayılan kelimeleri görüntüle (%d)</item>
+        <item quantity="few">Yok sayılan kelimeleri görüntüle (%d)</item>
+        <item quantity="many">Yok sayılan kelimeleri görüntüle (%d)</item>
+        <item quantity="other">Yok sayılan kelimeleri görüntüle (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">Yok sayılan kelimeleri görüntüle ()</item>
+        <item quantity="one">Yok sayılan kelimeleri görüntüle ()</item>
+        <item quantity="few">Yok sayılan kelimeleri görüntüle ()</item>
+        <item quantity="many">Yok sayılan kelimeleri görüntüle ()</item>
+        <item quantity="other">Yok sayılan kelimeleri görüntüle ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="one">Teklif %s günde sona eriyor</item>
+        <item quantity="other">Teklif %s günde sona eriyor</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s gün</item>
+        <item quantity="one">%s gün</item>
+        <item quantity="other">%s gün</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"%s 
+kelime öğrenildi"</item>
+        <item quantity="one">"%s 
+kelime öğrenildi"</item>
+        <item quantity="other">"%s 
+kelime öğrenildi"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">kelimeyi öğrenildi</item>
+        <item quantity="one">kelimeyi öğrenildi</item>
+        <item quantity="few">kelimeyi öğrenildi</item>
+        <item quantity="many">kelimeyi öğrenildi</item>
+        <item quantity="other">kelimeyi öğrenildi</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold> gün</item>
+        <item quantity="few">&lt;bold>&lt;/bold> gün</item>
+        <item quantity="many">&lt;bold>&lt;/bold> gün</item>
+        <item quantity="other">&lt;bold>&lt;/bold> gün</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="zero">dakika</item>
+        <item quantity="one">dakika</item>
+        <item quantity="other">dakika</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="other">%d Gönderi İzle</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">Kelimeler &amp; İfadeler</item>
+        <item quantity="one">Kelimeler &amp; İfadeler</item>
+        <item quantity="few">Kelimeler &amp; İfadeler</item>
+        <item quantity="many">Kelimeler &amp; İfadeler</item>
+        <item quantity="other">Kelimeler &amp; İfadeler</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">%d Kelimeler &amp; İfadeler</item>
+        <item quantity="one">%d Kelimeler &amp; İfadeler</item>
+        <item quantity="few">%d Kelimeler &amp; İfadeler</item>
+        <item quantity="many">%d Kelimeler &amp; İfadeler</item>
+        <item quantity="other">%d Kelimeler &amp; İfadeler</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">kelime</item>
+        <item quantity="one">kelime</item>
+        <item quantity="few">kelime</item>
+        <item quantity="many">kelime</item>
+        <item quantity="other">kelime</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d kelime</item>
+        <item quantity="one">%d kelime</item>
+        <item quantity="few">%d kelime</item>
+        <item quantity="many">%d kelime</item>
+        <item quantity="other">%d kelime</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">öğrenilecek kelime</item>
+        <item quantity="one">öğrenilecek kelime</item>
+        <item quantity="few">öğrenilecek kelime</item>
+        <item quantity="many">öğrenilecek kelime</item>
+        <item quantity="other">öğrenilecek kelime</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">%d öğrenilecek kelime</item>
+        <item quantity="one">%d öğrenilecek kelime</item>
+        <item quantity="few">%d öğrenilecek kelime</item>
+        <item quantity="many">%d öğrenilecek kelime</item>
+        <item quantity="other">%d öğrenilecek kelime</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">kere</item>
+        <item quantity="one">kere</item>
+        <item quantity="few">kere</item>
+        <item quantity="many">kere</item>
+        <item quantity="other">kere</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">%d kere</item>
+        <item quantity="one">%d kere</item>
+        <item quantity="few">%d kere</item>
+        <item quantity="many">%d kere</item>
+        <item quantity="other">%d kere</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">kere</item>
+        <item quantity="one">kere</item>
+        <item quantity="few">kere</item>
+        <item quantity="many">kere</item>
+        <item quantity="other">kere</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">%d kere</item>
+        <item quantity="one">%d kere</item>
+        <item quantity="few">%d kere</item>
+        <item quantity="many">%d kere</item>
+        <item quantity="other">%d kere</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- videoda</item>
+        <item quantity="one">- videoda</item>
+        <item quantity="few">- videoda</item>
+        <item quantity="many">- videoda</item>
+        <item quantity="other">- videoda</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d videoda</item>
+        <item quantity="one">- %d videoda</item>
+        <item quantity="few">- %d videoda</item>
+        <item quantity="many">- %d videoda</item>
+        <item quantity="other">- %d videoda</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">doğru test</item>
+        <item quantity="one">doğru test</item>
+        <item quantity="few">doğru test</item>
+        <item quantity="many">doğru test</item>
+        <item quantity="other">doğru test</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">%d doğru test</item>
+        <item quantity="one">%d doğru test</item>
+        <item quantity="few">%d doğru test</item>
+        <item quantity="many">%d doğru test</item>
+        <item quantity="other">%d doğru test</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">kere</item>
+        <item quantity="one">kere</item>
+        <item quantity="few">kere</item>
+        <item quantity="many">kere</item>
+        <item quantity="other">kere</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">%d kere</item>
+        <item quantity="one">%d kere</item>
+        <item quantity="few">%d kere</item>
+        <item quantity="many">%d kere</item>
+        <item quantity="other">%d kere</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">kere</item>
+        <item quantity="one">kere</item>
+        <item quantity="few">kere</item>
+        <item quantity="many">kere</item>
+        <item quantity="other">kere</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">%d kere</item>
+        <item quantity="one">%d kere</item>
+        <item quantity="few">%d kere</item>
+        <item quantity="many">%d kere</item>
+        <item quantity="other">%d kere</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- sohbette</item>
+        <item quantity="one">- sohbette</item>
+        <item quantity="few">- sohbette</item>
+        <item quantity="many">- sohbette</item>
+        <item quantity="other">- sohbette</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d sohbette</item>
+        <item quantity="one">- %d sohbette</item>
+        <item quantity="few">- %d sohbette</item>
+        <item quantity="many">- %d sohbette</item>
+        <item quantity="other">- %d sohbette</item>
+    </plurals>
+</resources>

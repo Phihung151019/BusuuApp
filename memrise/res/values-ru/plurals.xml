@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_v2_description_dw">
+        <item quantity="one">ранее выученное слово</item>
+        <item quantity="few">ранее выученных слова</item>
+        <item quantity="many">ранее выученных слов</item>
+        <item quantity="other">ранее выученное слово</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_learn">
+        <item quantity="one">еще слово для достижения сегодняшней цели по изучению слов</item>
+        <item quantity="few">еще слова для достижения сегодняшней цели по изучению слов</item>
+        <item quantity="many">еще слов для достижения сегодняшней цели по изучению слов</item>
+        <item quantity="other">еще слово для достижения сегодняшней цели по изучению слов</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_review">
+        <item quantity="one">из сложных слов</item>
+        <item quantity="few">из сложных слов</item>
+        <item quantity="many">из сложных слов</item>
+        <item quantity="other">из сложных слов</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_speak">
+        <item quantity="one">раз с нашим чат-ботом на основе ИИ</item>
+        <item quantity="few">раза с нашим чат-ботом на основе ИИ</item>
+        <item quantity="many">раз с нашим чат-ботом на основе ИИ</item>
+        <item quantity="other">раз с нашим чат-ботом на основе ИИ</item>
+    </plurals>
+    <plurals name="daily_activity_v2_description_watch">
+        <item quantity="one">видео, чтобы погрузиться в язык</item>
+        <item quantity="few">видео, чтобы погрузиться в язык</item>
+        <item quantity="many">видео, чтобы погрузиться в язык</item>
+        <item quantity="other">видео, чтобы погрузиться в язык</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text">
+        <item quantity="one">Серия: %s день.</item>
+        <item quantity="few">Серия: %s дн.</item>
+        <item quantity="many">Серия: %s дн.</item>
+        <item quantity="other">Серия: %s дн.</item>
+    </plurals>
+    <plurals name="daily_goal_streak_text_new">
+        <item quantity="one">Серия: %d день.</item>
+        <item quantity="few">Серия: %d дн.</item>
+        <item quantity="many">Серия: %d дн.</item>
+        <item quantity="other">Серия: %d дн.</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months">
+        <item quantity="one">месяц БЕСПЛАТНО</item>
+        <item quantity="few">месяца БЕСПЛАТНО</item>
+        <item quantity="many">месяцев БЕСПЛАТНО</item>
+        <item quantity="other">месяца БЕСПЛАТНО</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v2">
+        <item quantity="one">Первый месяц БЕСПЛАТНО</item>
+        <item quantity="few">Первые месяца БЕСПЛАТНО</item>
+        <item quantity="many">Первых месяцев БЕСПЛАТНО</item>
+        <item quantity="other">Первые месяца БЕСПЛАТНО</item>
+    </plurals>
+    <plurals name="ea_plans_free_trial_first_x_months_v3">
+        <item quantity="one">Первый месяц БЕСПЛАТНО</item>
+        <item quantity="few">Первые %d месяца БЕСПЛАТНО</item>
+        <item quantity="many">Первых %d месяцев БЕСПЛАТНО</item>
+        <item quantity="other">Первые %d месяца БЕСПЛАТНО</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months">
+        <item quantity="one">месяц вперед</item>
+        <item quantity="few">месяца вперед</item>
+        <item quantity="many">месяцев вперед</item>
+        <item quantity="other">месяца вперед</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v2">
+        <item quantity="one">Оплатить месяц вперед</item>
+        <item quantity="few">Оплатить месяца вперед</item>
+        <item quantity="many">Оплатить месяцев вперед</item>
+        <item quantity="other">Оплатить месяца вперед</item>
+    </plurals>
+    <plurals name="ea_plans_pay_upfront_x_months_v3">
+        <item quantity="one">Оплатить %d месяц вперед</item>
+        <item quantity="few">Оплатить %d месяца вперед</item>
+        <item quantity="many">Оплатить %d месяцев вперед</item>
+        <item quantity="other">Оплатить %d месяца вперед</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price">
+        <item quantity="one">месяц, затем полная стоимость</item>
+        <item quantity="few">месяца, затем полная стоимость</item>
+        <item quantity="many">месяцев, затем полная стоимость</item>
+        <item quantity="other">месяца, затем полная стоимость</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v2">
+        <item quantity="one">Первый месяц, затем полная стоимость</item>
+        <item quantity="few">Первые месяца, затем полная стоимость</item>
+        <item quantity="many">Первых месяцев, затем полная стоимость</item>
+        <item quantity="other">Первые месяца, затем полная стоимость</item>
+    </plurals>
+    <plurals name="ea_plans_percent_off_first_x_months_price_v3">
+        <item quantity="one">Первый месяц, затем полная стоимость</item>
+        <item quantity="few">Первые %d месяца, затем полная стоимость</item>
+        <item quantity="many">Первых %d месяцев, затем полная стоимость</item>
+        <item quantity="other">Первые %d месяца, затем полная стоимость</item>
+    </plurals>
+    <plurals name="eos_hints_text">
+        <item quantity="one">"ВУАЛЯ!
+Заработано %d подсказку"</item>
+        <item quantity="few">"ВУАЛЯ!
+Заработано %d подсказки"</item>
+        <item quantity="many">"ВУАЛЯ!
+Заработано %d подсказок"</item>
+        <item quantity="other">"ВУАЛЯ!
+Заработано %d подсказок"</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду вперед</item>
+        <item quantity="few">Перемотать на %d секунды вперед</item>
+        <item quantity="many">Перемотать на %d секунд вперед</item>
+        <item quantity="other">Перемотать на %d секунды вперед</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду назад</item>
+        <item quantity="few">Перемотать на %d секунды назад</item>
+        <item quantity="many">Перемотать на %d секунд назад</item>
+        <item quantity="other">Перемотать на %d секунды назад</item>
+    </plurals>
+    <plurals name="goal_streak_badge_title">
+        <item quantity="one">Серия: %s день</item>
+        <item quantity="few">Серия: %s дн.</item>
+        <item quantity="many">Серия: %s дн.</item>
+        <item quantity="other">Серия: %s дн.</item>
+    </plurals>
+    <plurals name="home_screen_goal_list_immerse_minutes">
+        <item quantity="zero">Смотреть %d минут видео</item>
+    </plurals>
+    <plurals name="hs_stats_minutes">
+        <item quantity="zero">минут учёбы</item>
+        <item quantity="one">минута учёбы</item>
+        <item quantity="few">минуты учёбы</item>
+        <item quantity="many">минут учёбы</item>
+        <item quantity="other">минут учёбы</item>
+    </plurals>
+    <plurals name="hs_stats_new_words">
+        <item quantity="zero">новых слов</item>
+        <item quantity="one">новое слово</item>
+        <item quantity="few">новых слова</item>
+        <item quantity="many">новых слов</item>
+        <item quantity="other">новых слов</item>
+    </plurals>
+    <plurals name="ignoredWords_title_mobile">
+        <item quantity="zero">Пропущенные слова (%d)</item>
+        <item quantity="one">Пропущенное слово (%d)</item>
+        <item quantity="few">Пропущенные слова (%d)</item>
+        <item quantity="many">Пропущенные слова (%d)</item>
+        <item quantity="other">Пропущенные слова (%d)</item>
+    </plurals>
+    <plurals name="ignoredWords_title_web">
+        <item quantity="zero">Пропущенные слова ()</item>
+        <item quantity="one">Пропущенное слово ()</item>
+        <item quantity="few">Пропущенные слова ()</item>
+        <item quantity="many">Пропущенные слова ()</item>
+        <item quantity="other">Пропущенные слова ()</item>
+    </plurals>
+    <plurals name="immerse_chip_num_words_learned_web">
+        <item quantity="one">известное слово</item>
+        <item quantity="few">известных слова</item>
+        <item quantity="many">известных слов</item>
+        <item quantity="other">известное слово</item>
+    </plurals>
+    <plurals name="learning_session_daily_goal_setter_goal_select_words">
+        <item quantity="one">слово</item>
+        <item quantity="few">слова</item>
+        <item quantity="many">слов</item>
+        <item quantity="other">слов</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount">
+        <item quantity="zero">слов</item>
+        <item quantity="one">слово</item>
+        <item quantity="few">слова</item>
+        <item quantity="many">слов</item>
+        <item quantity="other">слова</item>
+    </plurals>
+    <plurals name="learnq_previewScreen_review_wordCount_mobile">
+        <item quantity="zero">%d слов</item>
+        <item quantity="one">%d слово</item>
+        <item quantity="few">%d слова</item>
+        <item quantity="many">%d слов</item>
+        <item quantity="other">%d слова</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_mobile">
+        <item quantity="zero">Просмотреть пропущенные слова (%d)</item>
+        <item quantity="one">Просмотреть пропущенное слово (%d)</item>
+        <item quantity="few">Просмотреть пропущенные слова (%d)</item>
+        <item quantity="many">Просмотреть пропущенные слова (%d)</item>
+        <item quantity="other">Просмотреть пропущенные слова (%d)</item>
+    </plurals>
+    <plurals name="myWords_viewIgnoredWords_CTA_web">
+        <item quantity="zero">Просмотреть пропущенные слова ()</item>
+        <item quantity="one">Просмотреть пропущенное слово ()</item>
+        <item quantity="few">Просмотреть пропущенные слова ()</item>
+        <item quantity="many">Просмотреть пропущенные слова ()</item>
+        <item quantity="other">Просмотреть пропущенные слова ()</item>
+    </plurals>
+    <plurals name="pro_tab_offer_expiration_label">
+        <item quantity="zero">Предложение заканчивается через %s дней</item>
+        <item quantity="one">Предложение заканчивается через %s день</item>
+        <item quantity="few">Предложение заканчивается через %s дня</item>
+        <item quantity="many">Предложение заканчивается через %s дней</item>
+        <item quantity="other">Предложение заканчивается через %s дней</item>
+    </plurals>
+    <plurals name="promotion_countdown">
+        <item quantity="zero">%s дней</item>
+        <item quantity="one">%s день</item>
+        <item quantity="few">%s дня</item>
+        <item quantity="many">%s дней</item>
+        <item quantity="other">%s дней</item>
+    </plurals>
+    <plurals name="results_learned">
+        <item quantity="zero">"%s 
+слов выучено"</item>
+        <item quantity="one">"%s 
+слово выучено"</item>
+        <item quantity="few">"%s 
+слова выучено"</item>
+        <item quantity="many">"%s 
+слов выучено"</item>
+        <item quantity="other">"%s 
+слов выучено"</item>
+    </plurals>
+    <plurals name="skill_framework_description_web">
+        <item quantity="zero">выученных тобой слов.</item>
+        <item quantity="one">выученное тобой слово.</item>
+        <item quantity="few">выученных тобой слова.</item>
+        <item quantity="many">выученных тобой слов.</item>
+        <item quantity="other">выученное тобой слово.</item>
+    </plurals>
+    <plurals name="streaks_celebration_days_web">
+        <item quantity="one">&lt;bold>&lt;/bold> день</item>
+        <item quantity="few">&lt;bold>&lt;/bold> дня</item>
+        <item quantity="many">&lt;bold>&lt;/bold> дней</item>
+        <item quantity="other">&lt;bold>&lt;/bold> день</item>
+    </plurals>
+    <plurals name="today_screen_minutes_label">
+        <item quantity="zero">мин.</item>
+        <item quantity="one">мин.</item>
+        <item quantity="few">мин.</item>
+        <item quantity="many">мин.</item>
+        <item quantity="other">мин.</item>
+    </plurals>
+    <plurals name="today_screen_tasks_todo_watch_posts">
+        <item quantity="zero">Смотреть %d видео</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title">
+        <item quantity="zero">слов и фраз</item>
+        <item quantity="one">слово и фраза</item>
+        <item quantity="few">слова и фразы</item>
+        <item quantity="many">слов и фраз</item>
+        <item quantity="other">слова и фразы</item>
+    </plurals>
+    <plurals name="wordlist_videos_wordsandphrases_title_mobile">
+        <item quantity="zero">%d слов и фраз</item>
+        <item quantity="one">%d слово и фраза</item>
+        <item quantity="few">%d слова и фразы</item>
+        <item quantity="many">%d слов и фраз</item>
+        <item quantity="other">%d слова и фразы</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader">
+        <item quantity="zero">слов</item>
+        <item quantity="one">слово</item>
+        <item quantity="few">слова</item>
+        <item quantity="many">слов</item>
+        <item quantity="other">слова</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_section1_subheader_mobile">
+        <item quantity="zero">%d слов</item>
+        <item quantity="one">%d слово</item>
+        <item quantity="few">%d слова</item>
+        <item quantity="many">%d слов</item>
+        <item quantity="other">%d слова</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label">
+        <item quantity="zero">слов для изучения</item>
+        <item quantity="one">слово для изучения</item>
+        <item quantity="few">слова для изучения</item>
+        <item quantity="many">слов для изучения</item>
+        <item quantity="other">слова для изучения</item>
+    </plurals>
+    <plurals name="wordlists_viewlist_wordcount_label_mobile">
+        <item quantity="zero">%d слов для изучения</item>
+        <item quantity="one">%d слово для изучения</item>
+        <item quantity="few">%d слова для изучения</item>
+        <item quantity="many">%d слов для изучения</item>
+        <item quantity="other">%d слова для изучения</item>
+    </plurals>
+    <plurals name="words_detail_heard_count">
+        <item quantity="zero">видео</item>
+        <item quantity="one">видео</item>
+        <item quantity="few">видео</item>
+        <item quantity="many">видео</item>
+        <item quantity="other">видео</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_mobile">
+        <item quantity="zero">%d видео</item>
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео</item>
+        <item quantity="many">%d видео</item>
+        <item quantity="other">%d видео</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1">
+        <item quantity="zero">раз</item>
+        <item quantity="one">раз</item>
+        <item quantity="few">раза</item>
+        <item quantity="many">раз</item>
+        <item quantity="other">раза</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part1_mobile">
+        <item quantity="zero">%d раз</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="few">%d раза</item>
+        <item quantity="many">%d раз</item>
+        <item quantity="other">%d раза</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2">
+        <item quantity="zero">- видео</item>
+        <item quantity="one">- видео</item>
+        <item quantity="few">- видео</item>
+        <item quantity="many">- видео</item>
+        <item quantity="other">- видео</item>
+    </plurals>
+    <plurals name="words_detail_heard_count_part2_mobile">
+        <item quantity="zero">- %d видео</item>
+        <item quantity="one">- %d видео</item>
+        <item quantity="few">- %d видео</item>
+        <item quantity="many">- %d видео</item>
+        <item quantity="other">- %d видео</item>
+    </plurals>
+    <plurals name="words_detail_learned_count">
+        <item quantity="zero">правильных тестов</item>
+        <item quantity="one">правильный тест</item>
+        <item quantity="few">правильных тестов</item>
+        <item quantity="many">правильных тестов</item>
+        <item quantity="other">правильных тестов</item>
+    </plurals>
+    <plurals name="words_detail_learned_count_mobile">
+        <item quantity="zero">%d правильных тестов</item>
+        <item quantity="one">%d правильный тест</item>
+        <item quantity="few">%d правильных тестов</item>
+        <item quantity="many">%d правильных тестов</item>
+        <item quantity="other">%d правильных тестов</item>
+    </plurals>
+    <plurals name="words_detail_used_count">
+        <item quantity="zero">разговоров</item>
+        <item quantity="one">разговор</item>
+        <item quantity="few">разговора</item>
+        <item quantity="many">разговоров</item>
+        <item quantity="other">разговора</item>
+    </plurals>
+    <plurals name="words_detail_used_count_mobile">
+        <item quantity="zero">%d разговоров</item>
+        <item quantity="one">%d разговор</item>
+        <item quantity="few">%d разговора</item>
+        <item quantity="many">%d разговоров</item>
+        <item quantity="other">%d разговора</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1">
+        <item quantity="zero">раз</item>
+        <item quantity="one">раз</item>
+        <item quantity="few">раза</item>
+        <item quantity="many">раз</item>
+        <item quantity="other">раза</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part1_mobile">
+        <item quantity="zero">%d раз</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="few">%d раза</item>
+        <item quantity="many">%d раз</item>
+        <item quantity="other">%d раза</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2">
+        <item quantity="zero">- разговоров</item>
+        <item quantity="one">- разговор</item>
+        <item quantity="few">- разговора</item>
+        <item quantity="many">- разговоров</item>
+        <item quantity="other">- разговорa</item>
+    </plurals>
+    <plurals name="words_detail_used_count_part2_mobile">
+        <item quantity="zero">- %d разговоров</item>
+        <item quantity="one">- %d разговор</item>
+        <item quantity="few">- %d разговора</item>
+        <item quantity="many">- %d разговоров</item>
+        <item quantity="other">- %d разговорa</item>
+    </plurals>
+</resources>
