@@ -572,7 +572,7 @@
     :cond_1
     const/4 p0, 0x0
 
-    return-void
+    return p0
 
     :cond_2
     return v0
