@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.SavedLinkItemView android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AppCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/web_img" android:layout_width="15.0dp" android:layout_height="15.0dp" android:layout_marginLeft="2.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="2.0dp" android:layout_below="@id/web_title" android:layout_marginStart="2.0dp" />
+        <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/color_primary_text" android:ellipsize="end" android:id="@id/web_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginStart="5.0dp" />
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/color_second_text" android:ellipsize="end" android:id="@id/web_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="5.0dp" android:maxLines="2" android:layout_toLeftOf="@id/web_del" android:layout_toRightOf="@id/web_img" android:layout_below="@id/web_title" android:layout_marginStart="5.0dp" android:layout_toStartOf="@id/web_del" android:layout_toEndOf="@id/web_img" />
+        <ImageButton android:id="@id/web_del" android:background="?selectableItemBackgroundBorderless" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_delete_grey_700_24dp" android:layout_below="@id/web_title" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.tdtapp.englisheveryday.widgets.SavedLinkItemView>

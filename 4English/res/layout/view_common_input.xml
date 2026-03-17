@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:id="@id/tilRoot" android:layout_width="match_parent" android:layout_height="wrap_content" app:boxBackgroundMode="outline" app:boxCornerRadiusBottomEnd="10.0dp" app:boxCornerRadiusBottomStart="10.0dp" app:boxCornerRadiusTopEnd="10.0dp" app:boxCornerRadiusTopStart="10.0dp" app:boxStrokeWidth="1.0dp" app:errorTextColor="@color/input_error" app:hintEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputEditText android:textSize="14.0sp" android:id="@id/etInput" android:background="@drawable/bg_white_radius_normal" android:padding="@dimen/_12sdp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.google.android.material.textfield.TextInputLayout>

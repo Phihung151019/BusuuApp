@@ -1,0 +1,28 @@
+.class public final synthetic Lcoil3/i;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lwc/a;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    invoke-static {}, Lcoil3/ImageLoader$Builder;->f()Lcoil3/disk/DiskCache;
+
+    move-result-object v0
+
+    return-object v0
+.end method

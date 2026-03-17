@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="@drawable/circle_white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.lzyzsd.circleprogress.ArcProgress android:id="@id/streak_progress_bar" android:layout_width="@dimen/float_streak_btn_size" android:layout_height="@dimen/float_streak_btn_size" android:layout_centerInParent="true" android:rotation="180.0" app:arc_angle="360.0" app:arc_bottom_text=" " app:arc_finished_color="@color/streak_progress" app:arc_max="600" app:arc_stroke_width="4.0dp" app:arc_suffix_text=" " app:arc_text_size="1.0sp" app:arc_unfinished_color="@color/streak_progress_background" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_streak_fire" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.OrderItemView android:layout_width="match_parent" android:layout_height="50.0dp" style="@style/OrderItemCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginStart="@dimen/margin_safe_base">
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/image" android:padding="10.0dp" android:layout_width="40.0dp" android:layout_height="match_parent" android:scaleType="centerInside" app:srcCompat="@drawable/ic_reorder_svg" />
+    </LinearLayout>
+</com.tdtapp.englisheveryday.widgets.OrderItemView>

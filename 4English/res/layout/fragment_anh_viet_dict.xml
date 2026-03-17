@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/dict_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/view_download" android:background="@color/green" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:textColor="@color/white" android:id="@id/btn_hide" android:padding="10.0dp" android:visibility="gone" android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_margin="5.0dp" app:srcCompat="@drawable/ic_close_small_svg" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="7.0dp" android:text="@string/download_av" android:layout_weight="1.0" android:layout_marginStart="7.0dp" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_download" android:background="@drawable/selector_btn_blue" android:paddingLeft="7.0dp" android:paddingRight="7.0dp" android:layout_width="wrap_content" android:layout_height="35.0dp" android:layout_margin="5.0dp" android:text="@string/btn_download" android:drawablePadding="5.0dp" app:drawableLeftCompat="@drawable/ic_download_excel_svg" app:drawableStartCompat="@drawable/ic_download_excel_svg" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </LinearLayout>
+    <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:background="@color/dict_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/content_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageButton android:layout_gravity="end" android:id="@id/speaker" android:background="@drawable/speaker_bg" android:visibility="gone" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_margin="16.0dp" android:src="@drawable/ic_volume_up_white_24dp" />
+    </com.tdtapp.englisheveryday.layout.ContentFrame>
+</LinearLayout>

@@ -1,0 +1,208 @@
+.class public final Lcom/google/firebase/auth/internal/zzae;
+.super Lcom/google/firebase/auth/MultiFactorResolver;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "DefaultMultiFactorResolverCreator"
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/google/firebase/auth/internal/zzae;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field private final m:Ljava/util/List;
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Field;
+        getter = "getPhoneMultiFactorInfoList"
+        id = 0x1
+    .end annotation
+.end field
+
+.field private final q:Lcom/google/firebase/auth/internal/zzag;
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Field;
+        getter = "getSession"
+        id = 0x2
+    .end annotation
+.end field
+
+.field private final s:Ljava/lang/String;
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Field;
+        getter = "getFirebaseAppName"
+        id = 0x3
+    .end annotation
+.end field
+
+.field private final t:Lcom/google/firebase/auth/zze;
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Field;
+        getter = "getDefaultOAuthCredential"
+        id = 0x4
+    .end annotation
+.end field
+
+.field private final u:Lcom/google/firebase/auth/internal/zzx;
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Field;
+        getter = "getReauthUser"
+        id = 0x5
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LW4/e;
+
+    invoke-direct {v0}, LW4/e;-><init>()V
+
+    sput-object v0, Lcom/google/firebase/auth/internal/zzae;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/List;Lcom/google/firebase/auth/internal/zzag;Ljava/lang/String;Lcom/google/firebase/auth/zze;Lcom/google/firebase/auth/internal/zzx;)V
+    .locals 2
+    .param p1    # Ljava/util/List;
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Param;
+            id = 0x1
+        .end annotation
+    .end param
+    .param p2    # Lcom/google/firebase/auth/internal/zzag;
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Param;
+            id = 0x2
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Param;
+            id = 0x3
+        .end annotation
+    .end param
+    .param p4    # Lcom/google/firebase/auth/zze;
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Param;
+            id = 0x4
+        .end annotation
+    .end param
+    .param p5    # Lcom/google/firebase/auth/internal/zzx;
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Param;
+            id = 0x5
+        .end annotation
+    .end param
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Constructor;
+    .end annotation
+
+    invoke-direct {p0}, Lcom/google/firebase/auth/MultiFactorResolver;-><init>()V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/google/firebase/auth/internal/zzae;->m:Ljava/util/List;
+
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :cond_0
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/google/firebase/auth/MultiFactorInfo;
+
+    instance-of v1, v0, Lcom/google/firebase/auth/PhoneMultiFactorInfo;
+
+    if-eqz v1, :cond_0
+
+    iget-object v1, p0, Lcom/google/firebase/auth/internal/zzae;->m:Ljava/util/List;
+
+    check-cast v0, Lcom/google/firebase/auth/PhoneMultiFactorInfo;
+
+    invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_1
+    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/google/firebase/auth/internal/zzag;
+
+    iput-object p1, p0, Lcom/google/firebase/auth/internal/zzae;->q:Lcom/google/firebase/auth/internal/zzag;
+
+    invoke-static {p3}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotEmpty(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/google/firebase/auth/internal/zzae;->s:Ljava/lang/String;
+
+    iput-object p4, p0, Lcom/google/firebase/auth/internal/zzae;->t:Lcom/google/firebase/auth/zze;
+
+    iput-object p5, p0, Lcom/google/firebase/auth/internal/zzae;->u:Lcom/google/firebase/auth/internal/zzx;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 4
+
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
+
+    move-result v0
+
+    iget-object v1, p0, Lcom/google/firebase/auth/internal/zzae;->m:Ljava/util/List;
+
+    const/4 v2, 0x1
+
+    const/4 v3, 0x0
+
+    invoke-static {p1, v2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeTypedList(Landroid/os/Parcel;ILjava/util/List;Z)V
+
+    const/4 v1, 0x2
+
+    iget-object v2, p0, Lcom/google/firebase/auth/internal/zzae;->q:Lcom/google/firebase/auth/internal/zzag;
+
+    invoke-static {p1, v1, v2, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+
+    const/4 v1, 0x3
+
+    iget-object v2, p0, Lcom/google/firebase/auth/internal/zzae;->s:Ljava/lang/String;
+
+    invoke-static {p1, v1, v2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeString(Landroid/os/Parcel;ILjava/lang/String;Z)V
+
+    const/4 v1, 0x4
+
+    iget-object v2, p0, Lcom/google/firebase/auth/internal/zzae;->t:Lcom/google/firebase/auth/zze;
+
+    invoke-static {p1, v1, v2, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+
+    const/4 v1, 0x5
+
+    iget-object v2, p0, Lcom/google/firebase/auth/internal/zzae;->u:Lcom/google/firebase/auth/internal/zzx;
+
+    invoke-static {p1, v1, v2, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
+
+    return-void
+.end method

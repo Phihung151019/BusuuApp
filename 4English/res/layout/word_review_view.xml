@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_text_action" android:gravity="center_vertical" android:id="@id/word" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:maxLines="1" android:layout_marginEnd="10.0dp" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    <LinearLayout android:orientation="vertical" android:id="@id/phonetic_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/uk_phonetic_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="25.0dp" android:text="UK" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/speaker_uk" android:background="?selectableItemBackground" android:padding="9.0dp" android:layout_width="40.0dp" android:layout_height="35.0dp" app:srcCompat="@drawable/ic_speaker_svg" app:tint="@color/color_second_txt_in_white" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:id="@id/uk_phonetic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/us_phonetic_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="25.0dp" android:text="US" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/speaker_us" android:background="?selectableItemBackground" android:padding="9.0dp" android:layout_width="40.0dp" android:layout_height="35.0dp" app:srcCompat="@drawable/ic_speaker_svg" app:tint="@color/color_second_txt_in_white" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:id="@id/us_phonetic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:id="@id/note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:maxLines="2" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:ellipsize="end" android:id="@id/example" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" />
+</LinearLayout>

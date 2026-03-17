@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/container" android:background="@drawable/selector_btn_bg_white" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="45.0dp" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center_vertical" android:orientation="vertical" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:maxLines="1" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:ellipsize="end" android:gravity="center_vertical" android:orientation="vertical" android:id="@id/tv_mean" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_type" android:padding="2.0dp" android:layout_width="20.0dp" android:layout_height="20.0dp" app:srcCompat="@drawable/ic_go_svg" />
+    </LinearLayout>
+    <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="5.0dp" />
+</LinearLayout>

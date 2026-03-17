@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'feast';
+    src: url('file:///android_asset/fonts/arial.ttf');
+}
+
+* {
+	font-size: 101%;
+	font-family: 'feast';
+    padding: 0;
+    margin: 0;
+    background-color: #131313;
+}
+
+.m5t {
+	font-weight: normal;
+	margin-top: 5px;
+    color: #767676;
+
+    line-height: 140%;
+    
+	padding-top:10px;
+	padding-bottom:25px;
+	padding-right:0px;
+	padding-left:0px;    
+}
+
+.wbold {
+}
+
+.wbold_backup {
+	color: #E68A00;
+}
+
+.k3 {
+    border-style: solid;
+}
+
+.p10l {
+    padding-left: 10px;
+}
+
+.ovf {
+    overflow: hidden;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.w {
+    color: #767676;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: underline;
+
+}
+
+.fl {
+    float: left;
+}
+
+.cB {
+    color: #767676;
+}
+
+.p5l {
+    padding-left: 5px;
+}
+
+.ub {
+    color: #767676;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.m {
+    background: url("arrow.png") 0 2px no-repeat;
+    
+	color: #767676;
+    margin-top: 5px;
+    
+    background-position-x: 0px;
+    background-position-y: 2px;
+    background-size: 7px 18px;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: 7px 18px;
+    padding-left: 15px;
+}
+
+.e {
+    margin-left: 10px;
+}
+
+.em {
+    color: #767676;
+    margin-left: 10px;
+    padding-bottom: 2px;
+}
+
+a:link {
+    color:#4CAF50;
+}
+
+.id {
+    background-image: url("result.png");
+    background-position: left 9px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.im {
+    color: #767676;
+    background-image: url("result.png");
+    background-position: left 9px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.eim {
+    margin-left: 40px;
+    color: #767676;
+}
+
+ .ei {
+    margin-left: 40px;
+}
+ .span {
+     color: #767676;
+ }

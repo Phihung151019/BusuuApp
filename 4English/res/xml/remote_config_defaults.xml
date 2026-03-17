@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>all_items_max</key>
+        <value>50</value>
+    </entry>
+    <entry>
+        <key>brief_items_max</key>
+        <value>50</value>
+    </entry>
+    <entry>
+        <key>refresh_brief_after_minutes</key>
+        <value>15</value>
+    </entry>
+    <entry>
+        <key>free_translate_num</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>free_text_to_speech_num</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>num_quiz_completed_for_suggest_group</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>android_admob_full_ad_id</key>
+        <value>ca-app-pub-8211181686902268/7787192613</value>
+    </entry>
+    <entry>
+        <key>android_admob_full_ad_for_back_id</key>
+        <value>ca-app-pub-8211181686902268/5440354586</value>
+    </entry>
+    <entry>
+        <key>android_admob_reward_ad_id</key>
+        <value>ca-app-pub-8211181686902268/2399134567</value>
+    </entry>
+    <entry>
+        <key>android_admob_banner_ad_id</key>
+        <value>ca-app-pub-8211181686902268/1990804984</value>
+    </entry>
+    <entry>
+        <key>android_admob_native_id</key>
+        <value>ca-app-pub-8211181686902268/8309936798</value>
+    </entry>
+    <entry>
+        <key>fb_ad_brief_native_id</key>
+        <value>139313273335530_150193265580864</value>
+    </entry>
+    <entry>
+        <key>android_admob_open_ads_id</key>
+        <value>ca-app-pub-8211181686902268/4820272016</value>
+    </entry>
+    <entry>
+        <key>fb_ad_brief_native_num_type</key>
+        <value>6</value>
+    </entry>
+    <entry>
+        <key>android_ad_num_per_items_brief</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>android_ad_num_per_items_detail</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>fb_ad_detail_native_id</key>
+        <value>139313273335530_150235268909997</value>
+    </entry>
+    <entry>
+        <key>fb_ad_detail_native_num_type</key>
+        <value>6</value>
+    </entry>
+    <entry>
+        <key>admob_show_banner_ads_in_detail</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>accept_multiple_learn</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>android_user_agent</key>
+        <value>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36</value>
+    </entry>
+    <entry>
+        <key>android_app_version</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>android_update_msg</key>
+        <value>Sửa lỗi và cập nhật thêm tính năng mới!</value>
+    </entry>
+    <entry>
+        <key>android_update_msg_vn</key>
+        <value>Sửa lỗi và cập nhật thêm tính năng mới!</value>
+    </entry>
+    <entry>
+        <key>android_update_msg_en</key>
+        <value>There's a new update available!</value>
+    </entry>
+    <entry>
+        <key>log_count_firestore_read</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>android_feed_ad_enable</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>option_watch_video_ads_enabled</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>show_ad_after_word_saved_num</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>free_highlight_num</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>exercise_free_num</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>recent_vocab_max</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>free_video_num</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>video_sub_require_ratio</key>
+        <value>0.3</value>
+    </entry>
+    <entry>
+        <key>feedback_title_vn</key>
+        <value>Hãy dành chút thời gian gửi cho chúng tôi những tính năng bạn cần thêm hoặc cải tiến
+            nhé!</value>
+    </entry>
+    <entry>
+        <key>feedback_title_en</key>
+        <value>Please take few minutes to give us your feedback!</value>
+    </entry>
+    <entry>
+        <key>feedback_id</key>
+        <value>fb1</value>
+    </entry>
+    <entry>
+        <key>show_full_ad_after_read_detail_num</key>
+        <value>3,9,15</value>
+    </entry>
+    <entry>
+        <key>android_force_update</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>free_posdcast_speaker_section_num</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>free_download_podcast_num</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>free_chatgpt_num</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>num_game_offline_free</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>num_game_public_free</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>num_game_invite_friend</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>num_game_solo_random</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>num_quiz_round_free</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>num_quiz_require_pro</key>
+        <value>40</value>
+    </entry>
+    <entry>
+        <key>num_open_home_screen_need_show_ads</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>enable_open_app_ads</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>enable_sync_extension</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>free_listen_speak_num</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>free_search_news_num</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>android_latest_app_version</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>android_force_update_app_version</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>enable_search_feature</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>invalid_tags_for_click_word</key>
+        <value>a,button,input</value>
+    </entry>
+    <entry>
+        <key>invalid_tags_per_host</key>
+        <value> techcrunch.com=header,a|edition.cnn.com=div[nav__container],div(menu),div[nav-section]|usatoday.com=div(fullNavToggle),nav-global,promo-story-thumb-small,promo-story-thumb-large,media-gallery,media-gallery-vertical,media-lightbox,media-image|e.vnexpress.net=div(menu_tablet)|biography.com=div[m-card--content] </value>
+    </entry>
+    <entry>
+        <key>free_click_word_in_web_num</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>free_read_web_first_time_num</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>free_read_web_num</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>free_add_fav_web_num</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>free_save_link_web_num</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>free_create_folder_num</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>free_download_vocab</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>free_import_word_num</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>free_number_save_word</key>
+        <value>7</value>
+    </entry>
+    <entry>
+        <key>free_translate_paragraph_in_web_num</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>flashcard_show_ad_if_enough_num</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>free_search_phrase_num</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>free_chem_video_num</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>ignore_reminder_within_hours_num</key>
+        <value>4</value>
+    </entry>
+    <entry>
+        <key>free_trans_sub_num</key>
+        <value>15</value>
+    </entry>
+    <entry>
+        <key>rating_after_num_news_read</key>
+        <value>7</value>
+    </entry>
+    <entry>
+        <key>rating_after_num_word_saved</key>
+        <value>4</value>
+    </entry>
+    <entry>
+        <key>rating_after_num_word_look_up</key>
+        <value>15</value>
+    </entry>
+    <entry>
+        <key>show_only_topic_setting</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>enable_dict_from_firestore</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>parse_translation_js</key>
+        <value> function parseTranslation(json) {
+			   var rootArray = JSON.parse(json);
+			   var totalText = "";
+
+			   for(var i = 0; i &lt; rootArray[0].length; i++) {
+				  var text = rootArray[0][i][0];
+				  totalText = totalText + text;
+			   }
+			   return totalText;
+		   } </value>
+    </entry>
+    <entry>
+        <key>android_parse_image_js</key>
+        <value> function getSuggestedPhotos(html, limit, thresholdSize) {
+                var contentTag = document.createElement('div');
+                contentTag.innerHTML = html;
+                const scripts = contentTag.querySelectorAll("script");
+                const regex = /data:image\/jpeg;base64,([^\\']+)/;
+                var resultImages = []
+                var resultBase64 = []
+                for (var i = 0; i &lt; scripts.length; i++) {
+                    const content = scripts[i].innerHTML;
+                    const match = regex.exec(content);
+                    if (match &amp;&amp; match[1]) {
+                      const data = "base64," + match[1];
+                      resultBase64.push(data);
+                    }
+                }
+                resultBase64.sort((a, b) => b.length - a.length);
+                for (var i = 0; i &lt; resultBase64.length; i++){
+                    resultImages.push({base64: resultBase64[i], width: 0, height: 0, url: ""})
+                }
+                return JSON.stringify(resultImages)
+            } </value>
+    </entry>
+    <entry>
+        <key>parse_image_js</key>
+        <value> function getSuggestedPhotos(html, limit, thresholdSize) {
+                var contentTag = document.createElement('div');
+                contentTag.innerHTML = html;
+                var imageList = contentTag.querySelectorAll("img");
+                var resultImages = []
+                for (var i = 0; i &lt; imageList.length; i++) {
+                    var image = imageList[i]
+                    if ((!image.hasAttribute("width") || !image.hasAttribute("height")) || (image.width >= thresholdSize &amp;&amp; image.height >= thresholdSize)) {
+                        var base64 = "";
+                        var url = "";
+                        var src = "";
+                        //get correct src
+                        if (image.src) {
+                            src = image.src
+                        } else if (image.getAttribute("data-src")) {
+                            src = image.getAttribute("data-src")
+                        } else {
+                            continue;
+                        }
+                        //check base64 or url
+                        if (src.match("^http")) {
+                            url = src
+                        } else if (src.match("^data:image")) {
+                            base64 = src
+                        } else {
+                            continue;
+                        }
+                        resultImages.push({base64: base64, width: image.width, height: image.height, url: url})
+                        if (resultImages.length >= limit) {
+                            break;
+                        }
+                    }
+                }
+                return JSON.stringify(resultImages)
+            } </value>
+    </entry>
+    <entry>
+        <key>google_image_limit_num</key>
+        <value>15</value>
+    </entry>
+    <entry>
+        <key>google_image_min_size</key>
+        <value>50</value>
+    </entry>
+    <entry>
+        <key>android_google_image_url</key>
+        <value>https://www.google.com/search?tbm=isch&amp;tbs=isz%3Am&amp;q=\"%s\"</value>
+    </entry>
+    <entry>
+        <key>android_google_search_video_url</key>
+        <value> {
+              "split": "v=",
+              "queryKey": "v",
+              "startWith": "https://m.youtube.com/watch",
+              "formatUrl": "https://www.google.com/search?tbm=vid&amp;q=%s&amp;tbs=cc:1,srcf:H4sIAAAAAAAAAD2Jyw3AIAhAt-Fiwk5FSUsapVEwsn0bD729Twp1c2LMWiFIF84GUyXzX6sUpSM2P9KMOw_17DP0GLk5dzsvG3i9iWp3yTgAAAA,qdr:y"
+            } </value>
+    </entry>
+    <entry>
+        <key>vocab_data</key>
+        <value> { "code": 0, "data": { "vocabularyCollections": [ { "id": "ielts_4000", "displayName": "4000 IELTS Words", "vietName": "4000 Từ IELTS", "icon": "http://api.vocabinnews.com:9090/share/icon/ielts4000.png", "hasChildrens": false }, { "id": "toeic_1000", "displayName": "1000 TOEIC Words", "vietName": "1000 Từ TOEIC", "icon": "http://api.vocabinnews.com:9090/share/icon/toeic1000.png", "hasChildrens": false }, { "id": "600_toeic_words", "displayName": "600 TOEIC Words", "vietName": "600 Từ TOEIC", "icon": "http://api.vocabinnews.com:9090/share/icon/toeic600.jpg", "hasChildrens": true, "vocabularyCollections": [ { "id": "600_toeic_words_contracts", "displayName": "Contracts", "vietName": "Hợp đồng", "icon": "http://api.vocabinnews.com:9090/share/icon/contracts.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_marketing", "displayName": "Marketing", "vietName": "Marketing", "icon": "http://api.vocabinnews.com:9090/share/icon/marketing.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_warranties", "displayName": "Warranties", "vietName": "Bảo hành", "icon": "http://api.vocabinnews.com:9090/share/icon/warranties.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_business_planning", "displayName": "Business Planning", "vietName": "Kế hoạch kinh doanh", "icon": "http://api.vocabinnews.com:9090/share/icon/business_planning.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_conferences", "displayName": "Conferences", "vietName": "Hội nghị", "icon": "http://api.vocabinnews.com:9090/share/icon/conferences.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_computers_and_the_internet", "displayName": "Computers &amp; Internet", "vietName": "Máy tính và Internet", "icon": "http://api.vocabinnews.com:9090/share/icon/computers_and_the_internet.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_office_technology", "displayName": "Office Technology", "vietName": "Công nghệ văn phòng", "icon": "http://api.vocabinnews.com:9090/share/icon/office_technology.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_office_procedures", "displayName": "Office Procedures", "vietName": "Quy trình văn phòng", "icon": "http://api.vocabinnews.com:9090/share/icon/office_procedures.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_electronics", "displayName": "Electronics", "vietName": "Điện tử", "icon": "http://api.vocabinnews.com:9090/share/icon/electronics.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_correspondence", "displayName": "Correspondence", "vietName": "Thư tín thương mại", "icon": "http://api.vocabinnews.com:9090/share/icon/correspondence.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_job_ads_and_recruitment", "displayName": "Job Ads &amp; Recruitment", "vietName": "Tuyển dụng", "icon": "http://api.vocabinnews.com:9090/share/icon/job_ads_and_recruitment.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_apply_and_interviewing", "displayName": "Apply &amp; Interviewing", "vietName": "Ứng tuyển và Phỏng vấn", "icon": "http://api.vocabinnews.com:9090/share/icon/apply_and_interviewing.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_hiring_and_training", "displayName": "Hiring &amp; Training", "vietName": "Tuyển dụng và Đào tạo", "icon": "http://api.vocabinnews.com:9090/share/icon/hiring_and_training.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_salaries_and_benefits", "displayName": "Salaries &amp; Benefits", "vietName": "Lương và Đãi ngộ", "icon": "http://api.vocabinnews.com:9090/share/icon/salaries_and_benefits.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_promotions_awards", "displayName": "Promotions &amp; Awards", "vietName": "Thăng tiến và Thưởng", "icon": "http://api.vocabinnews.com:9090/share/icon/promotions_awards.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_shopping", "displayName": "Shopping", "vietName": "Mua sắm", "icon": "http://api.vocabinnews.com:9090/share/icon/shopping.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_ordering_supplies", "displayName": "Ordering Supplies", "vietName": "Đặt hàng", "icon": "http://api.vocabinnews.com:9090/share/icon/ordering_supplies.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_shipping", "displayName": "Shipping", "vietName": "Giao hàng", "icon": "http://api.vocabinnews.com:9090/share/icon/shipping.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_invoices", "displayName": "Invoices", "vietName": "Hóa đơn", "icon": "http://api.vocabinnews.com:9090/share/icon/invoices.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_inventory", "displayName": "Inventory", "vietName": "Hàng tồn kho", "icon": "http://api.vocabinnews.com:9090/share/icon/inventory.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_banking", "displayName": "Banking", "vietName": "Ngân hàng", "icon": "http://api.vocabinnews.com:9090/share/icon/banking.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_accounting", "displayName": "Accounting", "vietName": "Kế toán", "icon": "http://api.vocabinnews.com:9090/share/icon/accounting.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_investments", "displayName": "Investments", "vietName": "Đầu tư", "icon": "http://api.vocabinnews.com:9090/share/icon/investments.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_taxes", "displayName": "Taxes", "vietName": "Thuế", "icon": "http://api.vocabinnews.com:9090/share/icon/taxes.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_financial_statements", "displayName": "Financial Statements", "vietName": "Báo cáo tài chính", "icon": "http://api.vocabinnews.com:9090/share/icon/financial_statements.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_property_and_departments", "displayName": "Property &amp; Departments", "vietName": "Bất động sản", "icon": "http://api.vocabinnews.com:9090/share/icon/property_and_departments.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_board_meeting", "displayName": "Board Meeting", "vietName": "Họp hội đồng quản trị", "icon": "http://api.vocabinnews.com:9090/share/icon/board_meeting.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_quality_control", "displayName": "Quality Control", "vietName": "Quản lý chất lượng", "icon": "http://api.vocabinnews.com:9090/share/icon/quality_control.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_product_development", "displayName": "Product Development", "vietName": "Phát triển sản phẩm", "icon": "http://api.vocabinnews.com:9090/share/icon/product_development.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_renting_and_leasing", "displayName": "Renting &amp; Reasing", "vietName": "Thuê và Cho thuê", "icon": "http://api.vocabinnews.com:9090/share/icon/renting_and_leasing.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_selecting_a_restaurant", "displayName": "Selecting Restaurant", "vietName": "Lựa chọn nhà hàng", "icon": "http://api.vocabinnews.com:9090/share/icon/selecting_a_restaurant.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_eating_out", "displayName": "Eating out", "vietName": "Ăn bên ngoài", "icon": "http://api.vocabinnews.com:9090/share/icon/eating_out.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_ordering_lunch", "displayName": "Ordering Lunch", "vietName": "Đặt ăn trưa", "icon": "http://api.vocabinnews.com:9090/share/icon/ordering_lunch.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_cooking", "displayName": "Cooking", "vietName": "Nấu ăn", "icon": "http://api.vocabinnews.com:9090/share/icon/cooking.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_events", "displayName": "Events", "vietName": "Sự kiện", "icon": "http://api.vocabinnews.com:9090/share/icon/events.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_general_travel", "displayName": "General Travel", "vietName": "Tổng quan du lịch", "icon": "http://api.vocabinnews.com:9090/share/icon/general_travel.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_airlines", "displayName": "Airlines", "vietName": "Hàng không", "icon": "http://api.vocabinnews.com:9090/share/icon/airlines.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_trains", "displayName": "Trains", "vietName": "Tàu điện", "icon": "http://api.vocabinnews.com:9090/share/icon/trains.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_hotels", "displayName": "Hotels", "vietName": "Khách sạn", "icon": "http://api.vocabinnews.com:9090/share/icon/hotels.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_car_rentals", "displayName": "Car Rentals", "vietName": "Thuê xe", "icon": "http://api.vocabinnews.com:9090/share/icon/car_rentals.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_movies", "displayName": "Movies", "vietName": "Phim", "icon": "http://api.vocabinnews.com:9090/share/icon/movies.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_theater", "displayName": "Theater", "vietName": "Rạp hát", "icon": "http://api.vocabinnews.com:9090/share/icon/theater.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_music", "displayName": "Music", "vietName": "Âm nhạc", "icon": "http://api.vocabinnews.com:9090/share/icon/music.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_museums", "displayName": "Museums", "vietName": "Bảo tàng", "icon": "http://api.vocabinnews.com:9090/share/icon/museums.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_media", "displayName": "Media", "vietName": "Truyền thông", "icon": "http://api.vocabinnews.com:9090/share/icon/media.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_doctors_office", "displayName": "Doctor's Office", "vietName": "Phòng khám", "icon": "http://api.vocabinnews.com:9090/share/icon/doctors_office.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_dentists_office", "displayName": "Dentist's Office", "vietName": "Nha khoa", "icon": "http://api.vocabinnews.com:9090/share/icon/dentists_office.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_health", "displayName": "Health", "vietName": "Sức khỏe", "icon": "http://api.vocabinnews.com:9090/share/icon/health.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_hopitals", "displayName": "Hopitals", "vietName": "Bệnh viện", "icon": "http://api.vocabinnews.com:9090/share/icon/hopitals.jpg", "hasChildrens": false, "parentId": "600_toeic_words" }, { "id": "600_toeic_words_pharmacy", "displayName": "Pharmacy", "vietName": "Ngành dược", "icon": "http://api.vocabinnews.com:9090/share/icon/pharmacy.jpg", "hasChildrens": false, "parentId": "600_toeic_words" } ] }, { "id": "toefl_5000", "displayName": "5000 TOEFL Words", "vietName": "5000 Từ TOEFL", "icon": "http://api.vocabinnews.com:9090/share/icon/toefl5000.png", "hasChildrens": false }, { "id": "common_3000", "displayName": "3000 Common Words", "vietName": "3000 Từ Thông dụng", "icon": "http://api.vocabinnews.com:9090/share/icon/common3000.png", "hasChildrens": false }, { "id": "oxford_3000", "displayName": "3000 Oxford Words", "vietName": "3000 Từ Oxford", "icon": "http://api.vocabinnews.com:9090/share/icon/oxford3000.png", "hasChildrens": false }, { "id": "oxford_5000", "displayName": "5000 Oxford Words", "vietName": "5000 Từ Oxford", "icon": "http://api.vocabinnews.com:9090/share/icon/oxford5000.jpg", "hasChildrens": false }, { "id": "1000_common_words_animals", "displayName": "Animals", "vietName": " Động vật ", "icon": "http://api.vocabinnews.com:9090/share/icon/animals.jpg", "hasChildrens": false }, { "id": "1000_common_words_plants", "displayName": "Plants", "vietName": " Cây cối ", "icon": "http://api.vocabinnews.com:9090/share/icon/plants.jpg", "hasChildrens": false }, { "id": "1000_common_words_fruits", "displayName": "Fruits", "vietName": " Trái cây ", "icon": "http://api.vocabinnews.com:9090/share/icon/fruits.jpg", "hasChildrens": false }, { "id": "1000_common_words_vegetables", "displayName": "Vegetables", "vietName": " Rau củ ", "icon": "http://api.vocabinnews.com:9090/share/icon/vegetables.jpg", "hasChildrens": false }, { "id": "1000_common_words_landscape", "displayName": "Landscape", "vietName": " Phong cảnh ", "icon": "http://api.vocabinnews.com:9090/share/icon/landscape.jpg", "hasChildrens": false }, { "id": "1000_common_words_weather", "displayName": "Weather", "vietName": " Thời tiết ", "icon": "http://api.vocabinnews.com:9090/share/icon/weather.jpg", "hasChildrens": false }, { "id": "1000_common_words_environment", "displayName": "Environment", "vietName": " Môi trường ", "icon": "http://api.vocabinnews.com:9090/share/icon/environment.jpg", "hasChildrens": false }, { "id": "1000_common_words_colors", "displayName": "Colors", "vietName": " Màu sắc ", "icon": "http://api.vocabinnews.com:9090/share/icon/colors.jpg", "hasChildrens": false }, { "id": "1000_common_words_appearance", "displayName": "Appearance", "vietName": " Ngoại hình ", "icon": "http://api.vocabinnews.com:9090/share/icon/appearance.jpg", "hasChildrens": false }, { "id": "1000_common_words_body", "displayName": "Body", "vietName": " Cơ thể ", "icon": "http://api.vocabinnews.com:9090/share/icon/body.jpg", "hasChildrens": false }, { "id": "1000_common_words_personality", "displayName": "Personality", "vietName": " Tính cách ", "icon": "http://api.vocabinnews.com:9090/share/icon/personality.jpg", "hasChildrens": false }, { "id": "1000_common_words_emotions_feelings", "displayName": "Emotions &amp; Feelings", "vietName": " Cảm xúc &amp; Cảm giác ", "icon": "http://api.vocabinnews.com:9090/share/icon/emotions_feelings.jpg", "hasChildrens": false }, { "id": "1000_common_words_family", "displayName": "Family", "vietName": " Gia đình ", "icon": "http://api.vocabinnews.com:9090/share/icon/family.jpg", "hasChildrens": false }, { "id": "1000_common_words_relationships", "displayName": "Relationships", "vietName": " Các mối quan hệ ", "icon": "http://api.vocabinnews.com:9090/share/icon/relationships.jpg", "hasChildrens": false }, { "id": "1000_common_words_clothing", "displayName": "Clothing", "vietName": " Trang phục ", "icon": "http://api.vocabinnews.com:9090/share/icon/clothing.jpg", "hasChildrens": false }, { "id": "1000_common_words_foods_drinks", "displayName": "Foods &amp; Drinks", "vietName": " Đồ ăn &amp; Thức uống ", "icon": "http://api.vocabinnews.com:9090/share/icon/foods_drinks.jpg", "hasChildrens": false }, { "id": "1000_common_words_houses_buildings", "displayName": "Houses &amp; Buildings", "vietName": " Nhà cửa ", "icon": "http://api.vocabinnews.com:9090/share/icon/houses_buildings.jpg", "hasChildrens": false }, { "id": "1000_common_words_sports", "displayName": "Sports", "vietName": " Thể thao ", "icon": "http://api.vocabinnews.com:9090/share/icon/sports.jpg", "hasChildrens": false }, { "id": "1000_common_words_transportation", "displayName": "Transportation", "vietName": " Giao thông ", "icon": "http://api.vocabinnews.com:9090/share/icon/transportation.jpg", "hasChildrens": false }, { "id": "1000_common_words_kitchen", "displayName": "Kitchen", "vietName": " Nhà bếp ", "icon": "http://api.vocabinnews.com:9090/share/icon/kitchen.jpg", "hasChildrens": false }, { "id": "1000_common_words_living_room", "displayName": "Living room", "vietName": " Phòng khách ", "icon": "http://api.vocabinnews.com:9090/share/icon/living_room.jpg", "hasChildrens": false }, { "id": "1000_common_words_bedroom", "displayName": "Bedroom", "vietName": " Phòng ngủ ", "icon": "http://api.vocabinnews.com:9090/share/icon/bedroom.jpg", "hasChildrens": false }, { "id": "1000_common_words_bathroom", "displayName": "Bathroom", "vietName": " Phòng tắm ", "icon": "http://api.vocabinnews.com:9090/share/icon/bathroom.jpg", "hasChildrens": false }, { "id": "1000_common_words_city", "displayName": "City", "vietName": " Thành phố ", "icon": "http://api.vocabinnews.com:9090/share/icon/city.jpg", "hasChildrens": false }, { "id": "1000_common_words_education", "displayName": "Education", "vietName": " Giáo dục ", "icon": "http://api.vocabinnews.com:9090/share/icon/education.jpg", "hasChildrens": false }, { "id": "1000_common_words_health", "displayName": "Health", "vietName": " Sức khỏe ", "icon": "http://api.vocabinnews.com:9090/share/icon/health1.jpg", "hasChildrens": false }, { "id": "1000_common_words_hobbies", "displayName": "Hobbies", "vietName": " Sở thích ", "icon": "http://api.vocabinnews.com:9090/share/icon/hobbies.jpg", "hasChildrens": false }, { "id": "1000_common_words_shopping", "displayName": "Shopping", "vietName": " Mua sắm ", "icon": "http://api.vocabinnews.com:9090/share/icon/shopping1.jpg", "hasChildrens": false }, { "id": "1000_common_words_traveling", "displayName": "Traveling", "vietName": " Du lịch ", "icon": "http://api.vocabinnews.com:9090/share/icon/traveling.jpg", "hasChildrens": false }, { "id": "1000_common_words_dates_time", "displayName": "Dates &amp; time", "vietName": " Ngày &amp; Giờ ", "icon": "http://api.vocabinnews.com:9090/share/icon/dates_time.jpg", "hasChildrens": false }, { "id": "1000_common_words_language", "displayName": "Language", "vietName": " Ngôn ngữ ", "icon": "http://api.vocabinnews.com:9090/share/icon/language.jpg", "hasChildrens": false }, { "id": "1000_common_words_holiday", "displayName": "Holiday", "vietName": " Ngày lễ tết ", "icon": "http://api.vocabinnews.com:9090/share/icon/holiday.jpg", "hasChildrens": false }, { "id": "1000_common_words_company", "displayName": "Company", "vietName": " Công ty ", "icon": "http://api.vocabinnews.com:9090/share/icon/company.jpg", "hasChildrens": false }, { "id": "1000_common_words_jobs", "displayName": "Jobs", "vietName": " Công việc ", "icon": "http://api.vocabinnews.com:9090/share/icon/jobs.jpg", "hasChildrens": false }, { "id": "1000_common_words_working_life", "displayName": "Working life", "vietName": " Đời sống công sở ", "icon": "http://api.vocabinnews.com:9090/share/icon/working_life.jpg", "hasChildrens": false }, { "id": "1000_common_words_arts", "displayName": "Arts", "vietName": " Nghệ thuật ", "icon": "http://api.vocabinnews.com:9090/share/icon/arts.jpg", "hasChildrens": false }, { "id": "1000_common_words_computer_the_internet", "displayName": "Computer &amp; the internet", "vietName": " Máy tính &amp; Mạng internet ", "icon": "http://api.vocabinnews.com:9090/share/icon/computer_the_internet.jpg", "hasChildrens": false }, { "id": "1000_common_words_tvs_newspaper", "displayName": "TVs &amp; Newspaper", "vietName": " Truyền hình &amp; Báo chí ", "icon": "http://api.vocabinnews.com:9090/share/icon/tvs_newspaper.jpg", "hasChildrens": false }, { "id": "1000_common_words_measurement", "displayName": "Measurement", "vietName": " Đo lường ", "icon": "http://api.vocabinnews.com:9090/share/icon/measurement.jpg", "hasChildrens": false }, { "id": "1000_common_words_speed", "displayName": "Speed", "vietName": " Tốc độ ", "icon": "http://api.vocabinnews.com:9090/share/icon/speed.jpg", "hasChildrens": false }, { "id": "1000_common_words_frequency", "displayName": "Frequency", "vietName": " Tần suất ", "icon": "http://api.vocabinnews.com:9090/share/icon/frequency.jpg", "hasChildrens": false }, { "id": "1000_common_words_degree", "displayName": "Degree", "vietName": " Mức độ ", "icon": "http://api.vocabinnews.com:9090/share/icon/degree.jpg", "hasChildrens": false }, { "id": "1000_common_words_places", "displayName": "Places", "vietName": " Vị trí ", "icon": "http://api.vocabinnews.com:9090/share/icon/places.jpg", "hasChildrens": false }, { "id": "1000_common_words_increases_decreases", "displayName": "Increases &amp; Decreases", "vietName": "Tăng &amp; Giảm", "icon": "http://api.vocabinnews.com:9090/share/icon/increases_decreases.jpg", "hasChildrens": false } ] } } </value>
+    </entry>
+    <entry>
+        <key>oxford_link</key>
+        <value>https://www.dl.dropboxusercontent.com/s/h65tfdq8utgznjq/oxford.db?dl=0</value>
+    </entry>
+    <entry>
+        <key>anhviet_link</key>
+        <value>https://www.dl.dropboxusercontent.com/s/xb3yrlwl9woku2x/anhviet.zip?dl=0</value>
+    </entry>
+    <entry>
+        <key>tip_learn_link</key>
+        <value>https://4englishapp.com/huongdan.html</value>
+    </entry>
+    <entry>
+        <key>oxford_mb_size</key>
+        <value>260</value>
+    </entry>
+    <entry>
+        <key>oxford_short_mb_size</key>
+        <value>60</value>
+    </entry>
+    <entry>
+        <key>anhviet_mb_size</key>
+        <value>85</value>
+    </entry>
+    <entry>
+        <key>oxford_version</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>anhviet_version</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>android_onesignal_tester_player_ids</key>
+        <value>68fbb56c-1f48-43cc-945c-af2f4d98e31a</value>
+    </entry>
+    <entry>
+        <key>android_dictionaries_v2</key>
+        <value> {
+                          "version": 5,
+                          "dictionaries": [
+                            {
+                              "uniqueName": "oxford",
+                              "displayName": "Oxford",
+                              "formatUrl": "https://www.oxfordlearnersdictionaries.com/search/english/?q=%s",
+                              "enable": true,
+                              "desctEN": "The largest and most trusted free online dictionary for learners of British and American English with definitions, pictures, example sentences, synonyms.",
+                              "desctVN": "Từ điển trực tuyến miễn phí lớn nhất và đáng tin cậy nhất cho người học tiếng Anh và tiếng Anh Mỹ với các định nghĩa, hình ảnh, câu ví dụ, từ đồng nghĩa.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/oxford.ico"
+                            },
+                            {
+                              "uniqueName": "anhviet",
+                              "displayName": "Anh Viet",
+                              "formatUrl": "",
+                              "enable": true,
+                              "defaultDict" : true,
+                              "desctEN": "English - Vietnamese dictionary with over 150.000 entries.",
+                              "desctVN": "Từ điển Anh - Việt với trên 150.000 từ.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/anhviet.png"
+                            },
+                            {
+                              "uniqueName": "cambridge",
+                              "displayName": "Cambridge",
+                              "formatUrl": "https://dictionary.cambridge.org/dictionary/english/%s",
+                              "enable": true,
+                              "desctEN": "The most popular dictionary and thesaurus for learners of English. Meanings and definitions of words with pronunciations and translations.",
+                              "desctVN": "Từ điển các từ phổ biến nhất và từ điển đồng nghĩa cho người học tiếng Anh. Có giải thích nghĩa và định nghĩa của các từ có cách phát âm và dịch.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/cambridge.png"
+                            },
+                            {
+                              "uniqueName": "longman",
+                              "displayName": "Longman",
+                              "formatUrl": "https://www.ldoceonline.com/search/english/direct/?q=%s",
+                              "enable": true,
+                              "desctEN": "Longman English Dictionary is the leading dictionary for learners of English of all ages and levels who want to learn more about English: definitions, idioms.",
+                              "desctVN": "Từ điển tiếng Anh Longman là từ điển hàng đầu cho người học tiếng Anh ở mọi lứa tuổi và trình độ muốn tìm hiểu thêm về tiếng Anh: định nghĩa, thành ngữ.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/longman.png"
+                            },
+                            {
+                              "uniqueName": "google_translate",
+                              "displayName": "Google Translate",
+                              "formatUrl": "",
+                              "enable": true,
+                              "desctEN": "Google's free service instantly translates words, phrases, and web pages between English and over 100 other languages.",
+                              "desctVN": "Dịch bằng Google Translate.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/google_translate.ico"
+                            },
+                            {
+                              "uniqueName": "google_search",
+                              "displayName": "Google Search",
+                              "formatUrl": "https://www.google.com/search?q=%s",
+                              "enable": true,
+                              "defaultDict" : true,
+                              "desctEN": "Search web, images, news, videos and more.",
+                              "desctVN": "Tìm kiếm ảnh, video các thông tin liên quan đến từ cần tra bằng Google.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/google_search.png"
+                            },
+                            {
+                              "uniqueName": "google_image",
+                              "displayName": "Google Image",
+                              "enable": true,
+                              "defaultDict" : true,
+                              "formatUrl": "https://www.google.com/search?tbm=isch&amp;q=%s",
+                              "desctEN": "Search images.",
+                              "desctVN": "Xem hình ảnh của từ.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/google_search.png"
+                            },
+                            {
+                              "uniqueName": "thesaurus",
+                              "displayName": "Thesaurus",
+                              "formatUrl": "https://www.thesaurus.com/browse/%s",
+                              "enable": false,
+                              "desctEN": "Over 17,000 entries. Find synonyms, antonyms, and brief definitions.",
+                              "desctVN": "Hơn 17.000 từ. Tìm từ đồng nghĩa, từ trái nghĩa và định nghĩa ngắn gọn.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/thesaurus.png"
+                            },
+                            {
+                              "uniqueName": "thefreedictionary",
+                              "displayName": "The Free Dictionary",
+                              "formatUrl": "https://www.thefreedictionary.com/%s",
+                              "enable": false,
+                              "desctEN": "General and subject dictionaries for financial, legal, and medical terms.",
+                              "desctVN": "Từ điển nói chung và các thuật ngữ về tài chính, luật pháp và y tế.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/thefreedictionary.png"
+                            },
+                            {
+                              "uniqueName": "macmilan",
+                              "displayName": "Macmillan",
+                              "formatUrl": "https://www.macmillandictionary.com/dictionary/british/%s",
+                              "enable": false,
+                              "desctEN": "The perfect free online English dictionary – a one-stop reference for English speakers around the world. The free online thesaurus is fully integrated into dictionary entries and shows useful sets of synonyms and related words.",
+                              "desctVN": "Từ điển để tra các bộ từ đồng nghĩa và các từ liên quan.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/macmillan.png"
+                            },
+                            {
+                              "uniqueName": "collins",
+                              "displayName": "Collins Dictionary",
+                              "formatUrl": "https://www.collinsdictionary.com/dictionary/english/%s",
+                              "enable": false,
+                              "desctEN": "Online Dictionary and Thesaurus from Collins with over 1 million words: Definitions, synonyms, pronunciations, translations, origin and examples.",
+                              "desctVN": "Từ điển trực tuyến và Từ điển từ đồng nghĩa Collins với hơn 1 triệu từ: Định nghĩa, từ đồng nghĩa, phát âm, bản dịch, nguồn gốc và ví dụ.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/collins.png"
+                            },
+                            {
+                              "uniqueName": "forvo",
+                              "displayName": "Forvo",
+                              "formatUrl": "https://forvo.com/word/%s/#en",
+                              "enable": false,
+                              "desctEN": "The largest pronunciation dictionary in the world. All the words in all the languages pronounced by native speakers.",
+                              "desctVN": "Từ điển phát âm lớn nhất trên thế giới. Tất cả các từ trong tất cả các ngôn ngữ được phát âm bởi người bản ngữ.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/forvo.png"
+                            },
+                            {
+                              "uniqueName": "urbandictionary",
+                              "displayName": "Urban Dictionary",
+                              "enable": false,
+                              "formatUrl": "https://www.urbandictionary.com/define.php?term=%s",
+                              "desctEN": "Urban Dictionary is a crowdsourced online dictionary for slang words and phrases, operating under the motto Define Your World.",
+                              "desctVN": "Từ điển tiếng lóng và thành ngữ",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/urbandictionary.png"
+                            },
+                            {
+                              "uniqueName": "wiki",
+                              "displayName": "Wiki",
+                              "enable": true,
+                              "defaultDict" : true,
+                              "formatUrl": "https://en.wikipedia.org/wiki/%s",
+                              "desctEN": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.",
+                              "desctVN": "Wikipedia là một bách khoa toàn thư trực tuyến miễn phí, được tạo ra và chỉnh sửa bởi các tình nguyện viên trên khắp thế giới và được điều hành bởi Wikimedia Foundation.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/wiki.png"
+                            },
+                            {
+                              "uniqueName": "glosbe",
+                              "displayName": "Glosbe",
+                              "enable": false,
+                              "formatUrl": "https://glosbe.com/en/%1$s/%2$s",
+                              "desctEN": "Online dictionary. Almost all languages available, millions of translations.",
+                              "desctVN": "Từ điển để tra nghĩa, giải thích cách dùng cụm từ.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/glosebe.png"
+                            },
+                            {
+                              "uniqueName": "merriam_webste",
+                              "displayName": "Merriam-Webste",
+                              "enable": false,
+                              "formatUrl": "https://www.merriam-webster.com/dictionary/%s",
+                              "desctEN": "The dictionary by Merriam-Webster is America's most trusted online dictionary for English word definitions, meanings, and pronunciation",
+                              "desctVN": "Từ điển của Merriam-Webster là từ điển trực tuyến đáng tin cậy nhất của Mỹ về định nghĩa, nghĩa và phát âm từ tiếng Anh",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/merriam_webste.png"
+                            },
+                            {
+                              "uniqueName": "laban",
+                              "displayName": "La bàn",
+                              "enable": false,
+                              "formatUrl": "http://m.dict.laban.vn/en_vn/find?keyword=%s",
+                              "desctEN": "Từ điển trực tuyến miễn phí cho người Việt. Cung cấp 2 bộ từ điển chính: Anh - Việt và Việt - Anh. Kho từ đồ sộ cùng hệ thống gợi ý từ thông minh",
+                              "desctVN": "Từ điển trực tuyến miễn phí cho người Việt. Cung cấp 2 bộ từ điển chính: Anh - Việt và Việt - Anh. Kho từ đồ sộ cùng hệ thống gợi ý từ thông minh",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/laban.png"
+                            },
+                            {
+                              "uniqueName": "youglish",
+                              "displayName": "YouGlish",
+                              "enable": false,
+                              "formatUrl": "https://youglish.com/pronounce/%s/english?",
+                              "desctEN": "Use YouTube to improve your English pronunciation. With more than 40M tracks, YouGlish gives you fast, unbiased answers about how English is spoken by real people and in context.",
+                              "desctVN": "Sử dụng YouTube để cải thiện phát âm tiếng Anh của bạn. Với hơn 40 triệu video, YouGlish mang đến cho bạn những câu trả lời nhanh chóng, chính xác về cách nói tiếng Anh của người thật và trong ngữ cảnh thật.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/youglish.png"
+                            },
+                            {
+                              "uniqueName": "fraze",
+                              "displayName": "FrazeIT",
+                              "enable": false,
+                              "formatUrl": "https://fraze.it/n_search.jsp?q=%s&amp;l=0",
+                              "desctEN": "Improve your writing skills, learn from professional writers. With more than 100 millions sentences, this is the most advanced platform for sentences on the net. Useful to the writing community, from professional writers to college and ESL students &amp; teachers.",
+                              "desctVN": "Xem cách dùng từ, định nghĩa, cách phát âm qua video.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/fraze.png"
+                            },
+                            {
+                              "uniqueName": "linguee",
+                              "displayName": "English - Chinese Dictionary.",
+                              "enable": false,
+                              "formatUrl": "https://www.linguee.com/english-chinese/search?source=auto&amp;query=%s",
+                              "desctEN": "English - Chinese Dictionary.",
+                              "desctVN": "Từ điển online Anh - Trung Quốc.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/linguee.png"
+                            },
+                            {
+                              "uniqueName": "jisho",
+                              "displayName": "Jisho",
+                              "enable": false,
+                              "formatUrl": "https://jisho.org/search/%s",
+                              "desctEN": "English and Janpanese.",
+                              "desctVN": "Từ điển Anh - Nhật.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/jisho.png"
+                            },
+                            {
+                              "uniqueName": "youdao",
+                              "displayName": "Youdao",
+                              "enable": false,
+                              "formatUrl": "http://dict.youdao.com/w/eng/%s/",
+                              "desctEN": "English - Chinese Dictionary.",
+                              "desctVN": "Từ điển online Anh - Trung Quốc.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/youdao.png"
+                            },
+                            {
+                              "uniqueName": "shabdkosh",
+                              "displayName": "SHABDKOSH",
+                              "enable": false,
+                              "formatUrl": "https://www.shabdkosh.com/search-dictionary?e=%s&amp;lc=hi&amp;sl=en&amp;tl=hi",
+                              "desctEN": "English and Indian language dictionaries.",
+                              "desctVN": "Từ điển Anh - Ấn Độ.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/shabdkosh.png"
+                            },
+                            {
+                              "uniqueName": "hinkhoj",
+                              "displayName": "HinKhoj",
+                              "enable": false,
+                              "formatUrl": "https://dict.hinkhoj.com/hindi-dictionary.php?word=%s",
+                              "desctEN": "English - Hindi Dictionary.",
+                              "desctVN": "Từ điển Anh - Ấn Độ.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/hinkhoj.png"
+                            },
+                            {
+                              "uniqueName": "naver",
+                              "displayName": "Naver",
+                              "enable": false,
+                              "formatUrl": "https://en.dict.naver.com/#/search?query=%s",
+                              "desctEN": "English and Korean language dictionaries.",
+                              "desctVN": "Từ điển Anh - Hàn.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/naver.png"
+                            },
+                            {
+                              "uniqueName": "wooordhunt",
+                              "displayName": "WooordHunt",
+                              "enable": false,
+                              "formatUrl": "https://wooordhunt.ru/word/%s",
+                              "desctEN": "Удобные словари. Упражнения для запоминания слов. Книги с параллельным переводом.",
+                              "desctVN": "Từ điển Anh - Nga.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/wooordhunt.png"
+                            },
+                            {
+                              "uniqueName": "english_bangla",
+                              "displayName": "English &amp; Bengali",
+                              "enable": false,
+                              "formatUrl": "http://www.english-bangla.com/dictionary/%s",
+                              "desctEN": "English to Bengali &amp; Bengali to English Translator",
+                              "desctVN": "English to Bengali &amp; Bengali to English Translator",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/english_bangla.png"
+                            },
+                            {
+                              "uniqueName": "tureng",
+                              "displayName": "Tureng - Turkish English",
+                              "enable": false,
+                              "formatUrl": "https://tureng.com/en/turkish-english/%s",
+                              "desctEN": "English Turkish online dictionary Tureng, translate words and terms with different pronunciation options.",
+                              "desctVN": "Từ điển Anh - Thổ Nhĩ Kỹ.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/tureng.ico"
+                            },
+                            {
+                              "uniqueName": "spanishdict",
+                              "displayName": "SpanishDict",
+                              "enable": false,
+                              "formatUrl": "https://www.spanishdict.com/translate/%s",
+                              "desctEN": "The world's most popular Spanish translation website. Over 1000000 words and phrases. Free. Easy. Accurate.",
+                              "desctVN": "Từ điển Anh - Tây Ban Nha",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/spanishdict.png"
+                            },
+                            {
+                              "uniqueName": "powerthesaurus",
+                              "displayName": "Power Thesaurus",
+                              "enable": false,
+                              "formatUrl": "https://www.powerthesaurus.org/%s/synonyms",
+                              "desctEN": "Power Thesaurus is a free, fast, comprehensive and easy-to-follow online thesaurus for writers.",
+                              "desctVN": "Power Thesaurus is a free, fast, comprehensive and easy-to-follow online thesaurus for writers.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/powerthesaurus.png"
+                            },
+                            {
+                              "uniqueName": "wordreference",
+                              "displayName": "WordReference",
+                              "enable": false,
+                              "formatUrl": "https://www.wordreference.com/es/translation.asp?tranword=%s",
+                              "desctEN": "Free online dictionaries - Spanish, French, Italian, German and more. Conjugations, audio pronunciations and forums for your questions.",
+                              "desctVN": "Từ điển Anh - Tây Ban Nha",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/wordreference.png"
+                            },
+                            {
+                              "uniqueName": "dictionary.com",
+                              "displayName": "Dictionary.com",
+                              "enable": false,
+                              "formatUrl": "https://www.dictionary.com/browse/%s",
+                              "desctEN": "Dictionary.com is the world's leading online source for English definitions, synonyms, word origins and etymologies, audio pronunciations, example sentences",
+                              "desctVN": "Dictionary.com is the world's leading online source for English definitions, synonyms, word origins and etymologies, audio pronunciations, example sentences",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/dictionary.png"
+                            },
+                            {
+                              "uniqueName": "freecollocation",
+                              "displayName": "FreeCollocation.com",
+                              "enable": false,
+                              "formatUrl": "https://www.freecollocation.com/search?word=%s",
+                              "desctEN": "Free Online Oxford Collocation Dictionary for Advanced English Learners.",
+                              "desctVN": "Free Online Oxford Collocation Dictionary for Advanced English Learners.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/freecollocation.ico"
+                            },
+                            {
+                              "uniqueName": "vocabulary",
+                              "displayName": "Vocabulary.com",
+                              "enable": false,
+                              "formatUrl": "https://www.vocabulary.com/dictionary/%s",
+                              "desctEN": "Vocabulary.com helps you learn new words, play games that improve your vocabulary, and explore language.",
+                              "desctVN": "Vocabulary.com helps you learn new words, play games that improve your vocabulary, and explore language.",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/vocabulary.jpg"
+                            },
+                            {
+                              "uniqueName": "linguee_german",
+                              "displayName": "Linguee.com: English - German",
+                              "enable": false,
+                              "formatUrl": "https://www.linguee.com/english-german/search?source=auto&amp;query=%s",
+                              "desctEN": "English Dictionary and Translation Search with 1000000000 example sentences from human translators. Languages: English, German, French, Spanish",
+                              "desctVN": "English Dictionary and Translation Search with 1000000000 example sentences from human translators. Languages: English, German, French, Spanish",
+                              "thumb": "http://api.vocabinnews.com:9090/share/icon/linguee.png"
+                            }
+                          ]
+                        } </value>
+    </entry>
+    <entry>
+        <key>android_flash_sale_remind</key>
+        <value>4</value>
+    </entry>
+    <entry>
+        <key>free_trans_para_float_dict_num</key>
+        <value>20</value>
+    </entry>
+    <entry>
+        <key>quizlet_visible</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>ads_timeout_minutes_show_again</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>android_enable_reactive_sale_when_show_dialog_buy</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>android_max_time_reactive_sale</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>supported_dict_short_lang</key>
+        <value>["vi","ja","es","ru","ar","pt","zh","tr","de"]</value>
+    </entry>
+    <entry>
+        <key>goals</key>
+        <value> [
+              {
+                "id": "certificate",
+                "vi": "Thi chứng chỉ",
+                "en": "Certificate Exam",
+                "title": {
+                  "vi": "Thi chứng chỉ",
+                  "en": "Certificate Exam",
+                  "ja": "Certificate Exam"
+                },
+                "items": [
+                  {
+                    "id": "ielts",
+                    "vi": "IELTS",
+                    "en": "IELTS",
+                    "title": {
+                      "vi": "IELTS",
+                      "en": "IELTS",
+                      "ja": "IELTS"
+                    }
+                  },
+                  {
+                    "id": "toeic",
+                    "vi": "TOEIC",
+                    "en": "TOEIC",
+                    "title": {
+                      "vi": "TOEIC",
+                      "en": "TOEIC",
+                      "ja": "TOEIC"
+                    }
+                  },
+                  {
+                    "id": "toefl",
+                    "vi": "TOEFL",
+                    "en": "TOEFL",
+                    "title": {
+                      "vi": "TOEFL",
+                      "en": "TOEFL",
+                      "ja": "TOEFL"
+                    }
+                  },
+                  {
+                    "id": "pte",
+                    "vi": "PTE",
+                    "en": "PTE",
+                    "title": {
+                      "vi": "PTE",
+                      "en": "PTE",
+                      "ja": "PTE"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "communication",
+                "vi": "Giao tiếp",
+                "en": "Communication",
+                "title": {
+                  "vi": "Giao tiếp",
+                  "en": "Communication",
+                  "ja": "コミュニケーション"
+                }
+              },
+              {
+                "id": "school",
+                "vi": "THCS, THPT &amp; thi đại học",
+                "en": "High School",
+                "title": {
+                  "vi": "THCS, THPT &amp; thi đại học",
+                  "en": "High School",
+                  "ja": "高校"
+                }
+              },
+              {
+                "id": "work",
+                "vi": "Chuyên ngành",
+                "en": "Work purposes",
+                "title": {
+                  "vi": "Chuyên ngành",
+                  "en": "Work purposes",
+                  "ja": "仕事"
+                },
+                "items": [
+                  {
+                    "id": "banking",
+                    "vi": "Ngân hàng",
+                    "en": "Banking",
+                    "title": {
+                      "vi": "Ngân hàng",
+                      "en": "Banking",
+                      "ja": "銀行"
+                    }
+                  },
+                  {
+                    "id": "accounting",
+                    "vi": "Kế toán",
+                    "en": "Accounting",
+                    "title": {
+                      "vi": "Kế toán",
+                      "en": "Accounting",
+                      "ja": "会計"
+                    }
+                  },
+                  {
+                    "id": "finalcial",
+                    "vi": "Tài chính",
+                    "en": "Finalcial",
+                    "title": {
+                      "vi": "Tài chính",
+                      "en": "Finalcial",
+                      "ja": "金融金融"
+                    }
+                  },
+                  {
+                    "id": "law",
+                    "vi": "Luật",
+                    "en": "Law",
+                    "title": {
+                      "vi": "Luật",
+                      "en": "Law",
+                      "ja": "法律"
+                    }
+                  },
+                  {
+                    "id": "technology",
+                    "vi": "Công nghệ",
+                    "en": "Technology",
+                    "title": {
+                      "vi": "Công nghệ",
+                      "en": "Technology",
+                      "ja": "テクノロジー"
+                    }
+                  },
+                  {
+                    "id": "medicine",
+                    "vi": "Y học",
+                    "en": "Medicine",
+                    "title": {
+                      "vi": "Y học",
+                      "en": "Medicine",
+                      "ja": "医学医学"
+                    }
+                  },
+                  {
+                    "id": "contruction",
+                    "vi": "Xây dựng",
+                    "en": "Contruction",
+                    "title": {
+                      "vi": "Xây dựng",
+                      "en": "Contruction",
+                      "ja": "建設"
+                    }
+                  },
+                  {
+                    "id": "marketing",
+                    "vi": "Marketing",
+                    "en": "Marketing",
+                    "title": {
+                      "vi": "Marketing",
+                      "en": "Marketing",
+                      "ja": "マーケティング"
+                    }
+                  },
+                  {
+                    "id": "business",
+                    "vi": "Kinh doanh",
+                    "en": "Business",
+                    "title": {
+                      "vi": "Kinh doanh",
+                      "en": "Business",
+                      "ja": "経営"
+                    }
+                  },
+                  {
+                    "id": "education",
+                    "vi": "Giáo dục",
+                    "en": "Education",
+                    "title": {
+                      "vi": "Giáo dục",
+                      "en": "Education",
+                      "ja": "教育"
+                    }
+                  },
+                  {
+                    "id": "art",
+                    "vi": "Nghệ thuật",
+                    "en": "Art",
+                    "title": {
+                      "vi": "Nghệ thuật",
+                      "en": "Art",
+                      "ja": "芸術"
+                    }
+                  },
+                  {
+                    "id": "economy",
+                    "vi": "Kinh tế",
+                    "en": "Economy",
+                    "title": {
+                      "vi": "Kinh tế",
+                      "en": "Economy",
+                      "ja": "経済"
+                    }
+                  },
+                  {
+                    "id": "audit",
+                    "vi": "Kiểm toán",
+                    "en": "Audit",
+                    "title": {
+                      "vi": "Kiểm toán",
+                      "en": "Audit",
+                      "ja": "監査"
+                    }
+                  }
+                ]
+              }
+            ] </value>
+    </entry>
+    <entry>
+        <key>topics</key>
+        <value> [
+              {
+                "uniqueName": "topics",
+                "displayName": "Topics",
+                "viName": "Chủ đề",
+                "topics": [
+                  {
+                    "uniqueName": "travel",
+                    "viName": "Du lịch",
+                    "displayName": "Travel",
+                    "thumb": "http://4englishapp.com/share/topics/traveling.jpg",
+                    "https": "https://4englishapp.com/share/topics/traveling.jpg"
+                  },
+                  {
+                    "uniqueName": "entertainment",
+                    "viName": "Giải trí",
+                    "displayName": "Entertainment",
+                    "thumb": "http://4englishapp.com/share/topics/entertainment.jpg",
+                    "https": "https://4englishapp.com/share/topics/entertainment.jpg"
+                  },
+                  {
+                    "uniqueName": "education",
+                    "viName": "Giáo dục",
+                    "displayName": "Education",
+                    "thumb": "http://4englishapp.com/share/topics/education.jpg",
+                    "https": "https://4englishapp.com/share/topics/education.jpg"
+                  },
+                  {
+                    "uniqueName": "society",
+                    "viName": "Xã hội",
+                    "displayName": "Society",
+                    "thumb": "http://4englishapp.com/share/topics/society.jpg",
+                    "https": "https://4englishapp.com/share/topics/society.jpg"
+                  },
+                  {
+                    "uniqueName": "business",
+                    "viName": "Kinh doanh",
+                    "displayName": "Business",
+                    "thumb": "http://4englishapp.com/share/topics/business.jpg",
+                    "https": "https://4englishapp.com/share/topics/business.jpg"
+                  },
+                  {
+                    "uniqueName": "sport",
+                    "viName": "Thể thao",
+                    "displayName": "Sport",
+                    "thumb": "http://4englishapp.com/share/topics/sports.jpg",
+                    "https": "https://4englishapp.com/share/topics/sports.jpg"
+                  },
+                  {
+                    "uniqueName": "technology",
+                    "viName": "Công nghệ",
+                    "displayName": "Technology",
+                    "thumb": "http://4englishapp.com/share/topics/technology.jpg",
+                    "https": "https://4englishapp.com/share/topics/technology.jpg"
+                  },
+                  {
+                    "uniqueName": "science",
+                    "viName": "Khoa học",
+                    "displayName": "Science",
+                    "thumb": "http://4englishapp.com/share/topics/science.jpg",
+                    "https": "https://4englishapp.com/share/topics/science.jpg"
+                  }
+                ]
+              }
+            ] </value>
+    </entry>
+</defaultsMap>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/container" android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_rectangle_white_radius" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5.0dp">
+        <LinearLayout android:id="@id/control" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageButton android:id="@id/mark" android:background="?selectableItemBackgroundBorderless" android:padding="3.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginRight="10.0dp" android:layout_marginEnd="10.0dp" app:srcCompat="@drawable/ic_mark_vocab_svg" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/more" android:background="?selectableItemBackgroundBorderless" android:padding="10.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:tint="#8a8a8a" app:srcCompat="@drawable/ic_more_setting_svg" />
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:id="@id/back_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHeight_default="wrap" app:layout_constraintTop_toBottomOf="@id/control">
+            <LinearLayout android:orientation="vertical" android:id="@id/back_view_click" android:paddingLeft="15.0dp" android:paddingRight="15.0dp" android:paddingBottom="15.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/note_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" />
+                <androidx.cardview.widget.CardView android:id="@id/bound_thumb_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" app:cardCornerRadius="15.0dp" app:cardElevation="0.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+                    <ImageView android:id="@id/image_back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="120.0dp" android:src="@drawable/ic_no_image_rec" android:scaleType="fitCenter" />
+                </androidx.cardview.widget.CardView>
+                <com.tdtapp.englisheveryday.widgets.WordClickableTextView android:textSize="16.0sp" android:gravity="start" android:id="@id/example_view_back" android:visibility="visible" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" fontPath="fonts/OpenSans-Italic.ttf" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <androidx.core.widget.NestedScrollView android:id="@id/front_view" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHeight_default="wrap" app:layout_constraintTop_toBottomOf="@id/control">
+            <LinearLayout android:orientation="vertical" android:id="@id/font_view_click" android:paddingLeft="15.0dp" android:paddingRight="15.0dp" android:paddingBottom="15.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="23.0sp" android:textColor="@color/color_text_action" android:id="@id/word" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                <com.tdtapp.englisheveryday.features.vocabulary.WordLevelTypeInfoView android:id="@id/type_level_info" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:id="@id/phonetic_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/uk_phonetic_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="25.0dp" android:text="UK" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/speaker_uk" android:background="?selectableItemBackgroundBorderless" android:padding="9.0dp" android:layout_width="40.0dp" android:layout_height="35.0dp" app:srcCompat="@drawable/ic_speaker_svg" app:tint="@color/color_second_txt_in_white" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:id="@id/uk_phonetic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/us_phonetic_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="25.0dp" android:text="US" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/speaker_us" android:background="?selectableItemBackgroundBorderless" android:padding="9.0dp" android:layout_width="40.0dp" android:layout_height="35.0dp" app:srcCompat="@drawable/ic_speaker_svg" app:tint="@color/color_second_txt_in_white" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:id="@id/us_phonetic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/note_front" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" />
+                <androidx.cardview.widget.CardView android:id="@id/bound_thumb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" app:cardCornerRadius="15.0dp" app:cardElevation="0.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+                    <ImageView android:id="@id/image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="120.0dp" android:src="@drawable/ic_no_image_rec" android:scaleType="fitCenter" />
+                </androidx.cardview.widget.CardView>
+                <com.tdtapp.englisheveryday.widgets.WordClickableTextView android:textSize="16.0sp" android:gravity="start" android:id="@id/example_view" android:visibility="visible" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" fontPath="fonts/OpenSans-Italic.ttf" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

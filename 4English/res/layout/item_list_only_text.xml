@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/content" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/example" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginRight="5.0dp" android:layout_marginBottom="10.0dp" android:layout_toStartOf="@id/btn" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/color_text_action" android:id="@id/btn" android:background="@drawable/selector_btn_grey_radius_20" android:paddingLeft="10.0dp" android:paddingTop="5.0dp" android:paddingRight="10.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:text="@string/select_ex" android:layout_alignParentRight="true" android:layout_centerVertical="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+</RelativeLayout>

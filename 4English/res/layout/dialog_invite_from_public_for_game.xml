@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@drawable/bg_dialog_game" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_close" android:background="?selectableItemBackgroundBorderless" android:padding="8.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_margin="5.0dp" android:tint="@color/txt_dialog_game" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_game_exit" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:layout_marginBottom="30.0dp">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/txt_dialog_game" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invite_private_match" android:textAllCaps="true" fontPath="@string/font_bold" />
+                <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/result_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/result_success" android:paddingLeft="10.0dp" android:paddingTop="15.0dp" android:paddingRight="10.0dp" android:paddingBottom="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/friend_avatar" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_marginBottom="0.0dp" android:src="@drawable/img_avatar" android:scaleType="centerCrop" app:civ_border_color="@color/txt_name_update" app:civ_border_width="3.0dp" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+                            <TextView android:textSize="18.0sp" android:textColor="@color/txt_name_update" android:id="@id/friend_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Lana Del Rey" fontPath="@string/font_bold" />
+                            <View android:layout_width="match_parent" android:layout_height="5.0dp" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_challenge" android:background="@drawable/selector_btn_challenge" android:paddingLeft="10.0dp" android:paddingTop="5.0dp" android:paddingRight="10.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/logo_game_height" android:text="@string/btn_challenge" fontPath="@string/font_bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

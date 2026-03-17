@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.BriefNewsView android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/info" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="88.0dp" android:layout_marginTop="13.0dp" android:layout_marginBottom="13.0dp">
+        <androidx.cardview.widget.CardView android:id="@id/thumb_bound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:cardCornerRadius="20.0dp" app:cardElevation="0.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/thumb" android:layout_width="88.0dp" android:layout_height="88.0dp" android:scaleType="centerCrop" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_audio" android:background="@drawable/bg_cirlce_dim" android:padding="7.0dp" android:visibility="gone" android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_audio_type" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dp" android:lines="2" android:includeFontPadding="false" android:layout_toLeftOf="@id/thumb_bound" android:layout_alignParentLeft="true" android:layout_marginEnd="15.0dp" android:layout_toStartOf="@id/thumb_bound" android:layout_alignParentStart="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        <ImageButton android:id="@id/btn_delete" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_delete_grey_700_24dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dp" android:layout_toLeftOf="@id/thumb_bound" android:layout_alignParentBottom="true" android:layout_marginEnd="15.0dp" android:layout_toStartOf="@id/thumb_bound">
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@id/web_thumb" android:layout_width="18.0dp" android:layout_height="18.0dp" android:layout_marginRight="5.0dp" android:layout_marginEnd="5.0dp" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/color_second_txt_in_white" android:gravity="center" android:id="@id/source_name" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/color_second_txt_in_white" android:gravity="center_vertical" android:id="@id/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dp" android:text="•" android:includeFontPadding="false" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:gravity="center" android:id="@id/suggest_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="@string/news" android:drawablePadding="5.0dp" fontPath="@string/font_semi_bold" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="@color/color_second_txt_in_white" android:gravity="end" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/big_divider" android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" android:layout_below="@id/info" />
+    <View android:id="@id/small_divider" android:background="@color/divider_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginRight="@dimen/margin_safe_base" android:layout_below="@id/info" />
+</com.tdtapp.englisheveryday.widgets.BriefNewsView>

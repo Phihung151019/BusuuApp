@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:padding="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:layout_centerVertical="true" android:layout_toStartOf="@id/btn_del" fontPath="fonts/OpenSans-Bold.ttf" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:layout_gravity="center" android:id="@id/btn_del" android:background="@drawable/selector_btn_grey_radius_20" android:paddingLeft="15.0dp" android:paddingTop="5.0dp" android:paddingRight="15.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" android:layout_alignParentRight="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="15.0dp" />
+</LinearLayout>

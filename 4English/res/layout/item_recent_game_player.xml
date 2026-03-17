@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/container" android:paddingLeft="@dimen/mar_top_10" android:paddingTop="@dimen/rule_text_mar_top" android:paddingRight="@dimen/mar_top_10" android:paddingBottom="@dimen/rule_text_mar_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/friend_avatar" android:layout_width="@dimen/btn_play_size" android:layout_height="@dimen/btn_play_size" android:layout_marginBottom="0.0dp" android:src="@drawable/img_avatar" android:scaleType="centerCrop" app:civ_border_color="@color/txt_name_update" app:civ_border_width="2.0dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/txt_name_update" android:id="@id/friend_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Lana Del Rey" fontPath="@string/font_bold" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mar_top_5">
+                <TextView android:textSize="14.0sp" android:textColor="@color/color_result_recent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_win" android:textAllCaps="true" fontPath="@string/font_semi_bold" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/color_result_recent" android:id="@id/friend_won" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/mar_top_5" android:text="15" android:textAllCaps="true" android:layout_marginStart="@dimen/mar_top_5" fontPath="@string/font_semi_bold" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="@color/color_result_recent" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/title_lose" android:textAllCaps="true" fontPath="@string/font_semi_bold" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/color_result_recent" android:id="@id/friend_lose" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/mar_top_5" android:text="3" android:textAllCaps="true" android:layout_marginStart="@dimen/mar_top_5" fontPath="@string/font_semi_bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_challenge" android:background="@drawable/selector_btn_challenge" android:paddingLeft="10.0dp" android:paddingTop="7.0dp" android:paddingRight="10.0dp" android:paddingBottom="7.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/logo_game_height" android:text="@string/btn_challenge" android:textAllCaps="true" fontPath="@string/font_bold" />
+    </LinearLayout>
+    <View android:background="@color/divider_recent" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginLeft="@dimen/mar_top_10" android:layout_marginRight="@dimen/mar_top_10" />
+</LinearLayout>

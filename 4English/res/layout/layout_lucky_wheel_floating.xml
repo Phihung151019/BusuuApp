@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="8.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivBubble" android:layout_width="90.0dp" android:layout_height="90.0dp" android:src="@drawable/img_lucky_wheel_banner_bubble" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/btnClose" />
+    <ImageView android:id="@id/btnClose" android:background="@drawable/bg_circle_onboarding_white" android:padding="5.0dp" android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/ic_close_small_svg" android:translationX="0.0dp" android:translationY="5.0dp" android:elevation="10.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@android:color/black" />
+</androidx.constraintlayout.widget.ConstraintLayout>

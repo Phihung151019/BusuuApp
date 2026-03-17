@@ -1,0 +1,38 @@
+.class public final synthetic Lga/s;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lwc/l;
+
+
+# instance fields
+.field public final synthetic m:Lga/z;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lga/z;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lga/s;->m:Lga/z;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lga/s;->m:Lga/z;
+
+    check-cast p1, Ljava/util/List;
+
+    invoke-static {v0, p1}, Lga/z;->E1(Lga/z;Ljava/util/List;)Lhc/A;
+
+    move-result-object p1
+
+    return-object p1
+.end method

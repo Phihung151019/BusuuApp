@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/ivTopArrow" android:layout_centerHorizontal="true">
+        <com.caneryilmaz.apps.luckywheel.ui.WheelView android:id="@id/wheelView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCenterArrow" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginBottom="10.0dp" android:src="@drawable/ic_center_arrow" android:layout_alignTop="@id/wheelView" android:layout_alignBottom="@id/wheelView" android:layout_centerHorizontal="true" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCenterImage" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_alignTop="@id/wheelView" android:layout_alignBottom="@id/wheelView" android:layout_centerHorizontal="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#000000" android:gravity="center" android:id="@id/ivCenterText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivTopArrow" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_top_arrow" android:layout_centerHorizontal="true" />
+</RelativeLayout>

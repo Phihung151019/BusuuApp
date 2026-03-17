@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_rectangle_white_radius" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/saved" android:drawablePadding="10.0dp" android:layout_centerInParent="true" android:layout_centerVertical="true" app:drawableStartCompat="@drawable/ic_check_svg" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_close" android:padding="13.0dp" android:layout_width="45.0dp" android:layout_height="45.0dp" android:layout_alignParentRight="true" app:srcCompat="@drawable/ic_close_small_svg" app:tint="@color/icon_color" />
+        </RelativeLayout>
+        <com.tdtapp.englisheveryday.view.WordReviewView android:id="@id/item_word" android:padding="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:id="@id/ads" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="20.0dp" layout="@layout/native_ads_for_dialog" />
+</LinearLayout>

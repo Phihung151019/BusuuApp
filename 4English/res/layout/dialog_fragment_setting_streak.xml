@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#00ffffff" android:paddingLeft="@dimen/margin_safe_base" android:paddingTop="40.0dp" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="40.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="15.0dp" app:cardElevation="0.0dp">
+        <LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/color_header_dialog" android:layout_width="match_parent" android:layout_height="48.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_close" android:background="?selectableItemBackgroundBorderless" android:padding="15.0dp" android:layout_width="40.0dp" android:layout_height="match_parent" android:src="@drawable/ic_back_svg" android:tint="@color/color_primary_text" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center" android:id="@id/toolbar_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/edit_target" android:maxLines="1" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/btn_save" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="10.0dp" android:text="@string/save" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_safe_base">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_5_value" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_5_msg" />
+                    </LinearLayout>
+                    <RadioButton android:theme="@style/SwitchBox" android:id="@id/radio_5" android:padding="0.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:includeFontPadding="false" android:drawablePadding="0.0dp" />
+                </LinearLayout>
+                <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_10_value" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_10_msg" />
+                    </LinearLayout>
+                    <RadioButton android:theme="@style/SwitchBox" android:id="@id/radio_10" android:padding="0.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:includeFontPadding="false" android:drawablePadding="0.0dp" />
+                </LinearLayout>
+                <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_15_value" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_10_msg" />
+                    </LinearLayout>
+                    <RadioButton android:theme="@style/SwitchBox" android:id="@id/radio_15" android:padding="0.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:includeFontPadding="false" android:drawablePadding="0.0dp" />
+                </LinearLayout>
+                <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_20_value" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_20_msg" />
+                    </LinearLayout>
+                    <RadioButton android:theme="@style/SwitchBox" android:id="@id/radio_20" android:padding="0.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:includeFontPadding="false" android:drawablePadding="0.0dp" />
+                </LinearLayout>
+                <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_30_value" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/goal_30_msg" />
+                    </LinearLayout>
+                    <RadioButton android:theme="@style/SwitchBox" android:id="@id/radio_30" android:padding="0.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:includeFontPadding="false" android:drawablePadding="0.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

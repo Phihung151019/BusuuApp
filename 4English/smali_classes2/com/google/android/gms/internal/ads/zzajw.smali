@@ -1,0 +1,21 @@
+.class public final Lcom/google/android/gms/internal/ads/zzajw;
+.super Lcom/google/android/gms/internal/ads/zzakx;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzakx;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/google/android/gms/internal/ads/zzakk;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/zzakx;-><init>(Lcom/google/android/gms/internal/ads/zzakk;)V
+
+    return-void
+.end method

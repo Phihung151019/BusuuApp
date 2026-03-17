@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:elevation="@dimen/elevation" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ab_left" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_centerVertical="true" app:srcCompat="@drawable/ic_back_svg" />
+                <TextView android:textSize="@dimen/font_size_actionbar" android:textColor="@color/color_primary_text" android:gravity="center" android:id="@id/ab_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/vocabulary_folder" android:layout_centerInParent="true" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/icon_color" android:gravity="center" android:id="@id/new_folder" android:background="?selectableItemBackgroundBorderless" android:paddingTop="5.0dp" android:layout_width="wrap_content" android:layout_height="48.0dp" android:layout_marginRight="5.0dp" android:text="@string/new_folder" android:drawableTop="@drawable/ic_new_folder_20dp" android:drawablePadding="-5.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" app:drawableTint="@color/icon_color" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/content_layout" android:background="@color/bg_main_color" android:paddingLeft="@dimen/margin_safe_base" android:paddingTop="5.0dp" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="40.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+                <FrameLayout android:id="@id/ad_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </com.tdtapp.englisheveryday.layout.ContentFrame>
+</LinearLayout>

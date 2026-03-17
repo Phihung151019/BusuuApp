@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="#1592e6" app:cardCornerRadius="7.0dp" style="@style/AppCardViewImage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="120.0dp" android:layout_height="80.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" app:srcCompat="@drawable/ic_upload_svg" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_get_img" android:includeFontPadding="false" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

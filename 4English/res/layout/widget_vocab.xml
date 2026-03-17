@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_root" android:background="@drawable/bg_widget_rounded" android:padding="@dimen/widget_padding" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_widget_bg_icon" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_4english_tab_home_new_svg" android:layout_alignParentBottom="true" android:contentDescription="" android:alpha="0.2" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/widget_text_word" android:textStyle="bold" android:textColor="@color/widget_text_word" android:ellipsize="end" android:id="@id/tv_widget_word" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:letterSpacing="0.05" />
+        <TextView android:textSize="@dimen/widget_text_phonetic" android:textColor="@color/widget_text_phonetic" android:ellipsize="end" android:id="@id/tv_widget_phonetic" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:maxLines="1" />
+        <TextView android:textSize="@dimen/widget_text_meaning" android:textColor="@color/widget_text_meaning" android:ellipsize="end" android:id="@id/tv_widget_meaning" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxLines="3" android:lineSpacingExtra="3.0dp" />
+    </LinearLayout>
+</RelativeLayout>

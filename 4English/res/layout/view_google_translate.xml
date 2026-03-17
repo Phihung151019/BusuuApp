@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:id="@id/trial" android:padding="10.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/color_primary_text" android:id="@id/content_layout" android:background="@drawable/bg_rectangle_border" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:minHeight="100.0dp" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pro" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="20.0dp" android:text="@string/msg_update_pro" />
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/btn_pro" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" app:cardCornerRadius="0.0dp" app:contentPadding="0.0dp" style="@style/AppVideoCardView">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:background="@color/quizlet_color" android:paddingLeft="25.0dp" android:paddingRight="25.0dp" android:layout_width="wrap_content" android:layout_height="45.0dp" android:text="@string/upgrade_to_pro" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

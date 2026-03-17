@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:paddingBottom="10.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/txt_their_msg" android:id="@id/message" android:background="@drawable/ic_their_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" app:elevation="5.0dp" fontPath="@string/font_bold" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/txt_user_name" android:ellipsize="end" android:gravity="center" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:maxLines="1" android:layout_toRightOf="@id/message" android:layout_marginStart="5.0dp" android:layout_toEndOf="@id/message" app:elevation="5.0dp" fontPath="@string/font_bold" />
+</RelativeLayout>

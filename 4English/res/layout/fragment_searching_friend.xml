@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_welcome_game" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/top" android:layout_width="match_parent" android:layout_height="@dimen/btn_close_size">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/pad_btn_close" android:layout_width="@dimen/btn_close_size" android:layout_height="@dimen/btn_close_size" app:srcCompat="@drawable/ic_game_exit" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/top">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@id/my_avatar" android:layout_width="@dimen/logo_game_height" android:layout_height="@dimen/logo_game_height" android:layout_marginBottom="0.0dp" android:src="@drawable/img_useravatar" android:scaleType="centerCrop" android:layout_alignParentBottom="true" app:civ_border_color="@color/textWhiteColor" app:civ_border_width="3.0dp" />
+            <TextView android:textSize="@dimen/font_20" android:textColor="@color/textWhiteColor" android:ellipsize="end" android:gravity="center" android:id="@id/my_name" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" fontPath="@string/font_bold" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/font_30" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="center" android:padding="7.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VS" android:shadowColor="#3d7fef" android:shadowDx="10.0" android:shadowDy="10.0" android:shadowRadius="1.0" fontPath="@string/font_bold" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@id/friend_avatar" android:layout_width="@dimen/logo_game_height" android:layout_height="@dimen/logo_game_height" android:src="@drawable/img_avatar" android:scaleType="centerCrop" app:civ_border_color="@color/textWhiteColor" app:civ_border_width="3.0dp" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_queston" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/font_20" android:textColor="@color/textWhiteColor" android:ellipsize="end" android:gravity="center" android:id="@id/friend_name" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" fontPath="@string/font_bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.github.ybq.android.spinkit.SpinKitView android:layout_gravity="center" android:id="@id/loading" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:SpinKit_Color="#a9e5ed" style="@style/SpinKitView.Pulse" />
+    <TextView android:textSize="@dimen/font_30" android:textColor="#a9e5ed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:text="Đang tìm đối thủ..." android:layout_below="@id/loading" android:layout_centerHorizontal="true" fontPath="@string/font_bold" />
+</RelativeLayout>

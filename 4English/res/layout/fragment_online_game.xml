@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_welcome_game" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:orientation="vertical" android:background="@drawable/bg_blue_game" android:layout_width="match_parent" android:layout_height="400.0dp" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/top" android:layout_width="match_parent" android:layout_height="@dimen/btn_close_size">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/pad_btn_close" android:layout_width="@dimen/btn_close_size" android:layout_height="@dimen/btn_close_size" app:srcCompat="@drawable/ic_game_back" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_15" android:textColor="@color/btn_feedback_game" android:gravity="center" android:id="@id/btn_feedback" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mar_top_10" android:text="@string/feedback_title" android:drawableRight="@drawable/ic_feedback_game" android:drawablePadding="@dimen/mar_top_5" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" android:drawableEnd="@drawable/ic_feedback_game" android:layout_marginEnd="@dimen/mar_top_10" android:layout_alignParentEnd="true" app:drawableTint="@color/btn_feedback_game" />
+    </RelativeLayout>
+    <ScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/top">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/view_num_player" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mar_top_10">
+                <TextView android:textSize="@dimen/font_25" android:textStyle="bold" android:textColor="#22b573" android:gravity="center" android:id="@id/player_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/cirle_number_online" android:drawablePadding="@dimen/mar_left_5" android:drawableStart="@drawable/cirle_number_online" fontPath="@string/font_bold" />
+                <TextView android:textSize="@dimen/font_20" android:textColor="#e6e6e6" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/num_online_player" />
+            </LinearLayout>
+            <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/btn_play_mar_top">
+                <com.tdtapp.englisheveryday.features.game.ButtonForGame android:id="@id/btn_play" android:visibility="visible" android:layout_width="@dimen/btn_play_width" android:layout_height="@dimen/btn_play_size" app:btnBgColor="red" app:btnText="@string/btn_let_play" app:btnTextSize="@dimen/font_25" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_18" android:textColor="@color/btn_red_game" android:gravity="center" android:id="@id/server_status" android:padding="10.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" fontPath="@string/font_bold" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/font_15" android:textStyle="italic" android:textColor="#cccccc" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mar_left_5" android:layout_marginTop="@dimen/mar_top_10" android:layout_marginRight="@dimen/mar_left_5" android:text="@string/msg_play_with_world" fontPath="@string/font_italic" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_bound_top_mar">
+                <View android:background="@drawable/bg_blue_dark_game" android:layout_width="match_parent" android:layout_height="100.0dp" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_blue_game" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/shahow_bottom_height">
+                    <TextView android:textSize="@dimen/font_30" android:textStyle="bold" android:textColor="@color/txt_game_rule" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rule_text_mar_top" android:text="@string/gmae_rule" android:textAllCaps="true" fontPath="fonts/pony.TTF" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="@dimen/rule_img_height" android:layout_marginLeft="@dimen/rule_image_mar" android:layout_marginTop="@dimen/mar_top_5" android:layout_marginRight="@dimen/rule_image_mar" android:src="@drawable/img_game_rules" android:scaleType="centerInside" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rule_text_mar" android:layout_marginTop="@dimen/rule_text_step_mar_top" android:layout_marginRight="@dimen/rule_text_mar">
+                            <TextView android:textSize="@dimen/font_30" android:textStyle="bold" android:textColor="@color/txt_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1." fontPath="fonts/pony.TTF" />
+                            <TextView android:textSize="@dimen/font_18" android:textColor="@color/txt_game_guide" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mar_left_5" android:text="@string/game_rule_s1" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rule_text_mar" android:layout_marginTop="@dimen/mar_top_10" android:layout_marginRight="@dimen/rule_text_mar" android:layout_marginBottom="@dimen/mar_bottom">
+                            <TextView android:textSize="@dimen/font_30" android:textStyle="bold" android:textColor="@color/txt_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2." fontPath="fonts/pony.TTF" />
+                            <TextView android:textSize="@dimen/font_18" android:textColor="@color/txt_game_guide" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mar_left_5" android:text="@string/game_rule_s2" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

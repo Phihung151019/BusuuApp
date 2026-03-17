@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="166.0dp" android:width="11.0dp" android:viewportWidth="11.0" android:viewportHeight="166.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_book_shadow__0" android:pathData="M2,0.241h4v165h-4z" />
+    <path android:fillColor="@drawable/$ic_book_shadow__1" android:pathData="M8.262,0.241h2v165h-2z" />
+    <path android:fillColor="@drawable/$ic_book_shadow__2" android:pathData="M5,0.241h3v165h-3z" />
+    <path android:fillColor="#00000000" android:pathData="M1.012,0.241L1.012,165.241" android:strokeColor="#000000" android:strokeWidth="1.5" android:strokeAlpha="0.19" />
+</vector>

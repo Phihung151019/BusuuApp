@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bg_main_ranking" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="20.0dp" app:srcCompat="@drawable/ic_cup" />
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/logo_game_mar" android:layout_marginTop="10.0dp" android:layout_marginRight="@dimen/logo_game_mar" android:src="@drawable/title_ranking" android:adjustViewBounds="true" />
+        <TextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="#7085b7" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/ranking_mine" android:textAllCaps="true" fontPath="fonts/pony.TTF" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_mine_rank" android:paddingLeft="10.0dp" android:paddingTop="8.0dp" android:paddingRight="10.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp">
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center_vertical" android:id="@id/my_avatar" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginRight="5.0dp" android:src="@drawable/img_useravatar" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:civ_border_color="@color/border_avatar_chat" app:civ_border_width="2.0dp" />
+            <TextView android:textSize="16.0sp" android:textColor="#e6e6e6" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/my_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5.0dp">
+                <TextView android:textSize="14.0sp" android:textColor="#e6e6e6" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:text="@string/num_word" fontPath="@string/font_bold" />
+                <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <TextView android:textSize="16.0sp" android:textColor="#22b573" android:gravity="center" android:id="@id/my_word_num" android:background="@drawable/bg_num_rank" android:paddingLeft="10.0dp" android:paddingTop="5.0dp" android:paddingRight="10.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" fontPath="@string/font_bold" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="#e6e6e6" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:text="@string/rank" fontPath="@string/font_bold" />
+                <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_ellipse" />
+                    <TextView android:textSize="14.0sp" android:textColor="#264ba1" android:gravity="center" android:id="@id/my_rank" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerInParent="true" fontPath="@string/font_bold" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="#7085b7" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/ranking_all" android:textAllCaps="true" fontPath="fonts/pony.TTF" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="#7085b7" android:layout_gravity="center_horizontal" android:id="@id/reset_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" fontPath="fonts/OpenSans-Italic.ttf" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/list_ranking" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:scrollbars="vertical" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <ImageView android:id="@id/btn_close" android:background="?selectableItemBackgroundBorderless" android:padding="10.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_game_exit" />
+    <com.github.ybq.android.spinkit.SpinKitView android:layout_gravity="center" android:id="@id/loading" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:SpinKit_Color="#ffffff" style="@style/SpinKitView.ThreeBounce" />
+</RelativeLayout>

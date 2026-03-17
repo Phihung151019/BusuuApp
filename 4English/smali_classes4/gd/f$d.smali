@@ -1,0 +1,186 @@
+.class public final enum Lgd/f$d;
+.super Ljava/lang/Enum;
+.source "SourceFile"
+
+# interfaces
+.implements Lnd/j$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lgd/f;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "d"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lgd/f$d;",
+        ">;",
+        "Lnd/j$a;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final enum q:Lgd/f$d;
+
+.field public static final enum s:Lgd/f$d;
+
+.field public static final enum t:Lgd/f$d;
+
+.field private static u:Lnd/j$b;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lnd/j$b<",
+            "Lgd/f$d;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final synthetic v:[Lgd/f$d;
+
+
+# instance fields
+.field private final m:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 5
+
+    new-instance v0, Lgd/f$d;
+
+    const-string v1, "AT_MOST_ONCE"
+
+    const/4 v2, 0x0
+
+    invoke-direct {v0, v1, v2, v2, v2}, Lgd/f$d;-><init>(Ljava/lang/String;III)V
+
+    sput-object v0, Lgd/f$d;->q:Lgd/f$d;
+
+    new-instance v1, Lgd/f$d;
+
+    const-string v2, "EXACTLY_ONCE"
+
+    const/4 v3, 0x1
+
+    invoke-direct {v1, v2, v3, v3, v3}, Lgd/f$d;-><init>(Ljava/lang/String;III)V
+
+    sput-object v1, Lgd/f$d;->s:Lgd/f$d;
+
+    new-instance v2, Lgd/f$d;
+
+    const-string v3, "AT_LEAST_ONCE"
+
+    const/4 v4, 0x2
+
+    invoke-direct {v2, v3, v4, v4, v4}, Lgd/f$d;-><init>(Ljava/lang/String;III)V
+
+    sput-object v2, Lgd/f$d;->t:Lgd/f$d;
+
+    filled-new-array {v0, v1, v2}, [Lgd/f$d;
+
+    move-result-object v0
+
+    sput-object v0, Lgd/f$d;->v:[Lgd/f$d;
+
+    new-instance v0, Lgd/f$d$a;
+
+    invoke-direct {v0}, Lgd/f$d$a;-><init>()V
+
+    sput-object v0, Lgd/f$d;->u:Lnd/j$b;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;III)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(II)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    iput p4, p0, Lgd/f$d;->m:I
+
+    return-void
+.end method
+
+.method public static a(I)Lgd/f$d;
+    .locals 1
+
+    if-eqz p0, :cond_2
+
+    const/4 v0, 0x1
+
+    if-eq p0, v0, :cond_1
+
+    const/4 v0, 0x2
+
+    if-eq p0, v0, :cond_0
+
+    const/4 p0, 0x0
+
+    return-object p0
+
+    :cond_0
+    sget-object p0, Lgd/f$d;->t:Lgd/f$d;
+
+    return-object p0
+
+    :cond_1
+    sget-object p0, Lgd/f$d;->s:Lgd/f$d;
+
+    return-object p0
+
+    :cond_2
+    sget-object p0, Lgd/f$d;->q:Lgd/f$d;
+
+    return-object p0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lgd/f$d;
+    .locals 1
+
+    const-class v0, Lgd/f$d;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lgd/f$d;
+
+    return-object p0
+.end method
+
+.method public static values()[Lgd/f$d;
+    .locals 1
+
+    sget-object v0, Lgd/f$d;->v:[Lgd/f$d;
+
+    invoke-virtual {v0}, [Lgd/f$d;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lgd/f$d;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final getNumber()I
+    .locals 1
+
+    iget v0, p0, Lgd/f$d;->m:I
+
+    return v0
+.end method

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bgMainShadow" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp" app:layout_behavior="com.tdtapp.englisheveryday.widgets.FixAppBarLayoutBehavior">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_blue_dark" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_centerVertical="true" app:srcCompat="@drawable/ic_back_svg" app:tint="@color/white" />
+            <TextView android:textSize="@dimen/font_size_actionbar" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_shadowing" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="#464646" android:id="@id/tip" android:background="#d2e3f5" android:padding="10.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/msg_tip_shadowing" app:drawableEndCompat="@drawable/ic_close_small_svg" app:drawableRightCompat="@drawable/ic_close_small_svg" app:drawableTint="#464646" />
+        <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/notice" android:layout_below="@id/tip">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_safe_base" android:paddingTop="20.0dp" android:paddingRight="@dimen/margin_safe_base" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_rec_content_shadowing" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/content" android:padding="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    <com.tdtapp.englisheveryday.features.jcplayer.JcPlayerView android:id="@id/audio_player" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/btn_record" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" app:srcCompat="@drawable/ic_mic_record_svg" app:tint="@color/color_text_action" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:layout_gravity="center" android:id="@id/guide_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/start_record_your_voice" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/list_record" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="13.0dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:gravity="center" android:id="@id/notice" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginTop="10.0dp" android:layout_marginRight="@dimen/margin_safe_base" android:layout_marginBottom="10.0dp" android:text="@string/msg_record_auto_del" android:layout_alignParentBottom="true" fontPath="fonts/OpenSans-Italic.ttf" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_review_learn" android:background="@drawable/bg_card_border_home" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="140.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+        <FrameLayout android:id="@id/frame_review_icon" android:background="@drawable/bg_icon_rocket_rounded" android:padding="8.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp">
+            <ImageView android:id="@id/img_review_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_rocket_tab_home_new_svg" />
+        </FrameLayout>
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/home_text_primary" android:id="@id/tv_review_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_label_learn_now" android:layout_marginStart="8.0dp" style="@style/InterTightSemibold600" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <TextView android:textSize="12.0sp" android:textColor="@color/home_text_secondary" android:ellipsize="end" android:id="@id/tv_review_desc" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/home_desc_learn_now" android:maxLines="2" android:minLines="2" android:layout_weight="1.0" style="@style/InterRegular400" />
+        <ImageView android:layout_gravity="bottom" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_arrow_up_tab_home_new_svg" />
+    </LinearLayout>
+</LinearLayout>

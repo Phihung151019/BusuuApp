@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_menu" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="23.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/tv_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

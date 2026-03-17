@@ -1,0 +1,55 @@
+.class public interface abstract Lcom/google/api/ConfigChangeOrBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/o0;
+
+
+# virtual methods
+.method public abstract getAdvices(I)Lcom/google/api/Advice;
+.end method
+
+.method public abstract getAdvicesCount()I
+.end method
+
+.method public abstract getAdvicesList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/google/api/Advice;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getChangeType()Lcom/google/api/ChangeType;
+.end method
+
+.method public abstract getChangeTypeValue()I
+.end method
+
+.method public abstract synthetic getDefaultInstanceForType()Lcom/google/protobuf/n0;
+.end method
+
+.method public abstract getElement()Ljava/lang/String;
+.end method
+
+.method public abstract getElementBytes()Lcom/google/protobuf/l;
+.end method
+
+.method public abstract getNewValue()Ljava/lang/String;
+.end method
+
+.method public abstract getNewValueBytes()Lcom/google/protobuf/l;
+.end method
+
+.method public abstract getOldValue()Ljava/lang/String;
+.end method
+
+.method public abstract getOldValueBytes()Lcom/google/protobuf/l;
+.end method
+
+.method public abstract synthetic isInitialized()Z
+.end method

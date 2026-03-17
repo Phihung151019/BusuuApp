@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.home.IntroHomeItemView android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/info" android:background="@color/bg_white" android:paddingLeft="@dimen/margin_safe_base" android:paddingTop="16.0dp" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="25.0dp" android:layout_height="25.0dp" app:srcCompat="@drawable/ic_info_svg" app:tint="@color/color_text_action" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_text_action" android:id="@id/title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="@string/take_a_tour" android:layout_weight="1.0" android:layout_marginStart="10.0dp" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_close" android:padding="11.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" app:srcCompat="@drawable/ic_exit_svg" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="10.0dp" android:text="@string/msg_tap_guide" android:layout_marginStart="5.0dp" fontPath="fonts/OpenSans-Italic.ttf" />
+    </LinearLayout>
+    <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" android:layout_below="@id/info" />
+</com.tdtapp.englisheveryday.widgets.home.IntroHomeItemView>

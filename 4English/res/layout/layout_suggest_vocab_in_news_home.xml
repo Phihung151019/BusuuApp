@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/bg_white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider_top" android:background="@color/divider_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="13.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/news_containing" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:id="@id/word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" fontPath="fonts/OpenSans-Bold.ttf" />
+    </LinearLayout>
+    <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center|top" android:id="@id/list_news" android:paddingLeft="@dimen/margin_safe_base" android:paddingTop="6.0dp" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="6.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/btn_more" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/btn_see_more" android:textAllCaps="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" />
+</LinearLayout>

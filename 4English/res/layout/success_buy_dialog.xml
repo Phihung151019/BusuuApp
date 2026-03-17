@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/success_buy_dialog_0" android:background="@drawable/img_pay_success" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="match_parent" android:layout_height="@dimen/padding_16" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/size_icon_big" android:layout_height="@dimen/size_icon_big" android:src="@drawable/img_4e_pro" />
+    <Space android:layout_width="match_parent" android:layout_height="@dimen/padding_24" />
+    <TextView android:textSize="@dimen/text_24" android:gravity="center" android:id="@id/state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/padding_4" android:text="@string/already_4e" style="@style/InterTightBold700" />
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intro_4e_success" android:paddingStart="@dimen/padding_16" android:paddingEnd="@dimen/padding_16" style="@style/InterRegular400" />
+    <Space android:layout_width="match_parent" android:layout_height="@dimen/padding_24" />
+    <Button android:textColor="@color/white" android:id="@id/recovery_button" android:background="@drawable/bg_rectangle_text_action_radius" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="45.0dp" android:text="@string/explore_now" android:textAllCaps="false" android:paddingStart="@dimen/padding_16" android:paddingEnd="@dimen/padding_16" />
+    <Space android:layout_width="match_parent" android:layout_height="@dimen/padding_12" />
+</LinearLayout>

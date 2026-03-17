@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:startColor="@color/gradient_recent_word" android:endColor="#1e5d84bf" android:angle="90.0" android:type="linear" />
+        </shape>
+    </item>
+</selector>

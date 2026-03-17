@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root_layout" android:background="@color/bg_white_learn" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="170.0dp" android:layout_marginTop="40.0dp" android:src="@drawable/ic_spaced_repetition" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dp" android:text="@string/title_sp_definition" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/content_sp_denfition" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dp" android:text="@string/title_level_definition" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/content_level_definition" />
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="20.0dp" app:cardCornerRadius="10.0dp" app:cardElevation="0.0dp">
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@color/bg_btn_quick_learn" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/your_memory_level" android:layout_weight="1.0" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/col_time_review" android:layout_weight="1.0" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_weight="1.0">
+                            <com.tdtapp.englisheveryday.features.vocabulary.WordSPLevelView android:layout_width="wrap_content" android:layout_height="wrap_content" app:spLevel="1" />
+                            <View android:layout_width="10.0dp" android:layout_height="1.0dp" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="40.0dp" android:text="@string/word_level_1" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/after_2_hours" android:layout_weight="1.0" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_weight="1.0">
+                            <com.tdtapp.englisheveryday.features.vocabulary.WordSPLevelView android:layout_width="wrap_content" android:layout_height="wrap_content" app:spLevel="2" />
+                            <View android:layout_width="10.0dp" android:layout_height="1.0dp" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="40.0dp" android:text="@string/word_level_2" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/after_one_day" android:layout_weight="1.0" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_weight="1.0">
+                            <com.tdtapp.englisheveryday.features.vocabulary.WordSPLevelView android:layout_width="wrap_content" android:layout_height="wrap_content" app:spLevel="3" />
+                            <View android:layout_width="10.0dp" android:layout_height="1.0dp" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="40.0dp" android:text="@string/word_level_3" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/after_2_day" android:layout_weight="1.0" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_weight="1.0">
+                            <com.tdtapp.englisheveryday.features.vocabulary.WordSPLevelView android:layout_width="wrap_content" android:layout_height="wrap_content" app:spLevel="4" />
+                            <View android:layout_width="10.0dp" android:layout_height="1.0dp" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="40.0dp" android:text="@string/word_level_4" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/after_3_day" android:layout_weight="1.0" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_weight="1.0">
+                            <com.tdtapp.englisheveryday.features.vocabulary.WordSPLevelView android:layout_width="wrap_content" android:layout_height="wrap_content" app:spLevel="5" />
+                            <View android:layout_width="10.0dp" android:layout_height="1.0dp" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="40.0dp" android:text="@string/word_level_5" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/after_5_day" android:layout_weight="1.0" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_weight="1.0">
+                            <com.tdtapp.englisheveryday.features.vocabulary.WordSPLevelView android:layout_width="wrap_content" android:layout_height="wrap_content" app:spLevel="6" />
+                            <View android:layout_width="10.0dp" android:layout_height="1.0dp" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="40.0dp" android:text="@string/word_level_max" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/after_8_day" android:layout_weight="1.0" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.cardview.widget.CardView>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:id="@id/link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dp" android:text="(*) https://en.wikipedia.org/wiki/Spaced_repetition" fontPath="fonts/OpenSans-Italic.ttf" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" app:srcCompat="@drawable/ic_close_small_svg" app:tint="@color/icon_color" />
+</RelativeLayout>

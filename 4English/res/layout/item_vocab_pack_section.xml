@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:id="@id/name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@id/see_all" android:layout_centerVertical="true" android:layout_marginEnd="10.0dp" android:layout_toStartOf="@id/see_all" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_txt_more" android:gravity="center" android:id="@id/see_all" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_more" android:drawablePadding="5.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:drawableRightCompat="@drawable/ic_more_svg" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/item_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="15.0dp" />
+</LinearLayout>

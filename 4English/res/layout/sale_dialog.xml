@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/sale_dialog_0" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:id="@id/text_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="12.0dp" android:text="ƯU ĐÃI KẾT THÚC TRONG" style="@style/InterTightBold700" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_countdown" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_countdown_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp">
+            <TextView android:textSize="18.0sp" android:textColor="#3b82f6" android:gravity="center" android:id="@id/tv_hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12" style="@style/InterTightBold700" />
+            <TextView android:textSize="12.0sp" android:textColor="#3b82f6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giờ" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_countdown_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp">
+            <TextView android:textSize="18.0sp" android:textColor="#3b82f6" android:gravity="center" android:id="@id/tv_minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" style="@style/InterTightBold700" />
+            <TextView android:textSize="12.0sp" android:textColor="#3b82f6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Phút" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_countdown_box" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="#3b82f6" android:gravity="center" android:id="@id/tv_seconds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" style="@style/InterTightBold700" />
+            <TextView android:textSize="12.0sp" android:textColor="#3b82f6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giây" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/img_sale" android:layout_width="match_parent" android:layout_height="@dimen/_250sdp" android:scaleType="fitXY" android:contentDescription="sale image" />
+</LinearLayout>

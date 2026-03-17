@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:tag="layout/fragment_select_toppic_new_0" android:background="@color/bg_main_color" android:paddingLeft="30.0dp" android:paddingRight="30.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:id="@id/topic_choose_instruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/msg_choose_topic" fontPath="fonts/OpenSans-Bold.ttf" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" />
+</LinearLayout>

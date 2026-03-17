@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="3.0dp" android:indeterminate="true" android:scaleY="5.0" style="?android:progressBarStyleHorizontal" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/url_view" android:background="@color/colorFloatDict" android:paddingBottom="3.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@drawable/bg_search_url" android:paddingLeft="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:id="@id/txt_url" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <WebView android:id="@id/webView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/url_view" />
+        <TextView android:gravity="center" android:id="@id/not_found" android:background="@color/list_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_data" />
+    </RelativeLayout>
+</LinearLayout>

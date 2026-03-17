@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/container" android:background="@drawable/bg_flash_sale_gradient" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/info_view" android:paddingLeft="10.0dp" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#1448b4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Flash" android:shadowColor="#ed8628" android:shadowDx="5.0" android:shadowDy="5.0" android:shadowRadius="1.0" android:textAllCaps="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="25.0sp" android:textColor="#e58126" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginTop="2.0dp" android:text="Sale" android:includeFontPadding="false" android:shadowColor="#cf3040" android:shadowDx="5.0" android:shadowDy="5.0" android:shadowRadius="1.0" android:textAllCaps="true" fontPath="fonts/OpenSans-Bold.ttf" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="25.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sale" android:includeFontPadding="false" android:textAllCaps="true" fontPath="fonts/OpenSans-Bold.ttf" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginTop="2.0dp" app:srcCompat="@drawable/ic_flash_sale_svg" app:tint="#ef8628" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_flash_sale_svg" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="#1448b4" android:gravity="center" android:layout_gravity="center" android:id="@id/hours" android:background="@drawable/bg_time_border_flash_sale" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:autoSizeTextType="uniform" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="#1448b4" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="@string/hours" android:maxLines="1" android:textAllCaps="true" app:autoSizeTextType="uniform" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="#1448b4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:text=":" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" app:autoSizeTextType="uniform" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="#1448b4" android:gravity="center" android:layout_gravity="center" android:id="@id/minutes" android:background="@drawable/bg_time_border_flash_sale" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:autoSizeTextType="uniform" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="#1448b4" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="@string/minus" android:maxLines="1" android:textAllCaps="true" app:autoSizeTextType="uniform" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="#1448b4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:text=":" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" app:autoSizeTextType="uniform" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="#1448b4" android:gravity="center" android:layout_gravity="center" android:id="@id/second" android:background="@drawable/bg_time_border_flash_sale" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:autoSizeTextType="uniform" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="#1448b4" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="@string/seconds" android:maxLines="1" android:textAllCaps="true" app:autoSizeTextType="uniform" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

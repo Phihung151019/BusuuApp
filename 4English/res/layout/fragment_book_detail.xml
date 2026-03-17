@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:elevation="@dimen/elevation" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextColor="@color/textWhiteColor">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start" android:id="@id/back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" app:srcCompat="@drawable/ic_back_svg" />
+            <TextView android:textSize="@dimen/font_size_actionbar" android:textColor="@color/color_primary_text" android:layout_gravity="center" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/book_detail" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:padding="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:paddingBottom="?actionBarSize" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/book_thumb" android:layout_width="130.0dp" android:layout_height="200.0dp" android:scaleType="fitXY" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_toRightOf="@id/book_thumb" android:layout_marginStart="10.0dp" android:layout_toEndOf="@id/book_thumb">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/color_second_text" android:id="@id/author" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:id="@id/book_name" android:layout_width="wrap_content" android:layout_height="wrap_content" fontPath="fonts/OpenSans-Bold.ttf" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                            <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/category" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/size" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                            <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dp">
+                            <androidx.cardview.widget.CardView android:id="@id/btn_read" android:visibility="visible" android:layout_width="150.0dp" android:layout_height="wrap_content" app:cardCornerRadius="10.0dp" style="@style/AppVideoCardView">
+                                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_btn_green_home" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                                    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/read" />
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView android:id="@id/btn_download" android:visibility="gone" android:layout_width="150.0dp" android:layout_height="wrap_content" app:cardCornerRadius="10.0dp" style="@style/AppVideoCardView">
+                                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_rectangle_text_action_radius" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                                    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_download" />
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/description" fontPath="fonts/OpenSans-Bold.ttf" />
+                <com.tdtapp.englisheveryday.widgets.WordClickableTextView android:textSize="16.0sp" android:textColor="@color/color_second_text" android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/excerpt" fontPath="fonts/OpenSans-Bold.ttf" />
+                <com.tdtapp.englisheveryday.widgets.WordClickableTextView android:textSize="16.0sp" android:textColor="@color/color_second_text" android:id="@id/excerpt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.tdtapp.englisheveryday.layout.ContentFrame>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

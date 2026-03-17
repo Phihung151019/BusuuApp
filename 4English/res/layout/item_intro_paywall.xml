@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/item_intro_paywall_0" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_checkmark" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/fui_ic_check_circle_black_128dp" android:contentDescription="Tính năng đã chọn" android:layout_marginEnd="@dimen/_4sdp" />
+    <TextView android:textColor="@color/color_msg_empty_word" android:id="@id/text_feature_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gfdghfhdg bfjdhgvyufvyufgvyfuvhfyui" style="@style/InterMedium500" />
+</LinearLayout>

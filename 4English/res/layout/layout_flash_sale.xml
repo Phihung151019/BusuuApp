@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:tag="layout/layout_flash_sale_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="@dimen/size_icon_small" android:layout_height="@dimen/size_icon_small" android:src="@drawable/ic_flash_sale" android:contentDescription="Tính năng đã chọn" />
+    <TextView android:textColor="@color/color_msg_empty_word" android:id="@id/text_feature_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flash_sale_expired" style="@style/InterMedium500" />
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:tag="binding_1" android:background="@drawable/bg_circle_time_flash_sale" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" android:layout_marginStart="@dimen/padding_4" style="@style/InterSemibold600" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="#1448b4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_marginStart="@dimen/_2sdp" android:layout_marginEnd="@dimen/_2sdp" />
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:tag="binding_2" android:background="@drawable/bg_circle_time_flash_sale" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" style="@style/InterSemibold600" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="#1448b4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_marginStart="@dimen/_2sdp" android:layout_marginEnd="@dimen/_2sdp" />
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:tag="binding_3" android:background="@drawable/bg_circle_time_flash_sale" android:padding="@dimen/padding_6" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" style="@style/InterSemibold600" />
+</LinearLayout>

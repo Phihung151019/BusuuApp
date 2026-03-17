@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_open" android:title="@string/open_4english" />
+    <item android:id="@id/menu_auto_on" android:visible="false" android:title="@string/enable_auto_show_when_copy" />
+    <item android:id="@id/menu_auto_off" android:visible="false" android:title="@string/disable_auto_show_when_copy" />
+    <item android:id="@id/menu_maximize" android:title="@string/maximize" />
+    <item android:id="@id/menu_minimize" android:title="@string/minimize" />
+    <item android:id="@id/menu_close" android:title="@string/exit" />
+</menu>

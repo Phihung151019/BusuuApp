@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|center" android:id="@id/ab_left" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" app:srcCompat="@drawable/ic_back_svg" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_actionbar" android:textColor="@color/color_primary_text" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_view_bound" android:background="@drawable/bg_border_for_url_input" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginTop="10.0dp" android:layout_marginRight="@dimen/margin_safe_base" android:layout_marginBottom="10.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:padding="11.0dp" android:layout_width="45.0dp" android:layout_height="40.0dp" app:srcCompat="@drawable/ic_search_svg" />
+        <EditText android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/edt_search" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/search_hint_native" android:maxLines="1" android:inputType="text" android:imeOptions="actionDone" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <ProgressBar android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/content_layout" android:paddingLeft="@dimen/margin_safe_base" android:paddingTop="10.0dp" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="80.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/btn_review_all" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="13.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:cardBackgroundColor="@color/bg_white" app:cardCornerRadius="10.0dp" app:cardElevation="5.0dp" app:cardUseCompatPadding="false" app:contentPadding="0.0dp">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/text_white_in_blue" android:gravity="center" android:background="@drawable/selector_btn_blue" android:paddingLeft="30.0dp" android:paddingTop="10.0dp" android:paddingRight="30.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/review_downloaded_packs" android:textAllCaps="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/ad_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

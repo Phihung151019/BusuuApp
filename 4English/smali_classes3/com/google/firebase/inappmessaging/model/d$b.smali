@@ -1,0 +1,243 @@
+.class public Lcom/google/firebase/inappmessaging/model/d$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/firebase/inappmessaging/model/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field a:Lcom/google/firebase/inappmessaging/model/e;
+
+.field b:Lcom/google/firebase/inappmessaging/model/e;
+
+.field c:Ljava/lang/String;
+
+.field d:Lcom/google/firebase/inappmessaging/model/a;
+
+.field e:Lcom/google/firebase/inappmessaging/model/i;
+
+.field f:Lcom/google/firebase/inappmessaging/model/i;
+
+.field g:Lcom/google/firebase/inappmessaging/model/a;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lm6/b;Ljava/util/Map;)Lcom/google/firebase/inappmessaging/model/d;
+    .locals 12
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lm6/b;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)",
+            "Lcom/google/firebase/inappmessaging/model/d;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/google/firebase/inappmessaging/model/d$b;->d:Lcom/google/firebase/inappmessaging/model/a;
+
+    if-eqz v0, :cond_7
+
+    invoke-virtual {v0}, Lcom/google/firebase/inappmessaging/model/a;->c()Lcom/google/firebase/inappmessaging/model/c;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_6
+
+    iget-object v0, p0, Lcom/google/firebase/inappmessaging/model/d$b;->g:Lcom/google/firebase/inappmessaging/model/a;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lcom/google/firebase/inappmessaging/model/a;->c()Lcom/google/firebase/inappmessaging/model/c;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    const-string p2, "Card model secondary action must be null or have a button"
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Lcom/google/firebase/inappmessaging/model/d$b;->e:Lcom/google/firebase/inappmessaging/model/i;
+
+    if-eqz v0, :cond_5
+
+    iget-object v0, p0, Lcom/google/firebase/inappmessaging/model/d$b;->a:Lcom/google/firebase/inappmessaging/model/e;
+
+    if-nez v0, :cond_3
+
+    iget-object v0, p0, Lcom/google/firebase/inappmessaging/model/d$b;->b:Lcom/google/firebase/inappmessaging/model/e;
+
+    if-eqz v0, :cond_2
+
+    goto :goto_1
+
+    :cond_2
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    const-string p2, "Card model must have at least one image"
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_3
+    :goto_1
+    iget-object v0, p0, Lcom/google/firebase/inappmessaging/model/d$b;->c:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    new-instance v0, Lcom/google/firebase/inappmessaging/model/d;
+
+    iget-object v3, p0, Lcom/google/firebase/inappmessaging/model/d$b;->e:Lcom/google/firebase/inappmessaging/model/i;
+
+    iget-object v4, p0, Lcom/google/firebase/inappmessaging/model/d$b;->f:Lcom/google/firebase/inappmessaging/model/i;
+
+    iget-object v5, p0, Lcom/google/firebase/inappmessaging/model/d$b;->a:Lcom/google/firebase/inappmessaging/model/e;
+
+    iget-object v6, p0, Lcom/google/firebase/inappmessaging/model/d$b;->b:Lcom/google/firebase/inappmessaging/model/e;
+
+    iget-object v7, p0, Lcom/google/firebase/inappmessaging/model/d$b;->c:Ljava/lang/String;
+
+    iget-object v8, p0, Lcom/google/firebase/inappmessaging/model/d$b;->d:Lcom/google/firebase/inappmessaging/model/a;
+
+    iget-object v9, p0, Lcom/google/firebase/inappmessaging/model/d$b;->g:Lcom/google/firebase/inappmessaging/model/a;
+
+    const/4 v11, 0x0
+
+    move-object v1, v0
+
+    move-object v2, p1
+
+    move-object v10, p2
+
+    invoke-direct/range {v1 .. v11}, Lcom/google/firebase/inappmessaging/model/d;-><init>(Lm6/b;Lcom/google/firebase/inappmessaging/model/i;Lcom/google/firebase/inappmessaging/model/i;Lcom/google/firebase/inappmessaging/model/e;Lcom/google/firebase/inappmessaging/model/e;Ljava/lang/String;Lcom/google/firebase/inappmessaging/model/a;Lcom/google/firebase/inappmessaging/model/a;Ljava/util/Map;Lcom/google/firebase/inappmessaging/model/d$a;)V
+
+    return-object v0
+
+    :cond_4
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    const-string p2, "Card model must have a background color"
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_5
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    const-string p2, "Card model must have a title"
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_6
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    const-string p2, "Card model must have a primary action button"
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_7
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    const-string p2, "Card model must have a primary action"
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public b(Ljava/lang/String;)Lcom/google/firebase/inappmessaging/model/d$b;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/firebase/inappmessaging/model/d$b;->c:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public c(Lcom/google/firebase/inappmessaging/model/i;)Lcom/google/firebase/inappmessaging/model/d$b;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/firebase/inappmessaging/model/d$b;->f:Lcom/google/firebase/inappmessaging/model/i;
+
+    return-object p0
+.end method
+
+.method public d(Lcom/google/firebase/inappmessaging/model/e;)Lcom/google/firebase/inappmessaging/model/d$b;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/firebase/inappmessaging/model/d$b;->b:Lcom/google/firebase/inappmessaging/model/e;
+
+    return-object p0
+.end method
+
+.method public e(Lcom/google/firebase/inappmessaging/model/e;)Lcom/google/firebase/inappmessaging/model/d$b;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/firebase/inappmessaging/model/d$b;->a:Lcom/google/firebase/inappmessaging/model/e;
+
+    return-object p0
+.end method
+
+.method public f(Lcom/google/firebase/inappmessaging/model/a;)Lcom/google/firebase/inappmessaging/model/d$b;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/firebase/inappmessaging/model/d$b;->d:Lcom/google/firebase/inappmessaging/model/a;
+
+    return-object p0
+.end method
+
+.method public g(Lcom/google/firebase/inappmessaging/model/a;)Lcom/google/firebase/inappmessaging/model/d$b;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/firebase/inappmessaging/model/d$b;->g:Lcom/google/firebase/inappmessaging/model/a;
+
+    return-object p0
+.end method
+
+.method public h(Lcom/google/firebase/inappmessaging/model/i;)Lcom/google/firebase/inappmessaging/model/d$b;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/firebase/inappmessaging/model/d$b;->e:Lcom/google/firebase/inappmessaging/model/i;
+
+    return-object p0
+.end method

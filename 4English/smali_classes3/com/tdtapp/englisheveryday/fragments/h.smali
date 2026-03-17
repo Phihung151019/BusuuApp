@@ -1,0 +1,343 @@
+.class public Lcom/tdtapp/englisheveryday/fragments/h;
+.super Lcom/tdtapp/englisheveryday/fragments/a;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Ldagger/hilt/android/AndroidEntryPoint;
+.end annotation
+
+
+# instance fields
+.field protected v:Z
+
+.field private w:Landroid/app/ProgressDialog;
+
+.field protected x:Landroidx/appcompat/widget/Toolbar;
+
+.field protected y:I
+
+.field protected z:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Lcom/tdtapp/englisheveryday/fragments/a;-><init>()V
+
+    const/4 v0, -0x1
+
+    iput v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->y:I
+
+    iput v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->z:I
+
+    new-instance v0, Landroid/os/Bundle;
+
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
+
+    return-void
+.end method
+
+.method public static J1(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/Fragment;
+    .locals 2
+
+    new-instance v0, Landroid/os/Bundle;
+
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+
+    const-string v1, "extra_container_id"
+
+    invoke-virtual {v0, v1, p0}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
+
+    return-object p1
+.end method
+
+
+# virtual methods
+.method public H1()V
+    .locals 1
+
+    iget-object v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->w:Landroid/app/ProgressDialog;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/app/Dialog;->isShowing()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->w:Landroid/app/ProgressDialog;
+
+    invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
+
+    :cond_0
+    return-void
+.end method
+
+.method protected I1()I
+    .locals 1
+
+    iget v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->y:I
+
+    if-gtz v0, :cond_0
+
+    const v0, 0x7f0a0234
+
+    :cond_0
+    return v0
+.end method
+
+.method public K1()V
+    .locals 3
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isDetached()Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isAdded()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/r;
+
+    move-result-object v0
+
+    const v1, 0x7f1306d8
+
+    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    invoke-static {v0, v1, v2}, LPa/e;->a(Landroid/content/Context;Ljava/lang/String;Z)Landroid/app/ProgressDialog;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->w:Landroid/app/ProgressDialog;
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
+.method public L1()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public onActivityCreated(Landroid/os/Bundle;)V
+    .locals 0
+
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onActivityCreated(Landroid/os/Bundle;)V
+
+    const/4 p1, 0x0
+
+    iput-boolean p1, p0, Lcom/tdtapp/englisheveryday/fragments/h;->v:Z
+
+    return-void
+.end method
+
+.method public onCreate(Landroid/os/Bundle;)V
+    .locals 2
+
+    if-eqz p1, :cond_0
+
+    move-object v0, p1
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
+
+    move-result-object v0
+
+    :goto_0
+    if-eqz v0, :cond_1
+
+    const-string v1, "extra_container_id"
+
+    invoke-virtual {v0, v1}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/tdtapp/englisheveryday/fragments/h;->y:I
+
+    const-string v1, "extra_last_color"
+
+    invoke-virtual {v0, v1}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
+
+    move-result v0
+
+    iput v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->z:I
+
+    :cond_1
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onCreate(Landroid/os/Bundle;)V
+
+    const/4 p1, 0x0
+
+    iput-boolean p1, p0, Lcom/tdtapp/englisheveryday/fragments/h;->v:Z
+
+    return-void
+.end method
+
+.method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    .locals 0
+
+    const/4 p1, 0x0
+
+    iput-boolean p1, p0, Lcom/tdtapp/englisheveryday/fragments/h;->v:Z
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public onDestroy()V
+    .locals 1
+
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroy()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->x:Landroidx/appcompat/widget/Toolbar;
+
+    iput-object v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->w:Landroid/app/ProgressDialog;
+
+    return-void
+.end method
+
+.method public onDestroyView()V
+    .locals 2
+
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroyView()V
+
+    iget v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->z:I
+
+    if-lez v0, :cond_0
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/r;
+
+    move-result-object v0
+
+    iget v1, p0, Lcom/tdtapp/englisheveryday/fragments/h;->z:I
+
+    invoke-static {v0, v1}, LOa/b;->q0(Landroid/app/Activity;I)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public onForceUpdate(LN8/n;)V
+    .locals 0
+    .annotation runtime Loe/m;
+    .end annotation
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/r;
+
+    move-result-object p1
+
+    invoke-static {p1}, LOa/h;->G(Landroid/content/Context;)V
+
+    return-void
+.end method
+
+.method public onResume()V
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/tdtapp/englisheveryday/fragments/h;->L1()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/r;
+
+    move-result-object v0
+
+    invoke-static {v0}, LOa/b;->p0(Landroid/app/Activity;)V
+
+    :cond_0
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->onResume()V
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->v:Z
+
+    return-void
+.end method
+
+.method public onSaveInstanceState(Landroid/os/Bundle;)V
+    .locals 2
+
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onSaveInstanceState(Landroid/os/Bundle;)V
+
+    const-string v0, "extra_container_id"
+
+    iget v1, p0, Lcom/tdtapp/englisheveryday/fragments/h;->y:I
+
+    invoke-virtual {p1, v0, v1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+
+    const-string v0, "extra_last_color"
+
+    iget v1, p0, Lcom/tdtapp/englisheveryday/fragments/h;->z:I
+
+    invoke-virtual {p1, v0, v1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+
+    const/4 p1, 0x1
+
+    iput-boolean p1, p0, Lcom/tdtapp/englisheveryday/fragments/h;->v:Z
+
+    return-void
+.end method
+
+.method public onStart()V
+    .locals 1
+
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->onStart()V
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/tdtapp/englisheveryday/fragments/h;->v:Z
+
+    return-void
+.end method
+
+.method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    .locals 0
+
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+
+    iget-object p2, p0, Lcom/tdtapp/englisheveryday/fragments/h;->x:Landroidx/appcompat/widget/Toolbar;
+
+    if-nez p2, :cond_0
+
+    const p2, 0x7f0a076e
+
+    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroidx/appcompat/widget/Toolbar;
+
+    iput-object p1, p0, Lcom/tdtapp/englisheveryday/fragments/h;->x:Landroidx/appcompat/widget/Toolbar;
+
+    :cond_0
+    return-void
+.end method

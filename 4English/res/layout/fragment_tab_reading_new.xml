@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_tab_reading_new_0" android:background="@color/home_bg_primary" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/home_bg_primary" android:paddingTop="12.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp">
+        <TextView android:textSize="24.0sp" android:textColor="@color/home_text_primary" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_reading" style="@style/InterTightBold700" />
+        <ImageView android:layout_gravity="end|center" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_settings_new" />
+    </FrameLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:id="@id/scrollContainer" android:background="@color/home_bg_primary" android:paddingBottom="80.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:tag="binding_1" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@id/layoutBanner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_banner_reading" />
+                <include android:id="@id/sectionNews" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/layoutBanner" layout="@layout/layout_section_with_horizontal_list" />
+                <include android:id="@id/cardContinue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginHorizontal="16.0dp" app:layout_constraintTop_toBottomOf="@id/sectionNews" layout="@layout/layout_continue_learning_tab_home_new" />
+                <include android:id="@id/sectionBilingual" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/cardContinue" layout="@layout/layout_section_with_horizontal_list" />
+                <include android:id="@id/sectionBooks" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/sectionBilingual" layout="@layout/layout_section_with_horizontal_list" />
+                <include android:id="@id/sectionChemStories" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/sectionBooks" layout="@layout/layout_section_with_horizontal_list" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

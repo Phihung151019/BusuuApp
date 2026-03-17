@@ -1,0 +1,53 @@
+.class final LEd/w$a$b;
+.super LEd/w$a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LEd/w$a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = "b"
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/String;I)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, p2, v0}, LEd/w$a;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/g;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic b(LDd/w0;)LEd/w$a;
+    .locals 0
+
+    invoke-virtual {p0, p1}, LEd/w$a$b;->f(LDd/w0;)LEd/w$a$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public f(LDd/w0;)LEd/w$a$b;
+    .locals 1
+
+    const-string v0, "nextType"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object p0
+.end method

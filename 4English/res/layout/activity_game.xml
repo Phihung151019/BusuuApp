@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.cardview.widget.CardView android:id="@id/invite_notification" android:background="@drawable/bg_invitation" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" app:cardCornerRadius="15.0dp" app:cardElevation="5.0dp" app:contentPadding="0.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="100.0dp">
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@id/friend_avatar" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_marginBottom="0.0dp" android:src="@drawable/img_avatar" android:scaleType="centerCrop" app:civ_border_color="@color/txt_name_update" app:civ_border_width="2.0dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginStart="10.0dp">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/txt_name_update" android:id="@id/msg_invite" android:layout_width="match_parent" android:layout_height="match_parent" fontPath="@string/font_semi_bold" />
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mar_top_10" android:minHeight="40.0dp">
+                    <TextView android:textSize="14.0sp" android:textColor="#9e9e9e" android:gravity="center" android:id="@id/btn_decline" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:minWidth="100.0dp" android:minHeight="40.0dp" android:text="@string/btn_decline_invite" android:layout_toLeftOf="@id/btn_accept" android:textAllCaps="true" android:layout_marginEnd="10.0dp" android:layout_toStartOf="@id/btn_accept" fontPath="@string/font_bold" />
+                    <TextView android:textSize="14.0sp" android:textColor="#3d7fef" android:gravity="center" android:id="@id/btn_accept" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dp" android:minHeight="40.0dp" android:layout_alignParentRight="true" android:textAllCaps="true" android:layout_alignParentEnd="true" fontPath="@string/font_bold" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

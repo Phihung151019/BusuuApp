@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:tag="layout/fragment_select_native_language_new_0" android:background="@color/bg_main_color" android:paddingLeft="40.0dp" android:paddingRight="40.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:id="@id/txt_native_language" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/select_your_native_language" fontPath="fonts/OpenSans-Bold.ttf" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_second_text" android:gravity="center" android:id="@id/txt_native_language_msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/msg_choose_native_lang" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_editext_white_and_border_radius" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:padding="12.0dp" android:layout_width="45.0dp" android:layout_height="45.0dp" app:srcCompat="@drawable/ic_search_svg" />
+        <EditText android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/edt_search" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/search_hint_native" android:maxLines="1" android:inputType="text" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" app:cardBackgroundColor="@color/bg_white" app:cardCornerRadius="20.0dp" app:cardElevation="0.0dp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/list_view_country" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

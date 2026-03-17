@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:startColor="@color/bg_chat" android:endColor="@color/end_gradient_actionbar" android:angle="270.0" android:centerColor="@color/gradient_bg_chat" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:tag="layout/fragment_purchase_0" android:background="@drawable/img_background_paywall" android:padding="@dimen/list_divider_16dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="wrap_content" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/appIcon" android:layout_width="wrap_content" android:layout_height="87.0dp" android:layout_marginTop="@dimen/padding_24" android:src="@drawable/img_header_paywall" android:contentDescription="TODO" />
+            <TextView android:textSize="@dimen/text_24" android:gravity="start" android:id="@id/text_headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intro_header_paywall" android:lineSpacingExtra="4.0dp" style="@style/InterTightBold700" />
+            <include android:id="@id/intro_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_24" layout="@layout/intro_paywall" />
+            <Space android:tag="binding_2" android:layout_width="match_parent" android:layout_height="@dimen/padding_24" />
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_24" android:layout_marginBottom="@dimen/padding_24" layout="@layout/layout_flash_sale" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/package_list" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tv_show_promo_dialog" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing">
+                <ImageView android:layout_width="@dimen/size_icon_small" android:layout_height="@dimen/size_icon_small" android:src="@drawable/ic_coupon" android:contentDescription="Tính năng đã chọn" android:layout_marginEnd="@dimen/spacing" />
+                <TextView android:textColor="#3b82f6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_promo_code" style="@style/InterMedium500" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btnHelp" android:background="@drawable/button_background_blue_light" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/size_icon_small" android:layout_height="@dimen/size_icon_small" android:src="@drawable/ic_messenger_svg" android:tint="#4d9dff" />
+                <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_support" android:paddingStart="12.0dp" android:layout_marginStart="@dimen/spacing_small" style="@style/InterMedium500" />
+            </LinearLayout>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/kol_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_24">
+                <TextView android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_24" android:text="@string/comunity_say_4e" style="@style/InterTightSemibold600" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/kol_review" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <TextView android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_24" android:text="@string/comment_user" style="@style/InterTightSemibold600" />
+            <Space android:layout_width="match_parent" android:layout_height="@dimen/padding_16" />
+            <com.tdtapp.englisheveryday.widgets.WrapContentHeightViewPager android:id="@id/view_pager" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="250.0dp" android:layout_marginTop="10.0dp" android:paddingStart="@dimen/margin_safe_base" android:paddingEnd="@dimen/margin_safe_base" />
+            <Space android:layout_width="match_parent" android:layout_height="@dimen/padding_28" />
+            <include android:id="@id/support_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thum_exercise_size" layout="@layout/support_purchase" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

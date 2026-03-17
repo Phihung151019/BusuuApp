@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:elevation="@dimen/elevation" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+                <FrameLayout android:id="@id/actionbar_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/text_white_in_blue" android:id="@id/maintance_status" android:background="@color/color_incorrect" android:padding="10.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Due to server maintenance, some functions are temporarily unavailable. Sorry for the inconvenience!" android:drawablePadding="10.0dp" app:drawableLeftCompat="@drawable/ic_report_svg" app:drawableTint="@color/yellow" />
+            <FrameLayout android:id="@id/flash_sale_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:errorLayout="@layout/error_home_layout">
+                <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center|top" android:id="@id/content_layout" android:paddingBottom="?actionBarSize" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+            </com.tdtapp.englisheveryday.layout.ContentFrame>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_view_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_bar_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+        <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp">
+            <View android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <com.tdtapp.englisheveryday.widgets.streak.StreakFloatButtonView android:layout_gravity="right" android:id="@id/btn_streak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_safe_base" />
+        </LinearLayout>
+        <com.tdtapp.englisheveryday.widgets.home.ContinueLearningView android:id="@id/continue_learn_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.tdtapp.englisheveryday.widgets.LuckyWheelFloatingView android:id="@id/lucky_wheel_bubble" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="160.0dp" android:layout_marginEnd="16.0dp" android:elevation="10.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

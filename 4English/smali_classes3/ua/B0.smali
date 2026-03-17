@@ -1,0 +1,40 @@
+.class public final synthetic Lua/B0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic m:Lua/F0;
+
+.field public final synthetic q:Lsa/c;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lua/F0;Lsa/c;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lua/B0;->m:Lua/F0;
+
+    iput-object p2, p0, Lua/B0;->q:Lsa/c;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 2
+
+    iget-object v0, p0, Lua/B0;->m:Lua/F0;
+
+    iget-object v1, p0, Lua/B0;->q:Lsa/c;
+
+    invoke-static {v0, v1, p1}, Lua/F0$a;->R(Lua/F0;Lsa/c;Landroid/view/View;)V
+
+    return-void
+.end method

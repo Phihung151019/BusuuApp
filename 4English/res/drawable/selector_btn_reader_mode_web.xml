@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/ic_reader_mode_web" android:tint="@color/btn_disable" />
+    </item>
+    <item android:state_selected="true">
+        <bitmap android:src="@drawable/ic_reader_mode_web" android:tint="#3372f4" />
+    </item>
+    <item android:state_selected="false">
+        <bitmap android:src="@drawable/ic_reader_mode_web" android:tint="@color/btn_browser" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/ic_reader_mode_web" android:tint="@color/btn_browser" />
+    </item>
+</selector>

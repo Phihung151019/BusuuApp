@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.athkalia.emphasis.EmphasisTextView android:textColor="@color/color_primary_text" android:gravity="start" android:id="@id/org_text" android:background="@drawable/bg_rectangle_border" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:textIsSelectable="false" />
+            <RelativeLayout android:id="@id/language_view" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_below="@id/org_text">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/language" android:background="@drawable/bg_border_for_url_input" android:paddingLeft="13.0dp" android:paddingRight="13.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="40.0dp" android:drawablePadding="10.0dp" app:drawableEndCompat="@drawable/ic_more_down_svg" app:drawableRightCompat="@drawable/ic_more_down_svg" />
+                <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_trans" android:background="@drawable/selector_btn_blue" android:padding="5.0dp" android:layout_width="100.0dp" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:text="@string/translate_para" android:layout_alignParentRight="true" android:layout_marginStart="10.0dp" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:textColor="@color/color_primary_text" android:gravity="start" android:id="@id/trans_text" android:background="@drawable/bg_rectangle_border" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:minHeight="100.0dp" android:layout_below="@id/language_view" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_gravity="center" android:id="@id/msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" />
+    <EditText android:gravity="left" android:id="@id/text" android:background="@drawable/bg_rectangle_border" android:paddingLeft="13.0dp" android:paddingTop="10.0dp" android:paddingRight="13.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="150.0dp" android:maxLength="150" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="5.0dp" android:text="@string/i_will_contact_you_soon" />
+    <EditText android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/contact" android:background="@drawable/bg_rectangle_border" android:paddingLeft="13.0dp" android:paddingTop="10.0dp" android:paddingRight="13.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/your_tel_number_email_or_facebook" />
+</LinearLayout>

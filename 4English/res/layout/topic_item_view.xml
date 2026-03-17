@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/content" android:background="@color/bg_white" android:paddingLeft="@dimen/divider_list_scroll_hori" android:paddingRight="@dimen/divider_list_scroll_hori" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/divider_list_scroll_hori" android:paddingEnd="@dimen/divider_list_scroll_hori"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="88.0dp" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:maxLines="1" android:includeFontPadding="false" android:layout_below="@id/img_bound" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    <androidx.cardview.widget.CardView android:id="@id/img_bound" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="10.0dp" app:cardElevation="0.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/thumb" android:layout_width="88.0dp" android:layout_height="88.0dp" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

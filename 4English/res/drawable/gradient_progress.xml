@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="8.0dp" />
+            <solid android:color="@color/color_track_bar_podcast" />
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="5.0dp" />
+                <solid android:color="@color/color_track_bar_podcast" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress" android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp">
+        <scale android:scaleWidth="100%">
+            <shape>
+                <corners android:radius="8.0dp" />
+                <gradient android:startColor="#3372f4" android:endColor="#75b5f5" android:angle="360.0" android:centerColor="#4584f4" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

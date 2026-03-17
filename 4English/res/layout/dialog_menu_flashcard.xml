@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:paddingLeft="20.0dp" android:paddingTop="20.0dp" android:paddingRight="20.0dp" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_gravity="center" android:id="@id/search" android:background="@drawable/selector_btn_white_radius" android:layout_width="match_parent" android:layout_height="40.0dp" android:text="@string/search_from_news" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_gravity="center" android:id="@id/report" android:background="@drawable/selector_btn_white_radius" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="10.0dp" android:text="@string/menu_report_error" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_gravity="center" android:id="@id/edit" android:background="@drawable/selector_btn_white_radius" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="10.0dp" android:text="@string/edit" />
+</LinearLayout>

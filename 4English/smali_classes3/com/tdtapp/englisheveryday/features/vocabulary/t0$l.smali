@@ -1,0 +1,97 @@
+.class Lcom/tdtapp/englisheveryday/features/vocabulary/t0$l;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tdtapp/englisheveryday/features/vocabulary/t0;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic m:Lcom/tdtapp/englisheveryday/features/vocabulary/t0;
+
+
+# direct methods
+.method constructor <init>(Lcom/tdtapp/englisheveryday/features/vocabulary/t0;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/tdtapp/englisheveryday/features/vocabulary/t0$l;->m:Lcom/tdtapp/englisheveryday/features/vocabulary/t0;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 2
+
+    iget-object p1, p0, Lcom/tdtapp/englisheveryday/features/vocabulary/t0$l;->m:Lcom/tdtapp/englisheveryday/features/vocabulary/t0;
+
+    invoke-static {p1}, Lcom/tdtapp/englisheveryday/features/vocabulary/t0;->A2(Lcom/tdtapp/englisheveryday/features/vocabulary/t0;)Landroidx/recyclerview/widget/RecyclerView;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_2
+
+    iget-object p1, p0, Lcom/tdtapp/englisheveryday/features/vocabulary/t0$l;->m:Lcom/tdtapp/englisheveryday/features/vocabulary/t0;
+
+    invoke-static {p1}, Lcom/tdtapp/englisheveryday/features/vocabulary/t0;->B2(Lcom/tdtapp/englisheveryday/features/vocabulary/t0;)Landroidx/recyclerview/widget/LinearLayoutManager;
+
+    move-result-object p1
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    :cond_0
+    iget-object p1, p0, Lcom/tdtapp/englisheveryday/features/vocabulary/t0$l;->m:Lcom/tdtapp/englisheveryday/features/vocabulary/t0;
+
+    invoke-static {p1}, Lcom/tdtapp/englisheveryday/features/vocabulary/t0;->C2(Lcom/tdtapp/englisheveryday/features/vocabulary/t0;)Landroidx/recyclerview/widget/LinearLayoutManager;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/LinearLayoutManager;->q2()I
+
+    move-result p1
+
+    const/16 v0, 0x14
+
+    const/4 v1, 0x0
+
+    if-lt p1, v0, :cond_1
+
+    iget-object p1, p0, Lcom/tdtapp/englisheveryday/features/vocabulary/t0$l;->m:Lcom/tdtapp/englisheveryday/features/vocabulary/t0;
+
+    invoke-static {p1}, Lcom/tdtapp/englisheveryday/features/vocabulary/t0;->D2(Lcom/tdtapp/englisheveryday/features/vocabulary/t0;)Landroidx/recyclerview/widget/RecyclerView;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->y1(I)V
+
+    goto :goto_0
+
+    :cond_1
+    iget-object p1, p0, Lcom/tdtapp/englisheveryday/features/vocabulary/t0$l;->m:Lcom/tdtapp/englisheveryday/features/vocabulary/t0;
+
+    invoke-static {p1}, Lcom/tdtapp/englisheveryday/features/vocabulary/t0;->E2(Lcom/tdtapp/englisheveryday/features/vocabulary/t0;)Landroidx/recyclerview/widget/RecyclerView;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->H1(I)V
+
+    :cond_2
+    :goto_0
+    return-void
+.end method

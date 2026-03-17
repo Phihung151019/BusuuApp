@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/content" android:background="?selectableItemBackground" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/bg_cirlce_avatar_teacher" android:layout_width="65.0dp" android:layout_height="65.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_contribute_svg" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="13.0dp" android:layout_weight="1.0" android:layout_marginStart="13.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:id="@id/name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Đóng góp" app:autoSizeMaxTextSize="16.0sp" app:autoSizeTextType="uniform" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:ellipsize="end" android:id="@id/desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="Bạn có thể liên hệ với chúng tôi để đóng góp bộ từ vựng (Dành cho thầy cô hoặc trung tâm)" />
+    </LinearLayout>
+</LinearLayout>

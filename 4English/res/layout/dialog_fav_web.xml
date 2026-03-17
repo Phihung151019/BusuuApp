@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:layout_gravity="left" android:id="@id/msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:text="@string/web_title" />
+    <EditText android:textSize="14.0sp" android:gravity="top" android:id="@id/title" android:background="@drawable/bg_rectangle_border" android:paddingLeft="13.0dp" android:paddingTop="10.0dp" android:paddingRight="13.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="80.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="5.0dp" android:text="URL" />
+    <EditText android:textSize="14.0sp" android:gravity="top" android:id="@id/url" android:background="@drawable/bg_rectangle_border" android:padding="5.0dp" android:paddingLeft="13.0dp" android:paddingTop="10.0dp" android:paddingRight="13.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="80.0dp" />
+</LinearLayout>

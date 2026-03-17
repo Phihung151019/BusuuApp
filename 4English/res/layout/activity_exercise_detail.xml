@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container_all" android:background="@color/bgWhiteColor" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tdtapp.englisheveryday.view.slidinguppanel.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_layout" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent" app:umanoDragView="@id/slider" app:umanoOverlay="true" app:umanoPanelHeight="0.0dp" app:umanoParallaxOffset="0.0dp" app:umanoScrollableView="@id/frame_lookup" app:umanoShadowHeight="0.0dp">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_blue_dark" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp">
+                    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_blue_dark" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextColor="@color/textWhiteColor">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <androidx.appcompat.widget.AppCompatImageView android:id="@id/back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" app:srcCompat="@drawable/ic_back_svg" app:tint="@color/white" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_actionbar" android:textColor="@color/textWhiteColor" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="match_parent" />
+                            <View android:id="@id/tmp" android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+                        </LinearLayout>
+                    </androidx.appcompat.widget.Toolbar>
+                </com.google.android.material.appbar.AppBarLayout>
+                <RelativeLayout android:background="@color/bg_blue_dark" android:paddingLeft="@dimen/margin_safe_base" android:paddingTop="10.0dp" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/view_learn_mode" android:background="@drawable/bg_rectangle_white_radius_10" android:layout_width="match_parent" android:layout_height="45.0dp">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center_vertical" android:id="@id/txt_learn_mode" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginLeft="16.0dp" android:layout_weight="1.0" />
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:padding="13.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginRight="10.0dp" app:srcCompat="@drawable/ic_more_down_svg" app:tint="#707070" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                    <FrameLayout android:id="@id/content_layout" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <FrameLayout android:id="@id/content_fragment" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    </FrameLayout>
+                </com.tdtapp.englisheveryday.layout.ContentFrame>
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/layout_slide_dict" />
+    </com.tdtapp.englisheveryday.view.slidinguppanel.SlidingUpPanelLayout>
+</FrameLayout>

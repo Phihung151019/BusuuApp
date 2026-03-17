@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/container" android:tag="layout/item_kol_review_0" android:paddingLeft="@dimen/margin_safe_base_for_list_hori" android:paddingRight="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/bg_white" app:cardCornerRadius="15.0dp" app:cardElevation="0.0dp" app:cardUseCompatPadding="false" app:contentPadding="0.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/thumb" android:background="?selectableItemBackground" android:layout_width="113.0dp" android:layout_height="200.0dp" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentTop="true" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play" android:layout_centerHorizontal="true" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

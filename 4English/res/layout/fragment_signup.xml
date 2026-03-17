@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:srcCompat="@drawable/bg_login" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/bg_signup" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.5" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="32.0sp" android:textColor="@color/color_text_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4English" fontPath="fonts/OpenSans-Bold.ttf" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/signup_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:text="@string/get_started_by_creating_your_account" />
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dp" android:layout_marginTop="40.0dp" android:layout_marginRight="60.0dp" app:cardBackgroundColor="@color/bg_btn_signup_white" app:cardCornerRadius="10.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_google" android:background="?selectableItemBackground" android:paddingLeft="13.0dp" android:paddingRight="13.0dp" android:layout_width="match_parent" android:layout_height="48.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_facebook_svg" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/signup_txt_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="@string/sign_up_with_google" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dp" android:layout_marginTop="13.0dp" android:layout_marginRight="60.0dp" app:cardBackgroundColor="@color/bg_btn_signup_white" app:cardCornerRadius="10.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_facebook" android:background="?selectableItemBackground" android:paddingLeft="13.0dp" android:paddingRight="13.0dp" android:layout_width="match_parent" android:layout_height="48.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_facebook_svg" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/signup_txt_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="@string/sign_up_with_facebook" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dp" android:layout_marginTop="13.0dp" android:layout_marginRight="60.0dp" app:cardBackgroundColor="@color/bg_btn_signup_white" app:cardCornerRadius="10.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_email" android:background="?selectableItemBackground" android:paddingLeft="13.0dp" android:paddingRight="13.0dp" android:layout_width="match_parent" android:layout_height="48.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_mail_svg" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/signup_txt_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="@string/sign_up_with_email" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dp" android:layout_marginTop="13.0dp" android:layout_marginRight="60.0dp" app:cardBackgroundColor="@color/bg_btn_signup_white" app:cardCornerRadius="10.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_apple" android:background="?selectableItemBackground" android:paddingLeft="13.0dp" android:paddingRight="13.0dp" android:layout_width="match_parent" android:layout_height="48.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_mail_svg" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/signup_txt_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="@string/sign_up_with_apple" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/btn_signin" android:background="?selectableItemBackground" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/signup_text_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/already_have_an_account" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:id="@id/txt_signin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:text="@string/sign_in" />
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/signup_text_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/by_creating_an_account_i_accept_4english_s" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:id="@id/btn_term" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp" android:text="@string/terms_of_service" />
+    </LinearLayout>
+</RelativeLayout>

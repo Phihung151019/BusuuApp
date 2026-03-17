@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Input_otp">OTP दर्ज करें</string>
+    <string name="OK">ठीक है</string>
+    <string name="a1_info">A1 - शुरुआती</string>
+    <string name="a2_info">A2 - प्राथमिक</string>
+    <string name="abc_action_bar_home_description">होम पेज पर जाएं</string>
+    <string name="abc_action_bar_up_description">वापस जाएं</string>
+    <string name="abc_action_menu_overflow_description">ज़्यादा विकल्प</string>
+    <string name="abc_action_mode_done">हो गया</string>
+    <string name="abc_activity_chooser_view_see_all">सभी देखें</string>
+    <string name="abc_activitychooserview_choose_application">कोई ऐप्लिकेशन चुनें</string>
+    <string name="abc_capital_off">बंद</string>
+    <string name="abc_capital_on">चालू</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">खोजें…</string>
+    <string name="abc_searchview_description_clear">क्‍वेरी हटाएं</string>
+    <string name="abc_searchview_description_query">सर्च क्वेरी</string>
+    <string name="abc_searchview_description_search">खोजें</string>
+    <string name="abc_searchview_description_submit">क्वेरी सबमिट करें</string>
+    <string name="abc_searchview_description_voice">बोलकर खोजें</string>
+    <string name="abc_shareactionprovider_share_with">इससे शेयर करें:</string>
+    <string name="abc_shareactionprovider_share_with_application">%s से शेयर करें</string>
+    <string name="abc_toolbar_collapse_description">छोटा करें</string>
+    <string name="account">खाता</string>
+    <string name="account_already_exists_with_this_email">इस ईमेल से पहले से ही एक खाता मौजूद है</string>
+    <string name="account_instruction">कैसे उपयोग करें</string>
+    <string name="account_not_exist">खाता मौजूद नहीं है</string>
+    <string name="action_install_app">इंस्टॉल करें</string>
+    <string name="action_open_fb">फेसबुक खोलें</string>
+    <string name="action_open_web">वेब खोलें</string>
+    <string name="action_update_app">ऐप अपडेट करें</string>
+    <string name="add_new">नया</string>
+    <string name="add_new_dictionary">नया शब्दकोश जोड़ें</string>
+    <string name="added_favorite">पसंदीदा में जोड़ा गया!</string>
+    <string name="ads_free">कोई विज्ञापन नहीं।</string>
+    <string name="after_2_day">2 दिन बाद</string>
+    <string name="after_2_hours">2 घंटे बाद</string>
+    <string name="after_3_day">3 दिन बाद</string>
+    <string name="after_5_day">5 दिन बाद</string>
+    <string name="after_8_day">8 दिनों के बाद</string>
+    <string name="after_one_day">1 दिन बाद</string>
+    <string name="after_x_day">%d दिनों के बाद</string>
+    <string name="all">सभी</string>
+    <string name="all_blogs">सभी ब्लॉग</string>
+    <string name="all_exercises">सभी अभ्यास</string>
+    <string name="already_4e">4English PRO तैयार है!</string>
+    <string name="already_have_account_bottom">क्या आपके पास पहले से खाता है? लॉग इन करें</string>
+    <string name="already_have_an_account">क्या आपका पहले से ही एक खाता है?</string>
+    <string name="amount">राशि</string>
+    <string name="amount_number">खाता संख्या</string>
+    <string name="and">और</string>
+    <string name="andada">अंदादा</string>
+    <string name="andada_font">fonts/andada/Andada-Regular.otf</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">पासवर्ड</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">पासकी</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_intro_back_button">पीछे</string>
+    <string name="app_intro_done_button">संपन्न</string>
+    <string name="app_intro_image_content_description">ग्राफ़िक्स</string>
+    <string name="app_intro_next_button">आगे</string>
+    <string name="app_intro_skip_button">स्किप</string>
+    <string name="app_name">4अंग्रेज़ी</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="apply_code">लागू करें</string>
+    <string name="apply_code_success">कोड सफलतापूर्वक लागू किया गया!</string>
+    <string name="audio_mark_id">javascript:alert(audioMarkID(\"epub-media-overlay-playing\",\"%s\"))</string>
+    <string name="auto_register">सदस्यताएँ प्रत्येक अवधि के अंत में स्वतः नवीनीकृत हो जाती हैं; अपने स्टोर खाते के माध्यम से अपनी सदस्यता प्रबंधित करें।</string>
+    <string name="avatar_format">v1/users/%s/avatar</string>
+    <string name="ayp_custom_action_left">यूट्यूब प्लेयर कस्टम एक्शन बाएँ</string>
+    <string name="ayp_custom_action_right">यूट्यूब प्लेयर कस्टम एक्शन राइट</string>
+    <string name="ayp_full_screen_button">पूर्ण स्क्रीन बटन</string>
+    <string name="ayp_live">लाइव</string>
+    <string name="ayp_null_time">0:00</string>
+    <string name="ayp_open_video_in_youtube">यूट्यूब में वीडियो खोलें</string>
+    <string name="ayp_play_button">प्ले बटन</string>
+    <string name="b1_info">B1 - निम्न मध्यवर्ती</string>
+    <string name="b2_info">B2 - अपर इंटरमीडिएट</string>
+    <string name="back_to_review">समीक्षा पर वापस जाएं</string>
+    <string name="bank_name">बैंक</string>
+    <string name="bank_owner">खाता धारक</string>
+    <string name="bb_l1">शुरुआती कदम</string>
+    <string name="bb_l2">कोई बहुवचन नहीं!</string>
+    <string name="bb_l3">तेज़</string>
+    <string name="bb_l4">उच्च अंक</string>
+    <string name="bb_l5">ट्रम्प द टाइमलेस ट्रेजर</string>
+    <string name="bb_l6">निरंतर नहीं</string>
+    <string name="bb_level0">बुनियादी</string>
+    <string name="begin_download">डाउनलोड हो रहा है…</string>
+    <string name="best_choice">सर्वश्रेष्ठ विकल्प</string>
+    <string name="black_rgb">\#000000</string>
+    <string name="blue_rgb">\#0000ff</string>
+    <string name="book">किताबें</string>
+    <string name="book_detail">विवरण</string>
+    <string name="book_store">बुक स्टोर</string>
+    <string name="bookmark_empty">आपकी पसंदीदा खाली है!</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_collapse">बॉटम शीट को छोटा करें</string>
+    <string name="bottomsheet_action_expand">बॉटम शीट को बड़ा करें</string>
+    <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="bottomsheet_drag_handle_clicked">खींचकर छोड़ने वाले हैंडल पर दो बार टैप किया गया</string>
+    <string name="bottomsheet_drag_handle_content_description">खींचकर छोड़ने वाला हैंडल</string>
+    <string name="btn_add_fav">पसंदीदा में जोड़ें</string>
+    <string name="btn_add_friend_folder">अपने दोस्त के शब्दावली पैक जोड़ें</string>
+    <string name="btn_add_level">+ स्तर</string>
+    <string name="btn_add_type">+ टाइप करें</string>
+    <string name="btn_buy_pro">प्रो अपडेट करें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_challenge">आमंत्रित करें</string>
+    <string name="btn_chat">टीम के साथ चैट करें</string>
+    <string name="btn_chat_with_page">पेज के साथ चैट करें</string>
+    <string name="btn_check">जांचें</string>
+    <string name="btn_close_app">4English बंद करें</string>
+    <string name="btn_close_learn">बंद करें</string>
+    <string name="btn_confirm_exit_game">हाँ</string>
+    <string name="btn_continue">जारी रखें</string>
+    <string name="btn_copy_id">आईडी कॉपी करें</string>
+    <string name="btn_decline_invite">अस्वीकार करें</string>
+    <string name="btn_dialog_view">देखें</string>
+    <string name="btn_done">हो गया</string>
+    <string name="btn_dont_know">पता नहीं</string>
+    <string name="btn_download">डाउनलोड करें</string>
+    <string name="btn_edit_img">कोई अन्य फ़ोटो चुनें</string>
+    <string name="btn_edit_remind_time">इस शब्द को बाद में याद दिलाएं?</string>
+    <string name="btn_enable_notif">चालू करें</string>
+    <string name="btn_find_your_document">अपना दस्तावेज़ खोजें</string>
+    <string name="btn_gen_link">फ़ाइल लिंक बनाएँ</string>
+    <string name="btn_gen_link_again">फ़ाइल लिंक फिर से बनाएँ</string>
+    <string name="btn_get_img">आपकी छवि</string>
+    <string name="btn_got_it">समझ गया</string>
+    <string name="btn_hide_video">छिपाएं</string>
+    <string name="btn_how_to_learn">कैसे सीखें</string>
+    <string name="btn_input_game_code">कोड</string>
+    <string name="btn_known_word">पहले से जानता था</string>
+    <string name="btn_learn">यह शब्द सीखें</string>
+    <string name="btn_learn_hint">संकेत</string>
+    <string name="btn_learn_new_word">नए शब्द सीखें</string>
+    <string name="btn_learn_next">अगला</string>
+    <string name="btn_let_play">शुरू करें</string>
+    <string name="btn_login">लॉग इन करें</string>
+    <string name="btn_more">और</string>
+    <string name="btn_msg_for_page">संदेश भेजें</string>
+    <string name="btn_multichoice">बहुविकल्पीय</string>
+    <string name="btn_never_remind_again">फिर कभी याद न दिलाएं</string>
+    <string name="btn_not_gen">नहीं बनाया गया</string>
+    <string name="btn_open">यूट्यूब खोलें</string>
+    <string name="btn_open_group_facebook">ग्रुप फेसबुक खोलें</string>
+    <string name="btn_open_youtube">यूट्यूब खोलें</string>
+    <string name="btn_pratice">अगला राउंड शुरू करें</string>
+    <string name="btn_quiz_false">गलत</string>
+    <string name="btn_quiz_true">सही</string>
+    <string name="btn_remove_ad">विज्ञापन हटाएं</string>
+    <string name="btn_replay_game">फिर से खेलें</string>
+    <string name="btn_report_word_flashcard">यह शब्द गलत है? त्रुटि की रिपोर्ट करें</string>
+    <string name="btn_repratice">पढ़ते रहें</string>
+    <string name="btn_restore_default">डिफ़ॉल्ट पर रीसेट करें</string>
+    <string name="btn_retry">पुनः प्रयास करें</string>
+    <string name="btn_review_now">अभी समीक्षा करें</string>
+    <string name="btn_save_word">सहेजें</string>
+    <string name="btn_search_more_dict">खोजें</string>
+    <string name="btn_see_less_tv">कम दिखाएं</string>
+    <string name="btn_see_more">और देखें</string>
+    <string name="btn_show_video">दिखाएँ</string>
+    <string name="btn_skip">छोड़ें</string>
+    <string name="btn_skip_img">फोटो के बिना सहेजें</string>
+    <string name="btn_skip_multi">अधिक शब्द छोड़ें</string>
+    <string name="btn_sort_by_alpha">वर्णानुक्रम में</string>
+    <string name="btn_sort_by_time">निर्माण समय के अनुसार</string>
+    <string name="btn_sort_dict">शब्दकोशों को क्रमबद्ध करें</string>
+    <string name="btn_update">अपडेट करें</string>
+    <string name="btn_use_voucher">उपयोग</string>
+    <string name="btn_voucher_later">बाद में</string>
+    <string name="btn_xem_pro">प्रो देखें</string>
+    <string name="by_creating_an_account_i_accept_4english_s">एक खाता बनाकर, मैं 4English की स्वीकार करता हूँ</string>
+    <string name="c1_info">C1 - उन्नत</string>
+    <string name="c2_info">C2 - प्रवाह</string>
+    <string name="callClearSelection">javascript:clearSelection()</string>
+    <string name="callComputeLastReadCfi">javascript:computeLastReadCfi()</string>
+    <string name="callHighlightSearchLocator">javascript:highlightSearchLocator(\"%s\")</string>
+    <string name="callScrollToCfi">javascript:scrollToCfi(\"%s\")</string>
+    <string name="call_notification_answer_action">जवाब दें</string>
+    <string name="call_notification_answer_video_action">वीडियो</string>
+    <string name="call_notification_decline_action">अस्वीकार करें</string>
+    <string name="call_notification_hang_up_action">कॉल काटें</string>
+    <string name="call_notification_incoming_text">आने वाला (इनकमिंग) कॉल</string>
+    <string name="call_notification_ongoing_text">पहले से जारी कॉल</string>
+    <string name="call_notification_screening_text">इनकमिंग कॉल को स्क्रीन किया जा रहा है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="cannot_access_epub_message">ईपब नहीं खोल सकता, इसके लिए स्टोरेज एक्सेस की आवश्यकता है!</string>
+    <string name="cannot_find_link">डेटा नहीं मिला!</string>
+    <string name="cant_listen_now">अभी सुन नहीं सकते</string>
+    <string name="card_content_descriptor">कार्ड</string>
+    <string name="card_flip_all">कार्ड पलटें</string>
+    <string name="card_shuffle">शफ़ल</string>
+    <string name="categories">विषय</string>
+    <string name="category">"श्रेणी: "</string>
+    <string name="change">बदलाव</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="channel">चैनल</string>
+    <string name="channel_setting">चैनल सेटिंग्स</string>
+    <string name="character_counter_content_description">%2$d वर्णों में से %1$d वर्ण दर्ज किए गए</string>
+    <string name="character_counter_overflowed_content_description">अभी %1$d वर्ण हैं जबकि %2$d से ज़्यादा नहीं होने चाहिए</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="chat_with_us_if_you_have_trouble_with_payment">समस्याएं हो रही हैं? हमें संदेश भेजें!</string>
+    <string name="chat_with_us_if_you_have_trouble_with_payment_vn">Nhắn tin với Page để được hỗ trợ</string>
+    <string name="choose_exercise_level">व्यायाम स्तर चुनें</string>
+    <string name="choose_new_words_randomly">नए शब्द बेतरतीब ढंग से चुनें</string>
+    <string name="choose_payment_method">भुगतान विधि चुनें</string>
+    <string name="choose_your_level">अपना स्तर चुनें</string>
+    <string name="clear_text_end_icon_content_description">टेक्स्ट मिटाएं</string>
+    <string name="click_again_to_exit">ऐप से बाहर निकलने के लिए फिर से क्लिक करें</string>
+    <string name="click_to_large_qr">बड़ा करने के लिए क्यूआर कोड पर टैप करें</string>
+    <string name="click_to_quit">यदि आप छोड़ना चाहते हैं तो यहां टैप करें</string>
+    <string name="code_5_msg">ऐसा लगता है कि आपके फोन में समय वर्तमान समय के अनुसार सही नहीं है। कृपया इसे सही ढंग से सेट करें!</string>
+    <string name="code_id">आपका आईडी</string>
+    <string name="code_invalid">अमान्य या समाप्त कोड</string>
+    <string name="col_time_review">समीक्षा का समय</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id">de2da0e4e0f245e4bfc3d5dc2342e68f</string>
+    <string name="com.google.firebase.crashlytics.version_control_info">"repositories {
+  system: GIT
+  local_root_path: \"$PROJECT_DIR\"
+  revision: \"a66d4eef3eb638707f48b1d3af426cfccca86783\"
+}
+"</string>
+    <string name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b> पर जाएँ और ऊपर दिया गया कोड डालें.</string>
+    <string name="com_facebook_image_download_unknown_error">चित्र डाउनलोड करते समय अनपेक्षित त्रुटि हुई.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView लॉग इन के लिए इंटरनेट अनुमति आवश्यक है</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest गलती</string>
+    <string name="com_facebook_like_button_liked">पसंद किया</string>
+    <string name="com_facebook_like_button_not_liked">लाइक करें</string>
+    <string name="com_facebook_loading">लोड हो रहा है...</string>
+    <string name="com_facebook_loginview_cancel_action">कैंसल करें</string>
+    <string name="com_facebook_loginview_log_in_button">लॉग इन</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Facebook के साथ जारी रखें</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebook से लॉग इन करें</string>
+    <string name="com_facebook_loginview_log_out_action">लॉग आउट करें</string>
+    <string name="com_facebook_loginview_log_out_button">लॉग आउट करें</string>
+    <string name="com_facebook_loginview_logged_in_as">इस रूप में लॉग इन हैं: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebook का उपयोग करके लॉग इन किया है</string>
+    <string name="com_facebook_send_button_text">भेजें</string>
+    <string name="com_facebook_share_button_text">शेयर करें</string>
+    <string name="com_facebook_smart_device_instructions">अपने खाते से कनेक्ट करने के लिए, अपने मोबाइल डिवाइस पर Facebook एप्लिकेशन खोलें और सूचनाएँ जाँचें.</string>
+    <string name="com_facebook_smart_device_instructions_or">- या -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">आप नहीं हैं?</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">%1$s के रूप में जारी रखें</string>
+    <string name="com_facebook_smart_login_confirmation_title">लॉग इन कन्फ़र्म करें</string>
+    <string name="com_facebook_tooltip_default">नियंत्रण आपके पास है - चुनें कि आप एप्लिकेशन के साथ कौन सी जानकारी साझा करना चाहते हैं.</string>
+    <string name="comment_user">उपयोगकर्ता समीक्षाएं</string>
+    <string name="common_google_play_services_enable_button">चालू करें</string>
+    <string name="common_google_play_services_enable_text">जब तक आप Google Play सेवाएं चालू नहीं करते, %1$s काम नहीं करेगा.</string>
+    <string name="common_google_play_services_enable_title">Google Play सेवाएं चालू करें</string>
+    <string name="common_google_play_services_install_button">इंस्टॉल करें</string>
+    <string name="common_google_play_services_install_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं.</string>
+    <string name="common_google_play_services_install_title">Google Play सेवाएं इंस्टॉल करें</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play सेवाएं उपलब्ध हैं</string>
+    <string name="common_google_play_services_notification_ticker">Google Play सेवाओं से जुड़ी गड़बड़ी</string>
+    <string name="common_google_play_services_unknown_issue">%1$s को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से कोशिश करें.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस पर काम नहीं करती हैं.</string>
+    <string name="common_google_play_services_update_button">अपडेट करें</string>
+    <string name="common_google_play_services_update_text">%1$s तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते.</string>
+    <string name="common_google_play_services_update_title">Google Play सेवाओं को अपडेट करें</string>
+    <string name="common_google_play_services_updating_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो अभी अपडेट हो रही हैं.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play सेवाओं के नए वर्शन की ज़रूरत है. यह जल्द ही अपने आप अपडेट हो जाएगा.</string>
+    <string name="common_open_on_phone">फ़ोन पर खोलें</string>
+    <string name="common_signin_button_text">साइन इन करें</string>
+    <string name="common_signin_button_text_long">Google के ज़रिए साइन इन करें</string>
+    <string name="comunity_say_4e">4English के बारे में समुदाय क्या कहता है</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="confirm_delete_account">सभी डेटा साफ़ कर दिया जाएगा (सहेजे गए शब्द, खाता प्रो…), आप इसे पुनर्स्थापित नहीं कर सकते।</string>
+    <string name="confirm_logout">क्या आप निश्चित रूप से लॉग आउट करना चाहते हैं?</string>
+    <string name="connect_account">खाता कनेक्ट करें</string>
+    <string name="contact_support">सहायता से संपर्क करें</string>
+    <string name="content_level_definition">4English स्मृति स्तरों को 6 स्तरों में विभाजित करता है, स्तर 1 से गहन स्मृति तक। अपने स्मृति स्तरों को बेहतर बनाने के लिए, आपको प्रत्येक अंतराल के बाद शब्द को फिर से सीखना और याद रखना होगा जैसा कि नीचे दी गई तालिका में दिखाया गया है। चिंता न करें, 4English आपको याद दिलाएगा कि फिर से सीखने का समय कब है।</string>
+    <string name="content_sp_denfition">"अंतरालित पुनरावृत्ति अनुसंधान का आधार हरमन एबिंगहॉस द्वारा रखा गया था, जिन्होंने सुझाव दिया कि समय के साथ जानकारी का नुकसान एक भूलने की अवस्था का अनुसरण करता है, लेकिन यह कि सक्रिय स्मरण के आधार पर पुनरावृत्ति के साथ भूलने को रीसेट किया जा सकता है।
+अंतरालित पुनरावृत्ति एक विधि है जहां विषय को हर बार तथ्य प्रस्तुत या कहे जाने पर बढ़ते समय अंतराल के साथ एक निश्चित तथ्य को याद करने के लिए कहा जाता है। यदि विषय जानकारी को सही ढंग से याद करने में सक्षम है तो समय को दोगुना कर दिया जाता है ताकि उन्हें भविष्य में याद करने के लिए जानकारी को अपने दिमाग में ताज़ा रखने में मदद मिल सके (*)"</string>
+    <string name="content_tranfer">सामग्री स्थानांतरित करें</string>
+    <string name="contents">सामग्री</string>
+    <string name="copied_to_clipboard">क्लिपबोर्ड पर कॉपी किया गया</string>
+    <string name="copy">कॉपी</string>
+    <string name="copy_id">आईडी कॉपी करें</string>
+    <string name="copy_toast_msg">लिंक क्लिपबोर्ड पर कॉपी किया गया</string>
+    <string name="correct">सही!</string>
+    <string name="correct_answer">सही उत्तर</string>
+    <string name="correct_quiz">सही!</string>
+    <string name="correct_words">सही शब्द(%d)</string>
+    <string name="create_acount_to_continue">जारी रखने के लिए एक खाता बनाएं</string>
+    <string name="create_new_folder">नया पैक</string>
+    <string name="create_qr_again">नया कोड जनरेट करें</string>
+    <string name="created_time">इस पर बनाया गया:</string>
+    <string name="css_tag">&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"%s\" /></string>
+    <string name="current_password">वर्तमान पासवर्ड</string>
+    <string name="customer_support">फेसबुक पेज</string>
+    <string name="decs_download_notif">शब्दकोश डाउनलोड करें</string>
+    <string name="deep_memory">कम अध्ययन करें - अधिक याद रखें</string>
+    <string name="default_web_client_id">242262472149-kfqtf5v07pqq4cfghc6dqtl43dst3nij.apps.googleusercontent.com</string>
+    <string name="define">खोज वाक्यांश</string>
+    <string name="delete">हटाना</string>
+    <string name="delete_account">खाता हटाएं</string>
+    <string name="delete_data_av">ऑफ़लाइन अंग्रेजी - वियतनामी शब्दकोश उपलब्ध है</string>
+    <string name="delete_done">सफलतापूर्वक हटा दिया गया</string>
+    <string name="delete_ox_data">अंग्रेजी शब्दकोश डाउनलोड किया गया</string>
+    <string name="desc_reading_bilingual">उच्च-गुणवत्ता वाले अनुवादों के साथ पढ़ने की समझ में सुधार करें</string>
+    <string name="desc_reading_books">क्लासिक विदेशी साहित्य की लाइब्रेरी की खोज करें</string>
+    <string name="desc_reading_news">दैनिक समाचारों के माध्यम से अपनी शब्दावली का विस्तार करें</string>
+    <string name="desc_trans_paragraph">अनुच्छेद का अनुवाद करें</string>
+    <string name="description">विवरण</string>
+    <string name="dialog_confirm_btn_skip">सहमत</string>
+    <string name="dialog_confirm_msg_skip">यह शब्द आपके समीक्षित शब्दों की सूची में दिखाई नहीं देगा।</string>
+    <string name="dialog_confirm_title_skip">इस शब्द को छोड़ें?</string>
+    <string name="dialog_feedback_btn_cancel">अभी तक प्रतिक्रिया नहीं</string>
+    <string name="dialog_feedback_send">भेजें</string>
+    <string name="dialog_msg_help_video">सुनें और खाली जगह भरने के लिए सही शब्द चुनें</string>
+    <string name="dialog_msg_share_fb">यदि आपको यह ऐप उपयोगी लगे, तो क्या आप कृपया इसे अपने दोस्तों के साथ साझा करने के लिए कुछ सेकंड ले सकते हैं?</string>
+    <string name="dialog_permission_message">इस सुविधा का उपयोग करने के लिए इस ऐप को अनुमति की आवश्यकता है। आप ऐप सेटिंग्स में उन्हें दे सकते हैं।</string>
+    <string name="dialog_permission_title">अनुमतियाँ दें</string>
+    <string name="dialog_share_fb_btn_ok">ज़रूर, क्यों नहीं?</string>
+    <string name="dialog_share_fb_no">नहीं</string>
+    <string name="dialog_title_help_video">सहायता</string>
+    <string name="dialog_title_share_fb">फेसबुक शेयर करें</string>
+    <string name="dict_powered_by_chat_gpt">चैट जीपीटी द्वारा संचालित</string>
+    <string name="dict_powered_by_google">Google द्वारा संचालित</string>
+    <string name="dictionary">शब्दकोश</string>
+    <string name="difficulty_level">कठिनाई स्तर</string>
+    <string name="direction_horizontal">क्षैतिज</string>
+    <string name="direction_vertical">ऊर्ध्वाधर</string>
+    <string name="disable_auto_show_when_copy">कॉपी करते समय ऑटो शो अक्षम करें</string>
+    <string name="discount">छूट</string>
+    <string name="display_language">प्रदर्शन भाषा</string>
+    <string name="dl_fail">ऑडियो डाउनलोड विफल!</string>
+    <string name="dl_success">ऑफ़लाइन उपलब्ध!</string>
+    <string name="do_not_connection_url">`%s` से कनेक्ट नहीं हो सकता, कृपया अपना कनेक्शन जांचें</string>
+    <string name="don_t_have_an_account">खाता नहीं है?</string>
+    <string name="dont_ask_again">फिर कभी न पूछें</string>
+    <string name="dont_have_account_bottom">"खाता नहीं है? 
+&lt;b>साइन अप करें&lt;/b>"</string>
+    <string name="dont_need_learn_this_word">यह शब्द न सीखें?</string>
+    <string name="download_av">Anh - Việt ऑफ़लाइन डाउनलोड करें</string>
+    <string name="download_av_for_offline">ऑफ़लाइन के लिए अंग्रेजी - वियतनामी शब्दकोश डाउनलोड करें</string>
+    <string name="download_av_no_percent">Tải Anh - Việt</string>
+    <string name="download_av_percent">डाउनलोड हो रहा है अन्ह - वियत (%s)</string>
+    <string name="download_en_dict_for_offline">अंग्रेजी शब्दकोश ऑफ़लाइन प्राप्त करें</string>
+    <string name="download_folder">फ़ाइल स्थान:</string>
+    <string name="download_ox_no_percent">अंग्रेजी शब्दकोश डाउनलोड हो रहा है</string>
+    <string name="download_ox_percent">अंग्रेजी शब्दकोश डाउनलोड हो रहा है(%s)</string>
+    <string name="download_qr">क्यूआर कोड डाउनलोड करें</string>
+    <string name="download_this_pack">यह पैक डाउनलोड करें</string>
+    <string name="download_to_see_all_of_the_vocabulary">सभी शब्दावली देखने के लिए डाउनलोड करें</string>
+    <string name="download_vocab">शब्दावली पैक</string>
+    <string name="downloaded_books">डाउनलोड की गई पुस्तकें</string>
+    <string name="downloading">डाउनलोड हो रहा है</string>
+    <string name="downloading_av">अन्ह - वियत डाउनलोड हो रहा है…</string>
+    <string name="downloading_ox">अंग्रेजी शब्दकोश डाउनलोड हो रहा है…</string>
+    <string name="drag_to_move">"- अनुवाद स्क्रीन को स्थानांतरित करने के लिए दबाकर रखें।
+
+- द्विभाषी अनुभाग में सामग्री अनुवादक द्वारा अनुवादित है।
+
+- अन्य अनुभागों का अनुवाद Google द्वारा किया गया है।"</string>
+    <string name="drag_to_move_not_vietnamese">"- इस बॉक्स को ऊपर या नीचे ले जाने के लिए टाइटल बार को खींचें।
+
+- गूगल ट्रांसलेट द्वारा अनुवादित।"</string>
+    <string name="edit">संपादित करें</string>
+    <string name="edit_notes">अपना नोट सहेजें</string>
+    <string name="edit_profile">प्रोफ़ाइल संपादित करें</string>
+    <string name="edit_target">लक्ष्य संपादित करें</string>
+    <string name="editor_choice">द्विभाषी</string>
+    <string name="email">ईमेल</string>
+    <string name="email_invalid">अमान्य ईमेल</string>
+    <string name="email_or_pass_not_correct">अमान्य ईमेल या पासवर्ड</string>
+    <string name="enable_auto_show_when_copy">कॉपी करते समय ऑटो शो सक्षम करें</string>
+    <string name="enter_content">सामग्री दर्ज करें</string>
+    <string name="enter_folder_name">पैक का नाम दर्ज करें</string>
+    <string name="enter_word_to_translate">खोजें</string>
+    <string name="entertainment">मनोरंजन</string>
+    <string name="epub_pdf">ईपब</string>
+    <string name="error">त्रुटि</string>
+    <string name="error_a11y_label">गड़बड़ी: यह अमान्य है</string>
+    <string name="error_code_title">त्रुटि कोड: %d</string>
+    <string name="error_icon_content_description">गड़बड़ी</string>
+    <string name="error_no_connection">कोई इंटरनेट नहीं</string>
+    <string name="error_unknown">अज्ञात त्रुटि</string>
+    <string name="example_sentence">उदाहरण</string>
+    <string name="excerpt">सारांश</string>
+    <string name="exercise">अभ्यास</string>
+    <string name="exit">बाहर निकलें</string>
+    <string name="exo_controls_cc_disabled_description">सबटाइटल चालू करें</string>
+    <string name="exo_controls_cc_enabled_description">सबटाइटल बंद करें</string>
+    <string name="exo_controls_custom_playback_speed">%1$.2fx</string>
+    <string name="exo_controls_fastforward_description">तेज़ी से आगे बढ़ाएं</string>
+    <string name="exo_controls_fullscreen_enter_description">फ़ुलस्क्रीन मोड पर देखें</string>
+    <string name="exo_controls_fullscreen_exit_description">फ़ुलस्क्रीन मोड से बाहर निकलें</string>
+    <string name="exo_controls_hide">प्लेयर नियंत्रण छिपाएं</string>
+    <string name="exo_controls_next_description">अगला</string>
+    <string name="exo_controls_overflow_hide_description">अन्य सेटिंग छिपाएं</string>
+    <string name="exo_controls_overflow_show_description">अन्य सेटिंग दिखाएं</string>
+    <string name="exo_controls_pause_description">रोकें</string>
+    <string name="exo_controls_play_description">चलाएं</string>
+    <string name="exo_controls_playback_speed">रफ़्तार</string>
+    <string name="exo_controls_previous_description">पिछला</string>
+    <string name="exo_controls_repeat_all_description">मौजूदा मोड: सभी को दोहराएं. रिपीट मोड टॉगल करें.</string>
+    <string name="exo_controls_repeat_off_description">मौजूदा मोड: किसी को न दोहराएं. रिपीट मोड टॉगल करें.</string>
+    <string name="exo_controls_repeat_one_description">मौजूदा मोड: एक को दोहराएं. रिपीट मोड टॉगल करें.</string>
+    <string name="exo_controls_rewind_description">पीछे ले जाएं</string>
+    <string name="exo_controls_seek_bar_description">वीडियो चलने की प्रगति</string>
+    <string name="exo_controls_settings_description">सेटिंग</string>
+    <string name="exo_controls_show">प्लेयर नियंत्रण दिखाएं</string>
+    <string name="exo_controls_shuffle_off_description">शफ़ल मोड चालू करें</string>
+    <string name="exo_controls_shuffle_on_description">शफ़ल मोड बंद करें</string>
+    <string name="exo_controls_stop_description">बंद करें</string>
+    <string name="exo_controls_time_placeholder">00:00:00</string>
+    <string name="exo_controls_vr_description">VR मोड</string>
+    <string name="exo_download_completed">डाउनलोड पूरा हुआ</string>
+    <string name="exo_download_description">डाउनलोड करें</string>
+    <string name="exo_download_downloading">डाउनलोड हो रहा है</string>
+    <string name="exo_download_failed">डाउनलोड नहीं हो सका</string>
+    <string name="exo_download_notification_channel_name">डाउनलोड की गई मीडिया फ़ाइलें</string>
+    <string name="exo_download_paused">डाउनलोड रोका गया है</string>
+    <string name="exo_download_paused_for_network">डाउनलोड शुरू करने के लिए, इंटरनेट से कनेक्ट होने का इंतज़ार है</string>
+    <string name="exo_download_paused_for_wifi">डाउनलोड शुरू करने के लिए, वाई-फ़ाई से कनेक्ट होने का इंतज़ार है</string>
+    <string name="exo_download_removing">डाउनलोड की गई फ़ाइलें हटाई जा रही हैं</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f एमबीपीएस</string>
+    <string name="exo_track_mono">मोनो साउंड</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">विकल्प</string>
+    <string name="exo_track_role_closed_captions">सबटाइटल</string>
+    <string name="exo_track_role_commentary">कमेंट्री</string>
+    <string name="exo_track_role_supplementary">सप्लिमेंट्री</string>
+    <string name="exo_track_selection_auto">अपने आप</string>
+    <string name="exo_track_selection_none">कोई नहीं</string>
+    <string name="exo_track_selection_title_audio">ऑडियो</string>
+    <string name="exo_track_selection_title_text">लेख</string>
+    <string name="exo_track_selection_title_video">वीडियो</string>
+    <string name="exo_track_stereo">स्टीरियो साउंड</string>
+    <string name="exo_track_surround">सराउंड साउंड</string>
+    <string name="exo_track_surround_5_point_1">5.1 सराउंड साउंड</string>
+    <string name="exo_track_surround_7_point_1">7.1 सराउंड साउंड</string>
+    <string name="exo_track_unknown">अज्ञात</string>
+    <string name="explore_now">अभी अन्वेषण करें!</string>
+    <string name="exposed_dropdown_menu_content_description">ड्रॉपडाउन मेन्यू दिखाएं</string>
+    <string name="extend_pro_subscription">PRO सदस्यता बढ़ाएँ</string>
+    <string name="extend_word_every_day">हर दिन अपनी शब्दावली का विस्तार करें</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="facebook_app_id">139313273335530</string>
+    <string name="facebook_application_id">139313273335530</string>
+    <string name="facebook_login_protocol_scheme">fb139313273335530</string>
+    <string name="fallback_menu_item_copy_link">लिंक कॉपी करें</string>
+    <string name="fallback_menu_item_open_in_browser">ब्राउज़र में खोलें</string>
+    <string name="fallback_menu_item_share_link">लिंक शेयर करें</string>
+    <string name="favorite_sites">पसंदीदा साइटें</string>
+    <string name="favorites">पसंदीदा</string>
+    <string name="fb_login_protocol_scheme">fb139313273335530</string>
+    <string name="fcm_fallback_notification_channel_label">विविध</string>
+    <string name="feedback">बग या सुझावों की रिपोर्ट करें</string>
+    <string name="feedback_title">प्रतिक्रिया</string>
+    <string name="fill_the_missing_words">लुप्त शब्दों को चुनें।</string>
+    <string name="filter_video">समय (मिनट) के अनुसार फ़िल्टर करें</string>
+    <string name="find">खोजें</string>
+    <string name="firebase_database_url">https://tdt-english.firebaseio.com</string>
+    <string name="flash_sale_expired">फ्लैशसेल की समय सीमा समाप्त हो रही है:</string>
+    <string name="flash_sale_expires_in">फ्लैशसेल की समाप्ति:</string>
+    <string name="flash_sale_icon">फ्लैश सेल आइकन</string>
+    <string name="flip_all">सभी पलटें</string>
+    <string name="float_dict">ऐप में फ़्लोट डिक्ट</string>
+    <string name="folder">फ़ोल्डर</string>
+    <string name="follow">अनुसरण करें</string>
+    <string name="font_bold">fonts/OpenSans-Bold.ttf</string>
+    <string name="font_italic">fonts/OpenSans-Italic.ttf</string>
+    <string name="font_semi_bold">fonts/OpenSans-SemiBold.ttf</string>
+    <string name="font_size">फ़ॉन्ट आकार</string>
+    <string name="forgot_pass_word">पासवर्ड भूल गए?</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="format_date_purchase">dd MMMM yyyy</string>
+    <string name="format_ipa">/%s/</string>
+    <string name="format_million">M</string>
+    <string name="format_thousand">ह</string>
+    <string name="format_time_sale" formatted="false">सेल %02d:%02d:%02d में समाप्त हो रहा है</string>
+    <string name="free">मुफ़्त</string>
+    <string name="friday">शुक्र</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="game">खेल</string>
+    <string name="game_msg_authen_failed">सर्वर प्रमाणित नहीं है।</string>
+    <string name="game_msg_avatar_banned">आप इस अवतार का उपयोग नहीं कर सकते, कृपया दूसरा प्रयास करें</string>
+    <string name="game_msg_connect_server_fail">सर्वर से कनेक्शन विफल रहा।</string>
+    <string name="game_msg_connecting">कनेक्ट हो रहा है...</string>
+    <string name="game_msg_disconnected">सर्वर से डिस्कनेक्ट हो गया</string>
+    <string name="game_msg_get_info_room">डेटा लोड हो रहा है...</string>
+    <string name="game_msg_join_room_fail">आप गेम रूम से कनेक्ट करने में विफल रहे।</string>
+    <string name="game_msg_name_banned">आप इस नाम का उपयोग नहीं कर सकते, कृपया दूसरा प्रयास करें</string>
+    <string name="game_msg_not_join_room">आपने अभी तक गेम रूम में शामिल नहीं हुए हैं।</string>
+    <string name="game_msg_require_update_app">गेम खेलने के लिए कृपया ऐप को नवीनतम संस्करण में अपडेट करें।</string>
+    <string name="game_msg_room_closed">यह कमरा उपलब्ध नहीं है।</string>
+    <string name="game_msg_send_fail">भेजने में विफल।</string>
+    <string name="game_msg_word_banned">आप इस शब्द का उपयोग नहीं कर सकते।</string>
+    <string name="game_msg_word_duplicate">आपने यह शब्द पहले ही इस्तेमाल कर लिया है।</string>
+    <string name="game_msg_word_not_exist">यह शब्द शब्दकोश में नहीं है।</string>
+    <string name="game_msg_word_used">यह शब्द पहले ही इस्तेमाल हो चुका है।</string>
+    <string name="game_msg_word_wrong_rule">आपने खेल के नियमों का पालन नहीं किया है।</string>
+    <string name="game_msg_you_late">आप दूसरों से धीमे हैं</string>
+    <string name="game_rule_s1">एक ऐसा शब्द दर्ज करें जो पिछले शब्द के अंतिम अक्षर से शुरू होता हो।</string>
+    <string name="game_rule_s2">केवल सबसे तेज़ प्रतिक्रिया गिनी जाएगी।</string>
+    <string name="gcm_defaultSenderId">242262472149</string>
+    <string name="get_phonetic">उच्चारण देखें</string>
+    <string name="get_special_pro_features_now">विशेष प्रो सुविधाएँ अभी प्राप्त करें!</string>
+    <string name="get_started">शुरू करें!</string>
+    <string name="get_started_by_creating_your_account">अपना खाता बनाएँ।</string>
+    <string name="gmae_msg_joining_room">कमरे में शामिल हो रहा है...</string>
+    <string name="gmae_rule">नियम</string>
+    <string name="go_to_anchor">javascript:goToAnchor(\"%s\")</string>
+    <string name="go_to_editor_news">Đọc tin do người dịch</string>
+    <string name="go_to_highlight">javascript:goToHighlight(\"%s\")</string>
+    <string name="go_to_original_post">मूल पोस्ट पर जाएं</string>
+    <string name="go_to_settings">सेटिंग्स पर जाएं</string>
+    <string name="goal">लक्ष्य</string>
+    <string name="goal_10_msg">आकस्मिक</string>
+    <string name="goal_10_value">10 मिनट/दिन</string>
+    <string name="goal_15_msg">नियमित</string>
+    <string name="goal_15_value">15 मिनट/दिन</string>
+    <string name="goal_20_msg">गंभीर</string>
+    <string name="goal_20_value">20 मिनट/दिन</string>
+    <string name="goal_30_msg">तीव्र</string>
+    <string name="goal_30_value">30 मिनट/दिन</string>
+    <string name="goal_5_msg">बुनियादी</string>
+    <string name="goal_5_value">5 मिनट/दिन</string>
+    <string name="google_api_key">AIzaSyBktlXqnJY5ki7PRRed1btVqQDAW_eqQUU</string>
+    <string name="google_app_id">1:242262472149:android:1f9dbbf77a983b7234395c</string>
+    <string name="google_crash_reporting_api_key">AIzaSyBktlXqnJY5ki7PRRed1btVqQDAW_eqQUU</string>
+    <string name="google_storage_bucket">tdt-english.appspot.com</string>
+    <string name="grammar">व्याकरण</string>
+    <string name="green_rgb">\#00ff00</string>
+    <string name="half_speed">1/2x</string>
+    <string name="half_speed_text">&lt;sup>1&lt;/sup>/&lt;sub>2&lt;/sub>x</string>
+    <string name="have_to_sign_in">इस सुविधा का उपयोग करने के लिए आपको साइन इन करना होगा!</string>
+    <string name="help">दिशानिर्देश</string>
+    <string name="hi">नमस्ते!</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hide_posts_from_this_writer">इस लेखक के पोस्ट छिपाएँ</string>
+    <string name="highlight_vocabulary">उन्नत मोड</string>
+    <string name="highlights">हाइलाइट्स</string>
+    <string name="hint_code_game">अपना कोड दर्ज करें</string>
+    <string name="hint_dictation_edt">जो सुनें उसे लिखें!</string>
+    <string name="hint_input_answer">अपना उत्तर टाइप करें</string>
+    <string name="hint_input_id">शब्दावली पैक का आईडी दर्ज करें</string>
+    <string name="hint_input_name">अपना नाम दर्ज करें</string>
+    <string name="hint_input_vocab">"उदाहरण:
+नमस्ते
+प्यार"</string>
+    <string name="hint_search_book">पुस्तक का नाम इनपुट करें</string>
+    <string name="hint_search_text">खोजें</string>
+    <string name="hint_search_word_folder">शब्द या परिभाषा के अनुसार खोजें</string>
+    <string name="hint_search_writer">लेखक खोजें</string>
+    <string name="hint_setting_learn">आप यहाँ सीखने के तरीके सेट कर सकते हैं</string>
+    <string name="hint_write_answer">उत्तर फिर से लिखें</string>
+    <string name="hint_write_answer_for_learn_writing">आपको शब्द को एक बार फिर से लिखना होगा, अगली बार शब्द छिपा दिया जाएगा</string>
+    <string name="hint_writing_copy">सही उत्तर टाइप करें</string>
+    <string name="history">देखे गए वीडियो</string>
+    <string name="home">होम</string>
+    <string name="home_btn_continue">जारी रखें</string>
+    <string name="home_btn_learn_new_word">नए शब्द सीखें</string>
+    <string name="home_btn_review_now">अभी समीक्षा करें!</string>
+    <string name="home_btn_start_now">अभी शुरू करें</string>
+    <string name="home_desc_exercises">विभिन्न प्रारूपों में 500+ छोटे अभ्यास</string>
+    <string name="home_desc_grammar">बुनियादी से उन्नत तक पूर्ण व्याकरण</string>
+    <string name="home_desc_learn_now">4English से अभी शब्दावली एक्सप्लोर करें</string>
+    <string name="home_label_dict_search">शब्दकोश खोज</string>
+    <string name="home_label_exercises">अभ्यास</string>
+    <string name="home_label_grammar">व्याकरण</string>
+    <string name="home_label_learn_now">अभी सीखें</string>
+    <string name="home_label_review">समीक्षा</string>
+    <string name="home_no_words_review">समीक्षा करने के लिए कोई शब्द नहीं!</string>
+    <string name="home_save_count_placeholder">68</string>
+    <string name="home_save_count_suffix">सेव</string>
+    <string name="home_save_word">शब्द सहेजें</string>
+    <string name="home_tag_audio">ऑडियो</string>
+    <string name="home_tag_news">समाचार</string>
+    <string name="home_tag_video">वीडियो</string>
+    <string name="home_title_for_you">आपके लिए</string>
+    <string name="home_title_most_saved">सबसे ज्यादा सेव किए गए शब्द</string>
+    <string name="home_title_review_count">आपके पास समीक्षा करने के लिए %1$d शब्द हैं</string>
+    <string name="home_title_upcoming_review">आपको %1$d शब्दों की समीक्षा करनी होगी</string>
+    <string name="hours">घंटे</string>
+    <string name="html_mime_type">text/html</string>
+    <string name="i_agree_to_terms_of_service_and_privacy_policy">मैं सेवा की शर्तों और गोपनीयता नीति से सहमत हूं</string>
+    <string name="i_will_contact_you_soon">हम जल्द ही आपसे संपर्क करेंगे:</string>
+    <string name="icon_content_description">डायलॉग का आइकॉन</string>
+    <string name="incorrect">गलत!</string>
+    <string name="incorrect_quiz">गलत!</string>
+    <string name="info">जानकारी</string>
+    <string name="input_code_promo">प्रोमो कोड दर्ज करें</string>
+    <string name="input_email_pass_to_login">लॉग इन करने के लिए ईमेल और पासवर्ड दर्ज करें</string>
+    <string name="input_email_to_reset_pass">पासवर्ड रीसेट करने के लिए ईमेल दर्ज करें</string>
+    <string name="input_keywords">उदाहरण: बीबीसी लर्निंग इंग्लिश</string>
+    <string name="input_name_or_url">नाम या यूआरएल इनपुट करें</string>
+    <string name="input_pass_again">पासवर्ड फिर से दर्ज करें</string>
+    <string name="input_promo_code">प्रोमो कोड दर्ज करें</string>
+    <string name="input_word">शब्द इनपुट करें</string>
+    <string name="intro_4e_success">असीमित सीखने के अनुभव के साथ अपने अंग्रेजी कौशल को बढ़ावा दें।</string>
+    <string name="intro_books">500+ अंग्रेजी किताबें</string>
+    <string name="intro_header_paywall">"
+
+&lt;b>4English Pro - The English Super App &lt;/b> 
+
+"</string>
+    <string name="intro_news">1000+ द्विभाषी लेख</string>
+    <string name="intro_offline">ऑफ़लाइन उपयोग करें</string>
+    <string name="intro_remove_ads">विज्ञापन हटाएं</string>
+    <string name="intro_unlimited_words">शब्द सहेजें और असीमित अनुवाद करें</string>
+    <string name="intro_upgrade_pro">"
+ 
+ 
+ के साथ सर्वश्रेष्ठ संस्करण का अनुभव करें"</string>
+    <string name="intro_upgrade_pro_Ads">"
+    &lt;b>4English PRO 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;p>बाधाओं के बिना 4English PRO के साथ जानें&lt;/p>
+  }, {"</string>
+    <string name="intro_vocab_sets">विषय के अनुसार 600+ शब्दावली सेट</string>
+    <string name="invite_private_match">निजी मैच में आमंत्रित करें</string>
+    <string name="item_view_role_description">टैब</string>
+    <string name="keep_studying">पढ़ते रहें</string>
+    <string name="label_bilingual">द्विभाषी</string>
+    <string name="label_continue_reading">पढ़ना जारी रखें</string>
+    <string name="label_listening">सुनना</string>
+    <string name="label_read_books">किताबें पढ़ें</string>
+    <string name="label_see_all">सब देखें</string>
+    <string name="label_story">कहानी</string>
+    <string name="label_subscribers">सब्सक्राइबर</string>
+    <string name="label_videos">वीडियो</string>
+    <string name="lang_af">अफ्रीकांस</string>
+    <string name="lang_am">अम्हारिक</string>
+    <string name="lang_ar">अरबी</string>
+    <string name="lang_az">अज़रबैजानी</string>
+    <string name="lang_be">बेलारूसी</string>
+    <string name="lang_bg">बल्गेरियाई</string>
+    <string name="lang_bn">बंगाली</string>
+    <string name="lang_bs">बोस्नियाई</string>
+    <string name="lang_ca">कैटलन</string>
+    <string name="lang_ceb">Cebuano</string>
+    <string name="lang_co">कोर्सिकन</string>
+    <string name="lang_cs">चेक</string>
+    <string name="lang_cy">वेल्श</string>
+    <string name="lang_da">डैनिश</string>
+    <string name="lang_de">जर्मन</string>
+    <string name="lang_el">ग्रीक</string>
+    <string name="lang_en">अंग्रेज़ी</string>
+    <string name="lang_eo">एस्पेरांतो</string>
+    <string name="lang_es">स्पेनिश</string>
+    <string name="lang_et">एस्टोनियाई</string>
+    <string name="lang_eu">बास्क</string>
+    <string name="lang_fa">फ़ारसी</string>
+    <string name="lang_fi">Finnish</string>
+    <string name="lang_fr">फ्रेंच</string>
+    <string name="lang_fy">फ्रिसियन</string>
+    <string name="lang_ga">आयरिश</string>
+    <string name="lang_gd">स्कॉट्स गेलिक</string>
+    <string name="lang_gl">गैलिशियन</string>
+    <string name="lang_gu">गुजराती</string>
+    <string name="lang_ha">हौसा</string>
+    <string name="lang_haw">हवाईयन</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="lang_hmn">Hmong</string>
+    <string name="lang_hr">Croatian</string>
+    <string name="lang_ht">हाईटियन क्रेओल</string>
+    <string name="lang_hu">हंगेरियन</string>
+    <string name="lang_hy">Armenian</string>
+    <string name="lang_id">इंडोनेशियाई</string>
+    <string name="lang_ig">इग्बो</string>
+    <string name="lang_is">आइसलैंडिक</string>
+    <string name="lang_it">इतालवी</string>
+    <string name="lang_iw">हिब्रू</string>
+    <string name="lang_ja">जापानी</string>
+    <string name="lang_jw">जावानीस</string>
+    <string name="lang_ka">जॉर्जियाई</string>
+    <string name="lang_kk">कज़ाख</string>
+    <string name="lang_km">खमेर</string>
+    <string name="lang_kn">कन्नड़</string>
+    <string name="lang_ko">कोरियाई</string>
+    <string name="lang_ku">कुर्दिश</string>
+    <string name="lang_ky">किरगिज़</string>
+    <string name="lang_la">लैटिन</string>
+    <string name="lang_lb">लक्ज़मबर्गिश</string>
+    <string name="lang_lo">लाओ</string>
+    <string name="lang_lt">लिथुआनियन</string>
+    <string name="lang_lv">लातवियाई</string>
+    <string name="lang_mg">मलागासी</string>
+    <string name="lang_mi">माओरी</string>
+    <string name="lang_mk">मैкеडोनियन</string>
+    <string name="lang_ml">मलयालम</string>
+    <string name="lang_mn">मंगोलियाई</string>
+    <string name="lang_mr">मराठी</string>
+    <string name="lang_ms">मलय</string>
+    <string name="lang_mt">माल्टीज़</string>
+    <string name="lang_my">म्यांमार (बर्मी)</string>
+    <string name="lang_ne">नेपाली</string>
+    <string name="lang_nl">डच</string>
+    <string name="lang_no">नॉर्वेजियन</string>
+    <string name="lang_ny">न्यांजा (चिचेवा)</string>
+    <string name="lang_pa">पंजाबी</string>
+    <string name="lang_pl">पोलिश</string>
+    <string name="lang_ps">पश्तो</string>
+    <string name="lang_pt">पुर्तगाली</string>
+    <string name="lang_ro">रोमानियाई</string>
+    <string name="lang_ru">रूसी</string>
+    <string name="lang_sd">सिंधी</string>
+    <string name="lang_si">सिंहला (सिंहली)</string>
+    <string name="lang_sk">स्लोवाक</string>
+    <string name="lang_sl">स्लोवेनियाई</string>
+    <string name="lang_sm">सामोन</string>
+    <string name="lang_sn">शोना</string>
+    <string name="lang_so">सोमाली</string>
+    <string name="lang_sq">अल्बानियाई</string>
+    <string name="lang_sr">सर्बियाई</string>
+    <string name="lang_st">सेसोथो</string>
+    <string name="lang_su">सुंडानी</string>
+    <string name="lang_sv">स्वीडिश</string>
+    <string name="lang_sw">स्वाहिली</string>
+    <string name="lang_ta">तमिल</string>
+    <string name="lang_te">तेलुगु</string>
+    <string name="lang_tg">ताजिक</string>
+    <string name="lang_th">थाई</string>
+    <string name="lang_tl">तागालोग (फिलीपीनो)</string>
+    <string name="lang_tr">तुर्की</string>
+    <string name="lang_uk">यूक्रेनी</string>
+    <string name="lang_ur">उर्दू</string>
+    <string name="lang_uz">उज़्बेक</string>
+    <string name="lang_vi">वियतनामी</string>
+    <string name="lang_xh">खोसा</string>
+    <string name="lang_yi">यहूदी</string>
+    <string name="lang_yo">" योरूबा"</string>
+    <string name="lang_zh_hans">चीनी (सरलीकृत)</string>
+    <string name="lang_zh_hant">चीनी (पारंपरिक)</string>
+    <string name="lang_zu">Zulu</string>
+    <string name="later">बाद में</string>
+    <string name="latest_version">(नवीनतम)</string>
+    <string name="lato">लाटो</string>
+    <string name="lato_font">fonts/lato/Lato-Regular.ttf</string>
+    <string name="lbl_choose_from_gallery">गैलरी से चुनें</string>
+    <string name="lbl_set_profile_photo">अपना अवतार सेट करें</string>
+    <string name="lbl_take_camera_picture">एक तस्वीर लें</string>
+    <string name="learn_again">फिर से सीखें</string>
+    <string name="learn_now">अभी सीखें</string>
+    <string name="learn_selected_word">चयनित शब्दों को सीखें</string>
+    <string name="less_than_minute">एक मिनट से भी कम · </string>
+    <string name="level">स्तर</string>
+    <string name="level_1">शुरुआती</string>
+    <string name="level_2">मध्यवर्ती</string>
+    <string name="level_3">उन्नत</string>
+    <string name="level_4">विशेषज्ञ</string>
+    <string name="level_advanced">उन्नत</string>
+    <string name="level_beginer">शुरुआती</string>
+    <string name="level_elemetary">Elementary</string>
+    <string name="level_intermediate">मध्यवर्ती</string>
+    <string name="library_android_database_sqlcipher_author">ज़ेटेटिक, एलएलसी</string>
+    <string name="library_android_database_sqlcipher_authorWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_isOpenSource">true</string>
+    <string name="library_android_database_sqlcipher_libraryDescription">SQLCipher पर आधारित Android SQLite API</string>
+    <string name="library_android_database_sqlcipher_libraryName">एंड्रॉइड के लिए SQLCipher</string>
+    <string name="library_android_database_sqlcipher_libraryVersion">${clientVersionNumber}</string>
+    <string name="library_android_database_sqlcipher_libraryWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_licenseLink">https://www.zetetic.net/sqlcipher/license/</string>
+    <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
+    <string name="listen_and_speak">उच्चारण</string>
+    <string name="listen_voice_sample">नमूना आवाज़ सुनें</string>
+    <string name="listen_your_voice">अपनी आवाज़ सुनें</string>
+    <string name="listening_banner_desc">प्राकृतिक रिफ्लेक्स बनाएं और समृद्ध शब्दावली विकसित करें।</string>
+    <string name="listening_banner_title">वास्तविक सामग्री के साथ सुनने का अभ्यास करें</string>
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="loading_sub">उपशीर्षक लोड हो रहा है...</string>
+    <string name="location_permission_missing_message">ऐसा लगता है कि इस ऐप के लिए स्थान सेवाएं कॉन्फ़िगर नहीं की गई हैं। अधिक जानकारी के लिए कृपया OneSignal डॉक्स देखें।</string>
+    <string name="location_permission_missing_title">ऐप की अनुमति गायब है</string>
+    <string name="location_permission_name_for_title">स्थान</string>
+    <string name="location_permission_settings_message">आपके डिवाइस का स्थान साझा करना</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="login_follow_info">निम्नलिखित जानकारी के रूप में लॉग इन करें</string>
+    <string name="login_on_multiple_devices">एकाधिक उपकरणों (आईओएस, एंड्रॉइड) पर काम करता है</string>
+    <string name="login_type">"लॉग इन करें: "</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="logout_done">सफलतापूर्वक लॉग आउट</string>
+    <string name="lora">लोरा</string>
+    <string name="lora_font">fonts/lora/Lora-Regular.ttf</string>
+    <string name="lose">हार</string>
+    <string name="lucky_wheel_activity_listening">पॉडकास्ट सुनें</string>
+    <string name="lucky_wheel_activity_reading">पढ़ें</string>
+    <string name="lucky_wheel_btn_receive">प्राप्त करें</string>
+    <string name="lucky_wheel_btn_use">उपयोग करें</string>
+    <string name="lucky_wheel_choose_activity">गतिविधि चुनें</string>
+    <string name="lucky_wheel_code_prefix">कोड:</string>
+    <string name="lucky_wheel_congrats_message">आप जीत गए: %s</string>
+    <string name="lucky_wheel_congrats_title">बधाई हो!</string>
+    <string name="lucky_wheel_history_empty">"आपने अभी तक कोई पुरस्कार प्राप्त नहीं किया है।
+साल की शुरुआत में अपनी किस्मत आजमाएं, शानदार पुरस्कार जीतें।"</string>
+    <string name="lucky_wheel_history_title_dialog">स्पिन इतिहास</string>
+    <string name="lucky_wheel_history_title_link">स्पिन इतिहास</string>
+    <string name="lucky_wheel_rules">नियम</string>
+    <string name="lucky_wheel_rules_date_value">02/02/2026 – 28/02/2026</string>
+    <string name="lucky_wheel_rules_method_body">"• प्रत्येक उपयोगकर्ता के पास 1 मुफ्त स्पिन होगा
+• इसके अलावा, आपको निम्नलिखित सीखने के कार्यों को पूरा करने पर अतिरिक्त स्पिन टिकट मिलेंगे:"</string>
+    <string name="lucky_wheel_rules_method_header">टिकट प्राप्त करने का तरीका:</string>
+    <string name="lucky_wheel_rules_regulation_header">पुरस्कार प्राप्त करने के नियम:</string>
+    <string name="lucky_wheel_rules_regulation_html_new">"• आपको मिले पुरस्कार का स्क्रीनशॉट लें
+• उपहार प्राप्त करने के लिए फैनपेज से संपर्क करें 
+&lt;a href=\"https://m.me/App4English\">&lt;b>&lt;font color=\"#2B6FF4\">4English - वियतनामी अंग्रेजी सीखने के लिए सुपर ऐप&lt;/font>&lt;/b>&lt;/a>"</string>
+    <string name="lucky_wheel_rules_reward_body">"• 50% वाउचर 4English PRO को अपग्रेड करने के लिए 4You ऐप के PRO 1 महीने के पैकेज के साथ आता है
+• 200,000 VNĐ का भाग्यशाली लिफ़ाफ़ा
+• टेट उपहार सेट
+• विशेष अंग्रेजी सीखने की सामग्री
+• गुप्त भौतिक उपहार
+• नव वर्ष का संदेश"</string>
+    <string name="lucky_wheel_rules_reward_header">पुरस्कार संरचना:</string>
+    <string name="lucky_wheel_rules_target_label">Đối tượng tham gia:</string>
+    <string name="lucky_wheel_rules_target_value">सभी उपयोगकर्ता 4English</string>
+    <string name="lucky_wheel_rules_terms_body">"• प्रत्येक पुरस्कार की एक सीमित संख्या होती है
+• सभी अंतिम निर्णय 4English आयोजकों के होंगे"</string>
+    <string name="lucky_wheel_rules_terms_header">अन्य नियम:</string>
+    <string name="lucky_wheel_rules_time_label">Thời gian diễn ra:</string>
+    <string name="lucky_wheel_rules_title_dialog">नियम</string>
+    <string name="lucky_wheel_share">साझा करें</string>
+    <string name="lucky_wheel_spin_btn">पुरस्कार घुमाएँ</string>
+    <string name="lucky_wheel_spin_count_format">%d मोड़ शेष</string>
+    <string name="lucky_wheel_spin_now">अभी स्पिन करें!</string>
+    <string name="lucky_wheel_spin_remaining">1 बारी शेष</string>
+    <string name="lucky_wheel_status_received">प्राप्त हुआ</string>
+    <string name="lucky_wheel_task_1">10 शब्दावली</string>
+    <string name="lucky_wheel_task_2">2 अभ्यास</string>
+    <string name="lucky_wheel_task_3">2 समाचार लेख और 1 सुनने का लेख</string>
+    <string name="lucky_wheel_task_action">कार्य करें</string>
+    <string name="lucky_wheel_task_done">पूर्ण</string>
+    <string name="lucky_wheel_task_progress_format">Học %1$d từ (%2$d/%3$d)</string>
+    <string name="lucky_wheel_title">कार्य तालिका</string>
+    <string name="lv10">गुणवत्ता > मात्रा</string>
+    <string name="lv11">धीरे-धीरे लेकिन निश्चित रूप से</string>
+    <string name="lv12">संभवतः संभव</string>
+    <string name="lv13">गति पुनः प्राप्त करें</string>
+    <string name="lv7">टूटा हुआ कीबोर्ड</string>
+    <string name="lv8">टूटा हुआ कीबोर्ड (फिर से?)</string>
+    <string name="lv9">मूल बातों पर वापस जाएं</string>
+    <string name="lv_14">खोए हुए स्वर</string>
+    <string name="lv_15">बहुत सरल</string>
+    <string name="lv_16">मध्यवर्ती परीक्षा</string>
+    <string name="lv_17">कठिन होता जा रहा है</string>
+    <string name="lv_18">शीर्ष छात्र</string>
+    <string name="lv_19">एडवांस्ड क्लास</string>
+    <string name="lv_20">गाना, जीना</string>
+    <string name="lv_21">बियॉन्से?</string>
+    <string name="lv_22">जल्दी करो!</string>
+    <string name="lv_23">नमस्ते</string>
+    <string name="lv_24">काम पर वापस जाएं</string>
+    <string name="lv_25">रानी को प्रणाम करें</string>
+    <string name="lv_26">शाही</string>
+    <string name="lv_27">टूटा हुआ कीबोर्ड</string>
+    <string name="lv_28">फ्रीस्टाइल</string>
+    <string name="lv_29">जितना बड़ा उतना अच्छा</string>
+    <string name="lw_btn_do_task">Thực hiện</string>
+    <string name="lw_btn_doc">अभी खोजें</string>
+    <string name="lw_btn_hunt">Săn vé!</string>
+    <string name="lw_btn_join_now">अभी शामिल हों</string>
+    <string name="lw_btn_secret">LIÊN HỆ NGAY</string>
+    <string name="lw_btn_spin_now">अभी स्पिन करें!</string>
+    <string name="lw_btn_understood">समझ गया!</string>
+    <string name="lw_btn_voucher">अभी वाउचर प्राप्त करें</string>
+    <string name="lw_btn_wish_1">LẤY MAY THI CỬ</string>
+    <string name="lw_btn_wish_2">समृद्धि की कामना</string>
+    <string name="lw_btn_wish_3">बस चिल करो</string>
+    <string name="lw_btn_wish_4">खुशी, खुशी</string>
+    <string name="lw_doc_url">https://drive.google.com/drive/folders/1kE5DS_GZg_RD7RtHdilTwfbMBw4W0XTl</string>
+    <string name="lw_header_reward">पुरस्कार</string>
+    <string name="lw_messenger_url">https://m.me/App4English</string>
+    <string name="lw_notify_hunt_header">अभी टिकट का शिकार करें!</string>
+    <string name="lw_notify_hunt_msg">Hết vé mất rồi, bạn cần săn vé ngay!</string>
+    <string name="lw_notify_limit_header">TICKET KHÔNG CÒN!</string>
+    <string name="lw_notify_limit_msg">"Hết vé mất rồi, bạn vui lòng chờ
+tham gia vào ngày mai"</string>
+    <string name="lw_notify_task_header">कार्य पूरा करें</string>
+    <string name="lw_notify_task_msg_new">"बधाई हो आपको \u0008\u0008&lt;font color='#A54F08'>1 टिकट&lt;/font>\u0008\u0008 मिला है!"</string>
+    <string name="lw_prize_calendar_desc_plain">गुप्त उपहार: 2026 डेस्क कैलेंडर</string>
+    <string name="lw_prize_doc_desc_plain">4अंग्रेज़ी से विशेष अंग्रेजी दस्तावेज़</string>
+    <string name="lw_prize_doc_name">विशेष दस्तावेज़</string>
+    <string name="lw_prize_doc_wheel">"दस्तावेज़
+विशेष
+अधिकार"</string>
+    <string name="lw_prize_gift_set_desc_plain">4English से टेट उपहार सेट</string>
+    <string name="lw_prize_gift_set_name">दीवाली उपहार सेट</string>
+    <string name="lw_prize_gift_set_wheel">उपहार सेट</string>
+    <string name="lw_prize_lixi_desc_plain">लकी मनी 200,000 VNĐ</string>
+    <string name="lw_prize_lixi_name">लि शी 200K</string>
+    <string name="lw_prize_lixi_wheel">"लिक्सी
+200K"</string>
+    <string name="lw_prize_mystery_wheel">"रहस्यमय पहिया
+?"</string>
+    <string name="lw_prize_notebook_desc_plain">गुप्त उपहार: नोटबुक</string>
+    <string name="lw_prize_secret_desc_plain">उपहार प्राप्त करने के लिए 4English से संपर्क करें</string>
+    <string name="lw_prize_voucher_code">MOLOCTET</string>
+    <string name="lw_prize_voucher_desc_plain">4English PRO अपग्रेड पर 50% छूट के लिए कोड दर्ज करें</string>
+    <string name="lw_prize_voucher_name">वाउचर 50%</string>
+    <string name="lw_prize_voucher_wheel">"वाउचर
+ 50% 
+उपहार
+4You"</string>
+    <string name="lw_prize_wish1_desc_plain">"बिना वज़न बढ़ने की चिंता के खाएं, बिना भूले सीखने की चिंता के सीखें
+परीक्षाएं आसानी से पास हों, जहाँ भी परीक्षा दें, सफल हों"</string>
+    <string name="lw_prize_wish2_desc_plain">"खेलें और जीतें, सोएं और पैसे कमाएं
+सब कुछ परी की तरह है, पैसा आपकी जेब में भर जाता है"</string>
+    <string name="lw_prize_wish3_desc_plain">"कल मत करो
+बहुत ज़्यादा-रौ"</string>
+    <string name="lw_prize_wish4_desc_plain">"आपको एक गले लगाओ
+क्योंकि आपने पिछले साल अपना सर्वश्रेष्ठ प्रयास किया"</string>
+    <string name="lw_prize_wish_name">इच्छा</string>
+    <string name="lw_prize_wish_wheel">नव वर्ष की शुभकामनाएं</string>
+    <string name="lw_reward_doc_msg">4English से विशेष अंग्रेजी दस्तावेज़ प्राप्त करने पर बधाई</string>
+    <string name="lw_reward_doc_title">अंग्रेजी पर विजय प्राप्त करने की युक्तियाँ</string>
+    <string name="lw_reward_secret_msg">" Chúc mừng bạn đã trúng %s
+Liên hệ 
+4English
+ để nhận quà ngay! "</string>
+    <string name="lw_reward_secret_title">वर्ष की गुप्त शुरुआत</string>
+    <string name="lw_reward_voucher_msg">\u00084English PRO को अपग्रेड करने के लिए \u0008वाउचर %1$s</string>
+    <string name="lw_reward_voucher_sub_msg">"Tặng kèm gói PRO 1 tháng app
+4You - Học tiếng Anh qua video"</string>
+    <string name="lw_reward_voucher_title">सर्वश्रेष्ठ सीखने का कॉम्बो</string>
+    <string name="lw_reward_wish_title">LỜI CHÚC ĐẦU XUÂN</string>
+    <string name="lw_secret_calendar_desc">"गुप्त उपहार:
+डेस्क कैलेंडर 2026"</string>
+    <string name="lw_secret_calendar_desc_formatted">"गुप्त उपहार:
+&lt;b>&lt;font color='#A54F08'>डेस्क कैलेंडर 2026&lt;/font>&lt;/b>"</string>
+    <string name="lw_secret_calendar_name">सरप्राइज बॉक्स</string>
+    <string name="lw_secret_notebook_desc">"गुप्त उपहार:
+नोटबुक"</string>
+    <string name="lw_secret_notebook_desc_formatted">"गुप्त उपहार:
+&lt;b>&lt;font color='#A54F08'>नोटबुक&lt;/font>&lt;/b>"</string>
+    <string name="lw_secret_notebook_name">Túi mù</string>
+    <string name="lw_toast_code_copied">कोड कॉपी किया गया: %s</string>
+    <string name="lw_toast_navigate_purchase">प्रो अपग्रेड पर नेविगेट करें</string>
+    <string name="lw_toast_prize_received">पुरस्कार प्राप्त हुआ!</string>
+    <string name="lw_toast_url_error">लिंक नहीं खोल सका</string>
+    <string name="lw_wish_content_1">"Ăn không lo béo, học không lo quên
+Thi cử thuận duyên, thi đâu đậu đó"</string>
+    <string name="lw_wish_content_2">"Làm chơi ăn thật, ngủ gật ra tiền
+ Vạn sự như tiên, tiền vô đầy ví"</string>
+    <string name="lw_wish_content_3">"कल मत करो
+ 
+ 
+ "</string>
+    <string name="lw_wish_content_4">" आपको \u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008* "</string>
+    <string name="m3_exceed_max_badge_text_suffix">%1$s%2$s</string>
+    <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_brand_regular">सैन्स-सेरिफ़</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_plain_regular">सैन्स-सेरिफ़</string>
+    <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_accelerate">cubic-bezier(0.3, 0, 0.8, 0.2)</string>
+    <string name="m3_sys_motion_easing_emphasized_decelerate">cubic-bezier(0.1, 0.7, 0.1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
+    <string name="m3_sys_motion_easing_legacy">cubic-bezier(0.4, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard">cubic-bezier(0.2, 0, 0, 1)</string>
+    <string name="m3_sys_motion_easing_standard_accelerate">cubic-bezier(0.3, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard_decelerate">cubic-bezier(0, 0, 0, 1)</string>
+    <string name="mag_update_pro_download">समाचार और पॉडकास्ट डाउनलोड करने के लिए, आपको PRO संस्करण में अपग्रेड करने की आवश्यकता है।</string>
+    <string name="mag_update_pro_download_book">"किताबें पढ़ने और 'टैप करके अनुवाद करें' सुविधा का उपयोग करने के लिए, आपको PRO संस्करण में अपग्रेड करना होगा।"</string>
+    <string name="mag_wait_get_link">फ़ाइल लिंक बनाया जा रहा है...</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">AM या PM चुनें</string>
+    <string name="material_hour_24h_suffix">%1$s घंटे</string>
+    <string name="material_hour_selection">घंटा चुनें</string>
+    <string name="material_hour_suffix">%1$s बजे</string>
+    <string name="material_minute_selection">मिनट चुनें</string>
+    <string name="material_minute_suffix">%1$s मिनट</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">क्यूबिक-बेज़ियर(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_slider_range_end">रेंज का अंत</string>
+    <string name="material_slider_range_start">रेंज प्रारंभ</string>
+    <string name="material_slider_value">मान</string>
+    <string name="material_timepicker_am">पूर्वाह्न</string>
+    <string name="material_timepicker_clock_mode_description">समय इनपुट के लिए घड़ी मोड पर जाएं.</string>
+    <string name="material_timepicker_hour">घंटा</string>
+    <string name="material_timepicker_minute">मिनट</string>
+    <string name="material_timepicker_pm">अपराह्न</string>
+    <string name="material_timepicker_select_time">समय चुनें</string>
+    <string name="material_timepicker_text_input_mode_description">समय इनपुट के लिए लेख इनपुट मोड पर जाएं.</string>
+    <string name="maximize">अधिकतम करें</string>
+    <string name="menu_item_config">कॉन्फ़िगरेशन</string>
+    <string name="menu_item_search">खोजें</string>
+    <string name="menu_item_tts">टेक्स्ट टू स्पीच</string>
+    <string name="menu_rename">नाम बदलें</string>
+    <string name="menu_report_error">गलत शब्द की रिपोर्ट करें</string>
+    <string name="messenger_send_button_text">भेजें</string>
+    <string name="minimize">छोटा करें</string>
+    <string name="minus">मिनट</string>
+    <string name="minute_left">%1$d मिनट · </string>
+    <string name="minutes">मिनट</string>
+    <string name="minutes_left">%1$d मिनट · </string>
+    <string name="mission_1_content">"चरण 1. समाचार पढ़ें या वीडियो देखें
+चरण 2. परिभाषा खोजने के लिए शब्द पर क्लिक करें
+चरण 3. खोजे गए शब्द को सहेजें 
+
+*3 या अधिक नए शब्द सहेजें"</string>
+    <string name="mission_1_title">अपना शब्दावली पैक बनाएं</string>
+    <string name="mission_2_content">Go to Vocab packs, search and download the one that you want to learn</string>
+    <string name="mission_2_title">उपलब्ध शब्दावली पैक का अन्वेषण करें</string>
+    <string name="mission_3_content">स्तर 1 तक पहुंचने के लिए वर्तमान शब्दावली सीखें</string>
+    <string name="mission_3_title">नए शब्द सीखें</string>
+    <string name="mission_4_content">स्तर 4 तक पहुँचने के लिए शब्दावली की समीक्षा करें</string>
+    <string name="mission_4_title">शब्दावली की समीक्षा करें</string>
+    <string name="mission_5_content">इसे हर दिन करें, नए शब्दों को सीखने और पुराने शब्दों की समीक्षा करने के लिए कम से कम 10 मिनट बिताएं।</string>
+    <string name="mission_5_title">एक आदत बनाएँ</string>
+    <string name="modal_content_descriptor">मोडल</string>
+    <string name="modal_inner_content_descriptor">मोडल इनर</string>
+    <string name="mode_offline">ऑफ़लाइन</string>
+    <string name="mode_offline_decs">बॉट्स के साथ खेलें</string>
+    <string name="mode_online">ऑनलाइन</string>
+    <string name="mode_online_desc">दुनिया भर के उपयोगकर्ताओं के साथ ऑनलाइन खेलें</string>
+    <string name="mode_solo">मित्र</string>
+    <string name="mode_solo_decs">एक साथ अंग्रेजी सीखें</string>
+    <string name="monday">सोम</string>
+    <string name="more">और</string>
+    <string name="move_to_lv1">हाँ, स्तर 1 पर वापस जाएं और मुझे समीक्षा करने के लिए याद दिलाएं</string>
+    <string name="msg_account_lifetime">आपका खाता प्रो लाइफटाइम है</string>
+    <string name="msg_account_with_pro">प्रो स्थिति ऐप में आपके वर्तमान खाते पर लागू होगी</string>
+    <string name="msg_ads_notice">विज्ञापन हमें इस ऐप को विकसित करने और इसे मुफ़्त रखने में मदद करता है। विज्ञापन हटाने के लिए, आप PRO संस्करण खरीद सकते हैं।</string>
+    <string name="msg_after_save_for_import_word">सहेजने के बाद आप अपनी इच्छानुसार शब्दावली की जानकारी संपादित कर सकते हैं</string>
+    <string name="msg_already_pro">पहले से ही एक प्रो खाता है?</string>
+    <string name="msg_av_failed">अंग्रेजी - वियतनामी डाउनलोड विफल!</string>
+    <string name="msg_av_success">अंग्रेजी - वियतनामी सफलतापूर्वक डाउनलोड करें!</string>
+    <string name="msg_btn_accept_invite">स्वीकार करें(%d)</string>
+    <string name="msg_buy_pro_from_ads_full">यदि आप विज्ञापन हटाना चाहते हैं, तो PRO में अपग्रेड करें</string>
+    <string name="msg_can_edit_setting">आप इसे बाद में सेटिंग्स में कभी भी बदल सकते हैं।</string>
+    <string name="msg_can_not_connect_server">सर्वर से कनेक्ट नहीं हो सकता</string>
+    <string name="msg_change_pass_fail">पासवर्ड बदलने में विफल!</string>
+    <string name="msg_change_pass_success">पासवर्ड सफलतापूर्वक बदला गया!</string>
+    <string name="msg_chat_add_new_dict">नया शब्दकोश जोड़ने के लिए निर्देश प्राप्त करने के लिए फैनपेज के साथ संदेश भेजें</string>
+    <string name="msg_choose_goal">यह जानकारी आपके लक्ष्य के लिए उपयुक्त सामग्री सुझाने के लिए उपयोग की जाती है</string>
+    <string name="msg_choose_level">यह जानकारी आपके स्तर के अनुसार उपयुक्त सामग्री सुझाने के लिए उपयोग की जाती है</string>
+    <string name="msg_choose_native_lang">यह जानकारी आपके लिए उपयुक्त शब्दकोश सुझाने के लिए उपयोग की जाती है</string>
+    <string name="msg_choose_topic">कम से कम 1 विषय चुनें जिनमें आपकी रुचि हो।</string>
+    <string name="msg_click_word">अनुवाद करने के लिए शब्द पर क्लिक करें</string>
+    <string name="msg_complete_video">बहुत बढ़िया!</string>
+    <string name="msg_confirm_del_my_book">क्या आप इस पुस्तक को सूची से हटाना सुनिश्चित हैं?</string>
+    <string name="msg_confirm_del_news">क्या आप इस समाचार को हटाना सुनिश्चित हैं?</string>
+    <string name="msg_confirm_email">क्या आप सुनिश्चित हैं कि आपका दर्ज किया गया ईमेल सही है?</string>
+    <string name="msg_confirm_exit_game">क्या आप छोड़ना चाहते हैं?</string>
+    <string name="msg_confirm_mark_read_chem_story">क्या इस कहानी को पढ़ा हुआ चिह्नित करें?</string>
+    <string name="msg_confirm_not_sure_word">क्या आप इस शब्द की अधिक समीक्षा करना चाहते हैं?</string>
+    <string name="msg_confirm_not_sure_word_while_learn">आपने इस शब्द के लिए कई बार गलत उत्तर दिया है या संकेतों का उपयोग करने की आवश्यकता है, क्या आप और समीक्षा करना चाहते हैं?</string>
+    <string name="msg_confirm_skip_multi_word">ये शब्द आपके समीक्षा किए गए शब्दों की सूची में दिखाई नहीं देंगे।</string>
+    <string name="msg_confirm_voucher">क्या आप निश्चित रूप से इस कोड का उपयोग करना चाहते हैं?</string>
+    <string name="msg_congratulation_finish_learn">बधाई हो! सुधार के लिए सीखते रहें!</string>
+    <string name="msg_copied">कॉपी किया गया!</string>
+    <string name="msg_create_empty_folder">क्या आप एक खाली शब्दावली पैक बनाना चाहते हैं?</string>
+    <string name="msg_create_folder_success">शब्दावली पैक सफलतापूर्वक बनाएं!</string>
+    <string name="msg_current_password_incorrect">वर्तमान पासवर्ड गलत है!</string>
+    <string name="msg_del_all">क्या आप निश्चित रूप से सब कुछ हटाना चाहते हैं?</string>
+    <string name="msg_delete_dict">हटाने के लिए टैप करें</string>
+    <string name="msg_delete_fail">हटाना विफल!</string>
+    <string name="msg_desc_anh_viet_dict">150,000 शब्दों वाला अंग्रेजी - वियतनामी शब्दकोश</string>
+    <string name="msg_desc_google_trans">Google द्वारा अनुवादित</string>
+    <string name="msg_desc_subscription">वार्षिक सदस्यता हर साल स्वतः नवीनीकृत हो जाती है, त्रैमासिक सदस्यता हर 3 महीने में स्वतः नवीनीकृत हो जाती है। प्ले स्टोर पर सब्सक्रिप्शन में कभी भी रद्द करें</string>
+    <string name="msg_dialog_notice_pro_date">आपका प्रो संस्करण %s पर समाप्त होने वाला है। क्या आप और दिन खरीदना चाहेंगे?</string>
+    <string name="msg_dialog_pro_expired">आपका PRO संस्करण समाप्त हो गया है। क्या आप और दिन खरीदना चाहेंगे?</string>
+    <string name="msg_dich_boi_bdv">अनुवादक द्वारा अनुवादित</string>
+    <string name="msg_dict_1">- आप कई अन्य शब्दकोश जोड़ने के लिए सेटिंग्स खोल सकते हैं</string>
+    <string name="msg_dict_2">- आप अपने शब्दकोशों का क्रम बदल सकते हैं</string>
+    <string name="msg_dict_fair_use">यह फ़ंक्शन आपको गुणवत्ता शब्दकोशों की वेबसाइटों पर रीडायरेक्ट करता है। उनके डेटा स्रोत 4English के नहीं हैं।</string>
+    <string name="msg_download_all_vocab">इस शब्दावली पैक को सीखने के लिए, आपको इसे पहले डाउनलोड करना होगा</string>
+    <string name="msg_download_book_sc">डाउनलोड सफल!</string>
+    <string name="msg_download_fail">डाउनलोड विफल!</string>
+    <string name="msg_download_file_failed">फ़ाइल डाउनलोड विफल</string>
+    <string name="msg_download_file_success">फ़ाइल डाउनलोड सफल</string>
+    <string name="msg_download_vocab_pro">अधिक शब्दावली पैक डाउनलोड करने के लिए आपको PRO संस्करण में अपग्रेड करना होगा।</string>
+    <string name="msg_empty_recent_word">आपने कोई शब्द सहेजा नहीं है। बाद में समीक्षा करने के लिए सीखते समय शब्दों को सहेजें।</string>
+    <string name="msg_empty_saved_word">"आपने अभी तक कोई शब्द सहेजा नहीं है। आइए अध्ययन करते समय समीक्षा के लिए शब्दों को सहेजें।
+
+आप यहां शब्दावली पैक भी डाउनलोड कर सकते हैं:"</string>
+    <string name="msg_empty_vocab_pack">आपने अभी तक कोई शब्दावली पैक डाउनलोड नहीं किया है।</string>
+    <string name="msg_enable_more_chanel">कृपया अधिक चैनल सक्षम करें</string>
+    <string name="msg_enter_game_code_failed">कोड दर्ज करने में असफल!</string>
+    <string name="msg_enter_game_code_success">कोड सफलतापूर्वक दर्ज करें!</string>
+    <string name="msg_error_tts">आपका डिवाइस TTS का समर्थन नहीं करता है। कृपया सुनने का अभ्यास करने के लिए पॉडकास्ट सुविधा का उपयोग करें</string>
+    <string name="msg_expired">आपका खाता PRO पहले ही समाप्त हो चुका है!</string>
+    <string name="msg_export_file">फ़ोल्डर \"%s\" में सभी शब्दावली को एक्सेल में निर्यात करें</string>
+    <string name="msg_fav">इस वेबसाइट को पसंदीदा में जोड़ा गया!</string>
+    <string name="msg_feedback_game">यदि आप इस खेल में कुछ बदलना चाहते हैं तो हमें लिखें</string>
+    <string name="msg_find_document_not_run">यह सुविधा Android 11 पर उपलब्ध नहीं है, कृपया इसका उपयोग करने के लिए अपडेट की प्रतीक्षा करें। धन्यवाद!</string>
+    <string name="msg_find_your_book">"आप अपने डिवाइस पर EPUB प्रारूप में ई-पुस्तकें ढूंढ और खोल सकते हैं।
+केवल EPUB फ़ाइलें ही समर्थित हैं। अन्य फ़ाइलों (pdf, docx...) को पढ़ने के लिए आप डिक्शनरी स्क्रीन पर क्विक डिक्शनरी को सक्षम कर सकते हैं ताकि 4English ऐप के बाहर डिक्शनरी का उपयोग किया जा सके।"</string>
+    <string name="msg_fix_play_video">यदि आप वीडियो नहीं देख सकते हैं, तो नीचे दिए गए चरणों का पालन करें:</string>
+    <string name="msg_folder_not_exist">शब्दावली पैक मौजूद नहीं है। इसे दोबारा जांचें</string>
+    <string name="msg_force_update">इस संस्करण पर एपीआई असमर्थित है। कृपया नवीनतम संस्करण में अपडेट करने के लिए स्टोर पर जाएं!</string>
+    <string name="msg_free_learning_session">आपके पास अभी भी %d निःशुल्क सीखने के सत्र हैं!</string>
+    <string name="msg_free_left">शेष निःशुल्क समय: %d</string>
+    <string name="msg_gen_link_failed">लिंक बनाने में विफल</string>
+    <string name="msg_gen_link_success">फ़ाइल लिंक सफलतापूर्वक बनाया गया</string>
+    <string name="msg_guide_browser">यह फ़ंक्शन एक वेब ब्राउज़र के समान है, जहाँ आप तुरंत अनुवाद करने के लिए किसी शब्द पर टैप कर सकते हैं</string>
+    <string name="msg_guide_click">आप इसका अर्थ जानने और बाद में समीक्षा के लिए सहेजने के लिए किसी शब्द पर टैप कर सकते हैं</string>
+    <string name="msg_guide_phrase">आप चयनित वाक्यांश का अनुवाद करने के लिए किसी शब्द को देर तक दबा सकते हैं।</string>
+    <string name="msg_hide_transcript">ट्रांसक्रिप्ट छिपाएं</string>
+    <string name="msg_hint_speak_answer">आइए आपका उत्तर कहें</string>
+    <string name="msg_hint_type_friend_id">यहां अपने दोस्त की आईडी टाइप करें</string>
+    <string name="msg_history_word_empty">आपके खोजे गए शब्द यहां दिखाई देंगे</string>
+    <string name="msg_image_large_size">छवि का आकार बहुत बड़ा है (अधिकतम सीमा: 2MB)</string>
+    <string name="msg_input_folder_id">उस शब्दावली पैक का आईडी दर्ज करें जिसे आपके दोस्तों ने साझा किया है ताकि आप भी इसे सीख सकें</string>
+    <string name="msg_intro_start_learn">अपने शब्दावली में शब्दों को याद रखने के लिए सीखना शुरू करें</string>
+    <string name="msg_invite_decline">प्रतिद्वंद्वी मना करता है</string>
+    <string name="msg_invite_expried">निमंत्रण समाप्त हो गया है</string>
+    <string name="msg_invite_fail">निमंत्रण विफल रहा</string>
+    <string name="msg_invite_game">%s आपको खेलने के लिए आमंत्रित कर रहा है</string>
+    <string name="msg_invite_not_answer">प्रतिद्वंद्वी जवाब नहीं दे रहा है</string>
+    <string name="msg_learn_new_words_while_waiting">इस बीच आप नए शब्द सीख सकते हैं</string>
+    <string name="msg_load_exam">अन्य उदाहरण खोज रहे हैं...</string>
+    <string name="msg_load_img">छवि खोज रहे हैं...</string>
+    <string name="msg_load_video_ads">विज्ञापन लोड करने में विफल!</string>
+    <string name="msg_login_failed">लॉगिन विफल!</string>
+    <string name="msg_logout">आपका खाता स्वचालित रूप से लॉग आउट हो गया क्योंकि एक खाते में %d से अधिक डिवाइस लॉग इन करने की अनुमति नहीं है। नीचे उपकरणों की सूची दी गई है:</string>
+    <string name="msg_logout_fail">लॉगआउट विफल!</string>
+    <string name="msg_matching_fail">प्रतिद्वंद्वी खोजने में विफल</string>
+    <string name="msg_memo_requried" formatted="false">"भंडारण आवश्यक: %sMB 
+मुक्त भंडारण: %s"</string>
+    <string name="msg_migrate_firestore">डेटा अपडेट होने के लिए कृपया 30 सेकंड प्रतीक्षा करें!</string>
+    <string name="msg_multiple_device_access">एक और डिवाइस है जिसने सीखना शुरू कर दिया है। आप इसका उपयोग जारी नहीं रख पाएंगे।</string>
+    <string name="msg_need_complete_ex">इसे अनलॉक करने के लिए पिछला अभ्यास पूरा करें!</string>
+    <string name="msg_need_review_after_hour_count_down" formatted="false">%02 घंटे:%02 मिनट:%02 सेकंड के बाद</string>
+    <string name="msg_need_review_after_x_day">%d दिनों के बाद</string>
+    <string name="msg_need_review_after_x_hours">%d घंटे बाद</string>
+    <string name="msg_need_review_tomorrow">कल</string>
+    <string name="msg_need_review_x_word_after_time">X शब्द TIME_KEY</string>
+    <string name="msg_new_dict">हमें उन शब्दकोशों के नाम या वेबसाइट भेजें जिन्हें आप चाहते हैं</string>
+    <string name="msg_new_writer">हमें उस लेखक का नाम या फेस बुक भेजें जिसे आप चाहते हैं</string>
+    <string name="msg_no_recent_player">कोई डेटा नहीं!</string>
+    <string name="msg_no_record">आपने अभी तक अपनी आवाज़ रिकॉर्ड नहीं की है!</string>
+    <string name="msg_not_found_phonetic">ध्वन्यात्मक नहीं मिला!</string>
+    <string name="msg_not_logged_in">आप लॉग इन नहीं हैं, कृपया प्रो खाता का उपयोग करने के लिए फिर से लॉग इन करें!</string>
+    <string name="msg_not_map_exercise">कोई व्यायाम नहीं। कृपया अन्य व्यायाम प्रकार चुनें!</string>
+    <string name="msg_notice_enable_notif">4English की अनुस्मारक सूचनाओं को चालू किए बिना आप सीखे हुए शब्दों को भूल सकते हैं</string>
+    <string name="msg_notice_pro_date">%s तक</string>
+    <string name="msg_notice_re_login">सफलतापूर्वक खरीदने के बाद, यदि आपके खाते की स्थिति अपडेट नहीं हुई है तो लॉग आउट करें और फिर से लॉग इन करें</string>
+    <string name="msg_notice_swiftkey_error">स्विफ्टकी का उपयोग करते समय त्रुटियां हो सकती हैं, कृपया जारी रखने के लिए कोई अन्य कीबोर्ड चुनें!</string>
+    <string name="msg_number_word_require_learn">आपके पास सीखने के लिए %d शब्द हैं</string>
+    <string name="msg_off_notif_in_account">*आप 4English की सूचनाएं बंद कर रहे हैं, इसलिए आप सीखने के लिए अनुस्मारक प्राप्त नहीं कर सकते। चालू करने के लिए यहां क्लिक करें</string>
+    <string name="msg_oponent_left">प्रतिद्वंद्वी चला गया है!</string>
+    <string name="msg_ox_failed">अंग्रेजी शब्दकोश डाउनलोड विफल!</string>
+    <string name="msg_ox_success">अंग्रेजी शब्दकोश डाउनलोड सफल!</string>
+    <string name="msg_package_owner">यह पैकेज पहले से ही आपका है, आप इसे दोबारा नहीं खरीद सकते</string>
+    <string name="msg_per_dict">आपको त्वरित शब्दकोश खोलने के लिए अनुमति देनी होगी</string>
+    <string name="msg_permission_account">इस फ़ंक्शन को आपके Google खाते (संपर्कों के माध्यम से) तक पहुंचने की आवश्यकता है।</string>
+    <string name="msg_permission_record">कृपया ऑडियो रिकॉर्ड करने की अनुमति दें।</string>
+    <string name="msg_play_failed">यह ऑडियो नहीं चल सकता। कृपया कोई दूसरा प्रयास करें!</string>
+    <string name="msg_play_with_world">दुनिया भर के उपयोगकर्ताओं के साथ ऑनलाइन खेलें</string>
+    <string name="msg_pro_expired">(समाप्त)</string>
+    <string name="msg_pro_for_editor_choice">द्विभाषी अनुभाग में कहानियाँ पढ़ने के लिए, कृपया PRO संस्करण में अपग्रेड करें</string>
+    <string name="msg_pro_for_exercise">अधिक अभ्यास करने के लिए, कृपया PRO संस्करण में अपग्रेड करें</string>
+    <string name="msg_pro_for_folder">नया फ़ोल्डर बनाने के लिए आपको PRO में अपग्रेड करना होगा</string>
+    <string name="msg_pro_for_game">खेलने के लिए, आपको प्रो संस्करण में अपग्रेड करने की आवश्यकता है।</string>
+    <string name="msg_pro_for_grammar">पूर्ण व्याकरण सामग्री देखने के लिए, आपको PRO संस्करण में अपग्रेड करना होगा</string>
+    <string name="msg_pro_image">छवि के साथ शब्दों को सहेजने के लिए, आपको PRO संस्करण में अपग्रेड करने की आवश्यकता है।</string>
+    <string name="msg_pro_linked_account">आपका इन-ऐप खाता PRO में अपडेट कर दिया गया है</string>
+    <string name="msg_purchase_error">क्षमा करें, कुछ गलत हो गया। कृपया हमसे संपर्क करें</string>
+    <string name="msg_push_complete_streak">आपका दैनिक लक्ष्य आपका इंतजार कर रहा है!</string>
+    <string name="msg_quiz_definition">क्या यह ऊपर दिए गए शब्द की परिभाषा है?</string>
+    <string name="msg_quiz_example">क्या यह ऊपर दिए गए शब्द का उदाहरण है?</string>
+    <string name="msg_record_auto_del">*इस स्क्रीन को छोड़ने पर सभी रिकॉर्डिंग हटा दी जाएंगी</string>
+    <string name="msg_record_fail">रिकॉर्ड विफल!</string>
+    <string name="msg_recording">रिकॉर्डिंग...</string>
+    <string name="msg_repeat_off">दोहराना बंद</string>
+    <string name="msg_repeat_on">दोहराएं</string>
+    <string name="msg_report_video">इस वीडियो के उपशीर्षक में टाइपो हैं या यह चल नहीं सकता है।</string>
+    <string name="msg_report_web">इस वेबसाइट को पढ़ा नहीं जा सकता है की रिपोर्ट करें</string>
+    <string name="msg_require_close_app">कृपया अपडेट प्रक्रिया को पूरा करने के लिए 4English को बंद करें और इसे फिर से खोलें। धन्यवाद!</string>
+    <string name="msg_require_complete_last_game">आपको पिछले स्तरों को पूरा करना होगा</string>
+    <string name="msg_required_current_password">वर्तमान पासवर्ड इनपुट करें!</string>
+    <string name="msg_searching_opponent">प्रतिद्वंद्वी ढूंढ रहे हैं…</string>
+    <string name="msg_setting_enable_short_dict">शब्दों पर टैप करने पर पूरा शब्दकोश दिखाएं</string>
+    <string name="msg_setting_quiz_num_zero">सभी प्रश्न 0 पर सेट नहीं किए जा सकते</string>
+    <string name="msg_setting_sort_dict">अपने शब्दकोशों को प्राथमिकता के अनुसार छिपाएँ/दिखाएँ, क्रमबद्ध करें</string>
+    <string name="msg_share_folder_id">यह आईडी अपने दोस्तों को भेजें ताकि वे इस शब्दावली पैक को भी सीख सकें</string>
+    <string name="msg_share_id">4English पर जाएं और मेरे साथ खेलें!</string>
+    <string name="msg_show_transcript">ट्रांसक्रिप्ट दिखाएं</string>
+    <string name="msg_storage_full">पर्याप्त उपलब्ध स्टोरेज नहीं है</string>
+    <string name="msg_streak_completed">बधाई हो!!! आपने अपना दैनिक लक्ष्य पूरा कर लिया है।</string>
+    <string name="msg_suggest_vocab">4English आपकी पढ़ने की सूची, अध्ययन लक्ष्यों और आपके द्वारा अनुसरण किए जाने वाले विषयों के आधार पर आपके लिए नए शब्द सुझाएगा।</string>
+    <string name="msg_sync_vocab_success">डाउनलोड शब्दावली पैक सफल!</string>
+    <string name="msg_tap_guide">ऐप में मार्गदर्शन प्राप्त करने के लिए टैप करें</string>
+    <string name="msg_tip_click_word_vocab">आप किसी शब्द का अर्थ जानने के लिए उस पर क्लिक कर सकते हैं।</string>
+    <string name="msg_tip_long_press_phase">चयनित वाक्यांश का अनुवाद करने के लिए आप किसी शब्द पर देर तक दबा सकते हैं।</string>
+    <string name="msg_tip_shadowing">"चरण 1: मॉडल उदाहरण सुनें
+चरण 2: रिकॉर्ड दबाएं और बोलें
+चरण 3: अपनी रिकॉर्डिंग सुनें
+चरण 4: दोहराएं"</string>
+    <string name="msg_tip_tts">टिप्स: सेटिंग में टेक्स्ट टू स्पीच सक्षम करें</string>
+    <string name="msg_tip_wait_click_word">सुझाव: यह वेबसाइट पूरी तरह से लोड होने के बाद आप किसी शब्द पर क्लिक करके उसका अनुवाद कर सकते हैं!</string>
+    <string name="msg_update_failed">अपडेट विफल, कृपया पुनः प्रयास करें!</string>
+    <string name="msg_update_pro">इस सुविधा का उपयोग जारी रखने के लिए, कृपया PRO संस्करण में अपग्रेड करें।</string>
+    <string name="msg_update_pro_required_dict">इस शब्दकोश को डाउनलोड करने के लिए आपको प्रो संस्करण में अपग्रेड करने की आवश्यकता है।</string>
+    <string name="msg_update_profile">अपडेट सफल!</string>
+    <string name="msg_upgrade_pro_success">PRO अपग्रेड सफल!</string>
+    <string name="msg_upgrade_to_pro">प्रो में अपग्रेड करें!</string>
+    <string name="msg_user_busy">प्रतिद्वंद्वी व्यस्त है</string>
+    <string name="msg_user_not_found">उपयोगकर्ता नहीं मिला</string>
+    <string name="msg_voice">पाठ मशीन द्वारा बोला जाएगा (मनुष्य द्वारा नहीं)। यदि आप मनुष्य को पसंद करते हैं, तो सुनने का अभ्यास करने के लिए सुनने टैब का उपयोग करें।</string>
+    <string name="msg_voice_vn">"यह एक मशीन वॉयस है, सुनने में सटीक नहीं होगा। यदि आप सटीक आवाज़ सुनना चाहते हैं तो 'सुनें' अनुभाग के पाठ का उपयोग करें।"</string>
+    <string name="msg_wait">कृपया प्रतीक्षा करें...</string>
+    <string name="msg_waiting_reivew_without_new_word">इस बीच, आप इन शब्दों को फिर से सीख सकते हैं या अन्य शब्दावली पैक में नए शब्द सीख सकते हैं</string>
+    <string name="msg_warning_book_name">"पुस्तक को पढ़ा नहीं जा सकता क्योंकि उसका नाम बहुत लंबा है या उसमें अजीब अक्षर हैं।
+एक सरल नाम आज़माएँ।
+उदाहरण के लिए: bookname.epub"</string>
+    <string name="msg_warning_learn_new_word">"4English नए शब्द सीखने की सलाह नहीं देता है जब आपके पास समीक्षा करने के लिए शब्द हों।
+गुणवत्ता सुनिश्चित करने के लिए आपको याद दिलाए गए शब्दों की समीक्षा करनी चाहिए।"</string>
+    <string name="msg_warning_when_learn_waiting_word">यदि आप अभी फिर से सीखते हैं, तो आपका परिणाम दर्ज नहीं किया जाएगा।</string>
+    <string name="msg_watiting_your_turn">कृपया प्रतीक्षा करें… प्रतिद्वंद्वी खेल रहा है</string>
+    <string name="msg_well_done_keep_it_up">बहुत अच्छा, अच्छा काम करते रहें!</string>
+    <string name="msg_youtube_error">"कृपया यूट्यूब खोलें और पुनः प्रयास करें
+जांचें कि क्या यूट्यूब ऐप का PlayStore पर नया संस्करण है"</string>
+    <string name="msg_youtube_login">सब्सक्राइब किए गए चैनल प्राप्त करने के लिए आपको अपने YouTube खाते में साइन इन करना होगा</string>
+    <string name="mtrl_badge_numberless_content_description">नई सूचना</string>
+    <string name="mtrl_checkbox_button_icon_path_checked">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
+    <string name="mtrl_checkbox_button_icon_path_group_name">आइकन</string>
+    <string name="mtrl_checkbox_button_icon_path_indeterminate">M13.4,15 11,15 11,17 13.4,17 21,17 21,15z</string>
+    <string name="mtrl_checkbox_button_icon_path_name">आइकन पथ</string>
+    <string name="mtrl_checkbox_button_path_checked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z</string>
+    <string name="mtrl_checkbox_button_path_group_name">बटन</string>
+    <string name="mtrl_checkbox_button_path_name">बटन पथ</string>
+    <string name="mtrl_checkbox_button_path_unchecked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z M23,23H9V9h14V23z</string>
+    <string name="mtrl_checkbox_state_description_checked">सही का निशान लगाया गया</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">कुछ विकल्प चुने गए</string>
+    <string name="mtrl_checkbox_state_description_unchecked">सही का निशान नहीं लगाया गया</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s हटाएं</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d से ज़्यादा नई सूचनाएं</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">अगले महीने पर जाएं</string>
+    <string name="mtrl_picker_a11y_prev_month">पिछले महीने पर जाएं</string>
+    <string name="mtrl_picker_announce_current_range_selection">शुरू होने की तारीख चुनें: %1$s – खत्म होने की तारीख चुनें: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">फ़िलहाल, यह चुना गया है: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">कोई भी तारीख नहीं चुनी गई</string>
+    <string name="mtrl_picker_cancel">रद्द करें</string>
+    <string name="mtrl_picker_confirm">ठीक है</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">तारीख चुनें</string>
+    <string name="mtrl_picker_date_header_unselected">चुनी गई तारीख</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">खत्म होने की तारीख %1$s</string>
+    <string name="mtrl_picker_invalid_format">गलत फ़ॉर्मैट.</string>
+    <string name="mtrl_picker_invalid_format_example">उदाहरण: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s का इस्तेमाल करें</string>
+    <string name="mtrl_picker_invalid_range">तारीखों की अमान्य सीमा.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">मौजूदा साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_navigate_to_year_description">साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_out_of_range">चुनी गई तारीख मान्य नहीं है: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">शुरू होने की तारीख – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">रेंज चुनें</string>
+    <string name="mtrl_picker_range_header_unselected">शुरू होने की तारीख – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_save">सेव करें</string>
+    <string name="mtrl_picker_start_date_description">शुरू होने की तारीख %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">खत्म होने की तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">शुरू होने की तारीख</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">आज %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">कैलेंडर के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_day_selection">कैलेंडर के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">टेक्स्ट के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_year_selection">साल के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_switch_thumb_group_name">circle_group</string>
+    <string name="mtrl_switch_thumb_path_checked">M4,16 A12,12 0 0,1 16,4 H16 A12,12 0 0,1 16,28 H16 A12,12 0 0,1 4,16</string>
+    <string name="mtrl_switch_thumb_path_morphing">M0,16 A11,11 0 0,1 11,5 H21 A11,11 0 0,1 21,27 H11 A11,11 0 0,1 0,16</string>
+    <string name="mtrl_switch_thumb_path_name">वृत्त</string>
+    <string name="mtrl_switch_thumb_path_pressed">M2,16 A14,14 0 0,1 16,2 H16 A14,14 0 0,1 16,30 H16 A14,14 0 0,1 2,16</string>
+    <string name="mtrl_switch_thumb_path_unchecked">M8,16 A8,8 0 0,1 16,8 H16 A8,8 0 0,1 16,24 H16 A8,8 0 0,1 8,16</string>
+    <string name="mtrl_switch_track_decoration_path">M1,16 A15,15 0 0,1 16,1 H36 A15,15 0 0,1 36,31 H16 A15,15 0 0,1 1,16</string>
+    <string name="mtrl_switch_track_path">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
+    <string name="mtrl_timepicker_cancel">रद्द करें</string>
+    <string name="mtrl_timepicker_confirm">ठीक है</string>
+    <string name="multiple_choice">बहुविकल्पीय</string>
+    <string name="my_vocab">आपकी शब्दावली</string>
+    <string name="my_vocabulary">मेरी शब्दावली</string>
+    <string name="my_youtube">मेरा यूट्यूब</string>
+    <string name="native_body">मुख्य हिस्सा</string>
+    <string name="native_headline">हेडलाइन</string>
+    <string name="native_language">मूल भाषा</string>
+    <string name="native_media_view">मीडिया व्यू</string>
+    <string name="need_update_av">अंग्रेजी - वियतनामी अपडेट करें</string>
+    <string name="need_update_ox">अंग्रेजी शब्दकोश डेटा अपडेट करें</string>
+    <string name="new_folder">नया फ़ोल्डर</string>
+    <string name="new_pass">नया पासवर्ड</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="news">समाचार</string>
+    <string name="news_channels">समाचार चैनल</string>
+    <string name="news_containing">"समाचार जिसमें "</string>
+    <string name="night_mode">रात्रि मोड</string>
+    <string name="no">नहीं</string>
+    <string name="no_data">कोई डेटा नहीं</string>
+    <string name="no_example">(कोई उदाहरण नहीं)</string>
+    <string name="no_note">(कोई परिभाषा नहीं)</string>
+    <string name="no_photo_to_save">सहेजने के लिए कोई फ़ोटो नहीं</string>
+    <string name="no_results_found">कोई परिणाम नहीं मिला!</string>
+    <string name="no_sub_for_this_video">इस वीडियो के लिए कोई उपशीर्षक नहीं!</string>
+    <string name="no_video">कोई वीडियो नहीं!</string>
+    <string name="not_found_subscribed_channels">सब्सक्राइब किए गए चैनल नहीं मिले</string>
+    <string name="not_found_videos">सबटाइटल वाले वीडियो नहीं मिले।</string>
+    <string name="not_support">आपका डिवाइस गति बदलने का समर्थन नहीं करता है</string>
+    <string name="note">परिभाषा</string>
+    <string name="note_image_suggest">*नीचे दी गई छवियां केवल सुझाव हैं। यदि आवश्यक हो तो आप अपनी तस्वीर अपलोड कर सकते हैं</string>
+    <string name="note_time_for_link">*नोट: डाउनलोड लिंक 12 घंटे के बाद समाप्त हो जाते हैं</string>
+    <string name="notif_chanel_name">शब्दकोश सूचना</string>
+    <string name="notification">सूचना</string>
+    <string name="notification_permission_name_for_title">सूचनाएं</string>
+    <string name="notification_permission_settings_message">सूचनाएं</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="num_all_word">"शब्दों की संख्या: "</string>
+    <string name="num_online_player">" ऑनलाइन खिलाड़ी"</string>
+    <string name="num_word">शब्द</string>
+    <string name="num_word_marked">चिह्नित (%d)</string>
+    <string name="number_word_saved">%d शब्द</string>
+    <string name="number_words_saved">%s शब्द</string>
+    <string name="oder_info">ऑर्डर की जानकारी</string>
+    <string name="offline">ऑफ़लाइन</string>
+    <string name="offline_notification_text">विज्ञापन खोलने के लिए टैप करें</string>
+    <string name="offline_notification_title">वह विज्ञापन देखें जिसे आपने तब सेव किया था, जब आप ऑफ़लाइन थे</string>
+    <string name="offline_opt_in_confirm">ठीक है</string>
+    <string name="offline_opt_in_confirmation">वापस ऑनलाइन आने पर, आपको एक सूचना मिलेगी जिसमें लिंक होगा</string>
+    <string name="offline_opt_in_decline">रहने दें</string>
+    <string name="offline_opt_in_message">हम आपको एक सूचना भेजेंगे जिसमें विज्ञापन देने वाले की साइट का लिंक होगा.</string>
+    <string name="offline_opt_in_title">वापस ऑनलाइन आने पर, विज्ञापन खोलें.</string>
+    <string name="ok">ठीक है</string>
+    <string name="old_pass">पुराना पासवर्ड</string>
+    <string name="one_and_half">1 1/2x</string>
+    <string name="one_and_half_speed">"1
+&lt;sup>1&lt;/sup>/
+&lt;sub>2&lt;/sub>x"</string>
+    <string name="one_day_streak">" दिन की स्ट्रीक!"</string>
+    <string name="onex">1x</string>
+    <string name="oop_qr_error">ओह, क्यूआर त्रुटि</string>
+    <string name="open_4english">4अंग्रेज़ी खोलें</string>
+    <string name="open_full_dict">पूर्ण शब्दकोश</string>
+    <string name="option1_payment_qr">विकल्प 1: क्यूआर कोड का उपयोग करें</string>
+    <string name="option2_copy_bank_info">विकल्प 2: बैंक हस्तांतरण जानकारी कॉपी करें</string>
+    <string name="or">या</string>
+    <string name="order">मेनू व्यवस्थित करें</string>
+    <string name="other_example">अन्य उदाहरण</string>
+    <string name="out_date_version">(अपडेट की आवश्यकता है)</string>
+    <string name="package_lifetime">आजीवन</string>
+    <string name="page_left">%1$d पृष्ठ शेष</string>
+    <string name="pages_left">%1$d पृष्ठ शेष</string>
+    <string name="password">पासवर्ड</string>
+    <string name="password_must_be_at_least_6_characters">पासवर्ड कम से कम 6 अक्षर का होना चाहिए</string>
+    <string name="password_not_match">पासवर्ड मेल नहीं खाते</string>
+    <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="pay_annual_month">(मासिक भुगतान)</string>
+    <string name="pay_annual_year">(वार्षिक भुगतान)</string>
+    <string name="pay_one_time">(एकमुश्त भुगतान)</string>
+    <string name="payment_bank">बैंक हस्तांतरण के माध्यम से भुगतान करें</string>
+    <string name="payment_store">स्टोर के माध्यम से भुगतान करें</string>
+    <string name="permission_not_available_message">आपने पहले %s को अस्वीकार कर दिया है। कृपया सक्षम करने के लिए सेटिंग्स में जाएं।</string>
+    <string name="permission_not_available_open_settings_option">सेटिंग्स</string>
+    <string name="permission_not_available_title">%s उपलब्ध नहीं है</string>
+    <string name="play_initial_time">00:00</string>
+    <string name="play_mode">प्ले मोड चुनें</string>
+    <string name="play_random">रैंडम मैच</string>
+    <string name="play_with_friends">दोस्तों के साथ खेलें</string>
+    <string name="please_enter_note">कृपया एक नोट दर्ज करें</string>
+    <string name="podcast">सुनना</string>
+    <string name="podcasts_for_you">आपके लिए पॉडकास्ट</string>
+    <string name="popular">लोकप्रिय</string>
+    <string name="popular_today">आज लोकप्रिय</string>
+    <string name="posts">पोस्ट</string>
+    <string name="powered_by_google">Google द्वारा संचालित।</string>
+    <string name="practice_listen_read">कभी भी, कहीं भी सुनने और पढ़ने का अभ्यास करें</string>
+    <string name="press_again_to_exit">बाहर निकलने के लिए फिर से दबाएं</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="pro_features">pro_features_en.json</string>
+    <string name="pro_news">ऑफ़लाइन समाचार और पॉडकास्ट</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="project_id">tdt-english</string>
+    <string name="promo_code">प्रोमो कोड</string>
+    <string name="purchase_day">दिन</string>
+    <string name="purchase_month">महीना</string>
+    <string name="purchase_months">महीने</string>
+    <string name="purchase_year">वर्ष</string>
+    <string name="purchase_years">वर्ष</string>
+    <string name="push_msg_1">भाषा सीखने में सफलता की कुंजी हर दिन अभ्यास है</string>
+    <string name="push_msg_10">अंग्रेजी में समाचार लेख पढ़ने, वीडियो देखने या पॉडकास्ट सुनने के लिए 5 मिनट निकालें।</string>
+    <string name="push_msg_2">अंग्रेजी लेख पढ़ने के लिए समय निकालें</string>
+    <string name="push_msg_3">चलो अंग्रेजी सीखते हैं</string>
+    <string name="push_msg_4">चलो अंग्रेज़ी सीखने के लिए एक वीडियो देखें</string>
+    <string name="push_msg_5">अंग्रेजी अच्छी तरह सीखने की कुंजी रोज़ाना अभ्यास है! आइए अब एक छोटा सा अभ्यास करें!</string>
+    <string name="push_msg_6">एक संक्षिप्त पाठ के साथ अपने अंग्रेजी का अभ्यास जारी रखें</string>
+    <string name="push_msg_7">अंग्रेजी सीखने के लिए पॉडकास्ट सुनना कैसा रहेगा?</string>
+    <string name="push_msg_8">अंग्रेजी सीखने के लिए नियमित अभ्यास की आवश्यकता होती है। आइए अब अपने अंग्रेजी का अभ्यास करें</string>
+    <string name="push_msg_9">आइए एक ब्रेक लें और अंग्रेजी सीखें!</string>
+    <string name="push_title_1">💪 4English के साथ अंग्रेजी में महारत हासिल करें!</string>
+    <string name="push_title_2">⏰ क्या आपके पास 5 मिनट हैं?</string>
+    <string name="push_title_3">यह 4अंग्रेजी है!</string>
+    <string name="push_title_4">👋 नमस्ते!</string>
+    <string name="push_title_5">क्या आपके पास एक सेकंड है? 🤔</string>
+    <string name="push_title_6">अंग्रेजी सीखने का समय है। ⏰</string>
+    <string name="qr_payment">क्यूआर भुगतान</string>
+    <string name="quick_dictionary">4English के बाहर शब्दकोश खोलें</string>
+    <string name="quick_lookup">त्वरित खोज</string>
+    <string name="quick_quiz">त्वरित प्रश्नोत्तरी</string>
+    <string name="quiz_listening">सुनना</string>
+    <string name="quiz_multichoice_definition">बहुविकल्पीय परिभाषा</string>
+    <string name="quiz_multichoice_word">बहुविकल्पीय शब्द</string>
+    <string name="quiz_writing">लेखन</string>
+    <string name="quizlet_app_host">after_oauth</string>
+    <string name="quizlet_app_scheme">com.4english</string>
+    <string name="raleway">Raleway</string>
+    <string name="raleway_font">fonts/raleway/Raleway-Regular.ttf</string>
+    <string name="rank">रैंक</string>
+    <string name="ranking_all">शीर्ष रैंकिंग</string>
+    <string name="ranking_mine">मेरी रैंक</string>
+    <string name="rate_me_5_stars">4अंग्रेज़ी के लिए 5* रेट करें</string>
+    <string name="rate_us">"यदि आपको इस ऐप का उपयोग करना पसंद है, तो कृपया इसे रेट करने के लिए कुछ समय निकालें।
+आपके समर्थन के लिए धन्यवाद!"</string>
+    <string name="rationale_ask">अनुरोधित अनुमतियों के बिना यह ऐप ठीक से काम नहीं कर सकता है।</string>
+    <string name="rationale_ask_again">अनुरोधित अनुमतियों के बिना यह ऐप ठीक से काम नहीं कर सकता है। ऐप अनुमतियों को संशोधित करने के लिए ऐप सेटिंग्स स्क्रीन खोलें।</string>
+    <string name="read">पढ़ें</string>
+    <string name="read_ebooks">1000+ पुस्तकों तक पूर्ण पहुंच।</string>
+    <string name="read_your_book">अपनी किताब पढ़ें</string>
+    <string name="read_your_document">अपना दस्तावेज़ पढ़ें</string>
+    <string name="reading_banner_desc">एक टैप से नए शब्द समझें। गहरी सीख के लिए शब्दों को संदर्भ में सहेजें।</string>
+    <string name="reading_banner_title">तुरंत शब्दों को देखने के लिए टैप करें!</string>
+    <string name="receive_more_prize">अधिक पुरस्कार प्राप्त करें</string>
+    <string name="recent">हाल का</string>
+    <string name="recent_news">ताज़ा ख़बरें</string>
+    <string name="recent_player">हाल के प्रतिद्वंद्वी</string>
+    <string name="recent_word">हाल के शब्द</string>
+    <string name="recommendation">सिफारिशें</string>
+    <string name="record_your_voice">अपनी आवाज़ रिकॉर्ड करें</string>
+    <string name="red_rgb">\#ff0000</string>
+    <string name="remind_after_2_hours">हाँ, 1 स्तर पीछे जाएं और मुझे समीक्षा करने के लिए याद दिलाएं</string>
+    <string name="remind_this_word">इस शब्द को याद दिलाएं</string>
+    <string name="reminder">सीखने के लिए याद दिलाएं</string>
+    <string name="reminder_time">समय निर्धारित करें</string>
+    <string name="replay_video">वीडियो पुनः चलाएं</string>
+    <string name="report_error">त्रुटि की रिपोर्ट करें</string>
+    <string name="request_permission_to_read_file">ऐप को किताबें खोजने के लिए बाहरी संग्रहण अनुमति की आवश्यकता है।</string>
+    <string name="request_permission_to_save_file">ऐप को फ़ाइल सहेजने के लिए बाहरी संग्रहण अनुमति की आवश्यकता है।</string>
+    <string name="require_memo">आवश्यक भंडारण: %sMB</string>
+    <string name="resend_otp">ओटीपी पुनः भेजें</string>
+    <string name="reset_pass_button">पासवर्ड रीसेट करें</string>
+    <string name="reset_pass_success">बधाई हो! आपका पासवर्ड सफलतापूर्वक अपडेट कर दिया गया है। कृपया लॉग इन करने के लिए जारी रखें पर टैप करें।</string>
+    <string name="restore_payment">खरीदें बहाल करें</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="review_downloaded_packs">डाउनलोड किए गए पैक की समीक्षा करें</string>
+    <string name="review_more_vocab">और शब्दावली की समीक्षा करें?</string>
+    <string name="rule_banned">%1$s प्रतिबंधित है। %2$d अंक तक पहुंचने वाला पहला व्यक्ति जीतता है!</string>
+    <string name="rule_banned_public">%1$s प्रतिबंधित है</string>
+    <string name="rule_end_with">सभी शब्दों का अंत %1$s से होना चाहिए। %2$d अंकों तक पहुंचने वाला पहले जीतता है!</string>
+    <string name="rule_end_with_public">सभी शब्दों का अंत %1$s से होना चाहिए</string>
+    <string name="rule_end_without">पहले %1$d अंक प्राप्त करें बिना शब्दों को \"%2$s\" पर समाप्त किए</string>
+    <string name="rule_game_basic">बुनियादी</string>
+    <string name="rule_less_time">प्रति बारी कम समय। %1$d अंक जीतने वाला पहला व्यक्ति</string>
+    <string name="rule_limit_turn">%2$d पारियों में %1$d अंक प्राप्त करें।</string>
+    <string name="rule_max_length">वर्ण सीमा: %1$d। %2$d अंकों तक पहुंचने वाला पहला व्यक्ति जीतता है।</string>
+    <string name="rule_max_length_public">वर्ण सीमा: %1$d</string>
+    <string name="rule_min_length">%1$d अक्षरों से छोटे कोई शब्द नहीं। %2$d अंकों तक पहुंचने वाला पहले जीतता है!</string>
+    <string name="rule_min_length_public">%1$d अक्षरों से कम कोई शब्द नहीं</string>
+    <string name="rule_min_width_end_without_public">%1$d अक्षरों से कम और \"%2$s\" के साथ समाप्त होने वाले कोई शब्द नहीं</string>
+    <string name="rule_reach">%1$d अंकों तक पहुंचने वाला पहला खिलाड़ी जीतता है</string>
+    <string name="rule_start_with">सभी शब्दों की शुरुआत \"%1$s\" से होनी चाहिए। %2$d अंक तक पहुंचने वाला पहला व्यक्ति जीतता है।</string>
+    <string name="rule_start_with_public">सभी शब्दों की शुरुआत \"%1$s\" से होनी चाहिए</string>
+    <string name="s1">इमेज सेव करें</string>
+    <string name="s1_fix_video">चरण 1: सेटिंग्स दबाएं, यूट्यूब सेटिंग्स पर जाएं</string>
+    <string name="s2">विज्ञापन को तस्वीर गैलरी में इमेज सेव करने का अनुमति देना चाहते हैं?</string>
+    <string name="s2_fix_video">चरण 2: यूट्यूब को फोर्स स्टॉप करें</string>
+    <string name="s3">मंज़ूरी दें</string>
+    <string name="s3_fix_video">चरण 3: यूट्यूब का स्टोरेज उपयोग साफ़ करें (डेटा, कैश)</string>
+    <string name="s4">खारिज करें</string>
+    <string name="s4_fix_video">चरण 4: 4English को पुनरारंभ करें और पुनः प्रयास करें</string>
+    <string name="s5">कैलेंडर इवेंट बनाएं</string>
+    <string name="s6">विज्ञापन को कैलेंडर इवेंट बनाने दें?</string>
+    <string name="s7">जाँच विज्ञापन</string>
+    <string name="saturday">शनि</string>
+    <string name="save">सहेजें</string>
+    <string name="save_image_failed">छवि सहेजना विफल</string>
+    <string name="save_img_failed">छवि सहेजने में विफल</string>
+    <string name="save_note">नोट सहेजें</string>
+    <string name="save_percent">%s बचाएं</string>
+    <string name="save_to_favorite">पसंदीदा में सहेजें</string>
+    <string name="save_vocab_count">%d बार सहेजा गया</string>
+    <string name="saved">सहेजा गया!</string>
+    <string name="saved_to_download_folder">डाउनलोड फ़ोल्डर में सहेजा गया</string>
+    <string name="script_tag">&lt;script type=\"text/javascript\" src=\"%s\">&lt;/script></string>
+    <string name="script_tag_method_call">"\"
+&lt;script type=\"text/javascript\">%s&lt;/script>\""</string>
+    <string name="search">4E अनुवाद</string>
+    <string name="search_empty_text">कोई परिणाम नहीं।</string>
+    <string name="search_failure_text">कुछ गलत हो गया।</string>
+    <string name="search_for">खोजें</string>
+    <string name="search_from_news">समाचारों से खोजें</string>
+    <string name="search_google">खोजें</string>
+    <string name="search_hint">पुस्तक में खोजें</string>
+    <string name="search_hint_native">नाम से खोजें</string>
+    <string name="search_local_book">अपनी किताब खोजें</string>
+    <string name="search_menu_title">खोजें</string>
+    <string name="search_or_type_url">खोजें या यूआरएल टाइप करें</string>
+    <string name="searchbar_scrolling_view_behavior">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
+    <string name="searchview_clear_text_content_description">टेक्स्ट मिटाएं</string>
+    <string name="searchview_navigation_content_description">वापस जाएं</string>
+    <string name="second">से</string>
+    <string name="seconds">सेकंड</string>
+    <string name="see_all_vocab_pack">सभी शब्दावली पैक</string>
+    <string name="select_a_meaning">एक परिभाषा चुनें</string>
+    <string name="select_ex">चुनें</string>
+    <string name="select_folder">फ़ोल्डर चुनें</string>
+    <string name="select_image">छवि चुनें</string>
+    <string name="select_other_example">एक और उदाहरण चुनें</string>
+    <string name="select_play_mode">प्ले मोड</string>
+    <string name="select_topic">विषय चुनें</string>
+    <string name="select_your_language">भाषा चुनें</string>
+    <string name="select_your_native_language">अपनी मूल भाषा चुनें</string>
+    <string name="send_to">भेजें</string>
+    <string name="send_to_friend">दोस्तों को भेजें</string>
+    <string name="sent_email">"OTP दर्ज करें जो 
+ ईमेल पर भेजा गया है:"</string>
+    <string name="sent_otp_again">ओटीपी प्राप्त नहीं हुआ? ओटीपी पुनः भेजें</string>
+    <string name="sethighlightstyle">javascript:setHighlightStyle(\"%s\");</string>
+    <string name="setmediaoverlaystyle">javascript:setMediaOverlayStyle(\"%s\")</string>
+    <string name="setting_auto_next_card">फ्लैशकार्ड स्वतः चलाएं</string>
+    <string name="setting_auto_speak_flip_card">जब आप कार्ड पलटते हैं</string>
+    <string name="setting_auto_speak_next_card">जब आप नए कार्ड पर जाते हैं</string>
+    <string name="setting_card_definition">परिभाषा</string>
+    <string name="setting_card_example">उदाहरण</string>
+    <string name="setting_card_image">छवि</string>
+    <string name="setting_default_voice">आवाज़</string>
+    <string name="setting_display_card_info_subtitle">जो जानकारी बंद है वह उल्टी तरफ प्रदर्शित होगी।</string>
+    <string name="setting_display_card_info_title">शब्दों के साथ एक ही तरफ प्रदर्शित जानकारी</string>
+    <string name="setting_enable_short_dict">पूर्ण शब्दकोश मोड</string>
+    <string name="setting_learn_auto_play_audio">स्वचालित रूप से बोलें</string>
+    <string name="setting_learn_display_image">छवियां प्रदर्शित करें</string>
+    <string name="setting_max_learn_number">शब्दों की अधिकतम संख्या/सत्र</string>
+    <string name="setting_max_number_quiz">सीखे गए शब्दों के लिए प्रश्नों की संख्या</string>
+    <string name="setting_time_flip_card">फ्लैशकार्ड पलटने का समय</string>
+    <string name="setting_time_next_card">फ्लैशकार्ड ले जाने का समय</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="settings_dictionary">शब्दकोशों को क्रमबद्ध करें</string>
+    <string name="share">साझा करें</string>
+    <string name="share_on_facebook">दोस्तों के साथ साझा करें</string>
+    <string name="share_qr_via">क्यूआर कोड साझा करें...</string>
+    <string name="share_vocab_pack">शब्दावली पैक साझा करें</string>
+    <string name="short_text_pro_for_msg_update">PRO में अपग्रेड करें</string>
+    <string name="short_writers">सोशल नेटवर्क</string>
+    <string name="shortcut_setting">शॉर्टकट सेटिंग्स</string>
+    <string name="shortcuts">संसाधन</string>
+    <string name="shorts">शॉर्ट्स</string>
+    <string name="shuffe_off">शफ़ल ऑफ़</string>
+    <string name="shuffe_on">शफ़ल चालू</string>
+    <string name="shuffle">शफ़ल</string>
+    <string name="side_sheet_accessibility_pane_title">साइड शीट</string>
+    <string name="side_sheet_behavior">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="sign_in">साइन इन करें</string>
+    <string name="sign_in_done">साइन इन सफलतापूर्वक हुआ</string>
+    <string name="sign_in_to_follow">आपको फ़ॉलो करने के लिए साइन इन करना होगा।</string>
+    <string name="sign_in_to_purchase">खरीदारी के लिए आपको साइन इन करना होगा।</string>
+    <string name="sign_in_to_save_bookmark">पसंदीदा सहेजने के लिए आपको साइन इन करना होगा।</string>
+    <string name="sign_in_to_save_words">शब्दों को सहेजने के लिए आपको साइन इन करना होगा!</string>
+    <string name="sign_in_to_use">इस फ़ंक्शन का उपयोग करने के लिए आपको साइन इन करना होगा!</string>
+    <string name="sign_in_to_view">डेटा देखने के लिए आपको साइन इन करना होगा!</string>
+    <string name="sign_in_with_apple">Apple से साइन इन करें</string>
+    <string name="sign_in_with_email">ईमेल से साइन इन करें</string>
+    <string name="sign_in_with_facebook">फेसबुक से साइन इन करें</string>
+    <string name="sign_in_with_google">Google से साइन इन करें</string>
+    <string name="sign_up">साइन अप करें</string>
+    <string name="sign_up_with_apple">Apple से साइन अप करें</string>
+    <string name="sign_up_with_email">ईमेल से साइन अप करें</string>
+    <string name="sign_up_with_facebook">फेसबुक से साइन अप करें</string>
+    <string name="sign_up_with_google">Google से साइन अप करें</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="size">"आकार: "</string>
+    <string name="skipped_word">छोड़े गए शब्द</string>
+    <string name="skipped_words">छोड़े गए शब्द(%d)</string>
+    <string name="some_day_streak">" दिन की लकीर!"</string>
+    <string name="something_wrong">क्षमा करें, कुछ गलत हो गया</string>
+    <string name="song_ngu">द्विभाषी</string>
+    <string name="sort_a_z">नाम: ए से जेड</string>
+    <string name="sort_by">इस प्रकार छाँटें:</string>
+    <string name="sort_newest_time">नवीनतम</string>
+    <string name="sort_not_learn_yet">अभी तक सीखा नहीं है</string>
+    <string name="sort_oldest_time">सबसे पुराना</string>
+    <string name="sort_time_to_review">समीक्षा का समय</string>
+    <string name="sort_word_title">शब्दों को छाँटें</string>
+    <string name="sort_z_a">नाम: जेड से ए</string>
+    <string name="spaced_repetition">अंतरालित पुनरावृत्ति</string>
+    <string name="speed_text_to_speech">टेक्स्ट को स्पीच की गति</string>
+    <string name="sponsored">प्रायोजित</string>
+    <string name="start_record_your_voice">अपनी आवाज़ रिकॉर्ड करना शुरू करें</string>
+    <string name="status_account_pro">आपका खाता PRO है</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_completed_use">पूर्ण</string>
+    <string name="status_not_completed_use">अधूरा</string>
+    <string name="step1">हम हर जगह अंग्रेजी सीखने वालों के लिए, किसी भी उद्देश्य के लिए 30 शब्दकोश (और अभी भी अपडेट हो रहे हैं) प्रदान करते हैं!</string>
+    <string name="step2">आपकी पसंद के अनुसार सभी विभिन्न संसाधन। सामग्री का आनंद लेते हुए अपने पढ़ने और सुनने के कौशल में सुधार करें।</string>
+    <string name="step3">कम अध्ययन करें - वैज्ञानिक विधि - स्पेस्ड रेपिटिशन के साथ अधिक नए शब्द याद रखें।</string>
+    <string name="step4">शब्दावली खेलें और अपने दोस्तों के साथ प्रतिस्पर्धा करें!</string>
+    <string name="style">शैली</string>
+    <string name="style_underline">"
+&lt;u style=\" border-bottom: 1px dashed #bcbcbc; text-decoration: none;\"
+>शैली&lt;/u>"</string>
+    <string name="sub_month">/माह</string>
+    <string name="sub_title_list_word">"- आपको केवल शब्द दर्ज करने की आवश्यकता है, 4English स्वचालित रूप से आपके लिए परिभाषा, उदाहरण और चित्र प्राप्त कर लेगा।
+- शब्दों को अलग करने के लिए लाइन तोड़ें।
+- अधिकतम 100 शब्द"</string>
+    <string name="sub_week">/सप्ताह</string>
+    <string name="subscribers">सब्सक्राइबर</string>
+    <string name="subtitle_audio">1000+ सुनने के अभ्यास विषयों के अनुसार छांटे गए</string>
+    <string name="subtitle_banner_book">या अपनी किताबें अपलोड करें</string>
+    <string name="subtitle_banner_browser">किसी भी वेबसाइट पर शब्दों को देखें और वाक्यों का अनुवाद करें</string>
+    <string name="subtitle_banner_exercise">संशोधन के लिए कई विकल्प</string>
+    <string name="subtitle_banner_song_ngu">"चयनित 
+ अनुवादक टीम द्वारा अनुवादित"</string>
+    <string name="subtitle_banner_word_pack">आपके लिए डिज़ाइन किया गया</string>
+    <string name="subtitle_blog">अंग्रेजी ज्ञान के बारे में छोटे लेख</string>
+    <string name="subtitle_book">1000+ किताबें उपलब्ध हैं। इसका अर्थ जानने के लिए शब्दों को छुएं।</string>
+    <string name="subtitle_file">पढ़ने के लिए फ़ाइल अपलोड करें। इसका अर्थ जानने के लिए शब्दों पर टैप करें।</string>
+    <string name="subtitle_for_new_word">नए शब्द सीखने के तरीके सेट करना, अभी तक स्तर 1 नहीं</string>
+    <string name="subtitle_for_review_word">समीक्षित शब्दों, स्तर 1 और उससे ऊपर के शब्दों को सीखने के तरीके सेट करना</string>
+    <string name="subtitle_game">मज़ेदार शब्द श्रृंखला खेल के साथ शब्दावली सीखना</string>
+    <string name="subtitle_grammar">उदाहरण और विस्तृत स्पष्टीकरण हैं</string>
+    <string name="subtitle_listening_news">चयनित अंतर्राष्ट्रीय समाचार लेख सुनें</string>
+    <string name="subtitle_listening_shorts">द्विभाषी क्लिप के साथ स्वाभाविक रूप से समझें</string>
+    <string name="subtitle_listening_youtube">अपने पसंदीदा वीडियो सुनने का अभ्यास करने के लिए यूट्यूब कनेक्ट करें</string>
+    <string name="subtitle_news">रोजाना अपडेट होता है। अर्थ जानने के लिए शब्दों को स्पर्श करें।</string>
+    <string name="subtitle_select_shortcut">यह जानकारी आपके लिए उपयुक्त सामग्री की सिफारिश करने के लिए उपयोग की जाती है</string>
+    <string name="subtitle_social">सोशल मीडिया पोस्ट को समझने के लिए पढ़ने का अभ्यास करें</string>
+    <string name="subtitle_video">विषयों के अनुसार 1000+ वीडियो</string>
+    <string name="subtitles">उपशीर्षक</string>
+    <string name="successful">सफल</string>
+    <string name="suggest_new_words_from_this_pack_first">पहले इस पैक से नए शब्दों का सुझाव दें</string>
+    <string name="sunday">रवि</string>
+    <string name="supports">समर्थन</string>
+    <string name="sure_to_delete_bookmark">क्या आप इस आइटम को हटाना चाहते हैं?</string>
+    <string name="sure_to_delete_dict">क्या आप निश्चित रूप से यह डेटा हटाना चाहते हैं?</string>
+    <string name="sure_to_delete_folder">क्या आप इस फ़ोल्डर को हटाने के लिए निश्चित हैं?</string>
+    <string name="sure_to_delete_offline_audio">क्या आप इस ऑडियो को हटाना चाहते हैं?</string>
+    <string name="sure_to_delete_video">क्या आप इस वीडियो को हटाना चाहते हैं?</string>
+    <string name="sure_to_delete_word">क्या आप इस शब्द को हटाना सुनिश्चित हैं?</string>
+    <string name="sw_report_wrong_definition">गलत परिभाषा या कोई परिभाषा नहीं</string>
+    <string name="sw_report_wrong_example">गलत उदाहरण या कोई उदाहरण नहीं</string>
+    <string name="sw_report_wrong_hint">अन्य समस्याएं लिखें</string>
+    <string name="sw_report_wrong_image">अनुपयुक्त छवि या कोई छवि नहीं</string>
+    <string name="sw_report_wrong_ipa">गलत उच्चारण, ध्वन्यात्मकता या उनकी कमी</string>
+    <string name="tab_listening">सुनना</string>
+    <string name="tab_mastered">मास्टर्ड</string>
+    <string name="tab_news_by_source">समाचार वेबसाइटों द्वारा</string>
+    <string name="tab_news_by_topic">विषय के अनुसार</string>
+    <string name="tab_not_seen">नहीं देखा</string>
+    <string name="tab_note_sure">निश्चित नहीं</string>
+    <string name="tab_reading">पढ़ना</string>
+    <string name="tab_review">आपकी शब्दावली</string>
+    <string name="tab_wrong">सीखना</string>
+    <string name="take_a_tour">एक टूर लें</string>
+    <string name="td_tag">\"\u0009\u0009&lt;td>%s&lt;/td>\u0009&lt;/tr>\"</string>
+    <string name="terms_amp_conditions">सेवा की शर्तें</string>
+    <string name="terms_of_service">सेवा की शर्तें</string>
+    <string name="text_to_speech_in_news">समाचार में टेक्स्ट टू स्पीच</string>
+    <string name="thanh_toan">चेकआउट</string>
+    <string name="thanks_feedback">आपकी प्रतिक्रिया के लिए धन्यवाद</string>
+    <string name="this_ad_helps_us_keep_education_free">नीचे दिया गया यह विज्ञापन हमें इस ऐप को विकसित करने और इसे मुफ्त डाउनलोड रखने में मदद करता है।</string>
+    <string name="this_field_is_required">यह फ़ील्ड आवश्यक है</string>
+    <string name="thursday">गुरु</string>
+    <string name="time_recent">हाल ही में</string>
+    <string name="time_second">%d सेकंड</string>
+    <string name="time_to_study">यह समीक्षा का समय है</string>
+    <string name="tip_press_and_hold">पुनः व्यवस्थित करने के लिए दबाकर रखें और खींचें</string>
+    <string name="tip_save_word">शब्द को परिभाषा, उदाहरण और चित्र के साथ सहेजना आपको फ्लैशकार्ड और क्विज़ के साथ इसे आसानी से समीक्षा करने में मदद करेगा।</string>
+    <string name="title_about">के बारे में</string>
+    <string name="title_account_info">आपकी खाता जानकारी</string>
+    <string name="title_add_dict">नया शब्दकोश अनुरोध करें</string>
+    <string name="title_add_more_word_to_pack">नई शब्दावली जोड़ें</string>
+    <string name="title_add_writer">नया लेखक अनुरोध करें</string>
+    <string name="title_answer_hint">उत्तर:</string>
+    <string name="title_auto_play_audio_dict">शब्दों को देखते समय स्वचालित रूप से बोलें</string>
+    <string name="title_banner_book">आपके लिए 500+ किताबें उपलब्ध हैं</string>
+    <string name="title_banner_browser">अंग्रेजी सीखने के लिए इंटरनेट पर सर्फ करें</string>
+    <string name="title_banner_exercise">500+ छोटे अभ्यास</string>
+    <string name="title_banner_song_ngu">1000 से अधिक विशेष द्विभाषी पाठ</string>
+    <string name="title_banner_word_pack">600 शब्दावली विषय</string>
+    <string name="title_completed">पूर्ण</string>
+    <string name="title_continue_learning">जारी रखें</string>
+    <string name="title_crop">छवि क्रॉप करें</string>
+    <string name="title_delete_account">क्या आप निश्चित रूप से यह खाता हटाना चाहते हैं?</string>
+    <string name="title_dialog_how_to_use">ऐप का प्रभावी ढंग से उपयोग करने के लिए, आइए इन कार्यों को पूरा करें</string>
+    <string name="title_dialog_select_exercise_level">अभ्यास स्तर चुनें</string>
+    <string name="title_dialog_select_exercise_type">व्यायाम का प्रकार चुनें</string>
+    <string name="title_dialog_setting_card_time_next">फ्लैशकार्ड का समय (सेकंड)</string>
+    <string name="title_dialog_update_info">शुरू करने के लिए जानकारी अपडेट करें</string>
+    <string name="title_edit_folder_name">फ़ोल्डर का नाम संपादित करें</string>
+    <string name="title_english_dict">अंग्रेजी - अंग्रेजी</string>
+    <string name="title_error">त्रुटि(%s)</string>
+    <string name="title_for_known_word">यह शब्द मेमोरी लेवल 1 माना जाता है</string>
+    <string name="title_for_known_word_level_1">स्मृति स्तर 1</string>
+    <string name="title_for_new_word">नया शब्द</string>
+    <string name="title_for_review_word">समीक्षित शब्द</string>
+    <string name="title_force_update">अपडेट आवश्यक है</string>
+    <string name="title_general">सामान्य</string>
+    <string name="title_guide_phrase">वाक्यांश का अनुवाद करें</string>
+    <string name="title_history">इतिहास</string>
+    <string name="title_history_word">हाल के शब्द</string>
+    <string name="title_input_game_code">गेम कोड</string>
+    <string name="title_input_id">आईडी दर्ज करें</string>
+    <string name="title_level_definition">स्मृति स्तर</string>
+    <string name="title_link_file">फ़ाइल लिंक:</string>
+    <string name="title_list_vocab">आपकी शब्दावली</string>
+    <string name="title_log_in">लॉग इन करें</string>
+    <string name="title_lose">हार:</string>
+    <string name="title_multi_skip">छोड़ने के लिए शब्द चुनें</string>
+    <string name="title_my_data">गैलरी</string>
+    <string name="title_my_uploads">हाल के दस्तावेज़</string>
+    <string name="title_name">नाम</string>
+    <string name="title_name_vocab_pack">शब्दावली पैक का नाम</string>
+    <string name="title_notice">सूचना!</string>
+    <string name="title_notice_vn">Chú ý!</string>
+    <string name="title_num_result_word">%d शब्द</string>
+    <string name="title_num_week">" सप्ताह"</string>
+    <string name="title_number_word_learning">सीखा</string>
+    <string name="title_pro_lifetime">प्रो लाइफटाइम</string>
+    <string name="title_pro_packages">भुगतान योजनाएं</string>
+    <string name="title_quiz_listening">सुनें और लिखें</string>
+    <string name="title_quiz_listening_num">सुनने के प्रश्नों की संख्या</string>
+    <string name="title_quiz_multiple_choice_num">बहुविकल्पीय प्रश्नों की संख्या</string>
+    <string name="title_quiz_true_false_num">सत्य/असत्य प्रश्नों की संख्या</string>
+    <string name="title_quiz_writing_num">लेखन प्रश्नों की संख्या</string>
+    <string name="title_releated">अन्य समाचार</string>
+    <string name="title_report_error">त्रुटि की रिपोर्ट करें</string>
+    <string name="title_report_wrong_word">गलत शब्द की रिपोर्ट करें</string>
+    <string name="title_require_login">गेम खेलने के लिए लॉग इन करें</string>
+    <string name="title_reset_game">( %s पर रीसेट करें)</string>
+    <string name="title_rule">नियम</string>
+    <string name="title_search_vocab">खोजें</string>
+    <string name="title_select_answer">एक उत्तर चुनें</string>
+    <string name="title_select_charactor">एक चरित्र चुनें</string>
+    <string name="title_select_game_room">एक कमरा चुनें</string>
+    <string name="title_select_img_size">छवि चुनें (अधिकतम 2MB)</string>
+    <string name="title_select_shortcut">अपनी पसंद के सीखने के संसाधन चुनें</string>
+    <string name="title_select_topic">कृपया कम से कम 3 विषय चुनें!</string>
+    <string name="title_select_word_for_learn">सीखने के लिए शब्द चुनना (%1$d/%2$d)</string>
+    <string name="title_select_word_level">शब्द का स्तर चुनें</string>
+    <string name="title_select_word_type">शब्द का प्रकार चुनें</string>
+    <string name="title_setting_card_time_flip">फ्लैशकार्ड पलटने का समय (सेकंड)</string>
+    <string name="title_setting_dict">अधिक शब्दकोश</string>
+    <string name="title_setting_flashcard">फ्लैशकार्ड सेट करना</string>
+    <string name="title_settings_dialog">अनुमतियाँ आवश्यक हैं</string>
+    <string name="title_shadowing">छायांकन</string>
+    <string name="title_social_shortcut">सामाजिक</string>
+    <string name="title_sp_definition">Spaced Repetition क्या है?</string>
+    <string name="title_step1">विभिन्न शब्दकोश</string>
+    <string name="title_step2">समाचार, किताबें, पॉडकास्ट और वीडियो</string>
+    <string name="title_step3">शब्दावली सीखें</string>
+    <string name="title_step4">सीखते समय गेम खेलें</string>
+    <string name="title_sub_month">" महीने"</string>
+    <string name="title_sub_one_month">मासिक</string>
+    <string name="title_sub_week">साप्ताहिक</string>
+    <string name="title_sub_year">वार्षिक</string>
+    <string name="title_suggest_for_you">आपके लिए अनुशंसित</string>
+    <string name="title_suggest_word">आपके लिए सुझाए गए शब्द</string>
+    <string name="title_tab_vocab_sp">वैज्ञानिक विधि - स्पेस्ड रिपीटेशन आइकन के साथ कम अध्ययन करें - अधिक नए शब्द याद रखें</string>
+    <string name="title_target_streak">सीखने का लक्ष्य</string>
+    <string name="title_trending_word_item">आज के सबसे अधिक सहेजे गए शब्द</string>
+    <string name="title_user_review">रेटिंग और समीक्षाएं</string>
+    <string name="title_vocab_by_tag">आपके लिए विषय सूची</string>
+    <string name="title_vocab_downloaded">डाउनलोड की गई शब्दावली</string>
+    <string name="title_win">जीत:</string>
+    <string name="toast_image_intent_null">छवि पिकर विकल्प गायब है!</string>
+    <string name="toast_message">टोस्ट संदेश</string>
+    <string name="today">आज</string>
+    <string name="tooltip_get_list_highlight">हाइलाइट किए गए शब्दों को देखने के लिए यहां क्लिक करें</string>
+    <string name="tooltip_highlight">ऑफ़लाइन होने के लिए यहां क्लिक करें</string>
+    <string name="topics">विषय</string>
+    <string name="total_amount">कुल राशि:</string>
+    <string name="total_words_d">कुल शब्द (%d)</string>
+    <string name="tr_tag">"
+        
+        
+        %s
+        
+      "</string>
+    <string name="trans_para">अनुच्छेद का अनुवाद करें</string>
+    <string name="translate">अनुवाद करें</string>
+    <string name="translate_browser">ब्राउज़र का अनुवाद करें</string>
+    <string name="translate_para">अनुवाद करें</string>
+    <string name="translation_box">अनुवाद बॉक्स</string>
+    <string name="truyen_chem">मैकारोनिक कहानी</string>
+    <string name="try_again">फिर से प्रयास करें</string>
+    <string name="tuesday">मंगल</string>
+    <string name="tutorial_float">आपके द्वारा कॉपी किया गया कोई भी टेक्स्ट यहां स्वचालित रूप से अनुवादित हो जाएगा</string>
+    <string name="two_x">2x</string>
+    <string name="txt_result">परिणाम</string>
+    <string name="type">प्रकार</string>
+    <string name="type_the_correct_word">सही शब्द टाइप करें।</string>
+    <string name="typing">टाइप कर रहा है</string>
+    <string name="ucrop_crop">क्रॉप</string>
+    <string name="ucrop_error_input_data_is_absent">इनपुट और आउटपुट दोनों Uri निर्दिष्ट होने चाहिए</string>
+    <string name="ucrop_label_edit_photo">फोटो संपादित करें</string>
+    <string name="ucrop_label_original">मूल</string>
+    <string name="ucrop_menu_crop">फसल</string>
+    <string name="ucrop_mutate_exception_hint">इसलिए, प्री-एल डिवाइस पर काम करने के लिए अपने ऐप में रंग संसाधन (ucrop_color_toolbar_widget) को ओवरराइड करें</string>
+    <string name="ucrop_rotate">घुमाएँ</string>
+    <string name="ucrop_scale">स्केल</string>
+    <string name="unable_share_photo">फ़ोटो साझा करने में असमर्थ</string>
+    <string name="understand_3000_viet">Understand over 3000 vocabulary words in context.</string>
+    <string name="unfollow">अनुसरण</string>
+    <string name="unlimited_learn">वास्तविक दुनिया की सामग्री के साथ असीमित सीखना</string>
+    <string name="unlimited_trans_highlight">असीमित अनुवाद, खोज और शब्दावली हाइलाइट सुविधाएँ।</string>
+    <string name="unlock_game">सभी गेम स्तरों को अनलॉक करता है।</string>
+    <string name="upgrade_pro_now">अभी प्रो में अपग्रेड करें!</string>
+    <string name="upgrade_to_pro">प्रो में अपग्रेड करें</string>
+    <string name="user_reviews">review_en.json</string>
+    <string name="valid_rule_end_with">सभी शब्दों का अंत %1$s से होना चाहिए</string>
+    <string name="valid_rule_end_without">शब्द \"%s\" के साथ समाप्त नहीं हो सकते</string>
+    <string name="valid_rule_max_length">%1$d अक्षरों से छोटे कोई शब्द नहीं</string>
+    <string name="valid_rule_min_length">शब्द %1$d अक्षर या उससे लंबे होने चाहिए।</string>
+    <string name="valid_rule_start_with">शब्द \"%s\" से शुरू होना चाहिए।</string>
+    <string name="verify_code">कोड सत्यापित करें</string>
+    <string name="version">संस्करण</string>
+    <string name="video">वीडियो</string>
+    <string name="videos_for_you">आपके लिए वीडियो</string>
+    <string name="vietnamese_available">द्विभाषी</string>
+    <string name="vocab_downloaded">डाउनलोड किया गया</string>
+    <string name="vocab_pack">शब्दावली पैक</string>
+    <string name="vocabulary">शब्दावली</string>
+    <string name="vocabulary_empty_msg">"आपकी शब्दावली खाली है।
+नए शब्द सहेजने के लिए समाचार पढ़ें!"</string>
+    <string name="vocabulary_folder">शब्दावली फ़ोल्डर</string>
+    <string name="vocabulary_pack">शब्दावली पैक</string>
+    <string name="vocabulary_packs">शब्दावली पैक</string>
+    <string name="waiting">प्रतीक्षा</string>
+    <string name="watch">देखें</string>
+    <string name="watch_ad_to_continue">इस सुविधा का %1$d बार मुफ्त उपयोग करने के लिए कृपया एक पूरा छोटा वीडियो देखें।</string>
+    <string name="watch_ad_to_continue_highlight">हाइलाइट सुविधा का उपयोग करने के लिए आपके निःशुल्क समय समाप्त हो गए हैं। कृपया उस सुविधा का %d बार निःशुल्क उपयोग करने के लिए एक पूरा छोटा वीडियो देखें।</string>
+    <string name="watch_ad_to_continue_video">इस सुविधा का निःशुल्क उपयोग जारी रखने के लिए कृपया एक पूरा छोटा वीडियो देखें। दिखाई देने वाला विज्ञापन हमें इस ऐप को विकसित करने और इसे निःशुल्क रखने में मदद करता है।</string>
+    <string name="watch_ads_to_continue">जारी रखने के लिए एक विज्ञापन देखें</string>
+    <string name="watch_this_video_with_subtitles">इस वीडियो को सबटाइटल के साथ देखें।</string>
+    <string name="watermark_label_prefix">AdMob -</string>
+    <string name="web_favor">पसंदीदा</string>
+    <string name="web_title">शीर्षक</string>
+    <string name="websites">ब्राउज़र</string>
+    <string name="websites_for_you">आपके लिए वेबसाइटें</string>
+    <string name="wednesday">बुध</string>
+    <string name="welcome_back">वापस स्वागत है।</string>
+    <string name="white_rgb">\#ffffff</string>
+    <string name="why_are_you_learning_english">आप अंग्रेजी क्यों सीख रहे हैं?</string>
+    <string name="widget_badge_new">नया</string>
+    <string name="widget_badge_review">समीक्षा</string>
+    <string name="widget_badge_trending">लोकप्रिय</string>
+    <string name="widget_description">4अंग्रेजी शब्दावली विजेट – आपका दैनिक शब्दावली शब्द दिखाता है</string>
+    <string name="widget_open_app">सीखना शुरू करने के लिए ऐप खोलें</string>
+    <string name="widget_stale_hint">रिफ्रेश की आवश्यकता है – ऐप खोलें</string>
+    <string name="wikipedia">विकिपीडिया</string>
+    <string name="win">जीत</string>
+    <string name="word">शब्द</string>
+    <string name="word_level_1">स्तर 1</string>
+    <string name="word_level_2">स्तर 2</string>
+    <string name="word_level_3">स्तर 3</string>
+    <string name="word_level_4">स्तर 4</string>
+    <string name="word_level_5">स्तर 5</string>
+    <string name="word_level_max">मास्टर</string>
+    <string name="word_type_adj">विशेषण</string>
+    <string name="word_type_conj">संयोजक</string>
+    <string name="word_type_noun">संज्ञा</string>
+    <string name="word_type_prep">पूर्वसर्ग</string>
+    <string name="word_type_pronoun">सर्वनाम</string>
+    <string name="word_type_verb">क्रिया</string>
+    <string name="words_you_saved">सहेजे गए शब्द</string>
+    <string name="writing">लेखन</string>
+    <string name="xhtml_mime_type">application/xhtml+xml</string>
+    <string name="yes">हाँ</string>
+    <string name="you_can_translate_everywhere_with_small_window">आप हर जगह अनुवाद कर सकते हैं</string>
+    <string name="you_haven_t_favored_any_websites_yet">आपने अभी तक किसी भी वेबसाइट को पसंदीदा नहीं बनाया है।</string>
+    <string name="you_need_study">आपको समीक्षा करने की आवश्यकता है</string>
+    <string name="your_answer">आपका उत्तर</string>
+    <string name="your_id">आपका आईडी</string>
+    <string name="your_memory_level">स्मृति स्तर</string>
+    <string name="your_tel_number_email_or_facebook">आपका टेलीफोन नंबर, ईमेल या फेसबुक...</string>
+    <string name="zip">.zip</string>
+</resources>

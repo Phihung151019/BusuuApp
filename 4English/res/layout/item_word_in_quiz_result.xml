@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content" android:background="@drawable/bg_answer_quiz" android:paddingLeft="20.0dp" android:paddingTop="7.0dp" android:paddingRight="20.0dp" android:paddingBottom="7.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center" android:id="@id/word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.tdtapp.englisheveryday.features.vocabulary.WordSPLevelView android:id="@id/sp_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_centerVertical="true" android:layout_toEndOf="@id/word" />
+</RelativeLayout>

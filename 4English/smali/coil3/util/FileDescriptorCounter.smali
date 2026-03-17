@@ -1,0 +1,257 @@
+.class final Lcoil3/util/FileDescriptorCounter;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00006\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0008\u00c2\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003J\u0012\u0010\u000f\u001a\u00020\u00102\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0012H\u0007J\u0008\u0010\u0013\u001a\u00020\u0010H\u0002R\u000e\u0010\u0004\u001a\u00020\u0005X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0007X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0008\u001a\u00020\u0007X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0007X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\u000bX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000c\u001a\u00020\u0007X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u000eX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000f\u001a\u00020\u0010X\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0014"
+    }
+    d2 = {
+        "Lcoil3/util/FileDescriptorCounter;",
+        "",
+        "<init>",
+        "()V",
+        "TAG",
+        "",
+        "FILE_DESCRIPTOR_LIMIT",
+        "",
+        "FILE_DESCRIPTOR_CHECK_INTERVAL_DECODES",
+        "FILE_DESCRIPTOR_CHECK_INTERVAL_MILLIS",
+        "fileDescriptorList",
+        "Ljava/io/File;",
+        "decodesSinceLastFileDescriptorCheck",
+        "lastFileDescriptorCheckTimestamp",
+        "",
+        "hasAvailableFileDescriptors",
+        "",
+        "logger",
+        "Lcoil3/util/Logger;",
+        "checkFileDescriptors",
+        "coil-core_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field private static final FILE_DESCRIPTOR_CHECK_INTERVAL_DECODES:I = 0x1e
+
+.field private static final FILE_DESCRIPTOR_CHECK_INTERVAL_MILLIS:I = 0x7530
+
+.field private static final FILE_DESCRIPTOR_LIMIT:I = 0x320
+
+.field public static final INSTANCE:Lcoil3/util/FileDescriptorCounter;
+
+.field private static final TAG:Ljava/lang/String; = "FileDescriptorCounter"
+
+.field private static decodesSinceLastFileDescriptorCheck:I
+
+.field private static final fileDescriptorList:Ljava/io/File;
+
+.field private static hasAvailableFileDescriptors:Z
+
+.field private static lastFileDescriptorCheckTimestamp:J
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lcoil3/util/FileDescriptorCounter;
+
+    invoke-direct {v0}, Lcoil3/util/FileDescriptorCounter;-><init>()V
+
+    sput-object v0, Lcoil3/util/FileDescriptorCounter;->INSTANCE:Lcoil3/util/FileDescriptorCounter;
+
+    new-instance v0, Ljava/io/File;
+
+    const-string v1, "/proc/self/fd"
+
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    sput-object v0, Lcoil3/util/FileDescriptorCounter;->fileDescriptorList:Ljava/io/File;
+
+    const/16 v0, 0x1e
+
+    sput v0, Lcoil3/util/FileDescriptorCounter;->decodesSinceLastFileDescriptorCheck:I
+
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+
+    move-result-wide v0
+
+    sput-wide v0, Lcoil3/util/FileDescriptorCounter;->lastFileDescriptorCheckTimestamp:J
+
+    const/4 v0, 0x1
+
+    sput-boolean v0, Lcoil3/util/FileDescriptorCounter;->hasAvailableFileDescriptors:Z
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method private final checkFileDescriptors()Z
+    .locals 6
+
+    sget v0, Lcoil3/util/FileDescriptorCounter;->decodesSinceLastFileDescriptorCheck:I
+
+    add-int/lit8 v1, v0, 0x1
+
+    sput v1, Lcoil3/util/FileDescriptorCounter;->decodesSinceLastFileDescriptorCheck:I
+
+    const/16 v1, 0x1e
+
+    if-ge v0, v1, :cond_1
+
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+
+    move-result-wide v0
+
+    sget-wide v2, Lcoil3/util/FileDescriptorCounter;->lastFileDescriptorCheckTimestamp:J
+
+    const/16 v4, 0x7530
+
+    int-to-long v4, v4
+
+    add-long/2addr v2, v4
+
+    cmp-long v0, v0, v2
+
+    if-lez v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 v0, 0x1
+
+    :goto_1
+    return v0
+.end method
+
+
+# virtual methods
+.method public final declared-synchronized hasAvailableFileDescriptors(Lcoil3/util/Logger;)Z
+    .locals 5
+
+    monitor-enter p0
+
+    :try_start_0
+    invoke-direct {p0}, Lcoil3/util/FileDescriptorCounter;->checkFileDescriptors()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    const/4 v0, 0x0
+
+    sput v0, Lcoil3/util/FileDescriptorCounter;->decodesSinceLastFileDescriptorCheck:I
+
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+
+    move-result-wide v1
+
+    sput-wide v1, Lcoil3/util/FileDescriptorCounter;->lastFileDescriptorCheckTimestamp:J
+
+    sget-object v1, Lcoil3/util/FileDescriptorCounter;->fileDescriptorList:Ljava/io/File;
+
+    invoke-virtual {v1}, Ljava/io/File;->list()[Ljava/lang/String;
+
+    move-result-object v1
+
+    if-nez v1, :cond_0
+
+    new-array v1, v0, [Ljava/lang/String;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    array-length v1, v1
+
+    const/16 v2, 0x320
+
+    if-ge v1, v2, :cond_1
+
+    const/4 v0, 0x1
+
+    :cond_1
+    sput-boolean v0, Lcoil3/util/FileDescriptorCounter;->hasAvailableFileDescriptors:Z
+
+    if-nez v0, :cond_2
+
+    if-eqz p1, :cond_2
+
+    const-string v0, "FileDescriptorCounter"
+
+    sget-object v2, Lcoil3/util/Logger$Level;->Warn:Lcoil3/util/Logger$Level;
+
+    invoke-interface {p1}, Lcoil3/util/Logger;->getMinLevel()Lcoil3/util/Logger$Level;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v2}, Ljava/lang/Enum;->compareTo(Ljava/lang/Enum;)I
+
+    move-result v3
+
+    if-gtz v3, :cond_2
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v4, "Unable to allocate more hardware bitmaps. Number of used file descriptors: "
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v3, 0x0
+
+    invoke-interface {p1, v0, v2, v1, v3}, Lcoil3/util/Logger;->log(Ljava/lang/String;Lcoil3/util/Logger$Level;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    :cond_2
+    sget-boolean p1, Lcoil3/util/FileDescriptorCounter;->hasAvailableFileDescriptors:Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return p1
+
+    :goto_1
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw p1
+.end method

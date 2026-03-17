@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.ybq.android.spinkit.SpinKitView android:layout_gravity="center" android:id="@id/spin_kit" android:layout_width="wrap_content" android:layout_height="wrap_content" app:SpinKit_Color="@color/color_text_action" style="@style/SpinKitView.ThreeBounce" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_migrate_firestore" fontPath="fonts/OpenSans-SemiBold.ttf" />
+</androidx.appcompat.widget.LinearLayoutCompat>

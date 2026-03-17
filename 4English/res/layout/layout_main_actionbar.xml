@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:orientation="vertical" android:id="@id/container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:paddingStart="@dimen/margin_safe_base">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="25.0sp" android:textColor="@color/color_text_action" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="4English" fontPath="fonts/OpenSans-Bold.ttf" />
+        <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/btn_notif" android:background="?selectableItemBackgroundBorderless" android:layout_width="48.0dp" android:layout_height="?actionBarSize">
+            <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:id="@id/ic_notif" android:visibility="visible" android:layout_width="25.0dp" android:layout_height="25.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_notif" app:tint="@color/icon_color" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/textWhiteColor" android:id="@id/number_notif" android:background="@drawable/bg_notif_badge" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:translationX="5.0dp" android:translationY="-5.0dp" app:layout_constraintEnd_toEndOf="@id/ic_notif" app:layout_constraintTop_toTopOf="@id/ic_notif" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</merge>

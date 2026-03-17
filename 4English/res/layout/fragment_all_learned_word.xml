@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextColor="@color/textWhiteColor">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_actionbar" android:textColor="@color/color_primary_text" android:layout_gravity="center" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="@string/your_memory_level" android:layout_centerInParent="true" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_back_svg" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:paddingBottom="?actionBarSize" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="40.0dp" app:paddingEnd="0.0dp" app:paddingStart="0.0dp" app:tabGravity="fill" app:tabIndicatorColor="@color/color_primary_text" app:tabMode="scrollable" app:tabSelectedTextColor="@color/color_primary_text" app:tabTextColor="@color/color_second_text" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

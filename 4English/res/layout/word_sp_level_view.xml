@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="20.0dp" android:layout_height="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.lzyzsd.circleprogress.ArcProgress android:id="@id/progress_bar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:rotation="180.0" app:arc_angle="360.0" app:arc_bottom_text=" " app:arc_max="6" app:arc_progress="2" app:arc_stroke_width="3.0dp" app:arc_suffix_text=" " app:arc_text_size="1.0sp" app:arc_unfinished_color="@color/color_unfinished_level" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/color_primary_text" android:id="@id/level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+</RelativeLayout>

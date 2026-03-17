@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/_15sdp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/btnClose" android:background="@drawable/bg_lucky_wheel_close_red" android:padding="@dimen/_1sdp" android:layout_width="@dimen/_24sdp" android:layout_height="@dimen/_24sdp" android:src="@drawable/ic_lucky_wheel_close" android:translationY="@dimen/_minus29sdp" android:elevation="@dimen/_5sdp" app:layout_constraintBottom_toTopOf="@id/cardContainer" app:layout_constraintEnd_toEndOf="@id/cardContainer" app:layout_constraintTop_toTopOf="@id/cardContainer" app:tint="@android:color/white" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cardContainer" android:background="@drawable/bg_lucky_wheel_rules_card" android:paddingTop="@dimen/_31sdp" android:paddingBottom="@dimen/_15sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_9sdp" android:layout_marginBottom="@dimen/_23sdp" android:paddingHorizontal="@dimen/_15sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_percent="0.55" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.core.widget.NestedScrollView android:scrollbarSize="0.0dp" android:id="@id/scrollView" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_7sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHeight_max="@dimen/_399sdp" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_marginTop="0.0dp" android:text="@string/lucky_wheel_rules_time_label" style="@style/TxtLuckyWheelRulesHeader" />
+                <TextView android:text="@string/lucky_wheel_rules_date_value" style="@style/TxtLuckyWheelRulesBody" />
+                <TextView android:text="@string/lucky_wheel_rules_target_label" style="@style/TxtLuckyWheelRulesHeader" />
+                <TextView android:text="@string/lucky_wheel_rules_target_value" style="@style/TxtLuckyWheelRulesBody" />
+                <TextView android:text="@string/lucky_wheel_rules_method_header" style="@style/TxtLuckyWheelRulesHeader" />
+                <TextView android:text="@string/lucky_wheel_rules_method_body" style="@style/TxtLuckyWheelRulesBody" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1sdp">
+                    <ImageView android:layout_width="15.0dp" android:layout_height="15.0dp" android:src="@drawable/ic_lucky_wheel_checkbox_green" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Học " style="@style/TxtLuckyWheelRulesBody" />
+                    <TextView android:text="@string/lucky_wheel_task_1" style="@style/TxtLuckyWheelRulesTask" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1sdp">
+                    <ImageView android:layout_width="15.0dp" android:layout_height="15.0dp" android:src="@drawable/ic_lucky_wheel_checkbox_green" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Hoàn thành " style="@style/TxtLuckyWheelRulesBody" />
+                    <TextView android:text="@string/lucky_wheel_task_2" style="@style/TxtLuckyWheelRulesTask" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1sdp">
+                    <ImageView android:layout_width="15.0dp" android:layout_height="15.0dp" android:layout_marginTop="@dimen/_1sdp" android:src="@drawable/ic_lucky_wheel_checkbox_green" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Hoàn thành " style="@style/TxtLuckyWheelRulesBody" />
+                    <TextView android:text="@string/lucky_wheel_task_3" style="@style/TxtLuckyWheelRulesTask" />
+                </LinearLayout>
+                <TextView android:text="@string/lucky_wheel_rules_reward_header" style="@style/TxtLuckyWheelRulesHeader" />
+                <TextView android:text="@string/lucky_wheel_rules_reward_body" style="@style/TxtLuckyWheelRulesBody" />
+                <TextView android:text="@string/lucky_wheel_rules_regulation_header" style="@style/TxtLuckyWheelRulesHeader" />
+                <TextView android:id="@id/tvRulesContent" style="@style/TxtLuckyWheelRulesBody" />
+                <TextView android:text="@string/lucky_wheel_rules_terms_header" style="@style/TxtLuckyWheelRulesHeader" />
+                <TextView android:text="@string/lucky_wheel_rules_terms_body" style="@style/TxtLuckyWheelRulesBody" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btnSpinNow" android:background="@drawable/selector_btn_lucky_wheel_spin" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_49sdp" android:text="@string/lucky_wheel_spin_now" android:translationY="@dimen/_49sdp" android:elevation="@dimen/_23sdp" app:layout_constraintBottom_toBottomOf="@id/cardContainer" app:layout_constraintEnd_toEndOf="@id/cardContainer" app:layout_constraintStart_toStartOf="@id/cardContainer" app:layout_constraintTop_toBottomOf="@id/cardContainer" style="@style/BtnLuckyWheelSpin" />
+    <TextView android:gravity="center" android:id="@id/tvHeaderTitle" android:background="@drawable/bg_lucky_wheel_rules_header" android:paddingBottom="@dimen/_9sdp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/lucky_wheel_rules_title_dialog" android:elevation="@dimen/_19sdp" android:paddingVertical="@dimen/_7sdp" app:layout_constraintBottom_toTopOf="@id/cardContainer" app:layout_constraintEnd_toEndOf="@id/cardContainer" app:layout_constraintStart_toStartOf="@id/cardContainer" app:layout_constraintTop_toTopOf="@id/cardContainer" app:layout_constraintWidth_percent="0.55" style="@style/TxtLuckyWheelTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

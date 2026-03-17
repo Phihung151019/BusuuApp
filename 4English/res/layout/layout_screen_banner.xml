@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/container" android:background="@color/banner_song_ngu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="110.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/bg_for_ic_banner" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/banner_song_ngu" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.65">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Hơn 1000 bài Song ngữ độc quyền" fontPath="fonts/OpenSans-Bold.ttf" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="10.0sp" android:textColor="@color/color_primary_text" android:id="@id/sub_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="Chọn lọc &amp; dịch bởi đội ngũ biên dịch viên" android:textAllCaps="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        </LinearLayout>
+        <View android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="0.35" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_close" android:padding="16.0dp" android:layout_width="45.0dp" android:layout_height="45.0dp" android:layout_alignParentRight="true" app:srcCompat="@drawable/ic_close_small_svg" app:tint="@color/color_primary_text" />
+</RelativeLayout>

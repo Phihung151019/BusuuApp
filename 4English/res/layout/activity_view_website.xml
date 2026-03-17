@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.view.slidinguppanel.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_layout" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent" app:umanoDragView="@id/slider" app:umanoOverlay="true" app:umanoPanelHeight="0.0dp" app:umanoParallaxOffset="0.0dp" app:umanoScrollableView="@id/frame_lookup" app:umanoShadowHeight="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/root_layout" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/appBar" android:background="@color/bgWhiteColor" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="?actionBarSize">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start" android:id="@id/ab_left" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="match_parent" android:tint="@color/icon_color" app:srcCompat="@drawable/ic_close_small_svg" />
+            <RelativeLayout android:background="@drawable/bg_search_url" android:paddingLeft="10.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginTop="8.0dp" android:layout_marginRight="5.0dp" android:layout_marginBottom="8.0dp" android:layout_weight="10.0" android:paddingStart="10.0dp" android:layout_marginEnd="5.0dp">
+                <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:textSize="14.0sp" android:id="@id/edt_search" android:background="@drawable/bg_search_url_left" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/search_or_type_url" android:maxLines="1" android:layout_toLeftOf="@id/btn_view" android:inputType="textWebEmailAddress" android:dropDownAnchor="@id/appBar" android:imeOptions="actionSearch" android:dropDownHeight="300.0dp" android:layout_toStartOf="@id/btn_view" />
+                <RelativeLayout android:id="@id/btn_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/clear" android:background="?selectableItemBackgroundBorderless" android:padding="7.0dp" android:layout_width="45.0dp" android:layout_height="match_parent" android:src="@drawable/ic_clear" android:layout_centerVertical="true" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_refresh" android:background="?selectableItemBackgroundBorderless" android:padding="7.0dp" android:visibility="gone" android:layout_width="48.0dp" android:layout_height="match_parent" android:src="@drawable/ic_sync_white_24dp" android:tint="#616161" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <WebView android:id="@id/webview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/web_control_view" android:layout_below="@id/appBar" />
+        <WebView android:id="@id/reader_webview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/web_control_view" android:layout_below="@id/appBar" />
+        <FrameLayout android:id="@id/home" android:background="@color/list_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/web_control_view" android:layout_below="@id/appBar">
+            <LinearLayout android:orientation="vertical" android:id="@id/data_layout" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/recommendation" />
+                <androidx.cardview.widget.CardView android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="20.0dp" android:layout_marginBottom="10.0dp">
+                    <Spinner android:layout_gravity="center_horizontal" android:id="@id/website_category" android:layout_width="match_parent" android:layout_height="45.0dp" android:spinnerMode="dropdown" />
+                </androidx.cardview.widget.CardView>
+                <View android:background="@drawable/shadow" android:layout_width="match_parent" android:layout_height="2.0dp" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:paddingBottom="90.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_can_not_connect_server" />
+                <Button android:id="@id/btn_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/try_again" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="3.0dp" android:layout_below="@id/appBar">
+            <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/progressbar_color" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/web_control_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textColor="@color/white" android:id="@id/tip_click_word" android:background="#0084ff" android:padding="10.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/msg_tip_wait_click_word" android:drawableRight="@drawable/ic_close_white_24dp" android:drawableEnd="@drawable/ic_close_white_24dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/web_control" android:background="@color/bgWhiteColor" android:layout_width="match_parent" android:layout_height="45.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="7.0dp" android:layout_width="48.0dp" android:layout_height="match_parent" android:src="@drawable/selector_btn_back_web" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_next" android:background="?selectableItemBackgroundBorderless" android:padding="7.0dp" android:layout_width="48.0dp" android:layout_height="match_parent" android:src="@drawable/selector_btn_next_web" />
+                <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.5" />
+                <androidx.appcompat.widget.AppCompatImageView android:textColor="@color/white" android:id="@id/btn_home" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="48.0dp" android:layout_height="match_parent" android:src="@drawable/ic_home" />
+                <View android:layout_width="10.0dp" android:layout_height="match_parent" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/fav" android:background="?selectableItemBackgroundBorderless" android:padding="13.0dp" android:layout_width="48.0dp" android:layout_height="match_parent" android:tint="@color/btn_browser" app:srcCompat="@drawable/ic_fav_svg" />
+                <View android:layout_width="10.0dp" android:layout_height="match_parent" />
+                <androidx.appcompat.widget.AppCompatImageView android:textColor="@color/white" android:id="@id/save_link" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/ic_bookmark_border_white_24dp" android:layout_weight="1.0" />
+                <View android:layout_width="10.0dp" android:layout_height="match_parent" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/share" android:background="?selectableItemBackgroundBorderless" android:padding="13.0dp" android:layout_width="48.0dp" android:layout_height="match_parent" android:tint="@color/btn_browser" app:srcCompat="@drawable/ic_share_svg" />
+                <View android:layout_width="10.0dp" android:layout_height="match_parent" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/report" android:background="?selectableItemBackgroundBorderless" android:padding="13.0dp" android:layout_width="48.0dp" android:layout_height="match_parent" app:srcCompat="@drawable/selector_btn_reader_mode_web" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.tdtapp.englisheveryday.widgets.MovableFloatingActionButton android:id="@id/btn_trans" android:layout_marginRight="5.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" style="@style/BtnFloatDict" />
+        <View android:background="@drawable/shadow_bottom_to_top" android:layout_width="match_parent" android:layout_height="5.0dp" android:layout_above="@id/web_control_view" />
+        <View android:background="@drawable/shadow" android:layout_width="match_parent" android:layout_height="5.0dp" android:layout_below="@id/appBar" />
+    </RelativeLayout>
+    <include layout="@layout/layout_slide_dict" />
+</com.tdtapp.englisheveryday.view.slidinguppanel.SlidingUpPanelLayout>

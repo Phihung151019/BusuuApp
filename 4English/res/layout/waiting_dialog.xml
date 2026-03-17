@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@color/bg_white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <rm.com.audiowave.AudioWaveView android:id="@id/wave" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_margin="16.0dp" app:animateExpansion="false" app:chunkHeight="24.0dp" app:chunkRadius="1.0dp" app:chunkSpacing="1.0dp" app:chunkWidth="3.0dp" app:minChunkHeight="2.0dp" app:touchable="true" app:waveColor="@color/colorPrimary" />
+</RelativeLayout>

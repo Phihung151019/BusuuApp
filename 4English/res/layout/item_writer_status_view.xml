@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.home.WriterStatusItemView android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/info_bound" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@id/avatar" android:background="?selectableItemBackgroundBorderless" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/ic_app_notifi" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:id="@id/writer_name" android:background="?selectableItemBackgroundBorderless" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" fontPath="fonts/OpenSans-Bold.ttf" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/color_second_txt_in_white" android:gravity="end" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_menu" android:background="?selectableItemBackgroundBorderless" android:padding="10.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" app:srcCompat="@drawable/ic_options_svg" />
+            </LinearLayout>
+            <com.tdtapp.englisheveryday.widgets.SeeMoreTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:autoLink="web" android:layout_gravity="left" android:id="@id/content" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:id="@id/tip_click" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/msg_tip_click_word_vocab" android:drawablePadding="10.0dp" app:drawableLeftCompat="@drawable/ic_info_svg" app:drawableStartCompat="@drawable/ic_info_svg" app:drawableTint="@color/color_second_text" fontPath="fonts/OpenSans-Italic.ttf" />
+        </LinearLayout>
+        <androidx.cardview.widget.CardView android:id="@id/image_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginRight="@dimen/margin_safe_base" app:cardBackgroundColor="@color/bg_white" app:cardCornerRadius="15.0dp" app:cardElevation="0.0dp" app:cardUseCompatPadding="false" app:contentPadding="0.0dp">
+            <RelativeLayout android:id="@id/video_bound" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/thumb_video" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentTop="true" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_playvid_svg" />
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/thumb_only_one" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentTop="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_thumb_has_two" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/size_img_blog">
+                <ImageView android:id="@id/thumb_2_1" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_weight="1.0" />
+                <View android:background="@color/bg_white" android:layout_width="5.0dp" android:layout_height="1.0dp" />
+                <ImageView android:id="@id/thumb_2_2" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_thumb_has_three" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/size_img_blog">
+                <ImageView android:id="@id/thumb_3_1" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_weight="1.0" />
+                <View android:background="@color/bg_white" android:layout_width="3.0dp" android:layout_height="1.0dp" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/thumb_3_2" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="0.0dp" android:scaleType="centerCrop" android:layout_weight="1.0" />
+                    <View android:background="@color/bg_white" android:layout_width="1.0dp" android:layout_height="3.0dp" />
+                    <ImageView android:id="@id/thumb_3_3" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="0.0dp" android:scaleType="centerCrop" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_thumb_has_four" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/size_img_blog">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                    <ImageView android:id="@id/thumb_4_1" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_weight="1.0" />
+                    <View android:background="@color/bg_white" android:layout_width="3.0dp" android:layout_height="1.0dp" />
+                    <ImageView android:id="@id/thumb_4_2" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_weight="1.0" />
+                </LinearLayout>
+                <View android:background="@color/bg_white" android:layout_width="1.0dp" android:layout_height="3.0dp" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                    <ImageView android:id="@id/thumb_4_3" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_weight="1.0" />
+                    <View android:background="@color/bg_white" android:layout_width="3.0dp" android:layout_height="1.0dp" />
+                    <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                        <ImageView android:id="@id/thumb_4_4" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="35.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/number_img" android:background="@drawable/bg_dim_img" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_fav" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_fav" android:padding="12.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" app:srcCompat="@drawable/ic_favorite_svg" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/icon_color" android:id="@id/txt_btn_fav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_to_favorite" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" />
+    </LinearLayout>
+</com.tdtapp.englisheveryday.widgets.home.WriterStatusItemView>

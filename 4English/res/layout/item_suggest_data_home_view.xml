@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.home.HomeSuggestRecentView android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/bg_white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/bg_title_suggest_recent_radius" android:paddingLeft="10.0dp" android:paddingTop="5.0dp" android:paddingRight="10.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginTop="@dimen/margin_safe_base">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_suggest_home" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:text="@string/title_suggest_for_you" fontPath="@string/font_semi_bold" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/data_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+        <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" />
+    </LinearLayout>
+</com.tdtapp.englisheveryday.widgets.home.HomeSuggestRecentView>

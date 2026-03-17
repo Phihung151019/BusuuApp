@@ -1,0 +1,38 @@
+[
+  {
+    "title": "\uD83D\uDC46 Tap to translate",
+    "isFree": true
+  },
+  {
+    "title": "\uD83D\uDCF1 Sync data across devices",
+    "isFree": true
+  },
+  {
+    "title": "\uD83D\uDD0D Save and translate unlimited words and paragraphs",
+    "isFree": false
+  },
+  {
+    "title": "\u270D Unlimited highlights",
+    "isFree": false
+  },
+  {
+    "title": "\uD83D\uDDC2 150+ vocabulary topics",
+    "isFree": false
+  },
+  {
+    "title": "\uD83D\uDCF0 1000+ bilingual articles",
+    "isFree": false
+  },
+  {
+    "title": "\uD83D\uDCDA 500+ English books",
+    "isFree": false
+  },
+  {
+    "title": "\uD83D\uDEAB No ads",
+    "isFree": false
+  },
+  {
+    "title": "\uD83D\uDCE5 Offline dictionaries, news articles, and audios",
+    "isFree": false
+  }
+]

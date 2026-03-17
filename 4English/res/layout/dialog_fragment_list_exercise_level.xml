@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#00ffffff" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="15.0dp" app:cardElevation="0.0dp">
+        <LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@color/bg_blue_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48.0dp">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/textWhiteColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:text="@string/choose_exercise_level" android:maxLines="1" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#d2e3f5" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/sub_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="10.0dp" android:maxLines="1" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/list_example" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

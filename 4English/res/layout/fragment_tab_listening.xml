@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_behavior="com.tdtapp.englisheveryday.widgets.FixAppBarLayoutBehavior">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:elevation="@dimen/elevation" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <FrameLayout android:id="@id/actionbar_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:paddingBottom="?actionBarSize" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/flash_sale_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/list_vn" android:background="@color/bg_white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp">
+                            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_section" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vietnamese_available" android:drawablePadding="5.0dp" app:drawableRightCompat="@drawable/ic_pro_svg" app:drawableTint="@color/pro_color" fontPath="fonts/OpenSans-Bold.ttf" />
+                                <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_dich_boi_bdv" />
+                            </LinearLayout>
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_section" android:textColor="@color/color_txt_more" android:gravity="center" android:id="@id/see_all_editor_choice" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_more" android:drawablePadding="5.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:drawableRightCompat="@drawable/ic_more_svg" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        </RelativeLayout>
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/editors_news_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="15.0dp" />
+                        <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/view_continue_video" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/font_size_section" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginTop="13.0dp" android:layout_marginBottom="13.0dp" android:text="Continue watching" android:layout_marginStart="@dimen/margin_safe_base" fontPath="fonts/OpenSans-Bold.ttf" />
+                            <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:id="@id/btn_del_playing_video" android:background="?selectableItemBackgroundBorderless" android:padding="14.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginRight="@dimen/margin_safe_base" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/margin_safe_base" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_exit_svg" />
+                        </RelativeLayout>
+                        <LinearLayout android:orientation="vertical" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginRight="@dimen/margin_safe_base">
+                            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                        <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="20.0dp" app:cardElevation="0.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+                                            <ImageView android:id="@id/video_thumb" android:layout_width="130.0dp" android:layout_height="90.0dp" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_youtube_red" />
+                                    </RelativeLayout>
+                                    <ProgressBar android:id="@id/progress_bar" android:layout_width="match_parent" android:layout_height="5.0dp" android:layout_marginTop="8.0dp" android:indeterminate="false" android:progressDrawable="@drawable/bg_progress_duration" style="?android:progressBarStyleHorizontal" />
+                                </LinearLayout>
+                                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="90.0dp">
+                                    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/video_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:maxLines="2" android:layout_alignParentTop="true" android:layout_marginStart="10.0dp" fontPath="fonts/OpenSans-Bold.ttf" />
+                                    <TextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:id="@id/video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" android:layout_marginTop="10.0dp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/section_podCast" android:background="@color/bg_white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp">
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_section" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Podcasts" android:drawablePadding="5.0dp" fontPath="fonts/OpenSans-Bold.ttf" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_section" android:textColor="@color/color_txt_more" android:gravity="center" android:id="@id/podCast_see_all" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_more" android:drawablePadding="5.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:drawableRightCompat="@drawable/ic_more_svg" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        </RelativeLayout>
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/podCast_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="15.0dp" />
+                        <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/section_video" android:background="@color/bg_white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp">
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_section" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video" android:drawablePadding="5.0dp" fontPath="fonts/OpenSans-Bold.ttf" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_section" android:textColor="@color/color_txt_more" android:gravity="center" android:id="@id/video_see_all" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_more" android:drawablePadding="5.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:drawableRightCompat="@drawable/ic_more_svg" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        </RelativeLayout>
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/video_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="15.0dp" />
+                        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/btn_bottom_more_video" android:background="@drawable/selector_btn_bg_white" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_see_more" android:textAllCaps="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                        <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </com.tdtapp.englisheveryday.layout.ContentFrame>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/container" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ic_type" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_margin="10.0dp" android:src="@drawable/ic_search_suggest" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="5.0dp" android:layout_toRightOf="@id/ic_type" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_marginEnd="10.0dp" android:layout_toEndOf="@id/ic_type">
+        <TextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Goolge" android:maxLines="1" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:ellipsize="end" android:id="@id/tv_link" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="https://google.com.vn" android:maxLines="1" />
+    </LinearLayout>
+</RelativeLayout>

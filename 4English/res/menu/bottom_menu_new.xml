@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_home_bottom_menu_new_svg" android:id="@id/menu_home" android:title="@string/home" />
+    <item android:icon="@drawable/ic_vocab_bottom_menu_new_svg" android:id="@id/menu_vocab" android:title="@string/vocabulary" />
+    <item android:icon="@drawable/ic_reading_bottom_menu_new_svg" android:id="@id/menu_reading" android:title="@string/tab_reading" />
+    <item android:icon="@drawable/ic_listening_bottom_menu_new_svg" android:id="@id/menu_listening" android:title="@string/tab_listening" />
+    <item android:icon="@drawable/ic_entertainment_bottom_menu_new_svg" android:id="@id/menu_entertainment" android:title="@string/entertainment" />
+</menu>

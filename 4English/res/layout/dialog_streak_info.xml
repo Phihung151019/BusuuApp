@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_rectangle_white_radius" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_safe_base"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tdtapp.englisheveryday.widgets.streak.StreakInfoView android:id="@id/streak_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_safe_base" android:layout_marginBottom="@dimen/margin_safe_base" android:layout_below="@id/title" android:layout_marginStart="@dimen/margin_safe_base" android:layout_marginEnd="@dimen/margin_safe_base" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_close" android:padding="12.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_close_small_svg" android:tint="@color/icon_color" android:layout_alignParentEnd="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/title_target_streak" android:layout_centerHorizontal="true" fontPath="fonts/OpenSans-Bold.ttf" />
+    </RelativeLayout>
+</LinearLayout>

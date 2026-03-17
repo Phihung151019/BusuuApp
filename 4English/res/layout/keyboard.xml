@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/bg_keyboard" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/view_edt" android:background="@color/bg_edt_chat" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/progress_waiting" android:layout_width="match_parent" android:layout_height="45.0dp" android:indeterminate="false" android:progressDrawable="@drawable/progress_game" android:layout_centerInParent="true" android:scaleY="100.0" android:rotation="180.0" style="?android:progressBarStyleHorizontal" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@color/next_char" android:id="@id/next_char" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" fontPath="@string/font_bold" />
+                <EditText android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/text_edt_chat" android:textColorHint="#eb0c0b0b" android:id="@id/message_input" android:background="@null" android:longClickable="false" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mar_left_5" android:hint="" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" android:textCursorDrawable="@drawable/cursor_color" fontPath="@string/font_bold" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageButton android:id="@id/send_button" android:background="@drawable/selector_enter" android:visibility="visible" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="5.0dp" android:layout_marginEnd="10.0dp" app:srcCompat="@drawable/ic_enter" />
+                    <com.github.ybq.android.spinkit.SpinKitView android:layout_gravity="center" android:id="@id/sending" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" app:SpinKit_Color="@color/bg_btn_send" style="@style/SpinKitView.Large.FadingCircle" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/view_key" android:background="@color/bg_keyboard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="5.0dp" android:layout_below="@id/view_edt">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="53.0dp" android:layout_marginTop="5.0dp">
+                <Button android:id="@id/button_q" android:text="Q" style="@style/KeyStyle" />
+                <Button android:id="@id/button_w" android:text="W" style="@style/KeyStyle" />
+                <Button android:id="@id/button_e" android:text="E" style="@style/KeyStyle" />
+                <Button android:id="@id/button_r" android:text="R" style="@style/KeyStyle" />
+                <Button android:id="@id/button_t" android:text="T" style="@style/KeyStyle" />
+                <Button android:id="@id/button_y" android:text="Y" style="@style/KeyStyle" />
+                <Button android:id="@id/button_u" android:text="U" style="@style/KeyStyle" />
+                <Button android:id="@id/button_i" android:text="I" style="@style/KeyStyle" />
+                <Button android:id="@id/button_o" android:text="O" style="@style/KeyStyle" />
+                <Button android:id="@id/button_p" android:text="P" style="@style/KeyStyle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="53.0dp">
+                <View android:layout_width="0.0dp" android:layout_height="2.0dp" android:layout_weight="0.5" />
+                <Button android:id="@id/button_a" android:text="A" style="@style/KeyStyle" />
+                <Button android:id="@id/button_s" android:text="S" style="@style/KeyStyle" />
+                <Button android:id="@id/button_d" android:text="D" style="@style/KeyStyle" />
+                <Button android:id="@id/button_f" android:text="F" style="@style/KeyStyle" />
+                <Button android:id="@id/button_g" android:text="G" style="@style/KeyStyle" />
+                <Button android:id="@id/button_h" android:text="H" style="@style/KeyStyle" />
+                <Button android:id="@id/button_j" android:text="J" style="@style/KeyStyle" />
+                <Button android:id="@id/button_k" android:text="K" style="@style/KeyStyle" />
+                <Button android:id="@id/button_l" android:text="L" style="@style/KeyStyle" />
+                <View android:layout_width="0.0dp" android:layout_height="2.0dp" android:layout_weight="0.5" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="53.0dp">
+                <ImageButton android:id="@id/button_audio" android:background="@drawable/selector_audio_key" android:layout_weight="1.5" android:elevation="2.0dp" app:srcCompat="@drawable/ic_sound_on" style="@style/KeyStyle" />
+                <Button android:id="@id/button_z" android:text="Z" style="@style/KeyStyle" />
+                <Button android:id="@id/button_x" android:text="X" style="@style/KeyStyle" />
+                <Button android:id="@id/button_c" android:text="C" style="@style/KeyStyle" />
+                <Button android:id="@id/button_v" android:text="V" style="@style/KeyStyle" />
+                <Button android:id="@id/button_b" android:text="B" style="@style/KeyStyle" />
+                <Button android:id="@id/button_n" android:text="N" style="@style/KeyStyle" />
+                <Button android:id="@id/button_m" android:text="M" style="@style/KeyStyle" />
+                <ImageButton android:id="@id/button_del" android:background="@drawable/selector_del_key" android:layout_weight="1.5" android:elevation="2.0dp" app:srcCompat="@drawable/ic_game_backspace" style="@style/KeyStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/txt_key" android:gravity="center" android:id="@id/guide_touch" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/msg_click_word" android:layout_below="@id/view_key" app:autoSizeMaxTextSize="18.0sp" app:autoSizeTextType="uniform" fontPath="@string/font_semi_bold" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/txt_key" android:gravity="center" android:id="@id/game_rule" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_below="@id/view_key" app:autoSizeMaxTextSize="16.0sp" app:autoSizeTextType="uniform" fontPath="@string/font_semi_bold" />
+        <RelativeLayout android:id="@id/error_view" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_below="@id/view_key">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/txt_msg_result_send" android:gravity="center" android:id="@id/msg_word" android:background="@color/bg_msg_result_send" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:autoSizeMaxTextSize="18.0sp" app:autoSizeTextType="uniform" fontPath="@string/font_semi_bold" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/loading_layout" android:background="@color/bg_chat" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_below="@id/view_key">
+            <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/msg_loading" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.github.ybq.android.spinkit.SpinKitView android:layout_gravity="center" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" app:SpinKit_Color="#ffffff" style="@style/SpinKitView.ThreeBounce" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/retry_layout" android:background="@color/gradient_bg_chat" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/tmp_view" android:layout_centerInParent="true">
+            <ImageView android:id="@id/ic_warning" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_connect_fail" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/error_msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/msg_can_not_connect_server" android:layout_below="@id/ic_warning" />
+            <com.tdtapp.englisheveryday.features.game.ButtonForGame android:id="@id/btn_retry" android:layout_width="120.0dp" android:layout_height="48.0dp" android:layout_marginTop="10.0dp" app:btnBgColor="blue" app:btnText="@string/btn_retry" app:btnTextColor="@color/black" app:btnTextSize="16.0sp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/end_game_layout" android:background="@color/gradient_bg_chat" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/error_view" android:layout_centerInParent="true">
+            <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/msg_lock" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="10.0dp" fontPath="@string/font_semi_bold" />
+        </LinearLayout>
+        <View android:id="@id/tmp_view" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_below="@id/error_view" />
+    </RelativeLayout>
+</merge>

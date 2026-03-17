@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="?selectableItemBackground" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/first_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/icon_color" android:gravity="center" android:id="@id/level_empty" android:layout_width="20.0dp" android:layout_height="20.0dp" android:text="•" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_level" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginRight="10.0dp" app:srcCompat="@drawable/ic_c1" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" android:layout_toStartOf="@id/btn_view" android:layout_toEndOf="@id/first_view" />
+    <RelativeLayout android:id="@id/btn_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_save_definition" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/color_text_action" android:id="@id/btn_select" android:background="@drawable/selector_btn_grey_radius_20" android:paddingLeft="10.0dp" android:paddingTop="5.0dp" android:paddingRight="10.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:text="@string/select_ex" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </RelativeLayout>
+</RelativeLayout>

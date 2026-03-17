@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center|top" android:id="@id/content_layout" android:background="@color/bg_white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <com.tdtapp.englisheveryday.widgets.RecyclerViewHeader android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/header" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_cover" android:visibility="gone" android:layout_width="match_parent" android:layout_height="120.0dp" />
+                <com.tdtapp.englisheveryday.widgets.SeeMoreTextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:autoLink="web" android:id="@id/fair_use_disclaimer" android:background="@color/bg_main_color" android:paddingLeft="@dimen/margin_safe_base" android:paddingTop="10.0dp" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </com.tdtapp.englisheveryday.widgets.RecyclerViewHeader>
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</com.tdtapp.englisheveryday.layout.ContentFrame>

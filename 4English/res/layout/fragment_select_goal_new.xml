@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:tag="layout/fragment_select_goal_new_0" android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:errorLayout="@layout/error_layout_button_center" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:paddingLeft="40.0dp" android:paddingRight="40.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:id="@id/txt_goal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/why_are_you_learning_english" fontPath="fonts/OpenSans-Bold.ttf" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_second_text" android:gravity="center" android:id="@id/txt_goal_msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/msg_choose_goal" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/list_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" />
+        </LinearLayout>
+    </com.tdtapp.englisheveryday.layout.ContentFrame>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

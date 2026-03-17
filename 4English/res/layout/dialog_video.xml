@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/video_thumb" android:layout_width="match_parent" android:layout_height="200.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/textBWColor" android:id="@id/video_name" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

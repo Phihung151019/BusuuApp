@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.purchase.ProFeatureItemView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/container" android:background="@color/bg_white" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/primaryText" android:gravity="center_vertical" android:layout_gravity="left|center" android:id="@id/title" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_free" android:layout_width="100.0dp" android:layout_height="wrap_content" android:src="@drawable/ic_feature_lock" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_pro" android:layout_width="60.0dp" android:layout_height="wrap_content" android:src="@drawable/ic_feature_unlock" />
+    </LinearLayout>
+</com.tdtapp.englisheveryday.widgets.purchase.ProFeatureItemView>

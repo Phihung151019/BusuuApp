@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_error_layout" android:tag="layout/layout_qr_paymment_error_0" android:background="#f5f5f5" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="2.0dp" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_back" android:padding="16.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_svg" android:contentDescription="Back" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@android:color/black" />
+        <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qr_payment" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/iv_back" app:layout_constraintTop_toTopOf="parent" style="@style/InterSemibold600" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/error_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="64.0dp" android:paddingHorizontal="32.0dp" app:layout_constraintBottom_toTopOf="@id/button_container" app:layout_constraintTop_toBottomOf="@id/header">
+        <ImageView android:layout_width="120.0dp" android:layout_height="120.0dp" android:src="@drawable/img_error_qr" android:contentDescription="QR Error Icon" />
+        <TextView android:textSize="32.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/oop_qr_error" style="@style/InterTightBold700" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="Error code: 4xx (request fail)" style="@style/InterMedium500" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/button_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" android:layout_marginHorizontal="16.0dp" app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.cardview.widget.CardView android:id="@id/btn_support_again" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="0.0dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/blue_light_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="8.0dp" android:paddingVertical="16.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_messenger_svg" android:tint="#4d9dff" android:contentDescription="Messenger Icon" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/contact_support" style="@style/InterMedium500" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:id="@id/btn_create_qr_again" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="0.0dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/blue_light_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="8.0dp" android:paddingVertical="16.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_qr_code" android:tint="#4d9dff" android:contentDescription="Refresh Icon" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/create_qr_again" style="@style/InterMedium500" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

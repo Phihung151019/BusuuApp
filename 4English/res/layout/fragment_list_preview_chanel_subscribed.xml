@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/top_bar" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="10.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_youtube" fontPath="fonts/OpenSans-Bold.ttf" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_txt_more" android:gravity="center" android:id="@id/see_all" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_more" android:drawablePadding="5.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:drawableRightCompat="@drawable/ic_more_svg" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/btn_logout" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/logout" android:drawablePadding="5.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/btn_show_hide" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hide" android:drawablePadding="9.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:drawableRightCompat="@drawable/ic_less_goal_svg" app:drawableTint="@color/color_text_action" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/top_bar">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/chanel_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="15.0dp" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/login_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dp" android:layout_below="@id/top_bar">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="@dimen/margin_safe_base" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="@dimen/margin_safe_base" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                        <ImageView android:layout_width="73.0dp" android:layout_height="73.0dp" android:layout_marginLeft="10.0dp" android:src="@drawable/ic_tmp_ava_youtube" android:layout_marginStart="10.0dp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <LinearLayout android:orientation="horizontal" android:id="@id/login" android:background="@drawable/bg_btn_youtube" android:paddingLeft="25.0dp" android:paddingTop="15.0dp" android:paddingRight="25.0dp" android:paddingBottom="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_youtube_svg" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="@string/connect_account" android:maxLines="1" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                </LinearLayout>
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_second_txt_in_white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="20.0dp" android:text="@string/msg_youtube_login" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="100.0dp" android:layout_below="@id/top_bar">
+        <TextView android:textColor="@color/color_second_txt_in_white" android:gravity="center" android:id="@id/msg_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="30.0dp" android:text="@string/not_found_subscribed_channels" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="100.0dp" android:layout_below="@id/top_bar">
+        <TextView android:gravity="center" android:id="@id/msg_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="30.0dp" android:text="@string/something_wrong" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/progressBar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="100.0dp" android:layout_below="@id/top_bar">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

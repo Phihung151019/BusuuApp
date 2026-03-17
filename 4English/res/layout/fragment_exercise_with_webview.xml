@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/bgWhiteColor" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content_layout" android:background="@color/bgWhiteColor" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tdtapp.englisheveryday.widgets.WebWiewScrollHide.ObservableWebViewAutoScroll android:id="@id/webview" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/audio_player" />
+        <View android:id="@id/shadow_audio_player_view" android:background="@drawable/shadow_above" android:layout_width="match_parent" android:layout_height="5.0dp" android:layout_above="@id/audio_player" />
+        <com.tdtapp.englisheveryday.features.jcplayer.JcPlayerView android:id="@id/audio_player" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <include layout="@layout/layout_translation_box" />
+</FrameLayout>

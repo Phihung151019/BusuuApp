@@ -1,0 +1,146 @@
+[
+  {
+    "uniqueName": "politic",
+    "displayName": "Politics"
+  },
+  {
+    "uniqueName": "business",
+    "displayName": "Business"
+  },
+  {
+    "uniqueName": "society",
+    "displayName": "Society"
+  },
+  {
+    "uniqueName": "entertainment",
+    "displayName": "Entertainment"
+  },
+  {
+    "uniqueName": "travel",
+    "displayName": "Travel"
+  },
+  {
+    "uniqueName": "education",
+    "displayName": "Education"
+  },
+  {
+    "uniqueName": "sport",
+    "displayName": "Sport"
+  },
+  {
+    "uniqueName": "technology",
+    "displayName": "Technology"
+  },
+  {
+    "uniqueName": "health",
+    "displayName": "Health"
+  },
+  {
+    "uniqueName": "science",
+    "displayName": "Science"
+  },
+  {
+    "uniqueName": "environment",
+    "displayName": "Environment"
+  },
+  {
+    "uniqueName": "world",
+    "displayName": "World"
+  },
+  {
+    "uniqueName": "money",
+    "displayName": "Money"
+  },
+  {
+    "uniqueName": "uk",
+    "displayName": "UK"
+  },
+  {
+    "uniqueName": "us",
+    "displayName": "US"
+  },
+  {
+    "uniqueName": "vn",
+    "displayName": "VN"
+  },
+  {
+    "uniqueName": "asia",
+    "displayName": "Asia"
+  },
+  {
+    "uniqueName": "europe",
+    "displayName": "Europe"
+  },
+  {
+    "uniqueName": "africa",
+    "displayName": "Africa"
+  },
+  {
+    "uniqueName": "china",
+    "displayName": "China"
+  },
+  {
+    "uniqueName": "lifestyle",
+    "displayName": "Lifestyle"
+  },
+  {
+    "uniqueName": "opinion",
+    "displayName": "Opinion"
+  },
+  {
+    "uniqueName": "economy",
+    "displayName": "Economy"
+  },
+  {
+    "uniqueName": "news",
+    "displayName": "News"
+  },
+  {
+    "uniqueName": "feature",
+    "displayName": "Feature"
+  },
+  {
+    "uniqueName": "international",
+    "displayName": "International"
+  },
+  {
+    "uniqueName": "culture",
+    "displayName": "Culture"
+  },
+  {
+    "uniqueName": "fashion",
+    "displayName": "Fashion"
+  },
+  {
+    "uniqueName": "art",
+    "displayName": "Art"
+  },
+  {
+    "uniqueName": "au",
+    "displayName": "Australia"
+  },
+  {
+    "uniqueName": "showbiz",
+    "displayName": "Showbiz"
+  },
+  {
+    "uniqueName": "food",
+    "displayName": "Food"
+  },
+  {
+    "uniqueName": "marketing",
+    "displayName": "Marketing"
+  },
+  {
+    "uniqueName": "adventure",
+    "displayName": "Adventure"
+  },
+  {
+    "uniqueName": "animals",
+    "displayName": "Animals"
+  },
+  {
+    "uniqueName": "future",
+    "displayName": "Future"
+  }
+]

@@ -1,0 +1,48 @@
+.class public interface abstract Lcom/google/api/QuotaOrBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/o0;
+
+
+# virtual methods
+.method public abstract synthetic getDefaultInstanceForType()Lcom/google/protobuf/n0;
+.end method
+
+.method public abstract getLimits(I)Lcom/google/api/QuotaLimit;
+.end method
+
+.method public abstract getLimitsCount()I
+.end method
+
+.method public abstract getLimitsList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/google/api/QuotaLimit;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getMetricRules(I)Lcom/google/api/MetricRule;
+.end method
+
+.method public abstract getMetricRulesCount()I
+.end method
+
+.method public abstract getMetricRulesList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/google/api/MetricRule;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic isInitialized()Z
+.end method

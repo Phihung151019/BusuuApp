@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/refresh_layout" android:background="@color/dict_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="3.0dp" android:indeterminate="true" android:scaleY="5.0" style="?android:progressBarStyleHorizontal" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/view_download" android:background="#293e6f" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:textColor="@color/white" android:id="@id/btn_hide" android:padding="10.0dp" android:visibility="gone" android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_margin="5.0dp" app:srcCompat="@drawable/ic_close_small_svg" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="7.0dp" android:text="@string/download_en_dict_for_offline" android:layout_weight="1.0" android:layout_marginStart="7.0dp" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_download" android:background="@drawable/selector_btn_blue" android:paddingLeft="7.0dp" android:paddingRight="7.0dp" android:layout_width="wrap_content" android:layout_height="35.0dp" android:layout_margin="5.0dp" android:text="@string/btn_download" android:drawablePadding="5.0dp" app:drawableLeftCompat="@drawable/ic_download_excel_svg" app:drawableStartCompat="@drawable/ic_download_excel_svg" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </LinearLayout>
+    <WebView android:id="@id/webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

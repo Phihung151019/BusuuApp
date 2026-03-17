@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="100.0dp" />
+    <androidx.cardview.widget.CardView android:background="@drawable/bg_rectangle_white_radius" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" android:layout_weight="1.0" app:cardCornerRadius="15.0dp">
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView android:id="@id/youtube_player_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/btn_continue_bound" />
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/btn_continue_bound" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="10.0dp" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="10.0dp" android:layout_alignParentBottom="true" app:cardCornerRadius="25.0dp" app:cardElevation="2.0dp" app:cardUseCompatPadding="false" app:contentPadding="0.0dp">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/text_white_in_blue" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_cancel" android:background="@drawable/bg_rectangle_action_radius_25" android:paddingLeft="30.0dp" android:paddingRight="30.0dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="40.0dp" android:text="@string/cancel" android:textAllCaps="false" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            </androidx.cardview.widget.CardView>
+            <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/btn_continue_bound" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="100.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

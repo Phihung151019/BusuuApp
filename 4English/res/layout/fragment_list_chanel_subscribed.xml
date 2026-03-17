@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="My Youtube" fontPath="fonts/OpenSans-Bold.ttf" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_txt_more" android:gravity="center" android:id="@id/see_all" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_more" android:drawablePadding="5.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:drawableRightCompat="@drawable/ic_more_svg" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/btn_logout" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/logout" android:drawablePadding="5.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/chanel_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="15.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/login_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dp" android:layout_alignParentBottom="true">
+        <com.google.android.gms.common.SignInButton android:layout_gravity="center" android:id="@id/login" android:layout_width="wrap_content" android:layout_height="wrap_content" app:buttonSize="wide" app:colorScheme="dark" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_second_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="20.0dp" android:text="@string/msg_youtube_login" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/empty" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="30.0dp" android:text="@string/not_found_subscribed_channels" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/progressBar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

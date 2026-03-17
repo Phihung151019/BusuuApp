@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_welcome_game" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/info_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_gravity="center" android:id="@id/avatar_view" android:layout_width="80.0dp" android:layout_height="80.0dp">
+                    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/my_avatar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="0.0dp" android:src="@drawable/img_useravatar" android:scaleType="centerCrop" android:layout_alignParentBottom="true" app:civ_border_color="@color/white" app:civ_border_width="3.0dp" />
+                    <ImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:srcCompat="@drawable/ic_icon_editphoto" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/font_20" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/my_name" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" fontPath="@string/font_bold" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mar_top_10">
+                <TextView android:textSize="@dimen/font_18" android:textColor="#e9e9e9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="@string/code_id" android:textAllCaps="true" android:layout_marginEnd="10.0dp" />
+                <LinearLayout android:gravity="center" android:background="@drawable/bg_invite_code" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/font_18" android:textColor="#1a2a49" android:id="@id/my_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:minWidth="@dimen/btn_play_size" fontPath="@string/font_bold" />
+                    <RelativeLayout android:id="@id/btn_copy" android:background="?selectableItemBackgroundBorderless" android:layout_width="40.0dp" android:layout_height="40.0dp">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_copycode" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btn_play_size" android:layout_marginTop="@dimen/mar_top_10" android:layout_marginRight="@dimen/btn_play_size" android:layout_marginStart="@dimen/btn_play_size">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/font_18" android:textColor="#71d588" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/win" android:textAllCaps="true" fontPath="@string/font_semi_bold" />
+                    <TextView android:textSize="@dimen/font_40" android:textColor="#ffffff" android:id="@id/my_win" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textAllCaps="true" fontPath="fonts/pony.TTF" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/font_18" android:textColor="#eb7878" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lose" android:textAllCaps="true" fontPath="@string/font_semi_bold" />
+                    <TextView android:textSize="@dimen/font_40" android:textColor="#ffffff" android:id="@id/my_lose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textAllCaps="true" fontPath="fonts/pony.TTF" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_gravity="center" android:background="@drawable/bg_btn_blue_dark_bottom_game" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="50.0dp" android:layout_marginRight="50.0dp">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/btn_play_random" android:background="@drawable/selector_btn_blue_dark_game" android:padding="@dimen/mar_top_10" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/mar_top_5">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginLeft="@dimen/mar_top_10" android:layout_marginStart="@dimen/mar_top_10" app:srcCompat="@drawable/ic_random" />
+                    <TextView android:textSize="18.0sp" android:textColor="@color/text_game" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/play_random" android:textAllCaps="true" fontPath="@string/font_bold" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center" android:background="@drawable/bg_btn_blue_dark_bottom_game" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="50.0dp" android:layout_marginTop="@dimen/btn_play_mar_top" android:layout_marginRight="50.0dp">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/btn_find_friend" android:background="@drawable/selector_btn_blue_dark_game" android:padding="@dimen/mar_top_10" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/mar_top_5">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginLeft="@dimen/mar_top_10" android:layout_marginStart="@dimen/mar_top_10" app:srcCompat="@drawable/ic_friends" />
+                    <TextView android:textSize="18.0sp" android:textColor="@color/text_game" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/play_with_friends" android:textAllCaps="true" fontPath="@string/font_bold" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bottom_bound_top_mar">
+                <View android:background="@drawable/bg_blue_dark_game" android:layout_width="match_parent" android:layout_height="100.0dp" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_blue_game" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/shahow_bottom_height">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/title_recent_player" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rule_text_mar_top" android:text="@string/recent_player" android:textAllCaps="true" fontPath="@string/font_bold" />
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/list_friends" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/mar_top_10" android:layout_marginRight="@dimen/mar_top_10" android:layout_marginBottom="@dimen/btn_play_size" android:minHeight="@dimen/min_white_space" />
+                        <TextView android:textSize="@dimen/font_15" android:id="@id/no_data" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mar_top_10" android:text="@string/msg_no_recent_player" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <RelativeLayout android:id="@id/top" android:layout_width="wrap_content" android:layout_height="@dimen/btn_close_size">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/pad_btn_close" android:layout_width="@dimen/btn_close_size" android:layout_height="@dimen/btn_close_size" app:srcCompat="@drawable/ic_game_back" />
+    </RelativeLayout>
+</RelativeLayout>

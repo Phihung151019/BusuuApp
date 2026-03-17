@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="andada">Andada</string>
+    <string name="andada_font">fonts/andada/Andada-Regular.otf</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_intro_back_button">KEMBALI</string>
+    <string name="app_intro_done_button">SELESAI</string>
+    <string name="app_intro_image_content_description">grafik</string>
+    <string name="app_intro_next_button">LANJUT</string>
+    <string name="app_intro_skip_button">LEWATI</string>
+    <string name="app_name">4English</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="audio_mark_id">javascript:alert(audioMarkID(\"epub-media-overlay-playing\",\"%s\"))</string>
+    <string name="avatar_format">v1/users/%s/avatar</string>
+    <string name="ayp_custom_action_left">Aksi kustom kiri pemutar YouTube</string>
+    <string name="ayp_custom_action_right">Aksi kustom pemutar YouTube kanan</string>
+    <string name="ayp_full_screen_button">Tombol layar penuh</string>
+    <string name="ayp_live">LIVE</string>
+    <string name="ayp_null_time">0:00</string>
+    <string name="ayp_open_video_in_youtube">Buka video di YouTube</string>
+    <string name="ayp_play_button">Tombol putar</string>
+    <string name="black_rgb">\#000000</string>
+    <string name="blue_rgb">\#0000ff</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="btn_xem_pro">Lihat Pro</string>
+    <string name="callClearSelection">javascript:clearSelection()</string>
+    <string name="callComputeLastReadCfi">javascript:computeLastReadCfi()</string>
+    <string name="callHighlightSearchLocator">javascript:highlightSearchLocator(\"%s\")</string>
+    <string name="callScrollToCfi">javascript:scrollToCfi(\"%s\")</string>
+    <string name="cancel">Batal</string>
+    <string name="card_content_descriptor">kartu</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="chat_with_us_if_you_have_trouble_with_payment">Ada masalah? Pesan kami!</string>
+    <string name="chat_with_us_if_you_have_trouble_with_payment_vn">Hubungi kami melalui chat jika Anda mengalami masalah dengan pembayaran</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id">1521e835ef2340e2af6ad024d0c422ac</string>
+    <string name="com.google.firebase.crashlytics.version_control_info">"repositories {
+  system: GIT
+  local_root_path: \"$PROJECT_DIR\"
+  revision: \"0ba61c40472006a172d7c848e945488ea48ef22f\"
+}
+"</string>
+    <string name="com_facebook_device_auth_instructions">Kunjungi &lt;b>facebook.com/device&lt;/b> dan masukkan kode yang ditampilkan di atas.</string>
+    <string name="com_facebook_image_download_unknown_error">Kesalahan yang tidak diharapkan saat mengunduh gambar.</string>
+    <string name="com_facebook_internet_permission_error_message">Masuk WebView memerlukan izin INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Kesalahan AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Disukai</string>
+    <string name="com_facebook_like_button_not_liked">Suka</string>
+    <string name="com_facebook_loading">Memuat…</string>
+    <string name="com_facebook_loginview_cancel_action">Batal</string>
+    <string name="com_facebook_loginview_log_in_button">Masuk</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Lanjutkan dengan Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Masuk menggunakan Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Keluar</string>
+    <string name="com_facebook_loginview_log_out_button">Keluar</string>
+    <string name="com_facebook_loginview_logged_in_as">Masuk sebagai: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Masuk menggunakan Facebook</string>
+    <string name="com_facebook_send_button_text">Kirim</string>
+    <string name="com_facebook_share_button_text">Berbagi</string>
+    <string name="com_facebook_smart_device_instructions">Untuk menghubungkan akun Anda, buka aplikasi Facebook di perangkat seluler Anda dan periksa pemberitahuan.</string>
+    <string name="com_facebook_smart_device_instructions_or">- ATAU -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Bukan Anda?</string>
+    <string name="com_facebook_smart_login_confirmation_title">Konfirmasikan Masuk</string>
+    <string name="com_facebook_tooltip_default">Anda memegang kendali - pilih info yang ingin Anda bagikan dengan aplikasi.</string>
+    <string name="css_tag">"\"
+&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"%s\" />
+\""</string>
+    <string name="default_web_client_id">242262472149-kfqtf5v07pqq4cfghc6dqtl43dst3nij.apps.googleusercontent.com</string>
+    <string name="delete_data_av">Đã có từ điển Anh - Việt offline</string>
+    <string name="download_av">Unduh Inggris - Vietnam offline</string>
+    <string name="download_av_for_offline">Unduh kamus Inggris - Vietnam offline</string>
+    <string name="download_av_no_percent">Tải Anh - Việt</string>
+    <string name="download_av_percent">Mengunduh Anh - Việt(%s)</string>
+    <string name="drag_to_move">"- Dapat menekan dan menahan untuk memindahkan layar terjemahan.
+
+- Konten di bagian Bilingual diterjemahkan oleh penerjemah.
+
+- Bagian lain diterjemahkan oleh Google."</string>
+    <string name="editor_choice">Song ngữ</string>
+    <string name="error_no_connection">Tidak ada internet</string>
+    <string name="error_unknown">Kesalahan tidak diketahui</string>
+    <string name="exo_controls_custom_playback_speed">%1$.2fx</string>
+    <string name="exo_controls_time_placeholder">00:00:00</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="facebook_app_id">139313273335530</string>
+    <string name="facebook_application_id">139313273335530</string>
+    <string name="facebook_login_protocol_scheme">fb139313273335530</string>
+    <string name="fb_login_protocol_scheme">fb139313273335530</string>
+    <string name="fcm_fallback_notification_channel_label">Lain-lain</string>
+    <string name="firebase_database_url">https://tdt-english.firebaseio.com</string>
+    <string name="font_bold">fonts/OpenSans-Bold.ttf</string>
+    <string name="font_italic">fonts/OpenSans-Italic.ttf</string>
+    <string name="font_semi_bold">fonts/OpenSans-SemiBold.ttf</string>
+    <string name="format_date_purchase">dd MMMM yyyy</string>
+    <string name="format_ipa">/%s/</string>
+    <string name="gcm_defaultSenderId">242262472149</string>
+    <string name="go_to_anchor">javascript:goToAnchor(\"%s\")</string>
+    <string name="go_to_editor_news">Baca berita yang diterjemahkan</string>
+    <string name="go_to_highlight">"javascript:goToHighlight('%s')"</string>
+    <string name="google_api_key">AIzaSyBktlXqnJY5ki7PRRed1btVqQDAW_eqQUU</string>
+    <string name="google_app_id">1:242262472149:android:1f9dbbf77a983b7234395c</string>
+    <string name="google_crash_reporting_api_key">AIzaSyBktlXqnJY5ki7PRRed1btVqQDAW_eqQUU</string>
+    <string name="google_storage_bucket">tdt-english.appspot.com</string>
+    <string name="green_rgb">\#00ff00</string>
+    <string name="half_speed">1/2x</string>
+    <string name="half_speed_text">"\"
+"</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="html_mime_type">text/html</string>
+    <string name="lato">" Lato"</string>
+    <string name="lato_font">fonts/lato/Lato-Regular.ttf</string>
+    <string name="library_android_database_sqlcipher_author">Zetetic, LLC</string>
+    <string name="library_android_database_sqlcipher_authorWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_isOpenSource">true</string>
+    <string name="library_android_database_sqlcipher_libraryDescription">API SQLite Android berdasarkan SQLCipher</string>
+    <string name="library_android_database_sqlcipher_libraryName">SQLCipher untuk Android</string>
+    <string name="library_android_database_sqlcipher_libraryVersion">${clientVersionNumber}</string>
+    <string name="library_android_database_sqlcipher_libraryWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_licenseLink">https://www.zetetic.net/sqlcipher/license/</string>
+    <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
+    <string name="location_permission_missing_message">Sepertinya aplikasi ini tidak memiliki layanan lokasi yang dikonfigurasi. Silakan lihat dokumentasi OneSignal untuk informasi lebih lanjut.</string>
+    <string name="location_permission_missing_title">Aplikasi Kehilangan Izin</string>
+    <string name="location_permission_name_for_title">Lokasi</string>
+    <string name="location_permission_settings_message">membagikan lokasi perangkat Anda</string>
+    <string name="lora">Lora</string>
+    <string name="lora_font">fonts/lora/Lora-Regular.ttf</string>
+    <string name="lucky_wheel_activity_listening">Dengarkan podcast</string>
+    <string name="lucky_wheel_activity_reading">Baca berita</string>
+    <string name="lucky_wheel_btn_receive">Terima</string>
+    <string name="lucky_wheel_btn_use">Gunakan</string>
+    <string name="lucky_wheel_choose_activity">Pilih aktivitas</string>
+    <string name="lucky_wheel_code_prefix">Kode:</string>
+    <string name="lucky_wheel_congrats_message">Anda memenangkan: %s</string>
+    <string name="lucky_wheel_congrats_title">Selamat!</string>
+    <string name="lucky_wheel_history_empty">"Anda belum menerima hadiah apa pun.
+Uji keberuntungan Anda di awal tahun, dapatkan hadiah keren segera."</string>
+    <string name="lucky_wheel_history_title_dialog">RIWAYAT PUTARAN HADIAH</string>
+    <string name="lucky_wheel_history_title_link">Riwayat putaran</string>
+    <string name="lucky_wheel_rules">Aturan</string>
+    <string name="lucky_wheel_rules_date_value">02/02/2026 – 28/02/2026</string>
+    <string name="lucky_wheel_rules_method_body">"• Setiap pengguna akan mendapatkan 1 putaran gratis
+• Selain itu, Anda akan menerima tiket putaran tambahan segera setelah menyelesaikan tugas belajar berikut:"</string>
+    <string name="lucky_wheel_rules_method_header">Cara mendapatkan tiket:</string>
+    <string name="lucky_wheel_rules_regulation_header">Peraturan penerimaan hadiah:</string>
+    <string name="lucky_wheel_rules_regulation_html_new">"
+• Ambil tangkapan layar hadiah yang Anda terima
+• Hubungi halaman penggemar 
+&lt;a href=\"https://m.me/App4English\">&lt;b>&lt;font color=\"#2B6FF4\">4English - Aplikasi super belajar bahasa Inggris&lt;/font>&lt;/b>&lt;/a> untuk menerima hadiah"</string>
+    <string name="lucky_wheel_rules_reward_body">"• Voucher diskon 50% untuk upgrade 4English PRO disertai paket PRO 1 bulan dari aplikasi 4You
+• Angpao keberuntungan senilai 200.000 VNĐ
+• Set hadiah Tahun Baru
+• Materi bahasa Inggris eksklusif
+• Hadiah fisik rahasia
+• Pesan awal tahun"</string>
+    <string name="lucky_wheel_rules_reward_header">Struktur Hadiah:</string>
+    <string name="lucky_wheel_rules_target_label">Target Peserta:</string>
+    <string name="lucky_wheel_rules_target_value">Semua pengguna 4English</string>
+    <string name="lucky_wheel_rules_terms_body">"• Setiap hadiah memiliki jumlah terbatas
+• Segala keputusan akhir adalah milik panitia 4English"</string>
+    <string name="lucky_wheel_rules_terms_header">Ketentuan lain:</string>
+    <string name="lucky_wheel_rules_time_label">Waktu acara:</string>
+    <string name="lucky_wheel_rules_title_dialog">ATURAN</string>
+    <string name="lucky_wheel_share">Bagikan</string>
+    <string name="lucky_wheel_spin_btn">PUTAR HADIAH</string>
+    <string name="lucky_wheel_spin_count_format">Tersisa %d putaran</string>
+    <string name="lucky_wheel_spin_now">PUTAR SEKARANG!</string>
+    <string name="lucky_wheel_spin_remaining">Sisa 1 putaran</string>
+    <string name="lucky_wheel_status_received">Telah diterima</string>
+    <string name="lucky_wheel_task_1">10 kosakata</string>
+    <string name="lucky_wheel_task_2">2 latihan</string>
+    <string name="lucky_wheel_task_3">2 artikel Berita &amp; 1 artikel Mendengarkan</string>
+    <string name="lucky_wheel_task_action">Lakukan</string>
+    <string name="lucky_wheel_task_done">Selesai</string>
+    <string name="lucky_wheel_task_progress_format">Pelajari %1$d kata (%2$d/%3$d)</string>
+    <string name="lucky_wheel_title">DAFTAR TUGAS</string>
+    <string name="lw_btn_do_task">Lakukan</string>
+    <string name="lw_btn_doc">JELAJAHI SEKARANG</string>
+    <string name="lw_btn_hunt">Buruan tiket!</string>
+    <string name="lw_btn_join_now">Bergabung sekarang</string>
+    <string name="lw_btn_secret">HUBUNGI SEKARANG</string>
+    <string name="lw_btn_spin_now">Putar sekarang!</string>
+    <string name="lw_btn_understood">Dimengerti!</string>
+    <string name="lw_btn_voucher">DAPATKAN PENAWARAN SEKARANG</string>
+    <string name="lw_btn_wish_1">AMBIL KEBERUNTUNGAN UJIAN</string>
+    <string name="lw_btn_wish_2">DOA KAYA RAYA</string>
+    <string name="lw_btn_wish_3">SANTAI SAJA</string>
+    <string name="lw_btn_wish_4">SUKA CITA, SUKA CITA</string>
+    <string name="lw_doc_url">https://drive.google.com/drive/folders/1kE5DS_GZg_RD7RtHdilTwfbMBw4W0XTl</string>
+    <string name="lw_header_reward">HADIAH</string>
+    <string name="lw_messenger_url">https://m.me/App4English</string>
+    <string name="lw_notify_hunt_header">BURU TIKET SEKARANG!</string>
+    <string name="lw_notify_hunt_msg">Tiket habis, Anda perlu berburu tiket sekarang!</string>
+    <string name="lw_notify_limit_header">TIKET HABIS!</string>
+    <string name="lw_notify_limit_msg">"Tiket habis, silakan tunggu
+dan ikuti besok"</string>
+    <string name="lw_notify_task_header">SELESAIKAN TUGAS</string>
+    <string name="lw_notify_task_msg_new">Selamat, Anda telah menerima \u0008u\u0008\u0008\u000cont color\u0008=\u0008#A54F08\u00081 tiket\u0008/font\u0008\u0008/b\u0008!</string>
+    <string name="lw_prize_calendar_desc_plain">Hadiah rahasia: Kalender Meja 2026</string>
+    <string name="lw_prize_doc_desc_plain">Materi bahasa Inggris eksklusif dari 4English</string>
+    <string name="lw_prize_doc_name">Materi eksklusif</string>
+    <string name="lw_prize_doc_wheel">"DOKUMEN
+EKSKLUSIF"</string>
+    <string name="lw_prize_gift_set_desc_plain">Paket hadiah Tahun Baru dari 4English</string>
+    <string name="lw_prize_gift_set_name">Set Hadiah Tahun Baru</string>
+    <string name="lw_prize_gift_set_wheel">"SET HADIAH
+TAHUN BARU"</string>
+    <string name="lw_prize_lixi_desc_plain">Angpao keberuntungan senilai 200.000 VNĐ</string>
+    <string name="lw_prize_lixi_name">Angpao 200K</string>
+    <string name="lw_prize_lixi_wheel">"ANGPAO
+200K"</string>
+    <string name="lw_prize_mystery_wheel">"TAS MISTERI
+?"</string>
+    <string name="lw_prize_notebook_desc_plain">Hadiah rahasia: Buku Catatan</string>
+    <string name="lw_prize_secret_desc_plain">Hubungi 4English untuk mendapatkan hadiah</string>
+    <string name="lw_prize_voucher_code">MOLOCTET</string>
+    <string name="lw_prize_voucher_desc_plain">Masukkan kode diskon 50% untuk upgrade 4English PRO</string>
+    <string name="lw_prize_voucher_name">Voucher 50%</string>
+    <string name="lw_prize_voucher_wheel">"VOUCHER
+ 50% 
+GRATIS
+4You"</string>
+    <string name="lw_prize_wish1_desc_plain">"Makan tanpa takut gemuk, belajar tanpa takut lupa
+Ujian lancar, lulus semua ujian"</string>
+    <string name="lw_prize_wish2_desc_plain">"Bermain dengan santai tapi dapatkan hadiah sungguhan, tidur pun dapat uang
+Segala sesuatu berjalan lancar seperti peri, uang masuk penuh ke dompet"</string>
+    <string name="lw_prize_wish3_desc_plain">"BESOK jangan sampai
+TERLALU-RẦU"</string>
+    <string name="lw_prize_wish4_desc_plain">"Memberimu pelukan
+Karena kamu telah berusaha keras tahun ini"</string>
+    <string name="lw_prize_wish_name">Ucapan selamat</string>
+    <string name="lw_prize_wish_wheel">"UCAPAN
+AWAL
+TАНUN"</string>
+    <string name="lw_reward_doc_msg">"Selamat Anda mendapatkan set
+&lt;br>
+&lt;b>Materi eksklusif Bahasa Inggris dari 4English&lt;/b>"</string>
+    <string name="lw_reward_doc_title">TIPS MENAKLUKKAN BAHASA INGGRIS</string>
+    <string name="lw_reward_secret_msg">" Selamat, Anda telah memenangkan &lt;b >&lt;font color=#A54F08>%s&lt;/font>&lt;/b>&lt;br/>Hubungi &lt;b>4English&lt;/b> untuk segera mendapatkan hadiah! "</string>
+    <string name="lw_reward_secret_title">RAIH HADIAH RAHASIA DI AWAL TAHUN</string>
+    <string name="lw_reward_voucher_msg">&lt;b>Voucher %1$s untuk upgrade 4English PRO&lt;/b></string>
+    <string name="lw_reward_voucher_sub_msg">"Disertai paket PRO 1 bulan aplikasi
+4You - Belajar bahasa Inggris melalui video"</string>
+    <string name="lw_reward_voucher_title">KOMBO BELAJAR TERBAIK</string>
+    <string name="lw_reward_wish_title">HARAPAN AWAL TAHUN</string>
+    <string name="lw_secret_calendar_desc">"Hadiah rahasia:
+Kalender meja 2026"</string>
+    <string name="lw_secret_calendar_desc_formatted">"Hadiah rahasia:
+&lt;b>&lt;font color='#A54F08'>Kalender Meja 2026&lt;/font>&lt;/b>"</string>
+    <string name="lw_secret_calendar_name">Tas misteri</string>
+    <string name="lw_secret_notebook_desc">"Hadiah rahasia:
+Buku catatan"</string>
+    <string name="lw_secret_notebook_desc_formatted">"Hadiah rahasia:
+&lt;b>&lt;font color='#A54F08'>Buku Catatan&lt;/font>&lt;/b>"</string>
+    <string name="lw_secret_notebook_name">Kotak misteri</string>
+    <string name="lw_toast_code_copied">Kode disalin: %s</string>
+    <string name="lw_toast_navigate_purchase">Navigasi ke layar peningkatan PRO</string>
+    <string name="lw_toast_prize_received">Hadiah diterima!</string>
+    <string name="lw_toast_url_error">Tidak dapat membuka tautan</string>
+    <string name="lw_wish_content_1">"Makan tanpa takut gemuk, belajar tanpa takut lupa
+Ujian lancar, lulus di mana pun ujian"</string>
+    <string name="lw_wish_content_2">"Bermain santai dapatkan hadiah, tertidur dapat uang
+Semoga sukses, uang masuk penuh dompet"</string>
+    <string name="lw_wish_content_3">"BESOK jangan
+&lt;b >TERLALU BANYAK KEKHAWATIRAN&lt;/b>"</string>
+    <string name="lw_wish_content_4">" Memberimu 
+&lt;b >&lt;font color='#DC2626'>pelukan&lt;/font>&lt;/b>&lt;br/> Karena kamu telah berusaha keras tahun ini "</string>
+    <string name="m3_exceed_max_badge_text_suffix">%1$s%2$s</string>
+    <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_accelerate">cubic-bezier(0.3, 0, 0.8, 0.2)</string>
+    <string name="m3_sys_motion_easing_emphasized_decelerate">cubic-bezier(0.1, 0.7, 0.1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
+    <string name="m3_sys_motion_easing_legacy">cubic-bezier(0.4, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard">cubic-bezier(0.2, 0, 0, 1)</string>
+    <string name="m3_sys_motion_easing_standard_accelerate">cubic-bezier(0.3, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard_decelerate">cubic-bezier(0, 0, 0, 1)</string>
+    <string name="material_clock_display_divider">.</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_slider_range_end">Akhir rentang</string>
+    <string name="material_slider_range_start">Mulai rentang</string>
+    <string name="material_slider_value">Nilai</string>
+    <string name="messenger_send_button_text">Kirim</string>
+    <string name="modal_content_descriptor">modal</string>
+    <string name="modal_inner_content_descriptor">bagian dalam modal</string>
+    <string name="msg_av_failed">Gagal memuat Bahasa Inggris - Indonesia!</string>
+    <string name="msg_av_success">Tải Anh - Việt thành công!</string>
+    <string name="msg_dich_boi_bdv">Diterjemahkan oleh Penerjemah</string>
+    <string name="msg_pro_for_grammar">Untuk melihat materi tata bahasa lengkap, Anda perlu meningkatkan ke versi PRO</string>
+    <string name="msg_voice_vn">Đây là giọng đọc máy, nghe sẽ không được chuẩn. Nếu bạn muốn nghe giọng chuẩn hãy dùng các bài bên phần Nghe</string>
+    <string name="mtrl_checkbox_button_icon_path_checked">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
+    <string name="mtrl_checkbox_button_icon_path_group_name">ikon</string>
+    <string name="mtrl_checkbox_button_icon_path_indeterminate">M13.4,15 11,15 11,17 13.4,17 21,17 21,15z</string>
+    <string name="mtrl_checkbox_button_icon_path_name">jalur ikon</string>
+    <string name="mtrl_checkbox_button_path_checked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z</string>
+    <string name="mtrl_checkbox_button_path_group_name">tombol</string>
+    <string name="mtrl_checkbox_button_path_name">jalur tombol</string>
+    <string name="mtrl_checkbox_button_path_unchecked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z M23,23H9V9h14V23z</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_switch_thumb_group_name">grup_lingkaran</string>
+    <string name="mtrl_switch_thumb_path_checked">M4,16 A12,12 0 0,1 16,4 H16 A12,12 0 0,1 16,28 H16 A12,12 0 0,1 4,16</string>
+    <string name="mtrl_switch_thumb_path_morphing">M0,16 A11,11 0 0,1 11,5 H21 A11,11 0 0,1 21,27 H11 A11,11 0 0,1 0,16</string>
+    <string name="mtrl_switch_thumb_path_name">lingkaran</string>
+    <string name="mtrl_switch_thumb_path_pressed">M2,16 A14,14 0 0,1 16,2 H16 A14,14 0 0,1 16,30 H16 A14,14 0 0,1 2,16</string>
+    <string name="mtrl_switch_thumb_path_unchecked">M8,16 A8,8 0 0,1 16,8 H16 A8,8 0 0,1 16,24 H16 A8,8 0 0,1 8,16</string>
+    <string name="mtrl_switch_track_decoration_path">M1,16 A15,15 0 0,1 16,1 H36 A15,15 0 0,1 36,31 H16 A15,15 0 0,1 1,16</string>
+    <string name="mtrl_switch_track_path">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
+    <string name="need_update_av">Perbarui Inggris - Vietnam</string>
+    <string name="no">Tidak</string>
+    <string name="no_data">Tidak ada data</string>
+    <string name="notification_permission_name_for_title">Notifikasi</string>
+    <string name="notification_permission_settings_message">Notifikasi</string>
+    <string name="ok">OK</string>
+    <string name="one_and_half">1 1/2x</string>
+    <string name="one_and_half_speed">"1
+1
+2x"</string>
+    <string name="onex">1x</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_not_available_message">Anda sebelumnya telah menolak %s. Silakan buka pengaturan untuk mengaktifkan.</string>
+    <string name="permission_not_available_open_settings_option">Pengaturan</string>
+    <string name="permission_not_available_title">%s Tidak Tersedia</string>
+    <string name="play_initial_time">00:00</string>
+    <string name="project_id">tdt-english</string>
+    <string name="quizlet_app_host">after_oauth</string>
+    <string name="quizlet_app_scheme">com.4english</string>
+    <string name="raleway">Raleway</string>
+    <string name="raleway_font">fonts/raleway/Raleway-Regular.ttf</string>
+    <string name="rationale_ask">Aplikasi ini mungkin tidak berfungsi dengan benar tanpa izin yang diminta.</string>
+    <string name="rationale_ask_again">Aplikasi ini mungkin tidak berfungsi dengan benar tanpa izin yang diminta. Buka layar pengaturan aplikasi untuk mengubah izin aplikasi.</string>
+    <string name="receive_more_prize">DAPATKAN HADIAH LAINNYA</string>
+    <string name="red_rgb">\#ff0000</string>
+    <string name="retry">Coba lagi</string>
+    <string name="script_tag">"\"
+&lt;script type=\"text/javascript\" src=\"%s\">&lt;/script>
+\""</string>
+    <string name="script_tag_method_call">"\"
+&lt;script type\u0009=\u0009\"text/javascript\"\u0009>\u0009%s\u0009&lt;/script>\""</string>
+    <string name="searchbar_scrolling_view_behavior">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
+    <string name="sethighlightstyle">javascript:setHighlightStyle(\"%s\");</string>
+    <string name="setmediaoverlaystyle">javascript:setMediaOverlayStyle(\"%s\")</string>
+    <string name="side_sheet_behavior">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="song_ngu">Dua bahasa</string>
+    <string name="sponsored">Sponsor</string>
+    <string name="style">Gaya</string>
+    <string name="style_underline">"\"
+          \u0009\u0009&lt;u style=\" border-bottom: 1px dashed #bcbcbc; text-decoration: none; \">Gaya&lt;/u>"</string>
+    <string name="td_tag">\"\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009S</string>
+    <string name="title_notice_vn">Chú ý!</string>
+    <string name="title_settings_dialog">Izin Diperlukan</string>
+    <string name="toast_message">Pesan Toast</string>
+    <string name="tr_tag">"\u0009\u000d
+td\u0009\u000d
+\u0009\u000d
+%s\u0009\u000d
+\u0009\u000d
+\u0009\u000d
+"</string>
+    <string name="two_x">2x</string>
+    <string name="ucrop_crop">Pangkas</string>
+    <string name="ucrop_error_input_data_is_absent">Uri input dan output harus ditentukan</string>
+    <string name="ucrop_label_edit_photo">Edit Foto</string>
+    <string name="ucrop_label_original">Asli</string>
+    <string name="ucrop_menu_crop">Pangkas</string>
+    <string name="ucrop_mutate_exception_hint">Oleh karena itu, timpa sumber daya warna (ucrop_color_toolbar_widget) di aplikasi Anda agar berfungsi pada perangkat pra-L</string>
+    <string name="ucrop_rotate">Putar</string>
+    <string name="ucrop_scale">Skala</string>
+    <string name="vietnamese_available">Song ngữ</string>
+    <string name="waiting">Menunggu</string>
+    <string name="white_rgb">\#ffffff</string>
+    <string name="widget_badge_new">Baru</string>
+    <string name="widget_badge_review">Ulasan</string>
+    <string name="widget_badge_trending">Populer</string>
+    <string name="widget_description">4English Vocab Widget – menampilkan kata kosakata harian Anda</string>
+    <string name="widget_open_app">Buka aplikasi untuk mulai belajar</string>
+    <string name="widget_stale_hint">Perlu segarkan – buka aplikasi</string>
+    <string name="xhtml_mime_type">application/xhtml+xml</string>
+    <string name="yes">Ya</string>
+    <string name="zip">.zip</string>
+</resources>

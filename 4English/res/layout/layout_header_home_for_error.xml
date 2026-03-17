@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/header" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginTop="13.0dp" android:layout_marginRight="@dimen/margin_safe_base" android:text="@string/dictionary" fontPath="fonts/OpenSans-Bold.ttf" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/icon_color" android:id="@id/btn_dict_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginTop="13.0dp" android:layout_marginRight="@dimen/margin_safe_base" android:text="@string/settings" android:drawablePadding="5.0dp" android:layout_alignParentRight="true" app:drawableRightCompat="@drawable/ic_settings_gray_svg" app:drawableTint="@color/icon_color" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingTop="5.0dp" android:paddingBottom="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+        <LinearLayout android:orientation="horizontal" android:id="@id/search_view_bound" android:background="@drawable/bg_border_for_url_input" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginRight="@dimen/margin_safe_base">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_search" android:background="?selectableItemBackground" android:padding="10.0dp" android:layout_width="45.0dp" android:layout_height="match_parent" android:tint="@color/color_text_action" app:srcCompat="@drawable/ic_search_svg" />
+            <com.tdtapp.englisheveryday.widgets.InstantAutoComplete android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:textColorHint="@color/color_second_txt_in_white" android:id="@id/edt_search" android:background="@null" android:padding="5.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:hint="@string/enter_word_to_translate" android:maxLines="1" android:layout_weight="1.0" android:inputType="text" android:dropDownAnchor="@id/search_view_bound" android:imeOptions="actionSearch" />
+            <RelativeLayout android:id="@id/right_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_clear" android:background="?selectableItemBackground" android:padding="12.0dp" android:visibility="gone" android:layout_width="45.0dp" android:layout_height="match_parent" android:layout_centerVertical="true" app:srcCompat="@drawable/ic_exit_svg" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_speak" android:background="?selectableItemBackground" android:padding="10.0dp" android:visibility="visible" android:layout_width="45.0dp" android:layout_height="match_parent" android:tint="@color/color_text_action" android:layout_centerVertical="true" app:srcCompat="@drawable/ic_mic_svg" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:id="@id/tmp_view" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/search_view_bound" />
+    </RelativeLayout>
+    <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginTop="13.0dp" android:layout_marginRight="@dimen/margin_safe_base" android:text="@string/shortcuts" android:drawablePadding="5.0dp" fontPath="fonts/OpenSans-Bold.ttf" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/shortcut_btn_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/shortcut_list" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="3.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="labels">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+    <string-array name="push_msg">
+        <item>@string/push_msg_1</item>
+        <item>@string/push_msg_2</item>
+        <item>@string/push_msg_3</item>
+        <item>@string/push_msg_4</item>
+        <item>@string/push_msg_5</item>
+        <item>@string/push_msg_6</item>
+        <item>@string/push_msg_7</item>
+        <item>@string/push_msg_8</item>
+        <item>@string/push_msg_9</item>
+        <item>@string/push_msg_10</item>
+    </string-array>
+    <string-array name="push_title">
+        <item>@string/push_title_1</item>
+        <item>@string/push_title_2</item>
+        <item>@string/push_title_3</item>
+        <item>@string/push_title_4</item>
+        <item>@string/push_title_5</item>
+        <item>@string/push_title_6</item>
+    </string-array>
+    <string-array name="speed_value">
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+    </string-array>
+</resources>

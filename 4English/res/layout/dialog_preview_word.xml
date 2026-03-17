@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_rectangle_white_radius" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_safe_base"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tdtapp.englisheveryday.view.VocabInfoView android:id="@id/item_word" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_horizontal_margin" />
+    <com.tdtapp.englisheveryday.widgets.home.LayoutSuggestVocabInNews android:id="@id/suggest_news" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/item_word" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_close" android:background="?selectableItemBackgroundBorderless" android:padding="12.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_margin="5.0dp" android:src="@drawable/ic_close_small_svg" android:tint="@color/icon_color" android:layout_alignParentEnd="true" />
+</RelativeLayout>

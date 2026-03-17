@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="@drawable/circle_white" android:layout_width="55.0dp" android:layout_height="55.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_play" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.0dp" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_play_video_svg" />
+    <com.github.lzyzsd.circleprogress.ArcProgress android:id="@id/progress_bar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:rotation="180.0" app:arc_angle="360.0" app:arc_bottom_text=" " app:arc_finished_color="#3372f4" app:arc_max="600" app:arc_stroke_width="4.0dp" app:arc_suffix_text=" " app:arc_text_size="1.0sp" app:arc_unfinished_color="@color/divider_recent" />
+</RelativeLayout>

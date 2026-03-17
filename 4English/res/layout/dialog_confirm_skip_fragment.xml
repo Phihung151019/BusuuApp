@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/bg_rectangle_white_radius" android:padding="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_horizontal_margin">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="70.0dp" android:layout_height="70.0dp" app:srcCompat="@drawable/ic_skip_big" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/dialog_confirm_title_skip" fontPath="fonts/OpenSans-Bold.ttf" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/dialog_confirm_msg_skip" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/selector_btn_white_border_radius" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/cancel" android:layout_weight="1.0" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <View android:layout_width="30.0dp" android:layout_height="2.0dp" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/text_white_in_blue" android:gravity="center" android:id="@id/btn_ok" android:background="@drawable/selector_btn_action_radius" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="@string/dialog_confirm_btn_skip" android:layout_weight="1.0" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/color_second_text" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_skip_more" android:layout_width="wrap_content" android:layout_height="40.0dp" android:layout_marginTop="20.0dp" android:text="@string/btn_skip_multi" android:drawablePadding="10.0dp" app:drawableLeftCompat="@drawable/ic_settings_svg" app:drawableTint="@color/color_second_text" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

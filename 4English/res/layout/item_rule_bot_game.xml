@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="@drawable/selector_bg_item_rule" android:paddingLeft="10.0dp" android:paddingTop="15.0dp" android:paddingRight="10.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:background="?selectableItemBackgroundBorderless" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_rule" android:layout_width="40.0dp" android:layout_height="40.0dp" app:srcCompat="@drawable/ic_game_public_mode" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+            <TextView android:textSize="18.0sp" android:textColor="@drawable/selector_item_rule_text" android:id="@id/rule_name" android:layout_width="wrap_content" android:layout_height="match_parent" fontPath="@string/font_bold" />
+            <TextView android:textSize="16.0sp" android:textColor="@drawable/selector_item_rule_text" android:id="@id/rule_content" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/rule_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_next_rule" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/rule_disable" android:layout_width="30.0dp" android:layout_height="30.0dp" android:tint="@color/lock_rule" app:srcCompat="@drawable/ic_lock" />
+    </LinearLayout>
+</RelativeLayout>

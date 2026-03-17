@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="12.0dp" app:cardElevation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_content" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginStart="12.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/card_thumbnail_wrapper" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="12.0sp" android:textColor="@color/color_tag_news_new" android:id="@id/tv_tag" android:background="@drawable/bg_tag_news_rounded" android:paddingTop="2.0dp" android:paddingBottom="2.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="News" android:fontFamily="@font/inter" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/home_text_primary" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="Ban National Park officials directed the relocation of a black bear..." android:maxLines="2" android:minLines="2" android:fontFamily="@font/inter" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/home_text_secondary" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="Description or subtitle..." android:maxLines="2" android:minLines="2" android:fontFamily="@font/inter" />
+        </LinearLayout>
+        <androidx.cardview.widget.CardView android:id="@id/card_thumbnail_wrapper" android:layout_width="0.0dp" android:layout_height="0.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="0.0dp" app:layout_constraintBottom_toBottomOf="@id/layout_content" app:layout_constraintDimensionRatio="1:1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_content">
+            <ImageView android:id="@id/img_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bg_gradient_blue" android:scaleType="centerCrop" />
+            <ImageView android:layout_gravity="center" android:id="@id/img_play_overlay" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_youtube_black_home_new_svg" />
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

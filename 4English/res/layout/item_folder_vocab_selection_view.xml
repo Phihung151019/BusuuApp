@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.FolderVocabSelectionView android:background="?selectableItemBackgroundBorderless" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="31.0dp" android:layout_height="23.0dp" android:src="@drawable/ic_folder" app:tint="@color/color_folder_vocab" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center_vertical" android:id="@id/folder_name" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48.0dp" />
+        </LinearLayout>
+        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    </LinearLayout>
+</com.tdtapp.englisheveryday.widgets.FolderVocabSelectionView>

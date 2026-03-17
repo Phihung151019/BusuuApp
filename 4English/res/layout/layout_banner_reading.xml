@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_banner_reading" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/banner_title_listening_text" android:id="@id/tv_banner_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/reading_banner_title" android:lineSpacingExtra="6.0sp" android:textFontWeight="600" style="@style/InterTightSemibold600" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/banner_title_listening_text" android:id="@id/tv_banner_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/reading_banner_desc" android:lineSpacingExtra="6.0sp" style="@style/InterRegular400" />
+</LinearLayout>

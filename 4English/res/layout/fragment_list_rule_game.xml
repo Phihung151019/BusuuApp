@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_welcome_game" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/top" android:layout_width="match_parent" android:layout_height="@dimen/btn_close_size">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/pad_btn_close" android:layout_width="@dimen/btn_close_size" android:layout_height="@dimen/btn_close_size" app:srcCompat="@drawable/ic_game_back" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/top">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_bound_top_mar">
+            <View android:background="@drawable/bg_blue_dark_game" android:layout_width="match_parent" android:layout_height="100.0dp" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_blue_game" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/shahow_bottom_height">
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp">
+                    <ImageView android:id="@id/bot_avatar" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_baby_boss" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/txt_name_update" android:layout_gravity="center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:text="BOSS BABY" android:textAllCaps="true" fontPath="@string/font_bold" />
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rule_list_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

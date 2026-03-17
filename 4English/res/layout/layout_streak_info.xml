@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="5.0dp" android:layout_marginBottom="10.0dp" app:cardBackgroundColor="#2fcff1" app:cardCornerRadius="10.0dp" app:cardElevation="4.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/text_white_in_blue" android:id="@id/msg_streak_days" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_safe_base" fontPath="fonts/OpenSans-Bold.ttf" />
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tdtapp.englisheveryday.widgets.streak.StreakFloatButtonView android:id="@id/btn_streak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" />
+        <LinearLayout android:orientation="vertical" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/btn_streak" android:layout_centerVertical="true" android:layout_toEndOf="@id/btn_streak">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/color_second_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/today" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/learned" android:layout_width="wrap_content" android:layout_height="wrap_content" fontPath="fonts/OpenSans-Bold.ttf" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="@color/color_primary_text" android:id="@id/target" android:layout_width="wrap_content" android:layout_height="21.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/color_text_action" android:id="@id/edit_target_streak" android:background="@drawable/bg_border_for_url_input" android:paddingLeft="15.0dp" android:paddingTop="8.0dp" android:paddingRight="15.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:text="@string/edit_target" android:layout_alignParentRight="true" android:layout_centerVertical="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </RelativeLayout>
+    <com.github.mikephil.charting.charts.CombinedChart android:id="@id/chart" android:layout_width="match_parent" android:layout_height="200.0dp" />
+</LinearLayout>

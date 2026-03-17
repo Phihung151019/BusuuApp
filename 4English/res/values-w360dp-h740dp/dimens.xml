@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_bound_top_mar">24.0dp</dimen>
+    <dimen name="btn_close_size">57.599976dp</dimen>
+    <dimen name="btn_play_mar_top">12.0dp</dimen>
+    <dimen name="btn_play_size">65.0dp</dimen>
+    <dimen name="btn_play_width">192.0dp</dimen>
+    <dimen name="font_15">18.0sp</dimen>
+    <dimen name="font_18">21.599976sp</dimen>
+    <dimen name="font_20">22.0sp</dimen>
+    <dimen name="font_25">25.0sp</dimen>
+    <dimen name="font_30">36.0sp</dimen>
+    <dimen name="logo_game_height">95.0dp</dimen>
+    <dimen name="logo_game_mar">36.0dp</dimen>
+    <dimen name="mar_bottom">24.0dp</dimen>
+    <dimen name="mar_left_5">6.0dp</dimen>
+    <dimen name="mar_top_10">12.0dp</dimen>
+    <dimen name="mar_top_5">5.0dp</dimen>
+    <dimen name="online_num_mar_top">54.0dp</dimen>
+    <dimen name="pad_btn_close">12.0dp</dimen>
+    <dimen name="rule_image_mar">24.0dp</dimen>
+    <dimen name="rule_img_height">200.0dp</dimen>
+    <dimen name="rule_text_mar">48.0dp</dimen>
+    <dimen name="rule_text_mar_top">18.0dp</dimen>
+    <dimen name="rule_text_step_mar_top">24.0dp</dimen>
+    <dimen name="shahow_bottom_height">12.0dp</dimen>
+</resources>

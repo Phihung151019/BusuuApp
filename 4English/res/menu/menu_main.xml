@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@id/itemSearch" android:title="@string/menu_item_search" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/icon_font" android:id="@id/itemConfig" android:title="@string/menu_item_config" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/man_speech_icon" android:id="@id/itemTts" android:visible="false" android:title="@string/menu_item_tts" app:showAsAction="ifRoom" />
+</menu>

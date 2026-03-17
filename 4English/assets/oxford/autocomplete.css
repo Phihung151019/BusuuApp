@@ -1,0 +1,133 @@
+.inputSuggestions {
+    display: none;
+    position: absolute;
+    text-align: left;
+    top: 34px;
+    left: 20px;
+    z-index: 10;
+    width: 688px;
+    border: 1px solid #999999;
+    border-top: none;
+    height: auto !important;
+}
+
+.inputSuggestions a {
+    display: block;
+    color: #333;
+    padding: 6px 10px;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    width: 100%;
+    text-decoration:none;
+}
+
+.suggestionList a:hover, .suggestionList a:focus, .suggestionList a.current {
+    background-color:#d7d7d7;
+    color:#000;
+    text-decoration:none;
+}
+.inputSuggestions .pipe {
+    color: #7fc7f1;
+}
+
+.inputSuggestions table {
+    width: 100%
+}
+
+.inputSuggestions .suggestionRow {
+    color: #333333;
+    background: #efefef;
+    width: 100%;
+}
+
+.inputSuggestions .suggestionCategory {
+    vertical-align: top;
+    font-size: 13px;
+    border: none;
+    width: 160px;
+    display: block;
+    padding: 8px 8px 0px 8px;
+}
+
+.inputSuggestions .suggestionDic {
+    float: left;
+    text-transform: uppercase;
+    overflow: hidden;
+    max-width: 130px;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.inputSuggestions .suggestionLocked {
+    border: none;
+    float: right;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.inputSuggestions .locked {
+    margin-left: 0px;
+}
+
+.inputSuggestions .suggestionList {
+    padding: 0px;
+    background: #fff;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.inputSuggestions .allSuggestions {
+    background: #eee;
+    border-bottom: solid 2px #bce0f7;
+    font-style: italic;
+    text-align: center;
+}
+
+.inputSuggestions .footerLink {
+    background: #edf6fb;
+    color: #0082c0;
+    display: block;
+    clear: both;
+    font-style: italic;
+    text-align: center;
+    padding: 7px 0;
+}
+.inputSuggestions .footerLink.current, .inputSuggestions .footerLink:hover {
+    background-color:#cccccc;
+    color:#000;
+}
+.inputSuggestions .footerLink:after {
+    content: '>';
+    color: #7fc7f1;
+    margin-left: 5px;
+}
+
+@media screen and (min-width: 530px) and (max-width: 670px) {
+    .inputSuggestions {
+        width: 350px;
+    }
+    .inputSuggestions .suggestionList {
+        width: 346px;
+        float: none;
+        display: block;
+    }
+    .inputSuggestions .suggestionRow {
+        border-bottom:0px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .inputSuggestions {
+        width: 220px;
+        border-top: none;
+    }
+    .inputSuggestions .suggestionList {
+        width: 216px;
+        float: none;
+        display: block;
+    }
+    .inputSuggestions .suggestionRow {
+        border-bottom:0px;
+    }
+}

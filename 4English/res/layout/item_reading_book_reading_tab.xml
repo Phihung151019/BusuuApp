@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_reading_book_reading_tab_0" android:layout_width="140.0dp" android:layout_height="wrap_content" android:layout_marginEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cardBook" android:layout_width="match_parent" android:layout_height="200.0dp" app:cardCornerRadius="8.0dp" app:cardElevation="4.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/ivCover" android:layout_width="140.0dp" android:layout_height="200.0dp" android:src="@drawable/bg_gradient_blue" android:scaleType="centerCrop" />
+        <TextView android:textSize="10.0sp" android:textColor="#e65100" android:background="@drawable/bg_badge_hot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:text="🔥 Hot" android:paddingHorizontal="6.0dp" android:paddingVertical="2.0dp" />
+    </androidx.cardview.widget.CardView>
+    <TextView android:textColor="@color/home_text_primary" android:ellipsize="end" android:id="@id/tvBookTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="The Last Rose of Shanghai" android:maxLines="2" app:layout_constraintTop_toBottomOf="@id/cardBook" style="@style/InterSemibold600" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/home_text_secondary" android:id="@id/tvAuthor" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="J.D. Salinger" app:layout_constraintTop_toBottomOf="@id/tvBookTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

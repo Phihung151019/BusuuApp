@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/activity_main_new_0" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/container_all" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:id="@id/tab_home_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <FrameLayout android:id="@id/tab_vocab_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <FrameLayout android:id="@id/tab_reading_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <FrameLayout android:id="@id/tab_listening_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <FrameLayout android:id="@id/tab_entertainment_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </FrameLayout>
+            <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/bottom_view" android:background="@drawable/bg_bottom_nav_rounded" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:elevation="8.0dp" app:itemIconSize="23.0dp" app:itemIconTint="@color/bottom_menu_color_selector" app:itemTextAppearanceActive="@style/BottomNavigationView" app:itemTextAppearanceInactive="@style/BottomNavigationView" app:itemTextColor="@color/bottom_menu_color_selector" app:labelVisibilityMode="labeled" app:menu="@menu/bottom_menu_new" />
+        </RelativeLayout>
+    </FrameLayout>
+    <com.tdtapp.englisheveryday.widgets.MovableFloatingActionButton android:layout_gravity="end|center" android:id="@id/btn_trans" android:layout_marginRight="5.0dp" android:layout_marginEnd="5.0dp" style="@style/BtnFloatDict" />
+    <FrameLayout android:id="@id/streak_completed" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/btn_view_streak" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" app:cardCornerRadius="15.0dp" app:cardElevation="5.0dp" app:contentPadding="0.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_streak_completed" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/circle_shadow" android:padding="10.0dp" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_marginBottom="0.0dp" app:srcCompat="@drawable/ic_streak_fire" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:text="@string/msg_streak_completed" android:layout_weight="1.0" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/bg_white" android:background="@drawable/bg_border_white_trans_radius_25" android:paddingLeft="10.0dp" android:paddingTop="5.0dp" android:paddingRight="10.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_dialog_view" android:textAllCaps="true" fontPath="fonts/OpenSans-Bold.ttf" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</FrameLayout>

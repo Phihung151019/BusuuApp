@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear_support" android:background="@drawable/bg_answer_quiz" android:padding="@dimen/padding_8" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:gravity="center" android:id="@id/text_subscription_info" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_register" style="@style/InterRegular400" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_14" android:id="@id/tvPolicy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_policy" style="@style/InterMedium500" />
+            <Space android:layout_width="@dimen/padding_4" android:layout_height="wrap_content" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/and" style="@style/InterRegular400" />
+            <Space android:layout_width="@dimen/padding_4" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_14" android:id="@id/tvTerm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/terms_of_service" style="@style/InterMedium500" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/AppIntroStyle" android:id="@id/background" android:background="@color/bg_intro" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.appintro.internal.AppIntroViewPager android:id="@id/view_pager" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottom_view" android:overScrollMode="never" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/indicator_container" android:layoutDirection="ltr" style="@style/AppIntroIndicatorContainer" />
+        <Button android:textSize="16.0sp" android:textColor="@color/text_white_in_blue" android:id="@id/get_start" android:background="@drawable/bg_rectangle_action_radius_25" android:paddingLeft="50.0dp" android:paddingRight="50.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:text="@string/get_started" android:textAlignment="center" fontPath="fonts/OpenSans-Bold.ttf" style="@style/AppIntroButtonStyleCompat" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/btn_login" android:paddingTop="10.0dp" android:paddingBottom="7.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dp" android:text="@string/i_have_an_account" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </LinearLayout>
+    <View android:id="@id/bottom_separator" android:background="@color/appintro_separator_color" android:layout_width="0.0dp" android:layout_height="1.0px" app:layout_constraintBottom_toTopOf="@id/bottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <View android:id="@id/bottom" android:background="@color/appintro_bar_color" android:layout_width="match_parent" android:layout_height="@dimen/appintro_bottombar_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <Button android:textSize="1.0sp" android:id="@id/done" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+    <Button android:textSize="1.0sp" android:id="@id/skip" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+    <ImageButton android:id="@id/back" android:visibility="invisible" android:contentDescription="@string/app_intro_back_button" android:rotation="180.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@drawable/ic_appintro_next" style="@style/AppIntroButtonStyleCompat" />
+    <ImageButton android:id="@id/next" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+</RelativeLayout>

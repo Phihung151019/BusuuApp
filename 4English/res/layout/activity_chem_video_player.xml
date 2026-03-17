@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/parent" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/content_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.exoplayer2.ui.StyledPlayerView android:id="@id/video_player_view" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:use_controller="false" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_play_opacity_svg" />
+            <com.github.ybq.android.spinkit.SpinKitView android:layout_gravity="center" android:id="@id/loading_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:SpinKit_Color="@color/txt_name_update" style="@style/SpinKitView.ThreeBounce" />
+        </RelativeLayout>
+    </com.tdtapp.englisheveryday.layout.ContentFrame>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" app:srcCompat="@drawable/ic_back_svg" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_mute" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_alignParentRight="true" app:srcCompat="@drawable/ic_speaker_svg" app:tint="@color/white" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/bottom_view" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bài đọc" android:drawableLeft="@drawable/ic_reading_chem" android:drawablePadding="10.0dp" android:layout_centerVertical="true" fontPath="fonts/OpenSans-Bold.ttf" />
+            <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" app:cardCornerRadius="20.0dp">
+                <androidx.appcompat.widget.AppCompatButton android:textColor="#0e0e0e" android:id="@id/btn_test" android:background="@color/bg_btn_test_chem" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="Làm test" android:textAllCaps="false" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/title_video" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Đọc thêm" android:drawablePadding="10.0dp" fontPath="fonts/OpenSans-Bold.ttf" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/msg_new_dict" />
+    <EditText android:gravity="left" android:id="@id/text" android:background="@drawable/bg_rectangle_border" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="100.0dp" android:hint="@string/input_name_or_url" />
+</LinearLayout>

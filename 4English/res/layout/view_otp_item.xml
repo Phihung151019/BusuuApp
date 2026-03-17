@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputEditText android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:background="@drawable/bg_otp_cell" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" android:maxLength="1" android:inputType="number"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

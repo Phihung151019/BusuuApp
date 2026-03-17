@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.ImageSectionView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="match_parent" android:layout_height="@dimen/image_height" android:scaleType="centerCrop" />
+</com.tdtapp.englisheveryday.widgets.ImageSectionView>

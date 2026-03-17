@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/dragView" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="10.0dp" app:cardElevation="10.0dp" app:cardUseCompatPadding="false" app:contentPadding="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tdtapp.englisheveryday.widgets.HeaderSlideDictView android:id="@id/header_slider" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/frame_lookup" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

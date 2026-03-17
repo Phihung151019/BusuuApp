@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/color_track_bar_podcast" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress" android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp">
+        <scale android:scaleWidth="100%">
+            <shape>
+                <corners android:radius="8.0dp" android:topLeftRadius="0.0dp" android:bottomLeftRadius="0.0dp" />
+                <solid android:color="#3372f4" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

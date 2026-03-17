@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/content" android:background="@color/bg_white" android:focusable="true" android:clickable="true" android:layout_width="200.0dp" android:layout_height="match_parent" android:layout_margin="10.0dp" style="@style/AppVideoCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/bg_white" android:layout_width="200.0dp" android:layout_height="match_parent">
+        <ImageView android:id="@id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_above="@id/title" android:layout_alignParentTop="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="50.0dp" android:layout_marginLeft="3.0dp" android:layout_marginRight="3.0dp" android:layout_alignParentBottom="true" app:autoSizeTextType="uniform" />
+        <TextView android:textSize="@dimen/text_size_small" android:textStyle="bold" android:textColor="@color/white" android:id="@id/duration" android:background="@drawable/bg_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:layout_above="@id/title" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dp" android:src="@drawable/ic_youtube_red" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

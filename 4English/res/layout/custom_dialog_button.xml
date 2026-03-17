@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_gravity="center" android:id="@id/msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:text="@string/msg_complete_video" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    <androidx.cardview.widget.CardView android:id="@id/btn_replay" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" style="@style/AppVideoCardView">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:background="@color/color_text_action" android:layout_width="match_parent" android:layout_height="40.0dp" android:text="@string/replay_video" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/btn_result" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" style="@style/AppVideoCardView">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:background="@color/color_text_action" android:layout_width="match_parent" android:layout_height="40.0dp" android:text="@string/txt_result" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/btn_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="5.0dp" style="@style/AppVideoCardView">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:background="@color/color_text_action" android:layout_width="match_parent" android:layout_height="40.0dp" android:text="@string/cancel" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

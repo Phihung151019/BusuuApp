@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/parent" android:background="@drawable/bg_btn_red_bottom_game" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/child" android:background="@drawable/selector_btn_red_game" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="6.0dp">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/btn_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:textAllCaps="true" fontPath="@string/font_bold" />
+    </RelativeLayout>
+</RelativeLayout>

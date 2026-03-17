@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.home.NotificationHomeItemView android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/info_bound" android:paddingLeft="@dimen/margin_safe_base" android:paddingTop="16.0dp" android:paddingRight="@dimen/margin_safe_base" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@id/author_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/ic_app_notifi" />
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:id="@id/author_name" android:layout_width="match_parent" android:layout_height="wrap_content" fontPath="fonts/OpenSans-Bold.ttf" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/color_second_text" android:id="@id/time" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_star" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_star_svg" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <com.tdtapp.englisheveryday.widgets.SeeMoreTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:autoLink="web" android:layout_gravity="left" android:id="@id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+        </LinearLayout>
+        <androidx.cardview.widget.CardView android:id="@id/image_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginRight="@dimen/margin_safe_base" android:layout_marginBottom="10.0dp" app:cardBackgroundColor="@color/bg_white" app:cardCornerRadius="15.0dp" app:cardElevation="0.0dp" app:cardUseCompatPadding="false" app:contentPadding="0.0dp">
+            <ImageView android:id="@id/thumb_only_one" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+        </androidx.cardview.widget.CardView>
+        <LinearLayout android:orientation="vertical" android:id="@id/action_btn_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/action_button" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="45.0dp" android:textAllCaps="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        </LinearLayout>
+        <View android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="10.0dp" />
+    </LinearLayout>
+</com.tdtapp.englisheveryday.widgets.home.NotificationHomeItemView>

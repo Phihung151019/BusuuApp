@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/container" android:background="@color/bgWhiteColor" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/learn_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextColor="@color/textWhiteColor">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/top_bar" android:layout_width="match_parent" android:layout_height="?actionBarSize">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_back_learn" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" app:srcCompat="@drawable/ic_back_svg" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:id="@id/title_selected_word" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" fonthPath="fonts/OpenSans-SemiBold.ttf" />
+                    <ProgressBar android:id="@id/progress_learn" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="8.0dp" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:indeterminate="false" android:progressDrawable="@drawable/gradient_progress" android:layout_weight="1.0" style="?android:progressBarStyleHorizontal" />
+                    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/btn_setting" android:background="?selectableItemBackgroundBorderless" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_settings_gray_svg" />
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/content_game" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/appBar" />
+    </RelativeLayout>
+</RelativeLayout>

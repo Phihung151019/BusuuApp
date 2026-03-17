@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/bg_main_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@id/ad_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <in.myinnos.alphabetsindexfastscrollrecycler.IndexFastScrollRecyclerView android:id="@id/content_layout" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/margin_safe_base" android:paddingEnd="@dimen/margin_safe_base" />
+        </LinearLayout>
+    </com.tdtapp.englisheveryday.layout.ContentFrame>
+    <RelativeLayout android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:layout_gravity="center" android:id="@id/msg_no_content" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/vocabulary_empty_msg">
+        <ProgressBar android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/root_search_bar" android:paddingTop="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/card_search" android:background="@drawable/bg_card_border_home" android:layout_width="0.0dp" android:layout_height="48.0dp" android:layout_weight="1.0" android:paddingStart="12.0dp" android:paddingEnd="8.0dp">
+        <ImageView android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_search_tab_home_new_svg" android:contentDescription="@string/find" app:tint="@null" />
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:textSize="16.0sp" android:textColor="@color/home_text_primary" android:textColorHint="@color/home_icon_tint_secondary" android:ellipsize="end" android:id="@id/edt_search" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/home_label_dict_search" android:maxLines="1" android:completionThreshold="1" android:popupBackground="@drawable/bg_search_dropdown" android:layout_weight="1.0" android:inputType="text" android:dropDownAnchor="@id/root_search_bar" android:imeOptions="actionSearch" android:dropDownVerticalOffset="5.0dp" android:layout_marginStart="12.0dp" style="@style/InterRegular400" />
+        <ImageView android:id="@id/btn_clear" android:padding="10.0dp" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_close_green_24dp" app:tint="@color/home_icon_tint_secondary" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/btn_chat_gpt" android:background="@drawable/bg_card_border_home" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginStart="12.0dp">
+        <ImageView android:padding="4.0dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/ic_chatgpt_tab_home_new_svg" android:contentDescription="ChatGPT" />
+    </LinearLayout>
+</LinearLayout>

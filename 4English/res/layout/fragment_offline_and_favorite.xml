@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_white" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextColor="@color/textWhiteColor">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|center" android:id="@id/back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" app:srcCompat="@drawable/ic_back_svg" />
+            <TextView android:textSize="@dimen/font_size_actionbar" android:textColor="@color/color_primary_text" android:layout_gravity="center" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorites" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:paddingBottom="50.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_news" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/bg_news_fav" android:layout_width="140.0dp" android:layout_height="140.0dp" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/news" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_podcasts" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/bg_audio_fav" android:layout_width="140.0dp" android:layout_height="140.0dp" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/podcast" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_video" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/bg_video_fav" android:layout_width="140.0dp" android:layout_height="140.0dp" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/video" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_blog" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/bg_blog_fav" android:layout_width="140.0dp" android:layout_height="140.0dp" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="Blog" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_writer_status" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/bg_fav_social" android:layout_width="140.0dp" android:layout_height="140.0dp" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/short_writers" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="?selectableItemBackground" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/bg_blog_fav" android:layout_width="140.0dp" android:layout_height="140.0dp" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="Blog" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.tdtapp.englisheveryday.layout.ContentFrame>
+</LinearLayout>

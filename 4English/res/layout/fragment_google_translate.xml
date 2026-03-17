@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/language" android:background="@drawable/bg_border_for_url_input" android:paddingLeft="13.0dp" android:paddingRight="13.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:minHeight="40.0dp" android:drawablePadding="10.0dp" app:drawableEndCompat="@drawable/ic_more_down_svg" app:drawableRightCompat="@drawable/ic_more_down_svg" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/btn_copy" android:background="?selectableItemBackground" android:padding="10.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/activity_horizontal_margin" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_copy_svg" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/color_primary_text" android:id="@id/content_layout" android:background="@drawable/bg_rectangle_border" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_horizontal_margin" android:minHeight="100.0dp" android:layout_weight="1.0" />
+            <ImageButton android:layout_gravity="end" android:id="@id/speaker" android:background="@drawable/speaker_bg" android:visibility="gone" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_margin="16.0dp" android:src="@drawable/ic_volume_up_white_24dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.tdtapp.englisheveryday.layout.ContentFrame>

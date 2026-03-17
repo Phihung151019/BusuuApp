@@ -1,0 +1,93 @@
+.class public final LZ6/c$b;
+.super Lcom/google/protobuf/O$a;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/o0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LZ6/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/protobuf/O$a<",
+        "LZ6/c;",
+        "LZ6/c$b;",
+        ">;",
+        "Lcom/google/protobuf/o0;"
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 1
+
+    invoke-static {}, LZ6/c;->d()LZ6/c;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/google/protobuf/O$a;-><init>(Lcom/google/protobuf/O;)V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(LZ6/c$a;)V
+    .locals 0
+
+    invoke-direct {p0}, LZ6/c$b;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public i(Ljava/lang/String;)LZ6/c$b;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/google/protobuf/O$a;->copyOnWrite()V
+
+    iget-object v0, p0, Lcom/google/protobuf/O$a;->instance:Lcom/google/protobuf/O;
+
+    check-cast v0, LZ6/c;
+
+    invoke-static {v0, p1}, LZ6/c;->j(LZ6/c;Ljava/lang/String;)V
+
+    return-object p0
+.end method
+
+.method public j(Ljava/lang/String;)LZ6/c$b;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/google/protobuf/O$a;->copyOnWrite()V
+
+    iget-object v0, p0, Lcom/google/protobuf/O$a;->instance:Lcom/google/protobuf/O;
+
+    check-cast v0, LZ6/c;
+
+    invoke-static {v0, p1}, LZ6/c;->k(LZ6/c;Ljava/lang/String;)V
+
+    return-object p0
+.end method
+
+.method public k(Ljava/lang/String;)LZ6/c$b;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/google/protobuf/O$a;->copyOnWrite()V
+
+    iget-object v0, p0, Lcom/google/protobuf/O$a;->instance:Lcom/google/protobuf/O;
+
+    check-cast v0, LZ6/c;
+
+    invoke-static {v0, p1}, LZ6/c;->i(LZ6/c;Ljava/lang/String;)V
+
+    return-object p0
+.end method

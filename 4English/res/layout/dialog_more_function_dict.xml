@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="15.0dp" app:cardElevation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_text_action" android:gravity="center" android:id="@id/word" android:background="@color/color_header_dialog" android:layout_width="match_parent" android:layout_height="45.0dp" android:lines="1" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="150.0dp" android:layout_marginLeft="@dimen/margin_safe_base" android:layout_marginTop="20.0dp" android:layout_marginRight="@dimen/margin_safe_base" android:layout_marginBottom="20.0dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/speak" android:background="@drawable/selector_btn_white_radius" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_margin="5.0dp" android:layout_weight="1.0" android:elevation="5.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_margin="5.0dp" app:srcCompat="@drawable/ic_mic_dict_svg" app:tint="@color/color_text_action" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/listen_and_speak" app:autoSizeTextType="uniform" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            </LinearLayout>
+            <View android:layout_width="5.0dp" android:layout_height="3.0dp" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/search" android:background="@drawable/selector_btn_white_radius" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_margin="5.0dp" android:layout_weight="1.0" android:elevation="5.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_margin="5.0dp" app:srcCompat="@drawable/ic_search_white_24dp" app:tint="@color/color_text_action" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/search_from_news" app:autoSizeTextType="uniform" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

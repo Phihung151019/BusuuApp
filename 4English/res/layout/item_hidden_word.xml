@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/content" android:background="?selectableItemBackground" android:paddingLeft="@dimen/margin_safe_base" android:paddingRight="@dimen/margin_safe_base" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:gravity="center_vertical" android:id="@id/word" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:layout_weight="1.0" fontPath="fonts/OpenSans-Bold.ttf" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/voice" android:padding="8.0dp" android:visibility="visible" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_margin="5.0dp" app:srcCompat="@drawable/ic_speaker_svg" app:tint="@color/icon_color" />
+</LinearLayout>

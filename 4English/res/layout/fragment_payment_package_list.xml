@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/fragment_payment_package_list_0" android:padding="@dimen/list_divider_16dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:background="@color/gray_text" android:layout_width="@dimen/size_icon_small" android:layout_height="4.0dp" />
+    <include android:id="@id/flash_sale" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_24" android:layout_marginBottom="@dimen/padding_24" layout="@layout/layout_flash_sale" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/package_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

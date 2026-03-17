@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appBar" android:background="@color/bg_white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/bg_white" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:elevation="@dimen/elevation" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start" android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/padding_icon_bar" android:layout_width="48.0dp" android:layout_height="48.0dp" app:srcCompat="@drawable/ic_back_svg" />
+            <ImageButton android:layout_gravity="start" android:id="@id/purchase" android:background="?selectableItemBackgroundBorderless" android:padding="3.0dp" android:visibility="gone" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_shop" android:tint="@color/yellow" />
+            <TextView android:textSize="@dimen/font_size_actionbar" android:textColor="@color/color_primary_text" android:layout_gravity="center" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:layout_gravity="end|center" android:id="@id/add" android:background="?selectableItemBackgroundBorderless" android:padding="12.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginRight="8.0dp" android:layout_marginEnd="8.0dp" app:srcCompat="@drawable/ic_add_dict_svg" />
+            <androidx.appcompat.widget.SearchView android:layout_gravity="right" android:id="@id/search_view" android:layout_width="wrap_content" android:layout_height="48.0dp" app:closeIcon="@drawable/ic_exit_svg" app:searchIcon="@drawable/ic_search_svg" style="@style/SearchView" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.tdtapp.englisheveryday.layout.ContentFrame android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@id/ad_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@id/flash_sale_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/content_layout" android:paddingTop="@dimen/margin_safe_for_book_grid" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        </LinearLayout>
+    </com.tdtapp.englisheveryday.layout.ContentFrame>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

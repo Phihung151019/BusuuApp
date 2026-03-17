@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingLeft="@dimen/divider_list_scroll_hori" android:paddingRight="@dimen/divider_list_scroll_hori" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/divider_list_scroll_hori" android:paddingEnd="@dimen/divider_list_scroll_hori" style="@style/AppVideoCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="5.0dp" app:cardElevation="0.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+        <RelativeLayout android:layout_width="128.0dp" android:layout_height="172.0dp">
+            <ImageView android:id="@id/thumb" android:layout_width="128.0dp" android:layout_height="172.0dp" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="10.0dp" android:layout_height="172.0dp" android:scaleType="fitXY" app:srcCompat="@drawable/ic_book_shadow" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/free" android:background="@drawable/bg_free_radius" android:padding="5.0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/free" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_book_title" android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="128.0dp" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:maxLines="2" android:includeFontPadding="false" fontPath="fonts/OpenSans-SemiBold.ttf" />
+</LinearLayout>

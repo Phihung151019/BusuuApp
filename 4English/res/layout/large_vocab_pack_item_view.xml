@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingLeft="@dimen/divider_list_scroll_hori_small" android:paddingRight="@dimen/divider_list_scroll_hori_small" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/divider_list_scroll_hori_small" android:paddingEnd="@dimen/divider_list_scroll_hori_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/bg_vocab_pack_large" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless">
+        <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="20.0dp" app:cardElevation="0.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+            <RelativeLayout android:layout_width="120.0dp" android:layout_height="120.0dp">
+                <ImageView android:id="@id/thumb" android:layout_width="120.0dp" android:layout_height="120.0dp" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_downloaded" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:layout_marginBottom="7.0dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginStart="7.0dp" android:layout_marginEnd="7.0dp" app:srcCompat="@drawable/ic_downloaded_vocab_svg" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="7.0dp" android:maxLines="2" android:includeFontPadding="false" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dp">
+            <View android:layout_width="0.0dp" android:layout_height="3.0dp" android:layout_weight="1.0" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/color_second_text" android:gravity="center" android:id="@id/num_word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="3.0dp" app:drawableLeftCompat="@drawable/ic_num_word_of_pack" app:drawableTint="@color/color_second_text" />
+            <View android:layout_width="5.0dp" android:layout_height="2.0dp" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/color_second_text" android:gravity="center" android:id="@id/num_downloaded" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="3.0dp" app:drawableLeftCompat="@drawable/ic_num_pack_downloaded" app:drawableTint="@color/color_second_text" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_has_child" android:visibility="gone" android:layout_width="15.0dp" android:layout_height="15.0dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" app:srcCompat="@drawable/ic_group_svg" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

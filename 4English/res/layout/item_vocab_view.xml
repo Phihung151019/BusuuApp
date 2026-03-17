@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdtapp.englisheveryday.widgets.ItemVocabView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="7.0dp" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="7.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/bg_rectangle_white_radius" android:padding="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tdtapp.englisheveryday.features.vocabulary.WordSPLevelView android:layout_gravity="center_vertical" android:id="@id/sp_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_text_action" android:gravity="center_vertical" android:id="@id/word" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:minHeight="36.0dp" android:layout_weight="1.0" android:layout_marginEnd="10.0dp" fontPath="fonts/OpenSans-SemiBold.ttf" />
+            <ImageButton android:id="@id/mark" android:background="?selectableItemBackgroundBorderless" android:padding="3.0dp" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_marginRight="10.0dp" android:layout_marginEnd="10.0dp" app:srcCompat="@drawable/ic_mark_vocab_svg" />
+            <androidx.appcompat.widget.AppCompatImageButton android:id="@id/menu" android:background="?selectableItemBackgroundBorderless" android:layout_width="36.0dp" android:layout_height="36.0dp" app:srcCompat="@drawable/ic_more_setting_svg" />
+        </LinearLayout>
+        <com.tdtapp.englisheveryday.features.vocabulary.WordLevelTypeInfoView android:id="@id/type_level_info" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/phonetic_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/uk_phonetic_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="25.0dp" android:text="UK" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/speaker_uk" android:background="?selectableItemBackground" android:padding="9.0dp" android:layout_width="40.0dp" android:layout_height="35.0dp" app:srcCompat="@drawable/ic_speaker_svg" app:tint="@color/color_second_txt_in_white" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:id="@id/uk_phonetic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/us_phonetic_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="25.0dp" android:text="US" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/speaker_us" android:background="?selectableItemBackground" android:padding="9.0dp" android:layout_width="40.0dp" android:layout_height="35.0dp" app:srcCompat="@drawable/ic_speaker_svg" app:tint="@color/color_second_txt_in_white" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_second_txt_in_white" android:id="@id/us_phonetic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/view_img" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:layout_marginBottom="10.0dp" android:layout_marginEnd="10.0dp">
+            <androidx.cardview.widget.CardView android:layout_gravity="left" android:id="@id/bound_thumb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" app:cardCornerRadius="15.0dp" app:cardElevation="0.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+                <ImageView android:id="@id/image" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="120.0dp" android:src="@drawable/ic_no_image_rec" android:scaleType="fitCenter" android:foregroundGravity="left" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <com.tdtapp.englisheveryday.widgets.WordClickableTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" />
+        <LinearLayout android:orientation="vertical" android:id="@id/more" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:layout_marginEnd="10.0dp">
+            <com.tdtapp.englisheveryday.widgets.WordClickableTextView android:textSize="16.0sp" android:textColor="@color/color_primary_text" android:id="@id/example" android:layout_width="wrap_content" android:layout_height="wrap_content" fontPath="fonts/OpenSans-Italic.ttf" />
+            <ImageButton android:layout_gravity="center_horizontal" android:id="@id/trans_para" android:background="?selectableItemBackgroundBorderless" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_margin="5.0dp" app:srcCompat="@drawable/ic_translate_svg" />
+        </LinearLayout>
+        <ImageButton android:layout_gravity="right" android:id="@id/show_more" android:background="?selectableItemBackgroundBorderless" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_marginRight="10.0dp" android:layout_marginEnd="10.0dp" app:srcCompat="@drawable/ic_seemore_svg" />
+    </LinearLayout>
+</com.tdtapp.englisheveryday.widgets.ItemVocabView>

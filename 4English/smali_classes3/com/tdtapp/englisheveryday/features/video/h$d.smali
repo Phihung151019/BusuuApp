@@ -1,0 +1,60 @@
+.class Lcom/tdtapp/englisheveryday/features/video/h$d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LNa/e;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tdtapp/englisheveryday/features/video/h;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic m:Lcom/tdtapp/englisheveryday/features/video/h;
+
+
+# direct methods
+.method constructor <init>(Lcom/tdtapp/englisheveryday/features/video/h;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/tdtapp/englisheveryday/features/video/h$d;->m:Lcom/tdtapp/englisheveryday/features/video/h;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public d(LP8/a;)V
+    .locals 1
+
+    iget-object p1, p0, Lcom/tdtapp/englisheveryday/features/video/h$d;->m:Lcom/tdtapp/englisheveryday/features/video/h;
+
+    invoke-static {p1}, Lcom/tdtapp/englisheveryday/features/video/h;->O1(Lcom/tdtapp/englisheveryday/features/video/h;)Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    iget-object p1, p0, Lcom/tdtapp/englisheveryday/features/video/h$d;->m:Lcom/tdtapp/englisheveryday/features/video/h;
+
+    invoke-static {p1}, Lcom/tdtapp/englisheveryday/features/video/h;->O1(Lcom/tdtapp/englisheveryday/features/video/h;)Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+
+    move-result-object p1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;->setRefreshing(Z)V
+
+    :cond_0
+    return-void
+.end method

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp" app:cardBackgroundColor="@color/bg_white" app:cardCornerRadius="20.0dp" app:cardElevation="3.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_safe_base">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.github.mikephil.charting.charts.PieChart android:id="@id/pie_chart" android:layout_width="70.0dp" android:layout_height="70.0dp" android:layout_alignParentRight="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/pie_chart" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/pie_chart">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_number_word_learning" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                <LinearLayout android:orientation="vertical" android:id="@id/count_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="36.0sp" android:textColor="@color/color_primary_text" android:id="@id/num_learned" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/bold" fontPath="fonts/OpenSans-Bold.ttf" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:id="@id/num_saved" android:layout_width="wrap_content" android:layout_height="21.0dp" />
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:gravity="center" android:id="@id/show_skipped" android:background="@drawable/selector_btn_grey_radius_20" android:paddingLeft="10.0dp" android:paddingTop="3.0dp" android:paddingRight="10.0dp" android:paddingBottom="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/skipped_word" android:drawableLeft="@drawable/ic_skip_learn" android:drawablePadding="7.0dp" android:textAlignment="center" app:drawableTint="@color/color_primary_text" fontPath="fonts/OpenSans-SemiBold.ttf" />
+                </LinearLayout>
+            </LinearLayout>
+            <ProgressBar android:gravity="center" android:id="@id/count_loading" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_toLeftOf="@id/pie_chart" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/color_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/your_memory_level" fontPath="fonts/OpenSans-SemiBold.ttf" />
+        <RelativeLayout android:id="@id/bar_chart_click_view" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.github.mikephil.charting.charts.BarChart android:id="@id/bar_chart" android:layout_width="match_parent" android:layout_height="200.0dp" />
+            <ProgressBar android:id="@id/bar_chart_loading" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

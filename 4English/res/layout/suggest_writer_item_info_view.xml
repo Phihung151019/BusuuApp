@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center|top" android:background="@color/bg_white" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/content" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/thumb_bound" android:layout_width="55.0dp" android:layout_height="55.0dp" android:layout_centerHorizontal="true">
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@id/thumb" android:layout_width="55.0dp" android:layout_height="55.0dp" android:scaleType="centerCrop" app:civ_border_color="@color/divider_color" app:civ_border_width="1.0dp" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/source_thumb" android:layout_width="18.0dp" android:layout_height="18.0dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_primary_text" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:maxWidth="90.0dp" android:minWidth="60.0dp" android:maxLines="2" android:layout_below="@id/thumb_bound" android:layout_centerHorizontal="true" fontPath="fonts/OpenSans-SemiBold.ttf" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:tag="layout/activity_sign_up_0" android:background="@drawable/img_background_login" android:padding="@dimen/list_divider_16dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|top" android:id="@id/iv_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_35sdp" android:layout_height="@dimen/_35sdp" android:layout_marginTop="@dimen/_16sdp" android:tint="@color/black" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_arrow_back_white_24dp" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear" android:background="@drawable/bg_login_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/_8sdp" android:layout_marginVertical="@dimen/_50sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_back">
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/_8sdp" />
+        <TextView android:textSize="@dimen/_20ssp" android:gravity="center" android:id="@id/tv_total_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/signup" style="@style/InterTightBold700" />
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/_12sdp" />
+        <TextView android:textColor="@color/color_google_intro" android:id="@id/tv_payment_method_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_acount_to_continue" style="@style/InterRegular400" />
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/_12sdp" />
+        <com.tdtapp.englisheveryday.common.CommonInputView android:id="@id/inputUser" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/_12sdp" />
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/_4sdp" />
+        <com.tdtapp.englisheveryday.common.CommonInputView android:id="@id/inputEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/_12sdp" />
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/_4sdp" />
+        <com.tdtapp.englisheveryday.common.CommonInputView android:id="@id/inputPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/_12sdp" />
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/_12sdp" />
+        <Button android:textColor="@android:color/white" android:id="@id/btn_checkout" android:background="@drawable/bg_rectangle_text_action_radius" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_12sdp" android:text="@string/signup" android:textAllCaps="false" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp">
+            <View android:background="@color/white" android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <TextView android:textColor="@color/color_google_intro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/or" android:paddingHorizontal="8.0dp" style="@style/InterMedium500" />
+            <View android:background="@color/white" android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/_12sdp" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageButton android:textColor="@android:color/white" android:id="@id/btn_google" android:background="@drawable/bg_input_view_white_radius" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_60sdp" android:layout_height="@dimen/_35sdp" android:src="@drawable/ic_google_svg" android:scaleType="centerInside" />
+            <Space android:layout_width="@dimen/_12sdp" android:layout_height="@dimen/_12sdp" />
+            <ImageButton android:textColor="@android:color/white" android:id="@id/btn_facebook" android:background="@drawable/bg_input_view_white_radius" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_60sdp" android:layout_height="@dimen/_35sdp" android:src="@drawable/ic_facebook_svg" android:scaleType="centerInside" />
+        </LinearLayout>
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/_12sdp" />
+        <TextView android:textColor="@color/color_google_intro" android:id="@id/tv_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Đã có tài khoản? Đăng nhập" style="@style/InterRegular400" />
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/_12sdp" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#333333" android:gravity="center" android:id="@id/tvTerms" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/_4sdp" android:layout_marginVertical="@dimen/_8sdp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/linear" />
+</androidx.constraintlayout.widget.ConstraintLayout>

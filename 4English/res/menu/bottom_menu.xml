@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_tab_home_svg" android:id="@id/menu_home" android:title="@string/home" />
+    <item android:icon="@drawable/ic_tab_vocab_svg" android:id="@id/menu_review" android:title="@string/tab_review" />
+    <item android:icon="@drawable/ic_tab_pro_svg" android:id="@id/menu_pro" android:visible="true" android:title="Pro" />
+    <item android:icon="@drawable/ic_tab_account_svg" android:id="@id/menu_account" android:title="@string/account" />
+</menu>
